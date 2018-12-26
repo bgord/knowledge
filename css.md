@@ -14,3 +14,12 @@
 **Margin is a space between elements, padding is a space inside element - relative to borders**
 
 ---
+
+**aria-live**
+```
+- An attribute that is applied to the elements that are likely to change.
+- It needs to be included in an initial markup.
+- "off" by default, "polite" will wait until the current users finishes its task, "assertive" will notify immediately.
+[source](https://bitsofco.de/using-aria-live/?mc_cid=c6889024a8&mc_eid=81c3fc5a13)
+```
+---
