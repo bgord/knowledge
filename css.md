@@ -15,6 +15,13 @@
 
 ---
 
+
+**aria**
+```
+accessible rich internet applications
+```
+---
+
 **aria-live**
 ```
 - An attribute that is applied to the elements that are likely to change.
