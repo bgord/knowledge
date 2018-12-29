@@ -91,3 +91,9 @@ body {
 `text-transform: capitalize;`
 
 ---
+
+**First letter**
+
+`p:first-letter { text-transform: uppercase }`
+
+---
