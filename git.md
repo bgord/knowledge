@@ -67,3 +67,9 @@ It creates a commit that is exactly opposite to the one with the hash
 - `$ git stash pop` applies a stash, and does delete it
 
 ---
+
+**Diff staged changes**
+
+`$ git diff --staged`
+
+---
