@@ -60,3 +60,9 @@ Everytime `teh` is typed, change it to `the`.
 
 - `di{` - delete inside object
 - `da{` - delete inside object, and the parenthesis
+
+**Replace with the text from the register**
+
+- `viwp`, now mapped to `gr`
+
+---
