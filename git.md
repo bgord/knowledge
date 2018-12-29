@@ -73,3 +73,9 @@ It creates a commit that is exactly opposite to the one with the hash
 `$ git diff --staged`
 
 ---
+
+**Global .gitignore**
+
+`$ git config --global core.excludesfile '~/.gitignore'`
+
+---
