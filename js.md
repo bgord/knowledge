@@ -51,3 +51,19 @@ Space
 - `toBe(true) => toBeTruthy()`
 
 ---
+
+**Computed object property performance**
+
+
+`b['aaa']` is slower than `b.aaa`
+
+---
+
+**Import a function to spyOn**
+
+```
+import * as mockThunk from "./mockThunk";
+spyOn(mockThunk, "thunkRealName")
+```
+
+---
