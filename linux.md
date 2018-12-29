@@ -17,3 +17,9 @@
 -f means "follow"
 
 ---
+
+**Search through terminal history through `fzf`**
+
+`history | fzf`
+
+---
