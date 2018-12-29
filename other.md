@@ -3,3 +3,9 @@
 Gecko
 
 ---
+
+**JAM stack**
+
+JavaScript, APIs, and Markup stack
+
+---
