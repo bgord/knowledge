@@ -72,3 +72,11 @@ Everytime `teh` is typed, change it to `the`.
 `viwU/viwu`
 
 ---
+
+**Text objects**
+
+- {, (
+- p (paragraph)
+- t (tag)
+
+---
