@@ -54,3 +54,9 @@ $ git update-index --no-assume-unchanged package.json
 $ echo "package.json" >> .git/info/exclude
 ```
 ---
+
+**Fix a typo in the commit message**
+```
+git commit --amend
+```
+---
