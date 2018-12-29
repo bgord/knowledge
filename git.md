@@ -79,3 +79,9 @@ It creates a commit that is exactly opposite to the one with the hash
 `$ git config --global core.excludesfile '~/.gitignore'`
 
 ---
+
+**Checkout all the files**
+
+`$ git checkout -- .`
+
+---
