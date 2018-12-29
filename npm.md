@@ -4,3 +4,9 @@ Similar to the npm install but it's advised to be used in automated envs, to mak
 Faster than regular install, requires package-lock.json 
 
 ---
+
+**Serve a static sile/file or SPA with npm**
+
+`npm run serve`
+
+---
