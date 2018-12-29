@@ -101,6 +101,10 @@
 - tail
 - ssh
 
+## GIT
+- git reset
+
+
 ## Others
 - SVG
 - Vue
