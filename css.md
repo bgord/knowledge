@@ -11,38 +11,42 @@
 ```
 ---
 
-**Margin is a space between elements, padding is a space inside element - relative to borders**
+**Margin/space**
+
+Margin is a space between elements
+Padding is a space inside element - relative to borders
 
 ---
 
 
 **aria**
-```
+
 accessible rich internet applications
-```
+
 ---
 
 **aria-live**
-```
 - An attribute that is applied to the elements that are likely to change.
 - It needs to be included in an initial markup.
 - "off" by default, "polite" will wait until the current users finishes its task, "assertive" will notify immediately.
-```
+
 [source](https://bitsofco.de/using-aria-live/?mc_cid=c6889024a8&mc_eid=81c3fc5a13)
 
 ---
 
 **aria-label**
 ```
-Provide a label for non-self-descriptive element for screen readers: 
 <button aria-label="Close">X</button>
 ```
+Provide a label for non-self-descriptive element for screen readers: 
+
 ---
 
 
 **aria-hidden**
 ```
-Hide an element in means of assistive technology
 aria-hidden="true/false"
 ```
+Hide an element in means of assistive technology
+
 ---

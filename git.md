@@ -6,11 +6,11 @@ $ git checkout @{-5}
 
 **Remove changes from the last commit that were pushed to the repo (without rewriting history)**
 ```
-It creates a commit that is exactly opposite to the one with the hash
-
 $ git revert 13pooiavdfhi1
 $ git push
 ```
+It creates a commit that is exactly opposite to the one with the hash
+
 ---
 
 **Show a list of all the modifications in the repo**
@@ -57,6 +57,6 @@ $ echo "package.json" >> .git/info/exclude
 
 **Fix a typo in the commit message**
 ```
-git commit --amend
+$ git commit --amend
 ```
 ---
