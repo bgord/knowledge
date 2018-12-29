@@ -67,3 +67,12 @@ spyOn(mockThunk, "thunkRealName")
 ```
 
 ---
+
+**Fake timers in Jest**
+
+```
+jest.useFakeTimers(); // somewhere at the beginning of the test
+jest.runAllTimers(); // right before assertions
+```
+
+---
