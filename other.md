@@ -28,3 +28,9 @@ It should be item list.
 - developers shouldn't ditch story after it goes to the "Ready for QA" column - they should ask testers about it
 
 ---
+
+**KYC**
+
+Know Your Customer
+
+---
