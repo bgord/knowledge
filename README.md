@@ -103,6 +103,7 @@
 
 ## GIT
 - git reset
+- How to add files to the previous commit?
 
 
 ## Others
