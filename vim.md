@@ -49,3 +49,9 @@ In my case it's \<Leader>n\<Right>
 Everytime `teh` is typed, change it to `the`.
 
 ---
+
+**Import JS file**
+
+`<Leader>i`
+
+---
