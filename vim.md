@@ -29,3 +29,23 @@ In my case it's \<Leader>n\<Right>
 `gj`
 
 ---
+
+**Remove trailing whitespace**
+
+`:%s/\s\+$//e`
+
+- substitute `:%s/`
+- a space `\s` occuring at least once `\+`
+- at the end of the line `$`
+- replace with nothing `/`
+- display an error when nothing found `/e`
+
+---
+
+**Abbreviation**
+
+`:ab teh the`
+
+Everytime `teh` is typed, change it to `the`.
+
+---
