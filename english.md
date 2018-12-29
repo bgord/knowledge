@@ -40,3 +40,15 @@ Know Your Customer
 Request for comments
 
 ---
+
+**WFH**
+
+Work form home
+
+---
+
+**FOSS**
+
+Free and Open Source Software
+
+---
