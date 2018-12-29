@@ -46,12 +46,6 @@ Space
 
 ---
 
-**Jest shorter operators**
-
-- `toBe(true) => toBeTruthy()`
-
----
-
 **Computed object property performance**
 
 
@@ -74,25 +68,6 @@ spyOn(mockThunk, "thunkRealName")
 jest.useFakeTimers(); // somewhere at the beginning of the test
 jest.runAllTimers(); // right before assertions
 ```
-
----
-
-**Ramda - lens prop**
-
-Returns a function (a lens) that is focused on the specific props, returns it.
-
----
-
-**Ramda - assoc**
-
-`R.assoc('classNames', 'popup--leaving');`
-Set a property on object
-
----
-
-**Ramda - reject where prop is equal something**
-
-`R.reject(R.propEq('id', action.payload);`
 
 ---
 

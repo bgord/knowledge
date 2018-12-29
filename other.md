@@ -35,7 +35,6 @@ Number that seem out to appear out of the blue, like somewhere in the code you p
 **CSRF token**
 
 Sent every POST, PUT, and DELETE request.
-Available with csrfToken and csrfField() helpers in edge.
 
 ---
 
