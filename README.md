@@ -39,15 +39,20 @@
 - Tailwind CSS
 - typography
 - the most common aria-\* attributes
+- How does @font-face work?
+
 
 ## JS
 
 - deepen knowledge of prototypes/classes
 - arrow functions vs regular functions
 - function definition vs function declaration
-- args vs params
+- arguments vs parameters
 - proxy
+- mutation observer
+- in-depth == vs === difference
 - maps/sets
+- AST
 - design patterns
 	- factory
 - advanced functional patterns
@@ -104,7 +109,16 @@
 ## GIT
 - git reset
 - How to add files to the previous commit?
-
+- How to unstage all changes?
+- How to rebase?
+- How `git reset --hard` works?
+- How does cherry-pick work?
+- How to setup an alias like `g st` - `git status`
+- How to checkout all files?
+- How to use git-reset to the most often use cases?
+- What does it mean that branches have diverged?
+- How to change commit name after push?
+- How to include untracked files in git diff?
 
 ## Others
 - SVG
