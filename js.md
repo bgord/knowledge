@@ -23,3 +23,25 @@ add `+` to allows only positives
 `expect(wrapper.find({ label: 'Address line 3' }).length).toEqual(0);`
 
 ---
+
+**`\s` in RegExp**
+
+Space
+
+---
+
+**Plus `+` in RegExp**
+
+`/\s\+/`
+
+- one or more preceding expression (s for spaces)
+
+---
+
+**Asterisk `*` in RegExp**
+
+`/\s\*/`
+
+- zero or more preceding expression (s for spaces)
+
+---
