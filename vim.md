@@ -55,3 +55,8 @@ Everytime `teh` is typed, change it to `the`.
 `<Leader>i`
 
 ---
+
+**Delete inside/at object**
+
+- `di{` - delete inside object
+- `da{` - delete inside object, and the parenthesis
