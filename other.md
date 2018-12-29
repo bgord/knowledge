@@ -40,3 +40,9 @@ Know Your Customer
 Request for comments
 
 ---
+
+**Magic number**
+
+Number that seem out to appear out of the blue, like somewhere in the code you pass 500 right into the expression. It should have a significant name. There's a ESLint rule to avoid them.
+
+---
