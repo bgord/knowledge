@@ -10,3 +10,9 @@ Faster than regular install, requires package-lock.json
 `npm run serve`
 
 ---
+
+**You cannot install dependency in the directory that is named exactly as the dependency**
+
+(source)[https://docs.npmjs.com/cli/install#limitations-of-npms-install-algorithm]
+
+---
