@@ -76,3 +76,22 @@ jest.runAllTimers(); // right before assertions
 ```
 
 ---
+
+**Ramda - lens prop**
+
+Returns a function (a lens) that is focused on the specific props, returns it.
+
+---
+
+**Ramda - assoc**
+
+`R.assoc('classNames', 'popup--leaving');`
+Set a property on object
+
+---
+
+**Ramda - reject where props is equal something**
+
+`R.reject(R.propEq('id', action.payload);`
+
+---
