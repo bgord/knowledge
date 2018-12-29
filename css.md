@@ -58,3 +58,28 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 ```
+
+---
+
+**Flexbox - align-content**
+
+- define an alignment of flex lines within a container
+- applied if there's enough space - container's height is bigger than height of all stacked elements
+
+
+---
+
+**Flex-flow**
+
+`flex-flow: <flex-direction> <flex-wrap>`
+
+---
+
+**Flex**
+
+`flex: <flex-grow> <flex-shrink> <flex-basis>`
+
+- default `flex-grow: 0`
+- default `flex-shrink: 1`
+
+---
