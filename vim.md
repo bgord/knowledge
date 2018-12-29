@@ -2,6 +2,6 @@
 
 `:%s//bar/`
 
-In my case it's <Leader>n<Right>
+In my case it's \<Leader>n\<Right>
 
 ---
