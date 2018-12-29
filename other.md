@@ -14,3 +14,11 @@ JavaScript, APIs, and Markup stack
 
 - don't add space on either side of the acronym/initial: `H&M`
 - add a space between words: `Netflix & chill`
+
+---
+
+**item list vs items list**
+
+It should be item list.
+
+---
