@@ -45,3 +45,9 @@ Space
 - zero or more preceding expression (s for spaces)
 
 ---
+
+**Jest shorter operators**
+
+- `toBe(true) => toBeTruthy()`
+
+---
