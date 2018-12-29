@@ -35,18 +35,14 @@ accessible rich internet applications
 ---
 
 **aria-label**
-```
-<button aria-label="Close">X</button>
-```
+`<button aria-label="Close">X</button>`
 Provide a label for non-self-descriptive element for screen readers: 
 
 ---
 
 
 **aria-hidden**
-```
-aria-hidden="true/false"
-```
+`aria-hidden="true/false"`
 Hide an element in means of assistive technology
 
 ---
