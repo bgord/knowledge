@@ -60,3 +60,10 @@ It creates a commit that is exactly opposite to the one with the hash
 `$ git commit --amend`
 
 ---
+
+**Git stash apply vs pop**
+
+- `$ git stash apply` applies a stash, but doesn't delete it
+- `$ git stash pop` applies a stash, and does delete it
+
+---
