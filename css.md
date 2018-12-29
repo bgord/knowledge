@@ -13,8 +13,8 @@
 
 **Margin/space**
 
-Margin is a space between elements
-Padding is a space inside element - relative to borders
+- Margin is a space between elements
+- Padding is a space inside element - relative to borders
 
 ---
 
@@ -37,6 +37,7 @@ accessible rich internet applications
 **aria-label**
 
 `<button aria-label="Close">X</button>`
+
 Provide a label for non-self-descriptive element for screen readers: 
 
 ---
@@ -45,6 +46,7 @@ Provide a label for non-self-descriptive element for screen readers:
 **aria-hidden**
 
 `aria-hidden="true/false"`
+
 Hide an element in means of assistive technology
 
 ---
