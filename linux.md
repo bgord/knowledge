@@ -23,3 +23,15 @@
 `history | fzf`
 
 ---
+
+**Fix problems with screen after detach an external monitor**
+
+`xrandr`
+
+---
+
+**Generate ctags for a project**
+
+`$ ctags -R .`
+
+---
