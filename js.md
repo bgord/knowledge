@@ -90,8 +90,34 @@ Set a property on object
 
 ---
 
-**Ramda - reject where props is equal something**
+**Ramda - reject where prop is equal something**
 
 `R.reject(R.propEq('id', action.payload);`
+
+---
+
+**Jest check if element has a class**
+
+`wrapper.find('button').hasClass('is-disable')`
+
+---
+
+**Jest test each**
+
+```javascript
+const cases = [[false, undefined], [false, ''], [false, 1], [true, 'text']];
+test.each(cases)('should return %s when passing %s', (expected, a) => {
+	const result = isNumberValidation(a);
+	expect(result).toBe(expected);
+});
+```
+
+---
+
+**Promise.race trick to show a spinner after x ms**
+
+Pass some promise and a promise that waits for x ms to Promise.race, and if the result is the stuff that promise that waits for x ms returns, then show a spinner
+
+[source](https://www.youtube.com/watch?v=QPDA4QwkJxk)
 
 ---
