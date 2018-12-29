@@ -66,3 +66,9 @@ Everytime `teh` is typed, change it to `the`.
 - `viwp`, now mapped to `gr`
 
 ---
+
+**Upper/lowercase a selection**
+
+`viwU/viwu`
+
+---
