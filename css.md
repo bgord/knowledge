@@ -38,3 +38,11 @@ Provide a label for non-self-descriptive element for screen readers:
 <button aria-label="Close">X</button>
 ```
 ---
+
+
+**aria-hidden**
+```
+Hide an element in means of assistive technology
+aria-hidden="true/false"
+```
+---
