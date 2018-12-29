@@ -22,3 +22,9 @@ JavaScript, APIs, and Markup stack
 It should be item list.
 
 ---
+
+**Scrum tips**
+
+- developers shouldn't ditch story after it goes to the "Ready for QA" column - they should ask testers about it
+
+---
