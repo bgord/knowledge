@@ -10,3 +10,10 @@ $ xdg-settings set default-web-browser firefox-developer-edition.desktop
 ```
 ---
 
+**Preview file in real time in the terminal**
+```
+tail -f debug.txt
+```
+-f means "follow"
+
+---
