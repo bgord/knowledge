@@ -78,5 +78,6 @@ Everytime `teh` is typed, change it to `the`.
 - {, (
 - p (paragraph)
 - t (tag)
+- w (word)
 
 ---
