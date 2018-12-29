@@ -3,3 +3,9 @@
 - export intermediate components as Private, to avoid confusion when importing a \*component instead of \*container
 
 ---
+
+**Display a react version**
+
+`{React.version}`
+
+---
