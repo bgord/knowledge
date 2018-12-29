@@ -85,3 +85,9 @@ body {
 - default `flex-shrink: 1`
 
 ---
+
+**Camel Case**
+
+`text-transform: capitalize;`
+
+---
