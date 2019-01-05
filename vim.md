@@ -63,3 +63,7 @@ Everytime `teh` is typed, change it to `the`.
 - w (word)
 
 ---
+
+**Reload a file**
+
+`:e`
