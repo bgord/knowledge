@@ -97,3 +97,7 @@ body {
 `p:first-letter { text-transform: uppercase }`
 
 ---
+
+**Use <details /> tag for accordion**
+
+---
