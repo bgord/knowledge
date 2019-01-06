@@ -67,3 +67,9 @@ Everytime `teh` is typed, change it to `the`.
 **Reload a file**
 
 `:e`
+
+**Erase all changes in the current buffer**
+
+`:e!` 
+
+---
