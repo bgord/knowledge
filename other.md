@@ -44,3 +44,9 @@ Sent every POST, PUT, and DELETE request.
 - you compile a core language to the byte code
 
 ---
+
+**Unfocus location bar in Frefox**
+
+- Press Tab
+
+---
