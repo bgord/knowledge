@@ -21,6 +21,7 @@
 **Search through terminal history through `fzf`**
 
 `history | fzf`
+- `--tac` to search in reversed order
 
 ---
 
@@ -63,5 +64,36 @@ const a = { a: 2, b:3};
 **Linux count lines of code tracked by git**
 
 `$ git ls-files | xargs cat | wc -l`
+
+---
+
+**sxiv**
+
+- an image viewer
+- `+` / `-` to zoom in/out
+- `hjkl` to navigate
+- `|` `_` to flip vertically and horizontally
+
+
+**Kill the process running on the port 3000**
+
+`fuser -k 3000/tcp` 
+ 
+---
+
+**TTY**
+- means terminal
+
+
+**Show all connected devices**
+
+`lsblk` 
+
+---
+
+
+**Rip a mp3 from the cd**
+
+`asunder` 
 
 ---
