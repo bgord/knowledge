@@ -97,3 +97,12 @@ const a = { a: 2, b:3};
 `asunder` 
 
 ---
+
+**tail**
+
+Prints the last 10 lines of each file, to standard output.
+It can precede the output with an filename, when displaying many of them.
+`-f` to follow a file, acts like a live preview
+`-n` to specify number of lines being printed
+
+`tail -f -n 15 linux.md other.md`
