@@ -6,6 +6,9 @@ I want to make it obvious when it comes to my task management system, because I 
 
 2. When it's time to review INBOX, a task can land in one of the following projects:
 
+2.a If a task is about to take up to 2 minutes, do it right away.
+
+2.b
 - Learning
   - a thing I should learn about
   - research
