@@ -6,11 +6,36 @@ I want to make it obvious when it comes to my task management system, because I 
 
 2. When it's time to review INBOX, a task can land in one of the following projects:
 
-- Learning, when it's a thing I should learn about/research/check about
-- Work, if it's strictly related to work (it's important to differentiate from the personal life project)
-- Me, for a day-to-day activities, e.g shopping/formal issues/cleaning
-- Mentoring, for the tasks concerning helping other people/code reviews
-- Blog, for all the research and writing blog posts
-- Personal development (habits, )
+- Learning
+  - a thing I should learn about
+  - research
+- Work
+  - calls/meetings
+  - tasks/subtasks
+  - catchups
+  - questions
+  - it's important to differentiate it from the personal life
+- Me
+  - day-to-day activities
+    - grocery
+    - tidying
+    - cleaning
+    - washing dishes
+  - formalities
+  - charges I need to pay
+  - buying things
+  - calls
+- Mentoring
+  - a task concerning helping other people
+  - code reviews
+- Blog
+  - research
+  - writing blog posts
+- Personal development
+  - habits formation
+  - figuring a better workflow
 
-
+Topics to cover:
+- time labels
+- reminders
+- filter
