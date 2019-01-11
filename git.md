@@ -93,3 +93,12 @@ You can also revert a commit that revert a commit, so you are back when you were
 `$git config --global alias.co checkout`
 
 ---
+
+**Unstaging changes**
+
+The basic version of the `git reset` acts like the opposite of `git add`. It doesn't mess up with working tree.
+
+`git reset <path>` unstages the path
+`git reset` unstages everything
+
+---
