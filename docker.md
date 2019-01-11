@@ -64,3 +64,19 @@ Common options (after run):
 `docker stop <container id>`
 
 ---
+
+**Env variables**
+
+In Dockerfile:
+`ENV MY_NAME "Bartek"`
+`ENV MY_NAME="Bartek"`
+
+In run command:
+
+`docker run --env MY_NAME="AAA" words:env`
+
+From a file
+
+`docker run --env-file ENV_FILE_PATH words:env`
+
+---
