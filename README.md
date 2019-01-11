@@ -20,6 +20,18 @@
 - How to squash commits?
 - How to obtain useful logs with `git log`?
 
+## Docker (3/8)
+
+- ~~Setup a container for node~~
+- ~~Make the ports available from the host~~
+- ~~Setup an env variable~~
+- Create a custom domain for local development
+- How to bind a volume to a container?
+- How to use a MongoDB container?
+- How to access a DB inside the container on the host?
+- How does docker-compose work?
+- A `docker-compose.yml` file for the express/MongoDB setup
+
 ## CSS
 - deepen knowledge of BEM
   - block inside the block
@@ -107,12 +119,6 @@
 - context
 - refs
 
-## Docker & Vagrant
-
-- Setup a container for node & mongo
-- Make the ports available from the host
-- Create a custom domain for local development
-- Provisioning
 
 ## GraphQL
 - How to setup along the node & mongodb
