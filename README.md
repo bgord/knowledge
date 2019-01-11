@@ -32,6 +32,13 @@
 - How does docker-compose work?
 - A `docker-compose.yml` file for the express/MongoDB setup
 
+## UNIX (1/4)
+
+- ~~How to live-preview a file in the terminal? (tail)~~
+- How to retrieve a data from the n-th column and the n-th row from the CSV file?
+- How to change a data from the n-th column and the n-th row from the CSV file?
+- How to sum numbers from the n-th column from the CSV file?
+
 ## CSS
 - deepen knowledge of BEM
   - block inside the block
@@ -123,15 +130,12 @@
 ## GraphQL
 - How to setup along the node & mongodb
 
-## UNIX tools
+## Others/Not confirmed ideas
 - sed
 - awk
 - grep
 - head
-- tail
 - ssh
-
-## Others/Not confirmed ideas
 - SVG
 - Vue
 - Storybook
