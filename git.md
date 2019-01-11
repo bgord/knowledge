@@ -9,7 +9,8 @@
 $ git revert 13pooiavdfhi1
 $ git push
 ```
-It creates a commit that is exactly opposite to the one with the hash
+It creates a commit that is exactly opposite to the one with the hash.
+You can also revert a commit that revert a commit, so you are back when you were before the first revert.
 
 ---
 
@@ -58,6 +59,7 @@ It creates a commit that is exactly opposite to the one with the hash
 **Fix a typo in the commit message**
 
 `$ git commit --amend`
+`$ git commit --amend -m "a new message"`
 
 ---
 
