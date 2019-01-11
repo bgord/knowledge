@@ -20,7 +20,7 @@
 - How to squash commits?
 - How to obtain useful logs with `git log`?
 
-## Docker (3/8)
+## Docker (3/9)
 
 - ~~Setup a container for node~~
 - ~~Make the ports available from the host~~
@@ -31,6 +31,7 @@
 - How to access a DB inside the container on the host?
 - How does docker-compose work?
 - A `docker-compose.yml` file for the express/MongoDB setup
+- How to backup MongoDB in the container?
 
 ## UNIX (1/4)
 
