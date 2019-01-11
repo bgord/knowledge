@@ -8,7 +8,7 @@
 - How to rebase?
 - What does `git pull --rebase` do?
 - How does cherry-pick work?
-- How to setup an alias like `g st` - `git status`
+- ~~How to setup an alias like `g st` - `git status`~~
 - ~~How to checkout all files?~~
 - What does it exactly mean that branches have diverged?
 - ~~What does `git revert` do?~~

@@ -87,3 +87,9 @@ You can also revert a commit that revert a commit, so you are back when you were
 `$ git checkout -- .`
 
 ---
+
+**Setup an alias**
+
+`$git config --global alias.co checkout`
+
+---
