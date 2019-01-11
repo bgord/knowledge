@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## GIT
+## GIT (4/18)
 - ~~How to add files to the previous commit?~~
 - What does `git reset` do?
 - What does `git reset --hard` do?
@@ -14,6 +14,11 @@
 - ~~What does `git revert` do?~~
 - How to include untracked files in `git diff`?
 - What are the three main git areas?
+- What to do when branches have diverged?
+- How to use `--dry-run` for the most common commands?
+- How to delete untracked files? (`$ git clean`)
+- How to squash commits?
+- How to obtain useful logs with `git log`?
 
 ## CSS
 - deepen knowledge of BEM
