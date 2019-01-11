@@ -80,3 +80,21 @@ From a file
 `docker run --env-file ENV_FILE_PATH words:env`
 
 ---
+
+**Example Dockerfile for node**
+
+```
+FROM node:latest
+
+WORKDIR /usr/src/app
+
+COPY package*.json ./
+
+COPY . .
+
+ENV MY_NAME "Bartek"
+
+CMD [ "node", "hello-docker.js"]
+```
+
+---
