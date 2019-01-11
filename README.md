@@ -1,11 +1,10 @@
 # Roadmap for 2019
 
 ## CSS
-
 - deepen knowledge of BEM
-	- block inside the block
-	- classes for wrappers	
-	- namespaces
+  - block inside the block
+  - classes for wrappers	
+  - namespaces
 - deepen knowledge of SCSS
 	- \# meaning
 	- mixins vs functions
@@ -107,20 +106,20 @@
 - ssh
 
 ## GIT
-- git reset
-- How to add files to the previous commit?
+- ~~How to add files to the previous commit?~~
+- What does `git reset` do?
+- What does `git reset --hard` do?
 - How to unstage all changes?
 - How to rebase?
-- How `git reset --hard` works?
+- What does `git pull --rebase` do?
 - How does cherry-pick work?
 - How to setup an alias like `g st` - `git status`
-- How to checkout all files?
-- How to use git-reset to the most often use cases?
-- What does it mean that branches have diverged?
-- How to change commit name after push?
-- How to include untracked files in git diff?
+- ~~How to checkout all files?~~
+- What does it exactly mean that branches have diverged?
+- ~~What does `git revert` do?~~
+- How to include untracked files in `git diff`?
 
-## Others
+## Others/Not confirmed ideas
 - SVG
 - Vue
 - Storybook
