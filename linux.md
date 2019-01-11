@@ -10,14 +10,6 @@
 
 ---
 
-**Preview file in real time in the terminal**
-
-`tail -f debug.txt`
-
--f means "follow"
-
----
-
 **Search through terminal history through `fzf`**
 
 `history | fzf`
@@ -106,3 +98,5 @@ It can precede the output with an filename, when displaying many of them.
 `-n` to specify number of lines being printed
 
 `tail -f -n 15 linux.md other.md`
+
+---
