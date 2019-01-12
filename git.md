@@ -22,7 +22,7 @@ You can also revert a commit that revert a commit, so you are back when you were
 
 **Move to the 9-th position on the `git reflog` list**
 
-`$ git reset 'HEAD{9}'`
+`$ git reset 'HEAD@{9}'`
 
 ---
 
