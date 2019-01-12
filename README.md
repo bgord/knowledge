@@ -39,7 +39,7 @@
 ## UNIX (1/4)
 
 - ~~How to live-preview a file in the terminal? (tail)~~
-- How to deal with the Sketch file on Linux?
+- ~~How to deal with the Sketch file on Linux?~~
 - How to retrieve a data from the n-th column and the n-th row from the CSV file?
 - How to change a data from the n-th column and the n-th row from the CSV file?
 - How to sum numbers from the n-th column from the CSV file?

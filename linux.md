@@ -100,3 +100,9 @@ It can precede the output with an filename, when displaying many of them.
 `tail -f -n 15 linux.md other.md`
 
 ---
+
+**Sketch file in Linux**
+
+Upload a `*.sketch` file to Figma
+
+---
