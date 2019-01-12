@@ -47,6 +47,11 @@ I want to make it obvious when it comes to my task management system, because I 
     - an open-source tasks
     - side projects
 
+3. Each project should have an "energy level" label associated with it
+- `high-energy` when a task makes me stressed and I know it'll be hard to take care of that
+- `normal-energy` when a task doesn't make me stressed, but requires some time and energy
+- `low-energy` when a task is easy & and can be done very quickly
+
 Topics to cover:
 - time labels
 - reminders
