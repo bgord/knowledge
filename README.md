@@ -16,24 +16,25 @@
 - What are the three main git areas?
 - What to do when branches have diverged?
 - How to use `--dry-run` for the most common commands?
-- How to delete untracked files? (`$ git clean`)
+- How to delete untracked files with `git clean`?
 - How to squash commits?
 - How to obtain useful logs with `git log`?
 - What does `git fetch` do? How is that different from `git pull`?
 - What are `git submodules`? What are they useful for?
 - How to remove a file from all the git history?
 
-## Docker (3/9)
+## Docker (3/11)
 
 - ~~Setup a container for node~~
 - ~~Make the ports available from the host~~
 - ~~Setup an env variable~~
-- Create a custom domain for local development
+- How to create a custom domain for local development?
 - How to bind a volume to a container?
-- How to use a MongoDB container?
-- How to access a DB inside the container on the host?
+- How to setup a MongoDB container?
+- How to access a DB inside the container on the host machine?
+- How to access a DB inside another container?
 - How does docker-compose work?
-- A `docker-compose.yml` file for the express/MongoDB setup
+- A `docker-compose.yml` file for the express/MongoDB setup.
 - How to backup MongoDB in the container?
 
 ## UNIX (1/4)
