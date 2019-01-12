@@ -48,7 +48,10 @@ I want to make it obvious when it comes to my task management system, because I 
     - OS tasks
     - side projects
 
-3. Each project should have an "energy level" label associated with it
+3. Energy level labels.
+
+Each project should have an "energy level" label associated with it, so it's easier to filter tasks that match my current mood. Feeling a bit under the weather? Choose a task with `low-energy` label. Otherwise, go for it, and do the most challenging things!
+
 - `high-energy` when a task makes me stressed and I know it'll be hard to take care of that
 - `normal-energy` when a task doesn't make me stressed, but requires some time and energy
 - `low-energy` when a task is easy & and can be done very quickly
