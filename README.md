@@ -22,6 +22,7 @@
 - What does `git fetch` do? How is that different from `git pull`?
 - What are `git submodules`? What are they useful for?
 - How to remove a file from all the git history?
+- What is a `..` and `...` operator?
 
 ## Docker (3/11)
 
@@ -35,6 +36,7 @@
 - How to access a DB inside another container?
 - How does docker-compose work?
 - A `docker-compose.yml` file for the express/MongoDB setup.
+- How to retain MongoDB database in the container?
 - How to backup MongoDB in the container?
 
 ## UNIX (1/4)
@@ -44,6 +46,27 @@
 - How to retrieve a data from the n-th column and the n-th row from the CSV file?
 - How to change a data from the n-th column and the n-th row from the CSV file?
 - How to sum numbers from the n-th column from the CSV file?
+
+## React
+- hooks
+	- useState
+	- useEffect
+	- useLayoutEffect
+	- useReducer/reducer pattern
+	- useContext
+	- useCallback
+	- useRef
+	- useImperativeMethods
+	- custom hooks
+- memo
+- Suspense: lazy
+- compound components
+- redux-observable
+- higher-order-reducers
+- context
+- refs
+- state reducer pattern
+- react-testing-library
 
 ## CSS
 - deepen knowledge of BEM
@@ -112,27 +135,6 @@
 - What exactly is the stream?
 - How to create streams?
 - Basic operators
-
-## React
-- react-testing-library
-- hooks
-	- useState
-	- useEffect
-	- useLayoutEffect
-	- useReducer/reducer pattern
-	- useContext
-	- useCallback
-	- useRef
-	- useImperativeMethods
-	- custom hooks
-- memo
-- Suspense: lazy
-- compound components
-- redux-observable
-- higher-order-reducers
-- context
-- refs
-
 
 ## GraphQL
 - How to setup along the node & mongodb
