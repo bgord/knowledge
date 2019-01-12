@@ -9,28 +9,30 @@ I want to make it obvious when it comes to my task management system, because I 
 2. Inbox Review
 
 - if a task is about to take up to 2 minutes, do it right away.
+- if it's a new word/phrase, pass it to the `words` script
 
 - otherwise, a task can land in one of the following projects:
 
   - Learning (green - new energy)
-    - a thing I should learn about
+    - things I should learn about
     - research
-    - a new word/grammar rule/phrase
+    - grammar rules
   - Work (red - priority)
     - calls/meetings
     - tasks/subtasks
     - catchups
     - questions
-    - it's important to differentiate it from the personal life
   - Me (charcoal, day to day)
     - day-to-day activities
       - grocery
+      - creating shopping lists
       - tidying
       - cleaning
       - washing dishes
     - formalities
     - charges I need to pay
     - buying things
+    - planning travels
     - calls
   - Mentoring (lime green)
     - a task concerning helping other people
