@@ -6,7 +6,7 @@ I want to make it obvious when it comes to my task management system, because I 
 
 - when I come up with a task, I put it to the INBOX.
 
-2. Inbox Review
+2. Assigning projects to a task
 
 - if a task is about to take up to 2 minutes, do it right away.
 - if it's a new word/phrase, pass it to the `words` script
@@ -40,11 +40,12 @@ I want to make it obvious when it comes to my task management system, because I 
   - Blog (berry red)
     - research
     - writing blog posts
+    - potential blog post ideas
   - Personal development (sky blue - to the sky!)
     - habits formation
     - figuring a better workflow
   - Coding (violet)
-    - an open-source tasks
+    - OS tasks
     - side projects
 
 3. Each project should have an "energy level" label associated with it
