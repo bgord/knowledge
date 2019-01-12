@@ -102,3 +102,11 @@ The basic version of the `git reset` acts like the opposite of `git add`. It doe
 `git reset` unstages everything
 
 ---
+
+**Cherry-pick**
+
+It applies one existing commit (instead of one or many as merge/rebase) to the existing branch. Useful for hotfixes, if someone has done them, and you just want to apply this particular commit to your branch.
+
+`$ git cherry-pick <commit-hash>`
+
+---

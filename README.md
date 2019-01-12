@@ -1,13 +1,13 @@
 # Roadmap for 2019
 
-## GIT (5/18)
+## GIT (6/21)
 - ~~How to add files to the previous commit?~~
 - What are the versions of the `git reset` behaviour?
 - What does `git reset --hard` do?
 - ~~How to unstage all changes?~~
-- How to rebase?
+- How to rebase? What is `git rebase -i` useful for?
 - What does `git pull --rebase` do?
-- How does cherry-pick work?
+- ~~How does cherry-pick work?~~
 - ~~How to setup an alias like `g st` - `git status`~~
 - ~~How to checkout all files?~~
 - What does it exactly mean that branches have diverged?
@@ -19,6 +19,9 @@
 - How to delete untracked files? (`$ git clean`)
 - How to squash commits?
 - How to obtain useful logs with `git log`?
+- What does `git fetch` do? How is that different from `git pull`?
+- What are `git submodules`? What are they useful for?
+- How to remove a file from all the git history?
 
 ## Docker (3/9)
 
@@ -36,6 +39,7 @@
 ## UNIX (1/4)
 
 - ~~How to live-preview a file in the terminal? (tail)~~
+- How to deal with the Sketch file on Linux?
 - How to retrieve a data from the n-th column and the n-th row from the CSV file?
 - How to change a data from the n-th column and the n-th row from the CSV file?
 - How to sum numbers from the n-th column from the CSV file?
@@ -96,6 +100,7 @@
 	- factory
 - advanced functional patterns
 	- placeholders in Ramda
+- intersection observer
 
 ## TypeScript
 - Understand how to add types to class/function components
@@ -113,7 +118,7 @@
 	- useState
 	- useEffect
 	- useLayoutEffect
-	- useReducer
+	- useReducer/reducer pattern
 	- useContext
 	- useCallback
 	- useRef
