@@ -65,11 +65,12 @@
 - What is a `state reducer pattern`?
 - Explore `useState` hook in detail.
 
-
-
-
-
-
+## English (0/5)
+- Explore "0 conditional".
+- Explore "1st conditional".
+- Explore "2nd conditional".
+- Explore "3rd conditional".
+- Explore "mixed conditional".
 
 
 > To refine
