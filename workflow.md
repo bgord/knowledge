@@ -2,6 +2,8 @@
 
 I want to make it obvious when it comes to my task management system, because I used to spent way too much time thinking about all the possibilities to organize my todos.
 
+## Todoist
+
 1. Adding tasks
 
 - when I come up with a task, I put it to the INBOX.
@@ -56,7 +58,14 @@ Each project should have an "energy level" label associated with it, so it's eas
 - `normal-energy` when a task doesn't make me stressed, but requires some time and energy
 - `low-energy` when a task is easy & and can be done very quickly
 
-Topics to cover:
-- time labels
-- reminders
-- filter
+4. Time labels
+
+A task can land into one of the following time labels, it's useful to see a possible timebox when planning a day or life :)
+
+- `2-min`, very quick one - just a matter of searching, adding stuff etc.
+- `5-min`
+- `10-min`
+- `15-min`
+- `25-min`, a timespan of pomodoro session
+- `60-min`
+- `more-than-hour`, when you anticipate that it will take much time
