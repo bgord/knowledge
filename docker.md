@@ -133,3 +133,13 @@ To share a directory between the host and a container (e.g to reflect changes fr
 `$ docker run --volume "$(pwd)":/usr/src/app words` to reflect changes from the current working directory in the container's `/usr/src/app` directory.
 
 ---
+
+**Accessing a terminal inside the container**
+
+`$ docker run -i -t words bash`
+
+`-i` to enter the _interactive_ mode
+`-t` to allocate a pseudo-TTY (terminal)
+`bash` is a terminal binary to run
+
+---

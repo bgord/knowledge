@@ -28,7 +28,7 @@
 - What is the working tree?
 - What do all the options in `git add -i` mean?
 
-## Docker (3/12)
+## Docker (6/15)
 - ~~Setup a container for node~~
 - ~~Make the ports available from the host~~
 - ~~Setup an env variable~~
@@ -42,7 +42,8 @@
 - How to retain MongoDB database in the container?
 - How to backup MongoDB in the container?
 - ~~What's the difference between `expose` and `publish` mechanisms?~~
-- ~~Display all port related mappings for the container.~~
+- ~~How to display all port related mappings for the container?~~
+- ~~How to access shell inside a container?~~
 
 ## UNIX (2/6)
 - ~~How to live-preview a file in the terminal? (tail)~~
