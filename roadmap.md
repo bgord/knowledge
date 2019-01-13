@@ -65,6 +65,7 @@
 ## CSS (1/2)
 - How to use `&:first-child` and `& :first-child` properly?
 - ~~Custom properties aka CSS variables.~~
+- How to benefit from `:focus-within` psuedoselector?
 
 ## JS (0/3)
 - What is a `proxy` in JS? What can it be useful for?
