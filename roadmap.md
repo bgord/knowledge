@@ -23,6 +23,7 @@
 - What are `git submodules`? What are they useful for?
 - How to remove a file from all the git history?
 - What is a `..` and `...` operator?
+- What is a working tree?
 
 ## Docker (3/11)
 
