@@ -47,6 +47,13 @@
 - How to change a data from the n-th column and the n-th row from the CSV file?
 - How to sum numbers from the n-th column from the CSV file?
 
+## Vim (0/5)
+- How to fold functions and other blocks of code?
+- How to run a line through an external program?
+- What is an buffer, exactly?
+- What are the sentence, paragraph, section text objects?
+- How to work with marks efficiently?
+
 ## React
 - hooks
 	- useState
@@ -71,7 +78,7 @@
 ## CSS
 - deepen knowledge of BEM
   - block inside the block
-  - classes for wrappers	
+  - classes for wrappers
   - namespaces
 - deepen knowledge of SCSS
 	- \# meaning
@@ -99,7 +106,7 @@
 	- sticky vs fixed
 - one of the css-in-js libraries (emotion/styled-components?)
 	- setup & usage
-	- how to test it	
+	- how to test it
 - custom properties (variables)
 - well-done animations
 - specificity
