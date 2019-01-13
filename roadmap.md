@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## GIT (7/23)
+## GIT (7/24)
 - ~~How to add files to the previous commit?~~
 - What are the versions of the `git reset` behaviour?
 - What does `git reset --hard` do?
@@ -23,11 +23,10 @@
 - What are `git submodules`? What are they useful for?
 - How to remove a file from all the git history?
 - What is a `..` and `...` operator?
-- What is a working tree?
+- What is the working tree?
 - What do all the options in `git add -i` mean?
 
-## Docker (3/11)
-
+## Docker (3/12)
 - ~~Setup a container for node~~
 - ~~Make the ports available from the host~~
 - ~~Setup an env variable~~
@@ -41,8 +40,7 @@
 - How to retain MongoDB database in the container?
 - How to backup MongoDB in the container?
 
-## UNIX (2/5)
-
+## UNIX (2/6)
 - ~~How to live-preview a file in the terminal? (tail)~~
 - ~~How to deal with the Sketch file on Linux?~~
 - How to retrieve a data from the n-th column and the n-th row from the CSV file?
@@ -75,7 +73,8 @@
 ## React (0/3)
 - Finite state machines, and their usage in UI workflows.
 - Explore `useState` hook in detail.
-- Explore `useReducer` and state reducer pattern in detail.
+- Explore `useReducer` in detail.
+- How to lazy load components with Suspense?
 
 
 > To refine
@@ -90,7 +89,6 @@
 	- useImperativeMethods
 	- custom hooks
 - memo
-- Suspense: lazy
 - compound components
 - redux-observable
 - higher-order-reducers
