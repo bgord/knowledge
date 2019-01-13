@@ -123,3 +123,13 @@ CMD [ "node", "hello-docker.js"]
 - can connect to the port from the host machine
 
 ---
+
+**Volumes**
+
+To share a directory between the host and a container (e.g to reflect changes from the host inside a container)
+
+`VOLUME /usr/src/app` inside the Dockerfile
+
+`$ docker run --volume "$(pwd)":/usr/src/app words` to reflect changes from the current working directory in the container's `/usr/src/app` directory.
+
+---

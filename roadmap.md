@@ -33,7 +33,7 @@
 - ~~Make the ports available from the host~~
 - ~~Setup an env variable~~
 - How to create a custom domain for local development?
-- How to bind a volume to a container?
+- ~~How to bind a volume to a container?~~
 - How to setup a MongoDB container?
 - How to access a DB inside the container on the host machine?
 - How to access a DB inside another container?
