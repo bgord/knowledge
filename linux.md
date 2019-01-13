@@ -112,3 +112,13 @@ Upload a `*.sketch` file to Figma
 `M-s` for Alt-S
 
 ---
+
+**Bash variable for all arguments**
+
+It doesn't store the binary name
+
+```
+echo $@
+```
+
+---
