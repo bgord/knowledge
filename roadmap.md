@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## GIT (6/21)
+## GIT (7/23)
 - ~~How to add files to the previous commit?~~
 - What are the versions of the `git reset` behaviour?
 - What does `git reset --hard` do?
@@ -16,7 +16,7 @@
 - What are the three main git areas?
 - What to do when branches have diverged?
 - How to use `--dry-run` for the most common commands?
-- How to delete untracked files with `git clean`?
+- ~~How to delete untracked files with `git clean`?~~
 - How to squash commits?
 - How to obtain useful logs with `git log`?
 - What does `git fetch` do? How is that different from `git pull`?

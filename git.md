@@ -110,3 +110,11 @@ It applies one existing commit (instead of one or many as merge/rebase) to the e
 `$ git cherry-pick <commit-hash>`
 
 ---
+
+**Git clean**
+
+`$ git clean` takes care of removing files/directories that are _untracked_ by git. It complements the `git checkout --` behaviour, which resets changes made by _tracked_ files only. Cleans the working tree.
+It's advised to use it with `-i` - interactive mode.
+It may worth adding a `-n` - dry run option sometimes.
+
+---
