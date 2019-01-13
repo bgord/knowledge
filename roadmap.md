@@ -63,7 +63,6 @@
 ## JS (0/3)
 - What is a `proxy` in JS? What can it be useful for?
 - What is a `state reducer pattern`?
-- Explore `useState` hook in detail.
 
 ## English (0/5)
 - Explore "0 conditional".
@@ -72,15 +71,18 @@
 - Explore "3rd conditional".
 - Explore "mixed conditional".
 
+## React (0/3)
+- Finite state machines, and their usage in UI workflows.
+- Explore `useState` hook in detail.
+- Explore `useReducer` and state reducer pattern in detail.
+
 
 > To refine
 
 ## React
 - hooks
-	- useState
 	- useEffect
 	- useLayoutEffect
-	- useReducer/reducer pattern
 	- useContext
 	- useCallback
 	- useRef
@@ -93,7 +95,6 @@
 - higher-order-reducers
 - context
 - refs
-- state reducer pattern
 - react-testing-library
 
 ## CSS
