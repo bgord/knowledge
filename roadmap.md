@@ -40,13 +40,14 @@
 - How to retain MongoDB database in the container?
 - How to backup MongoDB in the container?
 
-## UNIX (1/4)
+## UNIX (2/5)
 
 - ~~How to live-preview a file in the terminal? (tail)~~
 - ~~How to deal with the Sketch file on Linux?~~
 - How to retrieve a data from the n-th column and the n-th row from the CSV file?
 - How to change a data from the n-th column and the n-th row from the CSV file?
 - How to sum numbers from the n-th column from the CSV file?
+- ~~How to create mappings with the `Alt` key?~~
 
 ## Vim (0/5)
 - How to fold functions and other blocks of code?
