@@ -90,7 +90,7 @@ You can also revert a commit that revert a commit, so you are back when you were
 
 **Setup an alias**
 
-`$git config --global alias.co checkout`
+`$ git config --global alias.co checkout`
 
 ---
 
@@ -98,8 +98,11 @@ You can also revert a commit that revert a commit, so you are back when you were
 
 The basic version of the `git reset` acts like the opposite of `git add`. It doesn't mess up with working tree.
 
-`git reset <path>` unstages the path
-`git reset` unstages everything
+```
+$ git reset <path>` // unstages the path
+$ git reset` // unstages everything
+
+```
 
 ---
 
