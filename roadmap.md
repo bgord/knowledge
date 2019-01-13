@@ -24,6 +24,7 @@
 - How to remove a file from all the git history?
 - What is a `..` and `...` operator?
 - What is a working tree?
+- What do all the options in `git add -i` mean?
 
 ## Docker (3/11)
 
