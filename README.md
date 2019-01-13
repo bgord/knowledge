@@ -54,6 +54,24 @@
 - What are the sentence, paragraph, section text objects?
 - How to work with marks efficiently?
 
+## CSS (1/2)
+- How to use `&:first-child` and `& :first-child` properly?
+- ~~Custom properties aka CSS variables.~~
+
+## JS (0/3)
+- What is a `proxy` in JS? What can it be useful for?
+- What is a `state reducer pattern`?
+- Explore `useState` hook in detail.
+
+
+
+
+
+
+
+
+> To refine
+
 ## React
 - hooks
 	- useState
