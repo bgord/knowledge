@@ -44,6 +44,7 @@
 - ~~What's the difference between `expose` and `publish` mechanisms?~~
 - ~~How to display all port related mappings for the container?~~
 - ~~How to access shell inside a container?~~
+- ~~How to create a `npm.sh` script to run npm inside a container?~~
 
 ## UNIX (2/6)
 - ~~How to live-preview a file in the terminal? (tail)~~

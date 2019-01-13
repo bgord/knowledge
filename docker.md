@@ -143,3 +143,17 @@ To share a directory between the host and a container (e.g to reflect changes fr
 `bash` is a terminal binary to run
 
 ---
+
+**npm.sh script to run npm inside the container**
+
+```
+#!/usr/bin/env bash
+
+docker run \
+  --rm \
+  --volume "$(pwd)":/usr/src/app \
+  words \
+  npm "$@"
+```
+
+---
