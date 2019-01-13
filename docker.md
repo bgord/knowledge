@@ -102,3 +102,24 @@ CMD [ "node", "hello-docker.js"]
 ```
 
 ---
+
+**List all ports defined on a container**
+
+`$ docker port words`
+
+---
+
+**Ports: publish vs expose**
+
+`EXPOSE`:
+- private
+- cannot connect to the port from the host machine
+- used in Dockerfiles
+- a way to document which ports can be exposed
+- by default accessible only within linked containers
+
+`--publish`:
+- public
+- can connect to the port from the host machine
+
+---

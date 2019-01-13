@@ -39,6 +39,8 @@
 - A `docker-compose.yml` file for the express/MongoDB setup.
 - How to retain MongoDB database in the container?
 - How to backup MongoDB in the container?
+- ~~What's the difference between `expose` and `publish` mechanisms?~~
+- ~~Display all port related mappings for the container.~~
 
 ## UNIX (2/6)
 - ~~How to live-preview a file in the terminal? (tail)~~
