@@ -106,3 +106,9 @@ It can precede the output with an filename, when displaying many of them.
 Upload a `*.sketch` file to Figma
 
 ---
+
+**Create a mapping for a combination with Alt key**
+
+`M-s` for Alt-S
+
+---
