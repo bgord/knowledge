@@ -73,3 +73,10 @@ Everytime `teh` is typed, change it to `the`.
 `:e!` 
 
 ---
+
+**Indent left/right**
+
+`<` to the left,
+ `>` to the right
+
+---
