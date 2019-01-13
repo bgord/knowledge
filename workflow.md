@@ -69,3 +69,13 @@ A task can land into one of the following time labels, it's useful to see a poss
 - `25-min`, a timespan of pomodoro session
 - `60-min`
 - `more-than-hour`, when you anticipate that it will take much time
+
+## Journal
+
+1. Write after 20, in addition to the notes taken during the day.
+
+2. Questions I want to answer
+- What're the tasks done today that you're the most proud of?
+- Are you feeling good right now?
+- What are you grateful for?
+- What's on your mind right now?
