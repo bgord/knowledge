@@ -1,3 +1,5 @@
+> All examples are run on the container named `words`.
+
 **Container vs Image**
 
 Image
@@ -20,11 +22,11 @@ Dockerfile => Image => Containers
 
 **Build an image**
 
-`docker build -t app:0.2 .`
+`$ docker build -t words:0.2 .`
 
 Where:
 
-`-t app:02` is a tag name for a container
+`-t words:02` is a tag name for a container, "latest" by default
 `.` is a path for the Dockerfile
 `-m 4g` is for a memory limit up to 4GB
 
@@ -32,36 +34,38 @@ Where:
 
 **List all local images**
 
-`docker images`
+`$ docker images`
 
 ---
 
 **Delete local image**
 
-`docker rmi <image id>`
+`$ docker rmi <image id>`
 
 ---
 
 **Run a container**
 
-`docker run app:0.2`
+`$ docker run words`
 
 Common options (after run):
+- `$ docker run words:0.2` to run a container based on an image with a specific tag
 - `--rm` to automatically remove the container when it exists
-- `--detach/-d` to run a container in background and print ID
-- `-p 9292:9292` to publish a port mapping container => host
+- `--detach` to run a container in background and print ID (`-d`)
+- `--publish 9290:9292` to publish a port mapping: container 9290 => host 929 (`-p`)
+- `--volume ./local-app-code:/usr/src/app` (`-v`)
 
 ---
 
 **Delete a container**
 
-`docker rm <container id>`
+`$ docker rm <container id>`
 
 ---
 
 **Stop a container**
 
-`docker stop <container id>`
+`$ docker stop <container id>`
 
 ---
 
@@ -73,11 +77,11 @@ In Dockerfile:
 
 In run command:
 
-`docker run --env MY_NAME="AAA" words:env`
+`$ docker run --env MY_NAME="AAA" words:env`
 
 From a file
 
-`docker run --env-file ENV_FILE_PATH words:env`
+`$ docker run --env-file ENV_FILE_PATH words:env`
 
 ---
 
