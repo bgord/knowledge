@@ -103,6 +103,18 @@ The basic version of the `git reset` acts like the opposite of `git add`. It doe
 
 ---
 
+**Resetting commits**
+
+Possible syntaxes:
+
+`$ git reset --soft/mixed/hard HEAD~2` (reset 2 commits, relatively to the HEAD)
+
+`$ git reset --soft/mixed/hard c28e44` (reset to the specified commit hash)
+
+`--soft` removes the commit(s), moves to the specified place, but leaves the changes made by those commits **staged**
+`--mixed` removes the commit(s), moves to the specified place, and leaves the changes made by those commit unstaged, default
+`--hard` removes the commit(s), doesn't leave anything, cleans working tree (uncommited changes too)
+
 **Cherry-pick**
 
 It applies one existing commit (instead of one or many as merge/rebase) to the existing branch. Useful for hotfixes, if someone has done them, and you just want to apply this particular commit to your branch.

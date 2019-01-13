@@ -1,10 +1,12 @@
 # Roadmap for 2019
 
-## GIT (7/24)
+## GIT (11/26)
 - ~~How to add files to the previous commit?~~
-- What are the versions of the `git reset` behaviour?
-- What does `git reset --hard` do?
-- ~~How to unstage all changes?~~
+- ~~What are the versions of the `git reset` behaviour?~~
+- ~~What does `git reset --hard` do?~~
+- ~~What does `git reset --mixed` do?~~
+- ~~What does `git reset --soft` do?~~
+- ~~How to unstage all changes? (`git reset`/`git reset <path>`)~~
 - How to rebase? What is `git rebase -i` useful for?
 - What does `git pull --rebase` do?
 - ~~How does cherry-pick work?~~
