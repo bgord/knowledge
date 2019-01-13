@@ -81,6 +81,10 @@
 - Explore `useReducer` in detail.
 - How to lazy load components with Suspense?
 
+# Polish words (0/1)
+
+- kurtuazyjny
+
 
 > To refine
 
