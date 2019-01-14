@@ -109,3 +109,18 @@ Plus is rendered as a "non-capital" character, a bit lower from the middle line,
 [source](https://stackoverflow.com/a/52943578)
 
 ---
+
+**Automatically truncating text when there's no space**
+
+```
+<span>A veeeeeeeery long sentence</span>
+
+span {
+  width: 100px; // set a fixed width
+  text-overflow: ellipsis; // truncate a text and add Unicode Range Value - ... - U+2026
+  white-space: nowrap;
+  overflow: hidden;
+}
+```
+
+---

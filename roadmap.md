@@ -68,6 +68,7 @@
 - ~~Custom properties aka CSS variables.~~
 - How to benefit from `:focus-within` psuedoselector?
 - ~~How to perfectly center a plus inside a circle?~~
+- ~~How to automatically truncate text when there's no enough space, and add three dots after it?~~
 
 ## JS (0/3)
 - What is a `proxy` in JS? What can it be useful for?
