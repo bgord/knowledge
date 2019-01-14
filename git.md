@@ -139,3 +139,12 @@ It may worth adding a `-n` - dry run option sometimes.
 There's no standard way to do that. You need to add changes to the index, and then reset them.
 
 ---
+
+**How to squash last n commits?**
+
+Given that you want to squash 4 last commits, perform following steps:
+
+`$ git reset --soft HEAD~4` to reset 4 last commits and put the changes from them to the index (staging)
+`$ git commit -m "Squash last 4 commits"` to create a commit containing the staged changes
+
+---
