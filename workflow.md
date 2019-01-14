@@ -70,6 +70,16 @@ A task can land into one of the following time labels, it's useful to see a poss
 - `60-min`
 - `more-than-hour`, when you anticipate that it will take much time
 
+5. Next-step label
+
+It's one of the most important labels out there. It highlights the next action you need to take to achieve your goal.
+
+Some advices:
+- don't add @next-step to recurring tasks/habits
+- assign it for every project at the end of the day
+- it should have the highest priority
+- it should be small enough to make me not run away from it
+
 ## Journal
 
 1. Write after 20, in addition to the notes taken during the day.
