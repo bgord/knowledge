@@ -122,3 +122,9 @@ echo $@
 ```
 
 ---
+
+**Unzip a file into directory**
+
+`$ unzip design.zip -d design`
+
+---
