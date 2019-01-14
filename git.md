@@ -145,6 +145,19 @@ There's no standard way to do that. You need to add changes to the index, and th
 Given that you want to squash 4 last commits, perform following steps:
 
 `$ git reset --soft HEAD~4` to reset 4 last commits and put the changes from them to the index (staging)
+
 `$ git commit -m "Squash last 4 commits"` to create a commit containing the staged changes
+
+---
+
+**What does it mean that two branches have diverged?**
+
+It means that there some commits on the local `master` branch, that don't exist on the `origin/master` (or the other way).
+
+```
+--- A --- B --- C (origin/master)
+          \
+            --- D (master)
+```
 
 ---

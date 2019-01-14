@@ -12,7 +12,7 @@
 - ~~How does cherry-pick work?~~
 - ~~How to setup an alias like `g st` - `git status`~~
 - ~~How to checkout all files?~~
-- What does it exactly mean that branches have diverged?
+- ~~What does it exactly mean that branches have diverged?~~
 - ~~What does `git revert` do?~~
 - ~~How to include untracked files in `git diff`?~~
 - What are the three main git areas?
