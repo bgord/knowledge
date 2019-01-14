@@ -133,3 +133,9 @@ It's advised to use it with `-i` - interactive mode.
 It may worth adding a `-n` - dry run option sometimes.
 
 ---
+
+**Including untracked files in git diff**
+
+There's no standard way to do that. You need to add changes to the index, and then reset them.
+
+---

@@ -14,7 +14,7 @@
 - ~~How to checkout all files?~~
 - What does it exactly mean that branches have diverged?
 - ~~What does `git revert` do?~~
-- How to include untracked files in `git diff`?
+- ~~How to include untracked files in `git diff`?~~
 - What are the three main git areas?
 - What to do when branches have diverged?
 - How to use `--dry-run` for the most common commands?
