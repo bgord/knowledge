@@ -85,6 +85,10 @@
 - Explore "2nd conditional".
 - Explore "3rd conditional".
 - Explore "mixed conditional".
+- `it should automatically purge`
+- `elephant in the room`
+- `to jump the gun`
+- `we burst into tears`
 
 ## React (0/4)
 - Finite state machines, and their usage in UI workflows.
@@ -207,3 +211,4 @@
 - Machine learning algorithms
 - Bash
 - MongoDB
+- Firebase
