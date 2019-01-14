@@ -62,10 +62,11 @@
 - What are the sentence, paragraph, section text objects?
 - How to work with marks efficiently?
 
-## CSS (1/2)
+## CSS (2/4)
 - How to use `&:first-child` and `& :first-child` properly?
 - ~~Custom properties aka CSS variables.~~
 - How to benefit from `:focus-within` psuedoselector?
+- ~~How to perfectly center a plus inside a circle?~~
 
 ## JS (0/3)
 - What is a `proxy` in JS? What can it be useful for?
