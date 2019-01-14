@@ -104,3 +104,9 @@ If you're not interested in e.g two first values, and want to grab the third.
 `const [, , given] = getKeys();`
 
 ---
+
+**Assert if function throws an error**
+
+`expect(() => someFunc()).toThrowError(new Error("Some error"))`
+
+---
