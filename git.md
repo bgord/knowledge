@@ -161,3 +161,22 @@ It means that there some commits on the local `master` branch, that don't exist 
 ```
 
 ---
+
+**What are the git areas?**
+
+The Working tree
+- the area when the work happens
+- "untracked" area, it's only "seen"
+
+The Staging area
+- an area where changes are being tracked and saved after `git add`
+- "index"
+
+The Local repository
+- everything in the `.git` directory
+- changes moved here after commit
+
+The hosting service repository
+- an mirror of the local repository
+
+---

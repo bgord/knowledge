@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## GIT (12/26)
+## GIT (16/26)
 - ~~How to add files to the previous commit?~~
 - ~~What are the versions of the `git reset` behaviour?~~
 - ~~What does `git reset --hard` do?~~
@@ -15,7 +15,7 @@
 - ~~What does it exactly mean that branches have diverged?~~
 - ~~What does `git revert` do?~~
 - ~~How to include untracked files in `git diff`?~~
-- What are the three main git areas?
+- ~~What are the three main git areas?~~
 - What to do when branches have diverged?
 - How to use `--dry-run` for the most common commands?
 - ~~How to delete untracked files with `git clean`?~~
@@ -25,7 +25,7 @@
 - What are `git submodules`? What are they useful for?
 - How to remove a file from all the git history?
 - What is a `..` and `...` operator?
-- What is the working tree?
+- ~~What is the working tree?~~
 - What do all the options in `git add -i` mean?
 
 ## Docker (6/15)
