@@ -157,3 +157,17 @@ docker run \
 ```
 
 ---
+
+**Setup a custom domain for local development**
+
+```
+EXPOSE 80 // in Dockerfile
+
+$ docker run --rm -p 80:80 words node server.js
+$ docker ps // find a container ID
+$ docker inspect <container ID> // find a "Gateway" IP
+
+172.17.0.1 words.deve // add an /etc/hosts entry for "Gateway" ID
+```
+
+---

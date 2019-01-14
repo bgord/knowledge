@@ -28,11 +28,11 @@
 - ~~What is the working tree?~~
 - What do all the options in `git add -i` mean?
 
-## Docker (8/16)
+## Docker (9/16)
 - ~~Setup a container for node~~
 - ~~Make the ports available from the host~~
 - ~~Setup an env variable~~
-- How to create a custom domain for local development?
+- ~~How to create a custom domain for local development?~~
 - ~~How to bind a volume to a container?~~
 - How to setup a MongoDB container?
 - How to access a DB inside the container on the host machine?
