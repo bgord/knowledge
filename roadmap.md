@@ -70,6 +70,7 @@
 ## JS (0/3)
 - What is a `proxy` in JS? What can it be useful for?
 - What is a `state reducer pattern`?
+- ~~How to destructure only n-th value from the array?~~
 
 ## English (0/5)
 - Explore "0 conditional".

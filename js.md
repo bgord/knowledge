@@ -96,3 +96,11 @@ Pass some promise and a promise that waits for x ms to Promise.race, and if the 
 [source](https://www.youtube.com/watch?v=QPDA4QwkJxk)
 
 ---
+
+**Sparse array destructuring**
+
+If you're not interested in e.g two first values, and want to grab the third.
+
+`const [, , given] = getKeys();`
+
+---
