@@ -91,8 +91,10 @@
 - How to lazy load components with Suspense?
 
 # Polish words (0/1)
-
 - kurtuazyjny
+
+# HTML
+- Choosing between `section` vs `div`.
 
 
 > To refine
