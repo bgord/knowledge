@@ -28,7 +28,7 @@
 - ~~What is the working tree?~~
 - What do all the options in `git add -i` mean?
 
-## Docker (6/15)
+## Docker (8/16)
 - ~~Setup a container for node~~
 - ~~Make the ports available from the host~~
 - ~~Setup an env variable~~
@@ -46,7 +46,7 @@
 - ~~How to access shell inside a container?~~
 - ~~How to create a `npm.sh` script to run npm inside a container?~~
 
-## UNIX (2/6)
+## UNIX (4/8)
 - ~~How to live-preview a file in the terminal? (tail)~~
 - ~~How to deal with the Sketch file on Linux?~~
 - How to retrieve a data from the n-th column and the n-th row from the CSV file?
@@ -54,7 +54,9 @@
 - How to sum numbers from the n-th column from the CSV file?
 - ~~How to create mappings with the `Alt` key?~~
 - What does `$@` command mean?
-- How to unzip a file to directory?
+- ~~How to unzip a file to directory?~~
+- What's a reverse proxy?
+- How to setup a reverse proxy?
 
 ## Vim (0/5)
 - How to fold functions and other blocks of code?
@@ -63,14 +65,14 @@
 - What are the sentence, paragraph, section text objects?
 - How to work with marks efficiently?
 
-## CSS (2/4)
+## CSS (2/5)
 - How to use `&:first-child` and `& :first-child` properly?
 - ~~Custom properties aka CSS variables.~~
 - How to benefit from `:focus-within` psuedoselector?
 - ~~How to perfectly center a plus inside a circle?~~
 - ~~How to automatically truncate text when there's no enough space, and add three dots after it?~~
 
-## JS (0/3)
+## JS (2/5)
 - What is a `proxy` in JS? What can it be useful for?
 - What is a `state reducer pattern`?
 - ~~How to destructure only n-th value from the array?~~
@@ -84,7 +86,7 @@
 - Explore "3rd conditional".
 - Explore "mixed conditional".
 
-## React (0/3)
+## React (0/4)
 - Finite state machines, and their usage in UI workflows.
 - Explore `useState` hook in detail.
 - Explore `useReducer` in detail.
@@ -93,7 +95,7 @@
 # Polish words (0/1)
 - kurtuazyjny
 
-# HTML
+# HTML (0/1)
 - Choosing between `section` vs `div`.
 
 
