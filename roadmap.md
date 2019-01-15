@@ -45,6 +45,7 @@
 - ~~How to display all port related mappings for the container?~~
 - ~~How to access shell inside a container?~~
 - ~~How to create a `npm.sh` script to run npm inside a container?~~
+- How to implement Piotr's approach for static IP for adding a local domain for development?
 
 ## UNIX (6/11)
 - ~~How to live-preview a file in the terminal? (tail)~~
