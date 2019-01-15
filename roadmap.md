@@ -67,12 +67,16 @@
 - What are the sentence, paragraph, section text objects?
 - How to work with marks efficiently?
 
-## CSS (4/5)
+## CSS (4/9)
 - How to use `&:first-child` and `& :first-child` properly?
 - ~~Custom properties aka CSS variables.~~
 - ~~How to benefit from `:focus-within` psuedoselector?~~
 - ~~How to perfectly center a plus inside a circle?~~
 - ~~How to automatically truncate text when there's no enough space, and add three dots after it?~~
+- Is it good practice to nest a block inside another block in BEM?
+- What's a deal with namespaces for BEM?
+- Can I create a modifier for a block?
+- Research BEM articles to find more best practices.
 
 ## JS (4/6)
 - What is a `proxy` in JS? What can it be useful for?
