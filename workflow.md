@@ -4,9 +4,9 @@ I want to make it obvious when it comes to my task management system, because I 
 
 ## Todoist
 
-1. Adding tasks
+### Adding tasks
 
-- when I come up with a task, I put it to the INBOX.
+1. when I come up with a task, I put it to the INBOX.
 
 2. Assigning projects to a task
 
@@ -79,6 +79,17 @@ Some advices:
 - assign it for every project at the end of the day
 - it should have the highest priority
 - it should be small enough to make me not run away from it
+
+### Refinement
+
+1. Should happen everyday in the evening, and be quick (5 minutes).
+
+2. Activities to perform:
+
+- prioritize tasks for the next day
+- move tasks from inbox and assign proper metrics
+- add @next-step for one task in each project
+- fix spellings and correct sentences
 
 ## Journal
 
