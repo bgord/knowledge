@@ -134,3 +134,28 @@ If element has more than one event handler of the same type, we can call `stopIm
 ```
 
 ---
+
+**Merging in Ramda**
+
+```
+const first = {
+  name: "bartek",
+  country: {
+    name: "Poland",
+    abbr: "PL"
+  }
+};
+
+const second = {
+  name: "bartek",
+  country: {
+    name: "Australia",
+    abbr: "AU"
+  }
+};
+
+R.mergeDeepLeft(first, second); // take the LEFT object and apply it on top of the right
+R.mergeDeepRight(first, second); // take the RIGHT object and apply it on top of the left
+```
+
+---

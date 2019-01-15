@@ -73,12 +73,13 @@
 - ~~How to perfectly center a plus inside a circle?~~
 - ~~How to automatically truncate text when there's no enough space, and add three dots after it?~~
 
-## JS (2/5)
+## JS (4/6)
 - What is a `proxy` in JS? What can it be useful for?
 - What is a `state reducer pattern`?
 - ~~How to destructure only n-th value from the array?~~
 - ~~How to assert if function throws an error?~~
 - ~~How does event bubbling work? How to stop the propagation?~~
+- ~~What is the difference between mergeDeepLeft and mergeDeepRight in Ramda?~~
 
 ## English (0/5)
 - Explore "0 conditional".
