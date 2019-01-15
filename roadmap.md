@@ -57,6 +57,7 @@
 - ~~How to unzip a file to directory?~~
 - What's a reverse proxy?
 - How to setup a reverse proxy?
+- ~~What does `408` HTTP status mean?~~
 
 ## Vim (0/5)
 - How to fold functions and other blocks of code?

@@ -128,3 +128,9 @@ echo $@
 `$ unzip design.zip -d design`
 
 ---
+
+**408 HTTP status**
+
+It means that request has timed out.
+
+---
