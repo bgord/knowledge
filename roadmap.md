@@ -77,7 +77,7 @@
 - What is a `state reducer pattern`?
 - ~~How to destructure only n-th value from the array?~~
 - ~~How to assert if function throws an error?~~
-- How does event bubbling work? How to stop the propagation?
+- ~~How does event bubbling work? How to stop the propagation?~~
 
 ## English (0/5)
 - Explore "0 conditional".

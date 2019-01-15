@@ -110,3 +110,27 @@ If you're not interested in e.g two first values, and want to grab the third.
 `expect(() => someFunc()).toThrowError(new Error("Some error"))`
 
 ---
+
+**Event Bubbling & Propagation**
+
+Given scenario below, when the user click on the `p` tag, the event "drills" down to the `p` tag (html => body => div => p) and fires its onlick handler. Then, it "goes up" the same way, and fires all the handlers that he meets (div => body => html). This mechanism is called event bubbling.
+
+There're 3 phases:
+
+- capturing, when the event goes down
+- target, the event reached the target element
+- bubbling, event goes up from the element
+
+We can e.g call `event.stopPropagation()` on `p` tag to avoid calling `div` (and all upper elements') handlers (vertical propagation).
+
+If element has more than one event handler of the same type, we can call `stopImmediatePropagation()`.
+
+```
+<body>
+  <div onclick="alert('div');">
+    <p onclick="alert('p')">xxx</p>
+  </div>
+</body>
+```
+
+---
