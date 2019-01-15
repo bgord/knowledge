@@ -134,3 +134,11 @@ echo $@
 It means that request has timed out.
 
 ---
+
+**Tee**
+
+It reads the standard input, and both writes it to the file, and displays on the standard output.
+
+`ls -alh | tee debug.file`
+
+---

@@ -46,7 +46,7 @@
 - ~~How to access shell inside a container?~~
 - ~~How to create a `npm.sh` script to run npm inside a container?~~
 
-## UNIX (4/8)
+## UNIX (6/11)
 - ~~How to live-preview a file in the terminal? (tail)~~
 - ~~How to deal with the Sketch file on Linux?~~
 - How to retrieve a data from the n-th column and the n-th row from the CSV file?
@@ -58,6 +58,7 @@
 - What's a reverse proxy?
 - How to setup a reverse proxy?
 - ~~What does `408` HTTP status mean?~~
+- ~~What is the `tee` command?~~
 
 ## Vim (0/5)
 - How to fold functions and other blocks of code?
