@@ -124,3 +124,19 @@ span {
 ```
 
 ---
+
+**:focus-within**
+
+It's a pseudoselector which if used like below, applies a black background to the form when input (or any of form's children) has been focused.
+
+```
+<form>
+  <input />
+</form>
+
+.wrapper:focus-within {
+  background: black;
+}
+```
+
+---

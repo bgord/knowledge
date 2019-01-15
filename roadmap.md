@@ -65,10 +65,10 @@
 - What are the sentence, paragraph, section text objects?
 - How to work with marks efficiently?
 
-## CSS (2/5)
+## CSS (4/5)
 - How to use `&:first-child` and `& :first-child` properly?
 - ~~Custom properties aka CSS variables.~~
-- How to benefit from `:focus-within` psuedoselector?
+- ~~How to benefit from `:focus-within` psuedoselector?~~
 - ~~How to perfectly center a plus inside a circle?~~
 - ~~How to automatically truncate text when there's no enough space, and add three dots after it?~~
 
