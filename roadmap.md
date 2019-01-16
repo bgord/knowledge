@@ -121,6 +121,10 @@
 - `to slay` świetnie coś robić
 - when there's a problem in enzyme with testing `wrapper.children.text()`, use wrapper.childAt(0).text()
 - `to buy a dinner` - postawić obiad
+- `grouped into 5 lessons`
+- `midget`
+- `via` pronounciation
+- `grouped into 5 lessons`
 
 ## React (1/6)
 - Finite state machines, and their usage in UI workflows.
