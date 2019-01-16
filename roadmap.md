@@ -69,7 +69,7 @@
 - How to work with marks efficiently?
 - ~~How to reselect last visual selection?~~
 
-## CSS (4/9)
+## CSS (4/10)
 - How to use `&:first-child` and `& :first-child` properly?
 - ~~Custom properties aka CSS variables.~~
 - ~~How to benefit from `:focus-within` psuedoselector?~~
@@ -79,16 +79,18 @@
 - What's a deal with namespaces for BEM?
 - ~~Can I create a modifier for a block?~~
 - Research BEM articles to find more best practices.
+- How to setup stylelint?
 
-## JS (4/6)
+## JS (4/7)
 - What is a `proxy` in JS? What can it be useful for?
 - What is a `state reducer pattern`?
 - ~~How to destructure only n-th value from the array?~~
 - ~~How to assert if function throws an error?~~
 - ~~How does event bubbling work? How to stop the propagation?~~
 - ~~What is the difference between mergeDeepLeft and mergeDeepRight in Ramda?~~
+- What's a babel macro?
 
-## English (0/5)
+## English (0/30)
 - Explore "0 conditional".
 - Explore "1st conditional".
 - Explore "2nd conditional".
@@ -98,13 +100,35 @@
 - `elephant in the room`
 - `to jump the gun`
 - `we burst into tears`
+- `I can fish them out`
+- `roll out`
+- `gatekeeper`
+- `knuckle cracking`
+- `it may be a turn off for someone`
+- `get over it and move on`
+- `dorky`
+- `cut ties`
+- `perpendicular to the main axis`
+- `contradict`
+- `contract of deployment`
+- `chit-chat`
+- `shove it up your ass`
+- `flaky`, a bit flaky on integration
+- keeps being dragged away/dragged off
+- `to bail somebody out` wyciągnąć kogoś z kłopotów
+- `inert` - bierny, bezczynny
+- `charcoal` węgiel drzewny
+- `to slay` świetnie coś robić
+- when there's a problem in enzyme with testing `wrapper.children.text()`, use wrapper.childAt(0).text()
+- `to buy a dinner` - postawić obiad
 
-## React (1/5)
+## React (1/6)
 - Finite state machines, and their usage in UI workflows.
 - Explore `useState` hook in detail.
 - Explore `useReducer` in detail.
 - How to lazy load components with Suspense?
 - ~~Why user-defined components must be lower-cased in React?~~
+- What is JSX pragma?
 
 # Polish words (0/1)
 - kurtuazyjny
