@@ -80,3 +80,9 @@ Everytime `teh` is typed, change it to `the`.
  `>` to the right
 
 ---
+
+**Reselect last visual selection**
+
+`gv`
+
+---

@@ -61,12 +61,13 @@
 - ~~What does `408` HTTP status mean?~~
 - ~~What is the `tee` command?~~
 
-## Vim (0/5)
+## Vim (1/6)
 - How to fold functions and other blocks of code?
 - How to run a line through an external program?
 - What is an buffer, exactly?
 - What are the sentence, paragraph, section text objects?
 - How to work with marks efficiently?
+- ~~How to reselect last visual selection?~~
 
 ## CSS (4/9)
 - How to use `&:first-child` and `& :first-child` properly?
