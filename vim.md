@@ -86,3 +86,9 @@ Everytime `teh` is typed, change it to `the`.
 `gv`
 
 ---
+
+**Insert a phrase x times**
+
+`50iWORD<ESC>`
+
+---
