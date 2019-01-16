@@ -98,11 +98,12 @@
 - `to jump the gun`
 - `we burst into tears`
 
-## React (0/4)
+## React (1/5)
 - Finite state machines, and their usage in UI workflows.
 - Explore `useState` hook in detail.
 - Explore `useReducer` in detail.
 - How to lazy load components with Suspense?
+- ~~Why user-defined components must be lower-cased in React?~~
 
 # Polish words (0/1)
 - kurtuazyjny

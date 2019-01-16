@@ -45,7 +45,7 @@ Because of performance, it's advisable to switch classes. There's no need to rer
 
 **Equivalent of anything that react acceps as a child**
 
-`React.propType node`
+`React.propType.node`
 
 ---
 
@@ -55,3 +55,12 @@ React listens on the entire document for a click events, then it sees the source
 
 ---
 
+
+**User-defined components must be capitalized**
+
+If you define a component that starts with a non-capitalized letter, React treats it as a built-in HTML tag e.g `div`.
+
+Tags are used to mark up the start and the end of an HTML element.
+Element is an opening tag, content and a closing tag.
+
+---
