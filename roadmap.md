@@ -76,7 +76,7 @@
 - ~~How to automatically truncate text when there's no enough space, and add three dots after it?~~
 - Is it good practice to nest a block inside another block in BEM?
 - What's a deal with namespaces for BEM?
-- Can I create a modifier for a block?
+- ~~Can I create a modifier for a block?~~
 - Research BEM articles to find more best practices.
 
 ## JS (4/6)

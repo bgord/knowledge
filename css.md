@@ -140,3 +140,9 @@ It's a pseudoselector which if used like below, applies a black background to th
 ```
 
 ---
+
+**Can I add a modifier for the block?**
+
+Yes - [source](https://seesparkbox.com/foundry/bem_by_example).
+
+---
