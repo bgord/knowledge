@@ -79,10 +79,8 @@
 - ~~Is it good practice to nest a block inside another block in BEM?~~
 - ~~What's a deal with namespaces for BEM?~~
 - ~~Can I create a modifier for a block?~~
-- Research BEM articles to find more best practices.
 - How to setup stylelint?
 - What are mixes in BEM?
-- Why the `form_size_m` syntax for modifiers?
 - How to separate appearance and positioning?
 
 ## JS (4/7)
