@@ -69,17 +69,20 @@
 - How to work with marks efficiently?
 - ~~How to reselect last visual selection?~~
 
-## CSS (4/10)
+## CSS (5/13)
 - How to use `&:first-child` and `& :first-child` properly?
 - ~~Custom properties aka CSS variables.~~
 - ~~How to benefit from `:focus-within` psuedoselector?~~
 - ~~How to perfectly center a plus inside a circle?~~
 - ~~How to automatically truncate text when there's no enough space, and add three dots after it?~~
-- Is it good practice to nest a block inside another block in BEM?
+- ~~Is it good practice to nest a block inside another block in BEM?~~
 - What's a deal with namespaces for BEM?
 - ~~Can I create a modifier for a block?~~
 - Research BEM articles to find more best practices.
 - How to setup stylelint?
+- What are mixes in BEM?
+- Why the `form_size_m` syntax for modifiers?
+- How to separate appearance and positioning?
 
 ## JS (4/7)
 - What is a `proxy` in JS? What can it be useful for?

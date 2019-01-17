@@ -38,7 +38,7 @@ accessible rich internet applications
 
 `<button aria-label="Close">X</button>`
 
-Provide a label for non-self-descriptive element for screen readers: 
+Provide a label for non-self-descriptive element for screen readers:
 
 ---
 
@@ -144,5 +144,11 @@ It's a pseudoselector which if used like below, applies a black background to th
 **Can I add a modifier for the block?**
 
 Yes - [source](https://seesparkbox.com/foundry/bem_by_example).
+
+---
+
+**Is it good practice to nest a block inside a block?**
+
+Yes, but you need to remember to remain modular, so any change in the first block cannot interefe with the second block.
 
 ---
