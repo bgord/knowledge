@@ -47,7 +47,7 @@
 - ~~How to create a `npm.sh` script to run npm inside a container?~~
 - How to implement Piotr's approach for static IP for adding a local domain for development?
 
-## UNIX (6/11)
+## UNIX (6/12)
 - ~~How to live-preview a file in the terminal? (tail)~~
 - ~~How to deal with the Sketch file on Linux?~~
 - How to retrieve a data from the n-th column and the n-th row from the CSV file?
@@ -60,6 +60,7 @@
 - How to setup a reverse proxy?
 - ~~What does `408` HTTP status mean?~~
 - ~~What is the `tee` command?~~
+- How to add arguments for a Makefile script?
 
 ## Vim (1/6)
 - How to fold functions and other blocks of code?
@@ -69,14 +70,14 @@
 - How to work with marks efficiently?
 - ~~How to reselect last visual selection?~~
 
-## CSS (5/13)
+## CSS (6/13)
 - How to use `&:first-child` and `& :first-child` properly?
 - ~~Custom properties aka CSS variables.~~
 - ~~How to benefit from `:focus-within` psuedoselector?~~
 - ~~How to perfectly center a plus inside a circle?~~
 - ~~How to automatically truncate text when there's no enough space, and add three dots after it?~~
 - ~~Is it good practice to nest a block inside another block in BEM?~~
-- What's a deal with namespaces for BEM?
+- ~~What's a deal with namespaces for BEM?~~
 - ~~Can I create a modifier for a block?~~
 - Research BEM articles to find more best practices.
 - How to setup stylelint?

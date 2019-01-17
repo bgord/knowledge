@@ -152,3 +152,15 @@ Yes - [source](https://seesparkbox.com/foundry/bem_by_example).
 Yes, but you need to remember to remain modular, so any change in the first block cannot interefe with the second block.
 
 ---
+
+**What are the namespaces in BEM?**
+
+Namespaces are prefixes in form of:
+- `c-card` for a card _component_
+- `l-grid` for a layout of the page (margins/padding/positioning) of component elements
+
+It makes the component independent of the context it's used. There's no need to modify its styles to match every context.
+
+---
+
+---
