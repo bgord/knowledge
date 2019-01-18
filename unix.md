@@ -142,3 +142,10 @@ It reads the standard input, and both writes it to the file, and displays on the
 `ls -alh | tee debug.file`
 
 ---
+
+**What does /usr /dev mean?**
+
+`/usr` means "universal system resources"
+`/dev` means "devices"
+
+---
