@@ -97,12 +97,12 @@ Some advices:
 - add @next-step for one task in each project
 - fix spellings and correct sentences
 
-## Journal
+### How to assign priorities?
 
-1. Write after 20, in addition to the notes taken during the day.
+`p1`
+- when a task is an absolute must-have (urgent payment, meeting)
+- it needs to happen, because it's a habit or activity I want to perform to have a non-zero day
 
-2. Questions I want to answer
-- What're the tasks done today that you're the most proud of?
-- Are you feeling good right now?
-- What are you grateful for?
-- What's on your mind right now?
+`p4`
+- when it's a trivial task, a quick search/addition/click
+- when it's really not something that needs to happen today, a nice-to-have
