@@ -1,5 +1,21 @@
 # Roadmap for 2019
 
+## TypeScript (0/14)
+- How to setup a TS for React?
+- How to setup a TS for Node?
+- How to lint a TS with ESLint?
+- How to type a standard variable with a primitive value?
+- How to add types to class/function components?
+- How to type a function argument/return value?
+- How to TS works for spread/rest operator?
+- What's a synthetic import?
+- What's a enum?
+- What's a union type?
+- What's a generic type?
+- What is an `interface`?
+- What is a `type`?
+- How to reuse interfaces/types?
+
 ## GIT (16/26)
 - ~~How to add files to the previous commit?~~
 - ~~What are the versions of the `git reset` behaviour?~~
@@ -47,7 +63,7 @@
 - ~~How to create a `npm.sh` script to run npm inside a container?~~
 - How to implement Piotr's approach for static IP for adding a local domain for development?
 
-## UNIX (6/12)
+## UNIX (6/14)
 - ~~How to live-preview a file in the terminal? (tail)~~
 - ~~How to deal with the Sketch file on Linux?~~
 - How to retrieve a data from the n-th column and the n-th row from the CSV file?
@@ -61,6 +77,7 @@
 - ~~What does `408` HTTP status mean?~~
 - ~~What is the `tee` command?~~
 - How to add arguments for a Makefile script?
+- What is the purpose of nginx?
 
 ## Vim (1/6)
 - How to fold functions and other blocks of code?
@@ -70,7 +87,7 @@
 - How to work with marks efficiently?
 - ~~How to reselect last visual selection?~~
 
-## CSS (6/13)
+## CSS (6/12)
 - How to use `&:first-child` and `& :first-child` properly?
 - ~~Custom properties aka CSS variables.~~
 - ~~How to benefit from `:focus-within` psuedoselector?~~
@@ -81,7 +98,8 @@
 - ~~Can I create a modifier for a block?~~
 - How to setup stylelint?
 - What are mixes in BEM?
-- How to separate appearance and positioning?
+- How does @font-face work?
+- What's a specificity and how to count it?
 
 ## JS (4/7)
 - What is a `proxy` in JS? What can it be useful for?
@@ -166,10 +184,6 @@
 - react-testing-library
 
 ## CSS
-- deepen knowledge of BEM
-  - block inside the block
-  - classes for wrappers
-  - namespaces
 - deepen knowledge of SCSS
 	- \# meaning
 	- mixins vs functions
@@ -197,13 +211,10 @@
 - one of the css-in-js libraries (emotion/styled-components?)
 	- setup & usage
 	- how to test it
-- custom properties (variables)
 - well-done animations
-- specificity
 - Tailwind CSS
 - typography
 - the most common aria-\* attributes
-- How does @font-face work?
 
 
 ## JS
@@ -223,12 +234,7 @@
 	- placeholders in Ramda
 - intersection observer
 
-## TypeScript
-- Understand how to add types to class/function components
-- How to reuse interfaces?
-
 ## Observables
-
 - What exactly is the stream?
 - How to create streams?
 - Basic operators
@@ -249,8 +255,6 @@
 - PostgreSQL
 - D3.js
 - Rust
-- Angular
-- Illustrations
 - Machine learning algorithms
 - Bash
 - MongoDB
