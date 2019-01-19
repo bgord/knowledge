@@ -79,13 +79,14 @@
 - How to add arguments for a Makefile script?
 - What is the purpose of nginx?
 
-## Vim (1/6)
+## Vim (2/7)
 - How to fold functions and other blocks of code?
 - How to run a line through an external program?
 - What is an buffer, exactly?
 - What are the sentence, paragraph, section text objects?
 - How to work with marks efficiently?
 - ~~How to reselect last visual selection?~~
+- ~~How to go to the beginning/end of the selection?~~
 
 ## CSS (6/12)
 - How to use `&:first-child` and `& :first-child` properly?

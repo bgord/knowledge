@@ -92,3 +92,9 @@ Everytime `teh` is typed, change it to `the`.
 `50iWORD<ESC>`
 
 ---
+
+**Go to to the beginning/end of the selection**
+
+`o`
+
+---
