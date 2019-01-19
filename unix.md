@@ -149,3 +149,32 @@ It reads the standard input, and both writes it to the file, and displays on the
 `/dev` means "devices"
 
 ---
+
+**Display exit code of the last command**
+
+Each command ends with a corresponding exit code.
+
+`$ echo $?`
+
+---
+
+**Assert if the command has been run successfully**
+
+Asserts exit code.
+
+```
+if tmux ls -F '#S' | grep -q 'dot'; then
+ echo "Command run successfully."
+fi
+```
+
+---
+
+**Hide grep ouput**
+
+Useful when trying to find things (and then asserting it).
+
+
+`$ cat filename.txt | grep -q 'dot'`
+
+---
