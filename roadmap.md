@@ -1,11 +1,9 @@
 # Roadmap for 2019
 
-## TypeScript (0/16)
-- How to setup a TS for React?
+## TypeScript (1/17)
 - How to setup a TS for Node?
 - How to lint a TS with ESLint?
-- How to type a standard variable with a primitive value?
-- How to add types to class/function components?
+- ~~How to type a standard variable with a primitive value?~~
 - How to type a function argument/return value?
 - How to TS works for spread/rest operator?
 - What's a synthetic import?
@@ -17,6 +15,9 @@
 - How to reuse interfaces/types?
 - What is `d.ts` file for?
 - How to get keys of interface/type?
+- What is tuple in TS?
+- What is type inference?
+- A types for a value that is null or a number?
 
 ## GIT (17/27)
 - ~~How to add files to the previous commit?~~
