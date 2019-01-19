@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## TypeScript (0/14)
+## TypeScript (0/16)
 - How to setup a TS for React?
 - How to setup a TS for Node?
 - How to lint a TS with ESLint?
@@ -9,14 +9,16 @@
 - How to type a function argument/return value?
 - How to TS works for spread/rest operator?
 - What's a synthetic import?
-- What's a enum?
+- What's an enum?
 - What's a union type?
 - What's a generic type?
 - What is an `interface`?
 - What is a `type`?
 - How to reuse interfaces/types?
+- What is `d.ts` file for?
+- How to get keys of interface/type?
 
-## GIT (16/26)
+## GIT (16/27)
 - ~~How to add files to the previous commit?~~
 - ~~What are the versions of the `git reset` behaviour?~~
 - ~~What does `git reset --hard` do?~~
@@ -43,8 +45,9 @@
 - What is a `..` and `...` operator?
 - ~~What is the working tree?~~
 - What do all the options in `git add -i` mean?
+- How to diff two files in different commits?
 
-## Docker (9/16)
+## Docker (9/17)
 - ~~Setup a container for node~~
 - ~~Make the ports available from the host~~
 - ~~Setup an env variable~~
@@ -63,7 +66,7 @@
 - ~~How to create a `npm.sh` script to run npm inside a container?~~
 - How to implement Piotr's approach for static IP for adding a local domain for development?
 
-## UNIX (6/14)
+## UNIX (6/17)
 - ~~How to live-preview a file in the terminal? (tail)~~
 - ~~How to deal with the Sketch file on Linux?~~
 - How to retrieve a data from the n-th column and the n-th row from the CSV file?
@@ -78,6 +81,9 @@
 - ~~What is the `tee` command?~~
 - How to add arguments for a Makefile script?
 - What is the purpose of nginx?
+- How to select a value from path in `jq`?
+- How to set a value for path in `jq`?
+- How to delete a key-value pair in `jq`?
 
 ## Vim (2/7)
 - How to fold functions and other blocks of code?
@@ -88,7 +94,7 @@
 - ~~How to reselect last visual selection?~~
 - ~~How to go to the beginning/end of the selection?~~
 
-## CSS (6/12)
+## CSS (6/16)
 - How to use `&:first-child` and `& :first-child` properly?
 - ~~Custom properties aka CSS variables.~~
 - ~~How to benefit from `:focus-within` psuedoselector?~~
@@ -101,8 +107,12 @@
 - What are mixes in BEM?
 - How does @font-face work?
 - What's a specificity and how to count it?
+- What does \# mean in the SCSS?
+- What is a mixin and function in SCSS?
+- How to write a conditional in SCSS?
+- How to write a loop in SCSS?
 
-## JS (4/7)
+## JS (4/18)
 - What is a `proxy` in JS? What can it be useful for?
 - What is a `state reducer pattern`?
 - ~~How to destructure only n-th value from the array?~~
@@ -110,21 +120,44 @@
 - ~~How does event bubbling work? How to stop the propagation?~~
 - ~~What is the difference between mergeDeepLeft and mergeDeepRight in Ramda?~~
 - What's a babel macro?
+- What's a mutation observer?
+- What's an intersection observer?
+- In-depth == vs === comparison.
+- Arrow function vs Regular function.
+- Function definition vs function declaration.
+- Arguments vs parameters.
+- How is Map different from object?
+- What are use cases for Set?
+- How to find an AST name of some part of the language?
+- What's a factory design pattern?
+- How to use placeholders (R.\_) in Ramda?
 
-## English (0/30)
+## English (0/5)
 - Explore "0 conditional".
 - Explore "1st conditional".
 - Explore "2nd conditional".
 - Explore "3rd conditional".
 - Explore "mixed conditional".
 
-## React (1/6)
+## React (1/18)
 - Finite state machines, and their usage in UI workflows.
 - Explore `useState` hook in detail.
 - Explore `useReducer` in detail.
 - How to lazy load components with Suspense?
 - ~~Why user-defined components must be lower-cased in React?~~
 - What is JSX pragma?
+- How to utilize a `useContext` hook to act like a Redux store? Context workflow.
+- Explore a `useEffect` hook in detail.
+- `useEffect` vs `useLayoutEffect`.
+- What's `useCallback` useful for?
+- What's `useMemo` useful for?
+- How to use refs in React? Explore `useRef` hook in detail.
+- What's `useImperativeHandle` for?
+- How to use `memo`?
+- What's a compound component pattern?
+- How to setup redux-observable?
+- Is it possible to create a higher order reducer?
+- How to test a basic counter in react-testing-library?
 
 # Polish words (0/1)
 - kurtuazyjny
@@ -135,32 +168,31 @@
 # Writing (1/1)
 - ~~When to use m-dash vs n-dash vs hyphen?~~
 
+## Observables
+- What exactly is the stream?
+- How to create streams?
+- Basic operators.
 
-> To refine
+## GraphQL
+- How to setup along the node & mongodb
 
-## React
-- hooks
-	- useEffect
-	- useLayoutEffect
-	- useContext
-	- useCallback
-	- useRef
-	- useImperativeMethods
-	- custom hooks
-- memo
-- compound components
-- redux-observable
-- higher-order-reducers
-- context
-- refs
-- react-testing-library
-
-## CSS
-- deepen knowledge of SCSS
-	- \# meaning
-	- mixins vs functions
-	- conditionals
-	- loops
+To refine:
+- sed
+- awk
+- grep
+- head
+- ssh
+- SVG
+- Vue
+- Storybook
+- Figma
+- PostgreSQL
+- D3.js
+- Rust
+- Machine learning algorithms
+- Bash
+- MongoDB
+- Firebase
 - in-depth flexbox (all properties I don't remember using)
 	- inline-flex
 	- order
@@ -187,47 +219,3 @@
 - Tailwind CSS
 - typography
 - the most common aria-\* attributes
-
-
-## JS
-
-- deepen knowledge of prototypes/classes
-- arrow functions vs regular functions
-- function definition vs function declaration
-- arguments vs parameters
-- proxy
-- mutation observer
-- in-depth == vs === difference
-- maps/sets
-- AST
-- design patterns
-	- factory
-- advanced functional patterns
-	- placeholders in Ramda
-- intersection observer
-
-## Observables
-- What exactly is the stream?
-- How to create streams?
-- Basic operators
-
-## GraphQL
-- How to setup along the node & mongodb
-
-## Others/Not confirmed ideas
-- sed
-- awk
-- grep
-- head
-- ssh
-- SVG
-- Vue
-- Storybook
-- Figma
-- PostgreSQL
-- D3.js
-- Rust
-- Machine learning algorithms
-- Bash
-- MongoDB
-- Firebase
