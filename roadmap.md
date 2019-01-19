@@ -94,7 +94,7 @@
 - ~~How to reselect last visual selection?~~
 - ~~How to go to the beginning/end of the selection?~~
 
-## CSS (6/16)
+## CSS (6/24)
 - How to use `&:first-child` and `& :first-child` properly?
 - ~~Custom properties aka CSS variables.~~
 - ~~How to benefit from `:focus-within` psuedoselector?~~
@@ -111,6 +111,14 @@
 - What is a mixin and function in SCSS?
 - How to write a conditional in SCSS?
 - How to write a loop in SCSS?
+- In depth relative vs absolute comparison.
+- In depth sticky vs fixed comparison.
+- What are typography best practices?
+- What is `inline-flex` useful for?
+- What is `inline-grid` useful for?
+- What is `minmax` function in CSS Grid?
+- When do `basis, shrinking, and growing` apply? What are the possible values?
+- What is `flex/flex-flow`?
 
 ## JS (4/18)
 - What is a `proxy` in JS? What can it be useful for?
@@ -162,8 +170,9 @@
 # Polish words (0/1)
 - kurtuazyjny
 
-# HTML (0/1)
+# HTML (0/2)
 - Choosing between `section` vs `div`.
+- What are the most common aria-\* attributes?
 
 # Writing (1/1)
 - ~~When to use m-dash vs n-dash vs hyphen?~~
@@ -193,29 +202,12 @@ To refine:
 - Bash
 - MongoDB
 - Firebase
-- in-depth flexbox (all properties I don't remember using)
-	- inline-flex
-	- order
-	- basis, shrinking, and growing
-	- align-content
-	- flex/flex-flow
-	- unknown values of all of the properties
-- in-depth css-grid (all properties I don't remember using)
-	- inline-grid
-	- named rows/columns
-	- template areas
-	- justify/align-content/place-content
-	- grid-auto-columns/rows
-	- grid-auto-flow
-	- minmax
-	- unknown values of all of the properties
-- deepen knowledge of positions
-	- relative and absolute
-	- sticky vs fixed
-- one of the css-in-js libraries (emotion/styled-components?)
-	- setup & usage
-	- how to test it
+- order
+- align-content
+- named rows/columns
+- template areas
+- justify/align-content/place-content
+- grid-auto-columns/rows
+- grid-auto-flow
 - well-done animations
 - Tailwind CSS
-- typography
-- the most common aria-\* attributes
