@@ -18,7 +18,7 @@
 - What is `d.ts` file for?
 - How to get keys of interface/type?
 
-## GIT (16/27)
+## GIT (17/27)
 - ~~How to add files to the previous commit?~~
 - ~~What are the versions of the `git reset` behaviour?~~
 - ~~What does `git reset --hard` do?~~
@@ -39,7 +39,7 @@
 - ~~How to delete untracked files with `git clean`?~~
 - ~~How to squash commits?~~
 - How to obtain useful logs with `git log`?
-- What does `git fetch` do? How is that different from `git pull`?
+- ~~What does `git fetch` do? How is that different from `git pull`?~~
 - What are `git submodules`? What are they useful for?
 - How to remove a file from all the git history?
 - What is a `..` and `...` operator?

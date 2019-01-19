@@ -180,3 +180,11 @@ The hosting service repository
 - an mirror of the local repository
 
 ---
+
+**What does `git fetch` do?**
+
+Gathers all the new commits, and branches/tags (collectively known as refs) from the remote(s) and stores them in the local repository, without touching a working tree. You can integrate those changes to the working tree by a `git merge`.
+
+When using `git pull`, git tries to perform this two commands for you.
+
+---
