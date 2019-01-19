@@ -64,3 +64,85 @@ Tags are used to mark up the start and the end of an HTML element.
 Element is an opening tag, content and a closing tag.
 
 ---
+
+**Hooks**
+
+It's better to say "function components" instead of "stateless components".
+
+Hooks don't work in the class components.
+
+Call hooks at the top level - don't do it in conditions, loops, nested functions, or JS functions.
+
+You can create a custom hook.
+
+**useState**
+
+You can pass whatever type of the default value. Not necessarily an object like in the class state. Null/undefined/number/string work too.
+
+`const [counter, setCounter] = useState(0);`
+
+You can use multiple useState hooks in one component.
+
+You can use `lazy evaluation` to pass an retrieve an initial value. Pass a function, that will be run only once, at the initial render. On the subsequent renders it won't be invoked.
+
+`const [value, setValue] = useState(() => longOperation());`
+
+You can Just Use™ hooks with TypeScript.
+
+Test it just like any other component. Don't rely on implementation details.
+
+---
+
+**Start create-react-app with TypeScript**
+
+`create-react-app MY_NEW_APP --typescript`
+
+---
+
+**How to set type of props of the functional component?**
+
+`const App: FC<{init: number}> = ({init}) => (<div />)`
+
+---
+
+**How to set type of props of the class component?**
+
+`class App extends React.Component<{IProps, IState}> {}`
+
+---
+
+**Testing**
+
+How can I get an element? These methods throw an error when element is not found.
+
+By text, label, test id, placeholder.
+
+```
+const {getByText} = render(<App />);
+getByText("score");
+getByText(/score/i); // don't look at casing
+```
+
+---
+
+**How to use data-testid?**
+
+```
+const App = () => <div data-testid="score">A</div>;
+
+const {getByTestId} = render(<App />);
+```
+
+---
+
+**How to fire an event?**
+
+```
+const App = () => <button>Increment</button>;
+
+const {getByText} = render(<App />);
+cosnt button = getByText(/increment/i);
+fireEvent.click(button);
+```
+
+---

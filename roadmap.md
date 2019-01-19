@@ -152,6 +152,8 @@
 - Finite state machines, and their usage in UI workflows.
 - Explore `useState` hook in detail.
 - Explore `useReducer` in detail.
+- ~~How to setup a TS for React?~~
+- ~~How to add types to class/function components?~~
 - How to lazy load components with Suspense?
 - ~~Why user-defined components must be lower-cased in React?~~
 - What is JSX pragma?
@@ -166,7 +168,9 @@
 - What's a compound component pattern?
 - How to setup redux-observable?
 - Is it possible to create a higher order reducer?
-- How to test a basic counter in react-testing-library?
+- ~~How to query for elements in r-t-l?~~
+- ~~How to fire events in r-t-l?~~
+- How to setup ESLint for hooks?
 
 # Polish words (0/1)
 - kurtuazyjny
