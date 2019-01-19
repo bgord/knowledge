@@ -103,23 +103,13 @@ It can precede the output with an filename, when displaying many of them.
 
 **Sketch file in Linux**
 
-Upload a `*.sketch` file to Figma
+Upload a `*.sketch` file to Figma, or Avocode.
 
 ---
 
 **Create a mapping for a combination with Alt key**
 
 `M-s` for Alt-S
-
----
-
-**Bash variable for all arguments**
-
-It doesn't store the binary name
-
-```
-echo $@
-```
 
 ---
 
@@ -147,26 +137,6 @@ It reads the standard input, and both writes it to the file, and displays on the
 
 `/usr` means "universal system resources"
 `/dev` means "devices"
-
----
-
-**Display exit code of the last command**
-
-Each command ends with a corresponding exit code.
-
-`$ echo $?`
-
----
-
-**Assert if the command has been run successfully**
-
-Asserts exit code.
-
-```
-if tmux ls -F '#S' | grep -q 'dot'; then
- echo "Command run successfully."
-fi
-```
 
 ---
 
