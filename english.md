@@ -52,3 +52,13 @@ Work form home
 Free and Open Source Software
 
 ---
+
+**Giving a reason**
+
+GOOD:
+`The reason I'm writing this article is that I...`
+
+WRONG:
+`The reason I'm writing this article is beacause...`
+
+---
