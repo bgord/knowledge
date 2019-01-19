@@ -62,3 +62,9 @@ WRONG:
 `The reason I'm writing this article is beacause...`
 
 ---
+
+**Tens vs dozens**
+
+It's more likely that in a dialect of the language that your interlocutor speaks uses a `dozens` than `tens` phrase.
+
+---
