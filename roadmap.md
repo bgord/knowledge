@@ -148,10 +148,11 @@
 - Explore "3rd conditional".
 - Explore "mixed conditional".
 
-## React (1/18)
+## React (6/23)
 - Finite state machines, and their usage in UI workflows.
-- Explore `useState` hook in detail.
-- Explore `useReducer` in detail.
+- What's a Strict Mode?
+- ~~Explore `useState` hook in detail.~~
+- ~~Explore `useReducer` in detail.~~
 - ~~How to setup a TS for React?~~
 - ~~How to add types to class/function components?~~
 - How to lazy load components with Suspense?

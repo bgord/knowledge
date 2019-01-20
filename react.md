@@ -102,6 +102,13 @@ Test it just like any other component. Don't rely on implementation details.
 **How to set type of props of the functional component?**
 
 `const App: FC<{init: number}> = ({init}) => (<div />)`
+or
+```
+type Props = {
+  init: number
+}
+const App: FC<Props> = ({init}) => (<div/>);
+```
 
 ---
 
@@ -144,5 +151,85 @@ const {getByText} = render(<App />);
 cosnt button = getByText(/increment/i);
 fireEvent.click(button);
 ```
+
+---
+
+**useReducer**
+
+It's used by `useState` internally. 
+`const [state, dispatch] = useReducer(reducer, initialState)`
+
+Reducer is a function with signature: `(state, action) => newState`.
+You can use a standard switch statement.
+
+```
+type State = {
+  count: number;
+};
+
+type Action = {
+  type: 'increment' | 'decrement' | 'reset';
+};
+
+const initialState: State = {
+  count: 1
+};
+
+const reducer = (state: StateTypes, action: Action) {
+  switch(action.type) {
+    case 'increment':
+      return {...state, count: state.count +1};
+    case 'decrement':
+      return {...state, count: state.count +1};
+    case 'reset':
+      return initialState;
+    default:
+      return state;
+  }
+};
+
+const [state, dispatch] = useReducer(reducer, initialState);
+```
+
+Or more of an object-based approach:
+
+```
+type State = {
+  count: number;
+};
+
+type Reducers = {
+  increment: ReducerFunction;
+  decrement: ReducerFunction;
+  reset: ReducerFunction;
+};
+
+type Actions = {
+  type: keyof Reducers;
+};
+
+type ReducerFunction = (action?: Actions) => (state: State) => State;
+
+const initialState: State = {
+  count: 0;
+};
+
+const increment: ReducerFunction = () => R.evolve({count: R.inc});
+const decrement: ReducerFunction = () => R.evolve({count: R.dec});
+const reset: ReducerFunction = () => R.always(initialState);
+
+const reducers: RT = {
+  increment,
+  decrement,
+  reset,
+};
+
+const reducer = (state: State, action: Actions): State => reducers[action.type](action)(type);
+
+const [state, dispatch] = useReducer(reducer, initialState);
+```
+
+To dispatch an action onClick:
+`<button onClick={() => dispatch({type: 'reset'})}>Increment</button>`
 
 ---
