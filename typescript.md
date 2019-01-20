@@ -75,3 +75,21 @@ You can pass them around, and export.
 `export interface Person {...};`
 
 ---
+
+**How to extend a interface?**
+
+Type aliases cannot be extended.
+
+```
+interface Action {
+    type: string;
+};
+
+interface PayloadAction extends Action {
+    payload?: {
+        step: 5
+    }
+
+```
+
+---
