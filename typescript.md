@@ -28,3 +28,42 @@ Also useful when a value can be e.g a string or null.
 `const payload = string | null;`
 
 ---
+
+**How to add types for objects? (type aliases, interfaces)**
+
+Use `type alias`:
+
+```
+type Action = {
+  type: string;
+  payload: {
+    step: number;
+  };
+}
+
+const action: Action = {
+  type: 'increment',
+  payload: {
+    step: 5
+  },
+}
+```
+
+A property in a `type alias` can be optional.
+
+```
+type Action = {
+  type: string;
+  payload?: {
+    step: number;
+  };
+};
+```
+
+Aliasing doesn't create a new type, it creates a new name for an existing type.
+
+Aliases cannot be extended
+
+A syntax for `interface` is the same, except of keyword.
+
+---
