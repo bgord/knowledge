@@ -158,3 +158,18 @@ const actions: Actions = {
 ```
 
 ---
+
+**How to partially apply a type to an object?**
+
+Given a user signature
+`interface User = { name: string; age: number; };`
+
+You can assign the `User` type to the `IncompleteUser` object:
+
+`const User: Partial<User> = { name: "bartek" };`
+
+`Partial<T>` looks like this under the hood:
+
+`type Partial<T> = { [P in keyof T]?: T[P]; };`
+
+---
