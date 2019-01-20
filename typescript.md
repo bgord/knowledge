@@ -93,3 +93,68 @@ interface PayloadAction extends Action {
 ```
 
 ---
+
+**What's an index signature?**
+
+Defines a structure of object.
+
+```
+interface Action {
+  [index: string]: {
+    type: string;
+  }
+}
+
+const action: Action = {
+  5: {
+    type: "increment"
+   } //
+}
+```
+
+Throws an error, 5 is not a string.
+
+```
+const action: Action = {
+  "increment" {
+    type: "standard"
+  } //
+}
+```
+
+Works fine, "increment" is a string.
+
+---
+
+**How to define a fixed set of possible object keys?**
+
+The code below throws an error, because an index cannot be a union-type.
+
+```
+type ActionTypes = 'increment' | 'decrement';
+
+type Action = {
+  [index: ActionTypes]: {
+    payload: any;
+  }
+}
+```
+
+The code below works as expected, it makes every key of the union-type a required key in the object.
+
+```
+type ActionTypes = 'increment' | 'decrement';
+
+type Actions = {
+  [key in ActionTypes]: {
+    payload: any;
+  };
+};
+
+const actions: Actions = {
+  'increment': {payload:{}},
+  'decrement': {payload:{}},
+}
+```
+
+---

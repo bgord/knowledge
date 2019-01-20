@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## TypeScript (5/22)
+## TypeScript (6/23)
 - How to setup a TS for Node?
 - How to lint a TS with ESLint?
 - What is a strict mode and how to enable it?
@@ -22,7 +22,8 @@
 - How to partially apply a type to an object?
 - What's a type guard?
 - How to use `readonly` and `const` keywords?
-- What are `indexable types`?
+- ~~What's an index signature?~~
+- How to type arrays?
 
 ## GIT (17/27)
 - ~~How to add files to the previous commit?~~
