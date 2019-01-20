@@ -16,3 +16,15 @@ const name: string = "Bartek";
 ```
 
 ---
+
+**What's a union-type?**
+
+Used when a variable can be one of couple of types/literals.
+
+`const type = 'increment' | 'decrement' | 'reset';`
+
+Also useful when a value can be e.g a string or null.
+
+`const payload = string | null;`
+
+---

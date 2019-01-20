@@ -3,12 +3,13 @@
 ## TypeScript (1/17)
 - How to setup a TS for Node?
 - How to lint a TS with ESLint?
+- What is a strict mode and how to enable it?
 - ~~How to type a standard variable with a primitive value?~~
 - How to type a function argument/return value?
 - How to TS works for spread/rest operator?
 - What's a synthetic import?
 - What's an enum?
-- What's a union type?
+- ~~What's a union type?~~
 - What's a generic type?
 - What is an `interface`?
 - What is a `type`?
@@ -18,6 +19,9 @@
 - What is tuple in TS?
 - What is type inference?
 - A types for a value that is null or a number?
+- How to extend a type/interface?
+- How to partially apply a type to an object?
+- What's a type guard?
 
 ## GIT (17/27)
 - ~~How to add files to the previous commit?~~
