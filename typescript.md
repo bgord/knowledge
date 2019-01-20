@@ -67,3 +67,11 @@ Aliases cannot be extended
 A syntax for `interface` is the same, except of keyword.
 
 ---
+
+**How to reuse aliases/interfaces?**
+
+You can pass them around, and export.
+
+`export interface Person {...};`
+
+---

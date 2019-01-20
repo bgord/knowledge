@@ -13,7 +13,7 @@
 - What's a generic type?
 - ~~What is an `interface`?~~
 - ~~What is a `type`?~~
-- How to reuse interfaces/types?
+- ~~How to reuse interfaces/types?~~
 - What is `d.ts` file for?
 - How to get keys of interface/type?
 - What is tuple in TS?
