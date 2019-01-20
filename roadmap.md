@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## TypeScript (7/24)
+## TypeScript (8/24)
 - How to setup a TS for Node?
 - How to lint a TS with ESLint?
 - What is a strict mode and how to enable it?
@@ -25,7 +25,6 @@
 - ~~What's an index signature?~~
 - How to type arrays?
 - What's a mapped type?
-- How to use `keyof` feature?
 
 ## GIT (17/27)
 - ~~How to add files to the previous commit?~~

@@ -173,3 +173,20 @@ You can assign the `User` type to the `IncompleteUser` object:
 `type Partial<T> = { [P in keyof T]?: T[P]; };`
 
 ---
+
+**How to get keys of interface/type alias?**
+
+Given interface below,
+
+```
+interface User {
+  name: string;
+  age: number;
+}
+```
+you can get a union of keys by:
+`type userKeys = keyof User;`
+
+The same works for type alias.
+
+---
