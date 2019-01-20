@@ -174,7 +174,7 @@ You can assign the `User` type to the `IncompleteUser` object:
 
 ---
 
-**How to get keys of interface/type alias?**
+**How to get prop names of interface/type alias?**
 
 Given interface below,
 
@@ -185,8 +185,25 @@ interface User {
 }
 ```
 you can get a union of keys by:
-`type userKeys = keyof User;`
+`type userKeys = keyof User; // 'name' | 'age'`
 
 The same works for type alias.
+
+---
+
+**How to get prop types of interface/type alias?**
+
+Given interface below,
+
+```
+interface User {
+  name: string;
+  age: number;
+}
+
+type userPropNames = keyof User;
+
+type userPropTypes = User[userPropNames];
+```
 
 ---

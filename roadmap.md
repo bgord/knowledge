@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## TypeScript (8/24)
+## TypeScript (9/24)
 - How to setup a TS for Node?
 - How to lint a TS with ESLint?
 - What is a strict mode and how to enable it?
@@ -19,12 +19,12 @@
 - What is tuple in TS?
 - A types for a value that is null or a number?
 - ~~How to extend a interface?~~
-- How to partially apply a type to an object?
+- ~~How to partially apply a type to an object?~~
 - What's a type guard?
 - How to use `readonly` and `const` keywords?
 - ~~What's an index signature?~~
 - How to type arrays?
-- What's a mapped type?
+- ~~How to get prop types of interface?~~
 
 ## GIT (17/27)
 - ~~How to add files to the previous commit?~~
