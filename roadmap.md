@@ -1,4 +1,4 @@
-# Roadmap for 2019
+/ Roadmap for 2019
 
 ## TypeScript (11/27)
 - How to setup a TS for Node?
@@ -20,7 +20,10 @@
 - A types for a value that is null or a number?
 - ~~How to extend a interface?~~
 - ~~How to partially apply a type to an object?~~
-- What's a type guard?
+- What is a type guard for?
+- What are the built-in type guards?
+- How to create a user-defined type guard?
+- What's a discriminated union?
 - How to use `readonly` and `const` keywords?
 - ~~What's an index signature?~~
 - How to type arrays?
@@ -28,6 +31,9 @@
 - Default types for generics.
 - Function type overloads.
 - ~~How to create reusable generics?~~
+- How to use Pick?
+- How to use Exclude?
+- What are intersection types?
 
 ## GIT (17/27)
 - ~~How to add files to the previous commit?~~

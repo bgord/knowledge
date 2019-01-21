@@ -262,13 +262,48 @@ interface withId<T> {
   [index: key]?: any;
 }
 
-const model: withId<T> {
+const model: withId<string> = {
   id: 123, // doesn't work
 }
 
-const model: withId<T> {
+const model: withId<string> = {
   id: "123", // works
 }
 ```
+
+---
+
+**What's a type guard? What are the built-in type guards?**
+
+When we need to specifically a type of one of the union types. E.g an argumen t is either `number` or `string`, and we can access `length` property of the string, but not of the number.
+
+A TS (just like JS) has two built-in type guards. `typeof` and `instanceof`.
+
+You can define your own type guards, which are just typed JS function.
+
+```
+interface Person {
+    name: string;
+    age: number;
+}
+
+function displayName(arg: string | Person): void {
+    if (typeof arg === 'string') {
+        console.log(arg); // TS knows that arg is a type of 'string'
+    }
+    else {
+        console.log(arg.name); // TS know that arg is a type of Person
+    }
+    
+}
+```
+
+**How to define a custom type guard?**
+
+To check whether an argument is `Person`.
+
+`function isPerson(x: any): x is Person {
+  return x instanceof Person;
+}`
 
 ---
