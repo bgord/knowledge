@@ -207,3 +207,68 @@ type userPropTypes = User[userPropNames];
 ```
 
 ---
+
+**Generics**
+
+Useful when you want to make e.g function reusable, so it works with many data types. A good example is identity function.
+
+```
+function identity(arg: any):any {
+  return arg;
+}
+
+const a = identity("x"); // a return type of `a` is any, not string
+```
+
+But when it's defined with `any` types, we lose a information about it. We can use a `type variable` to store a type of an argument.
+
+```
+function identity<T>(arg: T):T {
+  return arg;
+}
+
+const a = identity("X"); // inferred return type is the "x" literal
+const a = indentity<string>("x"); // inferred return type is "string"
+```
+
+We can use kind of validation with "extends" keyword.
+
+```
+interface model {
+  id: string;
+  age: number;
+}
+
+const model: model {
+  id: "123",
+  age: 22,
+}
+
+function getProp<T, K extends T>(obj: T, prop: K): T[K] {
+  return obj[keya];
+}
+
+const id = getProp(model, "id"); // id has a type of string
+const age = getProp(model, "age"); // id has a type of number
+```
+
+---
+
+**Creating reusable generic interfaces**
+
+```
+interface withId<T> {
+  id: T;
+  [index: key]?: any;
+}
+
+const model: withId<T> {
+  id: 123, // doesn't work
+}
+
+const model: withId<T> {
+  id: "123", // works
+}
+```
+
+---

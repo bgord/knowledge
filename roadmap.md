@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## TypeScript (9/24)
+## TypeScript (11/27)
 - How to setup a TS for Node?
 - How to lint a TS with ESLint?
 - What is a strict mode and how to enable it?
@@ -10,7 +10,7 @@
 - What's a synthetic import?
 - What's an enum?
 - ~~What's a union type?~~
-- What's a generic type?
+- ~~What's a generic type?~~
 - ~~What is an `interface`?~~
 - ~~What is a `type`?~~
 - ~~How to reuse interfaces/types?~~
@@ -25,6 +25,9 @@
 - ~~What's an index signature?~~
 - How to type arrays?
 - ~~How to get prop types of interface?~~
+- Default types for generics.
+- Function type overloads.
+- ~~How to create reusable generics?~~
 
 ## GIT (17/27)
 - ~~How to add files to the previous commit?~~
