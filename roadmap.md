@@ -1,6 +1,6 @@
-/ Roadmap for 2019
+# Roadmap for 2019
 
-## TypeScript (15/35)
+## TypeScript (15/36)
 - How to setup a TS for Node?
 - How to lint a TS with ESLint?
 - What is a strict mode and how to enable it?
@@ -18,6 +18,7 @@
 - How to get keys of interface/type?
 - What is tuple in TS?
 - A types for a value that is null or a number?
+- How to achieve NotNullable type?
 - ~~How to extend a interface?~~
 - ~~How to partially apply a type to an object?~~
 - ~~What is a type guard for?~~
@@ -35,7 +36,7 @@
 - How to use Exclude?
 - ~~What are intersection types?~~
 - What is 'never' in TS?
-- How to deal with mutually exclusive types?
+- How to deal with mutually exclusive types in intersections?
 
 ## GIT (17/27)
 - ~~How to add files to the previous commit?~~
