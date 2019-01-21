@@ -1,6 +1,6 @@
 / Roadmap for 2019
 
-## TypeScript (11/27)
+## TypeScript (15/35)
 - How to setup a TS for Node?
 - How to lint a TS with ESLint?
 - What is a strict mode and how to enable it?
@@ -20,9 +20,9 @@
 - A types for a value that is null or a number?
 - ~~How to extend a interface?~~
 - ~~How to partially apply a type to an object?~~
-- What is a type guard for?
-- What are the built-in type guards?
-- How to create a user-defined type guard?
+- ~~What is a type guard for?~~
+- ~~What are the built-in type guards?~~
+- ~~How to create a user-defined type guard?~~
 - What's a discriminated union?
 - How to use `readonly` and `const` keywords?
 - ~~What's an index signature?~~
@@ -33,7 +33,9 @@
 - ~~How to create reusable generics?~~
 - How to use Pick?
 - How to use Exclude?
-- What are intersection types?
+- ~~What are intersection types?~~
+- What is 'never' in TS?
+- How to deal with mutually exclusive types?
 
 ## GIT (17/27)
 - ~~How to add files to the previous commit?~~

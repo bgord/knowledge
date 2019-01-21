@@ -294,7 +294,6 @@ function displayName(arg: string | Person): void {
     else {
         console.log(arg.name); // TS know that arg is a type of Person
     }
-    
 }
 ```
 
@@ -305,5 +304,11 @@ To check whether an argument is `Person`.
 `function isPerson(x: any): x is Person {
   return x instanceof Person;
 }`
+
+---
+
+**What are intersection types?**
+
+When given type is an intersection of types x and y, it means that it must fulfill both type requirements.
 
 ---
