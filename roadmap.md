@@ -6,7 +6,7 @@
 - What is a strict mode and how to enable it?
 - ~~How to type a standard variable with a primitive value?~~
 - ~~How to type a function argument/return value?~~
-- How to TS works for spread/rest operator?
+- How TS works for spread/rest operator?
 - What's a synthetic import?
 - What's an enum?
 - ~~What's a union type?~~
@@ -114,7 +114,7 @@
 - ~~How to reselect last visual selection?~~
 - ~~How to go to the beginning/end of the selection?~~
 
-## CSS (6/24)
+## CSS (6/25)
 - How to use `&:first-child` and `& :first-child` properly?
 - ~~Custom properties aka CSS variables.~~
 - ~~How to benefit from `:focus-within` psuedoselector?~~
@@ -139,6 +139,7 @@
 - What is `minmax` function in CSS Grid?
 - When do `basis, shrinking, and growing` apply? What are the possible values?
 - What is `flex/flex-flow`?
+- What does `max/min-content` mean in `gtc`?
 
 ## JS (4/18)
 - What is a `proxy` in JS? What can it be useful for?
@@ -159,6 +160,9 @@
 - How to find an AST name of some part of the language?
 - What's a factory design pattern?
 - How to use placeholders (R.\_) in Ramda?
+- What's a symbol and what're it's advantages?
+- How to make a property private by using Symbol?
+- What's a tree-shaking and how does it work?
 
 ## English (0/5)
 - Explore "0 conditional".
@@ -167,14 +171,14 @@
 - Explore "3rd conditional".
 - Explore "mixed conditional".
 
-## React (6/23)
+## React (7/24)
 - Finite state machines, and their usage in UI workflows.
 - What's a Strict Mode?
 - ~~Explore `useState` hook in detail.~~
 - ~~Explore `useReducer` in detail.~~
 - ~~How to setup a TS for React?~~
 - ~~How to add types to class/function components?~~
-- How to lazy load components with Suspense?
+- ~~How to lazy load components with Suspense?~~
 - ~~Why user-defined components must be lower-cased in React?~~
 - What is JSX pragma?
 - How to utilize a `useContext` hook to act like a Redux store? Context workflow.
@@ -191,6 +195,7 @@
 - ~~How to query for elements in r-t-l?~~
 - ~~How to fire events in r-t-l?~~
 - How to setup ESLint for hooks?
+- How to test a component with lazy loading?
 
 # Polish words (0/1)
 - kurtuazyjny

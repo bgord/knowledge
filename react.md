@@ -233,3 +233,57 @@ To dispatch an action onClick:
 `<button onClick={() => dispatch({type: 'reset'})}>Increment</button>`
 
 ---
+
+**Alternative syntax for React Fragment**
+
+`const App: FC = () => (<>xxx</>);`
+
+---
+
+**Lazy load component with lazy and Suspense**
+
+A component that we are going to lazy load. Remember about a default export.
+
+```
+// Header.jsx
+
+import React, {FC} from 'react';
+
+const Header: FC = () => <h2>XD</h2>;
+
+export default Header;
+```
+
+```
+// App.jsx
+
+import React, {useState, FC, lazy, Suspense} from 'react';
+
+const Header = lazy(() => import('./Header'));
+
+const useToggle = (initialValue: boolean): [boolean, () => void] => {
+  const [on, setOn] = useState(initialValue);
+  const setToggle = () => setOn(!on);
+  return [on, setToggle];
+};
+
+const App: FC = () => {
+  const [showHeader, toggleHeader] = useToggle(false);
+  return (
+    <>
+      <div>
+        Header is shown:
+        <strong>{JSON.stringify(showHeader)}</strong>
+      </div>
+      <button onClick={() => toggleHeader()}>Toggle</button>
+      <Suspense fallback={<div>Loading...</div>}>
+        {showHeader && <Header />}
+      </Suspense>
+    </>
+  );
+};
+
+export default App;
+```
+
+---
