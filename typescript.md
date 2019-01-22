@@ -312,3 +312,15 @@ To check whether an argument is `Person`.
 When given type is an intersection of types x and y, it means that it must fulfill both type requirements.
 
 ---
+
+**How to type functions?**
+
+`const add = (x: number, y: number):number => x + y;`
+
+```
+type SIGNATURE = (x: number, y: number):number => x + y;
+
+const add: SIGNATURE = (x, y) => x + y;
+```
+
+---

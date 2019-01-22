@@ -1,11 +1,11 @@
 # Roadmap for 2019
 
-## TypeScript (15/36)
+## TypeScript (16/36)
 - How to setup a TS for Node?
 - How to lint a TS with ESLint?
 - What is a strict mode and how to enable it?
 - ~~How to type a standard variable with a primitive value?~~
-- How to type a function argument/return value?
+- ~~How to type a function argument/return value?~~
 - How to TS works for spread/rest operator?
 - What's a synthetic import?
 - What's an enum?
