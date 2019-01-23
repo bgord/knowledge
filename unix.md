@@ -148,3 +148,10 @@ Useful when trying to find things (and then asserting it).
 `$ cat filename.txt | grep -q 'dot'`
 
 ---
+
+**How to count words in the file?**
+
+`$ wc -w file.txt` // get a number of words
+`$ wc -l file.txt` // get a number of lines
+
+---

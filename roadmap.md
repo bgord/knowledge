@@ -62,7 +62,8 @@
 - ~~What does `git fetch` do? How is that different from `git pull`?~~
 - What are `git submodules`? What are they useful for?
 - How to remove a file from all the git history?
-- What is a `..` and `...` operator?
+- What is a `..` operator?
+- What is a `...` operator?
 - ~~What is the working tree?~~
 - What do all the options in `git add -i` mean?
 - How to diff two files in different commits?
@@ -240,4 +241,3 @@ To refine:
 - grid-auto-columns/rows
 - grid-auto-flow
 - well-done animations
-- Tailwind CSS
