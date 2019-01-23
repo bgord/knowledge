@@ -287,3 +287,26 @@ export default App;
 ```
 
 ---
+
+**How to useEffect?**
+
+It's a hook when you should perform all the side-effects.
+
+You can think of it as a `componentDidMount`, `componentDidUpdate` and `componentWillUnmount` combined.
+
+There are two kinds of side-effects. Those which require a cleanup and those which don't. 
+
+We don't need to duplicate code/logic between lifecycles.
+
+By default `useEffect` hook describes an operation that performs after the first render and on each update. React guarantees the DOM has been updated before the hook is run.
+
+API:
+`useEffect(() => { document.title = "xxx"; return () => {console.log("cleanup")} })`
+
+On each render the function that is passed will be new. That's intentional, so we can access a current state etc. Each effect belongs to the particular render.
+
+There'are a lot of bugs coming from not handling a componentDidUpdate scenario.
+
+To make React skip applying an effect, pass an array with variable that changes will be tracked. An empty array means that the effect will be applied on initial render and unmount.
+
+---

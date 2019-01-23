@@ -37,6 +37,8 @@
 - ~~What are intersection types?~~
 - What is 'never' in TS?
 - How to deal with mutually exclusive types in intersections?
+- How to type React form events?
+- How to type a response from API?
 
 ## GIT (17/27)
 - ~~How to add files to the previous commit?~~
@@ -197,6 +199,7 @@
 - ~~How to fire events in r-t-l?~~
 - How to setup ESLint for hooks?
 - How to test a component with lazy loading?
+- How to create a universal fetcher with `useEffect` hook?
 
 # Polish words (0/1)
 - kurtuazyjny
