@@ -126,7 +126,7 @@
 - ~~Is it good practice to nest a block inside another block in BEM?~~
 - ~~What's a deal with namespaces for BEM?~~
 - ~~Can I create a modifier for a block?~~
-- How to setup stylelint?
+- ~~How to setup stylelint?~~
 - What are mixes in BEM?
 - How does @font-face work?
 - What's a specificity and how to count it?
