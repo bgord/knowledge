@@ -159,3 +159,10 @@ R.mergeDeepRight(first, second); // take the RIGHT object and apply it on top of
 ```
 
 ---
+
+**parameters vs arguments**
+
+Parameter is a variable in function definition.
+Argument is a data passed to a called function to parameter.
+
+---

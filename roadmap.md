@@ -141,7 +141,7 @@
 - What is `flex/flex-flow`?
 - What does `max/min-content` mean in `gtc`?
 
-## JS (4/18)
+## JS (5/18)
 - What is a `proxy` in JS? What can it be useful for?
 - What is a `state reducer pattern`?
 - ~~How to destructure only n-th value from the array?~~
@@ -154,7 +154,7 @@
 - In-depth == vs === comparison.
 - Arrow function vs Regular function.
 - Function definition vs function declaration.
-- Arguments vs parameters.
+- ~~Arguments vs parameters.~~
 - How is Map different from object?
 - What are use cases for Set?
 - How to find an AST name of some part of the language?
