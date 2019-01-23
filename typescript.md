@@ -324,3 +324,23 @@ const add: SIGNATURE = (x, y) => x + y;
 ```
 
 ---
+
+**Enum and tuple**
+
+Enum is a kind of lookup table. But it's not recommended.
+
+```
+enum Cheese {
+  Brie,
+  Chedar
+}
+```
+
+Tuple limits number and types in array.
+
+```
+type args = [string, number];
+const ARGS: args = ["2", 2];
+```
+
+---

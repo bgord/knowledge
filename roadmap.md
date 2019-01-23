@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## TypeScript (16/36)
+## TypeScript (18/36)
 - How to setup a TS for Node?
 - How to lint a TS with ESLint?
 - What is a strict mode and how to enable it?
@@ -8,7 +8,7 @@
 - ~~How to type a function argument/return value?~~
 - How TS works for spread/rest operator?
 - What's a synthetic import?
-- What's an enum?
+- ~~What's an enum?~~
 - ~~What's a union type?~~
 - ~~What's a generic type?~~
 - ~~What is an `interface`?~~
@@ -16,7 +16,7 @@
 - ~~How to reuse interfaces/types?~~
 - What is `d.ts` file for?
 - How to get keys of interface/type?
-- What is tuple in TS?
+- ~~What is tuple in TS?~~
 - A types for a value that is null or a number?
 - How to achieve NotNullable type?
 - ~~How to extend a interface?~~
