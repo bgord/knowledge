@@ -1,44 +1,43 @@
 # Roadmap for 2019
 
-## TypeScript (19/36)
-- How to setup a TS for Node?
+## TypeScript (19/37)
+- How to type React form events?
+- How to get keys of interface/type?
+- How TS works for spread/rest operator?
+- A types for a value that is null or a number?
+- How to achieve NotNullable type?
+- What's a discriminated union?
 - How to lint a TS with ESLint?
+- Default types for generics.
+- Function type overloads.
+- What's a synthetic import?
+- How to deal with mutually exclusive types in intersections?
+- How to use Pick?
+- How to use Exclude?
+- How to use `readonly` and `const` keywords?
+- What is 'never' in TS?
+- What is `d.ts` file for?
+- How to setup a TS for Node?
 - What is a strict mode and how to enable it?
 - ~~How to type a standard variable with a primitive value?~~
 - ~~How to type a function argument/return value?~~
-- How TS works for spread/rest operator?
-- What's a synthetic import?
 - ~~What's an enum?~~
 - ~~What's a union type?~~
 - ~~What's a generic type?~~
 - ~~What is an `interface`?~~
 - ~~What is a `type`?~~
 - ~~How to reuse interfaces/types?~~
-- What is `d.ts` file for?
-- How to get keys of interface/type?
 - ~~What is tuple in TS?~~
-- A types for a value that is null or a number?
-- How to achieve NotNullable type?
 - ~~How to extend a interface?~~
 - ~~How to partially apply a type to an object?~~
 - ~~What is a type guard for?~~
 - ~~What are the built-in type guards?~~
 - ~~How to create a user-defined type guard?~~
-- What's a discriminated union?
-- How to use `readonly` and `const` keywords?
 - ~~What's an index signature?~~
 - ~~How to type arrays?~~
 - ~~How to get prop types of interface?~~
-- Default types for generics.
-- Function type overloads.
 - ~~How to create reusable generics?~~
-- How to use Pick?
-- How to use Exclude?
 - ~~What are intersection types?~~
-- What is 'never' in TS?
-- How to deal with mutually exclusive types in intersections?
-- How to type React form events?
-- How to type a response from API?
 
 ## GIT (17/27)
 - ~~How to add files to the previous commit?~~
