@@ -88,23 +88,24 @@
 - ~~How to access shell inside a container?~~
 - ~~How to create a `npm.sh` script to run npm inside a container?~~
 
-## UNIX (6/17)
-- ~~How to live-preview a file in the terminal? (tail)~~
-- ~~How to deal with the Sketch file on Linux?~~
-- How to retrieve a data from the n-th column and the n-th row from the CSV file?
-- How to change a data from the n-th column and the n-th row from the CSV file?
-- How to sum numbers from the n-th column from the CSV file?
-- ~~How to create mappings with the `Alt` key?~~
+## UNIX (6/16)
 - What does `$@` command mean?
-- ~~How to unzip a file to directory?~~
 - What's a reverse proxy?
 - How to setup a reverse proxy?
-- ~~What does `408` HTTP status mean?~~
-- ~~What is the `tee` command?~~
-- How to add arguments for a Makefile script?
 - What is the purpose of nginx?
 - How to select a value from path in `jq`?
 - How to set a value for path in `jq`?
+- How to retrieve a data from the n-th column and the n-th row from the CSV file?
+- How to change a data from the n-th column and the n-th row from the CSV file?
+- How to sum numbers from the n-th column from the CSV file?
+- How to add arguments for a Makefile script?
+- ~~How to live-preview a file in the terminal? (tail)~~
+- ~~How to deal with the Sketch file on Linux?~~
+- ~~How to create mappings with the `Alt` key?~~
+- ~~How to unzip a file to directory?~~
+- ~~What does `408` HTTP status mean?~~
+- ~~What is the `tee` command?~~
+
 ## Vim (2/7)
 - How to fold functions and other blocks of code?
 - How to run a line through an external program?
