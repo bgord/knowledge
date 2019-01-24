@@ -183,7 +183,7 @@
 - ~~Why user-defined components must be lower-cased in React?~~
 - What is JSX pragma?
 - How to utilize a `useContext` hook to act like a Redux store? Context workflow.
-- Explore a `useEffect` hook in detail.
+- ~~Explore a `useEffect` hook in detail.~~
 - `useEffect` vs `useLayoutEffect`.
 - What's `useCallback` useful for?
 - What's `useMemo` useful for?
@@ -198,7 +198,8 @@
 - How to setup ESLint for hooks?
 - How to test a component with lazy loading?
 - How to create a universal fetcher with `useEffect` hook?
-- How to test a components with useEffect?
+- How to test a components with useEffect (document title)?
+- How to test a components with useEffect (data fetcher)?
 - ~~What happens when a key of the element changes?~~
 - What's the difference between controlled and uncontrolled component?
 
