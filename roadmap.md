@@ -70,23 +70,23 @@
 - ~~What is the working tree?~~
 
 ## Docker (9/17)
+- How does docker-compose work?
+- How to setup a MongoDB container?
+- How to access a DB inside the container on the host machine?
+- How to access a DB inside another container?
+- How to retain MongoDB database in the container?
+- How to backup MongoDB in the container?
+- A `docker-compose.yml` file for the express/MongoDB setup.
+- How to implement Piotr's approach for static IP for adding a local domain for development?
 - ~~Setup a container for node~~
 - ~~Make the ports available from the host~~
 - ~~Setup an env variable~~
 - ~~How to create a custom domain for local development?~~
 - ~~How to bind a volume to a container?~~
-- How to setup a MongoDB container?
-- How to access a DB inside the container on the host machine?
-- How to access a DB inside another container?
-- How does docker-compose work?
-- A `docker-compose.yml` file for the express/MongoDB setup.
-- How to retain MongoDB database in the container?
-- How to backup MongoDB in the container?
 - ~~What's the difference between `expose` and `publish` mechanisms?~~
 - ~~How to display all port related mappings for the container?~~
 - ~~How to access shell inside a container?~~
 - ~~How to create a `npm.sh` script to run npm inside a container?~~
-- How to implement Piotr's approach for static IP for adding a local domain for development?
 
 ## UNIX (6/17)
 - ~~How to live-preview a file in the terminal? (tail)~~
