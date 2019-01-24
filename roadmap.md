@@ -39,15 +39,24 @@
 - ~~How to create reusable generics?~~
 - ~~What are intersection types?~~
 
-## GIT (17/27)
+## GIT (17/28)
+- How to rebase? What is `git rebase -i` useful for?
+- How to diff two files in different commits?
+- What to do when branches have diverged?
+- What does `git pull --rebase` do?
+- What are `git submodules`? What are they useful for?
+- What is a `..` operator?
+- What is a `...` operator?
+- How to obtain useful logs with `git log`?
+- How to remove a file from all the git history?
+- How to use `--dry-run` for the most common commands?
+- What do all the options in `git add -i` mean?
 - ~~How to add files to the previous commit?~~
 - ~~What are the versions of the `git reset` behaviour?~~
 - ~~What does `git reset --hard` do?~~
 - ~~What does `git reset --mixed` do?~~
 - ~~What does `git reset --soft` do?~~
 - ~~How to unstage all changes? (`git reset`/`git reset <path>`)~~
-- How to rebase? What is `git rebase -i` useful for?
-- What does `git pull --rebase` do?
 - ~~How does cherry-pick work?~~
 - ~~How to setup an alias like `g st` - `git status`~~
 - ~~How to checkout all files?~~
@@ -55,19 +64,10 @@
 - ~~What does `git revert` do?~~
 - ~~How to include untracked files in `git diff`?~~
 - ~~What are the three main git areas?~~
-- What to do when branches have diverged?
-- How to use `--dry-run` for the most common commands?
 - ~~How to delete untracked files with `git clean`?~~
 - ~~How to squash commits?~~
-- How to obtain useful logs with `git log`?
 - ~~What does `git fetch` do? How is that different from `git pull`?~~
-- What are `git submodules`? What are they useful for?
-- How to remove a file from all the git history?
-- What is a `..` operator?
-- What is a `...` operator?
 - ~~What is the working tree?~~
-- What do all the options in `git add -i` mean?
-- How to diff two files in different commits?
 
 ## Docker (9/17)
 - ~~Setup a container for node~~
