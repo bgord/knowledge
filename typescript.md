@@ -344,3 +344,15 @@ const ARGS: args = ["2", 2];
 ```
 
 ---
+
+**How to type arrays?**
+
+There are two ways to type an array:
+
+`const users: User[] = [{name: "x", age: 21}, {name: "y", age: 22}];`
+
+and with generic type
+
+`const users: Array<User> = [{name: "x", age: 21}, {name: "y", age: 22}];`
+
+---

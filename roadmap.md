@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## TypeScript (18/36)
+## TypeScript (19/36)
 - How to setup a TS for Node?
 - How to lint a TS with ESLint?
 - What is a strict mode and how to enable it?
@@ -27,7 +27,7 @@
 - What's a discriminated union?
 - How to use `readonly` and `const` keywords?
 - ~~What's an index signature?~~
-- How to type arrays?
+- ~~How to type arrays?~~
 - ~~How to get prop types of interface?~~
 - Default types for generics.
 - Function type overloads.
