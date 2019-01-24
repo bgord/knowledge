@@ -107,10 +107,10 @@
 - ~~What is the `tee` command?~~
 
 ## Vim (2/7)
-- How to fold functions and other blocks of code?
-- How to run a line through an external program?
 - What is an buffer, exactly?
+- How to run a line through an external program?
 - What are the sentence, paragraph, section text objects?
+- How to fold functions and other blocks of code?
 - How to work with marks efficiently?
 - ~~How to reselect last visual selection?~~
 - ~~How to go to the beginning/end of the selection?~~
