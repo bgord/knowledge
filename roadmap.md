@@ -106,8 +106,6 @@
 - What is the purpose of nginx?
 - How to select a value from path in `jq`?
 - How to set a value for path in `jq`?
-- How to delete a key-value pair in `jq`?
-
 ## Vim (2/7)
 - How to fold functions and other blocks of code?
 - How to run a line through an external program?
@@ -200,6 +198,9 @@
 - How to setup ESLint for hooks?
 - How to test a component with lazy loading?
 - How to create a universal fetcher with `useEffect` hook?
+- How to test a components with useEffect?
+- ~~What happens when a key of the element changes?~~
+- What's the difference between controlled and uncontrolled component?
 
 # Polish words (0/1)
 - kurtuazyjny

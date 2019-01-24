@@ -305,8 +305,43 @@ API:
 
 On each render the function that is passed will be new. That's intentional, so we can access a current state etc. Each effect belongs to the particular render.
 
-There'are a lot of bugs coming from not handling a componentDidUpdate scenario.
+There are a lot of bugs coming from not handling a componentDidUpdate scenario.
 
 To make React skip applying an effect, pass an array with variable that changes will be tracked. An empty array means that the effect will be applied on initial render and unmount.
+
+---
+
+**What happens when the key of the element changes?**
+
+When an component's key has changed, React will unmount the component and mount a new instance of it.
+
+```
+function Counter() {
+  const [counter, setCounter] = useState(0);
+  return (
+    <div>
+      {counter}
+      <button
+        onClick={() => setCounter(counter + 1)}
+      >
+        Add
+      </button>
+    </div>
+  );
+}
+
+function App() {
+  const [key, setKey] = useState("default");
+  return (
+    <div className="App">
+      <Counter key={key} />
+      {key}
+      <button onClick={() => setKey('newone')}>
+        Change key
+      </button>
+    </div>
+  );
+}
+```
 
 ---
