@@ -115,16 +115,8 @@
 - ~~How to reselect last visual selection?~~
 - ~~How to go to the beginning/end of the selection?~~
 
-## CSS (6/25)
+## CSS (8/25)
 - How to use `&:first-child` and `& :first-child` properly?
-- ~~Custom properties aka CSS variables.~~
-- ~~How to benefit from `:focus-within` psuedoselector?~~
-- ~~How to perfectly center a plus inside a circle?~~
-- ~~How to automatically truncate text when there's no enough space, and add three dots after it?~~
-- ~~Is it good practice to nest a block inside another block in BEM?~~
-- ~~What's a deal with namespaces for BEM?~~
-- ~~Can I create a modifier for a block?~~
-- ~~How to setup stylelint?~~
 - What are mixes in BEM?
 - How does @font-face work?
 - What's a specificity and how to count it?
@@ -141,6 +133,14 @@
 - When do `basis, shrinking, and growing` apply? What are the possible values?
 - What is `flex/flex-flow`?
 - What does `max/min-content` mean in `gtc`?
+- ~~Custom properties aka CSS variables.~~
+- ~~How to benefit from `:focus-within` psuedoselector?~~
+- ~~How to perfectly center a plus inside a circle?~~
+- ~~How to automatically truncate text when there's no enough space, and add three dots after it?~~
+- ~~Is it good practice to nest a block inside another block in BEM?~~
+- ~~What's a deal with namespaces for BEM?~~
+- ~~Can I create a modifier for a block?~~
+- ~~How to setup stylelint?~~
 
 ## JS (5/18)
 - What is a `proxy` in JS? What can it be useful for?
