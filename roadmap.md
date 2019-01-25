@@ -145,28 +145,28 @@
 - ~~Can I create a modifier for a block?~~
 - ~~How to setup stylelint?~~
 
-## JS (5/18)
-- What is a `proxy` in JS? What can it be useful for?
+## JS (5/21)
+- In-depth == vs === comparison.
 - What is a `state reducer pattern`?
-- ~~How to destructure only n-th value from the array?~~
-- ~~How to assert if function throws an error?~~
-- ~~How does event bubbling work? How to stop the propagation?~~
-- ~~What is the difference between mergeDeepLeft and mergeDeepRight in Ramda?~~
+- What is a `proxy` in JS? What can it be useful for?
+- How to make a property private by using Symbol?
 - What's a babel macro?
 - What's a mutation observer?
 - What's an intersection observer?
-- In-depth == vs === comparison.
 - Arrow function vs Regular function.
 - Function definition vs function declaration.
-- ~~Arguments vs parameters.~~
 - How is Map different from object?
 - What are use cases for Set?
 - How to find an AST name of some part of the language?
 - What's a factory design pattern?
-- How to use placeholders (R.\_) in Ramda?
 - What's a symbol and what're it's advantages?
-- How to make a property private by using Symbol?
 - What's a tree-shaking and how does it work?
+- How to use placeholders (R.\_) in Ramda?
+- ~~How to destructure only n-th value from the array?~~
+- ~~How to assert if function throws an error?~~
+- ~~How does event bubbling work? How to stop the propagation?~~
+- ~~What is the difference between mergeDeepLeft and mergeDeepRight in Ramda?~~
+- ~~Arguments vs parameters.~~
 
 ## English (0/5)
 - Explore "0 conditional".
@@ -175,39 +175,39 @@
 - Explore "3rd conditional".
 - Explore "mixed conditional".
 
-## React (7/24)
+## React (13/32)
+- How to test a component with lazy loading?
+- `useEffect` vs `useLayoutEffect`.
+- How to create a universal fetcher with `useEffect` hook?
+- How to test a components with useEffect (data fetcher)?
+- How to utilize a `useContext` hook to make it act like a Redux store? Context workflow.
+- How to use refs in React? Explore `useRef` hook in detail.
+- How to use `memo`?
+- What's `useCallback` useful for?
+- What's `useMemo` useful for?
+- What's `useImperativeHandle` for?
+- How to setup ESLint for hooks?
 - Finite state machines, and their usage in UI workflows.
 - What's a Strict Mode?
+- What is JSX pragma?
+- What's a compound component pattern?
+- How to setup redux-observable?
+- Is it possible to create a higher order reducer?
+- What's the difference between controlled and uncontrolled component?
+- How to use axe to improve a11y?
+- ~~Explore a `useEffect` hook in detail.~~
+- ~~How to query for elements in r-t-l?~~
+- ~~How to fire events in r-t-l?~~
+- ~~How to test a components with useEffect (document title)?~~
+- ~~How to access document title etc. in r-t-l?~~
+- ~~How to access value of the input in r-t-l?~~
+- ~~What happens when a key of the element changes?~~
 - ~~Explore `useState` hook in detail.~~
 - ~~Explore `useReducer` in detail.~~
 - ~~How to setup a TS for React?~~
 - ~~How to add types to class/function components?~~
 - ~~How to lazy load components with Suspense?~~
 - ~~Why user-defined components must be lower-cased in React?~~
-- What is JSX pragma?
-- How to utilize a `useContext` hook to act like a Redux store? Context workflow.
-- ~~Explore a `useEffect` hook in detail.~~
-- `useEffect` vs `useLayoutEffect`.
-- What's `useCallback` useful for?
-- What's `useMemo` useful for?
-- How to use refs in React? Explore `useRef` hook in detail.
-- What's `useImperativeHandle` for?
-- How to use `memo`?
-- What's a compound component pattern?
-- How to setup redux-observable?
-- Is it possible to create a higher order reducer?
-- ~~How to query for elements in r-t-l?~~
-- ~~How to fire events in r-t-l?~~
-- How to setup ESLint for hooks?
-- How to test a component with lazy loading?
-- How to create a universal fetcher with `useEffect` hook?
-- ~~How to test a components with useEffect (document title)?~~
-- ~~How to access document title etc. in r-t-l?~~
-- ~~How to access value of the input in r-t-l?~~
-- How to test a components with useEffect (data fetcher)?
-- ~~What happens when a key of the element changes?~~
-- What's the difference between controlled and uncontrolled component?
-- How to use axe to improve a11y?
 
 # Polish words (0/1)
 - kurtuazyjny
@@ -219,13 +219,13 @@
 # Writing (1/1)
 - ~~When to use m-dash vs n-dash vs hyphen?~~
 
-## Observables
+## Observables (0/3)
 - What exactly is the stream?
 - How to create streams?
-- Basic operators.
+- What are the basic operators?
 
-## GraphQL
-- How to setup along the node & mongodb
+## GraphQL (0/1)
+- How to setup GraphQL along the Node & MongoDB?
 
 To refine:
 - sed
