@@ -207,6 +207,7 @@
 - How to test a components with useEffect (data fetcher)?
 - ~~What happens when a key of the element changes?~~
 - What's the difference between controlled and uncontrolled component?
+- How to use axe to improve a11y?
 
 # Polish words (0/1)
 - kurtuazyjny

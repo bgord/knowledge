@@ -363,11 +363,17 @@ const {rerender} = render(<App />);
 `window.document.title`
 ---
 
+**Why do we need to specify the type of event target?**
+
+There can be many types of the event target, be it an element, xhr, audio context. So we need to explicitly cast the target to the specific type.
+
+`const element = e.target as HTMLInputElement;`
+
+---
+
 **How to access a value of input in TypeScript?**
 
 `const input = getByLabelText(/name/i) as HTMLInputElement;`
-
-The problem is that TypeScript doesn't know that the node that's a target of React Synthetic Event is HTMLInputElement, so we need to cast it.
 
 **How to fire "change" event in r-t-l?**
 
