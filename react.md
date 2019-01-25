@@ -142,7 +142,7 @@ const {getByTestId} = render(<App />);
 
 ---
 
-**How to fire an event?**
+**How to fire a click event in r-t-l?**
 
 ```
 const App = () => <button>Increment</button>;
@@ -342,6 +342,38 @@ function App() {
     </div>
   );
 }
+```
+
+---
+
+**How to test components that utilize useEffect?**
+
+After you render a component that performs some side effects within useEffect, and you want to see the results, you need to rerender it. Body passed to the useEffect hook is executed **after** the render is committed.
+
+```
+const {rerender} = render(<App />);
+  rerender(<App />);
+  expect(window.document.title).toEqual('Current name: <empty>');
+```
+
+---
+
+**How to access document title in tests?**
+
+`window.document.title`
+---
+
+**How to access a value of input in TypeScript?**
+
+`const input = getByLabelText(/name/i) as HTMLInputElement;`
+
+The problem is that TypeScript doesn't know that the node that's a target of React Synthetic Event is HTMLInputElement, so we need to cast it.
+
+**How to fire "change" event in r-t-l?**
+
+```
+const input = getByLabelText(/name/i) as HTMLInputElement;
+fireEvent.change(input, {target: {value: "Johnny"}});
 ```
 
 ---

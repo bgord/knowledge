@@ -201,7 +201,9 @@
 - How to setup ESLint for hooks?
 - How to test a component with lazy loading?
 - How to create a universal fetcher with `useEffect` hook?
-- How to test a components with useEffect (document title)?
+- ~~How to test a components with useEffect (document title)?~~
+- ~~How to access document title etc. in r-t-l?~~
+- ~~How to access value of the input in r-t-l?~~
 - How to test a components with useEffect (data fetcher)?
 - ~~What happens when a key of the element changes?~~
 - What's the difference between controlled and uncontrolled component?
