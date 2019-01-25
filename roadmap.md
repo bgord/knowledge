@@ -1,7 +1,8 @@
 # Roadmap for 2019
 
 ## TypeScript (19/37)
-- How to type React form events?
+- How to type React input focus events?
+- How to type React select/checkbox events?
 - How to get keys of interface/type?
 - How TS works for spread/rest operator?
 - A types for a value that is null or a number?
@@ -19,6 +20,8 @@
 - What is `d.ts` file for?
 - How to setup a TS for Node?
 - What is a strict mode and how to enable it?
+- ~~How to type React input events?~~
+- ~~How to type React submit events?~~
 - ~~How to type a standard variable with a primitive value?~~
 - ~~How to type a function argument/return value?~~
 - ~~What's an enum?~~

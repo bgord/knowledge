@@ -356,3 +356,15 @@ and with generic type
 `const users: Array<User> = [{name: "x", age: 21}, {name: "y", age: 22}];`
 
 ---
+
+**How to type input values?**
+
+`const handleChange = (e: React.ChangeEvent<HTMLInputElement>): void => setName(e.currentTarget.value);`
+
+---
+
+**How to type submit values?**
+
+`const handleSubmit = (e: React.FormEvent<HTMLFormElement>): void => {console.log(e);};`
+
+---
