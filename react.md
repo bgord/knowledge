@@ -383,3 +383,11 @@ fireEvent.change(input, {target: {value: "Johnny"}});
 ```
 
 ---
+
+**How to test lazy-loaded components?**
+
+Use `wait`/`waitForElement` async functions. The former runs the next event loop tick, and the latter uses a mutation observer to check if the callback doesn't throw an error.
+
+We pass a promise to the React.lazy, so it will resolve in the next event loop tick, it's enough to `wait`.
+
+---

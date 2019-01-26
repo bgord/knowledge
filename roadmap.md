@@ -147,6 +147,7 @@
 
 ## JS (5/21)
 - In-depth == vs === comparison.
+- What is transducer?
 - What is a `state reducer pattern`?
 - What is a `proxy` in JS? What can it be useful for?
 - How to make a property private by using Symbol?
@@ -176,7 +177,7 @@
 - Explore "mixed conditional".
 
 ## React (13/32)
-- How to test a component with lazy loading?
+- ~~How to test a component with lazy loading?~~
 - `useEffect` vs `useLayoutEffect`.
 - How to create a universal fetcher with `useEffect` hook?
 - How to test a components with useEffect (data fetcher)?
@@ -211,6 +212,7 @@
 
 # Polish words (0/1)
 - kurtuazyjny
+- tutti frutti
 
 # HTML (0/2)
 - Choosing between `section` vs `div`.
