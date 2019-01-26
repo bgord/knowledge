@@ -191,3 +191,32 @@ in the root of the project add the ".stylelintrc" file with an example config of
 ```
 
 ---
+
+**What's a difference between `&:first-child` and `& :first-child`?**
+
+Given this CSS markup:
+
+```
+.list {
+  color: red;
+  &__item {
+    list-style: none;
+    &:first-child {
+      background: yellow;
+    }
+    & :first-child {
+      background: green;
+    }
+  }
+}
+```
+
+The very first child (occurrence) of the `list__item` inside the `list` will have the yellow background.
+`list__item:first-child`
+
+The very first child inside the `list__item` will have a green background;
+`list__item :first-child`
+
+[codepen](https://codepen.io/anon/pen/PVZvVG)
+
+---

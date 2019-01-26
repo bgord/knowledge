@@ -118,8 +118,8 @@
 - ~~How to reselect last visual selection?~~
 - ~~How to go to the beginning/end of the selection?~~
 
-## CSS (8/25)
-- How to use `&:first-child` and `& :first-child` properly?
+## CSS (9/25)
+- ~~How to use `&:first-child` and `& :first-child` properly?~~
 - What are mixes in BEM?
 - How does @font-face work?
 - What's a specificity and how to count it?
