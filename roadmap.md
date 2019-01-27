@@ -130,8 +130,7 @@
 - ~~How to access shell inside a container?~~
 - ~~How to create a `npm.sh` script to run npm inside a container?~~
 
-## UNIX (6/16)
-- What does `$@` command mean?
+## UNIX (7/16)
 - What's a reverse proxy?
 - How to setup a reverse proxy?
 - What is the purpose of nginx?
@@ -141,6 +140,7 @@
 - How to change a data from the n-th column and the n-th row from the CSV file?
 - How to sum numbers from the n-th column from the CSV file?
 - How to add arguments for a Makefile script?
+- ~~What does `$@` command mean?~~
 - ~~How to live-preview a file in the terminal? (tail)~~
 - ~~How to deal with the Sketch file on Linux?~~
 - ~~How to create mappings with the `Alt` key?~~

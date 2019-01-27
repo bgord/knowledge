@@ -155,3 +155,9 @@ Useful when trying to find things (and then asserting it).
 `$ wc -l file.txt` // get a number of lines
 
 ---
+
+**What does $@ mean?**
+
+It is a variable containing all the command variables except of the first one.
+
+---
