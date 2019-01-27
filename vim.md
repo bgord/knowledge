@@ -98,3 +98,9 @@ Everytime `teh` is typed, change it to `the`.
 `o`
 
 ---
+
+**Put the current line to the top of the screen**
+
+`zz`
+
+---
