@@ -17,3 +17,10 @@ Use it every time you want to remove node_modules, and npm install.
 (source)[https://docs.npmjs.com/cli/install#limitations-of-npms-install-algorithm]
 
 ---
+
+**Publishing a package**
+
+`$ npm login`
+`$ npm publish`
+
+---
