@@ -397,3 +397,17 @@ module.exports = {
 };
 
 ---
+
+**What's a strict mode and how to enable it?**
+
+In `tsconfig.json` file, add the compiler option.
+
+```
+"compilerOptions": {
+  "strict": true
+},
+```
+
+It enables a few strict rules like: no implicit any/this, strict null checks, etc.
+
+---

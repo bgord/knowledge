@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## TypeScript (20/37)
+## TypeScript (21/37)
 - How to type React input focus events?
 - How to type React select/checkbox events?
 - How to get keys of interface/type?
@@ -18,7 +18,7 @@
 - What is 'never' in TS?
 - What is `d.ts` file for?
 - How to setup a TS for Node?
-- What is a strict mode and how to enable it?
+- ~~What is a strict mode and how to enable it?~~
 - ~~How to lint a TS with ESLint?~~
 - ~~How to type React input events?~~
 - ~~How to type React submit events?~~
