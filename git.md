@@ -196,6 +196,14 @@ It displays all the committed changes between two commits or branches, since bra
 
 You can compare the branch with the HEAD from n commits ago.
 
-`git diff master..HEAD~3`
+`$ git diff master..HEAD~3`
+
+---
+
+**How to "dry-run" common git commands?**
+
+`$ git clean -i/-n`
+
+`$ git push --dry-run`
 
 ---

@@ -42,7 +42,7 @@
 - ~~How to create reusable generics?~~
 - ~~What are intersection types?~~
 
-## GIT (18/30)
+## GIT (19/30)
 - What does setting upstream in `git push` do?
 - How to rebase? What is `git rebase -i` useful for?
 - How to diff two files in different commits?
@@ -54,8 +54,8 @@
 - What is a `...` operator in `git log`?
 - How to obtain useful logs with `git log`?
 - How to remove a file from all the git history?
-- How to use `--dry-run` for the most common commands?
 - What do all the options in `git add -i` mean?
+- ~~How to use `--dry-run` for the most common commands?~~
 - ~~What is a `..` operator in `git diff`?~~
 - ~~How to add files to the previous commit?~~
 - ~~What are the versions of the `git reset` behaviour?~~
