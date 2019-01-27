@@ -1,5 +1,40 @@
 # Roadmap for 2019
 
+## React (13/32)
+- How to use axe to improve a11y?
+- `useEffect` vs `useLayoutEffect`.
+- How to create a universal fetcher with `useEffect` hook?
+- How to test a components with useEffect (data fetcher)?
+- How to utilize a `useContext` hook to make it act like a Redux store? Context workflow.
+- How to use refs in React? Explore `useRef` hook in detail.
+- How to use `memo`?
+- What's `useCallback` useful for?
+- What's `useMemo` useful for?
+- What's `useImperativeHandle` for?
+- How to setup ESLint for hooks?
+- Finite state machines, and their usage in UI workflows.
+- What's a Strict Mode?
+- What is JSX pragma?
+- What's a compound component pattern?
+- How to setup redux-observable?
+- Is it possible to create a higher order reducer?
+- What's the difference between controlled and uncontrolled component?
+- ~~How to test a component with lazy loading?~~
+- ~~Explore a `useEffect` hook in detail.~~
+- ~~How to query for elements in r-t-l?~~
+- ~~How to fire events in r-t-l?~~
+- ~~How to test a components with useEffect (document title)?~~
+- ~~How to access document title etc. in r-t-l?~~
+- ~~How to access value of the input in r-t-l?~~
+- ~~What happens when a key of the element changes?~~
+- ~~Explore `useState` hook in detail.~~
+- ~~Explore `useReducer` in detail.~~
+- ~~How to setup a TS for React?~~
+- ~~How to add types to class/function components?~~
+- ~~How to lazy load components with Suspense?~~
+- ~~Why user-defined components must be lower-cased in React?~~
+
+
 ## TypeScript (21/37)
 - How to type React input focus events?
 - How to type React select/checkbox events?
@@ -76,6 +111,7 @@
 - ~~What is the working tree?~~
 
 ## Docker (9/17)
+- How to create a subnet and setup a custom local domain?
 - How does docker-compose work?
 - How to setup a MongoDB container?
 - How to access a DB inside the container on the host machine?
@@ -83,7 +119,6 @@
 - How to retain MongoDB database in the container?
 - How to backup MongoDB in the container?
 - A `docker-compose.yml` file for the express/MongoDB setup.
-- How to implement Piotr's approach for static IP for adding a local domain for development?
 - ~~Setup a container for node~~
 - ~~Make the ports available from the host~~
 - ~~Setup an env variable~~
@@ -178,40 +213,6 @@
 - Explore "2nd conditional".
 - Explore "3rd conditional".
 - Explore "mixed conditional".
-
-## React (13/32)
-- `useEffect` vs `useLayoutEffect`.
-- How to create a universal fetcher with `useEffect` hook?
-- How to test a components with useEffect (data fetcher)?
-- How to utilize a `useContext` hook to make it act like a Redux store? Context workflow.
-- How to use refs in React? Explore `useRef` hook in detail.
-- How to use `memo`?
-- What's `useCallback` useful for?
-- What's `useMemo` useful for?
-- What's `useImperativeHandle` for?
-- How to setup ESLint for hooks?
-- Finite state machines, and their usage in UI workflows.
-- What's a Strict Mode?
-- What is JSX pragma?
-- What's a compound component pattern?
-- How to setup redux-observable?
-- Is it possible to create a higher order reducer?
-- What's the difference between controlled and uncontrolled component?
-- How to use axe to improve a11y?
-- ~~How to test a component with lazy loading?~~
-- ~~Explore a `useEffect` hook in detail.~~
-- ~~How to query for elements in r-t-l?~~
-- ~~How to fire events in r-t-l?~~
-- ~~How to test a components with useEffect (document title)?~~
-- ~~How to access document title etc. in r-t-l?~~
-- ~~How to access value of the input in r-t-l?~~
-- ~~What happens when a key of the element changes?~~
-- ~~Explore `useState` hook in detail.~~
-- ~~Explore `useReducer` in detail.~~
-- ~~How to setup a TS for React?~~
-- ~~How to add types to class/function components?~~
-- ~~How to lazy load components with Suspense?~~
-- ~~Why user-defined components must be lower-cased in React?~~
 
 # Polish words (0/1)
 - kurtuazyjny
