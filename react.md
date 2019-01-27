@@ -391,3 +391,9 @@ Use `wait`/`waitForElement` async functions. The former runs the next event loop
 We pass a promise to the React.lazy, so it will resolve in the next event loop tick, it's enough to `wait`.
 
 ---
+
+**Specify port to run the dev server in cra**
+
+`"start": "PORT=80 react-scripts start"`
+
+---
