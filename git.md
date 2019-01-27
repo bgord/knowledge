@@ -188,3 +188,14 @@ Gathers all the new commits, and branches/tags (collectively known as refs) from
 When using `git pull`, git tries to perform this two commands for you.
 
 ---
+
+**What's a `..` operator in git diff?**
+
+It's an equivalent of `git diff test master`.
+It displays all the committed changes between two commits or branches, since branch is just a pointer to the specific commit.
+
+You can compare the branch with the HEAD from n commits ago.
+
+`git diff master..HEAD~3`
+
+---

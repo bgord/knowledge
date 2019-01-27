@@ -42,18 +42,21 @@
 - ~~How to create reusable generics?~~
 - ~~What are intersection types?~~
 
-## GIT (17/28)
+## GIT (18/30)
+- What does setting upstream in `git push` do?
 - How to rebase? What is `git rebase -i` useful for?
 - How to diff two files in different commits?
 - What to do when branches have diverged?
 - What does `git pull --rebase` do?
 - What are `git submodules`? What are they useful for?
-- What is a `..` operator?
-- What is a `...` operator?
+- What's a `..` operator in git log?
+- What is a `...` operator in `git diff`?
+- What is a `...` operator in `git log`?
 - How to obtain useful logs with `git log`?
 - How to remove a file from all the git history?
 - How to use `--dry-run` for the most common commands?
 - What do all the options in `git add -i` mean?
+- ~~What is a `..` operator in `git diff`?~~
 - ~~How to add files to the previous commit?~~
 - ~~What are the versions of the `git reset` behaviour?~~
 - ~~What does `git reset --hard` do?~~
@@ -177,7 +180,6 @@
 - Explore "mixed conditional".
 
 ## React (13/32)
-- ~~How to test a component with lazy loading?~~
 - `useEffect` vs `useLayoutEffect`.
 - How to create a universal fetcher with `useEffect` hook?
 - How to test a components with useEffect (data fetcher)?
@@ -196,6 +198,7 @@
 - Is it possible to create a higher order reducer?
 - What's the difference between controlled and uncontrolled component?
 - How to use axe to improve a11y?
+- ~~How to test a component with lazy loading?~~
 - ~~Explore a `useEffect` hook in detail.~~
 - ~~How to query for elements in r-t-l?~~
 - ~~How to fire events in r-t-l?~~
