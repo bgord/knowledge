@@ -368,3 +368,32 @@ and with generic type
 `const handleSubmit = (e: React.FormEvent<HTMLFormElement>): void => {console.log(e);};`
 
 ---
+
+**How to lint TypeScript with ESLint?**
+
+Install following packages:
+
+```
+@typescript-eslint/eslint-plugin,
+@typescript-eslint/parser
+```
+
+And create a `.eslintrc.js` file.
+
+module.exports = {
+	parser: '@typescript-eslint/parser',
+	plugins: ['@typescript-eslint'],
+	extends: ['plugin:@typescript-eslint/recommended', 'bgord'],
+	env: {
+		browser: true,
+		es6: true,
+		node: true,
+		jest: true,
+	},
+	parserOptions: {
+		ecmaVersion: 2018,
+		sourceType: 'module',
+	}
+};
+
+---

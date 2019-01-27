@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## TypeScript (19/37)
+## TypeScript (20/37)
 - How to type React input focus events?
 - How to type React select/checkbox events?
 - How to get keys of interface/type?
@@ -8,7 +8,6 @@
 - A types for a value that is null or a number?
 - How to achieve NotNullable type?
 - What's a discriminated union?
-- How to lint a TS with ESLint?
 - Default types for generics.
 - Function type overloads.
 - What's a synthetic import?
@@ -20,6 +19,7 @@
 - What is `d.ts` file for?
 - How to setup a TS for Node?
 - What is a strict mode and how to enable it?
+- ~~How to lint a TS with ESLint?~~
 - ~~How to type React input events?~~
 - ~~How to type React submit events?~~
 - ~~How to type a standard variable with a primitive value?~~
