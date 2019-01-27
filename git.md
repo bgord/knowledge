@@ -207,3 +207,12 @@ You can compare the branch with the HEAD from n commits ago.
 `$ git push --dry-run`
 
 ---
+
+**Ignore file that has been commited**
+
+`$ git rm --cached file`
+
+In `.gitignore`:
+`file`
+
+---
