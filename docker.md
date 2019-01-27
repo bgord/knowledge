@@ -171,3 +171,17 @@ $ docker inspect <container ID> // find a "Gateway" IP
 ```
 
 ---
+
+**How to create a docker subnet?**
+
+By default, assigns container's IP address from a subnet `172.17.0.0/16`, and uses a "first come, first serve" algorithm to assign specific IP. The first container get `172.17.0.1`, the seceond one `172.17.0.2` etc.
+
+`$ docker network create --driver bridge --subnet 173.20.0.0/16 --gateway 173.20.0.1 PERFIE_DEV_NET`
+
+Add the line below to the `/etc/hosts`.
+
+`173.20.0.1 perfie.local`
+
+When running a container, use previously defined network.
+
+`docker run --network PERFIE_DEV_NET`
