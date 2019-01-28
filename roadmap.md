@@ -77,10 +77,9 @@
 - ~~How to create reusable generics?~~
 - ~~What are intersection types?~~
 
-## GIT (20/30)
+## GIT (21/30)
 - What does setting upstream in `git push` do?
 - How to rebase? What is `git rebase -i` useful for?
-- How to diff two files in different commits?
 - What to do when branches have diverged?
 - What does `git pull --rebase` do?
 - What are `git submodules`? What are they useful for?
@@ -90,6 +89,7 @@
 - How to obtain useful logs with `git log`?
 - How to remove a file from all the git history?
 - What do all the options in `git add -i` mean?
+- ~~How to diff two files in different commits?~~
 - ~~How to ignore already committed file?~~
 - ~~How to use `--dry-run` for the most common commands?~~
 - ~~What is a `..` operator in `git diff`?~~
@@ -233,6 +233,9 @@
 
 ## GraphQL (0/1)
 - How to setup GraphQL along the Node & MongoDB?
+
+## Other (0/1)
+- What's a difference between church and a cathedral?
 
 To refine:
 - sed

@@ -216,3 +216,9 @@ In `.gitignore`:
 `file`
 
 ---
+
+**How to diff file across two branches?**
+
+`$ git diff 16db970 f6addeb workflow.md`
+
+---
