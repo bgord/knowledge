@@ -77,8 +77,9 @@
 - ~~How to create reusable generics?~~
 - ~~What are intersection types?~~
 
-## GIT (21/30)
+## GIT (21/31)
 - What does setting upstream in `git push` do?
+- How does `git rm` work?
 - How to rebase? What is `git rebase -i` useful for?
 - What to do when branches have diverged?
 - What does `git pull --rebase` do?
@@ -184,7 +185,7 @@
 - ~~Can I create a modifier for a block?~~
 - ~~How to setup stylelint?~~
 
-## JS (5/21)
+## JS (5/22)
 - In-depth == vs === comparison.
 - What is transducer?
 - What is a `state reducer pattern`?
@@ -202,6 +203,7 @@
 - What's a symbol and what're it's advantages?
 - What's a tree-shaking and how does it work?
 - How to use placeholders (R.\_) in Ramda?
+- How to just intl.number to format quotas?
 - ~~How to destructure only n-th value from the array?~~
 - ~~How to assert if function throws an error?~~
 - ~~How does event bubbling work? How to stop the propagation?~~
@@ -219,9 +221,11 @@
 - kurtuazyjny
 - tutti frutti
 
-# HTML (0/2)
+# HTML (0/3)
 - Choosing between `section` vs `div`.
 - What are the most common aria-\* attributes?
+- How to use a mask for input?
+- What's an importance in img tags?
 
 # Writing (1/1)
 - ~~When to use m-dash vs n-dash vs hyphen?~~
@@ -236,6 +240,7 @@
 
 ## Other (0/1)
 - What's a difference between church and a cathedral?
+- What's escapism?
 
 To refine:
 - sed
