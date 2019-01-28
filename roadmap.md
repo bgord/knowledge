@@ -35,7 +35,7 @@
 - ~~Why user-defined components must be lower-cased in React?~~
 
 
-## TypeScript (21/37)
+## TypeScript (22/38)
 - How to type React input focus events?
 - How to type React select/checkbox events?
 - How to get keys of interface/type?
@@ -53,6 +53,7 @@
 - What is 'never' in TS?
 - What is `d.ts` file for?
 - How to setup a TS for Node?
+- How to get a function return type?
 - ~~What is a strict mode and how to enable it?~~
 - ~~How to lint a TS with ESLint?~~
 - ~~How to type React input events?~~

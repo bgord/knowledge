@@ -411,3 +411,18 @@ In `tsconfig.json` file, add the compiler option.
 It enables a few strict rules like: no implicit any/this, strict null checks, etc.
 
 ---
+
+**How to get a function return type?**
+
+Given a scenario when I want to assign a type to the `type` property in the `Transaction` interface which is the return value of the `faker.finance.transactionType` function.
+
+```
+interface Transaction {
+	id;
+	timestamp;
+	name;
+	type: ReturnType<typeof faker.finance.transactionType>;
+}
+```
+
+---
