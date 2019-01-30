@@ -309,6 +309,8 @@ There are a lot of bugs coming from not handling a componentDidUpdate scenario.
 
 To make React skip applying an effect, pass an array with variable that changes will be tracked. An empty array means that the effect will be applied on initial render and unmount.
 
+Effects are run after React renders, ensuring that its not blocking any update.
+
 ---
 
 **What happens when the key of the element changes?**
@@ -395,5 +397,11 @@ We pass a promise to the React.lazy, so it will resolve in the next event loop t
 **Specify port to run the dev server in cra**
 
 `"start": "PORT=80 react-scripts start"`
+
+---
+
+**useEffect vs useLayoutEffect**
+
+`useLayoutEffect` runs immediately after React performs the DOM mutations, you can use it to mutate DOM via `ref` or making measurements like getting scroll position.
 
 ---

@@ -1,8 +1,7 @@
 # Roadmap for 2019
 
-## React (13/32)
+## React (14/32)
 - How to use axe to improve a11y?
-- `useEffect` vs `useLayoutEffect`.
 - How to create a universal fetcher with `useEffect` hook?
 - How to test a components with useEffect (data fetcher)?
 - How to utilize a `useContext` hook to make it act like a Redux store? Context workflow.
@@ -19,6 +18,7 @@
 - How to setup redux-observable?
 - Is it possible to create a higher order reducer?
 - What's the difference between controlled and uncontrolled component?
+- ~~`useEffect` vs `useLayoutEffect`.~~
 - ~~How to test a component with lazy loading?~~
 - ~~Explore a `useEffect` hook in detail.~~
 - ~~How to query for elements in r-t-l?~~
@@ -113,7 +113,7 @@
 - ~~What does `git fetch` do? How is that different from `git pull`?~~
 - ~~What is the working tree?~~
 
-## Docker (9/17)
+## Docker (11/20)
 - How to create a subnet and setup a custom local domain?
 - How does docker-compose work?
 - How to setup a MongoDB container?
@@ -122,6 +122,7 @@
 - How to retain MongoDB database in the container?
 - How to backup MongoDB in the container?
 - A `docker-compose.yml` file for the express/MongoDB setup.
+- What are ARGs?
 - ~~Setup a container for node~~
 - ~~Make the ports available from the host~~
 - ~~Setup an env variable~~
@@ -131,6 +132,8 @@
 - ~~How to display all port related mappings for the container?~~
 - ~~How to access shell inside a container?~~
 - ~~How to create a `npm.sh` script to run npm inside a container?~~
+- ~~How to create a subnet?~~
+- ~~How to create a static IP for a container?~~
 
 ## UNIX (7/16)
 - What's a reverse proxy?
@@ -150,7 +153,7 @@
 - ~~What does `408` HTTP status mean?~~
 - ~~What is the `tee` command?~~
 
-## Vim (2/7)
+## Vim (3/8)
 - What is an buffer, exactly?
 - How to run a line through an external program?
 - What are the sentence, paragraph, section text objects?
@@ -158,10 +161,9 @@
 - How to work with marks efficiently?
 - ~~How to reselect last visual selection?~~
 - ~~How to go to the beginning/end of the selection?~~
+- ~~How to move the current line to the middle of the screen?~~
 
-## CSS (9/25)
-- ~~How to use `&:first-child` and `& :first-child` properly?~~
-- What are mixes in BEM?
+## CSS (10/25)
 - How does @font-face work?
 - What's a specificity and how to count it?
 - What does \# mean in the SCSS?
@@ -177,6 +179,8 @@
 - When do `basis, shrinking, and growing` apply? What are the possible values?
 - What is `flex/flex-flow`?
 - What does `max/min-content` mean in `gtc`?
+- ~~How to use `&:first-child` and `& :first-child` properly?~~
+- What are mixes in BEM?
 - ~~Custom properties aka CSS variables.~~
 - ~~How to benefit from `:focus-within` psuedoselector?~~
 - ~~How to perfectly center a plus inside a circle?~~
