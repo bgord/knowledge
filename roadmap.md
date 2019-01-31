@@ -36,7 +36,6 @@
 
 
 ## TypeScript (22/40)
-- ~~How to run TS typechecking in Jest?~~
 - How to type React input focus events?
 - How to type React select/checkbox events?
 - How to get keys of interface/type?
@@ -55,6 +54,7 @@
 - What is `d.ts` file for?
 - How to setup a TS for Node?
 - How to get a function return type?
+- ~~How to run TS typechecking in Jest?~~
 - ~~What is a strict mode and how to enable it?~~
 - ~~How to lint a TS with ESLint?~~
 - ~~How to type React input events?~~
@@ -79,8 +79,7 @@
 - ~~How to create reusable generics?~~
 - ~~What are intersection types?~~
 
-## GIT (21/31)
-- What does setting upstream in `git push` do?
+## GIT (22/31)
 - How does `git rm` work?
 - How to rebase? What is `git rebase -i` useful for?
 - What to do when branches have diverged?
@@ -92,6 +91,7 @@
 - How to obtain useful logs with `git log`?
 - How to remove a file from all the git history?
 - What do all the options in `git add -i` mean?
+- ~~What does setting upstream in `git push` do?~~
 - ~~How to diff two files in different commits?~~
 - ~~How to ignore already committed file?~~
 - ~~How to use `--dry-run` for the most common commands?~~

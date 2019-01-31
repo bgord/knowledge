@@ -222,3 +222,11 @@ In `.gitignore`:
 `$ git diff 16db970 f6addeb workflow.md`
 
 ---
+
+**What does setting upstream in `git push` do?**
+
+It sets the default remote branch for the current branch, so git know what to do when you `push`, `fetch`, `pull`. The target of this commands will always be the currently checkouted branch.
+
+`$ git push -u origin feature/inpu`
+
+---
