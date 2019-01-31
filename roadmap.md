@@ -249,6 +249,9 @@
 - What's a difference between church and a cathedral?
 - What's escapism?
 
+## Storybook (0/)
+- ~~How to setup a basic Storybook for an example component?~~
+
 To refine:
 - sed
 - awk
@@ -257,7 +260,6 @@ To refine:
 - ssh
 - SVG
 - Vue
-- Storybook
 - Figma
 - PostgreSQL
 - D3.js
