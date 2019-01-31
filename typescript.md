@@ -426,3 +426,9 @@ interface Transaction {
 ```
 
 ---
+
+**How to run TypeScript in Jest?**
+
+In `create-react-app` is done automagically. In another cases use this [video](https://www.youtube.com/watch?v=6oHy58OOQkA&t=181s).
+
+---

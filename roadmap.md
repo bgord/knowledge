@@ -35,7 +35,8 @@
 - ~~Why user-defined components must be lower-cased in React?~~
 
 
-## TypeScript (22/38)
+## TypeScript (22/40)
+- ~~How to run TS typechecking in Jest?~~
 - How to type React input focus events?
 - How to type React select/checkbox events?
 - How to get keys of interface/type?
