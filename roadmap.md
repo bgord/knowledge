@@ -154,12 +154,13 @@
 - ~~What does `408` HTTP status mean?~~
 - ~~What is the `tee` command?~~
 
-## Vim (3/8)
+## Vim (4/8)
 - What is an buffer, exactly?
 - How to run a line through an external program?
 - What are the sentence, paragraph, section text objects?
 - How to fold functions and other blocks of code?
 - How to work with marks efficiently?
+- ~~A faster way to delete two lines up/down.~~
 - ~~How to reselect last visual selection?~~
 - ~~How to go to the beginning/end of the selection?~~
 - ~~How to move the current line to the middle of the screen?~~

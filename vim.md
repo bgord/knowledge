@@ -104,3 +104,9 @@ Everytime `teh` is typed, change it to `the`.
 `zz`
 
 ---
+
+**A faster way to delete 2 branches down/up**
+
+Instead of `2dd`, pres `dk` or `dj`.
+
+---
