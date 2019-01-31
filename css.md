@@ -54,7 +54,8 @@ Hide an element in means of assistive technology
 **Import a font in CSS**
 
 ```
-@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700'; //css
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700'); //scss
 
 body {
 	font-family: 'Lato', sans-serif;
