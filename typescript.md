@@ -432,3 +432,21 @@ interface Transaction {
 In `create-react-app` is done automagically. In another cases use this [video](https://www.youtube.com/watch?v=6oHy58OOQkA&t=181s).
 
 ---
+
+**How to mark one of the native element props required?**
+
+```
+interface Props extends HTMLProps<HTMLInputElement> {
+	id: string;
+}
+```
+
+or 
+
+```
+interface Props extends HTMLProps<HTMLButtonElement> {
+	type: HTMLButtonElement["type"];
+}
+```
+
+---

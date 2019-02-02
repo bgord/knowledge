@@ -1,13 +1,14 @@
 # Roadmap for 2019
 
 ## React (14/32)
+- What's `useCallback` useful for?
+- What's a difference between `createElement` vs `cloneElement`
 - How to use axe to improve a11y?
 - How to create a universal fetcher with `useEffect` hook?
 - How to test a components with useEffect (data fetcher)?
 - How to utilize a `useContext` hook to make it act like a Redux store? Context workflow.
 - How to use refs in React? Explore `useRef` hook in detail.
 - How to use `memo`?
-- What's `useCallback` useful for?
 - What's `useMemo` useful for?
 - What's `useImperativeHandle` for?
 - How to setup ESLint for hooks?
@@ -35,7 +36,7 @@
 - ~~Why user-defined components must be lower-cased in React?~~
 
 
-## TypeScript (22/40)
+## TypeScript (23/40)
 - How to type React input focus events?
 - How to type React select/checkbox events?
 - How to get keys of interface/type?
@@ -54,6 +55,7 @@
 - What is `d.ts` file for?
 - How to setup a TS for Node?
 - How to get a function return type?
+- ~~How to mark one of the native element props required?~~
 - ~~How to run TS typechecking in Jest?~~
 - ~~What is a strict mode and how to enable it?~~
 - ~~How to lint a TS with ESLint?~~
