@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## React (14/32)
+## React (0/18)
 - What's `useCallback` useful for?
 - What's a difference between `createElement` vs `cloneElement`
 - How to use axe to improve a11y?
@@ -19,24 +19,8 @@
 - How to setup redux-observable?
 - Is it possible to create a higher order reducer?
 - What's the difference between controlled and uncontrolled component?
-- ~~`useEffect` vs `useLayoutEffect`.~~
-- ~~How to test a component with lazy loading?~~
-- ~~Explore a `useEffect` hook in detail.~~
-- ~~How to query for elements in r-t-l?~~
-- ~~How to fire events in r-t-l?~~
-- ~~How to test a components with useEffect (document title)?~~
-- ~~How to access document title etc. in r-t-l?~~
-- ~~How to access value of the input in r-t-l?~~
-- ~~What happens when a key of the element changes?~~
-- ~~Explore `useState` hook in detail.~~
-- ~~Explore `useReducer` in detail.~~
-- ~~How to setup a TS for React?~~
-- ~~How to add types to class/function components?~~
-- ~~How to lazy load components with Suspense?~~
-- ~~Why user-defined components must be lower-cased in React?~~
 
-
-## TypeScript (23/40)
+## TypeScript (0/18)
 - How to type React input focus events?
 - How to type React select/checkbox events?
 - How to get keys of interface/type?
@@ -55,6 +39,139 @@
 - What is `d.ts` file for?
 - How to setup a TS for Node?
 - How to get a function return type?
+
+## GIT (0/11)
+- How does `git rm` work?
+- How to rebase? What is `git rebase -i` useful for?
+- What to do when branches have diverged?
+- What does `git pull --rebase` do?
+- What are `git submodules`? What are they useful for?
+- What's a `..` operator in git log?
+- What is a `...` operator in `git diff`?
+- What is a `...` operator in `git log`?
+- How to obtain useful logs with `git log`?
+- How to remove a file from all the git history?
+- What do all the options in `git add -i` mean?
+
+## Docker (11/20)
+- How to create a subnet and setup a custom local domain?
+- How does docker-compose work?
+- How to setup a MongoDB container?
+- How to access a DB inside the container on the host machine?
+- How to access a DB inside another container?
+- How to retain MongoDB database in the container?
+- How to backup MongoDB in the container?
+- A `docker-compose.yml` file for the express/MongoDB setup.
+- What are ARGs?
+
+## UNIX (0/9)
+- What's a reverse proxy?
+- How to setup a reverse proxy?
+- What is the purpose of nginx?
+- How to select a value from path in `jq`?
+- How to set a value for path in `jq`?
+- How to retrieve a data from the n-th column and the n-th row from the CSV file?
+- How to change a data from the n-th column and the n-th row from the CSV file?
+- How to sum numbers from the n-th column from the CSV file?
+- How to add arguments for a Makefile script?
+
+## Vim (4/8)
+- What is an buffer, exactly?
+- How to run a line through an external program?
+- What are the sentence, paragraph, section text objects?
+- How to fold functions and other blocks of code?
+- How to work with marks efficiently?
+
+## CSS (0/15)
+- How does @font-face work?
+- What's a specificity and how to count it?
+- What does \# mean in the SCSS?
+- What is a mixin and function in SCSS?
+- How to write a conditional in SCSS?
+- How to write a loop in SCSS?
+- In depth relative vs absolute comparison.
+- In depth sticky vs fixed comparison.
+- What are typography best practices?
+- What is `inline-flex` useful for?
+- What is `inline-grid` useful for?
+- What is `minmax` function in CSS Grid?
+- When do `basis, shrinking, and growing` apply? What are the possible values?
+- What is `flex/flex-flow`?
+- What does `max/min-content` mean in `gtc`?
+
+## JS (5/22)
+- In-depth == vs === comparison.
+- What is transducer?
+- What is a `state reducer pattern`?
+- What is a `proxy` in JS? What can it be useful for?
+- How to make a property private by using Symbol?
+- What's a babel macro?
+- What's a mutation observer?
+- What's an intersection observer?
+- Arrow function vs Regular function.
+- Function definition vs function declaration.
+- How is Map different from object?
+- What are use cases for Set?
+- How to find an AST name of some part of the language?
+- What's a factory design pattern?
+- What's a symbol and what're it's advantages?
+- What's a tree-shaking and how does it work?
+- How to use placeholders (R.\_) in Ramda?
+- How to just intl.number to format quotas?
+
+## English (0/5)
+- Explore "0 conditional".
+- Explore "1st conditional".
+- Explore "2nd conditional".
+- Explore "3rd conditional".
+- Explore "mixed conditional".
+
+# HTML (0/4)
+- Choosing between `section` vs `div`.
+- What are the most common aria-\* attributes?
+- How to use a mask for input?
+- What's an importance in img tags?
+
+## Observables (0/3)
+- What exactly is the stream?
+- How to create streams?
+- What are the basic operators?
+
+## GraphQL (0/1)
+- How to setup GraphQL along the Node & MongoDB?
+
+## Other (0/1)
+- What's a difference between church and a cathedral?
+- What's escapism?
+
+To refine:
+- sed
+- awk
+- grep
+- head
+- ssh
+- SVG
+- Vue
+- Figma
+- PostgreSQL
+- D3.js
+- Rust
+- Machine learning algorithms
+- Bash
+- MongoDB
+- Firebase
+- order
+- align-content
+- named rows/columns
+- template areas
+- justify/align-content/place-content
+- grid-auto-columns/rows
+- grid-auto-flow
+- well-done animations
+
+# DONE - January
+
+## TypeScript - 25
 - ~~How to mark one of the native element props required?~~
 - ~~How to run TS typechecking in Jest?~~
 - ~~What is a strict mode and how to enable it?~~
@@ -81,18 +198,7 @@
 - ~~How to create reusable generics?~~
 - ~~What are intersection types?~~
 
-## GIT (22/31)
-- How does `git rm` work?
-- How to rebase? What is `git rebase -i` useful for?
-- What to do when branches have diverged?
-- What does `git pull --rebase` do?
-- What are `git submodules`? What are they useful for?
-- What's a `..` operator in git log?
-- What is a `...` operator in `git diff`?
-- What is a `...` operator in `git log`?
-- How to obtain useful logs with `git log`?
-- How to remove a file from all the git history?
-- What do all the options in `git add -i` mean?
+## GIT - 22
 - ~~What does setting upstream in `git push` do?~~
 - ~~How to diff two files in different commits?~~
 - ~~How to ignore already committed file?~~
@@ -116,16 +222,24 @@
 - ~~What does `git fetch` do? How is that different from `git pull`?~~
 - ~~What is the working tree?~~
 
-## Docker (11/20)
-- How to create a subnet and setup a custom local domain?
-- How does docker-compose work?
-- How to setup a MongoDB container?
-- How to access a DB inside the container on the host machine?
-- How to access a DB inside another container?
-- How to retain MongoDB database in the container?
-- How to backup MongoDB in the container?
-- A `docker-compose.yml` file for the express/MongoDB setup.
-- What are ARGs?
+## React - 15
+- ~~`useEffect` vs `useLayoutEffect`.~~
+- ~~How to test a component with lazy loading?~~
+- ~~Explore a `useEffect` hook in detail.~~
+- ~~How to query for elements in r-t-l?~~
+- ~~How to fire events in r-t-l?~~
+- ~~How to test a components with useEffect (document title)?~~
+- ~~How to access document title etc. in r-t-l?~~
+- ~~How to access value of the input in r-t-l?~~
+- ~~What happens when a key of the element changes?~~
+- ~~Explore `useState` hook in detail.~~
+- ~~Explore `useReducer` in detail.~~
+- ~~How to setup a TS for React?~~
+- ~~How to add types to class/function components?~~
+- ~~How to lazy load components with Suspense?~~
+- ~~Why user-defined components must be lower-cased in React?~~
+
+## Docker - 11
 - ~~Setup a container for node~~
 - ~~Make the ports available from the host~~
 - ~~Setup an env variable~~
@@ -138,51 +252,7 @@
 - ~~How to create a subnet?~~
 - ~~How to create a static IP for a container?~~
 
-## UNIX (7/16)
-- What's a reverse proxy?
-- How to setup a reverse proxy?
-- What is the purpose of nginx?
-- How to select a value from path in `jq`?
-- How to set a value for path in `jq`?
-- How to retrieve a data from the n-th column and the n-th row from the CSV file?
-- How to change a data from the n-th column and the n-th row from the CSV file?
-- How to sum numbers from the n-th column from the CSV file?
-- How to add arguments for a Makefile script?
-- ~~What does `$@` command mean?~~
-- ~~How to live-preview a file in the terminal? (tail)~~
-- ~~How to deal with the Sketch file on Linux?~~
-- ~~How to create mappings with the `Alt` key?~~
-- ~~How to unzip a file to directory?~~
-- ~~What does `408` HTTP status mean?~~
-- ~~What is the `tee` command?~~
-
-## Vim (4/8)
-- What is an buffer, exactly?
-- How to run a line through an external program?
-- What are the sentence, paragraph, section text objects?
-- How to fold functions and other blocks of code?
-- How to work with marks efficiently?
-- ~~A faster way to delete two lines up/down.~~
-- ~~How to reselect last visual selection?~~
-- ~~How to go to the beginning/end of the selection?~~
-- ~~How to move the current line to the middle of the screen?~~
-
-## CSS (10/25)
-- How does @font-face work?
-- What's a specificity and how to count it?
-- What does \# mean in the SCSS?
-- What is a mixin and function in SCSS?
-- How to write a conditional in SCSS?
-- How to write a loop in SCSS?
-- In depth relative vs absolute comparison.
-- In depth sticky vs fixed comparison.
-- What are typography best practices?
-- What is `inline-flex` useful for?
-- What is `inline-grid` useful for?
-- What is `minmax` function in CSS Grid?
-- When do `basis, shrinking, and growing` apply? What are the possible values?
-- What is `flex/flex-flow`?
-- What does `max/min-content` mean in `gtc`?
+## CSS - 10
 - ~~How to use `&:first-child` and `& :first-child` properly?~~
 - What are mixes in BEM?
 - ~~Custom properties aka CSS variables.~~
@@ -194,87 +264,31 @@
 - ~~Can I create a modifier for a block?~~
 - ~~How to setup stylelint?~~
 
-## JS (5/22)
-- In-depth == vs === comparison.
-- What is transducer?
-- What is a `state reducer pattern`?
-- What is a `proxy` in JS? What can it be useful for?
-- How to make a property private by using Symbol?
-- What's a babel macro?
-- What's a mutation observer?
-- What's an intersection observer?
-- Arrow function vs Regular function.
-- Function definition vs function declaration.
-- How is Map different from object?
-- What are use cases for Set?
-- How to find an AST name of some part of the language?
-- What's a factory design pattern?
-- What's a symbol and what're it's advantages?
-- What's a tree-shaking and how does it work?
-- How to use placeholders (R.\_) in Ramda?
-- How to just intl.number to format quotas?
+## UNIX - 7
+- ~~What does `$@` command mean?~~
+- ~~How to live-preview a file in the terminal? (tail)~~
+- ~~How to deal with the Sketch file on Linux?~~
+- ~~How to create mappings with the `Alt` key?~~
+- ~~How to unzip a file to directory?~~
+- ~~What does `408` HTTP status mean?~~
+- ~~What is the `tee` command?~~
+
+## JS - 5
 - ~~How to destructure only n-th value from the array?~~
 - ~~How to assert if function throws an error?~~
 - ~~How does event bubbling work? How to stop the propagation?~~
 - ~~What is the difference between mergeDeepLeft and mergeDeepRight in Ramda?~~
 - ~~Arguments vs parameters.~~
 
-## English (0/5)
-- Explore "0 conditional".
-- Explore "1st conditional".
-- Explore "2nd conditional".
-- Explore "3rd conditional".
-- Explore "mixed conditional".
+## VIM - 4
+- ~~A faster way to delete two lines up/down.~~
+- ~~How to reselect last visual selection?~~
+- ~~How to go to the beginning/end of the selection?~~
+- ~~How to move the current line to the middle of the screen?~~
 
-# Polish words (0/1)
-- kurtuazyjny
-- tutti frutti
-
-# HTML (0/3)
-- Choosing between `section` vs `div`.
-- What are the most common aria-\* attributes?
-- How to use a mask for input?
-- What's an importance in img tags?
-
-# Writing (1/1)
+## Writing - 1
 - ~~When to use m-dash vs n-dash vs hyphen?~~
 
-## Observables (0/3)
-- What exactly is the stream?
-- How to create streams?
-- What are the basic operators?
 
-## GraphQL (0/1)
-- How to setup GraphQL along the Node & MongoDB?
-
-## Other (0/1)
-- What's a difference between church and a cathedral?
-- What's escapism?
-
-## Storybook (0/)
+## Storybook 1
 - ~~How to setup a basic Storybook for an example component?~~
-
-To refine:
-- sed
-- awk
-- grep
-- head
-- ssh
-- SVG
-- Vue
-- Figma
-- PostgreSQL
-- D3.js
-- Rust
-- Machine learning algorithms
-- Bash
-- MongoDB
-- Firebase
-- order
-- align-content
-- named rows/columns
-- template areas
-- justify/align-content/place-content
-- grid-auto-columns/rows
-- grid-auto-flow
-- well-done animations
