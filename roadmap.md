@@ -1,7 +1,6 @@
 # Roadmap for 2019
 
-## React (0/15)
-- How to type React component to allow more than one child?
+## React (1/15)
 - How to test components that fetch data?
 - How to utilize a `useContext` hook to make it act like a Redux store?
 - How to setup a `xstate` for a basic example? 
@@ -16,6 +15,7 @@
 - How to setup redux-observable?
 - What's a Strict Mode?
 - What is JSX pragma?
+- ~~How to type React component to allow more than one child?~~
 
 ## TypeScript (0/19)
 - How to get a function return type?

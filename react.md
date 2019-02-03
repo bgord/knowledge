@@ -405,3 +405,13 @@ We pass a promise to the React.lazy, so it will resolve in the next event loop t
 `useLayoutEffect` runs immediately after React performs the DOM mutations, you can use it to mutate DOM via `ref` or making measurements like getting scroll position.
 
 ---
+
+**How to type React component to allow more than one child?**
+
+```
+interface Props {
+	children: React.ReactChild | React.ReactChild[];
+}
+```
+
+---
