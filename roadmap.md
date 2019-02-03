@@ -1,86 +1,42 @@
 # Roadmap for 2019
 
-## React (0/18)
-- What's `useCallback` useful for?
-- What's a difference between `createElement` vs `cloneElement`
-- How to use axe to improve a11y?
-- How to create a universal fetcher with `useEffect` hook?
-- How to test a components with useEffect (data fetcher)?
-- How to utilize a `useContext` hook to make it act like a Redux store? Context workflow.
+## React (0/15)
+- How to type React component to allow more than one child?
+- How to test components that fetch data?
+- How to utilize a `useContext` hook to make it act like a Redux store?
+- How to setup a `xstate` for a basic example? 
 - How to use refs in React? Explore `useRef` hook in detail.
-- How to use `memo`?
-- What's `useMemo` useful for?
+- What's `useCallback` useful for?
 - What's `useImperativeHandle` for?
-- How to setup ESLint for hooks?
-- Finite state machines, and their usage in UI workflows.
+- How to use `memo`? How's that different than `useMemo`?
+- What's a difference between `createElement` vs `cloneElement`
+- What's a compound component pattern?
+- What's the difference between controlled and uncontrolled component?
+- React.Children - what're the possibilities here?
+- How to setup redux-observable?
 - What's a Strict Mode?
 - What is JSX pragma?
-- What's a compound component pattern?
-- How to setup redux-observable?
-- Is it possible to create a higher order reducer?
-- What's the difference between controlled and uncontrolled component?
 
-## TypeScript (0/18)
-- How to type React input focus events?
-- How to type React select/checkbox events?
-- How to get keys of interface/type?
-- How TS works for spread/rest operator?
+## TypeScript (0/19)
+- How to get a function return type?
 - A types for a value that is null or a number?
-- How to achieve NotNullable type?
 - What's a discriminated union?
+- How to deal with mutually exclusive types in intersections?
 - Default types for generics.
 - Function type overloads.
 - What's a synthetic import?
-- How to deal with mutually exclusive types in intersections?
+- How to get keys of interface/type?
+- How to type React input focus events?
+- How to type React select/checkbox events?
 - How to use Pick?
 - How to use Exclude?
 - How to use `readonly` and `const` keywords?
 - What is 'never' in TS?
+- How TS works for spread/rest operator?
+- How to achieve NotNullable type?
 - What is `d.ts` file for?
 - How to setup a TS for Node?
-- How to get a function return type?
-
-## GIT (0/11)
-- How does `git rm` work?
-- How to rebase? What is `git rebase -i` useful for?
-- What to do when branches have diverged?
-- What does `git pull --rebase` do?
-- What are `git submodules`? What are they useful for?
-- What's a `..` operator in git log?
-- What is a `...` operator in `git diff`?
-- What is a `...` operator in `git log`?
-- How to obtain useful logs with `git log`?
-- How to remove a file from all the git history?
-- What do all the options in `git add -i` mean?
-
-## Docker (11/20)
-- How to create a subnet and setup a custom local domain?
-- How does docker-compose work?
-- How to setup a MongoDB container?
-- How to access a DB inside the container on the host machine?
-- How to access a DB inside another container?
-- How to retain MongoDB database in the container?
-- How to backup MongoDB in the container?
-- A `docker-compose.yml` file for the express/MongoDB setup.
-- What are ARGs?
-
-## UNIX (0/9)
-- What's a reverse proxy?
-- How to setup a reverse proxy?
-- What is the purpose of nginx?
-- How to select a value from path in `jq`?
-- How to set a value for path in `jq`?
-- How to retrieve a data from the n-th column and the n-th row from the CSV file?
-- How to change a data from the n-th column and the n-th row from the CSV file?
-- How to sum numbers from the n-th column from the CSV file?
-- How to add arguments for a Makefile script?
-
-## Vim (4/8)
-- What is an buffer, exactly?
-- How to run a line through an external program?
-- What are the sentence, paragraph, section text objects?
-- How to fold functions and other blocks of code?
-- How to work with marks efficiently?
+- How to add types for a library?
 
 ## CSS (0/15)
 - How does @font-face work?
@@ -99,7 +55,7 @@
 - What is `flex/flex-flow`?
 - What does `max/min-content` mean in `gtc`?
 
-## JS (5/22)
+## JS (0/18)
 - In-depth == vs === comparison.
 - What is transducer?
 - What is a `state reducer pattern`?
@@ -119,6 +75,48 @@
 - How to use placeholders (R.\_) in Ramda?
 - How to just intl.number to format quotas?
 
+## GIT (0/11)
+- How to rebase? What is `git rebase -i` useful for?
+- How does `git rm` work?
+- What to do when branches have diverged?
+- What does `git pull --rebase` do?
+- What are `git submodules`? What are they useful for?
+- What's a `..` operator in git log?
+- What is a `...` operator in `git diff`?
+- What is a `...` operator in `git log`?
+- How to obtain useful logs with `git log`?
+- How to remove a file from all the git history?
+- What do all the options in `git add -i` mean?
+
+## Docker (0/8)
+- What are ARGs?
+- How does docker-compose work?
+- How to setup a MongoDB container?
+- How to access a DB inside the container on the host machine?
+- How to access a DB inside another container?
+- How to retain MongoDB database in the container?
+- How to backup MongoDB in the container?
+- A `docker-compose.yml` file for the express/MongoDB setup.
+
+## UNIX (0/9)
+- What's a reverse proxy?
+- How to setup a reverse proxy?
+- What is the purpose of nginx?
+- How to select a value from path in `jq`?
+- How to set a value for path in `jq`?
+- How to retrieve a data from the n-th column and the n-th row from the CSV file?
+- How to change a data from the n-th column and the n-th row from the CSV file?
+- How to sum numbers from the n-th column from the CSV file?
+- How to create a Makefile for containerized react app?
+- How to add arguments for a Makefile script?
+
+## Vim (0/5)
+- What is an buffer, exactly?
+- How to run a line through an external program?
+- What are the sentence, paragraph, section text objects?
+- How to fold functions and other blocks of code?
+- How to work with marks efficiently?
+
 ## English (0/5)
 - Explore "0 conditional".
 - Explore "1st conditional".
@@ -126,33 +124,25 @@
 - Explore "3rd conditional".
 - Explore "mixed conditional".
 
-# HTML (0/4)
+## HTML (0/4)
 - Choosing between `section` vs `div`.
 - What are the most common aria-\* attributes?
 - How to use a mask for input?
 - What's an importance in img tags?
-
-## Observables (0/3)
-- What exactly is the stream?
-- How to create streams?
-- What are the basic operators?
-
-## GraphQL (0/1)
-- How to setup GraphQL along the Node & MongoDB?
 
 ## Other (0/1)
 - What's a difference between church and a cathedral?
 - What's escapism?
 
 To refine:
+- observables
+- graphql
 - sed
 - awk
 - grep
 - head
-- ssh
 - SVG
 - Vue
-- Figma
 - PostgreSQL
 - D3.js
 - Rust
