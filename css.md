@@ -221,3 +221,9 @@ The very first child inside the `list__item` will have a green background;
 [codepen](https://codepen.io/anon/pen/PVZvVG)
 
 ---
+
+**How to prevent long words from breaking the layout (wrap them)?**
+
+`word-break: break-all;`
+
+---

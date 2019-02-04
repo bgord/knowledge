@@ -4,6 +4,7 @@
 - How to test components that fetch data?
 - How to utilize a `useContext` hook to make it act like a Redux store?
 - How to setup a `xstate` for a basic example? 
+- What problem does `mdx` solve?
 - How to use refs in React? Explore `useRef` hook in detail.
 - What's `useCallback` useful for?
 - What's `useImperativeHandle` for?
@@ -38,7 +39,7 @@
 - How to setup a TS for Node?
 - How to add types for a library?
 
-## CSS (0/15)
+## CSS (1/15)
 - How does @font-face work?
 - What's a specificity and how to count it?
 - What does \# mean in the SCSS?
@@ -54,6 +55,7 @@
 - When do `basis, shrinking, and growing` apply? What are the possible values?
 - What is `flex/flex-flow`?
 - What does `max/min-content` mean in `gtc`?
+- ~~How to prevent long words from breaking the layout (wrap them)?~~
 
 ## JS (0/18)
 - In-depth == vs === comparison.
@@ -74,10 +76,11 @@
 - What's a tree-shaking and how does it work?
 - How to use placeholders (R.\_) in Ramda?
 - How to just intl.number to format quotas?
+- What are peer dependencies?
 
 ## GIT (0/11)
-- How to rebase? What is `git rebase -i` useful for?
 - How does `git rm` work?
+- How to rebase? What is `git rebase -i` useful for?
 - What to do when branches have diverged?
 - What does `git pull --rebase` do?
 - What are `git submodules`? What are they useful for?
