@@ -415,3 +415,23 @@ interface Props {
 ```
 
 ---
+
+**How and why to forwardRef?**
+
+`ref` can only be passed to a native HTML element, like `input` or `button`. When passed to a Function Component, React warns that it won't work.
+
+A way for a Function Component to receive a ref is to wrap it with `forwardRef`.
+
+```
+const Button = forwardRef((props, ref) => (<button {...props} ref={ref}>Buy</button>)
+    )
+```
+
+With TypeScript, forwardRef receives two arguments: HTML element type and component props.
+
+```
+const Button = forwardRef<HTMLButtonElement, HTMLProps<HTMLButtonElement>((props, ref) => (<button {...props} ref={ref}>Buy</button>)
+    )
+```
+
+---
