@@ -402,7 +402,15 @@ We pass a promise to the React.lazy, so it will resolve in the next event loop t
 
 **useEffect vs useLayoutEffect**
 
-`useLayoutEffect` runs immediately after React performs the DOM mutations, you can use it to mutate DOM via `ref` or making measurements like getting scroll position.
+`useLayoutEffect`:
+- aligned closer to the previous `componentDidMoun`/`componentDidUpdate`/`componentWillUnmount` behaviour
+- run synchronously after all DOM mutations
+- before user sees an update on the screen (DOM mutations)
+
+
+`useEffect`
+- run asynchronously after all DOM mutations
+- after user sees an update on the screen (e.g store sun/unsub)
 
 ---
 
