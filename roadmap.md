@@ -1,20 +1,20 @@
 # Roadmap for 2019
 
 ## React (5/23)
-- How to test components that fetch data?
-- How to utilize a `useContext` hook to make it act like a Redux store?
-- How to setup a `xstate` for a basic example? 
+- What's a difference between `createElement` vs `cloneElement`
 - What apart from DOM refs can be stored in `useRef` hook?
+- How to test components that fetch data within `act`?
+- How to utilize a `useContext` hook to make it act like a Redux store?
+- How to use `memo`? How's that different than `useMemo`?
+- Why not to use memo by default?
+- Is setState async, how batching works?
+- How to setup a `xstate` for a basic example? 
 - What problem does `mdx` solve?
 - How to use error boundaries?
-- Is setState async, how batching works?
 - What's `useCallback` useful for?
 - What's `useImperativeHandle` for?
-- How to use `memo`? How's that different than `useMemo`?
-- What's a difference between `createElement` vs `cloneElement`
 - What's a compound component pattern?
 - What's the difference between controlled and uncontrolled component?
-- React.Children - what're the possibilities here?
 - How to setup redux-observable?
 - What's a Strict Mode?
 - What is JSX pragma?
