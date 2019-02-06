@@ -25,9 +25,8 @@
 - ~~How to clone all the children and pass props to them?~~
 - ~~How to access DOM refs by `useRef`?~~
 
-## TypeScript (0/19)
+## TypeScript (1/19)
 - How to get a function return type?
-- A types for a value that is null or a number?
 - What's a discriminated union?
 - How to deal with mutually exclusive types in intersections?
 - Default types for generics.
@@ -45,6 +44,7 @@
 - What is `d.ts` file for?
 - How to setup a TS for Node?
 - How to add types for a library?
+- ~~A types for a value that is null or a number?~~
 
 ## CSS (1/15)
 - How does @font-face work?

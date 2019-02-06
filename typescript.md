@@ -464,3 +464,12 @@ if (ref.current) { // to avoid 'Object (ref.current) is possibly null'
 ```
 
 ---
+
+**A types for a value that is null or a number?**
+
+```
+const possiblyNumber: number | null = 2;
+const possiblyNumber: number | null = null;
+```
+
+---
