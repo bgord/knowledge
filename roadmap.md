@@ -1,13 +1,13 @@
 # Roadmap for 2019
 
-## React (5/21)
-- What apart from DOM refs can be stored in `useRef` hook?
-- Is setState async, how batching works?
+## React (5/23)
 - How to test components that fetch data?
 - How to utilize a `useContext` hook to make it act like a Redux store?
 - How to setup a `xstate` for a basic example? 
+- What apart from DOM refs can be stored in `useRef` hook?
 - What problem does `mdx` solve?
 - How to use error boundaries?
+- Is setState async, how batching works?
 - What's `useCallback` useful for?
 - What's `useImperativeHandle` for?
 - How to use `memo`? How's that different than `useMemo`?
@@ -18,6 +18,7 @@
 - How to setup redux-observable?
 - What's a Strict Mode?
 - What is JSX pragma?
+- ~~What's `act` in react testing utils for?~~
 - ~~How to access refs in the React TypeScript in a safe way and avoid 'Object is possibly null' error?~~
 - ~~How and why to forward refs?~~
 - ~~How to type React component to allow more than one child?~~

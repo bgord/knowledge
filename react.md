@@ -465,3 +465,26 @@ An actual DOM ref is available in `inputRef.current`, before/after the input the
 ```
 
 ---
+
+**What's `act` in react testing utils for?**
+
+Let's say you want to render a component that runs a `useEffect` hook.
+
+```
+const App = () => {
+  useEffect(() => {
+    console.log("Hello from useEffect!");
+  });
+  return <div>App</div>
+}
+```
+
+Normally, in browser, user would have seen the message in the console, after the component has been rendered. Unfortunately, it's not a case in the testing (jsdom) environment - the component gets rendered, but the effect has not been run. You can bypass it by executing next event loop tick (`await wait()` in react-testing-library) or by any `flushPromises` kind of logic.
+
+There's also a possibility to change `useEffect` to the `useLayoutEffect` which guarantees to perform a render blocking effect. The test will pass, but it's icky.
+
+React test utils exposes an `act` helper that you can run your test rendering in, it resembles greater part of the in browser behaviour ().
+
+If you run a hook on any update causing logic outside the `act` scope in the testing env, you get an error.
+
+---
