@@ -1,6 +1,7 @@
 # Roadmap for 2019
 
-## React (1/16)
+## React (1/18)
+- Is setState async, how batching works?
 - How to test components that fetch data?
 - How to utilize a `useContext` hook to make it act like a Redux store?
 - How to setup a `xstate` for a basic example? 
@@ -16,6 +17,7 @@
 - How to setup redux-observable?
 - What's a Strict Mode?
 - What is JSX pragma?
+- ~~How to access refs in the React TypeScript in a safe way and avoid 'Object is possibly null' error?~~
 - ~~How and why to forward refs?~~
 - ~~How to type React component to allow more than one child?~~
 

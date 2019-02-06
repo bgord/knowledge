@@ -450,3 +450,17 @@ interface Props extends HTMLProps<HTMLButtonElement> {
 ```
 
 ---
+
+**How to access refs in the React TypeScript in a safe way and avoid 'Object is possibly null' error?**
+
+```
+const ref = useRef<HTMLInputElement>(null);
+if (ref.current) { // to avoid 'Object (ref.current) is possibly null'
+  console.log(ref.current.validity); // can access validity of current ref
+} else {
+  console.log(`Ref jest nieaktualny jeszcze`);
+}
+
+```
+
+---
