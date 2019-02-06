@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## React (5/23)
+## React (5/24)
 - What's a difference between `createElement` vs `cloneElement`
 - What apart from DOM refs can be stored in `useRef` hook?
 - How to test components that fetch data within `act`?
@@ -24,6 +24,7 @@
 - ~~How to type React component to allow more than one child?~~
 - ~~How to clone all the children and pass props to them?~~
 - ~~How to access DOM refs by `useRef`?~~
+- What is `setupFileAfterEnv` in Jest for?
 
 ## TypeScript (1/19)
 - How to get a function return type?
