@@ -110,3 +110,25 @@ Everytime `teh` is typed, change it to `the`.
 Instead of `2dd`, pres `dk` or `dj`.
 
 ---
+
+**How to allow in-word snippet expansion?**
+
+Add an `i` option to the end of snippet first line of definition.
+
+```
+snippet tp "this.props" i
+this.props.${1}
+endsnippet
+```
+
+**How to make snippet expand only if it's been declared on the beginning of the line?**
+
+Add an `b` option to the end of snippet first line of definition.
+
+```
+snippet tp "this.props" b
+this.props.${1}
+endsnippet
+```
+
+---

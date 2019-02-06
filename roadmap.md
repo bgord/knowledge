@@ -117,12 +117,14 @@
 - How to create a Makefile for containerized react app?
 - How to add arguments for a Makefile script?
 
-## Vim (0/5)
+## Vim (2/7)
 - What is an buffer, exactly?
 - How to run a line through an external program?
 - What are the sentence, paragraph, section text objects?
 - How to fold functions and other blocks of code?
 - How to work with marks efficiently?
+- ~~How to allow in-word snippet expansion?~~
+- ~~How to make snippet expand only if it's been declared on the beginning of the line?~~
 
 ## English (0/5)
 - Explore "0 conditional".
