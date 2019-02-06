@@ -227,3 +227,13 @@ The very first child inside the `list__item` will have a green background;
 `word-break: break-all;`
 
 ---
+
+**Is `::after` pseudo-element treated as an actual element in flexbox?**
+
+Yes, it's being taking into account, when given a following layout:
+
+[---- A ----|---- B ---- |--C--]
+
+C takes a space e.g in the flex-basis.
+
+---

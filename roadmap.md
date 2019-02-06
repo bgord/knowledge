@@ -46,7 +46,7 @@
 - How to add types for a library?
 - ~~A types for a value that is null or a number?~~
 
-## CSS (1/15)
+## CSS (2/17)
 - How does @font-face work?
 - What's a specificity and how to count it?
 - What does \# mean in the SCSS?
@@ -63,6 +63,7 @@
 - What is `flex/flex-flow`?
 - What does `max/min-content` mean in `gtc`?
 - ~~How to prevent long words from breaking the layout (wrap them)?~~
+- ~~Is `::after` pseudo-element treated as an actual element in flexbox?~~
 
 ## JS (1/18)
 - In-depth == vs === comparison.
