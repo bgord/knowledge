@@ -453,3 +453,15 @@ const Button = forwardRef<HTMLButtonElement, HTMLProps<HTMLButtonElement>((props
 ```
 
 ---
+
+**How to access DOM refs by `useRef`?**
+
+```
+const inputRef = useRef<HTMLInputElement>(null); // TS says that it needs to be initialized to some variable
+
+<input ref={inputRef} />
+
+An actual DOM ref is available in `inputRef.current`, before/after the input the ref refers to is mounted/unmounted, the value of the ref is equal to null.
+```
+
+---
