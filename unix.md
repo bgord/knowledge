@@ -161,3 +161,9 @@ Useful when trying to find things (and then asserting it).
 It is a variable containing all the command variables except of the first one.
 
 ---
+
+**How to move a directory/file in Ranger?**
+
+`dd` on the directory/file you want to move, then navigate to the path you want to paste, and `pp`.
+
+---

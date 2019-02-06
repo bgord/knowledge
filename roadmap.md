@@ -105,7 +105,7 @@
 - How to backup MongoDB in the container?
 - A `docker-compose.yml` file for the express/MongoDB setup.
 
-## UNIX (0/9)
+## UNIX (1/11)
 - What's a reverse proxy?
 - How to setup a reverse proxy?
 - What is the purpose of nginx?
@@ -116,6 +116,7 @@
 - How to sum numbers from the n-th column from the CSV file?
 - How to create a Makefile for containerized react app?
 - How to add arguments for a Makefile script?
+- ~~How to move a directory in Ranger?~~
 
 ## Vim (2/7)
 - What is an buffer, exactly?
