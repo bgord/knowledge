@@ -65,15 +65,17 @@
 - ~~How to prevent long words from breaking the layout (wrap them)?~~
 - ~~Is `::after` pseudo-element treated as an actual element in flexbox?~~
 
-## JS (1/18)
+## JS (1/20)
+ -How to add a custom validation function?
 - In-depth == vs === comparison.
-- What is transducer?
+- How to use link `ref="preload"`?
 - What is a `state reducer pattern`?
 - What is a `proxy` in JS? What can it be useful for?
 - How to make a property private by using Symbol?
-- What's a babel macro?
 - What's a mutation observer?
 - What's an intersection observer?
+- What is transducer?
+- What's a babel macro?
 - Arrow function vs Regular function.
 - Function definition vs function declaration.
 - How is Map different from object?
@@ -85,7 +87,7 @@
 - How to use placeholders (R.\_) in Ramda?
 - How to just intl.number to format quotas?
 - What are peer dependencies?
-- ~~How to add a customer error message to the input?~~
+- ~~How to add a custom error message to the input?~~
 
 ## GIT (1/12)
 - How does `git rm` work?
