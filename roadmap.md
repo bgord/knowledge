@@ -58,7 +58,7 @@
 - What does `max/min-content` mean in `gtc`?
 - ~~How to prevent long words from breaking the layout (wrap them)?~~
 
-## JS (0/18)
+## JS (1/18)
 - In-depth == vs === comparison.
 - What is transducer?
 - What is a `state reducer pattern`?
@@ -78,6 +78,7 @@
 - How to use placeholders (R.\_) in Ramda?
 - How to just intl.number to format quotas?
 - What are peer dependencies?
+- ~~How to add a customer error message to the input?~~
 
 ## GIT (0/11)
 - How does `git rm` work?

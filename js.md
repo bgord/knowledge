@@ -166,3 +166,14 @@ Parameter is a variable in function definition.
 Argument is a data passed to a called function to parameter.
 
 ---
+
+
+**How to add a customer error message to the input?**
+
+```
+if (!input.validity) {
+  input.setCustomValidity("Not a number.");
+}
+```
+
+---
