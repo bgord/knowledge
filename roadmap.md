@@ -83,7 +83,7 @@
 - What are peer dependencies?
 - ~~How to add a customer error message to the input?~~
 
-## GIT (0/11)
+## GIT (1/12)
 - How does `git rm` work?
 - How to rebase? What is `git rebase -i` useful for?
 - What to do when branches have diverged?
@@ -95,6 +95,7 @@
 - How to obtain useful logs with `git log`?
 - How to remove a file from all the git history?
 - What do all the options in `git add -i` mean?
+- ~~How to remove edited/removed line from a git hunk that is about to get staged?~~
 
 ## Docker (0/8)
 - What are ARGs?

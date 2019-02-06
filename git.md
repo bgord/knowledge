@@ -230,3 +230,12 @@ It sets the default remote branch for the current branch, so git know what to do
 `$ git push -u origin feature/inpu`
 
 ---
+
+**How to remove edited/removed line from a git hunk that is about to get staged interactively?**
+
+When in the hunk you want to interactively stage there's a line you want to exclude from the staging, and the hook cannot be split, press `e`.
+
+To delete addition, remove an entire line (+).
+To delete deletion, remove the `-` at the beginning of the line.
+
+---
