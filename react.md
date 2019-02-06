@@ -435,3 +435,13 @@ const Button = forwardRef<HTMLButtonElement, HTMLProps<HTMLButtonElement>((props
 ```
 
 ---
+
+**How to clone all the children and pass props to them?**
+
+```
+{React.Children.map(this.props.children, child =>
+  React.cloneElement(child, { isActive: this.state.isActive })
+)}
+```
+
+---

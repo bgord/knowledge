@@ -20,6 +20,7 @@
 - ~~How to access refs in the React TypeScript in a safe way and avoid 'Object is possibly null' error?~~
 - ~~How and why to forward refs?~~
 - ~~How to type React component to allow more than one child?~~
+- ~~How to clone all the children and pass props to them?~~
 
 ## TypeScript (0/19)
 - How to get a function return type?
