@@ -167,3 +167,24 @@ It is a variable containing all the command variables except of the first one.
 `dd` on the directory/file you want to move, then navigate to the path you want to paste, and `pp`.
 
 ---
+
+**How to structure a Makefile for containerized react app?**
+
+Basic structure:
+
+```
+mfs:
+  ./npm.sh run frontend:start
+```
+
+When a script is dependent on the another:
+
+```
+populate:
+  ./npm.sh run api:populate
+
+start: populate
+  ./npm.sh run api:start
+```
+
+---
