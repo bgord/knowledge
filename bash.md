@@ -33,3 +33,35 @@ echo $@
 ```
 
 ---
+
+**Switch case statement**
+
+```
+case "$2" in
+  'frontend:start')
+    PORTS_FLAGS="-p 80:80"
+  ;;
+  'frontend:build')
+  ;;
+  'frontend:test')
+  ;;
+  'frontend:lint')
+  ;;
+  'frontend:stylelint')
+  ;;
+  'frontend:storybook')
+    PORTS_FLAGS="-p 9000:9000"
+  ;;
+  'api:serve')
+    PORTS_FLAGS="-p 8765:8765"
+  ;;
+  'api:populate')
+  ;;
+  'app:start')
+    PORTS_FLAGS="-p 80:80 -p 8765:8765"
+  ;;
+  'app:start:populate')
+    PORTS_FLAGS="-p 80:80 -p 8765:8765"
+  ;;
+esac
+```
