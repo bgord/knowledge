@@ -177,3 +177,9 @@ if (!input.validity) {
 ```
 
 ---
+
+**How to make Jest run all the tests and quit?**
+
+`CI=true react-scripts test`
+
+---

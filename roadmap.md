@@ -66,7 +66,8 @@
 - ~~How to prevent long words from breaking the layout (wrap them)?~~
 - ~~Is `::after` pseudo-element treated as an actual element in flexbox?~~
 
-## JS (1/20)
+## JS (2/22)
+- What's a singleton pattern?
  -How to add a custom validation function?
 - In-depth == vs === comparison.
 - How to use link `ref="preload"`?
@@ -88,6 +89,7 @@
 - How to use placeholders (R.\_) in Ramda?
 - How to just intl.number to format quotas?
 - What are peer dependencies?
+- ~~How to make Jest run all the tests and quit?~~
 - ~~How to add a custom error message to the input?~~
 
 ## GIT (1/12)
