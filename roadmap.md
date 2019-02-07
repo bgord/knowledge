@@ -125,8 +125,8 @@
 - How to retrieve a data from the n-th column and the n-th row from the CSV file?
 - How to change a data from the n-th column and the n-th row from the CSV file?
 - How to sum numbers from the n-th column from the CSV file?
-- How to create a Makefile for containerized react app?
 - How to add arguments for a Makefile script?
+- What's a purpose of `.PHONY` in Makefiles?
 - ~~How to structure a Makefile for containerized react app?~~
 - ~~How to move a directory in Ranger?~~
 
