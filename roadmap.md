@@ -26,7 +26,7 @@
 - ~~How to access DOM refs by `useRef`?~~
 - What is `setupFileAfterEnv` in Jest for?
 
-## TypeScript (1/19)
+## TypeScript (2/20)
 - How to get a function return type?
 - What's a discriminated union?
 - How to deal with mutually exclusive types in intersections?
@@ -45,6 +45,7 @@
 - What is `d.ts` file for?
 - How to setup a TS for Node?
 - How to add types for a library?
+- ~~What's an exclamation mark for?~~
 - ~~A types for a value that is null or a number?~~
 
 ## CSS (2/17)

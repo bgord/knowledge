@@ -473,3 +473,17 @@ const possiblyNumber: number | null = null;
 ```
 
 ---
+
+**What's an exclamation mark for?**
+
+```
+type Name = string | null;
+
+const logger = (name: Name): void => {
+    console.log(name!.slice(0,1))
+}
+```
+
+When you want to access a string specific method, but the parameter is nullable, there is a way to enforce compiler to acknowledge the fact that the name will be a string and nothing else. Just put a `!` after the variable name.
+
+---
