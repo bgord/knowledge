@@ -195,3 +195,9 @@ start: populate
 Typically a target of the make command is a file, `.PHONY` is to register a command as a something not related to the file, but just a command.
 
 ---
+
+**How to extract the tar file?**
+
+`tar xvf filenamme.tar // eXtract Ve File `
+
+---
