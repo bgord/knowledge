@@ -487,3 +487,15 @@ const logger = (name: Name): void => {
 When you want to access a string specific method, but the parameter is nullable, there is a way to enforce compiler to acknowledge the fact that the name will be a string and nothing else. Just put a `!` after the variable name.
 
 ---
+
+**How to get a function return type?**
+
+```
+type Arrayify = (a: string) => string[];
+
+type Result = ReturnType<Arrayify>;
+
+const result: Result = [];
+```
+
+---

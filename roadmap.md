@@ -7,7 +7,7 @@
 - How to utilize a `useContext` hook to make it act like a Redux store?
 - How to use `memo`? How's that different than `useMemo`?
 - Why not to use memo by default?
-- Is setState async? how batching works?
+- Is setState async? How batching works?
 - How to setup a `xstate` for a basic example? 
 - What problem does `mdx` solve?
 - How to use error boundaries?
@@ -18,17 +18,16 @@
 - How to setup redux-observable?
 - What's a Strict Mode?
 - What is JSX pragma?
+- What is `setupFileAfterEnv` in Jest for?
 - ~~What's `act` in react testing utils for?~~
 - ~~How to access refs in the React TypeScript in a safe way and avoid 'Object is possibly null' error?~~
 - ~~How and why to forward refs?~~
 - ~~How to type React component to allow more than one child?~~
 - ~~How to clone all the children and pass props to them?~~
 - ~~How to access DOM refs by `useRef`?~~
-- What is `setupFileAfterEnv` in Jest for?
 
-## TypeScript (2/21)
+## TypeScript (3/21)
 - What's an `unknown` type? How is this different from `any`?
-- How to get a function return type?
 - What's a discriminated union?
 - How to deal with mutually exclusive types in intersections?
 - Default types for generics.
@@ -48,6 +47,7 @@
 - How to add types for a library?
 - ~~What's an exclamation mark for?~~
 - ~~A types for a value that is null or a number?~~
+- ~~How to get a function return type?~~
 
 ## CSS (4/19)
 - How does @font-face work?
