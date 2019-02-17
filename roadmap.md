@@ -26,7 +26,7 @@
 - ~~How to clone all the children and pass props to them?~~
 - ~~How to access DOM refs by `useRef`?~~
 
-## TypeScript (3/21)
+## TypeScript (4/21)
 - What's an `unknown` type? How is this different from `any`?
 - What's a discriminated union?
 - How to deal with mutually exclusive types in intersections?
@@ -36,7 +36,6 @@
 - How to get keys of interface/type?
 - How to type React input focus events?
 - How to type React select/checkbox events?
-- How to use Pick?
 - How to use Exclude?
 - How to use `readonly` and `const` keywords?
 - What is 'never' in TS?
@@ -48,6 +47,7 @@
 - ~~What's an exclamation mark for?~~
 - ~~A types for a value that is null or a number?~~
 - ~~How to get a function return type?~~
+- ~~How to use Pick?~~
 
 ## CSS (4/19)
 - How does @font-face work?

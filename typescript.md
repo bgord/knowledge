@@ -499,3 +499,26 @@ const result: Result = [];
 ```
 
 ---
+
+**How to use Pick?**
+
+`Pick` takes an enum of interface keys and applies them to the new interface.
+
+```
+type Model = {
+    id: string;
+    age: number;
+}
+
+type Age = Pick<Model, 'age'>;
+
+const me: Age = {
+    age: 2
+};
+```
+
+In order to use age as a primitive.
+
+`const myAge: Model['age'] = 2;`
+
+---
