@@ -7,7 +7,7 @@
 - How to utilize a `useContext` hook to make it act like a Redux store?
 - How to use `memo`? How's that different than `useMemo`?
 - Why not to use memo by default?
-- Is setState async, how batching works?
+- Is setState async? how batching works?
 - How to setup a `xstate` for a basic example? 
 - What problem does `mdx` solve?
 - How to use error boundaries?
@@ -26,7 +26,8 @@
 - ~~How to access DOM refs by `useRef`?~~
 - What is `setupFileAfterEnv` in Jest for?
 
-## TypeScript (2/20)
+## TypeScript (2/21)
+- What's an `unknown` type? How is this different from `any`?
 - How to get a function return type?
 - What's a discriminated union?
 - How to deal with mutually exclusive types in intersections?
@@ -48,7 +49,7 @@
 - ~~What's an exclamation mark for?~~
 - ~~A types for a value that is null or a number?~~
 
-## CSS (2/17)
+## CSS (3/18)
 - How does @font-face work?
 - What's a specificity and how to count it?
 - What does \# mean in the SCSS?
@@ -66,6 +67,7 @@
 - What does `max/min-content` mean in `gtc`?
 - ~~How to prevent long words from breaking the layout (wrap them)?~~
 - ~~Is `::after` pseudo-element treated as an actual element in flexbox?~~
+- ~~How to avoid stretching grid items?~~
 
 ## JS (2/22)
 - What's a singleton pattern?

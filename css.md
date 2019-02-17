@@ -237,3 +237,11 @@ Yes, it's being taking into account, when given a following layout:
 C takes a space e.g in the flex-basis.
 
 ---
+
+**How to avoid stretching grid items?**
+
+`align-self: start;`
+
+It makes the item stick to the start of the cell it belongs. By default `auto` stretches the item to fill all the available space.
+
+---
