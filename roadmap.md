@@ -1,17 +1,18 @@
 # Roadmap for 2019
 
 ## React (5/25)
-- What's a difference between `createElement` vs `cloneElement`
+- How to utilize a `useContext` hook to make it act like a Redux store?
+- What's `useCallback` useful for?
 - What apart from DOM refs can be stored in `useRef` hook?
 - How to test components that fetch data within `act`?
-- How to utilize a `useContext` hook to make it act like a Redux store?
+- How to use error boundaries?
+
+- How to setup a `xstate` for a basic example? 
+- What's a difference between `createElement` vs `cloneElement`
 - How to use `memo`? How's that different than `useMemo`?
 - Why not to use memo by default?
 - Is setState async? How batching works?
-- How to setup a `xstate` for a basic example? 
 - What problem does `mdx` solve?
-- How to use error boundaries?
-- What's `useCallback` useful for?
 - What's `useImperativeHandle` for?
 - What's a compound component pattern?
 - What's the difference between controlled and uncontrolled component?
@@ -28,40 +29,53 @@
 - ~~How to access DOM refs by `useRef`?~~
 
 ## TypeScript (4/20)
-- What's an `unknown` type? How is this different from `any`?
+- How to create an `Omit` function?
+- Default types for generics.
+- How to use NotNullable?
+- What is 'never' in TS?
+- How to get keys of interface/type?
+
 - What's a discriminated union?
 - How to deal with mutually exclusive types in intersections?
-- Default types for generics.
 - Function type overloads.
-- What's a synthetic import?
-- How to get keys of interface/type?
 - How to type React input focus events?
 - How to type React select/checkbox events?
 - How to use Exclude?
 - How to use `readonly` and `const` keywords?
-- What is 'never' in TS?
 - How TS works for spread/rest operator?
-- How to use NotNullable?
+- What's an `unknown` type? How is this different from `any`?
 - What is `d.ts` file for?
 - How to add types for a library?
+- What's a synthetic import?
 - ~~What's an exclamation mark for?~~
 - ~~A types for a value that is null or a number?~~
 - ~~How to get a function return type?~~
 - ~~How to use Pick?~~
 
+## GraphQL (0/8)
+- Which packages should be used to setup a basic GraphQL server for Node.js?
+- How to serve a basic array?
+- What's `Query`?
+- What's `Mutation`?
+- What are the available types for the queries?
+- How to write resolvers?
+- How to setup a GraphQL playground?
+- How to query GraphQL on the front end?
+
 ## CSS (4/19)
+- What is `minmax` function in CSS Grid?
+- In depth relative vs absolute comparison.
+
 - How does @font-face work?
 - What's a specificity and how to count it?
 - What does \# mean in the SCSS?
 - What is a mixin and function in SCSS?
 - How to write a conditional in SCSS?
 - How to write a loop in SCSS?
-- In depth relative vs absolute comparison.
 - In depth sticky vs fixed comparison.
 - What are typography best practices?
 - What is `inline-flex` useful for?
 - What is `inline-grid` useful for?
-- What is `minmax` function in CSS Grid?
 - When do `basis, shrinking, and growing` apply? What are the possible values?
 - What is `flex/flex-flow`?
 - What does `max/min-content` mean in `gtc`?
@@ -71,19 +85,20 @@
 - ~~How to avoid a text from wrapping?~~
 
 ## JS (3/24)
-- What's a singleton pattern?
- -How to add a custom validation function?
 - In-depth == vs === comparison.
+- Function definition vs function declaration.
+ -How to add a custom validation function?
 - How to use link `ref="preload"`?
+- What's a mutation observer?
+
+- What's a singleton pattern?
 - What is a `state reducer pattern`?
 - What is a `proxy` in JS? What can it be useful for?
 - How to make a property private by using Symbol?
-- What's a mutation observer?
 - What's an intersection observer?
 - What is transducer?
 - What's a babel macro?
 - Arrow function vs Regular function.
-- Function definition vs function declaration.
 - How is Map different from object?
 - What are use cases for Set?
 - How to find an AST name of some part of the language?
@@ -100,8 +115,9 @@
 
 ## GIT (1/12)
 - How does `git rm` work?
-- How to rebase? What is `git rebase -i` useful for?
 - What to do when branches have diverged?
+
+- How to rebase? What is `git rebase -i` useful for?
 - What does `git pull --rebase` do?
 - What are `git submodules`? What are they useful for?
 - What's a `..` operator in git log?
@@ -115,6 +131,7 @@
 ## Docker (0/8)
 - What are ARGs?
 - How does docker-compose work?
+
 - How to setup a MongoDB container?
 - How to access a DB inside the container on the host machine?
 - How to access a DB inside another container?
@@ -124,6 +141,7 @@
 
 ## UNIX (4/13)
 - What's a reverse proxy?
+
 - How to setup a reverse proxy?
 - What is the purpose of nginx?
 - How to select a value from path in `jq`?
@@ -138,10 +156,11 @@
 - ~~How to move a directory in Ranger?~~
 
 ## Vim (2/7)
+- How to fold functions and other blocks of code?
+
 - What is an buffer, exactly?
 - How to run a line through an external program?
 - What are the sentence, paragraph, section text objects?
-- How to fold functions and other blocks of code?
 - How to work with marks efficiently?
 - ~~How to allow in-word snippet expansion?~~
 - ~~How to make snippet expand only if it's been declared on the beginning of the line?~~
@@ -159,7 +178,7 @@
 - How to use a mask for input?
 - What's an `importance` in img tags?
 
-## Other (0/1)
+## Other (0/2)
 - What's a difference between church and a cathedral?
 - What's escapism?
 
@@ -168,22 +187,17 @@
 
 To refine:
 - observables
-- graphql
 - sed
 - awk
 - grep
-- head
 - SVG
 - Vue
 - PostgreSQL
 - D3.js
 - Rust
 - Machine learning algorithms
-- Bash
 - MongoDB
 - Firebase
-- order
-- align-content
 - named rows/columns
 - template areas
 - justify/align-content/place-content
