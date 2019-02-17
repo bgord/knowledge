@@ -163,7 +163,7 @@
 - What's escapism?
 
 ## Bash (1/1)
-  - How to use a switch statement on the n-th variable?
+  - ~~How to use a switch statement on the n-th variable?~~
 
 To refine:
 - observables
