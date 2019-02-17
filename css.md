@@ -245,3 +245,9 @@ C takes a space e.g in the flex-basis.
 It makes the item stick to the start of the cell it belongs. By default `auto` stretches the item to fill all the available space.
 
 ---
+
+**How to avoid a text from wrapping?**
+
+`white-space: nowrap;`
+
+---

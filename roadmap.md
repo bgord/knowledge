@@ -49,7 +49,7 @@
 - ~~What's an exclamation mark for?~~
 - ~~A types for a value that is null or a number?~~
 
-## CSS (3/18)
+## CSS (4/19)
 - How does @font-face work?
 - What's a specificity and how to count it?
 - What does \# mean in the SCSS?
@@ -68,6 +68,7 @@
 - ~~How to prevent long words from breaking the layout (wrap them)?~~
 - ~~Is `::after` pseudo-element treated as an actual element in flexbox?~~
 - ~~How to avoid stretching grid items?~~
+- ~~How to avoid a text from wrapping?~~
 
 ## JS (2/22)
 - What's a singleton pattern?
