@@ -201,3 +201,13 @@ Typically a target of the make command is a file, `.PHONY` is to register a comm
 `tar xvf filenamme.tar // eXtract Ve File `
 
 ---
+
+**Head**
+
+By default it prints the first 10 lines of the file.
+
+`head .gitignore -n 5`
+
+`-n` is being used to print n first lines.
+
+---
