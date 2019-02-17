@@ -70,7 +70,7 @@
 - ~~How to avoid stretching grid items?~~
 - ~~How to avoid a text from wrapping?~~
 
-## JS (2/22)
+## JS (3/23)
 - What's a singleton pattern?
  -How to add a custom validation function?
 - In-depth == vs === comparison.
@@ -93,6 +93,7 @@
 - How to use placeholders (R.\_) in Ramda?
 - How to just intl.number to format quotas?
 - What are peer dependencies?
+- ~~How to sort dates properly?~~
 - ~~How to make Jest run all the tests and quit?~~
 - ~~How to add a custom error message to the input?~~
 

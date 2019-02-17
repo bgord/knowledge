@@ -183,3 +183,9 @@ if (!input.validity) {
 `CI=true react-scripts test`
 
 ---
+
+**How to sort dates properly?**
+
+`dates.sort((a, b) => a.date.localeCompare(b.date))`
+
+---
