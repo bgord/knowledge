@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## React (5/24)
+## React (5/25)
 - What's a difference between `createElement` vs `cloneElement`
 - What apart from DOM refs can be stored in `useRef` hook?
 - How to test components that fetch data within `act`?
@@ -19,6 +19,7 @@
 - What's a Strict Mode?
 - What is JSX pragma?
 - What is `setupFileAfterEnv` in Jest for?
+- How to use an unstable Suspense's `createResource`?
 - ~~What's `act` in react testing utils for?~~
 - ~~How to access refs in the React TypeScript in a safe way and avoid 'Object is possibly null' error?~~
 - ~~How and why to forward refs?~~
@@ -26,7 +27,7 @@
 - ~~How to clone all the children and pass props to them?~~
 - ~~How to access DOM refs by `useRef`?~~
 
-## TypeScript (4/21)
+## TypeScript (4/20)
 - What's an `unknown` type? How is this different from `any`?
 - What's a discriminated union?
 - How to deal with mutually exclusive types in intersections?
@@ -40,9 +41,8 @@
 - How to use `readonly` and `const` keywords?
 - What is 'never' in TS?
 - How TS works for spread/rest operator?
-- How to achieve NotNullable type?
+- How to use NotNullable?
 - What is `d.ts` file for?
-- How to setup a TS for Node?
 - How to add types for a library?
 - ~~What's an exclamation mark for?~~
 - ~~A types for a value that is null or a number?~~
@@ -70,7 +70,7 @@
 - ~~How to avoid stretching grid items?~~
 - ~~How to avoid a text from wrapping?~~
 
-## JS (3/23)
+## JS (3/24)
 - What's a singleton pattern?
  -How to add a custom validation function?
 - In-depth == vs === comparison.
@@ -93,6 +93,7 @@
 - How to use placeholders (R.\_) in Ramda?
 - How to just intl.number to format quotas?
 - What are peer dependencies?
+- Why to use `package-lock.json`?
 - ~~How to sort dates properly?~~
 - ~~How to make Jest run all the tests and quit?~~
 - ~~How to add a custom error message to the input?~~
@@ -121,7 +122,7 @@
 - How to backup MongoDB in the container?
 - A `docker-compose.yml` file for the express/MongoDB setup.
 
-## UNIX (3/13)
+## UNIX (4/13)
 - What's a reverse proxy?
 - How to setup a reverse proxy?
 - What is the purpose of nginx?
@@ -131,7 +132,7 @@
 - How to change a data from the n-th column and the n-th row from the CSV file?
 - How to sum numbers from the n-th column from the CSV file?
 - How to add arguments for a Makefile script?
-- What's a purpose of `.PHONY` in Makefiles?
+- ~~What's a purpose of `.PHONY` in Makefiles?~~
 - ~~How to extract the tar file?~~
 - ~~How to structure a Makefile for containerized react app?~~
 - ~~How to move a directory in Ranger?~~
@@ -156,7 +157,7 @@
 - Choosing between `section` vs `div`.
 - What are the most common aria-\* attributes?
 - How to use a mask for input?
-- What's an importance in img tags?
+- What's an `importance` in img tags?
 
 ## Other (0/1)
 - What's a difference between church and a cathedral?
