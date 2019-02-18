@@ -50,3 +50,9 @@ Sent every POST, PUT, and DELETE request.
 - Press Tab
 
 ---
+
+**What's a hypernym?**
+
+It's a word describing the general word for the category that more specific words fall into.
+
+---

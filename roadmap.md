@@ -181,9 +181,10 @@
 - How to use a mask for input?
 - What's an `importance` in img tags?
 
-## Other (0/2)
+## Other (0/3)
 - What's a difference between church and a cathedral?
 - What's escapism?
+- What's a hypernym?
 
 ## Bash (1/1)
   - ~~How to use a switch statement on the n-th variable?~~
