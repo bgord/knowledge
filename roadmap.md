@@ -4,9 +4,10 @@
 - How to utilize a `useContext` hook to make it act like a Redux store?
 - What's `useCallback` useful for?
 - What apart from DOM refs can be stored in `useRef` hook?
-- How to test components that fetch data within `act`?
+- How to test components that fetch data?
 - How to use error boundaries?
 
+- How to test components that fetch data within `act`?
 - How to setup a `xstate` for a basic example? 
 - What's a difference between `createElement` vs `cloneElement`
 - How to use `memo`? How's that different than `useMemo`?
@@ -139,7 +140,7 @@
 - How to backup MongoDB in the container?
 - A `docker-compose.yml` file for the express/MongoDB setup.
 
-## UNIX (4/13)
+## UNIX (5/14)
 - What is a workspace in Manjaro?
 - What's a reverse proxy?
 
@@ -155,6 +156,7 @@
 - ~~How to extract the tar file?~~
 - ~~How to structure a Makefile for containerized react app?~~
 - ~~How to move a directory in Ranger?~~
+- ~~Why open VPN won't start?~~
 
 ## Vim (2/7)
 - How to fold functions and other blocks of code?
@@ -325,7 +327,6 @@ To refine:
 
 ## Writing - 1
 - ~~When to use m-dash vs n-dash vs hyphen?~~
-
 
 ## Storybook 1
 - ~~How to setup a basic Storybook for an example component?~~

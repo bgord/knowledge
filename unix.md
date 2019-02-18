@@ -211,3 +211,9 @@ By default it prints the first 10 lines of the file.
 `-n` is being used to print n first lines.
 
 ---
+
+**Why open VPN won't start?**
+
+After you update a kernel, open vpn needs a restart to run properly.
+
+---
