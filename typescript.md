@@ -522,3 +522,33 @@ In order to use age as a primitive.
 `const myAge: Model['age'] = 2;`
 
 ---
+
+**What is 'never' in TS?**
+
+Used when:
+- a function never returns, and only e.g throws an error
+
+```
+const fail = (errorMessage: string): never => {throw new Error(errorMessage)};
+```
+
+- a function that has an impossible type
+```
+function controlFlowAnalysisWithNever(
+  value: string | number
+) {
+  if (typeof value === "string") {
+    value; // Type string
+  } else if (typeof value === "number") {
+    value; // Type number
+  } else {
+    value; // Type never
+  }
+}
+```
+
+The difference between `void` and `never` is that when a function's return type is `void` it actually returns the `undefined`, but in case of `never` it never returns.
+
+TS doesn't provide any autocompletion for such variables.
+
+---
