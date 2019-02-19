@@ -488,3 +488,9 @@ React test utils exposes an `act` helper that you can run your test rendering in
 If you run a hook on any update causing logic outside the `act` scope in the testing env, you get an error.
 
 ---
+
+**Target container is not a DOM element error**
+
+It happens when you test component that somewhere in its tree imports a variable/component from the file that uses a ReactDOM.
+
+---

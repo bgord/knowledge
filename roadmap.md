@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## React (5/25)
+## React (6/26)
 - How to utilize a `useContext` hook to make it act like a Redux store?
 - What's `useCallback` useful for?
 - What apart from DOM refs can be stored in `useRef` hook?
@@ -28,6 +28,7 @@
 - ~~How to type React component to allow more than one child?~~
 - ~~How to clone all the children and pass props to them?~~
 - ~~How to access DOM refs by `useRef`?~~
+- ~~Target container is not a DOM element error~~
 
 ## TypeScript (4/20)
 - How to create an `Omit` function?
