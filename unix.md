@@ -217,3 +217,13 @@ By default it prints the first 10 lines of the file.
 After you update a kernel, open vpn needs a restart to run properly.
 
 ---
+
+**What is a workspace in Manjaro?**
+
+It's a separate Desktop environment, it shares the same menu bar.
+
+To go to the next workspace: `Ctrl + Fn + Right Arrow`.
+To go to the previous workspace: `Ctrl + Fn + Left Arrow`.
+To go to the n-th workspace: `Ctrl + Fn + F<n>`
+
+---

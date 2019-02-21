@@ -143,10 +143,8 @@
 - How to backup MongoDB in the container?
 - A `docker-compose.yml` file for the express/MongoDB setup.
 
-## UNIX (5/14)
-- What is a workspace in Manjaro?
+## UNIX (6/14)
 - What's a reverse proxy?
-
 - How to setup a reverse proxy?
 - What is the purpose of nginx?
 - How to select a value from path in `jq`?
@@ -160,6 +158,7 @@
 - ~~How to structure a Makefile for containerized react app?~~
 - ~~How to move a directory in Ranger?~~
 - ~~Why open VPN won't start?~~
+- ~~What is a workspace in Manjaro?~~
 
 ## Vim (2/7)
 - How to fold functions and other blocks of code?
