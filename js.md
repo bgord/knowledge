@@ -189,3 +189,25 @@ if (!input.validity) {
 `dates.sort((a, b) => a.date.localeCompare(b.date))`
 
 ---
+
+**How to inject dependencies to a module?**
+
+```
+// index.jsx
+import {store} from "./store";
+
+setStoreForIntenceptors(store);
+```
+
+```
+// api.jsx
+
+let store;
+
+export const setStoreForIntenceptors = (_store) => {
+  store = _store;
+}
+
+```
+
+---

@@ -88,7 +88,7 @@
 - ~~How to avoid stretching grid items?~~
 - ~~How to avoid a text from wrapping?~~
 
-## JS (3/24)
+## JS (4/25)
 - In-depth == vs === comparison.
 - Function definition vs function declaration.
  -How to add a custom validation function?
@@ -113,6 +113,7 @@
 - How to just intl.number to format quotas?
 - What are peer dependencies?
 - Why to use `package-lock.json`?
+- ~~How to inject dependencies to a module?~~
 - ~~How to sort dates properly?~~
 - ~~How to make Jest run all the tests and quit?~~
 - ~~How to add a custom error message to the input?~~
