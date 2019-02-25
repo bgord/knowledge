@@ -573,3 +573,17 @@ componentDidCatch(error, info) {
 ```
 
 ---
+
+**How to get keys of interface/type?**
+
+```
+interface actions {
+    add: "add";
+    remove: "remove";
+}
+
+const action: keyof actions = "xxx"; // doesn't work
+const action: keyof actions = "add"; // work
+```
+
+---

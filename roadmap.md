@@ -29,13 +29,11 @@
 - ~~How to access DOM refs by `useRef`?~~
 - ~~Target container is not a DOM element error~~
 
-## TypeScript (6/24)
+## TypeScript (7/23)
 - What does `extends` mean exactly?
 - How to create an `Omit` function?
 - How to create a `Diff` function?
 - How to use `NotNullable`?
-- How to get keys of interface/type?
-
 - What's a discriminated union?
 - How to deal with mutually exclusive types in intersections?
 - Function type overloads.
@@ -48,6 +46,7 @@
 - What is `d.ts` file for?
 - How to add types for a library?
 - What's a synthetic import?
+- ~~How to get keys of interface/type?~~
 - ~~Default types for generics.~~
 - ~~What's an exclamation mark for?~~
 - ~~A types for a value that is null or a number?~~
