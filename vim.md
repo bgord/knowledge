@@ -132,3 +132,10 @@ endsnippet
 ```
 
 ---
+
+**How to browse recently closed files?**
+
+`:History` by fzf.vim functionality.
+`:old` by built-in vim feature.
+
+---

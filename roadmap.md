@@ -1,6 +1,7 @@
 # Roadmap for 2019
 
 ## React (9/27)
+- What is `setupFileAfterEnv` in Jest for?
 - How to utilize a `useContext` hook to make it act like a Redux store?
 - What apart from DOM refs can be stored in `useRef` hook?
 - How to test components that fetch data within `act`?
@@ -16,7 +17,6 @@
 - How to setup redux-observable?
 - What's a Strict Mode?
 - What is JSX pragma?
-- What is `setupFileAfterEnv` in Jest for?
 - How to use an unstable Suspense's `createResource`?
 - ~~How to use error boundaries?~~
 - ~~What's `useCallback` useful for?~~
@@ -159,13 +159,13 @@
 - ~~Why open VPN won't start?~~
 - ~~What is a workspace in Manjaro?~~
 
-## Vim (2/7)
+## Vim (3/8)
 - How to fold functions and other blocks of code?
-
 - What is an buffer, exactly?
 - How to run a line through an external program?
 - What are the sentence, paragraph, section text objects?
 - How to work with marks efficiently?
+- ~~How to browse recently closed files?~~
 - ~~How to allow in-word snippet expansion?~~
 - ~~How to make snippet expand only if it's been declared on the beginning of the line?~~
 
