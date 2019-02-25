@@ -1,10 +1,8 @@
 # Roadmap for 2019
 
-## React (8/28)
+## React (9/27)
 - How to utilize a `useContext` hook to make it act like a Redux store?
 - What apart from DOM refs can be stored in `useRef` hook?
-- How to use error boundaries?
-
 - How to test components that fetch data within `act`?
 - How to setup a `xstate` for a basic example? 
 - What's a difference between `createElement` vs `cloneElement`
@@ -20,6 +18,7 @@
 - What is JSX pragma?
 - What is `setupFileAfterEnv` in Jest for?
 - How to use an unstable Suspense's `createResource`?
+- ~~How to use error boundaries?~~
 - ~~What's `useCallback` useful for?~~
 - ~~How to test components that fetch data?~~
 - ~~What's `act` in react testing utils for?~~

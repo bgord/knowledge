@@ -561,3 +561,15 @@ TS doesn't provide any autocompletion for such variables.
 ```
 
 ---
+
+**How to use error boundaries?**
+
+Only in class components.
+
+```
+componentDidCatch(error, info) {
+    setError(info);
+}
+```
+
+---
