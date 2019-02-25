@@ -500,3 +500,29 @@ It happens when you test component that somewhere in its tree imports a variable
 `examples/use-effect-axios-test`
 
 ---
+
+**What's `useCallback` useful for?**
+
+Returns a memoized callback, which doesn't change unless one of the input items are changed. The elements from the input array are not passed as arguments to the callback.
+
+It's advised to go with the standard, inline option:
+`onClick={() => addTab({title: file.name})}`
+unless you encounter a performance issue.
+
+```
+const openNewTabWithFile = React.useCallback(
+  () =>
+    addTab({
+      title: file.name,
+      suffixTitle: file.number,
+      isRemovable: true,
+      type: 'file',
+      params: {
+        id: file.number,
+      },
+    }),
+  [file]
+);
+```
+
+---
