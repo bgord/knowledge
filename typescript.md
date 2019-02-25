@@ -552,3 +552,12 @@ The difference between `void` and `never` is that when a function's return type 
 TS doesn't provide any autocompletion for such variables.
 
 ---
+
+**Default types for generic arguments**
+
+```function Logger<T = string>(arg: T) {
+    console.log(arg);
+}
+```
+
+---
