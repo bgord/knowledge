@@ -1,10 +1,9 @@
 # Roadmap for 2019
 
-## React (6/26)
+## React (7/27)
 - How to utilize a `useContext` hook to make it act like a Redux store?
 - What's `useCallback` useful for?
 - What apart from DOM refs can be stored in `useRef` hook?
-- How to test components that fetch data?
 - How to use error boundaries?
 
 - How to test components that fetch data within `act`?
@@ -22,6 +21,7 @@
 - What is JSX pragma?
 - What is `setupFileAfterEnv` in Jest for?
 - How to use an unstable Suspense's `createResource`?
+- ~~How to test components that fetch data?~~
 - ~~What's `act` in react testing utils for?~~
 - ~~How to access refs in the React TypeScript in a safe way and avoid 'Object is possibly null' error?~~
 - ~~How and why to forward refs?~~

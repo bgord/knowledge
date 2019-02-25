@@ -494,3 +494,9 @@ If you run a hook on any update causing logic outside the `act` scope in the tes
 It happens when you test component that somewhere in its tree imports a variable/component from the file that uses a ReactDOM.
 
 ---
+
+**How to test components that fetch data?**
+
+`examples/use-effect-axios-test`
+
+---
