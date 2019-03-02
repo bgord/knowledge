@@ -702,3 +702,18 @@ const memoizedValue = React.useMemo(() => compute(a, b), [a, b]);
 `memo` is only for memoizing function components in a similar way to PureComponent (shallow prop comparison).
 
 ---
+
+**What is `setupFileAfterEnv` in Jest for?**
+
+From Jest ^24 to setup import paths that are run in every test.
+
+``` // jest.config.js
+module.exports = {
+	setupFilesAfterEnv: [
+		'jest-dom/extend-expect',
+		'react-testing-library/cleanup-after-each',
+	],
+};
+```
+
+---

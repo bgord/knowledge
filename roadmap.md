@@ -1,7 +1,6 @@
 # Roadmap for 2019
 
-## React (10/23)
-- What is `setupFileAfterEnv` in Jest for?
+## React (11/23)
 - How to utilize a `useContext` hook to make it act like a Redux store?
 - What apart from DOM refs can be stored in `useRef` hook?
 - How to test components that fetch data within `act`?
@@ -14,6 +13,7 @@
 - How to setup redux-observable?
 - What is JSX pragma?
 - How to use an unstable Suspense's `createResource`?
+- ~~What is `setupFileAfterEnv` in Jest for?~~
 - ~~How to use `memo`? How's that different than `useMemo`?~~
 - ~~How batching works?~~
 - ~~Is setState async?~~
