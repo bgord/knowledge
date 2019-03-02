@@ -2,11 +2,11 @@
 
 ## React (4/17)
 - What is `setupFileAfterEnv` in Jest for?
+- What's a difference between `createElement` vs `cloneElement`
 - How to utilize a `useContext` hook to make it act like a Redux store?
 - What apart from DOM refs can be stored in `useRef` hook?
 - How to test components that fetch data within `act`?
 - How to setup a `xstate` for a basic example? 
-- What's a difference between `createElement` vs `cloneElement`
 - How to use `memo`? How's that different than `useMemo`?
 - Why not to use memo by default?
 - Is setState async? How batching works?
@@ -23,23 +23,21 @@
 - ~~How to test if a radio button is selected?~~
 - ~~How to test a keyboard tab navigation?~~
 
-## TypeScript (0/16)
-- What does `extends` mean exactly?
+## TypeScript (4/15)
+- What is `d.ts` file for?
 - How to create an `Omit` function?
 - How to create a `Diff` function?
 - How to use `NotNullable`?
 - What's a discriminated union?
 - How to deal with mutually exclusive types in intersections?
 - Function type overloads.
-- How to type React input focus events?
-- How to type React select/checkbox events?
 - How to use Exclude?
-- How to use `readonly` and `const` keywords?
-- How TS works for spread/rest operator?
 - What's an `unknown` type? How is this different from `any`?
-- What is `d.ts` file for?
 - How to add types for a library?
-- What's a synthetic import?
+- ~~What does `extends` mean exactly?~~
+- ~~How TS works for rest operator?~~
+- ~~What's a synthetic import?~~
+- ~~How to use `readonly` and `const` keywords?~~
 
 ## GraphQL (0/8)
 - Which packages should be used to setup a basic GraphQL server for Node.js?

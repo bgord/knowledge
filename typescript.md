@@ -587,3 +587,70 @@ const action: keyof actions = "add"; // work
 ```
 
 ---
+
+**What does `extends` mean exactly?**
+
+`extends` means that given interface needs to implement all the attributes from the base interface.
+
+```
+interface Action {
+  type: string;
+}
+
+interface AddAction extends Action {
+  payload: {}
+}
+```
+
+The other use case is conditional type.
+
+```
+function logger<T>(variable: T extends true ? string : number): void {
+  console.log(variable);    
+}
+```
+
+---
+
+**How TS works for rest operator?**
+
+The `...rest` variable is basically an array.
+
+```
+function logger(a: string, ...rest: number[]):void {
+    console.log()
+}
+```
+
+---
+
+**What's a synthetic import?**
+
+A way to import: `import React from "react";` instead of `import * as React from "react";`
+
+---
+
+**How to use readonly and const?**
+
+`readonly` makes a variable immutable.
+
+```
+interface Config {
+    readonly type: string;
+}
+
+const config: Config = {
+    type: "IMMUTABLE"
+}
+
+injector(config);
+
+function injector(config: Config): void {
+    config.type = 'xxx';
+    console.log(config);
+
+```
+
+`const` is just a mirror of the ES6 syntax.
+
+---
