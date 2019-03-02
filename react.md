@@ -690,3 +690,15 @@ To force a non batched event handling, use an updater function (they're executed
 `setCount(count => count + 1);`
 
 ---
+
+**How to use `memo`? How's that different than `useMemo`?**
+
+`useMemo` returns  a memoized value of the function that's passed, is also accepts an array of deps.
+
+```
+const memoizedValue = React.useMemo(() => compute(a, b), [a, b]);
+```
+
+`memo` is only for memoizing function components in a similar way to PureComponent (shallow prop comparison).
+
+---
