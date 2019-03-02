@@ -1,7 +1,7 @@
 import React from 'react';
 import App, {GithubResponse} from './App';
 
-import {render, cleanup, wait} from 'react-testing-library';
+import {render, cleanup, wait, act} from 'react-testing-library';
 import 'jest-dom/extend-expect';
 
 import axios from 'axios';
@@ -36,8 +36,6 @@ it('happy path', async () => {
   expect(getByTestId(/loader/i)).toBeInTheDocument();
   expect(queryByTestId(/data/i)).not.toBeInTheDocument();
   expect(queryByTestId(/error/i)).not.toBeInTheDocument();
-
-  await wait();
 
   expect(queryByTestId(/loader/i)).not.toBeInTheDocument();
   expect(getByTestId(/data/i)).toHaveTextContent(JSON.stringify(data));

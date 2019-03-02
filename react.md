@@ -1,6 +1,6 @@
 **Testing unconnected components**
 
-- export intermediate components as Private, to avoid confusion when importing a \*component instead of \*container
+Export intermediate components as Private, to avoid confusion when importing a \*component instead of \*container
 
 ---
 
@@ -524,5 +524,51 @@ const openNewTabWithFile = React.useCallback(
   [file]
 );
 ```
+
+---
+
+**How to set today as a value of a date input?**
+
+It needs to be in the following format.
+
+`dayJs().format('YYYY-MM-DD')`
+
+---
+
+**How to test if given element is/isn't present in the DOM?**
+
+`expect(getByTestId(/list-wrapper/)).toBeInTheDocument();`
+`expect(getByTestId(/list-wrapper/)).not.toBeInTheDocument();`
+
+---
+
+**How to test if a radio button is selected?**
+
+```
+const inboundRadio = getByLabelText(/inbound/) as HTMLInputElement;
+expect(inboundRadio.checked).toEqual(false);
+```
+
+---
+
+**How to test a keyboard tab navigation?**
+
+Normally, I would dispatch a key down tab event like this:
+
+```
+const { getByLabelText, container } = render(<AddTransactionForm />);
+const nameInput = getByLabelText(/name/);
+fireEvent.keyDown(container, {
+  key: 'Tab',
+  keyCode: 9,
+  charCode: 9,
+});
+console.log(window.document.activeElement) // the first element that gains focus;
+```
+
+But it's not technically possible in the JSDOM env, since the user actions are not supported, i.e tab keyboard navigation.
+
+https://github.com/vuejs/vue-test-utils/issues/966
+https://github.com/jsdom/jsdom/issues/2102
 
 ---

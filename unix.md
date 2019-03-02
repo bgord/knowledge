@@ -227,3 +227,9 @@ To go to the previous workspace: `Ctrl + Fn + Left Arrow`.
 To go to the n-th workspace: `Ctrl + Fn + F<n>`
 
 ---
+
+**How to search for whole word with `ag`?**
+
+`ag -w COMPLETE`
+
+---

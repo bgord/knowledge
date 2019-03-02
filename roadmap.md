@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## React (0/17)
+## React (4/17)
 - What is `setupFileAfterEnv` in Jest for?
 - How to utilize a `useContext` hook to make it act like a Redux store?
 - What apart from DOM refs can be stored in `useRef` hook?
@@ -18,6 +18,10 @@
 - What's a Strict Mode?
 - What is JSX pragma?
 - How to use an unstable Suspense's `createResource`?
+- ~~How to set today as a value of a date input?~~
+- ~~How to test if given element is/isn't present in the DOM?~~
+- ~~How to test if a radio button is selected?~~
+- ~~How to test a keyboard tab navigation?~~
 
 ## TypeScript (0/16)
 - What does `extends` mean exactly?
@@ -115,7 +119,7 @@
 - How to backup MongoDB in the container?
 - A `docker-compose.yml` file for the express/MongoDB setup.
 
-## UNIX (0/9)
+## UNIX (1/10)
 - What's a reverse proxy?
 - How to setup a reverse proxy?
 - What is the purpose of nginx?
@@ -125,6 +129,7 @@
 - How to change a data from the n-th column and the n-th row from the CSV file?
 - How to sum numbers from the n-th column from the CSV file?
 - How to add arguments for a Makefile script?
+- ~~How to search for whole word with `ag`?~~
 
 ## Vim (0/5)
 - How to fold functions and other blocks of code?
