@@ -572,3 +572,121 @@ https://github.com/vuejs/vue-test-utils/issues/966
 https://github.com/jsdom/jsdom/issues/2102
 
 ---
+
+**What's a difference between `createElement` vs `cloneElement`**
+
+`createElement` just creates an element of given type, it's what JSX is desugared to.
+
+`cloneElement` clones and returns a new React element using the base element as a starting point. It merges given props with the base element's props (shallowly). Given children overrides the base element's children. The `key` and `ref` are preserved.
+
+`React.cloneElement(NavItem, { isActive: active })`
+
+---
+
+**What's a Strict Mode?**
+
+A mechanism to highlight all the legacy APIs/methods/patterns. Doesn't interfere with the UI itself. Can be placed anywhere in the app tree.
+
+A list of things it helps with: [react-docs](https://reactjs.org/docs/strict-mode.html).
+
+---
+
+**What's the render and commit phase?**
+
+`render` phase is when React calls all the render methods and creates a diff against the previous tree. It may be slower.
+
+`commit` phase is when React applies all needed changes, it makes actual DOM manipulations, and calls the lifecycle methods. Usually fast.
+
+---
+
+**Is setState async?**
+
+Yes, `setState` is async, but not always must be like that. In some cases it may feel sync, but you cannot rely on it being sync.
+
+---
+
+**How does batching work?**
+
+It prevents unnecessary rerenders.
+
+```
+function Parent() {
+  let [count, setCount] = useState(0);
+  return (
+    <div onClick={() => setCount(count + 1)}>      
+      Parent clicked {count} times
+      <Child />
+    </div>
+  );
+}
+
+function Child() {
+  let [count, setCount] = useState(0);
+  return (
+    <button onClick={() => setCount(count + 1)}>      
+      Child clicked {count} times
+    </button>
+  );
+}
+```
+
+Without batching it would look like:
+- start click event
+- set child's state
+- rerender child // unnecessary
+- set parent's state
+- rerender parent
+- rerender child
+- finish click event
+
+All it happens inside EVENT HANDLER.
+
+With batching:
+- start click event
+- set child's state
+- set parent's state
+- process state updates
+- rerender parent
+- rerender child
+- finish click event
+
+So if inside an event handler you have e.g:
+
+```
+function Child() {
+  const [count, setCount] = useState(0);
+
+  function increment() {
+    setCount(count + 10);
+  }
+
+  function handleClick() {
+     increment();
+     increment();
+  }
+  return <button onClick={handleClick}>Increment {count}</button>;
+}
+```
+
+It will not be processed as:
+- start click event
+- set child's state to 10
+- rerender child
+- set child's state to 20
+- rerender child
+- finish click event
+
+But instead:
+- start click event
+- set child's state to 10
+- set child's state to 10
+- rerender child
+- finish click event
+
+DEMO: [with-and-without-batching](https://codesandbox.io/s/xnoqnvpqp)
+
+To force a non batched event handling, use an updater function (they're executed in the queue).
+
+`setCount(count => count + 1);`
+
+---

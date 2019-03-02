@@ -1,27 +1,29 @@
 # Roadmap for 2019
 
-## React (4/17)
+## React (9/23)
 - What is `setupFileAfterEnv` in Jest for?
-- What's a difference between `createElement` vs `cloneElement`
 - How to utilize a `useContext` hook to make it act like a Redux store?
 - What apart from DOM refs can be stored in `useRef` hook?
 - How to test components that fetch data within `act`?
 - How to setup a `xstate` for a basic example? 
 - How to use `memo`? How's that different than `useMemo`?
 - Why not to use memo by default?
-- Is setState async? How batching works?
 - What problem does `mdx` solve?
 - What's `useImperativeHandle` for?
 - What's a compound component pattern?
 - What's the difference between controlled and uncontrolled component?
 - How to setup redux-observable?
-- What's a Strict Mode?
 - What is JSX pragma?
 - How to use an unstable Suspense's `createResource`?
+- ~~How batching works?~~
+- ~~Is setState async?~~
+- ~~What's the render and commit phase?~~
 - ~~How to set today as a value of a date input?~~
 - ~~How to test if given element is/isn't present in the DOM?~~
 - ~~How to test if a radio button is selected?~~
 - ~~How to test a keyboard tab navigation?~~
+- ~~What's a difference between `createElement` vs `cloneElement`~~
+- ~~What's a Strict Mode?~~
 
 ## TypeScript (4/15)
 - What is `d.ts` file for?
