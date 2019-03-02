@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## React (9/27)
+## React (0/17)
 - What is `setupFileAfterEnv` in Jest for?
 - How to utilize a `useContext` hook to make it act like a Redux store?
 - What apart from DOM refs can be stored in `useRef` hook?
@@ -18,18 +18,8 @@
 - What's a Strict Mode?
 - What is JSX pragma?
 - How to use an unstable Suspense's `createResource`?
-- ~~How to use error boundaries?~~
-- ~~What's `useCallback` useful for?~~
-- ~~How to test components that fetch data?~~
-- ~~What's `act` in react testing utils for?~~
-- ~~How to access refs in the React TypeScript in a safe way and avoid 'Object is possibly null' error?~~
-- ~~How and why to forward refs?~~
-- ~~How to type React component to allow more than one child?~~
-- ~~How to clone all the children and pass props to them?~~
-- ~~How to access DOM refs by `useRef`?~~
-- ~~Target container is not a DOM element error~~
 
-## TypeScript (7/23)
+## TypeScript (0/16)
 - What does `extends` mean exactly?
 - How to create an `Omit` function?
 - How to create a `Diff` function?
@@ -46,13 +36,6 @@
 - What is `d.ts` file for?
 - How to add types for a library?
 - What's a synthetic import?
-- ~~How to get keys of interface/type?~~
-- ~~Default types for generics.~~
-- ~~What's an exclamation mark for?~~
-- ~~A types for a value that is null or a number?~~
-- ~~How to get a function return type?~~
-- ~~How to use Pick?~~
-- ~~What is 'never' in TS?~~
 
 ## GraphQL (0/8)
 - Which packages should be used to setup a basic GraphQL server for Node.js?
@@ -64,10 +47,9 @@
 - How to setup a GraphQL playground?
 - How to query GraphQL on the front end?
 
-## CSS (4/19)
+## CSS (0/15)
 - What is `minmax` function in CSS Grid?
 - In depth relative vs absolute comparison.
-
 - How does @font-face work?
 - What's a specificity and how to count it?
 - What does \# mean in the SCSS?
@@ -81,12 +63,8 @@
 - When do `basis, shrinking, and growing` apply? What are the possible values?
 - What is `flex/flex-flow`?
 - What does `max/min-content` mean in `gtc`?
-- ~~How to prevent long words from breaking the layout (wrap them)?~~
-- ~~Is `::after` pseudo-element treated as an actual element in flexbox?~~
-- ~~How to avoid stretching grid items?~~
-- ~~How to avoid a text from wrapping?~~
 
-## JS (4/25)
+## JS (0/24)
 - In-depth == vs === comparison.
 - Function definition vs function declaration.
  -How to add a custom validation function?
@@ -111,12 +89,8 @@
 - How to just intl.number to format quotas?
 - What are peer dependencies?
 - Why to use `package-lock.json`?
-- ~~How to inject dependencies to a module?~~
-- ~~How to sort dates properly?~~
-- ~~How to make Jest run all the tests and quit?~~
-- ~~How to add a custom error message to the input?~~
 
-## GIT (1/12)
+## GIT (0/12)
 - How does `git rm` work?
 - What to do when branches have diverged?
 
@@ -129,7 +103,6 @@
 - How to obtain useful logs with `git log`?
 - How to remove a file from all the git history?
 - What do all the options in `git add -i` mean?
-- ~~How to remove edited/removed line from a git hunk that is about to get staged?~~
 
 ## Docker (0/8)
 - What are ARGs?
@@ -142,7 +115,7 @@
 - How to backup MongoDB in the container?
 - A `docker-compose.yml` file for the express/MongoDB setup.
 
-## UNIX (6/14)
+## UNIX (0/9)
 - What's a reverse proxy?
 - How to setup a reverse proxy?
 - What is the purpose of nginx?
@@ -152,22 +125,13 @@
 - How to change a data from the n-th column and the n-th row from the CSV file?
 - How to sum numbers from the n-th column from the CSV file?
 - How to add arguments for a Makefile script?
-- ~~What's a purpose of `.PHONY` in Makefiles?~~
-- ~~How to extract the tar file?~~
-- ~~How to structure a Makefile for containerized react app?~~
-- ~~How to move a directory in Ranger?~~
-- ~~Why open VPN won't start?~~
-- ~~What is a workspace in Manjaro?~~
 
-## Vim (3/8)
+## Vim (0/5)
 - How to fold functions and other blocks of code?
 - What is an buffer, exactly?
 - How to run a line through an external program?
 - What are the sentence, paragraph, section text objects?
 - How to work with marks efficiently?
-- ~~How to browse recently closed files?~~
-- ~~How to allow in-word snippet expansion?~~
-- ~~How to make snippet expand only if it's been declared on the beginning of the line?~~
 
 ## English (0/5)
 - Explore "0 conditional".
@@ -186,9 +150,6 @@
 - What's a difference between church and a cathedral?
 - What's escapism?
 - What's a hypernym?
-
-## Bash (1/1)
-  - ~~How to use a switch statement on the n-th variable?~~
 
 To refine:
 - observables
@@ -332,3 +293,57 @@ To refine:
 
 ## Storybook 1
 - ~~How to setup a basic Storybook for an example component?~~
+
+# DONE - February (36, 28 days, 1,285/day)
+  
+## React - 10
+- ~~How to use error boundaries?~~
+- ~~What's `useCallback` useful for?~~
+- ~~How to test components that fetch data?~~
+- ~~What's `act` in react testing utils for?~~
+- ~~How to access refs in the React TypeScript in a safe way and avoid 'Object is possibly null' error?~~
+- ~~How and why to forward refs?~~
+- ~~How to type React component to allow more than one child?~~
+- ~~How to clone all the children and pass props to them?~~
+- ~~How to access DOM refs by `useRef`?~~
+- ~~Target container is not a DOM element error~~
+
+## TypeScript - 7
+- ~~How to get keys of interface/type?~~
+- ~~Default types for generics.~~
+- ~~What's an exclamation mark for?~~
+- ~~A types for a value that is null or a number?~~
+- ~~How to get a function return type?~~
+- ~~How to use Pick?~~
+- ~~What is 'never' in TS?~~
+
+## CSS - 4
+- ~~How to prevent long words from breaking the layout (wrap them)?~~
+- ~~Is `::after` pseudo-element treated as an actual element in flexbox?~~
+- ~~How to avoid stretching grid items?~~
+- ~~How to avoid a text from wrapping?~~
+
+## JS - 4
+- ~~How to inject dependencies to a module?~~
+- ~~How to sort dates properly?~~
+- ~~How to make Jest run all the tests and quit?~~
+- ~~How to add a custom error message to the input?~~
+
+## GIT - 1
+- ~~How to remove edited/removed line from a git hunk that is about to get staged?~~
+
+## UNIX - 6
+- ~~What's a purpose of `.PHONY` in Makefiles?~~
+- ~~How to extract the tar file?~~
+- ~~How to structure a Makefile for containerized react app?~~
+- ~~How to move a directory in Ranger?~~
+- ~~Why open VPN won't start?~~
+- ~~What is a workspace in Manjaro?~~
+
+## VIM - 3
+- ~~How to browse recently closed files?~~
+- ~~How to allow in-word snippet expansion?~~
+- ~~How to make snippet expand only if it's been declared on the beginning of the line?~~
+
+## Bash - 1
+- ~~How to use a switch statement on the n-th variable?~~
