@@ -723,3 +723,11 @@ module.exports = {
 When using JSX in React app, `<Nav />` desugars to `React.createElement(Nav)`, when e.g a `{ "pragma": "dom" }` is specified in the babel config, it will replace an expression that JSX is desugared to, e.g `dom(Nav)`.
 
 ---
+
+**Why not to use memo/PureComponent by default?**
+
+No, the most benefits are gained while a parent often rerenders its children that have the same props, so they can shallowly compared and the work can be saved. Otherwise, it's just another lifecycle method/React.memo call.
+
+WARNING: don't use PureComponent/memo when the props have deep structure, because the change on the second depth level won't trigger rerenders.
+
+---
