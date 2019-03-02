@@ -731,3 +731,30 @@ No, the most benefits are gained while a parent often rerenders its children tha
 WARNING: don't use PureComponent/memo when the props have deep structure, because the change on the second depth level won't trigger rerenders.
 
 ---
+
+**What problem does `mdx` solve?**
+
+It allows to include JSX components (e.g Charts, Notifications) in the markdown documents.
+
+---
+
+**What apart from DOM refs can be stored in `useRef` hook?**
+
+`ref` - mutable ref object, with a value assigned to the `.current` attribute
+
+A value passed to the `useRef` may be something else than DOM ref. You can visualise it as a kind of instance variable - a one which that persists during all the lifecycle of the component.
+
+```
+const Timer = () => {
+  const timeoutId = React.useRef();
+  useEffect(() => {
+    const id = setTimeout(() => {}, 100);
+    timeoutId.current = id;
+    return () => clearTimeout(timeoutId.current)
+  })
+}
+```
+
+It's a good use case for keeping the callback/id in custom hooks.
+
+---
