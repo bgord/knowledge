@@ -717,3 +717,9 @@ module.exports = {
 ```
 
 ---
+
+**What is JSX pragma?**
+
+When using JSX in React app, `<Nav />` desugars to `React.createElement(Nav)`, when e.g a `{ "pragma": "dom" }` is specified in the babel config, it will replace an expression that JSX is desugared to, e.g `dom(Nav)`.
+
+---
