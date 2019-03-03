@@ -7,3 +7,17 @@
 `graphql` is a peer dependency of `apollo-server`.
 
 ---
+
+**What's `Query`?**
+
+`Query` are kind of GET equivalent, they serve as a root of all GraphQL queries.
+
+```
+type Query {
+  books-getter: [Book]
+}
+```
+
+---
+
+---

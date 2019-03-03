@@ -41,15 +41,15 @@
 - ~~What's a synthetic import?~~
 - ~~How to use `readonly` and `const` keywords?~~
 
-## GraphQL (1/8)
-- ~~Which packages should be used to setup a basic GraphQL server for Node.js?~~
+## GraphQL (2/8)
 - How to serve a basic array?
-- What's `Query`?
 - What's `Mutation`?
 - What are the available types for the queries?
 - How to write resolvers?
 - How to setup a GraphQL playground?
 - How to query GraphQL on the front end?
+- ~~Which packages should be used to setup a basic GraphQL server for Node.js?~~
+- ~~What's `Query`?~~
 
 ## CSS (0/15)
 - What is `minmax` function in CSS Grid?
