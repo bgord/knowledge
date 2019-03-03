@@ -41,13 +41,13 @@
 - ~~What's a synthetic import?~~
 - ~~How to use `readonly` and `const` keywords?~~
 
-## GraphQL (2/8)
+## GraphQL (3/8)
 - How to serve a basic array?
 - What's `Mutation`?
-- What are the available types for the queries?
 - How to write resolvers?
 - How to setup a GraphQL playground?
 - How to query GraphQL on the front end?
+- ~~What are the available types for the queries?~~
 - ~~Which packages should be used to setup a basic GraphQL server for Node.js?~~
 - ~~What's `Query`?~~
 
