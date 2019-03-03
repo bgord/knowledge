@@ -82,3 +82,9 @@ server.listen({port: 5000}).then(({url}) => {
 ```
 
 ---
+
+**How to setup a GraphQL playground?**
+
+Created by default in the `apollo-server` package.
+
+---
