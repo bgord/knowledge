@@ -43,6 +43,8 @@ type Book {
 }
 ```
 
+Types in GraphQL are nullable by default.
+
 ---
 
 **How to write a basic resolver?**

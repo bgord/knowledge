@@ -41,9 +41,15 @@
 - ~~What's a synthetic import?~~
 - ~~How to use `readonly` and `const` keywords?~~
 
-## GraphQL (6/8)
+## GraphQL (6/14)
 - What's `Mutation`?
-- How to query GraphQL on the front end?
+- How to setup Apollo in React?
+- How to use Query in React?
+- How to write pagination?
+- How to use Apollo with hooks?
+- How to check if user is authenticated?
+- How to write a resolver that returns a footballer by fullname?
+- How to use variables in queries?
 - ~~What are the available types for the queries?~~
 - ~~Which packages should be used to setup a basic GraphQL server for Node.js?~~
 - ~~What's `Query`?~~
