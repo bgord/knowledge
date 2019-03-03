@@ -41,8 +41,8 @@
 - ~~What's a synthetic import?~~
 - ~~How to use `readonly` and `const` keywords?~~
 
-## GraphQL (0/8)
-- Which packages should be used to setup a basic GraphQL server for Node.js?
+## GraphQL (1/8)
+- ~~Which packages should be used to setup a basic GraphQL server for Node.js?~~
 - How to serve a basic array?
 - What's `Query`?
 - What's `Mutation`?
