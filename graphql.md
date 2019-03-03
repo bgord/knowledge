@@ -44,3 +44,41 @@ type Book {
 ```
 
 ---
+
+**How to write a basic resolver?**
+
+```
+const typeDefs = gql`
+  type Footballer {
+    fullname: String
+    age: Int
+    club: String
+  }
+
+  type Query {
+    footballers: [Footballer]
+  }
+`;
+
+const resolvers = {
+  Query: {
+    footballers: () => footballers,
+  },
+};
+
+const server = new ApolloServer({typeDefs, resolvers});
+
+server.listen();
+```
+
+---
+
+**How to set an another port for the server?**
+
+```
+server.listen({port: 5000}).then(({url}) => {
+  console.log(`🚀  Server ready at ${url}`);
+});
+```
+
+---
