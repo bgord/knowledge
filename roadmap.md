@@ -25,8 +25,7 @@
 - ~~What's a difference between `createElement` vs `cloneElement`~~
 - ~~What's a Strict Mode?~~
 
-## TypeScript (4/15)
-- What is `d.ts` file for?
+## TypeScript (5/15)
 - How to create an `Omit` function?
 - How to create a `Diff` function?
 - How to use `NotNullable`?
@@ -36,6 +35,7 @@
 - How to use Exclude?
 - What's an `unknown` type? How is this different from `any`?
 - How to add types for a library?
+- ~~What is `d.ts` file for?~~
 - ~~What does `extends` mean exactly?~~
 - ~~How TS works for rest operator?~~
 - ~~What's a synthetic import?~~
@@ -74,7 +74,6 @@
  -How to add a custom validation function?
 - How to use link `ref="preload"`?
 - What's a mutation observer?
-
 - What's a singleton pattern?
 - What is a `state reducer pattern`?
 - What is a `proxy` in JS? What can it be useful for?
@@ -97,7 +96,6 @@
 ## GIT (0/12)
 - How does `git rm` work?
 - What to do when branches have diverged?
-
 - How to rebase? What is `git rebase -i` useful for?
 - What does `git pull --rebase` do?
 - What are `git submodules`? What are they useful for?
@@ -111,7 +109,6 @@
 ## Docker (0/8)
 - What are ARGs?
 - How does docker-compose work?
-
 - How to setup a MongoDB container?
 - How to access a DB inside the container on the host machine?
 - How to access a DB inside another container?

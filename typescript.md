@@ -654,3 +654,22 @@ function injector(config: Config): void {
 `const` is just a mirror of the ES6 syntax.
 
 ---
+
+**What is `d.ts` file for?**
+
+It's a declaration file for the libraries written in plain JS.
+
+```
+declare namespace GreetingLib {
+    interface LogOptions {
+        verbose?: boolean;
+    }
+    interface AlertOptions {
+        modal: boolean;
+        title?: string;
+        color?: string;
+    }
+}
+```
+
+---
