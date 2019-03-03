@@ -780,3 +780,9 @@ export const App = () => {
 ```
 
 ---
+
+**What's the difference between controlled and uncontrolled component?**
+
+It's about form inputs. When it's controlled, it means that the input updates/value is stored somewhere in the state. Uncontrolled means that DOM handles the updates (it's the default one, but not recommended). You can retrieve the value from an uncontrolled component via ref.
+
+---
