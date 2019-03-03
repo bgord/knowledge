@@ -758,3 +758,25 @@ const Timer = () => {
 It's a good use case for keeping the callback/id in custom hooks.
 
 ---
+
+**How to use an unstable Suspense's `createResource`?**
+
+```
+import React, {Suspense} from "react";
+import {unstable_createResource} from "react-cache";
+
+const githubUser = unstable_createResource(
+  () => fetch("api.github.com/users/bgord")
+)
+
+export const App = () => {
+  const me = githubUser.read();
+  return (
+    <Suspense fallback="Loading...">
+      <div>{me.url}</div> 
+    </Suspense>
+  )
+}
+```
+
+---
