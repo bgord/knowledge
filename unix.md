@@ -233,3 +233,14 @@ To go to the n-th workspace: `Ctrl + Fn + F<n>`
 `ag -w COMPLETE`
 
 ---
+
+**How to send a file through netcat?**
+
+The netcat (`nc`) is like `cat`, but through net.
+
+If I want to send something to the person in the same network, I need to know his IP address. Run `ip` on their machine, go to `2.` and grab `IP` from `inet` line.
+
+The person should have `nc -l -p |port| > |filename|` running.
+To send the file I run: `cat |filename| | nc |ip| |port|`.
+
+---
