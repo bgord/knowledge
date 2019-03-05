@@ -90,3 +90,22 @@ server.listen({port: 5000}).then(({url}) => {
 Created by default in the `apollo-server` package.
 
 ---
+
+**How to write a resolver that returns a footballer by fullname?**
+
+```
+// Query type
+getFootballer(id: ID!): Footballer
+
+// resolver
+getFootballer: (parent, args) =>
+      footballers.find(footballer => footballer.id === args.id),
+
+// playground query
+{
+	getFootballer(id: "2") {
+    id
+    age
+  } 
+}
+ ```
