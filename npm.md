@@ -20,6 +20,9 @@ Use it every time you want to remove node_modules, and npm install.
 
 **Publishing a package**
 
+- create a commit
+- bump version `npm version (major/minor/patch)`
+- push version change
 `$ npm login`
 `$ npm publish`
 
