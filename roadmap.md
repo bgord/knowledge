@@ -136,12 +136,12 @@
 - ~~How to send a file through netcat?~~
 - ~~How to search for whole word with `ag`?~~
 
-## Vim (0/5)
-- How to fold functions and other blocks of code?
+## Vim (1/5)
 - What is an buffer, exactly?
 - How to run a line through an external program?
 - What are the sentence, paragraph, section text objects?
 - How to work with marks efficiently?
+- ~~How to fold functions and other blocks of code?~~
 
 ## English (0/5)
 - Explore "0 conditional".

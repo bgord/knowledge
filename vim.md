@@ -139,3 +139,12 @@ endsnippet
 `:old` by built-in vim feature.
 
 ---
+
+**How to use basic fold?**
+
+- select an area visually
+- `zf` to create a fold
+- `zd` to delete a fold
+- `za` to toggle a fold
+
+---
