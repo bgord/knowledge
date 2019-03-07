@@ -786,3 +786,78 @@ export const App = () => {
 It's about form inputs. When it's controlled, it means that the input updates/value is stored somewhere in the state. Uncontrolled means that DOM handles the updates (it's the default one, but not recommended). You can retrieve the value from an uncontrolled component via ref.
 
 ---
+
+**How to utilize a `useContext` hook to make it act like a Redux store?**
+
+Create a Context and Provider:
+```
+export const TransactionProductListContext = React.createContext<{
+	dispatch: React.Dispatch<TransactionProductListAction>;
+	productList: ITransactionProductListState;
+}>({ productList: initialState, dispatch: () => {} });
+
+export const TransactionProductListContextProvider: React.FC = props => {
+	const [productList, dispatch] = React.useReducer<
+		ProductListReducer,
+		ITransactionProductListState
+	>(productListReducer, initialState, () => initialState);
+
+	return (
+		<TransactionProductListContext.Provider
+			value={{
+				dispatch,
+				productList,
+			}}
+		>
+			{props.children}
+		</TransactionProductListContext.Provider>
+	);
+};
+```
+
+Wrap a subtree where you want to access the Context with the Provider component:
+```
+<TransactionProductListContextProvider>
+  <AddTransactionForm />
+</TransactionProductListContextProvider>
+```
+
+And use it like this anywhere down in the Provider subtree:
+```
+const { dispatch, productList } = React.useContext(
+  TransactionProductListContext,
+);
+```
+
+---
+
+**What's `useImperativeHandle` for?**
+
+It's kind of a way to customize refs when forwarding them.
+
+```
+function _FancyInput(props, ref) {
+  const inputRef = useRef();
+  React.useImperativeHandle(ref, () => ({
+    focusIfNeeded() {
+      if (condition) {
+        inputRef.current.focus();
+      }
+    }
+  }));
+}
+
+FancyInput = React.forwardRef(_FancyInput);
+```
+
+Usage:
+```
+const App = () => {
+  const fancyInput = React.useRef();
+  return (
+    <FancyInput ref={FancyInputRef} />
+  )
+}
+```
+
+---

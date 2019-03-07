@@ -1,12 +1,12 @@
 # Roadmap for 2019
 
-## React (17/23)
-- How to utilize a `useContext` hook to make it act like a Redux store?
-- How to test components that fetch data within `act`?
+## React (19/23)
 - How to setup a `xstate` for a basic example? 
-- What's `useImperativeHandle` for?
 - What's a compound component pattern?
 - How to setup redux-observable?
+- How to test components that fetch data within `act`?
+- ~~What's `useImperativeHandle` for?~~
+- ~~How to utilize a `useContext` hook to make it act like a Redux store?~~
 - ~~What's the difference between controlled and uncontrolled component?~~
 - ~~How to use an unstable Suspense's `createResource`?~~
 - ~~What apart from DOM refs can be stored in `useRef` hook?~~
