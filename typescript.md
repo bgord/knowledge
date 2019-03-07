@@ -692,3 +692,22 @@ interface Model {
 `Exclude` takes a union `a`, and union `b`. It excludes all fields from union `b` from union `a`.
 
 ---
+
+**How to create an `Omit` function?**
+
+```
+type Omit<T, K extends keyof T> 
+  = Pick<T, Exclude<keyof T, K>>;
+```
+
+Usage:
+
+```
+interface Model {
+    age: number;
+    name: string;
+    country: string;
+}
+
+type _Model = Omit<Model, 'age' | 'name'>; // type {country: string}
+```
