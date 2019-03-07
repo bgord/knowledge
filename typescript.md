@@ -711,3 +711,13 @@ interface Model {
 
 type _Model = Omit<Model, 'age' | 'name'>; // type {country: string}
 ```
+
+**How to use `NotNullable`?**
+
+Just enable strict null checking mode, by `--strictNullChecks`.
+
+Or type to exclude `null` and `undefined` from the union type.
+
+`Strict<T> = Exclude<T, null | undefined>;`
+
+---
