@@ -161,8 +161,8 @@
 - What's escapism?
 - What's a hypernym?
 
-## Bash (0/1)
-- How to use brace expansion?
+## Bash (1/1)
+- ~~How to use brace expansion?~~
 
 To refine:
 - observables

@@ -65,3 +65,11 @@ case "$2" in
   ;;
 esac
 ```
+
+**How to use brace expansion?**
+
+The command below creates 3 files: `version1.txt`, `version2.txt` and `version3.txt`.
+
+`$ make version{1,2,3}.txt`
+
+---
