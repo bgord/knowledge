@@ -25,16 +25,16 @@
 - ~~What's a difference between `createElement` vs `cloneElement`~~
 - ~~What's a Strict Mode?~~
 
-## TypeScript (5/15)
+## TypeScript (6/15)
 - How to create an `Omit` function?
 - How to create a `Diff` function?
 - How to use `NotNullable`?
 - What's a discriminated union?
 - How to deal with mutually exclusive types in intersections?
 - Function type overloads.
-- How to use Exclude?
 - What's an `unknown` type? How is this different from `any`?
 - How to add types for a library?
+- ~~How to use Exclude?~~
 - ~~What is `d.ts` file for?~~
 - ~~What does `extends` mean exactly?~~
 - ~~How TS works for rest operator?~~

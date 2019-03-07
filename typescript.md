@@ -673,3 +673,22 @@ declare namespace GreetingLib {
 ```
 
 ---
+
+**How to use Exclude?**
+
+Given this model,
+```
+interface Model {
+  age: number;
+  name: string;
+  country: string;
+}
+```
+
+`NEW_TYPE` is an union type of `'name'|'number'`.
+
+`type NEW_TYPE = Exclude<keyof Model, 'age'>`
+
+`Exclude` takes a union `a`, and union `b`. It excludes all fields from union `b` from union `a`.
+
+---
