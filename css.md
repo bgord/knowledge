@@ -251,3 +251,9 @@ It makes the item stick to the start of the cell it belongs. By default `auto` s
 `white-space: nowrap;`
 
 ---
+
+**What is `minmax` function in CSS Grid?**
+
+It can be used in `grid-template-*` and `grid-auto-*`. It's a way to set boundaries for a px value. `min/max-content` or `auto` can be used apart from other measurements.
+
+---

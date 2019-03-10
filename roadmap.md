@@ -58,8 +58,7 @@
 - ~~How to write a basic resolver?~~
 - ~~How to setup a GraphQL playground?~~
 
-## CSS (0/15)
-- What is `minmax` function in CSS Grid?
+## CSS (1/15)
 - In depth relative vs absolute comparison.
 - How does @font-face work?
 - What's a specificity and how to count it?
@@ -74,6 +73,7 @@
 - When do `basis, shrinking, and growing` apply? What are the possible values?
 - What is `flex/flex-flow`?
 - What does `max/min-content` mean in `gtc`?
+- ~~What is `minmax` function in CSS Grid?~~
 
 ## JS (0/24)
 - In-depth == vs === comparison.
