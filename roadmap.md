@@ -123,7 +123,7 @@
 - How to backup MongoDB in the container?
 - A `docker-compose.yml` file for the express/MongoDB setup.
 
-## UNIX (2/11)
+## UNIX (3/11)
 - What is the purpose of nginx?
 - What's a reverse proxy?
 - How to setup a reverse proxy?
@@ -133,6 +133,7 @@
 - How to change a data from the n-th column and the n-th row from the CSV file?
 - How to sum numbers from the n-th column from the CSV file?
 - How to add arguments for a Makefile script?
+- ~~How to prettify a JSON file in the terminal?
 - ~~How to send a file through netcat?~~
 - ~~How to search for whole word with `ag`?~~
 

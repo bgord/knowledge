@@ -244,3 +244,9 @@ The person should have `nc -l -p |port| > |filename|` running.
 To send the file I run: `cat |filename| | nc |ip| |port|`.
 
 ---
+
+**How to prettify a JSON file in the terminal?**
+
+`$ cat db.json | jq .`
+
+---
