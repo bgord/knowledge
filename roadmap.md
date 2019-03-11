@@ -75,9 +75,8 @@
 - What does `max/min-content` mean in `gtc`?
 - ~~What is `minmax` function in CSS Grid?~~
 
-## JS (0/24)
+## JS (1/24)
 - In-depth == vs === comparison.
-- Function definition vs function declaration.
  -How to add a custom validation function?
 - How to use link `ref="preload"`?
 - What's a mutation observer?
@@ -99,6 +98,7 @@
 - How to just intl.number to format quotas?
 - What are peer dependencies?
 - Why to use `package-lock.json`?
+- ~~Function expression vs function declaration.~~
 
 ## GIT (0/12)
 - How does `git rm` work?

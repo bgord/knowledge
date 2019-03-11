@@ -211,3 +211,14 @@ export const setStoreForIntenceptors = (_store) => {
 ```
 
 ---
+
+**Function expression vs function declaration**
+
+Function declaration:
+- `function boo() {}`
+- hoisted
+
+Function expression:
+- `const foo = function() {};`
+- can be anonymous
+- not hoisted
