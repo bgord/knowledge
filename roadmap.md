@@ -25,7 +25,7 @@
 - ~~What's a difference between `createElement` vs `cloneElement`~~
 - ~~What's a Strict Mode?~~
 
-## TypeScript (8/14)
+## TypeScript (9/15)
 - How to create a `Diff` function?
 - What's a discriminated union?
 - How to deal with mutually exclusive types in intersections?
@@ -40,6 +40,7 @@
 - ~~How TS works for rest operator?~~
 - ~~What's a synthetic import?~~
 - ~~How to use `readonly` and `const` keywords?~~
+- ~~Async function return value~~
 
 ## GraphQL (8/15)
 - What's `Mutation`?

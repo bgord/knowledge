@@ -721,3 +721,9 @@ Or type to exclude `null` and `undefined` from the union type.
 `Strict<T> = Exclude<T, null | undefined>;`
 
 ---
+
+**Async function return value**
+
+`async getUser(id: string): Promise<void> {};`
+
+---
