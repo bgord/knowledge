@@ -861,3 +861,32 @@ const App = () => {
 ```
 
 ---
+
+**Where to put a `setupTests` file?**
+
+Add a file in `/src`.
+
+---
+
+**How to alter a console.error in tests?**
+
+```
+import 'react-testing-library/cleanup-after-each';
+import 'jest-dom/extend-expect';
+
+const originalError = console.error;
+beforeAll(() => {
+	console.error = (...args: any[]) => {
+		if (/Warning.*not wrapped in act/.test(args[0])) {
+			return;
+		}
+		originalError.call(console, ...args);
+	};
+});
+
+afterAll(() => {
+	console.error = originalError;
+});
+```
+
+---

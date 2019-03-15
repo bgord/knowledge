@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## React (19/23)
+## React (21/25)
 - How to setup a `xstate` for a basic example? 
 - What's a compound component pattern?
 - How to setup redux-observable?
@@ -24,6 +24,8 @@
 - ~~How to test a keyboard tab navigation?~~
 - ~~What's a difference between `createElement` vs `cloneElement`~~
 - ~~What's a Strict Mode?~~
+- ~~Where to put a `setupTests` file?~~
+- ~~How to alter a console.error in tests?~~
 
 ## TypeScript (9/15)
 - How to create a `Diff` function?
