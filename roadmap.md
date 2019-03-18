@@ -103,8 +103,7 @@
 - Why to use `package-lock.json`?
 - ~~Function expression vs function declaration.~~
 
-## GIT (0/12)
-- How does `git rm` work?
+## GIT (1/12)
 - What to do when branches have diverged?
 - How to rebase? What is `git rebase -i` useful for?
 - What does `git pull --rebase` do?
@@ -115,6 +114,7 @@
 - How to obtain useful logs with `git log`?
 - How to remove a file from all the git history?
 - What do all the options in `git add -i` mean?
+- ~~How does `git rm` work?~~
 
 ## Docker (0/8)
 - What are ARGs?

@@ -239,3 +239,11 @@ To delete addition, remove an entire line (+).
 To delete deletion, remove the `-` at the beginning of the line.
 
 ---
+
+**How does `git rm` work?**
+
+It's just a utility command, works the same way like `rm file.txt`, `git add file.txt`. Stages deletion of the file.
+
+---
+
+---
