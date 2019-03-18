@@ -1,10 +1,10 @@
 # Roadmap for 2019
 
-## React (21/25)
+## React (22/25)
 - How to setup a `xstate` for a basic example? 
 - What's a compound component pattern?
 - How to setup redux-observable?
-- How to test components that fetch data within `act`?
+- ~~How to test components that fetch data within `act`?~~
 - ~~What's `useImperativeHandle` for?~~
 - ~~How to utilize a `useContext` hook to make it act like a Redux store?~~
 - ~~What's the difference between controlled and uncontrolled component?~~

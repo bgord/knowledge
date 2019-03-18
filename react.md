@@ -890,3 +890,11 @@ afterAll(() => {
 ```
 
 ---
+
+**How to test components that fetch data within `act`?**
+
+It's not possible to avoid the 'act' warning right now.
+
+This [PR](https://github.com/facebook/react/pull/14853) needs to be resolved.
+
+---
