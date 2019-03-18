@@ -27,7 +27,7 @@
 - ~~Where to put a `setupTests` file?~~
 - ~~How to alter a console.error in tests?~~
 
-## TypeScript (9/15)
+## TypeScript (11/17)
 - How to create a `Diff` function?
 - What's a discriminated union?
 - How to deal with mutually exclusive types in intersections?
@@ -43,6 +43,8 @@
 - ~~What's a synthetic import?~~
 - ~~How to use `readonly` and `const` keywords?~~
 - ~~Async function return value~~
+- ~~How to type Ramda pipes?~~
+- ~~How to type Ramda map operator?~~
 
 ## GraphQL (8/15)
 - What's `Mutation`?

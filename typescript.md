@@ -727,3 +727,51 @@ Or type to exclude `null` and `undefined` from the union type.
 `async getUser(id: string): Promise<void> {};`
 
 ---
+
+**How to type Ramda pipes?**
+
+You need to type all the intermediate steps: initial value and all the subsequent ones.
+
+```
+interface Product {
+	name: string;
+	price: number;
+}
+
+const sumProductPrices = R.pipe<
+	Product[],
+	Product['price'][],
+	Product['price']
+>(
+	R.pluck('price'),
+	R.sum,
+);
+
+const sumOfPrices: number = sumProductPrices([{ name: 'x', price: 2 }]);
+```
+
+---
+
+**How to type Ramda map operator?**
+
+You need to specify an interface for an item that comes in, and the interface for the object that comes out of the map operator.
+
+```
+interface Product {
+	name: string;
+	price: number;
+}
+
+interface DiscountedProduct extends Product {
+	discount: number;
+}
+
+const products: Product[] = [{ name: 'Apple', price: 0.25 }];
+
+const discountedProducts: DiscountedProduct[] = R.map<
+	Product,
+	DiscountedProduct
+>(R.assoc('discount', Math.random()))(products);
+```
+
+---
