@@ -250,3 +250,9 @@ To send the file I run: `cat |filename| | nc |ip| |port|`.
 `$ cat db.json | jq .`
 
 ---
+
+**How to pass header to httpie request?**
+
+`$ http GET localhost/api/files x-api-key:xxx`
+
+---
