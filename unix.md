@@ -256,3 +256,9 @@ To send the file I run: `cat |filename| | nc |ip| |port|`.
 `$ http GET localhost/api/files x-api-key:xxx`
 
 ---
+
+**How to upload a file with `httpie`?**
+
+`$ http -f POST localhost/api/file payment@payment.csv uploadedBy=me`
+
+---
