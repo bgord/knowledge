@@ -46,6 +46,9 @@
 - ~~How to type Ramda pipes?~~
 - ~~How to type Ramda map operator?~~
 
+## PostgreSQL (1/1)
+- What's the name of the binary?
+
 ## GraphQL (8/15)
 - What's `Mutation`?
 - How to setup Apollo in React?
