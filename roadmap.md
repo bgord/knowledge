@@ -387,5 +387,6 @@ To refine:
 ## Bash - 1
 - ~~How to use brace expansion?~~
 
-## VIM - 1
+## VIM - 2
 - ~~How to fold functions and other blocks of code?~~
+- ~~How to open a file in vim that comes from the bash pipe?~~

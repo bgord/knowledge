@@ -148,3 +148,9 @@ endsnippet
 - `za` to toggle a fold
 
 ---
+
+**How to open a file in vim that comes from the bash pipe?**
+
+echo 'filename.txt' | xargs vim
+
+---
