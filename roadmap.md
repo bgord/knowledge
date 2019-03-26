@@ -1,9 +1,10 @@
 # Roadmap for 2019
 
-## React (0/3)
+## React (0/4)
 - How to setup a `xstate` for a basic example? 
-- What's a compound component pattern?
 - How to setup redux-observable?
+- What's the state reducer pattern?
+- What's a compound component pattern?
 
 ## TypeScript (0/6)
 - How to create a `Diff` function?
@@ -25,7 +26,7 @@
 - How to check if user is authenticated?
 - How to nest queries?
 
-## CSS (0/14)
+## CSS (0/15)
 - In depth relative vs absolute comparison.
 - How does @font-face work?
 - What's a specificity and how to count it?
@@ -40,8 +41,9 @@
 - When do `basis, shrinking, and growing` apply? What are the possible values?
 - What is `flex/flex-flow`?
 - What does `max/min-content` mean in `gtc`?
+- How to truncate text in deep flex child?
 
-## JS (0/22)
+## JS (0/23)
 - In-depth == vs === comparison.
  -How to add a custom validation function?
 - How to use link `ref="preload"`?
@@ -64,6 +66,7 @@
 - How to just intl.number to format quotas?
 - What are peer dependencies?
 - Why to use `package-lock.json`?
+- Difference between expression and statement
 
 ## GIT (0/10)
 - What to do when branches have diverged?
@@ -87,7 +90,7 @@
 - How to backup MongoDB in the container?
 - A `docker-compose.yml` file for the express/MongoDB setup.
 
-## UNIX (0/10)
+## UNIX (0/12)
 - What is the purpose of nginx?
 - What's a reverse proxy?
 - How to setup a reverse proxy?
@@ -98,6 +101,8 @@
 - How to sum numbers from the n-th column from the CSV file?
 - How to add arguments for a Makefile script?
 - How does `xargs` work?
+- How does CORS work?
+- How does OPTION http method work?
 
 ## Vim (0/4)
 - What is an buffer, exactly?
