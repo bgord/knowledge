@@ -1,55 +1,22 @@
 # Roadmap for 2019
 
-## React (22/25)
+## React (0/3)
 - How to setup a `xstate` for a basic example? 
 - What's a compound component pattern?
 - How to setup redux-observable?
-- ~~How to test components that fetch data within `act`?~~
-- ~~What's `useImperativeHandle` for?~~
-- ~~How to utilize a `useContext` hook to make it act like a Redux store?~~
-- ~~What's the difference between controlled and uncontrolled component?~~
-- ~~How to use an unstable Suspense's `createResource`?~~
-- ~~What apart from DOM refs can be stored in `useRef` hook?~~
-- ~~What problem does `mdx` solve?~~
-- ~~Why not to use memo/PureComponent by default?~~
-- ~~What is JSX pragma?~~
-- ~~What is `setupFileAfterEnv` in Jest for?~~
-- ~~How to use `memo`? How's that different than `useMemo`?~~
-- ~~How batching works?~~
-- ~~Is setState async?~~
-- ~~What's the render and commit phase?~~
-- ~~How to set today as a value of a date input?~~
-- ~~How to test if given element is/isn't present in the DOM?~~
-- ~~How to test if a radio button is selected?~~
-- ~~How to test a keyboard tab navigation?~~
-- ~~What's a difference between `createElement` vs `cloneElement`~~
-- ~~What's a Strict Mode?~~
-- ~~Where to put a `setupTests` file?~~
-- ~~How to alter a console.error in tests?~~
 
-## TypeScript (11/17)
+## TypeScript (0/6)
 - How to create a `Diff` function?
 - What's a discriminated union?
 - How to deal with mutually exclusive types in intersections?
 - Function type overloads.
 - What's an `unknown` type? How is this different from `any`?
 - How to add types for a library?
-- ~~How to use `NotNullable`?~~
-- ~~How to create an `Omit` function?~~
-- ~~How to use Exclude?~~
-- ~~What is `d.ts` file for?~~
-- ~~What does `extends` mean exactly?~~
-- ~~How TS works for rest operator?~~
-- ~~What's a synthetic import?~~
-- ~~How to use `readonly` and `const` keywords?~~
-- ~~Async function return value~~
-- ~~How to type Ramda pipes?~~
-- ~~How to type Ramda map operator?~~
 
-## PostgreSQL (1/1)
-- What's the name of the binary?
+## PostgreSQL (0/1)
+- What's the name of the binaries?
 
-## GraphQL (8/15)
+## GraphQL (0/7)
 - What's `Mutation`?
 - How to setup Apollo in React?
 - How to use Query in React?
@@ -57,16 +24,8 @@
 - How to use Apollo with hooks?
 - How to check if user is authenticated?
 - How to nest queries?
-- ~~How to use variables in queries?~~
-- ~~How to write a resolver that returns a footballer by fullname?~~
-- ~~What are the available types for the queries?~~
-- ~~Which packages should be used to setup a basic GraphQL server for Node.js?~~
-- ~~What's `Query`?~~
-- ~~How to set an another port for the server?~~
-- ~~How to write a basic resolver?~~
-- ~~How to setup a GraphQL playground?~~
 
-## CSS (1/15)
+## CSS (0/14)
 - In depth relative vs absolute comparison.
 - How does @font-face work?
 - What's a specificity and how to count it?
@@ -81,9 +40,8 @@
 - When do `basis, shrinking, and growing` apply? What are the possible values?
 - What is `flex/flex-flow`?
 - What does `max/min-content` mean in `gtc`?
-- ~~What is `minmax` function in CSS Grid?~~
 
-## JS (1/24)
+## JS (0/22)
 - In-depth == vs === comparison.
  -How to add a custom validation function?
 - How to use link `ref="preload"`?
@@ -106,9 +64,8 @@
 - How to just intl.number to format quotas?
 - What are peer dependencies?
 - Why to use `package-lock.json`?
-- ~~Function expression vs function declaration.~~
 
-## GIT (1/12)
+## GIT (0/10)
 - What to do when branches have diverged?
 - How to rebase? What is `git rebase -i` useful for?
 - What does `git pull --rebase` do?
@@ -119,7 +76,6 @@
 - How to obtain useful logs with `git log`?
 - How to remove a file from all the git history?
 - What do all the options in `git add -i` mean?
-- ~~How does `git rm` work?~~
 
 ## Docker (0/8)
 - What are ARGs?
@@ -131,7 +87,7 @@
 - How to backup MongoDB in the container?
 - A `docker-compose.yml` file for the express/MongoDB setup.
 
-## UNIX (5/14)
+## UNIX (0/10)
 - What is the purpose of nginx?
 - What's a reverse proxy?
 - How to setup a reverse proxy?
@@ -141,18 +97,13 @@
 - How to change a data from the n-th column and the n-th row from the CSV file?
 - How to sum numbers from the n-th column from the CSV file?
 - How to add arguments for a Makefile script?
-- ~~How to prettify a JSON file in the terminal?
-- ~~How to send a file through netcat?~~
-- ~~How to search for whole word with `ag`?~~
-- ~~How to pass header to httpie request?~~
-- ~~How to upload a file with `httpie`?~~
+- How does `xargs` work?
 
-## Vim (1/5)
+## Vim (0/4)
 - What is an buffer, exactly?
 - How to run a line through an external program?
 - What are the sentence, paragraph, section text objects?
 - How to work with marks efficiently?
-- ~~How to fold functions and other blocks of code?~~
 
 ## English (0/5)
 - Explore "0 conditional".
@@ -172,9 +123,6 @@
 - What's escapism?
 - What's a hypernym?
 
-## Bash (1/1)
-- ~~How to use brace expansion?~~
-
 To refine:
 - observables
 - sed
@@ -182,7 +130,6 @@ To refine:
 - grep
 - SVG
 - Vue
-- PostgreSQL
 - D3.js
 - Rust
 - Machine learning algorithms
@@ -371,3 +318,74 @@ To refine:
 
 ## Bash - 1
 - ~~How to use a switch statement on the n-th variable?~~
+
+# DONE - March
+
+## React - 22
+- ~~How to test components that fetch data within `act`?~~
+- ~~What's `useImperativeHandle` for?~~
+- ~~How to utilize a `useContext` hook to make it act like a Redux store?~~
+- ~~What's the difference between controlled and uncontrolled component?~~
+- ~~How to use an unstable Suspense's `createResource`?~~
+- ~~What apart from DOM refs can be stored in `useRef` hook?~~
+- ~~What problem does `mdx` solve?~~
+- ~~Why not to use memo/PureComponent by default?~~
+- ~~What is JSX pragma?~~
+- ~~What is `setupFileAfterEnv` in Jest for?~~
+- ~~How to use `memo`? How's that different than `useMemo`?~~
+- ~~How batching works?~~
+- ~~Is setState async?~~
+- ~~What's the render and commit phase?~~
+- ~~How to set today as a value of a date input?~~
+- ~~How to test if given element is/isn't present in the DOM?~~
+- ~~How to test if a radio button is selected?~~
+- ~~How to test a keyboard tab navigation?~~
+- ~~What's a difference between `createElement` vs `cloneElement`~~
+- ~~What's a Strict Mode?~~
+- ~~Where to put a `setupTests` file?~~
+- ~~How to alter a console.error in tests?~~
+
+## TypeScript - 11
+- ~~How to use `NotNullable`?~~
+- ~~How to create an `Omit` function?~~
+- ~~How to use Exclude?~~
+- ~~What is `d.ts` file for?~~
+- ~~What does `extends` mean exactly?~~
+- ~~How TS works for rest operator?~~
+- ~~What's a synthetic import?~~
+- ~~How to use `readonly` and `const` keywords?~~
+- ~~Async function return value~~
+- ~~How to type Ramda pipes?~~
+- ~~How to type Ramda map operator?~~
+
+## GraphQL - 8
+- ~~How to use variables in queries?~~
+- ~~How to write a resolver that returns a footballer by fullname?~~
+- ~~What are the available types for the queries?~~
+- ~~Which packages should be used to setup a basic GraphQL server for Node.js?~~
+- ~~What's `Query`?~~
+- ~~How to set an another port for the server?~~
+- ~~How to write a basic resolver?~~
+- ~~How to setup a GraphQL playground?~~
+
+## CSS - 1
+- ~~What is `minmax` function in CSS Grid?~~
+
+## GIT - 1
+- ~~How does `git rm` work?~~
+
+## JS - 1
+- ~~Function expression vs function declaration.~~
+
+## UNIX - 5
+- ~~How to prettify a JSON file in the terminal?
+- ~~How to send a file through netcat?~~
+- ~~How to search for whole word with `ag`?~~
+- ~~How to pass header to httpie request?~~
+- ~~How to upload a file with `httpie`?~~
+
+## Bash - 1
+- ~~How to use brace expansion?~~
+
+## VIM - 1
+- ~~How to fold functions and other blocks of code?~~
