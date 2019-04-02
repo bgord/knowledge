@@ -1,105 +1,50 @@
 # Roadmap for 2019
 
-## React (0/4)
-- How to setup a `xstate` for a basic example? 
-- How to setup redux-observable?
+## React (0/2)
 - What's the state reducer pattern?
 - What's a compound component pattern?
 
-## TypeScript (0/6)
-- How to create a `Diff` function?
-- What's a discriminated union?
-- How to deal with mutually exclusive types in intersections?
-- Function type overloads.
+## TypeScript (0/1)
 - What's an `unknown` type? How is this different from `any`?
-- How to add types for a library?
 
-## PostgreSQL (0/1)
-- What's the name of the binaries?
+## GraphQL (0/0)
 
-## GraphQL (0/7)
-- What's `Mutation`?
-- How to setup Apollo in React?
-- How to use Query in React?
-- How to write pagination?
-- How to use Apollo with hooks?
-- How to check if user is authenticated?
-- How to nest queries?
+## PostgreSQL (0/0)
 
-## CSS (0/15)
+## CSS (0/6)
 - In depth relative vs absolute comparison.
-- How does @font-face work?
-- What's a specificity and how to count it?
-- What does \# mean in the SCSS?
-- What is a mixin and function in SCSS?
-- How to write a conditional in SCSS?
-- How to write a loop in SCSS?
 - In depth sticky vs fixed comparison.
-- What are typography best practices?
-- What is `inline-flex` useful for?
-- What is `inline-grid` useful for?
+- What is `inline-flex/grid` useful for?
 - When do `basis, shrinking, and growing` apply? What are the possible values?
 - What is `flex/flex-flow`?
-- What does `max/min-content` mean in `gtc`?
 - How to truncate text in deep flex child?
 
-## JS (0/23)
+## JS (0/10)
 - In-depth == vs === comparison.
- -How to add a custom validation function?
-- How to use link `ref="preload"`?
 - What's a mutation observer?
 - What's a singleton pattern?
-- What is a `state reducer pattern`?
 - What is a `proxy` in JS? What can it be useful for?
 - How to make a property private by using Symbol?
 - What's an intersection observer?
-- What is transducer?
 - What's a babel macro?
 - Arrow function vs Regular function.
-- How is Map different from object?
-- What are use cases for Set?
 - How to find an AST name of some part of the language?
 - What's a factory design pattern?
-- What's a symbol and what're it's advantages?
-- What's a tree-shaking and how does it work?
-- How to use placeholders (R.\_) in Ramda?
-- How to just intl.number to format quotas?
-- What are peer dependencies?
-- Why to use `package-lock.json`?
-- Difference between expression and statement
 
-## GIT (0/10)
+## GIT (0/5)
 - What to do when branches have diverged?
 - How to rebase? What is `git rebase -i` useful for?
 - What does `git pull --rebase` do?
 - What are `git submodules`? What are they useful for?
-- What's a `..` operator in git log?
-- What is a `...` operator in `git diff`?
-- What is a `...` operator in `git log`?
-- How to obtain useful logs with `git log`?
 - How to remove a file from all the git history?
-- What do all the options in `git add -i` mean?
 
-## Docker (0/8)
+## Docker (0/2)
 - What are ARGs?
 - How does docker-compose work?
-- How to setup a MongoDB container?
-- How to access a DB inside the container on the host machine?
-- How to access a DB inside another container?
-- How to retain MongoDB database in the container?
-- How to backup MongoDB in the container?
-- A `docker-compose.yml` file for the express/MongoDB setup.
 
-## UNIX (0/12)
+## UNIX (0/5)
 - What is the purpose of nginx?
 - What's a reverse proxy?
-- How to setup a reverse proxy?
-- How to select a value from path in `jq`?
-- How to set a value for path in `jq`?
-- How to retrieve a data from the n-th column and the n-th row from the CSV file?
-- How to change a data from the n-th column and the n-th row from the CSV file?
-- How to sum numbers from the n-th column from the CSV file?
-- How to add arguments for a Makefile script?
 - How does `xargs` work?
 - How does CORS work?
 - How does OPTION http method work?
@@ -127,25 +72,6 @@
 - What's a difference between church and a cathedral?
 - What's escapism?
 - What's a hypernym?
-
-To refine:
-- observables
-- sed
-- awk
-- grep
-- SVG
-- Vue
-- D3.js
-- Rust
-- Machine learning algorithms
-- MongoDB
-- Firebase
-- named rows/columns
-- template areas
-- justify/align-content/place-content
-- grid-auto-columns/rows
-- grid-auto-flow
-- well-done animations
 
 # DONE - January
 
@@ -324,7 +250,7 @@ To refine:
 ## Bash - 1
 - ~~How to use a switch statement on the n-th variable?~~
 
-# DONE - March
+# DONE - March (52)
 
 ## React - 22
 - ~~How to test components that fetch data within `act`?~~
