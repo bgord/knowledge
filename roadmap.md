@@ -9,7 +9,17 @@
 
 ## GraphQL (0/0)
 
-## PostgreSQL (0/0)
+## xstate (0/1)
+- How to create a basic counter app?
+
+## Postgraphile (0/1)
+- How to setup a container with an example API?
+
+## PostgreSQL (0/1)
+- How to create a container with an example DB?
+
+## TailwindCSS (0/1)
+- How to setup a basic config?
 
 ## CSS (0/6)
 - In depth relative vs absolute comparison.
@@ -19,8 +29,9 @@
 - What is `flex/flex-flow`?
 - How to truncate text in deep flex child?
 
-## Swagger (1/1)
+## Swagger (1/2)
 - ~~How to create a basic template?~~
+- How to create a query string docs?
 
 ## JS (0/10)
 - In-depth == vs === comparison.
