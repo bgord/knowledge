@@ -45,12 +45,13 @@
 - What are ARGs?
 - How does docker-compose work?
 
-## UNIX (0/5)
+## UNIX (1/6)
 - What is the purpose of nginx?
 - What's a reverse proxy?
 - How does `xargs` work?
 - How does CORS work?
 - How does OPTION http method work?
+- ~~Are headers encrypted over SSL?~~
 
 ## Vim (0/4)
 - What is an buffer, exactly?
