@@ -19,6 +19,9 @@
 - What is `flex/flex-flow`?
 - How to truncate text in deep flex child?
 
+## Swagger (1/1)
+- ~~How to create a basic template?~~
+
 ## JS (0/10)
 - In-depth == vs === comparison.
 - What's a mutation observer?
