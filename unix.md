@@ -268,3 +268,9 @@ To send the file I run: `cat |filename| | nc |ip| |port|`.
 Yes.
 
 ---
+
+**chroot**
+
+Run a program with changed root directory.
+
+---

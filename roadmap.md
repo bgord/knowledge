@@ -1,8 +1,8 @@
 # Roadmap for 2019
 
 ## React (0/2)
-- What's the state reducer pattern?
-- What's a compound component pattern?
+- What's the simplest example of state reducer pattern?
+- What's the simplest example of compound component pattern?
 
 ## TypeScript (0/1)
 - What's an `unknown` type? How is this different from `any`?
@@ -56,13 +56,14 @@
 - What are ARGs?
 - How does docker-compose work?
 
-## UNIX (1/6)
+## UNIX (2/7)
 - What is the purpose of nginx?
 - What's a reverse proxy?
 - How does `xargs` work?
 - How does CORS work?
 - How does OPTION http method work?
 - ~~Are headers encrypted over SSL?~~
+- ~~What is `chroot` about?~~
 
 ## Vim (0/4)
 - What is an buffer, exactly?
