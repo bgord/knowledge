@@ -1,93 +1,24 @@
 # Roadmap for 2019
 
-## React (0/2)
+## React (0/1)
 - What's the simplest example of state reducer pattern?
-- What's the simplest example of compound component pattern?
 
-## TypeScript (0/1)
-- What's an `unknown` type? How is this different from `any`?
-
+## TypeScript (0/0)
 ## GraphQL (0/0)
-
-## xstate (0/1)
-- How to create a basic counter app?
-
-## Postgraphile (0/1)
-- How to setup a container with an example API?
-
-## PostgreSQL (0/1)
-- How to create a container with an example DB?
-
-## TailwindCSS (0/1)
-- How to setup a basic config?
-
-## CSS (0/6)
-- In depth relative vs absolute comparison.
-- In depth sticky vs fixed comparison.
-- What is `inline-flex/grid` useful for?
-- When do `basis, shrinking, and growing` apply? What are the possible values?
-- What is `flex/flex-flow`?
-- How to truncate text in deep flex child?
-
-## Swagger (1/2)
-- ~~How to create a basic template?~~
-- How to create a query string docs?
-
-## JS (0/10)
-- In-depth == vs === comparison.
-- What's a mutation observer?
-- What's a singleton pattern?
-- What is a `proxy` in JS? What can it be useful for?
-- How to make a property private by using Symbol?
-- What's an intersection observer?
-- What's a babel macro?
-- Arrow function vs Regular function.
-- How to find an AST name of some part of the language?
-- What's a factory design pattern?
-
-## GIT (0/5)
-- What to do when branches have diverged?
-- How to rebase? What is `git rebase -i` useful for?
-- What does `git pull --rebase` do?
-- What are `git submodules`? What are they useful for?
-- How to remove a file from all the git history?
-
-## Docker (0/2)
-- What are ARGs?
-- How does docker-compose work?
-
-## UNIX (2/7)
-- What is the purpose of nginx?
-- What's a reverse proxy?
-- How does `xargs` work?
-- How does CORS work?
-- How does OPTION http method work?
-- ~~Are headers encrypted over SSL?~~
-- ~~What is `chroot` about?~~
-
-## Vim (0/4)
-- What is an buffer, exactly?
-- How to run a line through an external program?
-- What are the sentence, paragraph, section text objects?
-- How to work with marks efficiently?
-
-## English (0/5)
-- Explore "0 conditional".
-- Explore "1st conditional".
-- Explore "2nd conditional".
-- Explore "3rd conditional".
-- Explore "mixed conditional".
-
-## HTML (0/4)
-- Choosing between `section` vs `div`.
-- What are the most common aria-\* attributes?
-- How to use a mask for input?
-- What's an `importance` in img tags?
-
-## Other (0/3)
-- What's a difference between church and a cathedral?
-- What's escapism?
-- What's a hypernym?
+## xstate (0/0)
+## Postgraphile (0/0)
+## PostgreSQL (0/0)
+## TailwindCSS (0/0)
+## CSS (0/0)
+## Swagger (0/0)
+## JS (0/0)
+## GIT (0/0)
+## Docker (0/0)
+## UNIX (0/0)
+## Vim (0/0)
+## English (0/0)
+## HTML (0/0)
+## Other (0/0)
 
 # DONE - January
 
