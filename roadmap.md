@@ -1,24 +1,39 @@
 # Roadmap for 2019
 
-## React (0/1)
+## React (0/2)
 - What's the simplest example of state reducer pattern?
+- What's the simplest example of compound component pattern?
+
+## GIT (0/2)
+- What does rebase do?
+- What can you achieve by interactive rebase?
+
+## Elixir (0/16)
+- ~~What type of language is Elixir?~~
+- ~~What's Elixir REPL?~~
+- ~~How to use "inspect" in iex?~~
+- ~~How to make large numbers more readable~~
+- ~~What's an upper limit for integers?~~
+- ~~What are atoms?~~
+- ~~What does returning an :ok atom means?~~
+- ~~What are falsy values?~~
+- ~~What's encoding of strings?~~
+- ~~How to get a length of a string?~~
+- ~~How to concatenate strings?~~
+- ~~How to handle string interpolation?~~
+- ~~What's a tuple?~~
+- ~~How to get n-th value from a tuple?~~
+- ~~How to update a value in a tuple?~~
+- ~~How to skip a value in a tuple?~~
 
 ## TypeScript (0/0)
 ## GraphQL (0/0)
-## xstate (0/0)
-## Postgraphile (0/0)
-## PostgreSQL (0/0)
 ## TailwindCSS (0/0)
 ## CSS (0/0)
-## Swagger (0/0)
 ## JS (0/0)
-## GIT (0/0)
 ## Docker (0/0)
 ## UNIX (0/0)
 ## Vim (0/0)
-## English (0/0)
-## HTML (0/0)
-## Other (0/0)
 
 # DONE - January
 
