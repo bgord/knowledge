@@ -246,4 +246,31 @@ It's just a utility command, works the same way like `rm file.txt`, `git add fil
 
 ---
 
+**How to display git graph history?**
+
+`$ git log --graph --decorate --all --oneline`
+
+---
+
+**How does rebase work?**
+
+`rebase` rewrites the git history, be careful when working with remote repository in a team.
+
+Let's say I'm on a branch `feature` and there have been some new commits on a `master` since I branched out from it.
+
+I want to change the base of the `feature` branch to be the latest `master` commit, not the one I branched out from.
+
+(on the `feature` branch)
+`$ git rebase master`
+
+Git copies the content of the commits on the `feature` branch and puts them on top of the `master` branch.
+
+It looks like the `feature` has branched out from the latest `master`, which was actually not a case, but the history says so.
+
+But currently the HEAD pointer is pointing on the `feature` branch, so we need to make the `master` branch pointer point at the latest commit (from the `feature`) branch.
+
+`$ git checkout master && git merge feature`
+
+Merging is performed in the `fast-forward` fashion.
+
 ---

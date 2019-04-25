@@ -4,9 +4,10 @@
 - What's the simplest example of state reducer pattern?
 - What's the simplest example of compound component pattern?
 
-## GIT (0/2)
-- What does rebase do?
-- What can you achieve by interactive rebase?
+## GIT (2/3)
+- What's `git rebase -i` useful for?
+- ~~How does rebase work?~~
+- ~~How to display git graph history?~~
 
 ## Elixir (0/16)
 - ~~What type of language is Elixir?~~
