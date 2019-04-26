@@ -274,3 +274,9 @@ But currently the HEAD pointer is pointing on the `feature` branch, so we need t
 Merging is performed in the `fast-forward` fashion.
 
 ---
+
+**How to diff current branch and the state from from n commits ago?**
+
+`$ git diff HEAD~1`
+
+---
