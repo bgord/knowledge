@@ -280,3 +280,32 @@ Merging is performed in the `fast-forward` fashion.
 `$ git diff HEAD~1`
 
 ---
+
+**What is `git ls-files` command?**
+
+A plumbing command is a git command that is rarely used by users, and more often by git itself.
+
+List all tracked files (the staged ones are being tracked)
+`$ git ls-files`
+
+List tracked ignored files:
+`$ git ls-files --ignored -exclude-standard`
+
+List untracked ignored files:
+`$ git ls-files --others`
+
+List untracked ignored files:
+`$ git ls-files --other --ignored --exclude-standard`
+
+List untracked and not ignored files:
+`$ git  ls-files --other --exclude-standard`
+
+---
+
+**How to stage ignored file?**
+
+If a file is matching a .gitignore rule, it's ignored, but still can be tracked.
+
+`$ git add -f file`
+
+---
