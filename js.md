@@ -222,3 +222,32 @@ Function expression:
 - `const foo = function() {};`
 - can be anonymous
 - not hoisted
+
+---
+
+**What's the difference between `==` and `===`?**
+
+Non-primitive structures are not compared by value, but by reference.
+
+`==` means loose equality and `type coercion` (two operands are being casted to the common type, if it's possible)
+
+`true == true // true`
+`7 == '7' // true`
+`false == 0 // true`
+`true == 1 // true`
+`undefined == null //true`
+`undefined == undefined //true`
+`null == null //true`
+`NaN == NaN // false (always)`
+`false == undefined // false`
+
+`===` means strict equality, by both type and value
+
+`7 === '7' // false`
+`7 === 7 // true`
+`'7' === '7' // true`
+`undefined === null // false`
+`undefined === undefined // true`
+`null === null // true`
+
+---

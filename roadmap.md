@@ -30,11 +30,13 @@
 - ~~How to update a value in a tuple?~~
 - ~~How to skip a value in a tuple?~~
 
+## JS (1/1)
+- ~~What's the difference between `==` and `===`?~~
+
 ## TypeScript (0/0)
 ## GraphQL (0/0)
 ## TailwindCSS (0/0)
 ## CSS (0/0)
-## JS (0/0)
 ## Docker (0/0)
 ## UNIX (0/0)
 ## Vim (0/0)
