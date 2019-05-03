@@ -4,8 +4,8 @@
 - What's the simplest example of state reducer pattern?
 - What's the simplest example of compound component pattern?
 
-## GIT (5/6)
-- What's `git rebase -i` useful for?
+## GIT (6/6)
+- ~~How to squash commits with interactive rebase?~~
 - ~~How does rebase work?~~
 - ~~How to display git graph history?~~
 - ~~How to diff current branch and the state from from n commits ago?~~

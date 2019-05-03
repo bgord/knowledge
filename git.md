@@ -309,3 +309,18 @@ If a file is matching a .gitignore rule, it's ignored, but still can be tracked.
 `$ git add -f file`
 
 ---
+
+**How to squash commits with interactive rebase?**
+
+`git rebase -i HEAD~n`
+
+Given this output:
+
+```
+pick 3465368 Change path alias for Backoffice project
+squash 3e66214 Add up alias that goes one directory up in the file system
+```
+
+The `3e66214` gets squashed to `3465368` (it goes upwards).
+
+---
