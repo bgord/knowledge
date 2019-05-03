@@ -34,11 +34,13 @@ accessible rich internet applications
 
 ---
 
-**aria-label**
+**aria-label and a11y**
 
 `<button aria-label="Close">X</button>`
 
-Provide a label for non-self-descriptive element for screen readers:
+`<a href="twitter.com" aria-label="Follow us on twitter!"><i class="fab fa-twitter" /></a>`
+
+Provide a label for non-self-descriptive element for screen readers in order to make e.g social media icon more accessible.
 
 ---
 
