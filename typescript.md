@@ -775,3 +775,33 @@ const discountedProducts: DiscountedProduct[] = R.map<
 ```
 
 ---
+
+**How to add types for untyped third-party library?**
+
+Scenario:
+
+```
+TypeScript error: Could not find a declaration file for module '@reach/tabs'. '/home/bartosz/Desktop/projects/words-app/node_modules/@reach/tabs/index.js' implicitly has an 'any' type.
+  Try `npm install @types/reach__tabs` if it exists or add a new declaration (.d.ts) file containing `declare module '@reach/tabs';`
+```
+
+What happened:
+- you must have set `"noImplicitAny": true,` compiler option in your `tsconfig.json`
+- `@reach/tabs` package doesn't have in-library typings
+
+Next steps:
+
+1. If typings are included in Definitely Typed repo
+
+`$ npm install @types/@reach__tabs` if it exists (it's not `@types/@reach/tabs` because of too deep `/` nesting)
+
+2. If typings aren't included in Definitely Typed repo
+
+- create `typigns` directory in project root
+- add `"typeRoots": ["./typings", "./node_modules/@types"]` compiler option in `tsconfig.json`
+- in `"./typings"` directory create a `@reach__tabs` directory (it'd be just `<package>` for a name that doesn't include `/` char)
+- create `index.d.ts` file in it
+- add `declare module '@reach/tabs';` line
+- add `"exclude": ["./typings", "./node_modules"]` `tsconfig.json` rule
+
+---
