@@ -324,3 +324,30 @@ squash 3e66214 Add up alias that goes one directory up in the file system
 The `3e66214` gets squashed to `3465368` (it goes upwards).
 
 ---
+
+**How to write good commit mesages?**
+
+Structure:
+
+```
+[xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx] - subject line
+                                                     - blank line
+[                                                  ] - body
+```
+
+Subject
+- up to 50 characters (VIM highlights it well)
+- capitalized first letter
+- no period at the EOL
+- use imperative mood - 'Add husky dependency' instead of 'Added husky dependency'
+- displayed in inline git logs as a commit message
+- "If applied, this commit will <subject line>."
+
+Blank line separates subject line and body.
+
+If subject line in commit requires no further explanation, use `$ git commit -m "xxx"`, otherwise, use `$ git commit` to open an editor to edit entire commit description.
+
+Diff tells **what** changed.
+Commit message describes **why** it changed.
+
+---
