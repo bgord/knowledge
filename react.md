@@ -898,3 +898,10 @@ It's not possible to avoid the 'act' warning right now.
 This [PR](https://github.com/facebook/react/pull/14853) needs to be resolved.
 
 ---
+
+**How to proxy requests in development?**
+
+Add the following line in package.json
+`"proxy": "http://localhost:4000",`
+
+---
