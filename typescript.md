@@ -130,6 +130,8 @@ Works fine, "increment" is a string.
 
 The code below throws an error, because an index cannot be a union-type.
 
+"An index signature parameter type cannot be a union type. Consider using a mapped object type instead."
+
 ```
 type ActionTypes = 'increment' | 'decrement';
 
