@@ -351,3 +351,26 @@ Diff tells **what** changed.
 Commit message describes **why** it changed.
 
 ---
+
+**How to get the current branch?**
+
+`git rev-parse --abbrev-ref HEAD`
+
+---
+
+**What is revision/rev in git?**
+
+Revision/rev is a tracked state of project (the entire tree). Every revision has its own sha-1 and can be tracked by it.
+
+A commit/branch/tag/HEAD is a revision, because it can be references by sha-1 and describes state of the project at given time.
+
+Symbolic revision is an alias for sha-1 version of given revision,
+e.g master.
+
+---
+
+**What's `git rev-parse` for?**
+
+(symbolic revision) => sha-1 (shortened or translated)
+
+---
