@@ -251,3 +251,16 @@ Non-primitive structures are not compared by value, but by reference.
 `null === null // true`
 
 ---
+
+**How to use console.group\*?**
+
+To create a collapsable dropdown list of logs in the console:
+
+```
+const text = "GET /word-entries"
+console.group(text) // console.groupCollapsed(text);
+console.log("TIMESTAMP", Date.now());
+console.groupEnd();
+```
+
+---

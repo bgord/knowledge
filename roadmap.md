@@ -7,9 +7,12 @@
 ## GIT 1
 - How does `git pull --rebase` work?
 
+## JS 2
+- What's a visitor pattern?
+- What are the kinds of import statements in terms of AST?
+
 ## TypeScript 0
 ## Elixir 0
-## JS 0
 ## GraphQL 0
 ## TailwindCSS 0
 ## CSS 0
