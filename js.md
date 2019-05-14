@@ -264,3 +264,20 @@ console.groupEnd();
 ```
 
 ---
+
+**Visitor pattern**
+
+In ESLint, it lets you pass an object of types of nodes that you care about and with handlers instead of traversing the tree manually.
+
+Lets you define further actions on objects without having to modify them.
+
+```
+return {
+  'ImportDeclaration': (node) => {
+    // do validations
+    // report errors
+  }
+}
+```
+
+---
