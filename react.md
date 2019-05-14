@@ -944,3 +944,61 @@ After the onChange handler is fired, component is not rerendered. React doesn't 
 In any further update, React reads the latest ref value and makes it frozen for reads until the subsequent update happens.
 
 ---
+
+**How to read previous state/props/value in the hooks world?**
+
+```
+function Form() {
+  const [name, setName] = React.useState("");
+  const previousName = React.useRef(null);
+
+  React.useEffect(() => {
+    previousName.current = name;
+  });
+
+  return (
+    <form>
+      <input value={value} onChange={e => setName(e.target.value)} />
+    </form>
+  );
+}
+```
+
+1. First render
+`name` = ""
+`previousName.current` = null
+- useEffect:
+`name` = "" (DISPLAYED IN THIS RENDER)
+`previousName.current` = "" (DISPLAYED IN THIS RENDER)
+- change event (changing state):
+`name` = ""
+`previousName.current` = ""
+
+2. Second render
+`name` = "e" (DISPLAYED IN THIS RENDER)
+`previousName.current` = "" (DISPLAYED IN THIS RENDER)
+- useEffect
+`name` = "e"
+`previousName.current` = "e"
+- change event (changing state):
+`name` = "e"
+`previousName.current` = "e"
+
+3. Third render
+`name` = "ef" (DISPLAYED IN THIS RENDER)
+`previousName.current` = "e" (DISPLAYED IN THIS RENDER)
+- useEffect
+`name` = "ef"
+`previousName.current` = "ef"
+
+```
+function usePrevious(value) {
+  const previousValue = React.useRef(null);
+  React.useEffect(() => {
+    previousValue.current = value;
+  })
+  return previousValue.current;
+}
+```
+
+---
