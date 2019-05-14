@@ -1002,3 +1002,35 @@ function usePrevious(value) {
 ```
 
 ---
+
+**How to create helpers for testing purposes in react-testin-library?**
+
+Declare most common actions like changing input value, submitting form, getting a reference to particular elements to make code more readable.
+
+```
+function renderApp(props) {
+  const utils = render(<App {...props} />);
+
+  const usernameInput = () => utils.queryByLabelText('Username');
+  const submitButton = () => utils.queryByText('Find', {selector: 'button'});
+
+  const infoText = () => utils.queryByText(/INFO:/i);
+  const results = () => utils.queryByTestId('result');
+  const error = () => utils.queryByText(/error:/i);
+  const loadingText = () => utils.queryByText(/loading.../i);
+
+  return {
+    ...utils,
+    usernameInput,
+    submitButton,
+    infoText,
+    loadingText,
+    results,
+    error,
+    changeUsername: value =>
+      fireEvent.change(usernameInput(), {target: {value}}),
+    submitForm: () => fireEvent.click(submitButton()),
+  };
+}
+```
+---
