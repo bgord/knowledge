@@ -156,7 +156,7 @@ fireEvent.click(button);
 
 **useReducer**
 
-It's used by `useState` internally. 
+It's used by `useState` internally.
 `const [state, dispatch] = useReducer(reducer, initialState)`
 
 Reducer is a function with signature: `(state, action) => newState`.
@@ -294,7 +294,7 @@ It's a hook when you should perform all the side-effects.
 
 You can think of it as a `componentDidMount`, `componentDidUpdate` and `componentWillUnmount` combined.
 
-There are two kinds of side-effects. Those which require a cleanup and those which don't. 
+There are two kinds of side-effects. Those which require a cleanup and those which don't.
 
 We don't need to duplicate code/logic between lifecycles.
 
@@ -613,7 +613,7 @@ It prevents unnecessary rerenders.
 function Parent() {
   let [count, setCount] = useState(0);
   return (
-    <div onClick={() => setCount(count + 1)}>      
+    <div onClick={() => setCount(count + 1)}>
       Parent clicked {count} times
       <Child />
     </div>
@@ -623,7 +623,7 @@ function Parent() {
 function Child() {
   let [count, setCount] = useState(0);
   return (
-    <button onClick={() => setCount(count + 1)}>      
+    <button onClick={() => setCount(count + 1)}>
       Child clicked {count} times
     </button>
   );
@@ -773,7 +773,7 @@ export const App = () => {
   const me = githubUser.read();
   return (
     <Suspense fallback="Loading...">
-      <div>{me.url}</div> 
+      <div>{me.url}</div>
     </Suspense>
   )
 }
@@ -903,5 +903,44 @@ This [PR](https://github.com/facebook/react/pull/14853) needs to be resolved.
 
 Add the following line in package.json
 `"proxy": "http://localhost:4000",`
+
+---
+
+**How is `useState` different from `useRef`?**
+
+Let's set we have an input, and it's value is being controlled by useState.
+
+```
+function Form(props) {
+  const [name, setName] = React.useState("");
+  return (
+    <form>
+      <input value={name} onChange={e => setName(e.target.value)}
+    </form>
+  )
+}
+```
+
+After the onChange handler is fired, the `name` state is not changed immediately. In given render props and state is immutable. The update is scheduled for a next render.
+
+In this case, the input value is controlled by useRef.
+
+```
+function Form(props) {
+  const name = React.useRef("");
+  return (
+    <form>
+      <input
+        value={name.current}
+        onChange={e => (name.current = e.target.value )}
+      />
+    </form>
+  )
+}
+```
+
+After the onChange handler is fired, component is not rerendered. React doesn't register any changes. Values stored in `.current` are treated like instance variables.
+
+In any further update, React reads the latest ref value and makes it frozen for reads until the subsequent update happens.
 
 ---

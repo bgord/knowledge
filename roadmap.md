@@ -1,14 +1,14 @@
 # Roadmap for 2019
 
-## React 2
+## React 3
 - What's the simplest example of state reducer pattern?
 - What's the simplest example of compound component pattern?
+- How to read previous state/props/value in the hooks world?
 
 ## GIT 1
 - How does `git pull --rebase` work?
 
-## JS 2
-- What's a visitor pattern?
+## JS 1
 - What are the kinds of import statements in terms of AST?
 
 ## TypeScript 0
