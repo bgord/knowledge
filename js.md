@@ -281,3 +281,14 @@ return {
 ```
 
 ---
+
+**Regex for alphanumeric characters with possible spaces**
+
+```
+/^[a-zA-Z0-9 ]*$/
+
+```
+
+Anything from a-z, A-Z, and 0-9 and " " (space), repeated 0-n times.
+
+---
