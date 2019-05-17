@@ -374,3 +374,42 @@ e.g master.
 (symbolic revision) => sha-1 (shortened or translated)
 
 ---
+
+**What is the difference between fast-forward and three-way merge strategy?**
+
+### Fast-forward merge
+
+Before:
+
+---- [Add a file] (HEAD -> master) ------ [Add b file] (hotfix)
+
+`$ git checkout master`
+`$ git merge hotfix`
+
+After:
+
+---- [Add a file] (HEAD -> master) ------ [Add b file] (HEAD -> master, hotfix)
+
+- no commit message was created, because git knows that there's a linear path between branch you're merge'ing (hotfix) and the branch you're merge'ing to (master)
+- it moves HEAD pointer to the latest commit of the hotfix branch
+
+### Three-way merge
+
+Before:
+
+---- [Add a file] ---- [Add c file] (HEAD -> master)
+          |
+          ---- [Add c file] (hotfix)
+
+`$ git checkout master`
+`$ git merge hotfix`
+
+After:
+
+---- [Add a file] ---- [Add c file] ---- [Merge commit] (HEAD -> master)
+          |                              /
+          ---- [Add c file] (hotfix) ----
+
+- it creates a new "merge" commit
+
+---
