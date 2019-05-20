@@ -56,3 +56,11 @@ Sent every POST, PUT, and DELETE request.
 It's a word describing the general word for the category that more specific words fall into.
 
 ---
+
+**What does "vide" mean?**
+
+"see", used as a written instruction for a reader to look at the particular page,book,piece of information.
+
+Latin for "see!".
+
+---

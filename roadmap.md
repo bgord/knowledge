@@ -10,6 +10,10 @@
 ## JS 1
 - What are the kinds of import statements in terms of AST?
 
+## Tools 2
+- How to use PurgeCSS with TailwindCSS?
+- How to pass a visual selection to a bash command in VIM?
+
 ## TypeScript 0
 ## Elixir 0
 ## GraphQL 0
