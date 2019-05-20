@@ -73,3 +73,9 @@ The command below creates 3 files: `version1.txt`, `version2.txt` and `version3.
 `$ make version{1,2,3}.txt`
 
 ---
+
+**Which exit code means no error?**
+
+`0`
+
+---
