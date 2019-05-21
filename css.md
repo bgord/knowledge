@@ -271,3 +271,11 @@ It can be used in `grid-template-*` and `grid-auto-*`. It's a way to set boundar
 [codepen](https://codepen.io/bgord/pen/YbEKzd)
 
 ---
+
+**How to prevent a flex item from vertical stretching?**
+
+It's usually because of lack of `align-items` (if `flex-direction` equals "row"). The default value is `stretch`.
+
+[codepen](https://codepen.io/bgord/pen/LoOPzq)
+
+---
