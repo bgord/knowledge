@@ -79,3 +79,12 @@ The command below creates 3 files: `version1.txt`, `version2.txt` and `version3.
 `0`
 
 ---
+
+**How to declare a variable?**
+
+Standard variable: `CURRENT_BRANCH="master"`
+Output from a command: `CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)`
+
+Usage: `$CURRENT_BRANCH`
+
+---
