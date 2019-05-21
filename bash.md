@@ -88,3 +88,14 @@ Output from a command: `CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)`
 Usage: `$CURRENT_BRANCH`
 
 ---
+
+**How to check if a variable is an empty string?**
+
+```
+  if [ -z "$1" ]; then
+    echo "No branch to merge"
+    return 1
+  fi
+```
+
+---
