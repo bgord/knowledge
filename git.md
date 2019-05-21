@@ -413,3 +413,10 @@ After:
 - it creates a new "merge" commit
 
 ---
+
+**How to check if there are conflicts between two branches?**
+
+`git merge --no-ff --no-commit <branch>`
+`git merge --abort`
+
+---
