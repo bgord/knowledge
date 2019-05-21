@@ -265,3 +265,9 @@ It can be used in `grid-template-*` and `grid-auto-*`. It's a way to set boundar
 `https://www.youtube.com/watch?v=XtNkcHyVQOY`
 
 ---
+
+**How to create an overlay effect over the image and its background?**
+
+[codepen](https://codepen.io/bgord/pen/YbEKzd)
+
+---
