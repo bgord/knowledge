@@ -154,3 +154,9 @@ endsnippet
 echo 'filename.txt' | xargs vim
 
 ---
+
+**How to jump to the last place from the jumplist?**
+
+`Ctrl-o o`
+
+---
