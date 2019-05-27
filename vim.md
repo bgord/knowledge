@@ -167,3 +167,9 @@ echo 'filename.txt' | xargs vim
 - `Ctrl + k` === `C-k`
 
 ---
+
+**How to make given key sequence non operational?**
+
+`noremap K <Nop>`
+
+---
