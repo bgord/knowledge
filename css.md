@@ -279,3 +279,9 @@ It's usually because of lack of `align-items` (if `flex-direction` equals "row")
 [codepen](https://codepen.io/bgord/pen/LoOPzq)
 
 ---
+
+**How to apply multiple transforms to one element?**
+
+Currently, there's no way to do this [link](https://stackoverflow.com/questions/44139866/set-css-transform-in-multiple-places).
+
+---
