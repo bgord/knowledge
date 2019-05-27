@@ -285,3 +285,9 @@ It's usually because of lack of `align-items` (if `flex-direction` equals "row")
 Currently, there's no way to do this [link](https://stackoverflow.com/questions/44139866/set-css-transform-in-multiple-places).
 
 ---
+
+**How to set a grid time to span for n?**
+
+`grid-column: span 3;`
+
+---
