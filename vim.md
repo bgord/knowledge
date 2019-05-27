@@ -160,3 +160,10 @@ echo 'filename.txt' | xargs vim
 `Ctrl-o o`
 
 ---
+
+**How to map common key sequences?**
+
+- `Shift + k` === `K`
+- `Ctrl + k` === `C-k`
+
+---
