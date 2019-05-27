@@ -274,3 +274,9 @@ Yes.
 Run a program with changed root directory.
 
 ---
+
+**How to fix a magnifier mode in Manjaro?**
+
+`Alt + Scroll Down`
+
+---
