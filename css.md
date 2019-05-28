@@ -291,3 +291,26 @@ Currently, there's no way to do this [link](https://stackoverflow.com/questions/
 `grid-column: span 3;`
 
 ---
+
+**How to use grid-template-areas?**
+
+Grid definition:
+```
+.container {
+  display: grid;
+  grid-template-columns: 20px 20px;
+  grid-template-rows: 20px 20px;
+  grid-teamplate-areas:
+    "header header"
+    "body body";
+}
+```
+
+Usage:
+```
+.item {
+  grid-area: "header"
+}
+```
+
+---
