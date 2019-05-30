@@ -1,6 +1,6 @@
 **npm ci**
 
-Similar to the npm install but it's advised to be used in automated envs, to make sure you're making clean installs. 
+Similar to the npm install but it's advised to be used in automated envs, to make sure you're making clean installs.
 Faster than regular install, requires package-lock.json.
 Use it every time you want to remove node_modules, and npm install.
 
@@ -23,7 +23,21 @@ Use it every time you want to remove node_modules, and npm install.
 - create a commit
 - bump version `npm version (major/minor/patch)`
 - push version change
-`$ npm login`
-`$ npm publish`
+  `$ npm login`
+  `$ npm publish`
+
+---
+
+**How to test a package locally?**
+
+[source](https://docs.npmjs.com/files/package.json#local-paths)
+
+```
+  "dependencies": {
+    "bar": "file:../path"
+  }
+```
+
+Warning: only for local testing purposes!
 
 ---
