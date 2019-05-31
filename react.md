@@ -1034,3 +1034,9 @@ function renderApp(props) {
 }
 ```
 ---
+
+**How does React compare objects passed to deps array?**
+
+If an object is passed to deps array, React doesn't perform a shallow (or deep) equality check. It does perform strict `===` equality, so probably every time the reference to an object will be different, which fails the check and causes an effect to re-run after each render.
+
+---
