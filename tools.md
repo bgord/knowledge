@@ -280,3 +280,16 @@ Run a program with changed root directory.
 `Alt + Scroll Down`
 
 ---
+
+**How to configure husky**
+
+```
+	"husky": {
+		"hooks": {
+			"pre-commit": "npm run frontend:lint && npm run frontend:stylelint",
+			"pre-push": "npm run frontend:test"
+		}
+	}
+```
+
+---
