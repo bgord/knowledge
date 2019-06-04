@@ -420,3 +420,17 @@ After:
 `git merge --abort`
 
 ---
+
+**How does git pull --rebase work?**
+
+`git pull origin master` = `git fetch && git merge origin/master`
+
+`git pull --rebase origin master` = `git fetch && git rebase origin/master`
+
+- Two people (A and B) are working on the same branch.
+- A has already pushed their changes to the remote branch.
+- B has tried to push their changes as well, but got rejected.
+- B does`git pull --rebase origin feature`.
+- First, B's commits are unwound, and A's commit are pulled, and B's commits are replayed on top of the new base.
+
+---
