@@ -28,7 +28,6 @@ instead of
 
 ---
 
-
 **A second argument to `this.setState`**
 
 In order to avoid batching multiple `setState` calls, ensures proper ordering.
@@ -54,7 +53,6 @@ Because of performance, it's advisable to switch classes. There's no need to rer
 React listens on the entire document for a click events, then it sees the source of the event, and finally it delegates it (if the source element has the click handler, if not - the event bubbles until it founds a parent handler).
 
 ---
-
 
 **User-defined components must be capitalized**
 
@@ -103,6 +101,7 @@ Test it just like any other component. Don't rely on implementation details.
 
 `const App: FC<{init: number}> = ({init}) => (<div />)`
 or
+
 ```
 type Props = {
   init: number
@@ -362,8 +361,7 @@ const {rerender} = render(<App />);
 
 **How to access document title in tests?**
 
-`window.document.title`
----
+## `window.document.title`
 
 **Why do we need to specify the type of event target?**
 
@@ -403,12 +401,13 @@ We pass a promise to the React.lazy, so it will resolve in the next event loop t
 **useEffect vs useLayoutEffect**
 
 `useLayoutEffect`:
+
 - aligned closer to the previous `componentDidMoun`/`componentDidUpdate`/`componentWillUnmount` behaviour
 - run synchronously after all DOM mutations
 - before user sees an update on the screen (DOM mutations)
 
-
 `useEffect`
+
 - run asynchronously after all DOM mutations
 - after user sees an update on the screen (e.g store sun/unsub)
 
@@ -631,6 +630,7 @@ function Child() {
 ```
 
 Without batching it would look like:
+
 - start click event
 - set child's state
 - rerender child // unnecessary
@@ -642,6 +642,7 @@ Without batching it would look like:
 All it happens inside EVENT HANDLER.
 
 With batching:
+
 - start click event
 - set child's state
 - set parent's state
@@ -669,6 +670,7 @@ function Child() {
 ```
 
 It will not be processed as:
+
 - start click event
 - set child's state to 10
 - rerender child
@@ -677,6 +679,7 @@ It will not be processed as:
 - finish click event
 
 But instead:
+
 - start click event
 - set child's state to 10
 - set child's state to 10
@@ -693,7 +696,7 @@ To force a non batched event handling, use an updater function (they're executed
 
 **How to use `memo`? How's that different than `useMemo`?**
 
-`useMemo` returns  a memoized value of the function that's passed, is also accepts an array of deps.
+`useMemo` returns a memoized value of the function that's passed, is also accepts an array of deps.
 
 ```
 const memoizedValue = React.useMemo(() => compute(a, b), [a, b]);
@@ -707,7 +710,7 @@ const memoizedValue = React.useMemo(() => compute(a, b), [a, b]);
 
 From Jest ^24 to setup import paths that are run in every test.
 
-``` // jest.config.js
+```// jest.config.js
 module.exports = {
 	setupFilesAfterEnv: [
 		'jest-dom/extend-expect',
@@ -790,6 +793,7 @@ It's about form inputs. When it's controlled, it means that the input updates/va
 **How to utilize a `useContext` hook to make it act like a Redux store?**
 
 Create a Context and Provider:
+
 ```
 export const TransactionProductListContext = React.createContext<{
 	dispatch: React.Dispatch<TransactionProductListAction>;
@@ -816,6 +820,7 @@ export const TransactionProductListContextProvider: React.FC = props => {
 ```
 
 Wrap a subtree where you want to access the Context with the Provider component:
+
 ```
 <TransactionProductListContextProvider>
   <AddTransactionForm />
@@ -823,6 +828,7 @@ Wrap a subtree where you want to access the Context with the Provider component:
 ```
 
 And use it like this anywhere down in the Provider subtree:
+
 ```
 const { dispatch, productList } = React.useContext(
   TransactionProductListContext,
@@ -851,6 +857,7 @@ FancyInput = React.forwardRef(_FancyInput);
 ```
 
 Usage:
+
 ```
 const App = () => {
   const fancyInput = React.useRef();
@@ -965,31 +972,34 @@ function Form() {
 ```
 
 1. First render
-`name` = ""
-`previousName.current` = null
+   `name` = ""
+   `previousName.current` = null
+
 - useEffect:
-`name` = "" (DISPLAYED IN THIS RENDER)
-`previousName.current` = "" (DISPLAYED IN THIS RENDER)
+  `name` = "" (DISPLAYED IN THIS RENDER)
+  `previousName.current` = "" (DISPLAYED IN THIS RENDER)
 - change event (changing state):
-`name` = ""
-`previousName.current` = ""
+  `name` = ""
+  `previousName.current` = ""
 
 2. Second render
-`name` = "e" (DISPLAYED IN THIS RENDER)
-`previousName.current` = "" (DISPLAYED IN THIS RENDER)
+   `name` = "e" (DISPLAYED IN THIS RENDER)
+   `previousName.current` = "" (DISPLAYED IN THIS RENDER)
+
 - useEffect
-`name` = "e"
-`previousName.current` = "e"
+  `name` = "e"
+  `previousName.current` = "e"
 - change event (changing state):
-`name` = "e"
-`previousName.current` = "e"
+  `name` = "e"
+  `previousName.current` = "e"
 
 3. Third render
-`name` = "ef" (DISPLAYED IN THIS RENDER)
-`previousName.current` = "e" (DISPLAYED IN THIS RENDER)
+   `name` = "ef" (DISPLAYED IN THIS RENDER)
+   `previousName.current` = "e" (DISPLAYED IN THIS RENDER)
+
 - useEffect
-`name` = "ef"
-`previousName.current` = "ef"
+  `name` = "ef"
+  `previousName.current` = "ef"
 
 ```
 function usePrevious(value) {
@@ -1033,10 +1043,28 @@ function renderApp(props) {
   };
 }
 ```
+
 ---
 
 **How does React compare objects passed to deps array?**
 
 If an object is passed to deps array, React doesn't perform a shallow (or deep) equality check. It does perform strict `===` equality, so probably every time the reference to an object will be different, which fails the check and causes an effect to re-run after each render.
+
+---
+
+**How to directly test a hook function?**
+
+Use [react-hook-testing-library](https://www.npmjs.com/package/react-hooks-testing-library).
+
+```javascript
+import { renderHook, act } from "react-hooks-testing-library";
+
+it("allows to zoomIn", () => {
+  const { result } = renderHook(() => useImageZoomStyle());
+  expect(result.current[0]).toEqual({ transform: "scale(1)" });
+  act(() => result.current[1].zoomIn());
+  expect(result.current[0]).toEqual({ transform: "scale(2)" });
+});
+```
 
 ---
