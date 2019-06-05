@@ -13,6 +13,7 @@
 **Search through terminal history through `fzf`**
 
 `history | fzf`
+
 - `--tac` to search in reversed order
 
 ---
@@ -66,27 +67,25 @@ const a = { a: 2, b:3};
 - `hjkl` to navigate
 - `|` `_` to flip vertically and horizontally
 
-
 **Kill the process running on the port 3000**
 
-`fuser -k 3000/tcp` 
- 
+`fuser -k 3000/tcp`
+
 ---
 
 **TTY**
-- means terminal
 
+- means terminal
 
 **Show all connected devices**
 
-`lsblk` 
+`lsblk`
 
 ---
 
-
 **Rip a mp3 from the cd**
 
-`asunder` 
+`asunder`
 
 ---
 
@@ -144,7 +143,6 @@ It reads the standard input, and both writes it to the file, and displays on the
 
 Useful when trying to find things (and then asserting it).
 
-
 `$ cat filename.txt | grep -q 'dot'`
 
 ---
@@ -156,7 +154,7 @@ Useful when trying to find things (and then asserting it).
 
 ---
 
-**What does $@ mean?**
+**What does \$@ mean?**
 
 It is a variable containing all the command variables except of the first one.
 
@@ -198,7 +196,7 @@ Typically a target of the make command is a file, `.PHONY` is to register a comm
 
 **How to extract the tar file?**
 
-`tar xvf filenamme.tar // eXtract Ve File `
+`tar xvf filenamme.tar // eXtract Ve File`
 
 ---
 
@@ -291,5 +289,40 @@ Run a program with changed root directory.
 		}
 	}
 ```
+
+---
+
+**How to setup Travis CI in a React repository?**
+
+```
+language: node_js
+node_js:
+  - "8"
+script:
+  - echo 'Build starts!'
+  - echo 'Testing...'
+  - npm run test
+  - echo 'Linting...'
+  - npm run lint
+  - echo 'Building...'
+  - npm run build
+cache:
+  directories:
+    - node_modules
+```
+
+After given GitHub repository is integrated, Travis will automatically look for `.travis.yml` file to look up the config.
+
+---
+
+**How to add a Travis status badge?**
+
+```
+[![Build Status](https://travis-ci.org/bgord/bgord-tools.svg?branch=master)](https://travis-ci.org/bgord/bgord-tools)
+```
+
+It checks the latest push build on the default branch.
+
+Click on the "build unknown" badge in Travis.
 
 ---
