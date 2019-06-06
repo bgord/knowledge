@@ -292,3 +292,26 @@ return {
 Anything from a-z, A-Z, and 0-9 and " " (space), repeated 0-n times.
 
 ---
+
+**How to use completer function?**
+
+```
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+  completer: line => {
+    const options = ["lion", "dog", "cat", "cow"];
+    const hits = options.filter(option => option.startsWith(line));
+    return [hits.length ? hits : options, line];
+  }
+});
+
+rl.question("Which animal do you like the most? ", answer => {
+  console.log(`The answer is: ${answer}`);
+  rl.close();
+});
+```
+
+---
