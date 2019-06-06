@@ -1,8 +1,7 @@
 # Roadmap for 2019
 
-## React 2
-- What's the simplest example of state reducer pattern?
-- What's the simplest example of compound component pattern?
+## React 1
+- Describe compound components pattern.
 
 ## GIT 1
 - How does `git pull --rebase` work?

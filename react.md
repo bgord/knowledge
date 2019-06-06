@@ -1068,3 +1068,25 @@ it("allows to zoomIn", () => {
 ```
 
 ---
+
+**What is state-reducer-pattern?**
+
+It enables an API for people who want to make a change for how a component/hook updates state internally.
+Inversion of control principle is applied here, which adds a control back to the developer USING a function.
+
+The basic principle is to add an ability to pass a custom reducer function which is used AFTER a component/hook makes it's own state update to override changes.
+
+```
+const [zoomLevel, dispatch] = React.useReducer<ZoomReducer, ZoomState>(
+  (state, action) => {
+    const changes = zoomReducer(state, action); // zoomReducer is a reducer provided by the hook
+    return reducer(state, { action, changes, options }); // reducer is a custom reducer used to override changes
+  },
+  options.minZoomLevel,
+  () => options.minZoomLevel
+);
+```
+
+Developer using a custom reducer function is able to access current state, an action being processed, changes made by the proper reducer and some options (optional).
+
+---
