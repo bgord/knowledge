@@ -50,3 +50,9 @@ For the current one:
 `$ tmux a -t "dot"`
 
 ---
+
+**How to swap panes?**
+
+`Prefix {`
+
+---
