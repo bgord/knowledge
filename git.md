@@ -434,3 +434,18 @@ After:
 - First, B's commits are unwound, and A's commit are pulled, and B's commits are replayed on top of the new base.
 
 ---
+
+**git-blame**
+
+Who and in which revision made changes for the last time in given file line by line.
+
+Basic usage:
+`$ git blame .vimrc`
+
+Specify line range for the file (e.g 1-10):
+`$ git blame -L 1,10 .vimrc`
+
+Specify a revision to start searching from (instead of default HEAD):
+`$ git blame -L 1,1 a071ab3^ .vimrc`
+
+---
