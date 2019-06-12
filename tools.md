@@ -330,4 +330,16 @@ Click on the "build unknown" badge in Travis.
 **How to remap Caps Lock to Escape?**
 
 `setxkbmap -option caps:escape`
+
+---
+
+**How to run a shell script/command on startup?**
+
+```
+$ crontab -e
+
+# Edit an opened file
+@reboot  /home/user/test.sh
+```
+
 ---
