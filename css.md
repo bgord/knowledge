@@ -314,3 +314,32 @@ Usage:
 ```
 
 ---
+
+**How to zoom in/out an image?**
+
+Increase/decrease the scale.
+
+```
+transform: scale(1); // default
+```
+
+---
+
+**How to rotate an image?**
+
+Pass a degree to rotate by.
+
+```
+transform: rotate(90deg);
+```
+
+---
+
+**How to mirror an image L-R?**
+
+```
+transform: scale(1, 1); // default
+transform: scale(-1, 1); // mirrored
+```
+
+---
