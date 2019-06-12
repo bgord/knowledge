@@ -326,3 +326,8 @@ It checks the latest push build on the default branch.
 Click on the "build unknown" badge in Travis.
 
 ---
+
+**How to remap Caps Lock to Escape?**
+
+`setxkbmap -option caps:escape`
+---
