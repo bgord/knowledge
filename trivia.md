@@ -21,3 +21,9 @@ Example:
 - because the planes that actually returned were not hit in the vital places
 
 ---
+
+**What is RAG status of the project?**
+
+It's one of the traffic light colors: red, amber, green.
+
+---
