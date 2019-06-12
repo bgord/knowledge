@@ -16,7 +16,7 @@
 - How to create a L-R and T-B image mirror effect?
 
 ## JavaScript - 1
-- How to access a value of another's parameter in default value?
+- How to access a value of another parameter in default value?
 
 ## Concepts
 - What's null hypothesis?
