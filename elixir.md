@@ -71,7 +71,7 @@ Only `false`, `:false` and `:nil` atoms.
 
 **How to concatenate strings?**
 
-`"x" <> "y" // "xy"` 
+`"x" <> "y" // "xy"`
 
 ---
 

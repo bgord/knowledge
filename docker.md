@@ -3,6 +3,7 @@
 **Container vs Image**
 
 Image
+
 - inert, immutable
 - snapshot of a container
 - image is created with `build` command
@@ -11,6 +12,7 @@ Image
 - virtual size is virtual, it sums up all layers (of what?)
 
 Container
+
 - an "object" of an image "class"
 - created with `run` command
 - shares the kernel with other containers
@@ -49,6 +51,7 @@ Where:
 `$ docker run words`
 
 Common options (after run):
+
 - `$ docker run words:0.2` to run a container based on an image with a specific tag
 - `--rm` to automatically remove the container when it exists
 - `--detach` to run a container in background and print ID (`-d`)
@@ -112,6 +115,7 @@ CMD [ "node", "hello-docker.js"]
 **Ports: publish vs expose**
 
 `EXPOSE`:
+
 - private
 - cannot connect to the port from the host machine
 - used in Dockerfiles
@@ -119,6 +123,7 @@ CMD [ "node", "hello-docker.js"]
 - by default accessible only within linked containers
 
 `--publish`:
+
 - public
 - can connect to the port from the host machine
 

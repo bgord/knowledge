@@ -1,4 +1,5 @@
 **Remove the red border of an empty input value that's required**
+
 ```
 .form__input:invalid {
   box-shadow: none;
@@ -9,6 +10,7 @@
 .form__input:placeholder-shown {
   border: 1px solid #ddd;
 ```
+
 ---
 
 **Margin/space**
@@ -18,7 +20,6 @@
 
 ---
 
-
 **aria**
 
 accessible rich internet applications
@@ -26,6 +27,7 @@ accessible rich internet applications
 ---
 
 **aria-live**
+
 - An attribute that is applied to the elements that are likely to change.
 - It needs to be included in an initial markup.
 - "off" by default, "polite" will wait until the current users finishes its task, "assertive" will notify immediately.
@@ -43,7 +45,6 @@ accessible rich internet applications
 Provide a label for non-self-descriptive element for screen readers in order to make e.g social media icon more accessible.
 
 ---
-
 
 **aria-hidden**
 
@@ -70,7 +71,6 @@ body {
 
 - define an alignment of flex lines within a container
 - applied if there's enough space - container's height is bigger than height of all stacked elements
-
 
 ---
 
@@ -159,6 +159,7 @@ Yes, but you need to remember to remain modular, so any change in the first bloc
 **What are the namespaces in BEM?**
 
 Namespaces are prefixes in form of:
+
 - `c-card` for a card _component_
 - `l-grid` for a layout of the page (margins/padding/positioning) of component elements
 
@@ -295,6 +296,7 @@ Currently, there's no way to do this [link](https://stackoverflow.com/questions/
 **How to use grid-template-areas?**
 
 Grid definition:
+
 ```
 .container {
   display: grid;
@@ -307,6 +309,7 @@ Grid definition:
 ```
 
 Usage:
+
 ```
 .item {
   grid-area: "header"

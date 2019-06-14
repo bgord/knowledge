@@ -48,7 +48,6 @@ Space
 
 **Computed object property performance**
 
-
 `b['aaa']` is slower than `b.aaa`
 
 ---
@@ -80,10 +79,10 @@ jest.runAllTimers(); // right before assertions
 **Jest test each**
 
 ```javascript
-const cases = [[false, undefined], [false, ''], [false, 1], [true, 'text']];
-test.each(cases)('should return %s when passing %s', (expected, a) => {
-	const result = isNumberValidation(a);
-	expect(result).toBe(expected);
+const cases = [[false, undefined], [false, ""], [false, 1], [true, "text"]];
+test.each(cases)("should return %s when passing %s", (expected, a) => {
+  const result = isNumberValidation(a);
+  expect(result).toBe(expected);
 });
 ```
 
@@ -167,7 +166,6 @@ Argument is a data passed to a called function to parameter.
 
 ---
 
-
 **How to add a customer error message to the input?**
 
 ```
@@ -215,10 +213,12 @@ export const setStoreForIntenceptors = (_store) => {
 **Function expression vs function declaration**
 
 Function declaration:
+
 - `function boo() {}`
 - hoisted
 
 Function expression:
+
 - `const foo = function() {};`
 - can be anonymous
 - not hoisted

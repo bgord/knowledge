@@ -1,8 +1,10 @@
 **Standard JavaScript imports**
+
 ```
 // tsconfig
 "allowSyntheticDefaultImports": true
 ```
+
 Don't write `import * as React from "react";`, do `import React from "react";` instead
 
 ---
@@ -186,6 +188,7 @@ interface User {
   age: number;
 }
 ```
+
 you can get a union of keys by:
 `type userKeys = keyof User; // 'name' | 'age'`
 
@@ -303,9 +306,7 @@ function displayName(arg: string | Person): void {
 
 To check whether an argument is `Person`.
 
-`function isPerson(x: any): x is Person {
-  return x instanceof Person;
-}`
+`function isPerson(x: any): x is Person { return x instanceof Person; }`
 
 ---
 
@@ -383,19 +384,19 @@ Install following packages:
 And create a `.eslintrc.js` file.
 
 module.exports = {
-	parser: '@typescript-eslint/parser',
-	plugins: ['@typescript-eslint'],
-	extends: ['plugin:@typescript-eslint/recommended', 'bgord'],
-	env: {
-		browser: true,
-		es6: true,
-		node: true,
-		jest: true,
-	},
-	parserOptions: {
-		ecmaVersion: 2018,
-		sourceType: 'module',
-	}
+parser: '@typescript-eslint/parser',
+plugins: ['@typescript-eslint'],
+extends: ['plugin:@typescript-eslint/recommended', 'bgord'],
+env: {
+browser: true,
+es6: true,
+node: true,
+jest: true,
+},
+parserOptions: {
+ecmaVersion: 2018,
+sourceType: 'module',
+}
 };
 
 ---
@@ -443,7 +444,7 @@ interface Props extends HTMLProps<HTMLInputElement> {
 }
 ```
 
-or 
+or
 
 ```
 interface Props extends HTMLProps<HTMLButtonElement> {
@@ -528,6 +529,7 @@ In order to use age as a primitive.
 **What is 'never' in TS?**
 
 Used when:
+
 - a function never returns, and only e.g throws an error
 
 ```
@@ -535,6 +537,7 @@ const fail = (errorMessage: string): never => {throw new Error(errorMessage)};
 ```
 
 - a function that has an impossible type
+
 ```
 function controlFlowAnalysisWithNever(
   value: string | number
@@ -608,7 +611,7 @@ The other use case is conditional type.
 
 ```
 function logger<T>(variable: T extends true ? string : number): void {
-  console.log(variable);    
+  console.log(variable);
 }
 ```
 
@@ -679,6 +682,7 @@ declare namespace GreetingLib {
 **How to use Exclude?**
 
 Given this model,
+
 ```
 interface Model {
   age: number;
@@ -698,7 +702,7 @@ interface Model {
 **How to create an `Omit` function?**
 
 ```
-type Omit<T, K extends keyof T> 
+type Omit<T, K extends keyof T>
   = Pick<T, Exclude<keyof T, K>>;
 ```
 
@@ -788,6 +792,7 @@ TypeScript error: Could not find a declaration file for module '@reach/tabs'. '/
 ```
 
 What happened:
+
 - you must have set `"noImplicitAny": true,` compiler option in your `tsconfig.json`
 - `@reach/tabs` package doesn't have in-library typings
 

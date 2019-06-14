@@ -22,20 +22,24 @@ type Query {
 
 **What are the available types for the queries?**
 
-The basic scalar types are: `Int`(32 bit), `String`, `Boolean`, `Float`, `ID` and `Date` in most implementations. 
+The basic scalar types are: `Int`(32 bit), `String`, `Boolean`, `Float`, `ID` and `Date` in most implementations.
 
 Non-scalar ones:
-- `enum` 
+
+- `enum`
+
 ```
 enum Types {
-    SUCCESS, PENDING, ERROR 
+    SUCCESS, PENDING, ERROR
 }
 ```
+
 - an array `episodes: [Episodes]`
 
 - non-nullable `name: !String`
 
 - types/interfaces
+
 ```
 type Book {
   title: !String
@@ -106,6 +110,6 @@ getFootballer: (parent, args) =>
 	getFootballer(id: "2") {
     id
     age
-  } 
+  }
 }
- ```
+```

@@ -5,10 +5,12 @@
 ---
 
 **Remove changes from the last commit that were pushed to the repo (without rewriting history)**
+
 ```
 $ git revert 13pooiavdfhi1
 $ git push
 ```
+
 It creates a commit that is exactly opposite to the one with the hash.
 You can also revert a commit that revert a commit, so you are back when you were before the first revert.
 
@@ -165,18 +167,22 @@ It means that there some commits on the local `master` branch, that don't exist 
 **What are the git areas?**
 
 The Working tree
+
 - the area when the work happens
 - "untracked" area, it's only "seen"
 
 The Staging area
+
 - an area where changes are being tracked and saved after `git add`
 - "index"
 
 The Local repository
+
 - everything in the `.git` directory
 - changes moved here after commit
 
 The hosting service repository
+
 - an mirror of the local repository
 
 ---
@@ -298,7 +304,7 @@ List untracked ignored files:
 `$ git ls-files --other --ignored --exclude-standard`
 
 List untracked and not ignored files:
-`$ git  ls-files --other --exclude-standard`
+`$ git ls-files --other --exclude-standard`
 
 ---
 
@@ -336,6 +342,7 @@ Structure:
 ```
 
 Subject
+
 - up to 50 characters (VIM highlights it well)
 - capitalized first letter
 - no period at the EOL
@@ -381,7 +388,7 @@ e.g master.
 
 Before:
 
----- [Add a file] (HEAD -> master) ------ [Add b file] (hotfix)
+---- [Add a file] (HEAD -> master) ------ [Add b file](hotfix)
 
 `$ git checkout master`
 `$ git merge hotfix`
@@ -398,8 +405,8 @@ After:
 Before:
 
 ---- [Add a file] ---- [Add c file] (HEAD -> master)
-          |
-          ---- [Add c file] (hotfix)
+|
+---- [Add c file](hotfix)
 
 `$ git checkout master`
 `$ git merge hotfix`
@@ -407,8 +414,8 @@ Before:
 After:
 
 ---- [Add a file] ---- [Add c file] ---- [Merge commit] (HEAD -> master)
-          |                              /
-          ---- [Add c file] (hotfix) ----
+| /
+---- [Add c file](hotfix) ----
 
 - it creates a new "merge" commit
 

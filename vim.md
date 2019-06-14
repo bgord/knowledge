@@ -70,14 +70,14 @@ Everytime `teh` is typed, change it to `the`.
 
 **Erase all changes in the current buffer**
 
-`:e!` 
+`:e!`
 
 ---
 
 **Indent left/right**
 
 `<` to the left,
- `>` to the right
+`>` to the right
 
 ---
 
