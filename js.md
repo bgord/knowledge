@@ -315,3 +315,11 @@ rl.question("Which animal do you like the most? ", answer => {
 ```
 
 ---
+
+**How to re-export a file?**
+
+`export {useTimer} from "./use-timer" `
+
+[x] anki
+
+---
