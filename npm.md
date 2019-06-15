@@ -41,3 +41,11 @@ Use it every time you want to remove node_modules, and npm install.
 Warning: only for local testing purposes!
 
 ---
+
+**How to install packge from GitHub?**
+
+`$ npm install bgord/bgord-tools#feature/use-query-hook`
+
+<username>/<repository>#<commit/branch>
+
+---
