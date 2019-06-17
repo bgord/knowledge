@@ -1,10 +1,11 @@
 # Roadmap for 2019
 
-## React 3
+## React 4
 
 - Describe compound components pattern.
 - How to write a modal using React portal?
 - How to profile React apps?
+- Can we create a hook factory function? E.g to pass a config object that a hook needs to have an access to.
 
 ## Tools 5
 
@@ -23,10 +24,11 @@
 - What's the effect of `object-fit` on images?
 - How to create a L-R and T-B image mirror effect?
 
-## JavaScript - 2
+## JavaScript - 3
 
 - How to access a value of another parameter in default value?
 - How to merge default options with overrides?
+- Object property getter/setter.
 
 ## Concepts 4
 

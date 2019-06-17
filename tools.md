@@ -343,3 +343,9 @@ $ crontab -e
 ```
 
 ---
+
+**How to send an array in httpie?**
+
+`$ http POST localhost:8080/preprocess ids='["x", "y"]'`
+
+---
