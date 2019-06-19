@@ -1,10 +1,14 @@
 **yyyy-mm-dd date in bash**
 
+[-] Anki
+
 `$ date +%Y-%m-%d`
 
 ---
 
 **Assert if the command has been run successfully**
+
+[-] Anki
 
 Asserts exit code.
 
@@ -18,6 +22,8 @@ fi
 
 **Display exit code of the last command**
 
+[+] Anki
+
 Each command ends with a corresponding exit code.
 
 `$ echo $?`
@@ -25,6 +31,8 @@ Each command ends with a corresponding exit code.
 ---
 
 **Bash variable for all arguments**
+
+[x] Anki
 
 It doesn't store the binary name
 

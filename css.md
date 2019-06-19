@@ -76,16 +76,31 @@ body {
 
 **Flex-flow**
 
+[x] Anki
+
 `flex-flow: <flex-direction> <flex-wrap>`
+
+---
+
+**Default flex-grow**
+
+[x] Anki
+
+`flex-grow: 0`
+
+---
+
+**Default flex-shrink**
+
+[x] Anki
+
+`flex-shrink: 1`
 
 ---
 
 **Flex**
 
 `flex: <flex-grow> <flex-shrink> <flex-basis>`
-
-- default `flex-grow: 0`
-- default `flex-shrink: 1`
 
 ---
 
@@ -247,7 +262,8 @@ C takes a space e.g in the flex-basis.
 
 It makes the item stick to the start of the cell it belongs. By default `auto` stretches the item to fill all the available space.
 
----
+-
+--
 
 **How to avoid a text from wrapping?**
 

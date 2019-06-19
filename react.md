@@ -1090,3 +1090,57 @@ const [zoomLevel, dispatch] = React.useReducer<ZoomReducer, ZoomState>(
 Developer using a custom reducer function is able to access current state, an action being processed, changes made by the proper reducer and some options (optional).
 
 ---
+
+**What's a React Portal?**
+
+[x] Anki
+
+It's a way to render a children into a DOM node outside of the parent node hierarchy.
+
+---
+
+**What's the syntax for React portals?**
+
+[x] Anki
+
+React children and container are the arguments.
+You should return the createPortal call.
+
+```jsx
+return ReactDOM.createPortal(<div>xxx</div>, document.querySelector("#modal"));
+```
+
+---
+
+**React portal modal example**
+
+[-] Anki
+
+```html
+  <div id="root"></div>
+  <div id="modal-root"</div>
+```
+
+```jsx
+const rootElement = document.getElementById("root");
+const modalRootElement = document.getElementById("modal-root");
+
+function Modal() {
+  return ReactDOM.createPortal(<div>modal</div>, modalRootElement);
+}
+
+function App() {
+  const [isModalShown, setIsModalShown] = React.useState(false);
+
+  return (
+    <div>
+      <button onClick={() => setIsModalShown(v => !v)}>Show modal</button>
+      {isModalShown && <Modal />}
+    </div>
+  );
+}
+
+ReactDOM.render(<App />, rootElement);
+```
+
+---
