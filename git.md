@@ -456,3 +456,9 @@ Specify a revision to start searching from (instead of default HEAD):
 `$ git blame -L 1,1 a071ab3^ .vimrc`
 
 ---
+
+**How to set commit author?**
+
+`git commit -m "Prettify all files" --author="Prettier <prettier@prettier.com>"`
+
+---
