@@ -294,6 +294,8 @@ Run a program with changed root directory.
 
 **How to setup Travis CI in a React repository?**
 
+Filename: `.travis.yml`
+
 ```
 language: node_js
 node_js:
