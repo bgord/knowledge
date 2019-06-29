@@ -82,3 +82,30 @@ en-UK
 ```
 
 ---
+
+**will vs going to vs present continuous**
+
+"Going to" is a bit more relaxed than "will".
+
+If you make a decision about doing something in the moment of speaking, not before the conversation, use "will". [x]
+- What will you bring to the party?
+- I'll bring some beer.
+
+If a decision was made before the conversation, use "going to".
+- Jack is going to bring some beer.
+
+"Going to" in most cases is interchangeable with present continuous.
+
+Present continuous is mainly used for arrangements/plans with specific time and date.
+- Do you want to come to the party on Sunday afternoon?
+- Sorry, I can't. I'm playing football at 3 PM.
+
+If you are basing your prediction on current evidence, use "going to".
+- Look at that black cloud, it's going to rain!
+
+What are you going tomorrow? (to get to know somebody's availability)
+
+If you want to state a future fact, use "will".
+- I will be on plane tomorrow.
+
+---
