@@ -318,8 +318,22 @@ rl.question("Which animal do you like the most? ", answer => {
 
 **How to re-export a file?**
 
-`export {useTimer} from "./use-timer" `
+`export {useTimer} from "./use-timer"`
 
 [x] anki
 
 ---
+
+**How to access a arguments passed to a node script?**
+
+`const [nodePath, scriptPath, ...arguments] = process.argv`
+
+---
+
+**How to retrieve a filename from relative path?**
+
+```
+const path = require("path");
+
+const filename = path.basename(filepath);
+```
