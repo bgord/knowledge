@@ -109,3 +109,19 @@ If you want to state a future fact, use "will".
 - I will be on plane tomorrow.
 
 ---
+
+**tiny vs small**
+
+"Small" (more formal) = little
+"Tiny" (more informal) = very little
+
+E.g.
+"Wait, I'm almost done, there's just a tiny bit left!"
+(Would be a bit unnatural to say 'just a small bit left' in this case.)
+
+VS
+
+"Your house is small but it's very cosy."
+(To say 'your house is tiny' to a stranger might seem like you're making fun of the size of their house.)
+
+---
