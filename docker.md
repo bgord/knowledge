@@ -190,3 +190,15 @@ Add the line below to the `/etc/hosts`.
 When running a container, use previously defined network.
 
 `docker run --network PERFIE_DEV_NET`
+
+**Entrypoint command doesn't work**
+
+You may pass arguments to the initial command in the same string:
+
+`ENTRYPOINT ["Mailhog -auth-file=credentials"]`
+
+instead of
+
+`ENTRYPOINT ["Mailhog", "-auth-file=credentials"]`
+
+---
