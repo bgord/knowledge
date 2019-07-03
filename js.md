@@ -337,3 +337,14 @@ const path = require("path");
 
 const filename = path.basename(filepath);
 ```
+
+**How to destructure a variable with a hyphen in a key name?**
+
+```js
+const data = { "auth-user": "XXX", "auth-pass": "YYY" };
+
+const { "auth-user" } = data; // doesn't work
+const { "auth-user": REQ_USER } = data; //works
+```
+
+---
