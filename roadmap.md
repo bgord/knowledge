@@ -13,7 +13,6 @@
 - How to pass a visual selection to a bash command in VIM?
 - What are scoped packages?
 - What are some googling trick (e.g "site:news.ycombinator.com")?
-- What should I know about nginx?
 
 ## Git - 1
 
@@ -37,12 +36,9 @@
 - What's mutation testing?
 - How does bullet journal work?
 
-## TypeScript 0
+## nginx 4
 
-## Elixir 0
-
-## GraphQL 0
-
-## CSS 0
-
-## Docker 0
+- How to serve an index.html file on given port?
+- How to redirect a port to a node server?
+- Describe authenticating SMTP traffic basing on mailhog example.
+- How to create a HTTPS certificate?
