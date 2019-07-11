@@ -29,3 +29,9 @@ Example:
 It's one of the traffic light colors: red, amber, green.
 
 ---
+
+**What is C10K problem?**
+
+It's a problem of handling ten thousand concurrent connections.
+
+---
