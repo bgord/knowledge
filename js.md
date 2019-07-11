@@ -348,3 +348,11 @@ const { "auth-user": REQ_USER } = data; //works
 ```
 
 ---
+
+**How to use assert to validate something with a custom error message?**
+
+`assert(["pl", "en"].includes(locale), "Unknown locale" + locale)`
+
+Throws an assertion error with given message.
+
+---
