@@ -202,3 +202,80 @@ instead of
 `ENTRYPOINT ["Mailhog", "-auth-file=credentials"]`
 
 ---
+
+**How to run a simple node service with docker-compose?**
+
+`docker-compose.yml`
+
+```yml
+version: "3"
+services:
+  node-auth-proxy:
+    build:
+      context: ./node-auth-proxy
+      dockerfile: Dockerfile-node-auth-proxy
+    ports:
+      - 3000:3000
+    volumes:
+      - ./node-auth-proxy:/usr/src/app
+    env_file:
+      - ./node-auth-proxy/.env
+```
+
+It replaces manually typing `docker run ...` arguments.
+
+---
+
+**How to start docker-compose services?**
+
+`docker-compose up` in the directory containing `docker-compose.yml`.
+
+---
+
+**How to rebuild docker-compose services?**
+
+`docker-compose build` in the directory containing `docker-compose.yml`.
+
+---
+
+**How to run only a specific service with docker-compose?**
+
+`docker-compose up <service name>`
+
+---
+
+**How to create and use a network in docker-compose?**
+
+```yml
+version: "3"
+services:
+  node-auth-proxy:
+    build:
+      context: ./node-auth-proxy
+      dockerfile: Dockerfile-node-auth-proxy
+    networks:
+      app_net:
+        ipv4_address: 172.16.238.12
+networks:
+  app_net:
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.16.238.0/24"
+```
+
+---
+
+**What's an example nginx Dockerfile?**
+
+```yml
+FROM nginx:alpine
+
+COPY nginx.conf /etc/nginx/nginx.conf
+
+EXPOSE 1025:1025
+```
+
+It requires an `nginx.conf` file to be present in the directory of Dockerfile.
+
+---
