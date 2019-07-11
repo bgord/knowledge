@@ -36,9 +36,8 @@
 - What's mutation testing?
 - How does bullet journal work?
 
-## nginx 5
+## nginx 4
 
-- How to serve an index.html file on given port?
 - How to redirect a port to a node server?
 - Describe authenticating SMTP traffic basing on mailhog example.
 - How to create a HTTPS certificate?
