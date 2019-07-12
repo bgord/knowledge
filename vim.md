@@ -185,3 +185,9 @@ If you want to copy marked file(s), press `mc`.
 To unmark a file, press `mu`.
 
 ---
+
+**How to open a file in the new tab with netrw?**
+
+`t`
+
+---
