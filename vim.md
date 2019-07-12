@@ -173,3 +173,15 @@ echo 'filename.txt' | xargs vim
 `noremap K <Nop>`
 
 ---
+
+**How to move/copy a file in netrw?**
+
+Mark a directory you want to move a file to with `mt`, it means "mark target".
+Then mark the file(s) you want to move with `mf`, it means "mark file(s)".
+
+If you want to move marked file(s), press `mm`.
+If you want to copy marked file(s), press `mc`.
+
+To unmark a file, press `mu`.
+
+---
