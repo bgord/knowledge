@@ -191,3 +191,9 @@ To unmark a file, press `mu`.
 `t`
 
 ---
+
+**How to close all tabs except of the current one?**
+
+`:tabo[nly]`
+
+---
