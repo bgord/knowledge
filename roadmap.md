@@ -23,9 +23,8 @@
 - What's the effect of `object-fit` on images?
 - How to create a L-R and T-B image mirror effect?
 
-## JavaScript - 3
+## JavaScript - 2
 
-- How to access a value of another parameter in default value?
 - How to merge default options with overrides?
 - Object property getter/setter.
 

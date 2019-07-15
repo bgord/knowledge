@@ -356,3 +356,16 @@ const { "auth-user": REQ_USER } = data; //works
 Throws an assertion error with given message.
 
 ---
+
+**How to access an other parameter's value in a parameter's default value?**
+
+```
+function doSomething(a, b = a * 2) {
+  console.log(a, b);
+}
+
+doSomething(2); // 2 4
+doSomething(); // undefined NaN
+
+```
+---
