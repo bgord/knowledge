@@ -197,3 +197,15 @@ To unmark a file, press `mu`.
 `:tabo[nly]`
 
 ---
+
+**How to rename a file in netrw?**
+
+`R`
+
+---
+
+**How to delete a file in netrw?**
+
+`D`
+
+---
