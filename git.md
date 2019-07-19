@@ -462,3 +462,9 @@ Specify a revision to start searching from (instead of default HEAD):
 `git commit -m "Prettify all files" --author="Prettier <prettier@prettier.com>"`
 
 ---
+
+**How to push a tag?**
+
+`git push origin <tag_name>`
+
+---
