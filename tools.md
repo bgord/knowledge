@@ -351,3 +351,9 @@ $ crontab -e
 `$ http POST localhost:8080/preprocess ids='["x", "y"]'`
 
 ---
+
+**How to stop a service in Linux?**
+
+`$ sudo systemctl stop nginx`
+
+---
