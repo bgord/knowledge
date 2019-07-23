@@ -357,3 +357,16 @@ $ crontab -e
 `$ sudo systemctl stop nginx`
 
 ---
+
+**Webpack doesn't recompile watched files**
+
+Add the following lines to your configuration:
+
+```
+watchOptions: {
+  poll: true,
+  ignored: /node_modules/
+}
+```
+
+---

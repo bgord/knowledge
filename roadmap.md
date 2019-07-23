@@ -14,10 +14,11 @@
 - What are scoped packages?
 - What are some googling trick (e.g "site:news.ycombinator.com")?
 
-## Git - 1
+## Git - 3
 
 - What problem do `git submodules` solve?
 - How to use `filter-branch`?
+- How to find out in which commit given file was added [link](https://stackoverflow.com/questions/11533199/find-commit-where-file-was-added)?
 
 ## CSS - 2
 
