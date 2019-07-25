@@ -370,3 +370,13 @@ watchOptions: {
 ```
 
 ---
+
+**How to reprovision a machine?**
+
+```
+vagrant up
+cp ./provisioning/.../vars-local/secrets.yml /tmp/secrets.yml
+<provisioning command>
+```
+
+---
