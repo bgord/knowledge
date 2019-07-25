@@ -369,3 +369,12 @@ doSomething(); // undefined NaN
 
 ```
 ---
+
+**How to precisely measure time?**
+
+```
+const time = process.hrtime(); // high-resolution time
+const nextTime = process.hrtime(time); // difference
+```
+
+---
