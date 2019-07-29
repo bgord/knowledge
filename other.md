@@ -56,3 +56,9 @@ Sent every POST, PUT, and DELETE request.
 It's a word describing the general word for the category that more specific words fall into.
 
 ---
+
+**What's HTTP 409 status?**
+
+It means "conflict", e.g when an uploaded file is older than it's previous version on the sever.
+
+---
