@@ -1,11 +1,12 @@
 # Roadmap for 2019
 
-## React 4
+## React 5
 
 - Describe compound components pattern.
 - How to write a modal using React portal?
 - How to profile React apps?
 - Can we create a hook factory function? E.g to pass a config object that a hook needs to have an access to.
+- https://medium.com/better-programming/smooth-animations-with-react-and-framer-motion-c272b6f22f67
 
 ## Tools 5
 
@@ -13,6 +14,7 @@
 - How to pass a visual selection to a bash command in VIM?
 - What are scoped packages?
 - What are some googling trick (e.g "site:news.ycombinator.com")?
+- https://www.youtube.com/watch?v=JaVb-VRlihg&t=11s
 
 ## Git - 3
 
