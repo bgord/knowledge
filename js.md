@@ -397,3 +397,49 @@ console.log(data.fullname); // 'John Doe'
 ```
 
 ---
+
+**How to create an object literal property getter with `Object.defineProperty`?**
+
+It's more of a fine-grained way to define an object property.
+
+Signature:
+
+```js
+Object.defineProperty(object, "propName", propertyDescriptor);
+```
+
+```js
+const data = { firstname: "John", lastname: "Doe" };
+Object.defineProperty(data, "fullname", {
+  get() {
+    return `${this.firstname} ${this.lastname}`;
+  }
+});
+```
+
+By default, `fullname` property won't appear while being enumerated:
+
+```js
+console.log(data); // { firstname: "John", lastname: "Doe" }
+```
+
+To achieve that effect, you need to add `enumerable` flag.
+
+```js
+const data = { a: "a", b: "b" };
+Object.defineProperty(data, "c", {
+  get() {
+    return `${this.a} ${this.b}`;
+  },
+  enumerable: true
+});
+
+console.log(data); // {a: "a", b: "b", c: [Getter]}
+console.log(Object.entries(data)); // [['a', 'a'], ['b', 'b'], ['c'. 'ab']]
+```
+
+`configurable` - specifies if a property can be changed/deleted.
+`value` - sets a non-getter property value.
+`writeable` - specifies if a property can be changed with `=`.
+
+---
