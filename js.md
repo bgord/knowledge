@@ -368,6 +368,7 @@ doSomething(2); // 2 4
 doSomething(); // undefined NaN
 
 ```
+
 ---
 
 **How to precisely measure time?**
@@ -375,6 +376,24 @@ doSomething(); // undefined NaN
 ```
 const time = process.hrtime(); // high-resolution time
 const nextTime = process.hrtime(time); // difference
+```
+
+---
+
+**How to create an object literal property getter with `get`?**
+
+- must have 0 parameters.
+
+```js
+const data = {
+  firstname: "John",
+  lastname: "Doe"
+  get fullname() {
+    return `${this.firstname} ${this.lastname}`
+  }
+};
+
+console.log(data.fullname); // 'John Doe'
 ```
 
 ---
