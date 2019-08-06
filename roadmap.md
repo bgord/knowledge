@@ -8,19 +8,22 @@
 - Can we create a hook factory function? E.g to pass a config object that a hook needs to have an access to.
 - https://medium.com/better-programming/smooth-animations-with-react-and-framer-motion-c272b6f22f67
 
-## Tools 5
+## Tools 7
 
 - How to use PurgeCSS with TailwindCSS?
 - How to pass a visual selection to a bash command in VIM?
 - What are scoped packages?
 - What are some googling trick (e.g "site:news.ycombinator.com")?
 - https://www.youtube.com/watch?v=JaVb-VRlihg&t=11s
+- https://medium.com/thetiltblog/revalidate-authenticated-routes-in-adonisjs-539e6bcf980f
+- util.inspect
 
-## Git - 3
+## Git - 4
 
 - What problem do `git submodules` solve?
 - How to use `filter-branch`?
 - How to find out in which commit given file was added [link](https://stackoverflow.com/questions/11533199/find-commit-where-file-was-added)?
+- Named stash
 
 ## CSS - 2
 
@@ -45,3 +48,6 @@
 - Describe authenticating SMTP traffic basing on mailhog example.
 - How to create a HTTPS certificate?
 - How to create a reverse proxy?
+
+## HTML 1
+- How to use <abbr>?

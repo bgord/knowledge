@@ -74,7 +74,10 @@ No, you can't do that.
 
 **What are the lifecycle methods?**
 
-`connect` - anytime a controller is attached to the DOM.
+`initialize` - once, when a controller is initialized
+
+`connect` - anytime a controller is attached to the DOM
+`disconnect` - anytime a controller is detached from the DOM
 
 ---
 
