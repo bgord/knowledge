@@ -450,12 +450,31 @@ console.log(Object.entries(data)); // [['a', 'a'], ['b', 'b'], ['c'. 'ab']]
 const data = {
   quotes: [],
   set quote(value) {
-    this.quotes.push(`"${value}"`)
+    this.quotes.push(`"${value}"`);
   }
-}
+};
 
-data.quote = 'To be or not to be';
+data.quote = "To be or not to be";
 console.log(data.quotes); // ['"To be or not to be"']
+```
+
+---
+
+**How to merge default options with overrides?**
+
+```js
+const defaultOptions = {
+  errors: {
+    notFound: "Not found"
+  }
+};
+const overrides = {
+  errors: {
+    notFound: "Nie znaleziono"
+  }
+};
+
+const options = { ...defaultOptions, ...overrides }; // { errors: { notFound: "Nie znaleziono" } }
 ```
 
 ---

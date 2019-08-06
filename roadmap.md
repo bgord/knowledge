@@ -30,10 +30,7 @@
 - What's the effect of `object-fit` on images?
 - How to create a L-R and T-B image mirror effect?
 
-## JavaScript - 2
-
-- How to merge default options with overrides?
-- Object property getter/setter.
+## JavaScript - 0
 
 ## Concepts 4
 
