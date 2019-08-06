@@ -443,3 +443,19 @@ console.log(Object.entries(data)); // [['a', 'a'], ['b', 'b'], ['c'. 'ab']]
 `writeable` - specifies if a property can be changed with `=`.
 
 ---
+
+**How to use an object property setter?**
+
+```js
+const data = {
+  quotes: [],
+  set quote(value) {
+    this.quotes.push(`"${value}"`)
+  }
+}
+
+data.quote = 'To be or not to be';
+console.log(data.quotes); // ['"To be or not to be"']
+```
+
+---
