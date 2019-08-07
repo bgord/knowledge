@@ -279,3 +279,12 @@ EXPOSE 1025:1025
 It requires an `nginx.conf` file to be present in the directory of Dockerfile.
 
 ---
+
+**How to delete all existing images?**
+
+```
+docker rm $(docker ps -a -q)
+docker rmi $(docker images -q)
+```
+
+---
