@@ -361,3 +361,37 @@ transform: scale(-1, 1); // mirrored
 ```
 
 ---
+
+**How to colour an element based on a data-\* attribute value without JS?**
+
+Let's say `account_status` can be one of `["active", "inactive"]`.
+
+And we have this HTML element we want to style.
+
+```
+<span data-account-status={account_status}></span>
+```
+
+```css
+[data-account-status="active"] {
+  color: green;
+}
+
+[data-account-status="inactive"] {
+  color: red;
+}
+```
+
+We can also "translate" the statuses:
+
+```css
+[data-account-status="active"]::after {
+  content: "aktywny";
+}
+
+[data-account-status="inactive"]::after {
+  content: "nieaktywny";
+}
+```
+
+---
