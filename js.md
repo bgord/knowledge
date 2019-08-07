@@ -478,3 +478,16 @@ const options = { ...defaultOptions, ...overrides }; // { errors: { notFound: "N
 ```
 
 ---
+
+**Adonis migration lock problem**
+
+Run the following commands in the virtual machine:
+
+```
+$ sudo su postgres
+$ psql
+$ \connect webuploader-test
+$ DROP TABLE adonis_schema_lock;
+```
+
+---
