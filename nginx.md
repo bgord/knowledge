@@ -44,3 +44,94 @@ services:
     ports:
       - 8787:8787
 ```
+
+**How to proxy a request to a node backend?**
+
+```docker-compose.yml
+version: '3'
+
+services
+  nginx:
+    build:
+      context: ./
+      dockerfile: Dockerfile-nginx
+    ports:
+      - 80
+    networks:
+      app_net:
+        ipv4_address: 173.16.238.11
+  node:
+    build:
+      context: ./
+      dockerfile: Dockerfile-node
+    ports:
+      - 8888:8888
+    networks:
+      app_net:
+        ipv4_address: 173.16.238.11
+    volumes:
+      - .:/usr/src/app
+    working_dir: /src/src/app
+networks:
+  app_net
+    ipam:
+      driver: default
+      config
+        - subnet: "173.16.238.0./24"
+```
+
+```Dockerfile-node
+FROM node:10-alpine
+
+WORKDIR /usr/src/app
+COPY ./index.js .
+EXPOSE 8888
+CMD [ "node", "index.js" ]
+```
+
+```index.js
+const http = require("http");
+
+htttp.createServer((req, res) => {
+  res.write("Hello!");
+  res.end();
+}).listen(8888)
+```
+
+```Dockerfile-nginx
+FROM nginx:latest
+
+COPY ./nginx.confg /etc/nginx/nginx.conf
+
+EXPOSE 80
+```
+
+```nginx.conf
+worker_processes: 4;
+
+events { worker_connections 1024; }
+
+http {
+  upstream node-app {
+    server node:8888 weight=1 max_fails=3 fail_timeout=30s;
+  }
+
+  server {
+    listen 80;
+
+    location / {
+      proxy_pass http://node-app;
+    }
+  }
+}
+```
+
+```bash
+$ docker-compose up
+
+$ http GET 173.16.238.11 // nginx proxies a request to node.js which returns "Hello!"
+```
+
+[Source](https://github.com/robertoachar/docker-nginx-express/blob/master/.docker/nginx.conf)
+
+---

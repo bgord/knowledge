@@ -2,9 +2,9 @@
 
 ## React 5
 
-- Describe compound components pattern.
+- What is a compound component?
 - How to write a modal using React portal?
-- How to profile React apps?
+- How to use React 16.9 Profiler?
 - Can we create a hook factory function? E.g to pass a config object that a hook needs to have an access to.
 - https://medium.com/better-programming/smooth-animations-with-react-and-framer-motion-c272b6f22f67
 
@@ -32,19 +32,19 @@
 
 ## JavaScript - 0
 
-## Concepts 4
+## Concepts 5
 
 - What's null hypothesis?
 - What's C10k problem?
 - What's mutation testing?
 - How does bullet journal work?
+- What's the difference between forward and reverse proxy?
 
-## nginx 4
+## nginx 3
 
-- How to redirect a port to a node server?
 - Describe authenticating SMTP traffic basing on mailhog example.
 - How to create a HTTPS certificate?
 - How to create a reverse proxy?
 
 ## HTML 1
-- How to use <abbr>?
+- How to use \<abbr\>?
