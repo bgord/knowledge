@@ -209,3 +209,36 @@ To unmark a file, press `mu`.
 `D`
 
 ---
+
+**How to access a register?**
+
+You need to precede it with `"`, for example pasting from `0` register: `"0p`.
+
+---
+
+**What's the default register?**
+
+`"` is the default (unnamed) register.
+Every text you yank or delete will be stored in there.
+`p` is the same as `""p`.
+
+---
+
+**What are the named registers?**
+
+For this occasion, VIM has a concept of numbered registers.
+From `"0` to `"9`.
+
+`"0` contains the latest yank.
+`"1` - `"9` have the latest deletions, from the newest to the oldest.
+
+---
+
+**What are the 4 read-only registers for?**
+
+`"%` has the current file path (relative to the directory where VIM was first opened).
+`":` has the latest executed command.
+`".` has the last inserted text.
+`"#` has the last edited file.
+
+---
