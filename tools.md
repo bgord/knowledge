@@ -380,3 +380,9 @@ cp ./provisioning/.../vars-local/secrets.yml /tmp/secrets.yml
 ```
 
 ---
+
+**How to open a Firefox dev-console with a shortcut?**
+
+`Ctrl-k`
+
+---

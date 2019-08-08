@@ -17,6 +17,7 @@
 - https://www.youtube.com/watch?v=JaVb-VRlihg&t=11s
 - https://medium.com/thetiltblog/revalidate-authenticated-routes-in-adonisjs-539e6bcf980f
 - util.inspect
+- https://www.brianstorti.com/understanding-shell-script-idiom-redirect/
 
 ## Git - 4
 
