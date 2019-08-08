@@ -9,3 +9,11 @@
 `<input type="number" step="0.01" />`
 
 ---
+
+**How to tell a file input to accept only given MIME types?**
+
+```html
+<input accept="text/csv, image/png" />
+```
+
+---
