@@ -17,7 +17,10 @@
 - https://www.youtube.com/watch?v=JaVb-VRlihg&t=11s
 - https://medium.com/thetiltblog/revalidate-authenticated-routes-in-adonisjs-539e6bcf980f
 - util.inspect
+- https://www.youtube.com/watch?v=E_rbfQqrm7g
 - https://www.brianstorti.com/understanding-shell-script-idiom-redirect/
+- https://www.brianstorti.com/vim-as-the-poor-mans-sed/
+- https://www.brianstorti.com/enough-sed-to-be-useful/
 
 ## Git - 4
 

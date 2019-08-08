@@ -491,3 +491,20 @@ $ DROP TABLE adonis_schema_lock;
 ```
 
 ---
+
+**How to read file content before submit?**
+
+```
+onSubmit(e) {
+  e.preventDefault();
+  const file = document.querySelector("#file-input-field").files[0];
+  const reader = new FileReader();
+  reader.onload = e => {
+    const fileContent = e.target.result;
+    console.log(fileContent); // file content should be printed here
+  }
+  reader.readAsText();
+}
+```
+
+---
