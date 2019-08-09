@@ -386,3 +386,13 @@ cp ./provisioning/.../vars-local/secrets.yml /tmp/secrets.yml
 `Ctrl-k`
 
 ---
+
+**How to format HTML in a string?**
+
+```js
+const someText = /* HTML */ `
+  <h1>SomeHTML</h1>
+`;
+```
+
+---
