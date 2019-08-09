@@ -40,3 +40,16 @@ const query = `
 ```
 
 ---
+
+**How to access order of columns in a table?**
+
+```js
+const tableName = "logs";
+
+const query = `
+  SELECT ordinal_position
+  FROM INFORMATION_SCHEMA.COLUMNS
+  WHERE table_name = '${tableName};';
+```
+
+---
