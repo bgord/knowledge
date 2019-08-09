@@ -508,3 +508,21 @@ onSubmit(e) {
 ```
 
 ---
+
+**How to precisely insert HTML into an element?**
+
+Use `element.insertAdjacentHTML(position, text)`.
+
+There are 4 positions:
+
+```
+// beforebegin
+<p>
+  // afterbegin
+  A paragraph
+  // beforeend
+</p>
+// afterend
+```
+
+---
