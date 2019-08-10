@@ -395,3 +395,30 @@ We can also "translate" the statuses:
 ```
 
 ---
+
+**How to de-emphasize text?**
+
+- smaller text
+- lighter text
+
+A nice trick is to have even smaller, uppercased, semibold text with a bit of wider tracking.
+
+```html
+<div class="text-gray-600 text-xs uppercase font-semibold tracking-wide">
+  3 beds
+</div>
+```
+
+---
+
+**What's tracking in typography?**
+
+It's a professional word for `letter-spacing` in CSS.
+
+---
+
+**What's leading in typography?**
+
+It's a professional word for `line-height` in CSS.
+
+---

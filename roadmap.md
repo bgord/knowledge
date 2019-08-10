@@ -29,10 +29,11 @@
 - How to find out in which commit given file was added [link](https://stackoverflow.com/questions/11533199/find-commit-where-file-was-added)?
 - Named stash
 
-## CSS - 2
+## CSS - 3
 
 - What's the effect of `object-fit` on images?
 - How to create a L-R and T-B image mirror effect?
+- How to make an image preserve its aspect ratio https://tailwindcss.com/course/locking-images-to-a-fixed-aspect-ratio/?
 
 ## JavaScript - 0
 
