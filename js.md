@@ -526,3 +526,12 @@ There are 4 positions:
 ```
 
 ---
+
+**Accessing properties of null and false**
+
+```js
+null.payload; // TypeError: Cannot read property `payload` of null
+false.payload; // undefined
+```
+
+---
