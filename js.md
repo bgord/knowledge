@@ -535,3 +535,14 @@ false.payload; // undefined
 ```
 
 ---
+
+**How to create a Circular JSON example?**
+
+```js
+const o = {};
+o.o = {};
+
+console.log(o); // { a: [Curcular] }
+```
+
+---
