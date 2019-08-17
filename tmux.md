@@ -73,3 +73,9 @@ For the current one:
 `$ tmux rename-window "play"`
 
 ---
+
+**Focus a window**
+
+`$ tmux select-window -t "play"`
+
+---
