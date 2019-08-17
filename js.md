@@ -546,3 +546,15 @@ console.log(o); // { a: [Curcular] }
 ```
 
 ---
+
+**console.assert**
+
+Writes a message if an assertion fails, does nothing otherwise.
+
+```js
+> console.assert(1 === 2, "Jeden jednak nie równa się dwa");
+Assertion failed: Jeden jednak nie równa się dwa
+
+> console.assert(1 === 2);
+undefined
+```
