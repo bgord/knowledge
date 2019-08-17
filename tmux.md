@@ -21,14 +21,14 @@
 
 ---
 
-**Changing window name**
+**Change a window name**
 
 For the current one:
 `$ tmux rename-window "know/dot"`
 
 ---
 
-**Splitting windows**
+**Split windows**
 
 `$ tmux split-window -h -p 50`
 
@@ -38,12 +38,17 @@ For the current one:
 
 ---
 
-**Executing a command in the 2-th pane**
+**Focus 2nd pane**
 
 `$ tmux select-pane -t 2`
+
+---
+
+**Execute a command**
+
 `$ tmux send-keys "cd ~/Desktop"`
 
----:w
+---
 
 **Attach tmux session**
 
