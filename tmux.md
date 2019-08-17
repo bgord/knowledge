@@ -61,3 +61,9 @@ For the current one:
 `Prefix {`
 
 ---
+
+**Create a new window**
+
+`$ tmux new-window`
+
+---
