@@ -67,3 +67,9 @@ For the current one:
 `$ tmux new-window`
 
 ---
+
+**Set a window name**
+
+`$ tmux rename-window "play"`
+
+---
