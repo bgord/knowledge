@@ -468,3 +468,9 @@ Specify a revision to start searching from (instead of default HEAD):
 `git push origin <tag_name>`
 
 ---
+
+**What does ^M mean in git diff?**
+
+It's a sign of carriage return. Typically encountered while developing a project on Linux/MacOS that was previously develop on Windows.
+
+---
