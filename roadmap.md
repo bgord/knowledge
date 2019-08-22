@@ -21,6 +21,7 @@
 - https://www.brianstorti.com/understanding-shell-script-idiom-redirect/
 - https://www.brianstorti.com/vim-as-the-poor-mans-sed/
 - https://www.brianstorti.com/enough-sed-to-be-useful/
+- What's the difference between 0.0.0.0 and 127.0.0.1 in Docker/loclahost?
 
 ## Git - 4
 

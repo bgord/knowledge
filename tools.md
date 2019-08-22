@@ -396,3 +396,10 @@ const someText = /* HTML */ `
 ```
 
 ---
+
+**How to move a running process to background and to foreground?**
+
+To move a process to background: `C-z`.
+To move a process to foreground: `$ fg`.
+
+---
