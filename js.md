@@ -558,3 +558,5 @@ Assertion failed: Jeden jednak nie równa się dwa
 > console.assert(1 === 2);
 undefined
 ```
+
+---

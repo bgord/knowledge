@@ -474,3 +474,13 @@ Specify a revision to start searching from (instead of default HEAD):
 It's a sign of carriage return. Typically encountered while developing a project on Linux/MacOS that was previously develop on Windows.
 
 ---
+
+**How to effectively work with stashes?**
+
+`git stash` is an equivalent of `git stash push`.
+
+To include untracked files: `git stash -u`.
+
+To add a stash message: `git stash push -u -m "ZSH alias"`.
+
+---
