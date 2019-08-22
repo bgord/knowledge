@@ -53,3 +53,15 @@ const query = `
 ```
 
 ---
+
+**How to get records from the last week?**
+
+```
+SELECT *
+FROM users
+WHERE created_at > now() - '1 week'::interval
+```
+
+[source](https://popsql.com/learn-sql/postgresql/how-to-query-date-and-time-in-postgresql/)
+
+---
