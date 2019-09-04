@@ -248,3 +248,16 @@ From `"0` to `"9`.
 `C-k -N` or `C-k -M`
 
 ---
+
+**How to eliminate a delay on ESC in VIM?**
+
+Add the following to `.vimrc`.
+
+```
+set timeoutlen=1000
+set ttimeoutlen=0
+```
+
+[source](https://www.johnhawthorn.com/2012/09/vi-escape-delays/)
+
+---
