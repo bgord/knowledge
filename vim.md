@@ -242,3 +242,9 @@ From `"0` to `"9`.
 `"#` has the last edited file.
 
 ---
+
+**How to insert em/en dashes?**
+
+`C-k -N` or `C-k -M`
+
+---
