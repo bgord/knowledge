@@ -1144,3 +1144,9 @@ ReactDOM.render(<App />, rootElement);
 ```
 
 ---
+
+**How to publish a React Typescript library with TSDX?**
+
+[tutorial](https://imgur.com/rNlQJuT)
+
+---
