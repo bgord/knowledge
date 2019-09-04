@@ -403,3 +403,9 @@ To move a process to background: `C-z`.
 To move a process to foreground: `$ fg`.
 
 ---
+
+**How to change date/time in Manjaro?**
+
+Go to Settings Manager -> Manjaro Settings Manager -> Time and Date.
+
+---
