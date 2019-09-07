@@ -484,3 +484,14 @@ To include untracked files: `git stash -u`.
 To add a stash message: `git stash push -u -m "ZSH alias"`.
 
 ---
+
+**How to automate git bisect?**
+
+```bash
+$ git bisect start
+$ git bisect bad
+$ git bisect a7def89x
+$ git bisect run npm run test:all // or test-script.sh
+```
+
+---

@@ -21,6 +21,8 @@ A way to reduce type boilerplate while working with redux-like action descriptor
 
 - [coercion table](https://dorey.github.io/JavaScript-Equality-Table/)
 The results of loose comparison between several values in JS.
+- [eslint_d](https://github.com/mantoni/eslint_d.js)
+A faster way to lint JS files.
 
 ## Social life
 
