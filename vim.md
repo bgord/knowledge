@@ -261,3 +261,9 @@ set ttimeoutlen=0
 [source](https://www.johnhawthorn.com/2012/09/vi-escape-delays/)
 
 ---
+
+**How to delete until the word**
+
+`d/someword`
+
+---
