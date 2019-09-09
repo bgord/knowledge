@@ -11,3 +11,9 @@ Android Jelly Bean 4.1.x and iOS 8+.
 After you are able to execute `flutter` command, run `flutter doctor` until it passes.
 
 ---
+
+**Build a Flutter APK**
+
+`flutter build apk --release`
+
+---
