@@ -495,3 +495,15 @@ $ git bisect run npm run test:all // or test-script.sh
 ```
 
 ---
+
+**Count commits**
+
+For a current branch: `git rev-list --count HEAD`
+
+For any branch: `git rev-list --count <branch name>`
+
+A difference between two branches: `git rev-list --count HEAD ^develop`
+
+The `--no-merges` option can be useful.
+
+---
