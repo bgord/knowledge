@@ -409,3 +409,9 @@ To move a process to foreground: `$ fg`.
 Go to Settings Manager -> Manjaro Settings Manager -> Time and Date.
 
 ---
+
+**How to diff two files?**
+
+`diff file1 file1`
+
+---
