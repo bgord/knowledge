@@ -566,3 +566,10 @@ undefined
 If you are 100% sure that element exists in the DOM, the problem with finding it may be caused by the viewport size. E.g an element may be hidden in certain window widths.
 
 ---
+
+**Puppeteer doesn't fire a change handler for a select element**
+
+Don't use `page.select()`, use `page.type()` instead.
+And add an event handler on `input` action for select (instead of `change`).
+
+---
