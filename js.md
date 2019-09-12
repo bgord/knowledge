@@ -560,3 +560,9 @@ undefined
 ```
 
 ---
+
+**Puppeteer doesn't find a text/element**
+
+If you are 100% sure that element exists in the DOM, the problem with finding it may be caused by the viewport size. E.g an element may be hidden in certain window widths.
+
+---
