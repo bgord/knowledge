@@ -415,3 +415,10 @@ Go to Settings Manager -> Manjaro Settings Manager -> Time and Date.
 `diff file1 file1`
 
 ---
+
+**Strange Fn key behaviour**
+
+It's caused because of locked Fn key (Esc + Fn).
+To unlock it, press the same combination.
+
+---
