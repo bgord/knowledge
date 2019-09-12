@@ -422,3 +422,19 @@ It's caused because of locked Fn key (Esc + Fn).
 To unlock it, press the same combination.
 
 ---
+
+**Outdated Vagrant plugins**
+
+Error message:
+
+```
+Vagrant failed to initialize at a very early stage. The plugins failed to initialize correctly.
+```
+
+Solution:
+
+```bash
+$ vagrant plugin update
+```
+
+---
