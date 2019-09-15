@@ -163,3 +163,15 @@ var colors = {
 ```
 
 ---
+
+**Access a value from a map**
+
+```dart
+var colors = {
+  "white":
+}
+
+colors["white"];
+```
+
+---
