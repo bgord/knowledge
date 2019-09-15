@@ -80,3 +80,11 @@ Add the proper version.
 Run the `$ flutter pub get` command.
 
 ---
+
+**Importing a dependency**
+
+```dart
+import 'package:<package_name>/<dart_entry_filename>';
+```
+
+---
