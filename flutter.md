@@ -215,3 +215,24 @@ Color.fromRGBO(0, 0, 0, 1.0) // black
 ```
 
 ---
+
+**Row usage**
+
+- [ xxx yyy ] ----- main axis
+-
+-
+
+cross axis
+
+```dart
+Row(
+  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+  crossAxisAlignment: crossAxisAlignment.start,
+  children: <Widget> [
+     Text("xxx"),
+     Text("yyy"),
+  ]
+)
+```
+
+---
