@@ -88,3 +88,13 @@ import 'package:<package_name>/<dart_entry_filename>';
 ```
 
 ---
+
+**Dart final/const keywords**
+
+Dart doesn't allow modifying the values declared by both of them.
+
+`const` if a variable is known at compile time (used on a collection makes the entire collection const).
+
+`final` used on variables at run time (used on a collection doesn't make the entire collection final).
+
+---
