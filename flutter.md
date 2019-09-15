@@ -133,3 +133,15 @@ const blue = const Color(0xff2980b9));
 ```
 
 ---
+
+**Set a container background color**
+
+```
+const blue = const Color(0xff2980b9));
+
+Container(
+   color: blue,
+)
+```
+
+---
