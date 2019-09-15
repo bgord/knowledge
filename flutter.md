@@ -236,3 +236,16 @@ Row(
 ```
 
 ---
+
+**Add Padding to any widget**
+
+```dart
+Padding(
+  padding: EdgeInsets.only(left: 25.0),
+  child: Text(
+    "xxx"
+  )
+)
+```
+
+---
