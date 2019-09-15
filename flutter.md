@@ -65,3 +65,9 @@ $ flutter emulators --launch Pixel_2_API_28 # (or any other available emulator)
 ```
 
 ---
+
+**Flutter package repository**
+
+[source](https://pub.dev/flutter)
+
+---
