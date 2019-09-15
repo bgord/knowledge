@@ -280,3 +280,19 @@ Container(
 ```
 
 ---
+
+**Create a widget**
+
+```dart
+class RegularText extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      'SOME TEXT',
+      style: TextStyle(fontSize: 16.0)
+    )
+  }
+}
+```
+
+---
