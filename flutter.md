@@ -203,3 +203,15 @@ Container(
 ```
 
 ---
+
+**Black/White colors**
+
+```
+Color(0xFFFFFFFF) // white constructor
+Color(0xFF000000) // black constructor
+
+Color.fromRGBO(255, 255, 255, 1.0) // white
+Color.fromRGBO(0, 0, 0, 1.0) // black
+```
+
+---
