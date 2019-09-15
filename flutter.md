@@ -104,3 +104,16 @@ Dart doesn't allow modifying the values declared by both of them.
 Text, Row, Column, Container, Directionality.
 
 ---
+
+**Directionality**
+
+Two possibilities: lrt/rtl.
+
+```dart
+Directionality(
+  textDirection: TextDirection.lrt,
+  child: Text(
+    "HAHAHAH"
+  )
+)
+```
