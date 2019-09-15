@@ -296,3 +296,23 @@ class RegularText extends StatelessWidget {
 ```
 
 ---
+
+**Pass a prop to a widget**
+
+```
+class RegularText extends StatelessWidget {
+  final String content;
+
+  RegularText({this.content})
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      this.content,
+      style: TextStyle(fontSize: 16.0)
+    )
+  }
+}
+```
+
+---
