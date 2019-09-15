@@ -125,3 +125,11 @@ Directionality(
 In Flutter almost everything is a widget: the app's root, padding, margin, alignment, layout, etc.
 
 ---
+
+**Create an RGBA color variable**
+
+```
+const blue = const Color(0xff2980b9));
+```
+
+---
