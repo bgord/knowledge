@@ -452,3 +452,11 @@ $ find / -name 'filename.txt'
 ```
 
 ---
+
+**Disk usage on Linux**
+
+```bash
+$ df
+```
+
+---
