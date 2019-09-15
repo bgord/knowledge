@@ -153,3 +153,13 @@ $ flutter upgrade
 ```
 
 ---
+
+**Create a map**
+
+```dart
+var colors = {
+  "white":
+}
+```
+
+---
