@@ -117,3 +117,11 @@ Directionality(
   )
 )
 ```
+
+---
+
+**What's a widget?**
+
+In Flutter almost everything is a widget: the app's root, padding, margin, alignment, layout, etc.
+
+---
