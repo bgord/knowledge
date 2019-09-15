@@ -444,3 +444,11 @@ $ vagrant plugin update
 File -> Settings -> Plugins
 
 ---
+
+**Using find to find a file path**
+
+```bash
+$ find / -name 'filename.txt'
+```
+
+---
