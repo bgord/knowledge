@@ -267,3 +267,16 @@ Container(
 ```
 
 ---
+
+**Add an elliptical BorderRadius to a Container**
+
+```dart
+Container(
+  decoration: BoxDecoration(
+    border: Border.all(width: 2.0, color: colors["green"]),
+    borderRadius: BorderRadius.all(Radius.elliptical(10, 10)),
+  )
+)
+```
+
+---
