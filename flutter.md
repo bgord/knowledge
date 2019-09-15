@@ -192,3 +192,14 @@ Text(
 ```
 
 ---
+
+**Add padding to a Container**
+
+```
+Container(
+  padding: EdgeInsets.only(top: 25.0, left: 75.0),
+  child: Text("HEHEHE")
+)
+```
+
+---
