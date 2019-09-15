@@ -98,3 +98,9 @@ Dart doesn't allow modifying the values declared by both of them.
 `final` used on variables at run time (used on a collection doesn't make the entire collection final).
 
 ---
+
+**Basic widgets**
+
+Text, Row, Column, Container, Directionality.
+
+---
