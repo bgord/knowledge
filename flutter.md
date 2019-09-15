@@ -71,3 +71,12 @@ $ flutter emulators --launch Pixel_2_API_28 # (or any other available emulator)
 [source](https://pub.dev/flutter)
 
 ---
+
+**Dependency installation**
+
+Open `pubspec.yaml` file.
+Find the `dependencies` section.
+Add the proper version.
+Run the `$ flutter pub get` command.
+
+---
