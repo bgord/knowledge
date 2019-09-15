@@ -44,3 +44,9 @@ class MyApp extends StatelessWidget {
 ```
 
 ---
+
+**Automatic code formatting**
+
+Right click on the code area -> Reformat code with dartfmt
+
+---
