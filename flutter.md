@@ -145,3 +145,11 @@ Container(
 ```
 
 ---
+
+**Update Flutter version**
+
+```bash
+$ flutter upgrade
+```
+
+---
