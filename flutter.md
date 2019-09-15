@@ -50,3 +50,18 @@ class MyApp extends StatelessWidget {
 Right click on the code area -> Reformat code with dartfmt
 
 ---
+
+**Developing a Flutter app in VIM**
+
+Install ['thosakwe/vim-flutter'](https://github.com/thosakwe/vim-flutter) VIM plugin.
+
+```bash
+$ flutter emulators # to check for currently running emulators
+$ flutter emulators --launch Pixel_2_API_28 # (or any other available emulator)
+```
+
+```vim
+:FlutterRun # it allows on-save hot reloading
+```
+
+---
