@@ -438,3 +438,9 @@ $ vagrant plugin update
 ```
 
 ---
+
+**Android Studio plugin installation**
+
+File -> Settings -> Plugins
+
+---
