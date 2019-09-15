@@ -255,3 +255,15 @@ Padding(
 Put cursor on the widget you want to modify and press `Alt + Enter`.
 
 ---
+
+**Add Border to a Container**
+
+```dart
+Container(
+  decoration: BoxDecoration(
+    border: Border.all(width: 2.0, color: colors["green"]),
+  )
+)
+```
+
+---
