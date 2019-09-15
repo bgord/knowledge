@@ -249,3 +249,9 @@ Padding(
 ```
 
 ---
+
+**Automatically wrap widgets with helpers in Android Studio**
+
+Put cursor on the widget you want to modify and press `Alt + Enter`.
+
+---
