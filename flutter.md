@@ -175,3 +175,20 @@ colors["white"];
 ```
 
 ---
+
+**Text widget styles**
+
+```dart
+Text(
+  "Some text",
+  textAlign: TextAlign.center,
+  style: TextStyle(
+    color: colors["white"],
+    fontSize: 25.0,
+    fontWeight: FontWeight.bold,
+    decoration: TextDecoration.underline,
+  )
+)
+```
+
+---
