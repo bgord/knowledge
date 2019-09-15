@@ -461,8 +461,11 @@ $ df
 
 ---
 
-**Flutter package repository**
+**Freeze/Unfreeze VIM**
 
-[source](https://pub.dev/flutter)
+```
+Freeze: Ctrl-S
+Unfreeze: Ctrl-Q
+```
 
 ---
