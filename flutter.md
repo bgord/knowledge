@@ -316,3 +316,56 @@ class RegularText extends StatelessWidget {
 ```
 
 ---
+
+**Cannot change RaisedButton color**
+
+Ensure `onPressed` handler is passed.
+
+---
+
+**Change RaisedButton size**
+
+Wrap it with SizedBox.
+
+```dart
+SizedBox(
+  width: 300.0,
+  height: 300.0,
+  child: RaisedButton(
+    child: Text(
+      "xxx"
+    )
+  )
+)
+```
+
+---
+
+**Safe area**
+
+It's a utility widget that when passed a child, ensures sufficient padding is present in order to avoid content distortion.
+
+---
+
+**Custom button**
+
+```dart
+GestureDetector(
+  onTap: () {
+    print("tapped");
+  }
+  child: Container(
+    decoration: BoxDecoration(
+      border: Border.all(width: 2.0)
+    ),
+    child: Padding(
+      padding: EdgeInsets.all(25.0),
+      child: Text(
+        "xxx"
+      )
+    )
+  )
+)
+```
+
+---
