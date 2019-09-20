@@ -375,3 +375,76 @@ GestureDetector(
 [source](https://flutter.dev/docs/cookbook/networking/web-sockets)
 
 ---
+
+**Form example**
+
+```dart
+class User {
+  String email = '';
+  String password = '';
+}
+
+class RegisterForm extends StatefulWidget {
+  @override
+  _RegisterForm createState() => _RegisterForm();
+}
+
+class _RegisterForm extends State<RegisterForm> {
+  final _formKey = GlobalKey<FormState>();
+
+  final _user = User();
+
+  @override
+  Widget build(BuildContext context) {
+    return Form(
+        key: this._formKey,
+        child: Column(
+          children: <Widget>[
+            FancyInput(
+              child: TextFormField(
+                onSaved: (val) => setState(() => _user.email = val),
+                validator: (value) {
+                  return value.isEmpty ? "Wpisz email..." : null;
+                },
+                keyboardType: TextInputType.emailAddress,
+                obscureText: false,
+                decoration: InputDecoration(
+                    hintText: "E-mail",
+                    border: InputBorder.none,
+                    contentPadding: EdgeInsets.symmetric(
+                        horizontal: 25.0, vertical: 15.0)),
+              ),
+            ),
+            FancyInput(
+              child: TextFormField(
+                obscureText: true,
+                onSaved: (val) => setState(() => _user.password = val),
+                validator: (value) {
+                  return value.isEmpty ? "Wpisz hasło..." : null;
+                },
+                decoration: InputDecoration(
+                    hintText: "Hasło",
+                    border: InputBorder.none,
+                    contentPadding: EdgeInsets.symmetric(
+                        horizontal: 25.0, vertical: 15.0)),
+              ),
+            ),
+            BigButton(
+                content: "Zaloguj się",
+                onPressed: () {
+                  final form = this._formKey.currentState;
+                  if (form.validate()) {
+                    form.save();
+                    print(_user.password);
+                    print(_user.email);
+                  }
+                }
+            )
+          ],
+        ),
+      );
+  }
+}
+```
+
+---
