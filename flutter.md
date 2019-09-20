@@ -369,3 +369,9 @@ GestureDetector(
 ```
 
 ---
+
+**Websockets example**
+
+[source](https://flutter.dev/docs/cookbook/networking/web-sockets)
+
+---
