@@ -537,3 +537,16 @@ StreamBuilder(
 ```
 
 ---
+
+**Develop an app on device without USB connection**
+
+1. Download adb (Android Debug Bridge).
+2. Connect your phone via USB.
+3. Check if the phone is present in the `adb devices` output.
+4. Run `adb tcpip 5555`.
+5. Disconnect the phone from USB.
+6. Check your phone's IP, Settings -> About Phone.
+7. Run `adb connect <ip>:5555`.
+8. Check if your a wireless connection to your phone is present in `adb devices` output.
+
+---
