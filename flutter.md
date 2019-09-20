@@ -550,3 +550,11 @@ StreamBuilder(
 8. Check if your a wireless connection to your phone is present in `adb devices` output.
 
 ---
+
+**Run a shell command on a device**
+
+```bash
+$ adb shel echo "xxxx"
+```
+
+---
