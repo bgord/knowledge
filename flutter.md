@@ -525,3 +525,15 @@ print("RESPONSE: ${response}."):
 ```
 
 ---
+
+**Dart callback function**
+
+```
+StreamBuilder(
+  builder: (context, snapshot) {
+    print(snapshot);
+  }
+)
+```
+
+---
