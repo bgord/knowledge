@@ -49,3 +49,25 @@ Warning: only for local testing purposes!
 <username>/<repository>#<commit/branch>
 
 ---
+
+**Test a package binary locally without global installation**
+
+In the package root ensure your `package.json` has a `bin` value.
+
+```json
+{
+  "bin": {
+    "your-package-name": "./xxx.js"
+  }
+}
+```
+
+```bash
+$ npm link
+```
+
+And then, you should be able to run a `your-package-name` command from terminal.
+
+You can also run `npm unlink` in the package root to cleanup the symlink.
+
+---
