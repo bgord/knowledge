@@ -99,9 +99,11 @@ Everytime `teh` is typed, change it to `the`.
 
 ---
 
-**Put the current line to the top of the screen**
+**Put the current line to the top/middle/bottom of the screen**
 
-`zz`
+`zt` top
+`zz` middle
+`zb` bottom
 
 ---
 
