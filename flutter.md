@@ -558,3 +558,13 @@ $ adb shel echo "xxxx"
 ```
 
 ---
+
+**Generate n item array in Dart**
+
+```dart
+Iterable<int>.generate(10).toList().map((i) {
+  print(i);
+})
+```
+
+---
