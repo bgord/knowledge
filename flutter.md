@@ -597,3 +597,16 @@ CarouselSlider(
 [source](https://pub.dev/packages/carousel_slider)
 
 ---
+
+**Set clipboard data**
+
+```dart
+FlatButton(
+  onPressed: () {
+    Clipboard.setData(ClipboardData(text: "hello from clipboard!"))
+  }
+  child: Text("Copy some text")
+)
+```
+
+---
