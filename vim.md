@@ -297,3 +297,30 @@ Visually selects a fixed width column which can be changed - `C-v`.
 `S-v` (visual line mode) selects only full lines.
 
 ---
+
+**Blockwise visual editing**
+
+```
+A
+B
+C
+D
+```
+
+1. Place cursor on the letter "A".
+2. C-v
+3. 3j
+4. I
+5. *<space>
+6. Esc
+
+The text should look like this:
+
+```
+* A
+* B
+* C
+* D
+```
+
+---
