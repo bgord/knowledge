@@ -287,3 +287,13 @@ $ vim +/set .vimrc
 If a pattern is not found, VIM displays an error message and moves cursor to the first line.
 
 ---
+
+**Blockwise visual mode**
+
+Visually selects a fixed width column which can be changed - `C-v`.
+
+`v` (visual mode) doesn't allow "breaking" selected lines.
+
+`S-v` (visual line mode) selects only full lines.
+
+---
