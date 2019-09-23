@@ -568,3 +568,32 @@ Iterable<int>.generate(10).toList().map((i) {
 ```
 
 ---
+
+**Example carousel in Flutter**
+
+```dart
+import 'package:carousel_slider/carousel_slider.dart';
+
+CarouselSlider(
+  height: 200.0,
+  enableInfiniteScroll: false,
+  items: Iterable<int>.generate(10).toList().map((i) {
+    return Builder(
+      builder: (BuildContext context) {
+        return Container(
+            width: MediaQuery.of(context).size.width,
+            margin: EdgeInsets.symmetric(horizontal: 10.0),
+            decoration: BoxDecoration(color: Colors.blueAccent),
+            child: Text(
+              'text $i',
+              style: TextStyle(fontSize: 16.0),
+            ));
+      },
+    );
+  }).toList(),
+);
+```
+
+[source](https://pub.dev/packages/carousel_slider)
+
+---
