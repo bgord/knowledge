@@ -277,3 +277,13 @@ $ vim +33 file.txt
 ```
 
 ---
+
+**Open VIM with cursor on the first occurrence of a pattern**
+
+```bash
+$ vim +/set .vimrc
+```
+
+If a pattern is not found, VIM displays an error message and moves cursor to the first line.
+
+---
