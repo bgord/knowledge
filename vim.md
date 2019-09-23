@@ -109,7 +109,7 @@ Everytime `teh` is typed, change it to `the`.
 
 **A faster way to delete 2 branches down/up**
 
-Instead of `2dd`, pres `dk` or `dj`.
+Instead of `2dd`, press `dk` or `dj`.
 
 ---
 
@@ -267,5 +267,13 @@ set ttimeoutlen=0
 **How to delete until the word**
 
 `d/someword`
+
+---
+
+**Open VIM with cursor on given line**
+
+```bash
+$ vim +33 file.txt
+```
 
 ---
