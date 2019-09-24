@@ -330,3 +330,9 @@ The text should look like this:
 Buffer is a piece of memory that has been loaded with a file content.
 
 ---
+
+**Insert a file content to a current buffer**
+
+`:r <filename>`
+
+---
