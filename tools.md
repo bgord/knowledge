@@ -469,3 +469,13 @@ Unfreeze: Ctrl-Q
 ```
 
 ---
+
+**Serve a directory in local network**
+
+```bash
+$ yarn global add http-server
+$ cd ./dir
+$ hs -p 8888 # or http-server
+```
+
+---
