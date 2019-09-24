@@ -355,3 +355,9 @@ Next paragraph: `}`
 Previous paragraph: `{`
 
 ---
+
+**Go to percent through file**
+
+A half: `50%`
+
+---
