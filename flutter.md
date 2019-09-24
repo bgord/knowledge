@@ -45,12 +45,6 @@ class MyApp extends StatelessWidget {
 
 ---
 
-**Automatic code formatting**
-
-Right click on the code area -> Reformat code with dartfmt
-
----
-
 **Developing a Flutter app in VIM**
 
 Install ['thosakwe/vim-flutter'](https://github.com/thosakwe/vim-flutter) VIM plugin.
@@ -66,36 +60,12 @@ $ flutter emulators --launch Pixel_2_API_28 # (or any other available emulator)
 
 ---
 
-**Flutter package repository**
-
-[source](https://pub.dev/flutter)
-
----
-
 **Dependency installation**
 
 Open `pubspec.yaml` file.
 Find the `dependencies` section.
 Add the proper version.
 Run the `$ flutter pub get` command.
-
----
-
-**Importing a dependency**
-
-```dart
-import 'package:<package_name>/<dart_entry_filename>';
-```
-
----
-
-**Dart final/const keywords**
-
-Dart doesn't allow modifying the values declared by both of them.
-
-`const` if a variable is known at compile time (used on a collection makes the entire collection const).
-
-`final` used on variables at run time (used on a collection doesn't make the entire collection final).
 
 ---
 
@@ -154,28 +124,6 @@ $ flutter upgrade
 
 ---
 
-**Create a map**
-
-```dart
-var colors = {
-  "white":
-}
-```
-
----
-
-**Access a value from a map**
-
-```dart
-var colors = {
-  "white":
-}
-
-colors["white"];
-```
-
----
-
 **Text widget styles**
 
 ```dart
@@ -218,11 +166,13 @@ Color.fromRGBO(0, 0, 0, 1.0) // black
 
 **Row usage**
 
+```
 - [ xxx yyy ] ----- main axis
 -
 -
-
 cross axis
+```
+
 
 ```dart
 Row(
@@ -516,28 +466,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
 ---
 
-**Dart string interpolation**
-
-```dart
-var response = "HELLO";
-
-print("RESPONSE: ${response}."):
-```
-
----
-
-**Dart callback function**
-
-```
-StreamBuilder(
-  builder: (context, snapshot) {
-    print(snapshot);
-  }
-)
-```
-
----
-
 **Develop an app on device without USB connection**
 
 1. Download adb (Android Debug Bridge).
@@ -555,16 +483,6 @@ StreamBuilder(
 
 ```bash
 $ adb shel echo "xxxx"
-```
-
----
-
-**Generate n item array in Dart**
-
-```dart
-Iterable<int>.generate(10).toList().map((i) {
-  print(i);
-})
 ```
 
 ---
@@ -611,24 +529,6 @@ FlatButton(
 
 ---
 
-**Dart class property getter**
-
-```dart
-int get counter => _counter;
-```
-
----
-
-**Dart method definition**
-
-```
-void increment() {
-  _counter++;
-}
-```
-
----
-
 **Flutter scoped_model model declaration and usage**
 
 ```dart
@@ -663,19 +563,6 @@ new ScopedModel<CounterModel>(
     ]
   )
 );
-```
-
----
-
-**Create a class with some properties**
-
-```dart
-class GithubUser {
-  final String name;
-  final String avatar_url;
-
-  GithubUser({this.name, this.avatar_url});
-}
 ```
 
 ---
