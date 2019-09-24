@@ -618,3 +618,13 @@ int get counter => _counter;
 ```
 
 ---
+
+**Dart method definition**
+
+```
+void increment() {
+  _counter++;
+}
+```
+
+---
