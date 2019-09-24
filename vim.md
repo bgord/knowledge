@@ -348,3 +348,10 @@ Buffer is a piece of memory that has been loaded with a file content.
 `ZZ`
 
 ---
+
+**Move to next/previous paragraph**
+
+Next paragraph: `}`
+Previous paragraph: `{`
+
+---
