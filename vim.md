@@ -342,3 +342,9 @@ Buffer is a piece of memory that has been loaded with a file content.
 `:r !ls`
 
 ---
+
+**An alternative way to close a buffer in VIM**
+
+`ZZ`
+
+---
