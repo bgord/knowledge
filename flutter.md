@@ -610,3 +610,11 @@ FlatButton(
 ```
 
 ---
+
+**Dart class property getter**
+
+```dart
+int get counter => _counter;
+```
+
+---
