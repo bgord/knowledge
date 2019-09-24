@@ -666,3 +666,16 @@ new ScopedModel<CounterModel>(
 ```
 
 ---
+
+**Create a class with some properties**
+
+```dart
+class GithubUser {
+  final String name;
+  final String avatar_url;
+
+  GithubUser({this.name, this.avatar_url});
+}
+```
+
+---
