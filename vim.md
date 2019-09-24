@@ -324,3 +324,9 @@ The text should look like this:
 ```
 
 ---
+
+**Buffer**
+
+Buffer is a piece of memory that has been loaded with a file content.
+
+---
