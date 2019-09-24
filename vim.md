@@ -336,3 +336,9 @@ Buffer is a piece of memory that has been loaded with a file content.
 `:r <filename>`
 
 ---
+
+**Insert an output of a shell command**
+
+`:r !ls`
+
+---
