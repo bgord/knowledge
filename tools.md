@@ -479,3 +479,16 @@ $ hs -p 8888 # or http-server
 ```
 
 ---
+
+**Zip files/directories**
+
+```
+$ ls
+my_app/ README.md
+
+$ zip -r pack my_app README.md
+```
+
+Outputs the bundle to the pack.zip file which contains the README.md file and recursively traversed my_app directory.
+
+---
