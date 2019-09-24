@@ -628,3 +628,41 @@ void increment() {
 ```
 
 ---
+
+**Flutter scoped_model model declaration and usage**
+
+```dart
+import 'package:scoped_model/scoped_model.dart';
+
+class CounterModel extends Model {
+  int _counter = 0;
+
+  int get counter => _counter;
+
+  void increment() {
+    _counter++;
+
+    notifyListeners();
+  }
+
+  void boost(int step) {
+    _counter = _counter +5;
+
+    notifyListeners();
+  }
+}
+
+new ScopedModel<CounterModel>(
+  model: new CounterModel(),
+  child: Column(
+    children: <Widget>[
+      Text("EXAMPLE"),
+      new ScopedModelDescendant<CounterModel>(
+        builder: (context, child, model) => Text("Current counter: ${model.counter}"),
+      )
+    ]
+  )
+);
+```
+
+---
