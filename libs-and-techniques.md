@@ -11,6 +11,8 @@ Hides mouse cursor after x seconds of inactivity.
 Checks the package size and possibly recommends alternatives.
 - [webgraphviz](http://www.webgraphviz.com/)
 Create graph visualisations on the go.
+- [bat](https://github.com/sharkdp/bat)
+Adds syntax highlighting to cat.
 
 ## React
 
