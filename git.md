@@ -507,3 +507,11 @@ A difference between two branches: `git rev-list --count HEAD ^develop`
 The `--no-merges` option can be useful.
 
 ---
+
+**Check nearest git root directory**
+
+```
+$ git rev-parse --show-toplevel
+```
+
+---
