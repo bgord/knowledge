@@ -360,4 +360,13 @@ Previous paragraph: `{`
 
 A half: `50%`
 
+
+**Search and replace**
+
+```
+:s/a/b      # changes a to b in the current line
+:%s/a/b     # changes a to b in the entire line
+:6,10s/a/b  # changes a to b in lines 6-10 (inclusive)
+```
+
 ---
