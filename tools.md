@@ -492,3 +492,11 @@ $ zip -r pack my_app README.md
 Outputs the bundle to the pack.zip file which contains the README.md file and recursively traversed my_app directory.
 
 ---
+
+**Create all directories if needed**
+
+```bash
+$ mkdir -p $HOME/some/non/existant/path
+```
+
+---
