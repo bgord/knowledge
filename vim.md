@@ -370,3 +370,12 @@ A half: `50%`
 ```
 
 ---
+
+**Ranges**
+
+```
+:4,+3 # select lines 4,5,6,7
+:4,$ # selects lines from 4 to the end of the file
+```
+
+---
