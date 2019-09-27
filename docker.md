@@ -308,3 +308,14 @@ env_file:
 ```
 
 ---
+
+**Ports order**
+
+```
+ports:
+  - "8080:80"
+```
+
+Host port 8080 remapped to port 80 in container.
+
+---
