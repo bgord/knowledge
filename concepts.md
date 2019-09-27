@@ -25,3 +25,16 @@ jogurtolandia_uploads
 ```
 
 ---
+
+**How to correctly remove data in between seeds**
+
+Seeders should only be there to seed and nothing else.
+
+```bash
+$ adonis migration:refresh # rollbacks all migrations to the 0 batch and reruns them
+$ adonis seed
+```
+
+[source](https://forum.adonisjs.com/t/cannot-truncate-a-table-referenced-in-a-foreign-key-constraint/497/2)
+
+---
