@@ -319,3 +319,9 @@ ports:
 Host port 8080 remapped to port 80 in container.
 
 ---
+
+**Adonis and Postgres docker-compose example**
+
+[source](https://github.com/ceelsoin/adonis-postgre-docker/blob/master/docker-compose.yml)
+
+---
