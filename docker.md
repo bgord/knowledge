@@ -297,3 +297,14 @@ env_file:
 ```
 
 ---
+
+**Use a variable from env_file in docker-compose**
+
+```
+ports:
+  - "${PORT}:5555"
+env_file:
+  - ./node-auth-proxy/.env
+```
+
+---
