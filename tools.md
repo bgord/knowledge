@@ -500,3 +500,15 @@ $ mkdir -p $HOME/some/non/existant/path
 ```
 
 ---
+
+**ESLint extend config in package.json**
+
+```json
+{
+  "eslintConfig": {
+    "extends": "bgord"
+  }
+}
+```
+
+---
