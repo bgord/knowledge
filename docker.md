@@ -288,3 +288,12 @@ docker rmi $(docker images -q)
 ```
 
 ---
+
+**Env_file in docker-compose**
+
+```
+env_file:
+  - ./node-auth-proxy/.env
+```
+
+---
