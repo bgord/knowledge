@@ -573,3 +573,18 @@ Don't use `page.select()`, use `page.type()` instead.
 And add an event handler on `input` action for select (instead of `change`).
 
 ---
+
+**Create a new Adonis project**
+
+```
+$ adonis new app_name [options]
+```
+
+Relevant options:
+
+```
+--api (only API server)
+--blueprint <github project path>?
+```
+
+---
