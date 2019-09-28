@@ -325,3 +325,21 @@ Host port 8080 remapped to port 80 in container.
 [source](https://github.com/ceelsoin/adonis-postgre-docker/blob/master/docker-compose.yml)
 
 ---
+
+**Cannot access PG database from a Node container in docker-compose**
+
+1. Check if inside a Node container you're connecting to a port on guest instead of host.
+2. Add container names to not have to deal with host names.
+
+Inside docker-compose:
+
+```
+container_name: some_db
+```
+
+In some .env file:
+```
+DB_HOST: some_db
+```
+
+---
