@@ -361,3 +361,13 @@ volumes:
 ```
 
 ---
+
+**Connect to a database within a container with psql**
+
+```bash
+$ docker-compose exec -it container_db_name sh
+$ su postgres
+$ psql -U <user> -W <db name>
+```
+
+---
