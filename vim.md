@@ -379,3 +379,11 @@ A half: `50%`
 ```
 
 ---
+
+**Display an output of a command**
+
+```
+:!git status
+```
+
+---
