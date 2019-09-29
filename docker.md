@@ -343,3 +343,21 @@ DB_HOST: some_db
 ```
 
 ---
+
+**Create two database in one Postgres container**
+
+1. Copy this file to a directory within your app: [file](https://github.com/mrts/docker-postgresql-multiple-databases/blob/master/create-multiple-postgresql-databases.sh)
+2. Mount the directory containing the script to the database container.
+
+```
+volumes:
+  - ./pg-init-scripts:/docker-entrypoint-initdb.d
+```
+
+3. Specify the database names in the environment variable.
+
+```
+- POSTGRES_MULTIPLE_DATABASES=db1,db2
+```
+
+---
