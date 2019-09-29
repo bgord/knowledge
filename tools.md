@@ -512,3 +512,11 @@ $ mkdir -p $HOME/some/non/existant/path
 ```
 
 ---
+
+**Make text content editable in browser**
+
+```js
+document.designMode = "on";
+```
+
+---
