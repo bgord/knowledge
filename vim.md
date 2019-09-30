@@ -311,7 +311,7 @@ D
 2. C-v
 3. 3j
 4. I
-5. *<space>
+5. \*<space>
 6. Esc
 
 The text should look like this:
@@ -360,7 +360,6 @@ Previous paragraph: `{`
 
 A half: `50%`
 
-
 **Search and replace**
 
 ```
@@ -385,5 +384,11 @@ A half: `50%`
 ```
 :!git status
 ```
+
+---
+
+**Install coc extension with plugged in .vimrc**
+
+[source](https://www.reddit.com/r/vim/comments/brylz6/cocnvim_on_vim_any_dotfile_examples_on/eoi7vic?utm_source=share&utm_medium=web2x)
 
 ---
