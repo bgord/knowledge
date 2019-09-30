@@ -597,3 +597,27 @@ const number = inputValue.replace(/\s/g, "");
 ```
 
 ---
+
+**Alter a table column schema in Adonis/knex**
+
+```js
+const Schema = use("Schema");
+
+class AlterMaslolandiaUploadsSchema extends Schema {
+  up() {
+    this.table("some_table", table => {
+      table.integer("kwota_netto").notNullable();
+    });
+  }
+
+  down() {
+    this.table("some_table", table => {
+      table.dropColumn("some_table");
+    });
+  }
+}
+
+module.exports = AlterMaslolandiaUploadsSchema;
+```
+
+---
