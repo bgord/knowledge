@@ -621,3 +621,13 @@ module.exports = AlterMaslolandiaUploadsSchema;
 ```
 
 ---
+
+**Accept many date formats in moment.js**
+
+```js
+const moment = require("moment");
+
+const date = moment(value, ["YYYY/MM/DD", "YYYY-MM-DD", "DD.MM.YYY"]);
+```
+
+---
