@@ -520,3 +520,11 @@ document.designMode = "on";
 ```
 
 ---
+
+**Npm install in an Adonis project without installing Chromium**
+
+```
+$ PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install
+```
+
+---
