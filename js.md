@@ -588,3 +588,12 @@ Relevant options:
 ```
 
 ---
+
+**Replace spaces with empty strings**
+
+```js
+const inputValue = "1 000 000";
+const number = inputValue.replace(/\s/g, "");
+```
+
+---
