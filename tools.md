@@ -528,3 +528,13 @@ $ PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install
 ```
 
 ---
+
+**ESLint ignore node_modules**
+
+Create `.eslintignore` file.
+
+```
+node_modules/
+```
+
+---
