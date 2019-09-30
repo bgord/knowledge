@@ -38,3 +38,18 @@ $ adonis seed
 [source](https://forum.adonisjs.com/t/cannot-truncate-a-table-referenced-in-a-foreign-key-constraint/497/2)
 
 ---
+
+**How to correctly model controllers to be "cruddy"?**
+
+Never write custom actions. (max 7 standard CRUD actions).
+
+Figuring names: after an actions happens, what do we have that we didn't have before?
+
+1. Remodel a custom action on a nested resource to a CRUD action of some (maybe new) controller.
+2. Editing an attribute idependently from the rest? New controller.
+3. Touches pivot records? New controller, and probably a new model.
+4. Transitioning state? New controller.
+
+[source](https://www.youtube.com/watch?v=MF0jFKvS4SI&list=WL&index=16&t=0s)
+
+---
