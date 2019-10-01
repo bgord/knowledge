@@ -371,3 +371,9 @@ $ psql -U <user> -W <db name>
 ```
 
 ---
+
+**WORKDIR in Dockerfile**
+
+Sets the current directory for all operations. Just like `cd`.
+
+---
