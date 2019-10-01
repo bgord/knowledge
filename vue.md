@@ -14,3 +14,11 @@ $ vue inspect > webpack.txt
 ```
 
 ---
+
+**Override a Webpack config**
+
+Create a `vue.config.js` file.
+
+Values you can change: [sourc](https://cli.vuejs.org/config/#filenamehashing)
+
+---
