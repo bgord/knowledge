@@ -515,3 +515,9 @@ $ git rev-parse --show-toplevel
 ```
 
 ---
+
+**Change the origin repository name**
+
+Change `.git/config` [remote "origin"] `url` entry.
+
+---
