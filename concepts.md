@@ -53,3 +53,12 @@ Figuring names: after an actions happens, what do we have that we didn't have be
 [source](https://www.youtube.com/watch?v=MF0jFKvS4SI&list=WL&index=16&t=0s)
 
 ---
+
+**Backend and frontend code containers**
+
+There's nothing wrong in keeping both backend and frontend code in on container.
+Although it's a good idea to start only backend in the container entrypoint.
+Frontend dev server can be run via docker-compose exec or docker run command.
+It also allows running an nginx to serve the static frontend files in production.
+
+---
