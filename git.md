@@ -521,3 +521,11 @@ $ git rev-parse --show-toplevel
 Change `.git/config` [remote "origin"] `url` entry.
 
 ---
+
+**Get last tag**
+
+```
+$ git describe --tags
+```
+
+---
