@@ -2,7 +2,6 @@
 
 ## Tools 21
 
-- How to use PurgeCSS with TailwindCSS? [1](https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css)
 - How to pass a visual selection to a bash command in VIM?
 - What are scoped packages?
 - How to disallow navigating back in the page after logout. [1](https://www.youtube.com/watch?v=IZTUyVEVa90)

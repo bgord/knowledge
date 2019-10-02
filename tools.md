@@ -546,3 +546,29 @@ Error message: "the input device is not a tty".
 The problem is that by default `docker-compose exec` allocates a TTY, to avoid that, add a `-T` option.
 
 ---
+
+**Use PurgeCSS with TailwindCSS**
+
+Install required packages:
+
+```bash
+$ npm i @fullhuman/postcss-purgecss autoprefixer postcss-cli tailwindcss
+```
+
+Add `postcss.config.js` file:
+
+```js
+module.exports = {
+  plugins: [
+    require("tailwindcss"),
+    require("autoprefixer"),
+    process.env.NODE_ENV === "production" &&
+      require("@fullhuman/postcss-purgecss")({
+        content: ["./frontend/src/**/.tsx", "./frontend/index.html"],
+        defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || []
+      })
+  ]
+};
+```
+
+---
