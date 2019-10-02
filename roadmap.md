@@ -1,9 +1,8 @@
 # Roadmap for 2019
 
-## Tools 20
+## Tools 19
 
 - What are scoped packages?
-- How to disallow navigating back in the page after logout. [1](https://www.youtube.com/watch?v=IZTUyVEVa90)
 - How to use `util.inspect`?
 - How to copy/past from external program to VIM? [1](https://imgur.com/rNlQJuT)
 - What does `2>&1` idiom mean in bash? [1](https://www.brianstorti.com/understanding-shell-script-idiom-redirect/)
@@ -74,10 +73,11 @@
 - How to make an image preserve its aspect ratio https://tailwindcss.com/course/locking-images-to-a-fixed-aspect-ratio/?
 - user-select: none;
 
-## HTML 2
+## HTML 3
 
 - How to use \<abbr\>?
 - How and when to use lang/hreflang attribute? [1](https://twitter.com/romano_cla/status/1130832868039581696)
+- How to use `dd` `dl` `dt`?
 
 ## nginx 1
 

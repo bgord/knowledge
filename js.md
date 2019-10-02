@@ -631,3 +631,46 @@ const date = moment(value, ["YYYY/MM/DD", "YYYY-MM-DD", "DD.MM.YYY"]);
 ```
 
 ---
+
+**Disallow navigating to a auth protected page after logout in Adonis**
+
+(This issue may occur in standard, non-PWA apps)
+
+Create a file: `app/Middleware/MustRevalidate.js`.
+
+```js
+class MustRevalidate {
+  async handle({ response }, next) {
+    response.header(
+      "Cache-Control",
+      "nocache, no-store, max-age=0, must-revalidate"
+    );
+    response.header("Pragma", "no-cache");
+    response.header("Expires", "Fri, 01 Jan 1990 00:00:00 GMT");
+    await next();
+  }
+}
+
+module.exports = MustRevalidate;
+```
+
+Add it to `namedMiddlewares` in `start/kernel.js`.
+
+```
+const namedMiddleware = {
+  // ...
+	revalidate: 'App/Middleware/MustRevalidate',
+  // ...
+};
+
+```
+
+And use it like:
+
+```js
+Route.get("/", "SomeController.index").middleware("revalidate");
+```
+
+[source](https://www.youtube.com/watch?v=IZTUyVEVa90)
+
+---
