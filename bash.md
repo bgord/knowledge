@@ -12,7 +12,7 @@
 
 Asserts exit code.
 
-```
+```bash
 if tmux ls -F '#S' | grep -q 'dot'; then
  echo "Command run successfully."
 fi
@@ -36,7 +36,7 @@ Each command ends with a corresponding exit code.
 
 It doesn't store the binary name
 
-```
+```bash
 echo $@
 ```
 
@@ -44,7 +44,7 @@ echo $@
 
 **Switch case statement**
 
-```
+```bash
 case "$2" in
   'frontend:start')
     PORTS_FLAGS="-p 80:80"
@@ -99,11 +99,24 @@ Usage: `$CURRENT_BRANCH`
 
 **How to check if a variable is an empty string?**
 
-```
+```bash
   if [ -z "$1" ]; then
     echo "No branch to merge"
     return 1
   fi
+```
+
+---
+
+**String comparison**
+
+```bash
+echo $ENV:
+if [ $ENV == "testing" ]; then
+  echo "TESTING MODE";
+else
+  echo "NORMAL MODE";
+fi
 ```
 
 ---
