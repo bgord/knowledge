@@ -538,3 +538,11 @@ node_modules/
 ```
 
 ---
+
+**Cannot run Docker command in Husky hook**
+
+Error message: "the input device is not a tty".
+
+The problem is that by default `docker-compose exec` allocates a TTY, to avoid that, add a `-T` option.
+
+---
