@@ -529,3 +529,11 @@ $ git describe --tags
 ```
 
 ---
+
+**Push new tag**
+
+```
+$ git push --tags # it's rational to also use --no-verify option
+```
+
+---
