@@ -392,3 +392,27 @@ A half: `50%`
 [source](https://www.reddit.com/r/vim/comments/brylz6/cocnvim_on_vim_any_dotfile_examples_on/eoi7vic?utm_source=share&utm_medium=web2x)
 
 ---
+
+**Pass a visual selection to a shell command**
+
+Replace the selection with an output of a command.
+
+Input:
+
+```
+1
+2
+3
+```
+
+Press: `!grep 2<CR`
+
+Output:
+
+```
+2
+```
+
+To only display an output of a command press: `:w !grep 2<CR>`.
+
+---
