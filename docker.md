@@ -338,6 +338,7 @@ container_name: some_db
 ```
 
 In some .env file:
+
 ```
 DB_HOST: some_db
 ```
@@ -375,5 +376,11 @@ $ psql -U <user> -W <db name>
 **WORKDIR in Dockerfile**
 
 Sets the current directory for all operations. Just like `cd`.
+
+---
+
+**Difference between exec vs run in docker-compose**
+
+`exec` requires a running container, but `run` doesn't.
 
 ---
