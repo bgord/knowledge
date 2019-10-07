@@ -24,6 +24,8 @@ jogurtolandia_uploads
 2019-08-02
 ```
 
+The rule is: general first, specific last.
+
 ---
 
 **How to correctly remove data in between seeds**
