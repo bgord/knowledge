@@ -674,3 +674,12 @@ Route.get("/", "SomeController.index").middleware("revalidate");
 [source](https://www.youtube.com/watch?v=IZTUyVEVa90)
 
 ---
+
+**Get query params**
+
+```js
+const queryParams = new URLSearchParams(window.location.search);
+queryParams.get("distributor");
+```
+
+---
