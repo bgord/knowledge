@@ -145,3 +145,14 @@ export default class extends Controller {
 ```
 
 ---
+
+**Pass data to an action**
+
+```js
+doStuff(ev) {
+  const el = ev.target;
+  el.dataset.index;
+}
+```
+
+---
