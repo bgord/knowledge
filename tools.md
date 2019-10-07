@@ -572,3 +572,11 @@ module.exports = {
 ```
 
 ---
+
+**Take a screenshot of a part of a screen**
+
+```bash
+$ scrot -s image.png
+```
+
+---
