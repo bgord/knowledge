@@ -683,3 +683,15 @@ queryParams.get("distributor");
 ```
 
 ---
+
+**Create query params string**
+
+```js
+const distributor = "1";
+const value = "2";
+
+const newQueryParams = new URLSearchParams({ distributor, value });
+newQueryParams.toString(); // ?distributor=1&value=2
+```
+
+---
