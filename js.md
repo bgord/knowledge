@@ -725,3 +725,24 @@ app.use(bodyParser.urlencoded({ extended: true }));
 ```
 
 ---
+
+**Override HTTP method in forms with Express**
+
+```js
+// server.js
+
+const methodOverride = require("method-override");
+
+// place as soon as possible
+app.use(methodOverride("__method"));
+```
+
+```html
+// index.html
+
+<form method="POST" action="/product/:id?__method=" DELETE>
+  <button type="submit">Usuń</button>
+</form>
+```
+
+---
