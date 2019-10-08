@@ -384,3 +384,21 @@ Sets the current directory for all operations. Just like `cd`.
 `exec` requires a running container, but `run` doesn't.
 
 ---
+
+**Reliably get a host of a service running inside docker-compose**
+
+Get the `container_name` value.
+
+```yml
+version: "3"
+services:
+  node:
+    build:
+      context: ./node-auth-proxy
+      dockerfile: Dockerfile-node-auth-proxy
+    container_name: app_container
+    ports:
+      - 3000:3000
+```
+
+---
