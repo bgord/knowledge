@@ -715,3 +715,13 @@ app.use((err, req, res, next) => {
 ```
 
 ---
+
+**Cannot access <form /> data in express app**
+
+The following line from `body-parser` package is missing.
+
+```js
+app.use(bodyParser.urlencoded({ extended: true }));
+```
+
+---
