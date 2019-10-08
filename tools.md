@@ -580,3 +580,11 @@ $ scrot -s image.png
 ```
 
 ---
+
+**Define basic auth credentials in httpie**
+
+```bash
+$ http GET localhost:3000 -a admin:1234
+```
+
+---
