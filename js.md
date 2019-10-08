@@ -746,3 +746,22 @@ app.use(methodOverride("__method"));
 ```
 
 ---
+
+**Check if one value equals some other value in Indicative**
+
+```js
+const rules = {
+  password: "required",
+  password_confirmation: "required|same:password"
+};
+```
+
+or
+
+```js
+const rules = {
+  password: "confirmed"
+};
+```
+
+---
