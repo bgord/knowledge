@@ -65,3 +65,15 @@ WHERE created_at > now() - '1 week'::interval
 [source](https://popsql.com/learn-sql/postgresql/how-to-query-date-and-time-in-postgresql/)
 
 ---
+
+**Insert query returning data**
+
+```sql
+INSERT INTO table_name (id, age, name) VALUES (1, 20, "Bartek") RETURNING *;
+```
+
+`RETURNING *` means that Postgres returns everything that was inserted.
+
+To return only `id`, add `RETURNING id`.
+
+---
