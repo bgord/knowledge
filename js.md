@@ -695,3 +695,23 @@ newQueryParams.toString(); // ?distributor=1&value=2
 ```
 
 ---
+
+**Universal error handling middleware in Express**
+
+```js
+app.use(bodyParser.json());
+app.get("/", (req, res, next) => {
+  try {
+    // do something here
+  } catch (e) {
+    next(e);
+  }
+});
+
+// the error handling middleware should be places as the last one
+app.use((err, req, res, next) => {
+  // handle errors here
+});
+```
+
+---
