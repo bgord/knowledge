@@ -416,3 +416,11 @@ Output:
 To only display an output of a command press: `:w !grep 2<CR>`.
 
 ---
+
+**Count visually selected characters**
+
+```
+:w !wc -c
+```
+
+---
