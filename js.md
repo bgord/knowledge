@@ -765,3 +765,11 @@ const rules = {
 ```
 
 ---
+
+**Create an array of number 1-100**
+
+```js
+Array.from({ length: 100 }).map((_, i) => i + 1);
+```
+
+---
