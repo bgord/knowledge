@@ -442,3 +442,24 @@ table {
 ```
 
 ---
+
+**Make table scrollable**
+
+```html
+<div>
+  <table></table>
+</div>
+```
+
+```css
+div {
+  max-width: 500px;
+  width: 100%;
+  overflow: scroll;
+}
+table {
+  width: 100%;
+}
+```
+
+---
