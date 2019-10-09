@@ -77,3 +77,15 @@ INSERT INTO table_name (id, age, name) VALUES (1, 20, "Bartek") RETURNING *;
 To return only `id`, add `RETURNING id`.
 
 ---
+
+**Insert multiple rows at once**
+
+```sql
+INSERT INTO table_name
+(id, name)
+VALUES (1, 'ja1'),
+(2, 'ja2'),
+(3, 'ja3'),
+```
+
+---
