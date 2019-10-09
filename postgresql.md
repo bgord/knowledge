@@ -89,3 +89,11 @@ VALUES (1, 'ja1'),
 ```
 
 ---
+
+**Use psql to execute a command**
+
+```bash
+$ psql -u <username> -w -d <database> -c "SELECT NOW()"
+```
+
+---
