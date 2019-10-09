@@ -1150,3 +1150,16 @@ ReactDOM.render(<App />, rootElement);
 [tutorial](https://imgur.com/rNlQJuT)
 
 ---
+
+**Webpack dev server doesn't redirect /login to react-router-dom**
+
+```js
+  devServer: {
+    // ...
+    historyApiFallback: true,
+    contentBase: "./"
+    // ...
+  }
+```
+
+---
