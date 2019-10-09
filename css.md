@@ -422,3 +422,23 @@ It's a professional word for `letter-spacing` in CSS.
 It's a professional word for `line-height` in CSS.
 
 ---
+
+**Make table expand to some width**
+
+```html
+<div>
+  <table></table>
+</div>
+```
+
+```css
+div {
+  max-width: 500px;
+  width: 100%;
+}
+table {
+  width: 100%;
+}
+```
+
+---
