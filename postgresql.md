@@ -97,3 +97,11 @@ $ psql -u <username> -w -d <database> -c "SELECT NOW()"
 ```
 
 ---
+
+**Use psql to execute a file**
+
+```bash
+$ psql -u <username> -w -d <database> -f filename.sql
+```
+
+---
