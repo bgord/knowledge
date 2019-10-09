@@ -70,3 +70,10 @@ It also allows running an nginx to serve the static frontend files in production
 1. Click submit buttons in your tests instead of artificially submitting forms (e.g `.submitForm("formName")`). It helps when e.g a submit button doesn't have `type="submit"` and clicking it won't submit a form.
 
 ---
+
+**Comments about making scripts executable**
+
+If you use git, there's no need to add comments about making scripts executable.
+Git remembers fs permissions.
+
+---

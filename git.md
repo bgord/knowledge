@@ -537,3 +537,9 @@ $ git push --tags # it's rational to also use --no-verify option
 ```
 
 ---
+
+**File system permissions**
+
+Git remembers fs permissions.
+
+---
