@@ -773,3 +773,25 @@ Array.from({ length: 100 }).map((_, i) => i + 1);
 ```
 
 ---
+
+**Basic-auth in express**
+
+```bash
+$ npm i express-basic-auth
+```
+
+```js
+const basicAuth = require("express-basic-auth");
+
+app.use(
+  basicAuth({
+    users: {
+      admin: "password"
+    },
+    unauthorizedResponse: () => "You shall not pass",
+    challenge: true // forces a browser to display a prompt with login/password inputs
+  })
+);
+```
+
+---

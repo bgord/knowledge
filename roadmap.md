@@ -14,7 +14,6 @@
 - What does running something as a Linux service mean?
 - Default argument value in bash.
 - Describe Stimulus setup.
-- How does basic-auth work in http?
 - How to run a script after boot? (raok readme)
 - What are $ and $\$ in devtools console? [1](https://twitter.com/sulco/status/1156907922775056384)
 - What are the possibilities with GitHub actions? Can they replace Travis? [1](https://lab.github.com/github/hello-github-actions!)
