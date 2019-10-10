@@ -13,6 +13,8 @@
   Create graph visualisations on the go.
 - [bat](https://github.com/sharkdp/bat)
   Adds syntax highlighting to cat.
+- [redoc](https://github.com/Redocly/redoc)
+  Renders the Open API/Swagger specs in HTML
 
 ## React
 
