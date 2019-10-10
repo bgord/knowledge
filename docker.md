@@ -402,3 +402,9 @@ services:
 ```
 
 ---
+
+**Docker container default user**
+
+By default, processes in containers execute as `root`.
+
+---
