@@ -17,6 +17,8 @@
   Renders the Open API/Swagger specs in HTML
 - [catfish](https://launchpad.net/catfish-search)
   System-wide file searcher
+- [peek](https://github.com/phw/peek)
+  GIF recorder
 
 ## React
 
