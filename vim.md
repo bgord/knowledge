@@ -424,3 +424,11 @@ To only display an output of a command press: `:w !grep 2<CR>`.
 ```
 
 ---
+
+**Case insensitive selection sorting**
+
+```
+:sort i
+```
+
+---
