@@ -15,6 +15,8 @@
   Adds syntax highlighting to cat.
 - [redoc](https://github.com/Redocly/redoc)
   Renders the Open API/Swagger specs in HTML
+- [catfish](https://launchpad.net/catfish-search)
+  System-wide file searcher
 
 ## React
 
