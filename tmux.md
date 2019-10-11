@@ -79,3 +79,17 @@ For the current one:
 `$ tmux select-window -t "play"`
 
 ---
+
+**Copy/paste a text from a pane**
+
+```
+- type Prefix + [
+- move to a text you want to copy
+- prace Space to start selecting
+- use VIM movements to select a text
+- once you're finished selecting, press Enter to copy
+```
+
+Now, the text can be pasted by Prefix + ].
+
+---
