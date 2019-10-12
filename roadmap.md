@@ -1,10 +1,9 @@
 # Roadmap for 2019
 
-## Tools 19
+## Tools 17
 
 - What are scoped packages?
 - How to use `util.inspect`?
-- How to copy/past from external program to VIM? [1](https://imgur.com/rNlQJuT)
 - What does `2>&1` idiom mean in bash? [1](https://www.brianstorti.com/understanding-shell-script-idiom-redirect/)
 - What's `sed` useful for? [1](https://www.brianstorti.com/enough-sed-to-be-useful/)
 - What's the difference between 0.0.0.0 and 127.0.0.1 in Docker/localhost?

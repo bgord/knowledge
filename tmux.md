@@ -80,7 +80,7 @@ For the current one:
 
 ---
 
-**Copy/paste a text from a pane**
+**Copy/paste from a pane by keyboard**
 
 ```
 - type Prefix + [
@@ -91,5 +91,11 @@ For the current one:
 ```
 
 Now, the text can be pasted by Prefix + ].
+
+---
+
+**Copy text by mouse**
+
+Select a text by holding the Shift key down, then Ctrl + c.
 
 ---
