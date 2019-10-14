@@ -588,3 +588,9 @@ $ http GET localhost:3000 -a admin:1234
 ```
 
 ---
+
+**Download an app from f-droid**
+
+Go to the f-droid page, download an apk, and use the installed app to download apps.
+
+---

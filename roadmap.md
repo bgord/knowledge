@@ -1,6 +1,6 @@
 # Roadmap for 2019
 
-## Tools 17
+## Tools 16
 
 - What are scoped packages?
 - How to use `util.inspect`?
@@ -18,7 +18,6 @@
 - What are the possibilities with GitHub actions? Can they replace Travis? [1](https://lab.github.com/github/hello-github-actions!)
 - How to setup a Vagrant machine for local development? [1](https://tech.osteel.me/posts/2015/01/25/how-to-use-vagrant-for-local-web-development.html#port-forwarding)
 - https://stackoverflow.com/questions/1628563/move-the-most-recent-commits-to-a-new-branch-with-git
-- How to download an app from fdroid?
 
 ## React 11
 
