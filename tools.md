@@ -610,3 +610,11 @@ $ scp filename.txt user@<remote_host_ip>:/remote/dir/to/copy/to
 ```
 
 ---
+
+**`npx` mechanics**
+
+It either: checks `node_modules/.bin`, global cache, or installs all packages required to run an action.
+
+e.g: `npx eslint .`
+
+---
