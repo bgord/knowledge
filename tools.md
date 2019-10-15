@@ -594,3 +594,11 @@ $ http GET localhost:3000 -a admin:1234
 Go to the f-droid page, download an apk, and use the installed app to download apps.
 
 ---
+
+**SSH to a Vagrant machine without vagrant ssh**
+
+```bash
+$ ssh -i .vagrant/machines/<machine_name>/virtualbox/private_key -p <forwarded_port_guest> <user>@<machine_private_network_ip>
+```
+
+---
