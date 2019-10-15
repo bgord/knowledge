@@ -602,3 +602,11 @@ $ ssh -i .vagrant/machines/<machine_name>/virtualbox/private_key -p <forwarded_p
 ```
 
 ---
+
+**`scp` usage**
+
+```bash
+$ scp filename.txt user@<remote_host_ip>:/remote/dir/to/copy/to
+```
+
+---
