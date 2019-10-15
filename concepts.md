@@ -77,3 +77,21 @@ If you use git, there's no need to add comments about making scripts executable.
 Git remembers fs permissions.
 
 ---
+
+**JWT**
+
+It's a stateless authentication mechanism.
+
+It all starts with a secret that you sign your JWTs with.
+The first part of JWT is header which consists of algorithm name, type, or expiration date.
+The second part is a payload you want to transfer.
+The last part is a signature.
+
+Then, it's base64'd to a string token.
+
+It should typically be transfered by `Authorization=Bearer <token>` in HTTP requests.
+
+The main caveat is you cannot revoke a token in a canonical way.
+It's possible to set short expiration dates or store a list of expired tokens (which seems like an overkill).
+
+---
