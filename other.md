@@ -62,6 +62,7 @@ It's a word describing the general word for the category that more specific word
 It means "conflict", e.g when an uploaded file is older than it's previous version on the sever.
 
 ---
+
 **What does "vide" mean?**
 
 "see", used as a written instruction for a reader to look at the particular page,book,piece of information.
@@ -97,5 +98,11 @@ It's one of the traffic light colors: red, amber, green.
 **What is C10K problem?**
 
 It's a problem of handling ten thousand concurrent connections.
+
+---
+
+**Hofstadter's law**
+
+"It always takes longer than you expect, even when you take into account Hofstadter's law."
 
 ---
