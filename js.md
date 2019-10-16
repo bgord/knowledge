@@ -795,3 +795,9 @@ app.use(
 ```
 
 ---
+
+**Problem with authentication access in AdonisJS**
+
+Add `auth` middleware at the beginning of the list.
+
+---
