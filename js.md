@@ -817,10 +817,14 @@ const payload = {
 
 const rules = {
   status: "required",
-  response: {
-    message: "required"
-  }
+  "response.message": "required"
 };
 ```
+
+---
+
+**Hide fields in queries**
+
+[link](https://adonisjs.com/docs/4.0/lucid#_hidden)
 
 ---
