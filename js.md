@@ -828,3 +828,19 @@ const rules = {
 [link](https://adonisjs.com/docs/4.0/lucid#_hidden)
 
 ---
+
+**Adonis transaction example**
+
+```js
+const trx = await Database.beginTransaction();
+try {
+  await trx.insert({ username: "virk" }).into("users");
+
+  await trx.commit(); // insert query will take place on commit
+} catch (e) {
+  console.error(e);
+  await trx.rollback(); // will not insert anything
+}
+```
+
+---
