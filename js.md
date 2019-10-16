@@ -801,3 +801,26 @@ app.use(
 Add `auth` middleware at the beginning of the list.
 
 ---
+
+**Indicative nested structures validation**
+
+```js
+// Given this object, create a validation rules.
+// response.message is a requried string
+
+const payload = {
+  status: 200,
+  response: {
+    message: "xxx"
+  }
+};
+
+const rules = {
+  status: "required",
+  response: {
+    message: "required"
+  }
+};
+```
+
+---
