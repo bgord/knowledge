@@ -440,3 +440,15 @@ To only display an output of a command press: `:w !grep 2<CR>`.
 ```
 
 ---
+
+**Copy current filename**
+
+```
+:let @+ = expand("%:t")
+```
+
+@+ means current register
+
+[source](https://stackoverflow.com/questions/916875/yank-file-name-path-of-current-buffer-in-vim)
+
+---

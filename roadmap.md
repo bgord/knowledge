@@ -1,21 +1,13 @@
 # Roadmap for 2019
 
-## Tools 15
+## Tools 7
 
-- What are scoped packages?
-- How to use `util.inspect`?
 - What does `2>&1` idiom mean in bash? [1](https://www.brianstorti.com/understanding-shell-script-idiom-redirect/)
-- What's `sed` useful for? [1](https://www.brianstorti.com/enough-sed-to-be-useful/)
 - What's the difference between 0.0.0.0 and 127.0.0.1 in Docker/localhost?
-- How to use docker-compose links?
 - How to setup nginx for let's encrypt? [1](https://www.digitalocean.com/community/tutorials/how-to-secure-a-containerized-node-js-application-with-nginx-let-s-encrypt-and-docker-compose)
 - What does running something as a Linux service mean?
-- Default argument value in bash.
-- Describe Stimulus setup.
 - How to run a script after boot? (raok readme)
 - What are $ and $\$ in devtools console? [1](https://twitter.com/sulco/status/1156907922775056384)
-- What are the possibilities with GitHub actions? Can they replace Travis? [1](https://lab.github.com/github/hello-github-actions!)
-- How to setup a Vagrant machine for local development? [1](https://tech.osteel.me/posts/2015/01/25/how-to-use-vagrant-for-local-web-development.html#port-forwarding)
 - https://stackoverflow.com/questions/1628563/move-the-most-recent-commits-to-a-new-branch-with-git
 
 ## React 11
