@@ -543,3 +543,14 @@ $ git push --tags # it's rational to also use --no-verify option
 Git remembers fs permissions.
 
 ---
+
+**Grab a file from another branch without a merge**
+
+Let's say we're on a feature branch `bg_feature` and we want to grab a file `index.js` from branch `master`.
+
+```
+# on branch `bg_feature`
+$ git checkout master index.js
+```
+
+---
