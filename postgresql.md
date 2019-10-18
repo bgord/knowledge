@@ -105,3 +105,11 @@ $ psql -u <username> -w -d <database> -f filename.sql
 ```
 
 ---
+
+**Get next id sequence value in given table**
+
+```sql
+SELECT nextval(pg_get_serial_sequence('table_name', 'id'));
+```
+
+---
