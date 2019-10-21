@@ -1163,3 +1163,10 @@ ReactDOM.render(<App />, rootElement);
 ```
 
 ---
+
+**Composable components**
+
+[1](https://www.freecodecamp.org/news/introducing-the-single-element-pattern-dfbd2c295c5d/)
+[2](https://gist.github.com/ryanflorence/e5c794e6093d16a69fa88d2112a292f7)
+
+---
