@@ -95,3 +95,12 @@ The main caveat is you cannot revoke a token in a canonical way.
 It's possible to set short expiration dates or store a list of expired tokens (which seems like an overkill).
 
 ---
+
+**Folder structures**
+
+Flat structure with long and descriptive names > deep folder structure.
+Optimize for discoverability: finding the right file/moving files around.
+
+[1](https://twitter.com/dan_abramov/status/1145354949871767552)
+
+---

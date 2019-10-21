@@ -36,14 +36,13 @@
 - What's an `--incremental` flag in TypeScript?
 - How to access function parameters with `Parameters` in TS. [1](https://twitter.com/sulco/status/1102935418843131904)
 
-## Concepts 8
+## Concepts 7
 
 - What's null hypothesis?
 - What's C10k problem?
 - What's mutation testing?
 - How does bullet journal work?
 - What's the difference between forward and reverse proxy?
-- Descriptive names, flat folders.[1](https://twitter.com/dan_abramov/status/1145354949871767552)
 - What's the difference between positive and negative reinforcement?
 - What's the 'So what?' test about? [1](https://www.polepositionmarketing.com/emp/so-what-test/)
 
