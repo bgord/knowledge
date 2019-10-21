@@ -1,21 +1,16 @@
 # Roadmap for 2019
 
-## Tools 7
+## Tools 5
 
-- What does `2>&1` idiom mean in bash? [1](https://www.brianstorti.com/understanding-shell-script-idiom-redirect/)
 - What's the difference between 0.0.0.0 and 127.0.0.1 in Docker/localhost?
 - How to setup nginx for let's encrypt? [1](https://www.digitalocean.com/community/tutorials/how-to-secure-a-containerized-node-js-application-with-nginx-let-s-encrypt-and-docker-compose)
 - What does running something as a Linux service mean?
 - How to run a script after boot? (raok readme)
-- What are $ and $\$ in devtools console? [1](https://twitter.com/sulco/status/1156907922775056384)
 - https://stackoverflow.com/questions/1628563/move-the-most-recent-commits-to-a-new-branch-with-git
 
-## React 11
+## React 10
 
-- What is a compound component?
 - How to write a modal using React portal?
-- How to use React 16.9 Profiler?
-- Can we create a hook factory function? E.g to pass a config object that a hook needs to have an access to.
 - How to automatically audit accessibilty in React apps? [1](https://web.dev/accessibility-auditing-react/)
 - How to use error boundaries? [1](https://github.com/bvaughn/react-error-boundary)
 - What is chaos engineering? [1](https://twitter.com/PhilippSpiess/status/1149282859494064128/photo/1) [2](https://en.wikipedia.org/wiki/Chaos_engineering) [3](https://aweary.dev/fault-tolerance-react/)
@@ -24,51 +19,16 @@
 - How to create a custom render function in r-t-l? [1](https://testing-library.com/docs/react-testing-library/setup#custom-render)
 - How to write a `usePortal` hook? [1](https://www.jayfreestone.com/writing/react-portals-with-hooks/)
 
-## JavaScript/TypeScript - 9
+## JavaScript/TypeScript - 4
 
-- console.log('time spent:', duration.toLocaleString('en-US', {maximumFractionDigits: 1}) + ' s');
-- How to access elements by id easier? [1](https://twitter.com/sulco/status/1161613974338772992)
-- What are `console.{table, time, timeLog, timeEnd, count, countReset, trace, assert}` useful for?
-- Describe `[].filter(Boolean)` idiom.
 - How to use `ReadonlyArray` in TS?
-- Describe `[x, y, z].includes()` instead of `if ( x || y || z )` pattern.
 - Describe `VoidFunction` instead of `() = void` TS pattern.
 - What's an `--incremental` flag in TypeScript?
 - How to access function parameters with `Parameters` in TS. [1](https://twitter.com/sulco/status/1102935418843131904)
 
-## Concepts 7
+## HTML 1
 
-- What's null hypothesis?
-- What's C10k problem?
-- What's mutation testing?
-- How does bullet journal work?
-- What's the difference between forward and reverse proxy?
-- What's the difference between positive and negative reinforcement?
-- What's the 'So what?' test about? [1](https://www.polepositionmarketing.com/emp/so-what-test/)
-
-## Git - 4
-
-- What problem do `git submodules` solve?
-- How to use `filter-branch`?
-- How to find out in which commit given file was added [link](https://stackoverflow.com/questions/11533199/find-commit-where-file-was-added)?
-- What are subtrees?
-
-## CSS - 4
-
-- What's the effect of `object-fit` on images?
-- How to create a L-R and T-B image mirror effect?
-- How to make an image preserve its aspect ratio https://tailwindcss.com/course/locking-images-to-a-fixed-aspect-ratio/?
-- user-select: none;
-
-## HTML 3
-
-- How to use \<abbr\>?
-- How and when to use lang/hreflang attribute? [1](https://twitter.com/romano_cla/status/1130832868039581696)
 - How to use `dd` `dl` `dt`?
-
-## nginx 1
-
-- How to create a reverse proxy?
 
 ## To refine 15
 
