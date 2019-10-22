@@ -796,7 +796,7 @@ app.use(
 
 ---
 
-**Problem with authentication access in AdonisJS**
+**Problem with authentication access in Adonis**
 
 Add `auth` middleware at the beginning of the list.
 
@@ -841,6 +841,23 @@ try {
   console.error(e);
   await trx.rollback(); // will not insert anything
 }
+```
+
+---
+
+**Pass params to a middleware in Adonis**
+
+```js
+.middleware(['account-status:active'])
+
+class AccountStatus {
+  async handle({ response, auth }, next, properties) {
+    // in properties variable you have access to the params
+    // e.g "active" string
+  }
+}
+
+module.exports = AccountStatus;
 ```
 
 ---
