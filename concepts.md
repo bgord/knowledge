@@ -104,3 +104,15 @@ Optimize for discoverability: finding the right file/moving files around.
 [1](https://twitter.com/dan_abramov/status/1145354949871767552)
 
 ---
+
+**Email change flow**
+
+1. Sending a verification message to the old account. (won't work because the account may be compromised)
+2. Sending a verification message to the new account. (an intruder may grab somebody's device and set a email to their own address).
+3. Sending a verification messages to both accounts. (won't work because of #1)
+
+The best approach is the #2 but forcing user to input a passoword before the change.
+
+[1](https://ux.stackexchange.com/a/58553)
+
+---
