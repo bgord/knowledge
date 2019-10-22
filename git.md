@@ -554,3 +554,13 @@ $ git checkout master index.js
 ```
 
 ---
+
+**Globally git ignore files**
+
+```bash
+$ git config --global core.excludesfile /path/to/global/gitignore
+```
+
+[1](https://gist.github.com/subfuzion/db7f57fff2fb6998a16c)
+
+---

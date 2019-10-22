@@ -28,7 +28,7 @@
 
 ## HTML 1
 
-- How to use `dd` `dl` `dt`?
+- How to use `dd`/`dl`/`dt`?
 
 ## To refine 15
 
