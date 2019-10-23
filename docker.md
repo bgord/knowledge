@@ -408,3 +408,11 @@ services:
 By default, processes in containers execute as `root`.
 
 ---
+
+**Pull images required for docker-compose file to work**
+
+```bash
+$ docker-compose pull
+```
+
+---

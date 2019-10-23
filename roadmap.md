@@ -8,8 +8,9 @@
 - How to run a script after boot? (raok readme)
 - https://stackoverflow.com/questions/1628563/move-the-most-recent-commits-to-a-new-branch-with-git
 
-## React 10
+## React 9
 
+- How to handle environment variables in webpack for a React application? [1](https://www.robinwieruch.de/webpack-advanced-setup-tutorial#webpack-environment-variables-definition) [2](https://www.robinwieruch.de/webpack-advanced-setup-tutorial#webpack-environment-variables-env-files)
 - How to write a modal using React portal?
 - How to automatically audit accessibilty in React apps? [1](https://web.dev/accessibility-auditing-react/)
 - How to use error boundaries? [1](https://github.com/bvaughn/react-error-boundary)
@@ -30,19 +31,13 @@
 
 - How to use `dd`/`dl`/`dt`?
 
-## To refine 15
+## To refine 9
 
 - Gather tips&tricks from Refactoring UI (book).
 - https://gist.github.com/ryanflorence/f812198561c58aec1326ac800e6ea519
-- https://kentcdodds.com/blog/avoid-the-test-user
-- https://kentcdodds.com/blog/how-to-implement-usestate-with-usereducer
 - https://www.reddit.com/r/nosurf/comments/9cbyn5/the_beginners_guide_to_nosurf_essential_reading/
 - https://praxis.fortelabs.co/the-p-a-r-a-method-a-universal-system-for-organizing-digital-information-75a9da8bfb37/
-- https://www.robinwieruch.de/webpack-advanced-setup-tutorial
-- https://breakingsmart.substack.com/p/planning-to-start-planning-to-finish
-- https://medium.com/javascript-in-plain-english/https-medium-com-javascript-in-plain-english-why-you-should-use-an-object-not-an-array-for-lists-bee4a1fbc8bd
 - https://ostrowski.ninja/pytania-ktore-programista-powinien-zadac-swojemu-potencjalnemu-pracodawcy-part-1-ogolne/
-- http://jeffe.cs.illinois.edu/teaching/algorithms/
 - https://github.com/amejiarosario/dsa.js-data-structures-algorithms-javascript
 - https://marnujeczas.pl/2019/06/06/o-sztuce-wystapien-publicznych/
 - https://dev.to/exampro/700-web-developers-asked-me-to-give-them-linkedin-profile-feedback-and-these-are-my-5-top-tips-5382
