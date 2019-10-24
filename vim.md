@@ -461,3 +461,12 @@ Type `Alt + A` to load all the results to a quickfix.
 Right now, you can navigate to all the results.
 
 ---
+
+**Quickfix mappings**
+
+:cn - go to the next item
+:cp - go to the previous item
+:cnf - go to the next file in the list
+:cpf - go to the previous file in the list
+
+---
