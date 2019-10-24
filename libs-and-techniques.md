@@ -19,6 +19,8 @@
   System-wide file searcher
 - [peek](https://github.com/phw/peek)
   GIF recorder
+- [recordmydesktop](http://recordmydesktop.sourceforge.net/about.php)
+  Desktop + audio recorder
 
 ## React
 
