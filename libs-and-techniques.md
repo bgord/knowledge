@@ -21,6 +21,14 @@
   GIF recorder
 - [recordmydesktop](http://recordmydesktop.sourceforge.net/about.php)
   Desktop + audio recorder
+- [sitespeed.io](https://www.sitespeed.io/)
+  Website performance tester
+- [Page Speed](https://developers.google.com/speed/pagespeed/insights/?hl=pl)
+  Website performance tester with optimization tips
+- [Ligthouse](https://github.com/GoogleChrome/lighthouse)
+  Website performance analyzer
+- [siege](https://github.com/JoeDog/siege)
+  Load/stress tests tool
 
 ## React
 
