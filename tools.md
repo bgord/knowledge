@@ -624,3 +624,11 @@ e.g: `npx eslint .`
 It's called screen burn-in, some tips: [1](https://www.lifewire.com/fix-screen-burn-in-4178041).
 
 ---
+
+**Get a size of a directory**
+
+```sh
+$ du -sh some_dir
+```
+
+---
