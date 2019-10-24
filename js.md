@@ -861,3 +861,9 @@ module.exports = AccountStatus;
 ```
 
 ---
+
+**Can you use Adonis validator to validate query strings in GET requests?**
+
+YES, just add a regular Adonis validator.
+
+---
