@@ -867,3 +867,10 @@ module.exports = AccountStatus;
 YES, just add a regular Adonis validator.
 
 ---
+
+**above vs min in Indicative**
+
+`min` is for string/array length
+`above` is for numbers
+
+---
