@@ -116,3 +116,11 @@ The best approach is the #2 but forcing user to input a passoword before the cha
 [1](https://ux.stackexchange.com/a/58553)
 
 ---
+
+**401 vs 403 HTTP status**
+
+401 - invalid credentials (unauthorized)
+
+403 - valid credentials but not enough permissions (forbidden)
+
+---
