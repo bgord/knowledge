@@ -874,3 +874,11 @@ YES, just add a regular Adonis validator.
 `above` is for numbers
 
 ---
+
+**Access query params in Adonis**
+
+```js
+const offset = request.get().offset;
+```
+
+---
