@@ -96,7 +96,7 @@ Now, the text can be pasted by Prefix + ].
 
 **Copy text by mouse**
 
-Select a text by holding the Shift key down, then Ctrl + c.
+Select a text by holding the Shift key down, then Ctrl + Shift + c.
 
 ---
 
