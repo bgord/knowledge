@@ -7,6 +7,8 @@
 - What does running something as a Linux service mean?
 - How to run a script after boot? (raok readme)
 - https://stackoverflow.com/questions/1628563/move-the-most-recent-commits-to-a-new-branch-with-git
+- What's a quickfix in Vim?
+- What's a location list in Vim?
 
 ## React 9
 

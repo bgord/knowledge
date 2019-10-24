@@ -452,3 +452,12 @@ To only display an output of a command press: `:w !grep 2<CR>`.
 [source](https://stackoverflow.com/questions/916875/yank-file-name-path-of-current-buffer-in-vim)
 
 ---
+
+**Populate quickfix with all files matching a pattern in Vim**
+
+To find all occurrences of a pattern, type: `:Ag invalid_token<CR>`.
+It shows a fzf list of results, and right now you could go to one result at a time.
+Type `Alt + A` to load all the results to a quickfix.
+Right now, you can navigate to all the results.
+
+---
