@@ -99,3 +99,9 @@ Now, the text can be pasted by Prefix + ].
 Select a text by holding the Shift key down, then Ctrl + c.
 
 ---
+
+**Kill current pane**
+
+Prefix + x
+
+---
