@@ -882,3 +882,13 @@ const offset = request.get().offset;
 ```
 
 ---
+
+**Where not null in Knex**
+
+```js
+await Database.select("*")
+  .from("users")
+  .whereNotNull("network");
+```
+
+---
