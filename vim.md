@@ -470,3 +470,12 @@ Right now, you can navigate to all the results.
 :cpf - go to the previous file in the list
 
 ---
+
+**Open all files containing a pattern**
+
+```bash
+$ ag -l invalid_token | xargs -o vim
+```
+
+-
+--
