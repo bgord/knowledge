@@ -33,6 +33,8 @@
   A faster way to lint JS files.
 - [schema validations](https://indicative.adonisjs.com/guides/master/introduction)
   A universal approach to validate forms and http request.
+- [queue for batch processing](https://github.com/lukeed/saturated)
+  A handler is called every N items or every X ms (whichever comes first).
 
 ## Social life
 
