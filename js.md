@@ -892,3 +892,13 @@ await Database.select("*")
 ```
 
 ---
+
+**Access array index in for of loop**
+
+```js
+const consumers = ["a", "b", "c"];
+for (let [index, consumer] of consumers.entries()) {
+}
+```
+
+---
