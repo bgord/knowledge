@@ -564,3 +564,20 @@ $ git config --global core.excludesfile /path/to/global/gitignore
 [1](https://gist.github.com/subfuzion/db7f57fff2fb6998a16c)
 
 ---
+
+**Move most recent commit(s) to a new branch**
+
+```bash
+# currently on branch `master`
+
+touch new_file
+git add new_file
+git commit "Add new file"
+
+git branch test_new_file # create a new branch that points to the latest commit
+git reset HEAD~1 --hard # reset `master` to the previous commit
+
+# right now, the only branch that points to the latest commit is `test_new_file`
+```
+
+---

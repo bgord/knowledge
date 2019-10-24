@@ -1,12 +1,11 @@
 # Roadmap for 2019
 
-## Tools 5
+## Tools 6
 
 - What's the difference between 0.0.0.0 and 127.0.0.1 in Docker/localhost?
 - How to setup nginx for let's encrypt? [1](https://www.digitalocean.com/community/tutorials/how-to-secure-a-containerized-node-js-application-with-nginx-let-s-encrypt-and-docker-compose)
 - What does running something as a Linux service mean?
 - How to run a script after boot? (raok readme)
-- https://stackoverflow.com/questions/1628563/move-the-most-recent-commits-to-a-new-branch-with-git
 - What's a quickfix in Vim?
 - What's a location list in Vim?
 
