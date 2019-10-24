@@ -618,3 +618,9 @@ It either: checks `node_modules/.bin`, global cache, or installs all packages re
 e.g: `npx eslint .`
 
 ---
+
+**Noticeable discoloration or ghosting of previous image**
+
+It's called screen burn-in, some tips: [1](https://www.lifewire.com/fix-screen-burn-in-4178041).
+
+---
