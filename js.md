@@ -916,3 +916,11 @@ R.range(0, 10):
 ```
 
 ---
+
+**Access route params from path in Adonis**
+
+```
+params.userId;
+```
+
+---
