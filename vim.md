@@ -486,3 +486,9 @@ $ ag -l invalid_token | xargs -o vim
 ```
 
 ---
+
+**:echo has('clipboard') outputs 0**
+
+The sollution may be to install `gvim` which (somehow) adds this feature to Vim.
+
+---
