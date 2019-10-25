@@ -581,3 +581,11 @@ git reset HEAD~1 --hard # reset `master` to the previous commit
 ```
 
 ---
+
+**Amend without commit message prompt**
+
+```bash
+$ git commit --amend --no-edit
+```
+
+---
