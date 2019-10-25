@@ -477,5 +477,12 @@ Right now, you can navigate to all the results.
 $ ag -l invalid_token | xargs -o vim
 ```
 
--
---
+---
+
+**Count pattern occurrences**
+
+```
+:%s/pattern//gn
+```
+
+---
