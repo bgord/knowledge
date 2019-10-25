@@ -632,3 +632,11 @@ $ du -sh some_dir
 ```
 
 ---
+
+**Ls only for directories**
+
+```
+$ ls -d */
+```
+
+---
