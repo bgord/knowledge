@@ -902,3 +902,17 @@ for (let [index, consumer] of consumers.entries()) {
 ```
 
 ---
+
+**Array.from({length}) Ramda alternative**
+
+```js
+# Create an array of 10 elements
+
+// JS version
+Array.from({length: 10});
+
+// Ramda version
+R.range(0, 10):
+```
+
+---
