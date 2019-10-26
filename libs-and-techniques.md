@@ -49,3 +49,8 @@
 ## Social life
 
 - [thank, don't apologize](https://twitter.com/nataliabielova/status/1146855928714711041)
+
+## Learning languages
+
+- [clozemaster](https://www.clozemaster.com/)
+  Automatically generated cloze deletions for many languages.
