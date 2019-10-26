@@ -26,3 +26,9 @@ Ctrl - Shift - I
 To find language cards with empty Audio field: `note:Language Audio:`.
 
 ---
+
+**Create a custom note type**
+
+[1](https://www.polyglossic.com/anki-custom-note-types-complex-cards/)
+
+---
