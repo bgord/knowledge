@@ -725,3 +725,11 @@ $ ssh user@machine -p 25
 ```
 
 ---
+
+**List all users on a machine**
+
+```bash
+$ cat /etc/passwd
+```
+
+---
