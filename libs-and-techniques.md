@@ -31,6 +31,8 @@
   Load/stress tests tool
 - [npkill](https://github.com/voidcosmos/npkill)
   Search and delete node_modules folder
+- [fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page)
+  Bans malicious IPs
 
 ## React
 
