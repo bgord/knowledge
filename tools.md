@@ -695,3 +695,11 @@ $ apt-get upgrade   # upgrade the packages themselves
 ```
 
 ---
+
+**Change user's password**
+
+```bash
+$ passwd bartosz
+```
+
+---
