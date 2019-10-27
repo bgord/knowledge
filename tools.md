@@ -821,3 +821,13 @@ $ vim /etc/ssh/sshd_config
 ```
 
 ---
+
+**Setup ufw**
+
+```bash
+$ ufw status # likely to be "inactive"
+$ ufw allow 80
+$ ufw enable # restart the config
+```
+
+---
