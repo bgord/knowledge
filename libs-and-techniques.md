@@ -29,6 +29,8 @@
   Website performance analyzer
 - [siege](https://github.com/JoeDog/siege)
   Load/stress tests tool
+- [npkill](https://github.com/voidcosmos/npkill)
+  Search and delete node_modules folder
 
 ## React
 
