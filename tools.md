@@ -789,3 +789,15 @@ Host some-machine-name
 > If you experience an error regarding unknown host "some-machine-name", you can add the "<ip> some-machine-name" pair to the /etc/hosts file.
 
 ---
+
+**Make a user one of the sudoers**
+
+```
+$ export EDITOR=vim;
+$ visudo
+
+# Add a new entry:
+deploy  ALL=(ALL) ALL
+```
+
+---
