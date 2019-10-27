@@ -686,3 +686,12 @@ First, decide which user you want this person to login as. Then, go to `/home/<u
 It may be the case that you closed KeePassX before pasting the password.
 
 ---
+
+**apt-get in Ubuntu**
+
+```bash
+$ apt-get update    # update the list of packages
+$ apt-get upgrade   # upgrade the packages themselves
+```
+
+---
