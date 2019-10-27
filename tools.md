@@ -773,3 +773,19 @@ $ ssh -i ~/.ssh/id_rsa  user@machine
 ```
 
 ---
+
+**Define an ssh config for a connection**
+
+```
+$ vim ~/.ssh/config
+# Add a new entry:
+
+Host some-machine-name
+  User some-user
+  Port 25
+  IdentityFile ~/.ssh/id_rsa
+```
+
+> If you experience an error regarding unknown host "some-machine-name", you can add the "<ip> some-machine-name" pair to the /etc/hosts file.
+
+---
