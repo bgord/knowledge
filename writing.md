@@ -7,3 +7,12 @@
 `Em dash`— can take place of commas, parentheses, or colons.
 
 ---
+
+**Smart quotes vs dumb quotes**
+
+Dumb quotes are the ones available straight from keyboard: "Harry Potter".
+Smart quotes, however, are typographically correct: “Harry Potter”.
+
+The main difference is in the curviness, and the fact that the opening and closing quotes are different.
+
+---
