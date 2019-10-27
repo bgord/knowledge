@@ -763,3 +763,13 @@ $ chown deploy:deploy /home/deploy -R           # make deploy the owner
 ```
 
 ---
+
+**Login to a server by an identity file via ssh**
+
+> ~/.ssh/id_rsa must be a private file corresponding to a public key defined in authorized_keys on a machine you trying to log into
+
+```
+$ ssh -i ~/.ssh/id_rsa  user@machine
+```
+
+---
