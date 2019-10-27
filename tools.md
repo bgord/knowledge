@@ -801,3 +801,15 @@ deploy  ALL=(ALL) ALL
 ```
 
 ---
+
+**Disable root user via ssh**
+
+```
+$ vim /etc/ssh/sshd_config
+
+# Find a line: "PermitRootLogin yes"
+# And change it to: "PermitRootLogin no"
+
+```
+
+---
