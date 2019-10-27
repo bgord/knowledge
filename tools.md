@@ -658,3 +658,11 @@ $ curl ifconfig.me
 ```
 
 ---
+
+**Check if a user has access to sudo**
+
+```
+$ sudo -l -U user_name
+```
+
+---
