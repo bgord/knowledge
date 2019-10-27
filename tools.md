@@ -733,3 +733,17 @@ $ cat /etc/passwd
 ```
 
 ---
+
+**Setup a new user on an Ubuntu machine**
+
+```
+$ useradd deploy
+$ mkdir /home/deploy
+$ mkdir /home/deploy/.ssh
+$ chmod 700 /home/deploy/.ssh                   # rwx access for an owner
+$ touch /home/deploy/.ssh/authorized_keys
+$ chmod 400 /home/deploy/.ssh/authorized_keys   # r access for an owner
+$ chown deploy:deploy /home/deploy -R           # make deploy the owner
+```
+
+---
