@@ -32,7 +32,9 @@
 - [npkill](https://github.com/voidcosmos/npkill)
   Search and delete node_modules folder
 - [fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page)
-  Bans malicious IPs
+  Bans malicious IPs trying to access a server
+- [logwatch](https://webinsider.pl/linux-debian-logwatch/)
+  Notify about suspicious activities via email
 
 ## React
 
