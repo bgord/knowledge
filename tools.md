@@ -703,3 +703,17 @@ $ passwd bartosz
 ```
 
 ---
+
+**Change ssh default port for an Ubuntu machine**
+
+```bash
+$ vim /etc/ssh/sshd_config
+
+# Find a "#Port 22" line (22 is the default port)
+# Uncomment it - remove the "#"
+# Change it to, say, "Port 25"
+
+$ /etc/init.d/ssh restart # to apply changes
+```
+
+---
