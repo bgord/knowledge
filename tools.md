@@ -813,3 +813,11 @@ $ vim /etc/ssh/sshd_config
 ```
 
 ---
+
+**Sudo config file location**
+
+```
+/etc/ssh/sshd_config
+```
+
+---
