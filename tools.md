@@ -674,3 +674,9 @@ It's a file stored on a server, which contains a list of public keys that are al
 There should be one public key per line.
 
 ---
+
+**How to give somone access to a server**
+
+First, decide which user you want this person to login as. Then, go to `/home/<user>/.ssh` directory and add the person's public key to `authorized_keys` file.
+
+---
