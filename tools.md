@@ -680,3 +680,9 @@ There should be one public key per line.
 First, decide which user you want this person to login as. Then, go to `/home/<user>/.ssh` directory and add the person's public key to `authorized_keys` file.
 
 ---
+
+**Empty clipboard after copying from KeePassX**
+
+It may be the case that you closed KeePassX before pasting the password.
+
+---
