@@ -742,6 +742,14 @@ $ useradd usern_ame
 
 ---
 
+**Recursively set a user as an owner of directory(ies)**
+
+```bash
+$ chown deploy:deploy /home/deploy -R
+```
+
+---
+
 **Setup a new user on an Ubuntu machine**
 
 ```
