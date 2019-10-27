@@ -650,3 +650,11 @@ $ ssh root@137.74.192.86
 Then, you'll be prompted to enter a password
 
 ---
+
+**Check your machine's public IP**
+
+```bash
+$ curl ifconfig.me
+```
+
+---
