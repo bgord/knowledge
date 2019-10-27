@@ -734,6 +734,14 @@ $ cat /etc/passwd
 
 ---
 
+**Add a new user**
+
+```bash
+$ useradd usern_ame
+```
+
+---
+
 **Setup a new user on an Ubuntu machine**
 
 ```
