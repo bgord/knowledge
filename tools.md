@@ -640,3 +640,13 @@ $ ls -d */
 ```
 
 ---
+
+**Login to a VPS via ssh for the first time**
+
+```bash
+$ ssh root@137.74.192.86
+```
+
+Then, you'll be prompted to enter a password
+
+---
