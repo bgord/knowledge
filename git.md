@@ -548,7 +548,7 @@ Git remembers fs permissions.
 
 Let's say we're on a feature branch `bg_feature` and we want to grab a file `index.js` from branch `master`.
 
-```
+```bash
 # on branch `bg_feature`
 $ git checkout master index.js
 ```
@@ -586,6 +586,14 @@ git reset HEAD~1 --hard # reset `master` to the previous commit
 
 ```bash
 $ git commit --amend --no-edit
+```
+
+---
+
+**Check when and in which commit a file was added**
+
+```bash
+$ git log --diff-filter=A -- foo.js
 ```
 
 ---
