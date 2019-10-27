@@ -831,3 +831,10 @@ $ ufw enable # restart the config
 ```
 
 ---
+
+**Seting up a new VPS guides**
+
+[0](https://docs.ovh.com/pl/vps/porady-zabezpieczenie-vps/)
+[1](https://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers)
+
+---
