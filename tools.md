@@ -666,3 +666,11 @@ $ sudo -l -U user_name
 ```
 
 ---
+
+**What's /home/bartosz/.ssh/authorized_keys file for**
+
+It's a file stored on a server, which contains a list of public keys that are allow to ssh to as this user (in this case bartosz) to the given machine.
+
+There should be one public key per line.
+
+---
