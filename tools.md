@@ -717,3 +717,11 @@ $ /etc/init.d/ssh restart # to apply changes
 ```
 
 ---
+
+**Specify a port while connecting via ssh**
+
+```bash
+$ ssh user@machine -p 25
+```
+
+---
