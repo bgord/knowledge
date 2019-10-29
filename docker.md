@@ -416,3 +416,10 @@ $ docker-compose pull
 ```
 
 ---
+
+**Ubuntu installation**
+
+[0](https://linuxize.com/post/how-to-install-and-use-docker-on-ubuntu-18-04/)
+[1](https://github.com/sindresorhus/guides/blob/master/docker-without-sudo.md) - you may need to reconnect to the server to make it work
+
+---

@@ -814,7 +814,7 @@ $ vim /etc/ssh/sshd_config
 
 ---
 
-**Sudo config file location**
+**SSH config file location**
 
 ```
 /etc/ssh/sshd_config
