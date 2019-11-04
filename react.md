@@ -1177,3 +1177,23 @@ ReactDOM.render(<App />, rootElement);
 - Use `import()` in routes.
 
 ---
+
+**Redirect to a path if no routes matched**
+
+Remember not to share history between many `Router` instances.
+
+```jsx
+<Router history={history}>
+  <Switch>
+    <Route path="/logout">
+      <Logout />
+    </Route>
+    <Route path="/dashboard">
+      <Link to="/logout">Logout</Link>
+    </Route>
+    <Redirect to="/dashboard"></Redirect>
+  </Switch>
+</Router>
+```
+
+---
