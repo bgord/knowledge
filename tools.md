@@ -838,3 +838,10 @@ $ ufw enable # restart the config
 [1](https://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers)
 
 ---
+
+**Make Webpack simultaneously watch and build files**
+
+Add `watch: true` in the Webpack config, then run it as `webpack --mode development`.
+It doesn't start the server though.
+
+---
