@@ -597,3 +597,11 @@ $ git log --diff-filter=A -- foo.js
 ```
 
 ---
+
+**Branch checkout history**
+
+```bash
+$ git reflog
+```
+
+---
