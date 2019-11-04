@@ -845,3 +845,15 @@ Add `watch: true` in the Webpack config, then run it as `webpack --mode developm
 It doesn't start the server though.
 
 ---
+
+**Access development/production mode in Webpack config**
+
+Return a function accepting env and argv parameters instead of an object.
+
+```js
+module.exports = (env, argv) => {
+  console.log(argv.mode); // development/production
+};
+```
+
+---
