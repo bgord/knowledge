@@ -130,3 +130,9 @@ The best approach is the #2 but forcing user to input a passoword before the cha
 1. Frequently run `apt-get update && apt-get upgrade`.
 
 ---
+
+**Are cookies port specific?**
+
+Yes.
+
+---
