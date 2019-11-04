@@ -1170,3 +1170,10 @@ ReactDOM.render(<App />, rootElement);
 [2](https://gist.github.com/ryanflorence/e5c794e6093d16a69fa88d2112a292f7)
 
 ---
+
+**React app starting point**
+
+- Wrap your entire app in `<React.StrictMode />` component.
+- Use `import()` in routes.
+
+---
