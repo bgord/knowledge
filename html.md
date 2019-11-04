@@ -23,3 +23,17 @@
 [source](https://codepen.io/bgord/pen/YzKdgJp)
 
 ---
+
+**Suggest a secure password**
+
+```html
+<input
+  id="hexId"
+  type="password"
+  pattern="[0-9a-fA-F]{4,8}"
+  title="Enter an ID consisting of 4-8 hexadecimal digits"
+  autocomplete="new-password"
+/>
+```
+
+---
