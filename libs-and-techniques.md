@@ -51,6 +51,8 @@
   A universal approach to validate forms and http request.
 - [queue for batch processing](https://github.com/lukeed/saturated)
   A handler is called every N items or every X ms (whichever comes first).
+- [knex.js](https://knexjs.org/)
+  A universal query builder that works for many SQL engines.
 
 ## Social life
 
