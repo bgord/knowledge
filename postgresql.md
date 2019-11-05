@@ -158,3 +158,15 @@ Database.select("*")
 ```
 
 ---
+
+**Search by lowercased phrase**
+
+```js
+const lowercasedSearchByNamePhrase = "xxx";
+
+Database.select("*")
+  .from("users")
+  .whereRaw("LOWER(name) LIKE ?", `%${lowercasedSearchByNamePhrase}%`);
+```
+
+---
