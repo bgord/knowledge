@@ -148,3 +148,13 @@ Database.select("*")
 ```
 
 ---
+
+**Where like in knex raw select**
+
+```js
+Database.select("*")
+  .form("users")
+  .whereRaw("email LIKE ?", `%${searchByEmailPhrase}%`);
+```
+
+---
