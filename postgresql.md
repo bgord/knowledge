@@ -127,3 +127,14 @@ Database.select(knex.raw("company_info ->> 'NIP' as NIP"));
 ```
 
 ---
+
+**Select two column values concatenated**
+
+```js
+Database.select(
+  "age",
+  knex.raw("first_name || ' ' || last_name as full_name")
+).from("users");
+```
+
+---
