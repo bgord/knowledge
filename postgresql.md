@@ -138,3 +138,13 @@ Database.select(
 ```
 
 ---
+
+**Where equal in knex raw select**
+
+```js
+Database.select("*")
+  .form("users")
+  .where("name", "<>", "admin");
+```
+
+---
