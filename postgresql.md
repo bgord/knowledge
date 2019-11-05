@@ -113,3 +113,17 @@ SELECT nextval(pg_get_serial_sequence('table_name', 'id'));
 ```
 
 ---
+
+**Select a nested value from a JSON field in knex**
+
+```js
+const data = {
+  company_info: {
+    NIP: "1111111111"
+  }
+};
+
+Database.select(knex.raw("company_info ->> 'NIP' as NIP"));
+```
+
+---
