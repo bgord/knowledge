@@ -492,3 +492,11 @@ $ ag -l invalid_token | xargs -o vim
 The sollution may be to install `gvim` which (somehow) adds this feature to Vim.
 
 ---
+
+**Move cursor to the end of the last insert position**
+
+```
+gi
+```
+
+---
