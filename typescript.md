@@ -812,3 +812,19 @@ Next steps:
 - add `"exclude": ["./typings", "./node_modules"]` `tsconfig.json` rule
 
 ---
+
+**Enable TypeScript for Cypress**
+
+```js
+// tsconfig.json
+
+{
+	"compilerOptions": {
+		"types": ["cypress"]
+	},
+	"include": ["./cypress"]
+}
+
+```
+
+---
