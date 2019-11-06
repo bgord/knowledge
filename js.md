@@ -938,3 +938,13 @@ cy.findByText("Invalid email or password.").should("not.exist");
 Use `Model.findBy("id", id)` instead.
 
 ---
+
+**Cypress check if input is invalid**
+
+```js
+cy.findByLabelText("Password")
+  .type("123")
+  .should(field => expect(field.get(0).checkValidity()).to.be.false);
+```
+
+---
