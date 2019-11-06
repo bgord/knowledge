@@ -37,3 +37,26 @@
 ```
 
 ---
+
+**Consistent min/max length support**
+
+Use `pattern` instead of min/max length.
+
+```html
+You can use the pattern attribute. The required attribute is also needed,
+otherwise an input field with an empty value will be excluded from constraint
+validation.
+
+<input pattern=".{3,}" required title="3 characters minimum" />
+<input pattern=".{5,10}" required title="5 to 10 characters" />
+
+If you want to create the option to use the pattern for "empty, or minimum
+length", you could do the following:
+
+<input pattern=".{0}|.{5,10}" required title="Either 0 OR (5 to 10 chars)" />
+<input pattern=".{0}|.{8,}" required title="Either 0 OR (8 chars minimum)" />
+```
+
+[0](https://stackoverflow.com/questions/10281962/is-there-a-minlength-validation-attribute-in-html5)
+
+---
