@@ -924,3 +924,11 @@ params.userId;
 ```
 
 ---
+
+**Cypress check if element doesn't exist**
+
+```js
+cy.findByText("Invalid email or password.").should("not.exist");
+```
+
+---
