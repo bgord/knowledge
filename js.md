@@ -974,3 +974,26 @@ import "@testing-library/cypress/add-commands";
 ```
 
 ---
+
+**Adonis serve index.html**
+
+```js
+Route.get("*", async ({ request, response }) => {
+  const resourcePath = request.url();
+  if (resourcePath === "/") {
+    return response.download(Helpers.publicPath("index.html"));
+  }
+  const pathSegments = resourcePath.split("/");
+  const filename = pathSegments[pathSegments.length - 1];
+
+  const resourcePathExists = await Drive.exists(`../public/${filename}`);
+
+  return response.download(
+    Helpers.publicPath(
+      resourcePathExists && filename !== "" ? filename : "index.html"
+    )
+  );
+});
+```
+
+---
