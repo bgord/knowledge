@@ -956,3 +956,11 @@ cy.url().should("include", "/login");
 ```
 
 ---
+
+**Cypress check if URL is equal to a strin**
+
+```js
+cy.url().should("eq", "http://localhost:3333/login");
+```
+
+---
