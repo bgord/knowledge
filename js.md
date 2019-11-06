@@ -932,3 +932,9 @@ cy.findByText("Invalid email or password.").should("not.exist");
 ```
 
 ---
+
+**Adonis Model.find(id) fails if id is a uuid**
+
+Use `Model.findBy("id", id)` instead.
+
+---
