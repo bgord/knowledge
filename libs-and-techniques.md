@@ -40,6 +40,8 @@
 
 - [typesafe-actions](https://github.com/piotrwitek/typesafe-actions)
   A way to reduce type boilerplate while working with redux-like action descriptors.
+- [react-async](https://www.npmjs.com/package/react-async)
+  A set of hooks to manager promises.
 
 ## JavaScript
 
