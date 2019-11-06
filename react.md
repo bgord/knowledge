@@ -1197,3 +1197,9 @@ Remember not to share history between many `Router` instances.
 ```
 
 ---
+
+**An easy approach to authentication in React**
+
+[0](https://kentcdodds.com/blog/authentication-in-react-applications)
+
+---
