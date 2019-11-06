@@ -957,10 +957,20 @@ cy.url().should("include", "/login");
 
 ---
 
-**Cypress check if URL is equal to a strin**
+**Cypress check if URL is equal to a string**
 
 ```js
 cy.url().should("eq", "http://localhost:3333/login");
+```
+
+---
+
+**Add @testing-library/cypress**
+
+Put the following line inside the `cypress/support/commands.js` file.
+
+```js
+import "@testing-library/cypress/add-commands";
 ```
 
 ---
