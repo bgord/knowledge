@@ -948,3 +948,11 @@ cy.findByLabelText("Password")
 ```
 
 ---
+
+**Cypress check if URL contains a subpath**
+
+```js
+cy.url().should("include", "/login");
+```
+
+---
