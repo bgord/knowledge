@@ -136,3 +136,14 @@ The best approach is the #2 but forcing user to input a passoword before the cha
 Yes.
 
 ---
+
+**What's the difference between 127.0.0.1 and 0.0.0.0?**
+
+127.0.0.1 means "here", the address of the local computer.
+
+0.0.0.0 is not really an address, it means "\*".
+
+A server on a machine/container has to be running on 0.0.0.0 to allows outside connections.
+If run on 127.0.0.1, will allow only local connections.
+
+---
