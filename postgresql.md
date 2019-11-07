@@ -194,3 +194,22 @@ Database.table("visits").select(
 ```
 
 ---
+
+**Where not null in Knex**
+
+```js
+await Database.select("*")
+  .from("users")
+  .whereNotNull("network");
+```
+
+---
+**Where not null in Knex**
+
+```js
+await Database.select("*")
+  .from("users")
+  .whereNotNull("network");
+```
+
+---
