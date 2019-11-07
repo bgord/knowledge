@@ -320,8 +320,6 @@ rl.question("Which animal do you like the most? ", answer => {
 
 `export {useTimer} from "./use-timer"`
 
-[x] anki
-
 ---
 
 **How to access a arguments passed to a node script?**
@@ -994,6 +992,16 @@ Route.get("*", async ({ request, response }) => {
     )
   );
 });
+```
+
+---
+
+**Export with changed name**
+
+```js
+function customRender() {}
+
+export { customRender as render };
 ```
 
 ---
