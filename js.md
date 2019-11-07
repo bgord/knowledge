@@ -1003,3 +1003,49 @@ Because once a test fails, the transaction is still hanging and you need to clea
 [0](https://adonisjs.com/docs/4.1/testing-fakes#_database_transactions)
 
 ---
+
+**Xstate basic toggle button example**
+
+```jsx
+import React from "react";
+
+import { Machine } from "xstate";
+import { useMachine } from "@xstate/react";
+
+// Possible states: active/inactive.
+// Possible events: TOGGLE.
+
+const toggleMachine = Machine({
+  id: "toggle",
+  initial: "active",
+  states: {
+    active: {
+      on: {
+        TOGGLE: "inactive"
+      }
+    },
+    inactive: {
+      on: {
+        TOGGLE: "active"
+      }
+    }
+  }
+});
+
+// Send TOGGLE event.
+// And check if current state matches given string.
+function App() {
+  const [current, send] = useMachine(toggleMachine);
+  return (
+    <div className="App">
+      <button onClick={() => send("TOGGLE")}>
+        {current.matches("inactive") ? "off" : "on"}
+      </button>
+    </div>
+  );
+}
+
+export default App;
+```
+
+---
