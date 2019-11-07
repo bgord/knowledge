@@ -181,3 +181,16 @@ Database.table("visits").select(
 ```
 
 ---
+
+**Make Postgres preserve camelCase in as x**
+
+Wrap the `as` name with double quotes.
+
+```js
+Database.table("visits").select(
+  "visits.user_id as userId",
+  Database.raw("to_char(visits.created_at, 'DD-MM-YYYY') as \"createdAtDate\"")
+);
+```
+
+---
