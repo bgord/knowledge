@@ -170,3 +170,14 @@ Database.select("*")
 ```
 
 ---
+
+**Convert timestamp to date**
+
+```js
+Database.table("visits").select(
+  "visits.user_id as userId",
+  Database.raw("to_char(visits.created_at, 'DD-MM-YYYY') as \"createdAtDate\"")
+);
+```
+
+---
