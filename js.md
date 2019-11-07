@@ -1005,3 +1005,11 @@ export { customRender as render };
 ```
 
 ---
+
+**Why not to use DatabaseTransactions fake helper in Adonis tests?**
+
+Because once a test fails, the transaction is still hanging and you need to clear the database.
+
+[0](https://adonisjs.com/docs/4.1/testing-fakes#_database_transactions)
+
+---
