@@ -1280,3 +1280,45 @@ export {
 [0](https://testing-library.com/docs/react-testing-library/setup#add-custom-queries)
 
 ---
+
+**Load an env file by webpack**
+
+When it comes to process.env variables, browsers behave unlike node runtime.
+We don't have any `process` variable available in them.
+What webpack does, is simple substitution.
+If looks for `process.env.*` declarations throughout your project, and replaces it by respective values.
+How does it access these values?
+
+The manual way is to use standard `dotenv` package.
+
+Inside your webpack.config.js file:
+
+```js
+// get plain JS object representing the env variables
+const envVariables = dotenv.config({ path: ".env-frontend" }).parsed;
+
+// convert it from { API_URL: "http://localhost:3333" } to { "process.env.API_URL": "http://localhost:3333" }
+// so it is substitutable
+const envKeys = Object.entries(envVariables).reduce(
+  (result, [key, value]) => ({
+    ...result,
+    [`process.env.${key}`]: JSON.stringify(value)
+  }),
+  {}
+);
+
+// Define plugin creates the global, substitutable constants at compile time
+plugins: [new webpack.DefinePlugin(envKeys)];
+```
+
+Or, you can use `dotenv-webpack`, which performs these manual steps automatically.
+
+```js
+const Dotenv = require("dotenv-webpack");
+
+plugins: [new Dotenv({ path: ".env-frontend" })];
+```
+
+Warning: `./.env-frontend` path may not work, use `.env-frontend` instead.
+
+---
