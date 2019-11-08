@@ -1,8 +1,7 @@
 # Roadmap for 2019
 
-## Tools 6
+## Tools 5
 
-- What's the difference between 0.0.0.0 and 127.0.0.1 in Docker/localhost?
 - How to setup nginx for let's encrypt? [1](https://www.digitalocean.com/community/tutorials/how-to-secure-a-containerized-node-js-application-with-nginx-let-s-encrypt-and-docker-compose)
 - What does running something as a Linux service mean?
 - How to run a script after boot? (raok readme)
