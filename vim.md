@@ -500,3 +500,9 @@ gi
 ```
 
 ---
+
+**Marks**
+
+`ma` to create a mark for the **a** letter, and use 'a to go to the beginning of the line, and use \`a to go to the exact location.
+
+---
