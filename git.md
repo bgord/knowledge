@@ -605,3 +605,11 @@ $ git reflog
 ```
 
 ---
+
+**List changed filenames**
+
+```
+$ git diff --name-only
+```
+
+---
