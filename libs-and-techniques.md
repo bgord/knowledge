@@ -35,6 +35,8 @@
   Bans malicious IPs trying to access a server
 - [logwatch](https://webinsider.pl/linux-debian-logwatch/)
   Notify about suspicious activities via email
+- [screenkey](https://gitlab.com/wavexx/screenkey)
+  Display pressed keys on the screen
 
 ## React
 

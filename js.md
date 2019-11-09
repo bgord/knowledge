@@ -293,7 +293,7 @@ Anything from a-z, A-Z, and 0-9 and " " (space), repeated 0-n times.
 
 ---
 
-**How to use completer function?**
+**Node command autocompletion**
 
 ```
 const readline = require("readline");
