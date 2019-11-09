@@ -1004,7 +1004,7 @@ Because once a test fails, the transaction is still hanging and you need to clea
 
 ---
 
-**Xstate basic toggle button example**
+**xstate basic toggle button example**
 
 ```jsx
 import React from "react";
@@ -1047,5 +1047,11 @@ function App() {
 
 export default App;
 ```
+
+---
+
+**xstate sign-in form example**
+
+[0](https://codesandbox.io/s/l3r07jkxx9)
 
 ---
