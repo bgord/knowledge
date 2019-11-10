@@ -863,3 +863,9 @@ module.exports = (env, argv) => {
 [1](https://gist.github.com/mems/5475170)
 
 ---
+
+**Setup a custom domain for a Netlify project**
+
+[0](https://www.youtube.com/watch?v=Q9giWrfIJKk)
+
+---
