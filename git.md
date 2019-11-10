@@ -613,3 +613,17 @@ $ git diff --name-only
 ```
 
 ---
+
+**Ignore all files from a directory with exceptions**
+
+```
+// .gitignore
+
+deploy-cache/
+
+!.gitkeep
+```
+
+Ignore all files from `deploy-cache/` directory except `.gitkeep` file.
+
+---
