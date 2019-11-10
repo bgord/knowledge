@@ -869,3 +869,9 @@ module.exports = (env, argv) => {
 [0](https://www.youtube.com/watch?v=Q9giWrfIJKk)
 
 ---
+
+**Create a Gatsby blog and deploy it with Netlify**
+
+[0](https://www.youtube.com/watch?v=729oQL9uQVo)
+
+---
