@@ -135,3 +135,9 @@ $ http GET 173.16.238.11 // nginx proxies a request to node.js which returns "He
 [Source](https://github.com/robertoachar/docker-nginx-express/blob/master/.docker/nginx.conf)
 
 ---
+
+**Redirect a subdomain to a specific port**
+
+[0](https://whatididtodowhatidid.wordpress.com/2014/03/14/subdomains-for-ports-on-same-ubuntu-server-with-nginx-reverse-proxy/)
+
+---
