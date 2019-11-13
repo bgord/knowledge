@@ -506,3 +506,11 @@ gi
 `ma` to create a mark for the **a** letter, and use 'a to go to the beginning of the line, and use \`a to go to the exact location.
 
 ---
+
+**Replace tabs with spaces**
+
+```
+:%retab
+```
+
+---

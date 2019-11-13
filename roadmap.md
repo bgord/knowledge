@@ -8,9 +8,8 @@
 - What's a quickfix in Vim?
 - What's a location list in Vim?
 
-## React 9
+## React 8
 
-- How to handle environment variables in webpack for a React application? [1](https://www.robinwieruch.de/webpack-advanced-setup-tutorial#webpack-environment-variables-definition) [2](https://www.robinwieruch.de/webpack-advanced-setup-tutorial#webpack-environment-variables-env-files)
 - How to write a modal using React portal?
 - How to automatically audit accessibilty in React apps? [1](https://web.dev/accessibility-auditing-react/)
 - How to use error boundaries? [1](https://github.com/bvaughn/react-error-boundary)
