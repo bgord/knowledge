@@ -514,3 +514,11 @@ gi
 ```
 
 ---
+
+**Changelist**
+
+Every time you make a change that can be undone, Vim saves the cursor position of the place it happened.
+
+You can access it via `:changes`.
+
+---
