@@ -8,7 +8,7 @@
 - What's a quickfix in Vim?
 - What's a location list in Vim?
 
-## React 8
+## React 7
 
 - How to write a modal using React portal?
 - How to automatically audit accessibilty in React apps? [1](https://web.dev/accessibility-auditing-react/)
@@ -16,7 +16,6 @@
 - What is chaos engineering? [1](https://twitter.com/PhilippSpiess/status/1149282859494064128/photo/1) [2](https://en.wikipedia.org/wiki/Chaos_engineering) [3](https://aweary.dev/fault-tolerance-react/)
 - How to access component's types? [1](https://twitter.com/sulco/status/1160890708615716864)
 - How to create component with `as` prop? [1](https://dev.to/selbekk/the-10-component-commandments-2a7f#articles-list)
-- How to create a custom render function in r-t-l? [1](https://testing-library.com/docs/react-testing-library/setup#custom-render)
 - How to write a `usePortal` hook? [1](https://www.jayfreestone.com/writing/react-portals-with-hooks/)
 
 ## JavaScript/TypeScript - 4

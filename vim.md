@@ -522,3 +522,10 @@ Every time you make a change that can be undone, Vim saves the cursor position o
 You can access it via `:changes`.
 
 ---
+
+**Go to next/previous changelist item**
+
+Next: `g;`
+Previous: `g,`
+
+---
