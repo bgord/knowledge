@@ -204,12 +204,22 @@ await Database.select("*")
 ```
 
 ---
+
 **Where not null in Knex**
 
 ```js
 await Database.select("*")
   .from("users")
   .whereNotNull("network");
+```
+
+---
+
+**Query by date in Knex**
+
+```js
+const date = "2019-11-11";
+Database.table("users").whereRaw(`created_at::date = '${date}'`);
 ```
 
 ---
