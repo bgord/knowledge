@@ -60,3 +60,11 @@ length", you could do the following:
 [0](https://stackoverflow.com/questions/10281962/is-there-a-minlength-validation-attribute-in-html5)
 
 ---
+
+**What are the `dl`/`dt`/`dd` tags?**
+
+`dl` tag means description list.
+A term being explain should be wrapped into `dt`, description term.
+The description of the term should be wrapped into `dd` tag.
+
+---

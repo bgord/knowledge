@@ -25,10 +25,6 @@
 - What's an `--incremental` flag in TypeScript?
 - How to access function parameters with `Parameters` in TS. [1](https://twitter.com/sulco/status/1102935418843131904)
 
-## HTML 1
-
-- How to use `dd`/`dl`/`dt`?
-
 ## To refine 9
 
 - Gather tips&tricks from Refactoring UI (book).
