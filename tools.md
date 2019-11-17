@@ -50,7 +50,10 @@ const a = { a: 2, b:3};
 
 **To disable eslint**
 
-`/* eslint-disable */`
+```
+/* eslint-disable */`  - all rules
+/* eslint-disable no-console */ - only specific roles
+```
 
 ---
 
