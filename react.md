@@ -1322,3 +1322,13 @@ plugins: [new Dotenv({ path: ".env-frontend" })];
 Warning: `./.env-frontend` path may not work, use `.env-frontend` instead.
 
 ---
+
+**Add a dynamic import chunk name**
+
+```jsx
+const AuthenticatedApp = React.lazy(() =>
+  import(/* webpackChunkName: "authenticated-app" */ "./AuthenticatedApp")
+);
+```
+
+---
