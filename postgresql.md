@@ -223,3 +223,11 @@ Database.table("users").whereRaw(`created_at::date = '${date}'`);
 ```
 
 ---
+
+**Using bind params in raw queries**
+
+```js
+Database.table("visits").whereRaw(`created_at::date = ?`, [date]);
+```
+
+---
