@@ -1332,3 +1332,49 @@ const AuthenticatedApp = React.lazy(() =>
 ```
 
 ---
+
+**Plain HTML5 password confirmation validation**
+
+```tsx
+export const RegistrationWindow: React.FC = () => {
+  const [password, setPassword] = React.useState<string>("");
+  const [passwordConfirmation, setPasswordConfirmation] = React.useState<
+    string
+  >("");
+
+  return (
+    <form className="mb-4 md:flex md:flex-wrap md:justify-between">
+      <label className="field-label" htmlFor="password">
+        Password
+      </label>
+      <input
+        name="password"
+        id="password"
+        placeholder="********"
+        autoComplete="new-password"
+        title="Password should contain at least 6 characters."
+        value={password}
+        onChange={event => setPassword(event.target.value)}
+        type="password"
+        required
+        pattern=".{6,}"
+      />
+      <label className="field-label" htmlFor="password-confirmation">
+        Repeat password
+      </label>
+      <input
+        type="password"
+        name="password-confirmation"
+        id="password-confirmation"
+        pattern={password}
+        title="Passwords have to be equal"
+        value={passwordConfirmation}
+        onChange={event => setPasswordConfirmation(event.target.value)}
+        required
+      />
+    </form>
+  );
+};
+```
+
+---
