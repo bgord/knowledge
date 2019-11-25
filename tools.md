@@ -878,3 +878,11 @@ module.exports = (env, argv) => {
 [0](https://www.youtube.com/watch?v=729oQL9uQVo)
 
 ---
+
+**MacOS Spotlight shortcut**
+
+```
+CMD + space
+```
+
+---
