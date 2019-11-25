@@ -473,7 +473,7 @@ Unfreeze: Ctrl-Q
 
 ---
 
-**Serve a directory in local network**
+**Share a file or serve a directory in local network**
 
 ```bash
 $ yarn global add http-server

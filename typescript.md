@@ -78,7 +78,7 @@ You can pass them around, and export.
 
 ---
 
-**How to extend a interface?**
+**How to extend an interface?**
 
 Type aliases cannot be extended.
 
@@ -825,6 +825,19 @@ Next steps:
 	"include": ["./cypress"]
 }
 
+```
+
+---
+
+**Make interface properties optional**
+
+```ts
+interface Response {
+  status: number;
+  data: any;
+}
+
+Partial<Response>
 ```
 
 ---
