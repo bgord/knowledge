@@ -231,3 +231,24 @@ Database.table("visits").whereRaw(`created_at::date = ?`, [date]);
 ```
 
 ---
+
+**Knex transcation shortcut**
+
+```js
+const trx = await Database.beginTransaction();
+
+try {
+  await trx
+    .table("users")
+    .insert(newUserPayload)
+    .returning("id");
+
+  await trx.table("role").insert(newUserRolePayload);
+
+  trx.commit();
+} catch (e) {
+  trx.rollback();
+}
+```
+
+---
