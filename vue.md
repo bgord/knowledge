@@ -43,3 +43,17 @@ module.exports = {
 ```
 
 ---
+
+**Difference betwwen static and dynamic props**
+
+```vue
+<template>
+  //static title
+  <button title="xxx">Add payment</button>
+
+  //dynamic title (result of an expression)
+  <button :title="data.title + 'x'">Add payment</button>
+</template>
+```
+
+---
