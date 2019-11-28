@@ -886,3 +886,12 @@ CMD + space
 ```
 
 ---
+
+**Generate ssh key**
+
+```
+$ cd ~/.ssh
+$ ssh-keygen -f id_rsa_<name>
+```
+
+---
