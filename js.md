@@ -79,7 +79,12 @@ jest.runAllTimers(); // right before assertions
 **Jest test each**
 
 ```javascript
-const cases = [[false, undefined], [false, ""], [false, 1], [true, "text"]];
+const cases = [
+  [false, undefined],
+  [false, ""],
+  [false, 1],
+  [true, "text"]
+];
 test.each(cases)("should return %s when passing %s", (expected, a) => {
   const result = isNumberValidation(a);
   expect(result).toBe(expected);
@@ -1053,5 +1058,13 @@ export default App;
 **xstate sign-in form example**
 
 [0](https://codesandbox.io/s/l3r07jkxx9)
+
+---
+
+**Clear Firefox input box shadow after clearing values**
+
+```js
+document.querySelector("form").reset();
+```
 
 ---
