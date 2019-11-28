@@ -895,3 +895,10 @@ $ ssh-keygen -f id_rsa_<name>
 ```
 
 ---
+
+**Cypress create a custom assertion**
+
+[0](https://github.com/cypress-io/cypress-example-recipes/tree/master/examples/extending-cypress__chai-assertions)
+[1](https://github.com/cypress-io/cypress-example-recipes/blob/master/examples/extending-cypress__chai-assertions/cypress/support/index.js)
+
+---
