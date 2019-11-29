@@ -902,3 +902,9 @@ $ ssh-keygen -f id_rsa_<name>
 [1](https://github.com/cypress-io/cypress-example-recipes/blob/master/examples/extending-cypress__chai-assertions/cypress/support/index.js)
 
 ---
+
+**Find and replace placeholder text in files with sed**
+
+`sed -i 's/{{{name}}}/name/g' file1.txt file2.txt`
+
+---
