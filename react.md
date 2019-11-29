@@ -1378,3 +1378,22 @@ export const RegistrationWindow: React.FC = () => {
 ```
 
 ---
+
+**React hidden prop**
+
+It allows to hide host elements.
+
+```jsx
+function App() {
+  const [on, setOn] = React.useState(false);
+
+  return (
+    <div className="App">
+      <h1 hidden={!on}>Hello CodeSandbox</h1>
+      <button onClick={() => setOn(on => !on)}>Toggle</button>
+    </div>
+  );
+}
+```
+
+---
