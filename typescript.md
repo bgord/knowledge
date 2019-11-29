@@ -841,3 +841,13 @@ Partial<Response>
 ```
 
 ---
+
+**Type img props**
+
+```tsx
+export const Logo: React.FC<React.ImgHTMLAttributes<
+  HTMLImageElement
+>> = props => <img alt="Logo" src="logo.png" {...props} />;
+```
+
+---
