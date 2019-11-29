@@ -1082,3 +1082,16 @@ moment().subtract(1, "days");
 [0](https://github.com/adonisjs/adonis-http-logger)
 
 ---
+
+**Adonis reference foreign keys in Knex migration**
+
+```js
+table
+  .integer("tag_id")
+  .references("id")
+  .inTable("tags")
+  .unsigned()
+  .notNullable();
+```
+
+---
