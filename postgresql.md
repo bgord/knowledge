@@ -182,7 +182,7 @@ Database.table("visits").select(
 
 ---
 
-**Make Postgres preserve camelCase in as x**
+**Make Postgres preserve aliase camelCase**
 
 Wrap the `as` name with double quotes.
 

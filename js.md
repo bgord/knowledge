@@ -1076,3 +1076,9 @@ moment().subtract(1, "days");
 ```
 
 ---
+
+**Adonis HTTP logs**
+
+[0](https://github.com/adonisjs/adonis-http-logger)
+
+---
