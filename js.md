@@ -1068,3 +1068,11 @@ document.querySelector("form").reset();
 ```
 
 ---
+
+**Yesterday in moment**
+
+```js
+moment().subtract(1, "days");
+```
+
+---
