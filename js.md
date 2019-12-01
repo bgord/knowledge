@@ -1095,3 +1095,9 @@ table
 ```
 
 ---
+
+**Adonis doesn't create timestamps on insert**
+
+It's because you used `Database.insert` instead of `Model.create`.
+
+---
