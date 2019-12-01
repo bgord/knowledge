@@ -908,3 +908,9 @@ $ ssh-keygen -f id_rsa_<name>
 `sed -i 's/{{{name}}}/name/g' file1.txt file2.txt`
 
 ---
+
+**Husky doesn't get called**
+
+`npm uninstall husky && npm i -D husky`
+
+---
