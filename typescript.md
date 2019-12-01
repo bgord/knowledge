@@ -865,3 +865,9 @@ export const ValidationErrorMessage: React.FC<React.HTMLProps<
 ```
 
 ---
+
+**Access component props without exporting them**
+
+[1](https://twitter.com/sulco/status/1160890708615716864)
+
+---
