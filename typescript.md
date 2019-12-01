@@ -851,3 +851,17 @@ export const Logo: React.FC<React.ImgHTMLAttributes<
 ```
 
 ---
+
+**Type div props**
+
+```tsx
+export const ValidationErrorMessage: React.FC<React.HTMLProps<
+  HTMLDivElement
+>> = ({ children, className = "", ...props }) => (
+  <div className={`w-full text-red-700 mt-1 ${className}`} {...props}>
+    {children}
+  </div>
+);
+```
+
+---
