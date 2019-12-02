@@ -68,3 +68,44 @@ A term being explain should be wrapped into `dt`, description term.
 The description of the term should be wrapped into `dd` tag.
 
 ---
+
+**Definition list style**
+
+```html
+<dl>
+  <dt>NIP</dt>
+  <dd>{{ NIP }}</dd>
+  <dt>Nazwa firmy</dt>
+  <dd>{{ name }}</dd>
+  <dt>Adres</dt>
+  <dd>{{ address }}</dd>
+  <dt>Kod pocztowy</dt>
+  <dd>{{ zipCode }}</dd>
+  <dt>Miasto</dt>
+  <dd>{{ cityName }}</dd>
+</dl>
+```
+
+```css
+dl {
+  display: grid;
+  grid-template: auto / 200px 1fr;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+dt,
+dd {
+  margin: 0;
+}
+dt {
+  background-color: #eee;
+  justify-self: right;
+  padding-right: 3rem;
+}
+
+p {
+  padding-top: 3rem;
+}
+```
+
+---
