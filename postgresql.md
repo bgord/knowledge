@@ -277,3 +277,17 @@ const result = await Database.table("visits")
 ```
 
 ---
+
+**Return first non-null value**
+
+```sql
+ SELECT COALESCE(NULL, NULL, NULL, 'xxx', NULL, 'Example.com'); //xxx
+```
+
+```js
+Database.raw(
+  "COALESCE(SUM(gym_income_segments.gym_income), 0) as amount_for_partner"
+);
+```
+
+---
