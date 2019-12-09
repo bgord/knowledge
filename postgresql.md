@@ -291,3 +291,9 @@ Database.raw(
 ```
 
 ---
+
+**Preserving history of modifiable column in another table**
+
+Just duplicate it in the "another" table. So in the future you don't need to create joins with new data.
+
+---
