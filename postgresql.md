@@ -252,3 +252,28 @@ try {
 ```
 
 ---
+
+**Sum**
+
+```js
+const result = await Database.table("visits")
+  .innerJoin(
+    "gym_income_segments",
+    "gym_income_segments.id",
+    "visits.gym_income_segment_id"
+  )
+  .select(
+    Database.raw("COALESCE(SUM(visits.user_cost), 0) as income"),
+    Database.raw(
+      "COALESCE(SUM(gym_income_segments.gym_income), 0) as amount_for_partner"
+    ),
+    Database.raw(
+      "COALESCE(SUM(visits.user_cost - gym_income_segments.gym_income), 0) as amount_for_us"
+    )
+  )
+  .where("visits.gym_id", gymId)
+  .whereRaw(`visits.created_at::date >= ?`, [dateStart])
+  .whereRaw(`visits.created_at::date < ?`, [dateEnd]);
+```
+
+---
