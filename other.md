@@ -112,3 +112,11 @@ It's a problem of handling ten thousand concurrent connections.
 422, Unprocessable Entity. [0](https://stackoverflow.com/questions/25239565/status-code-to-return-on-not-found-sub-resource)
 
 ---
+
+**Space before "zł"**
+
+50zł or 50 zł?
+
+50 zł.
+
+---
