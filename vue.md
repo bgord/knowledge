@@ -57,3 +57,9 @@ module.exports = {
 ```
 
 ---
+
+**Allow importing files that use module.exports**
+
+[0](https://github.com/vuejs/vue-cli/issues/2746)
+
+---
