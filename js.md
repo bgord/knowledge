@@ -1101,3 +1101,12 @@ table
 It's because you used `Database.insert` instead of `Model.create`.
 
 ---
+
+**Onblur and onclick problem**
+
+If you face the following situation: you have a focused input with onblur event handling, and you are clicking a button.
+What is happenning: onblur event handler is fired before onclick event handler.
+
+If you want to switch the order, use onmousedown in place of onclick.
+
+---
