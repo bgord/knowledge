@@ -106,3 +106,9 @@ It's a problem of handling ten thousand concurrent connections.
 "It always takes longer than you expect, even when you take into account Hofstadter's law."
 
 ---
+
+**Which HTTP status code is suitable for unexistent resource in e.g DELETE /user/:id**
+
+422, Unprocessable Entity. [0](https://stackoverflow.com/questions/25239565/status-code-to-return-on-not-found-sub-resource)
+
+---
