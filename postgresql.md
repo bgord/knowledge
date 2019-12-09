@@ -297,3 +297,42 @@ Database.raw(
 Just duplicate it in the "another" table. So in the future you don't need to create joins with new data.
 
 ---
+
+**Iterate through JSON array from one of the columns and append other columns**
+
+Given:
+
+```json
+{
+  "name": "xxx",
+  "items": [
+    {
+      "amount": 1
+    },
+    {
+      "amount": 2
+    },
+    {
+      "amount": 3
+    }
+  ]
+}
+```
+
+Expected:
+
+```json
+[
+  { "amount": 1, "name": "xxx" },
+  { "amount": 2, "name": "xxx" },
+  { "amount": 3, "name": "xxx" }
+]
+```
+
+```sql
+SELECT name, f.amount FROM reports, json_to_recordset(reports.items) AS f(amount INT)
+```
+
+json_to_recordset - builds a "table" with predefined typed columns from an array, and joins it with the main table (reports in the case above)
+
+---
