@@ -871,3 +871,11 @@ export const ValidationErrorMessage: React.FC<React.HTMLProps<
 [1](https://twitter.com/sulco/status/1160890708615716864)
 
 ---
+
+**Get host element prop TypeScript types**
+
+```
+React.FC<JSX.IntrinsicElements["div"]>
+```
+
+---
