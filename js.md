@@ -1110,3 +1110,9 @@ What is happenning: onblur event handler is fired before onclick event handler.
 If you want to switch the order, use onmousedown in place of onclick.
 
 ---
+
+**Cypress press enter inside an input**
+
+[0](https://docs.cypress.io/api/commands/type.html#Syntax)
+
+---
