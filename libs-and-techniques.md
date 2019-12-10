@@ -37,6 +37,8 @@
   Notify about suspicious activities via email
 - [screenkey](https://gitlab.com/wavexx/screenkey)
   Display pressed keys on the screen
+- [leonardo](https://leonardocolor.io)
+  Accessible color palette generator
 
 ## React
 
