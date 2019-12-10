@@ -141,3 +141,9 @@ $ http GET 173.16.238.11 // nginx proxies a request to node.js which returns "He
 [0](https://whatididtodowhatidid.wordpress.com/2014/03/14/subdomains-for-ports-on-same-ubuntu-server-with-nginx-reverse-proxy/)
 
 ---
+
+**nginx config file**
+
+`/etc/nginx/nginx.conf`
+
+---
