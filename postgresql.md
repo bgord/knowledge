@@ -336,3 +336,11 @@ SELECT name, f.amount FROM reports, json_to_recordset(reports.items) AS f(amount
 json_to_recordset - builds a "table" with predefined typed columns from an array, and joins it with the main table (reports in the case above)
 
 ---
+
+**What's an upsert?**
+
+If a row with given constraints exists - update it, if it doesn't - insert a new one.
+
+In psql: `INSERT ... ON CONFLICT UPDATE`
+
+---
