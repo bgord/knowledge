@@ -1116,3 +1116,20 @@ If you want to switch the order, use onmousedown in place of onclick.
 [0](https://docs.cypress.io/api/commands/type.html#Syntax)
 
 ---
+
+**Cypress fast forward set timeout**
+
+```js
+it("Add an item", () => {
+  cy.clock();
+
+  cy.findByText("Add habit").click();
+  cy.findByText("Habit successfully addedd!");
+
+  cy.tick(6000);
+
+  cy.findByText("Habit successfully addedd!").should("not.exist");
+});
+```
+
+---
