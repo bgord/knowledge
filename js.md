@@ -1145,3 +1145,15 @@ const [removed] = items.splice(1, 1);
 ```
 
 ---
+
+**Insert an array element by splice**
+
+```js
+const items = ["a", "c"];
+
+// Insert "b" in between "a" and "c"
+// First argument: index, second argument: how many items to delete, third: what to insert
+items.splice(1, 0, "b");
+```
+
+---
