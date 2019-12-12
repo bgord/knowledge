@@ -1428,3 +1428,86 @@ export const Notifications = () => {
 ```
 
 ---
+
+**Drag and drop example**
+
+```jsx
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
+import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
+
+const initial = ["a", "b", "c"];
+
+const reorder = (list, fromIndex, toIndex) => {
+  // Let's say, given elements 1 - 2 - 3, we want to move the first element to the end of the list.
+  // So the movement is like follows:
+  // from index 0 -> to index 2
+
+  // New array is created to avoid mutatoins
+  const result = Array.from(list);
+
+  // Remove the item that was dnd'd from the result array by start index
+  const [removed] = result.splice(fromIndex, 1);
+
+  // Insert the removed element at the end index
+  result.splice(toIndex, 0, removed);
+
+  return result;
+};
+
+function QuoteApp() {
+  const [quotes, setQuotes] = useState(initial);
+
+  function onDragEnd(result) {
+    // If element is dragged out of the droppable space
+    if (!result.destination) {
+      return;
+    }
+
+    // If elements stay intact
+    if (result.destination.index === result.source.index) {
+      return;
+    }
+
+    const reorderedQuotes = reorder(
+      quotes,
+      result.source.index,
+      result.destination.index
+    );
+
+    setQuotes(reorderedQuotes);
+  }
+
+  return (
+    <DragDropContext onDragEnd={onDragEnd}>
+      <Droppable droppableId="list">
+        {provided => (
+          <div ref={provided.innerRef} {...provided.droppableProps}>
+            {quotes.map((quote, index) => (
+              <Draggable key={quote} draggableId={quote} index={index}>
+                {provided => (
+                  <div
+                    ref={provided.innerRef}
+                    {...provided.draggableProps}
+                    {...provided.dragHandleProps}
+                  >
+                    {quote}
+                  </div>
+                )}
+              </Draggable>
+            ))}
+            {provided.placeholder}
+          </div>
+        )}
+      </Droppable>
+    </DragDropContext>
+  );
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<QuoteApp />, rootElement);
+```
+
+[minimal example](https://codesandbox.io/s/using-react-beautiful-dnd-with-hooks-efc6q)
+
+---
