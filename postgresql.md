@@ -344,3 +344,9 @@ If a row with given constraints exists - update it, if it doesn't - insert a new
 In psql: `INSERT ... ON CONFLICT UPDATE`
 
 ---
+
+**Condintionall apply a statement**
+
+[0](https://knexjs.org/#Builder-modify)
+
+---
