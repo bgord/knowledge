@@ -1133,3 +1133,15 @@ it("Add an item", () => {
 ```
 
 ---
+
+**Remove an element from array by splice**
+
+```js
+const items = ["a", "b", "c"];
+
+// Let's say we want to grab 'b', the second element
+// First argument: index, second argument: how many items to delete
+const [removed] = items.splice(1, 1);
+```
+
+---
