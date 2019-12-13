@@ -922,3 +922,17 @@ function isHabitScore(value: string): value is IHabit["score"] {
 ```
 
 ---
+
+**Nullish coalescing**
+
+Operator: `??`
+
+How is it different from `||`?
+It returns the right-hand side only for `null` or `undefined`.
+Or returns for each falsy value: `null | undefined | "" | 0 | false | NaN`.
+
+```tsx
+request?.body ?? [];
+```
+
+---
