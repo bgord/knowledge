@@ -1632,6 +1632,69 @@ function Input(props) {
 }
 ```
 
+It seems kinda fine, we type if some `newName`, we update the item in the parent coponent, but...
+Let's say we want to add an interrupt button which sets item name in the parent component to some fixed value.
+
+```jsx
+function Input(props) {
+  const [newName, setNewName] = React.useState(props.name);
+
+  return (
+    <form
+      onSubmit={event => {
+        console.log("Submitting");
+        event.preventDefault();
+
+        if (props.name !== newName) {
+          props.setItem({ id: props.id, name: newName });
+        }
+      }}
+    >
+      <input
+        value={newName}
+        onChange={event => setNewName(event.target.value)}
+      />
+      <button onClick={() => setItem({ id: props.id, name: "WHATSUPPP" })}>
+        Interupt
+      </button>
+    </form>
+  );
+}
+```
+
+The input value doesn't get updated.
+What to do about it?
+
+The thing is that in this case props get updated, but local state doesn't.
+They are out of sync.
+
+The solution might be to recreate the <Input /> component whenever name changes (instead of updating it).
+
+```jsx
+function App() {
+  const [item, setItem] = React.useState();
+
+  React.useEffect(() => {
+    const timeout = setTimeout(() => {
+      setItem({ id: 1, name: "I declare bankrupcy!" });
+    }, 1000);
+    return () => clearTimeout(timeout);
+  }, []);
+
+  return (
+    <>
+      {item ? (
+        <Input key={item.name} {...item} setItem={setItem} />
+      ) : (
+        "Loading..."
+      )}
+    </>
+  );
+}
+```
+
+[1](https://codesandbox.io/s/competent-northcutt-3id16)
+
 ---
 
 **Optimistic update**
