@@ -1633,3 +1633,16 @@ function Input(props) {
 ```
 
 ---
+
+**Optimistic update**
+
+Let's say you have a list of items fetch from the API.
+You render a form for each item allowing you to change the name.
+
+Instead of: GET items -> PATCH item -> GET items
+
+You do: GET items -> PATCH item -> modify the items array with the result of patch
+
+[1](https://docs.react-async.com/guide/optimistic-updates)
+
+---
