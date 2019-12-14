@@ -1661,3 +1661,10 @@ const close = () => setIsOpen(false);
 If you try to invoke `close`, the error from above will appear, because browser thinks you're calling the native `close()`, which closes the window.
 
 ---
+
+**What's getDerivedStateFromProps for**
+
+It's a mechanism to update an internal state as the result of change in props.
+Should be used sparingly, because it can lead to subtle bugs.
+
+---
