@@ -1511,3 +1511,125 @@ ReactDOM.render(<QuoteApp />, rootElement);
 [minimal example](https://codesandbox.io/s/using-react-beautiful-dnd-with-hooks-efc6q)
 
 ---
+
+**Creating/deriving state from props**
+
+Deriving state from props is generally not a good idea.
+
+Imagine the following scenario:
+
+```jsx
+function App() {
+  const [item, setItem] = React.useState();
+
+  // Imagine the item is coming from an API
+  React.useEffect(() => {
+    const timeout = setTimeout(() => {
+      setItem({ id: 1, name: "I declare bankrupcy!" });
+    }, 1000);
+    return () => clearTimeout(timeout);
+  }, []);
+
+  return <Input {...item} />;
+}
+
+function Input(props) {
+  console.log(props);
+  const [newName, setNewName] = React.useState(props.name);
+  return (
+    <input value={newName} onChange={event => setNewName(event.target.value)} />
+  );
+}
+```
+
+The problem is `name` is `undefined` in the first render.
+Which means that once `newName` has been initialized from `props.name` with the value of `undefied`, it cannot be reinitialized (just like class constructor).
+So after 1000ms, when `props.name` has value `"I declare bankrupcy"`, the input still doesn't display any value.
+
+This behaviour is similar in classes, and `getDerivedStateFromProps` was made to facilitate resolving it.
+
+So how to fix it?
+
+One think that came to my mind was adding a `useEffect` in `<Input />`:
+
+```jsx
+function Input(props) {
+  const [newName, setNewName] = React.useState(props.name);
+
+  // Update the `newName` piece of state whenever `props.name` changes.
+  React.useEffect(() => {
+    setNewName(props.name);
+  }, [props.name]);
+
+  return (
+    <input value={newName} onChange={event => setNewName(event.target.value)} />
+  );
+}
+```
+
+This solution has two caveats:
+
+1. React throws a warning that the `<input />` is changing from an uncontrolled to controlled.
+2. Whenever we make local updates to the `newName` (e.g by `onChange` event), effect would override them.
+
+It all boils down to no single source of truth.
+
+Next idea:
+
+Don't render `<Input />` unless there's `item !== undefined`.
+
+```jsx
+function App() {
+  const [item, setItem] = React.useState();
+
+  React.useEffect(() => {
+    const timeout = setTimeout(() => {
+      setItem({ id: 1, name: "I declare bankrupcy!" });
+    }, 1000);
+    return () => clearTimeout(timeout);
+  }, []);
+
+  return <>{item ? <Input {...item} /> : "Loading..."}</>;
+}
+```
+
+Ok, the input value is populated correctly. but... let's say we want to apply an optimistic update to the `item` piece of state on submit.
+
+```jsx
+function App() {
+  const [item, setItem] = React.useState();
+
+  React.useEffect(() => {
+    const timeout = setTimeout(() => {
+      setItem({ id: 1, name: "I declare bankrupcy!" });
+    }, 1000);
+    return () => clearTimeout(timeout);
+  }, []);
+
+  return <>{item ? <Input {...item} setItem={setItem} /> : "Loading..."}</>;
+}
+
+function Input(props) {
+  const [newName, setNewName] = React.useState(props.name);
+
+  return (
+    <form
+      onSubmit={event => {
+        console.log("Submitting");
+        event.preventDefault();
+
+        if (props.name !== newName) {
+          props.setItem({ id: props.id, name: newName });
+        }
+      }}
+    >
+      <input
+        value={newName}
+        onChange={event => setNewName(event.target.value)}
+      />
+    </form>
+  );
+}
+```
+
+---
