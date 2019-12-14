@@ -1731,3 +1731,9 @@ It's a mechanism to update an internal state as the result of change in props.
 Should be used sparingly, because it can lead to subtle bugs.
 
 ---
+
+**What can you pass to a React.Fragment?**
+
+`key`s, but only using the `<React.Fragment key={item.id}>` syntax.
+
+---
