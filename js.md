@@ -1157,3 +1157,13 @@ items.splice(1, 0, "b");
 ```
 
 ---
+
+**Cypress select nth element from findAllBy**
+
+```js
+cy.findAllByText("more")
+  .eq(1)
+  .click();
+```
+
+---
