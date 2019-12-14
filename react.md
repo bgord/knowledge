@@ -1646,3 +1646,18 @@ You do: GET items -> PATCH item -> modify the items array with the result of pat
 [1](https://docs.react-async.com/guide/optimistic-updates)
 
 ---
+
+**Scripts may not close windows that were not opened by script**
+
+Let's say you have the following code:
+
+```
+const [isOpen, setIsOpen] = React.useState(false);
+
+const open = () => setIsOpen(true);
+const close = () => setIsOpen(false);
+```
+
+If you try to invoke `close`, the error from above will appear, because browser thinks you're calling the native `close()`, which closes the window.
+
+---
