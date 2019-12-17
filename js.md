@@ -1167,3 +1167,20 @@ cy.findAllByText("more")
 ```
 
 ---
+
+**Cypress drag and drop keyboard test (react-beautiful-dnd)**
+
+Move an element down by two.
+
+```js
+cy.get("li:nth-child(1)")
+  .focus()
+  .trigger("keydown", { keyCode: 32 })
+  .trigger("keydown", { keyCode: 40, force: true })
+  .trigger("keydown", { keyCode: 40, force: true })
+  .trigger("keydown", { keyCode: 32, force: true });
+```
+
+[0](https://github.com/atlassian/react-beautiful-dnd/blob/master/cypress/integration/reorder.spec.js)
+
+---
