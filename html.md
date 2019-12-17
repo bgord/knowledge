@@ -117,3 +117,10 @@ p {
 ```
 
 ---
+
+**URL passed to <a /> tag gets appended to the current page instead of leading to a separate page**
+
+1. Add `http(s)://`.
+2. Add `//`: `//some.host.com`
+
+---
