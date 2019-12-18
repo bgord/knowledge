@@ -463,3 +463,25 @@ table {
 ```
 
 ---
+
+**Justify-content space-between without flexbox**
+
+```css
+.container {
+  text-align: justify;
+}
+
+.container:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.item {
+  display: inline-block;
+}
+```
+
+If this trick doesn't work on Gmail, add `float: right;` to the second element.
+
+---
