@@ -485,3 +485,11 @@ table {
 If this trick doesn't work on Gmail, add `float: right;` to the second element.
 
 ---
+
+**Align elements to the top of the inline-block container**
+
+```css
+vertical-align: top;
+```
+
+---
