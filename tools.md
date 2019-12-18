@@ -914,3 +914,9 @@ $ ssh-keygen -f id_rsa_<name>
 `npm uninstall husky && npm i -D husky`
 
 ---
+
+**Extract a .tar.bz2**
+
+`tar xjf file.tar.bz2`
+
+---
