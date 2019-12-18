@@ -1238,3 +1238,31 @@ Cypress.Commands.add("dragAndDrop", (subject, target) => {
 [0](https://github.com/cypress-io/cypress/issues/3942#issuecomment-485648100)
 
 ---
+
+**Nodemailer quick example**
+
+```js
+const nodemailer = require("nodemailer");
+
+const transporter = nodemailer.createTransport({
+  service: "gmail",
+  auth: {
+    user: "",
+    pass: ""
+  }
+});
+
+const mailOptions = {
+  from: "example@email.com", // sender address
+  to: "gordonbartosz@gmail.com", // list of receivers
+  subject: "Subject of your email", // Subject line
+  html: `xxx ` // plain text body
+};
+
+transporter.sendMail(mailOptions, function(err, info) {
+  if (err) console.log(err);
+  else console.log(info);
+});
+```
+
+---
