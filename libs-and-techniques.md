@@ -39,6 +39,8 @@
   Display pressed keys on the screen
 - [leonardo](https://leonardocolor.io)
   Accessible color palette generator
+- [caniuse.email](https://caniuse.email/)
+  Can I use for email
 
 ## React
 
