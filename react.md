@@ -1737,3 +1737,11 @@ Should be used sparingly, because it can lead to subtle bugs.
 `key`s, but only using the `<React.Fragment key={item.id}>` syntax.
 
 ---
+
+**React accessibility (a11y) audit**
+
+[0](https://web.dev/accessibility-auditing-react/)
+[1](https://github.com/dequelabs/react-axe)
+[2](https://github.com/evcohen/eslint-plugin-jsx-a11y)
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 780
+Total entries: 781
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -550,6 +550,7 @@ Total entries: 780
 - Scripts may not close windows that were not opened by script
 - What's getDerivedStateFromProps for
 - What can you pass to a React.Fragment?
+- React accessibility (a11y) audit
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
