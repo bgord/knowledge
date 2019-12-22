@@ -116,10 +116,6 @@ body {
 
 ---
 
-**Use <details /> tag for accordion**
-
----
-
 **Centering a plus inside a circle**
 
 Plus is rendered as a "non-capital" character, a bit lower from the middle line, so it's hard to align properly in two axes. There's a "full-width plus" char (U+FF0B), but it's not included in most of the fonts (e.g Open Sans).
