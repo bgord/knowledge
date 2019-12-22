@@ -2,17 +2,17 @@
 
 Total entries: 780
 
-### algorithms-and-data-structures
+### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
 
-### anki
+### [anki](anki.md)
 - Anki Desktop shortcuts
 - What are the types of Anki cards?
 - How to import CSV file with words?
 - How to filter notes with an empty field?
 - Create a custom note type
 
-### bash
+### [bash](bash.md)
 - yyyy-mm-dd date in bash
 - Assert if the command has been run successfully
 - Display exit code of the last command
@@ -24,7 +24,7 @@ Total entries: 780
 - How to check if a variable is an empty string?
 - String comparison
 
-### concepts
+### [concepts](concepts.md)
 - How to correctly namespace things?
 - How to correctly remove data in between seeds
 - How to correctly model controllers to be "cruddy"?
@@ -39,7 +39,7 @@ Total entries: 780
 - Are cookies port specific?
 - What's the difference between 127.0.0.1 and 0.0.0.0?
 
-### css
+### [css](css.md)
 - Remove the red border of an empty input value that's required
 - Margin/space
 - aria
@@ -85,7 +85,7 @@ Total entries: 780
 - Justify-content space-between without flexbox
 - Align elements to the top of the inline-block container
 
-### dart
+### [dart](dart.md)
 - Automatic code formatting
 - Dart package repository
 - Import a dependency
@@ -99,7 +99,7 @@ Total entries: 780
 - Dart method definition
 - Create a class with some properties
 
-### docker
+### [docker](docker.md)
 - Container vs Image
 - Build an image
 - List all local images
@@ -138,7 +138,7 @@ Total entries: 780
 - Pull images required for docker-compose file to work
 - Ubuntu installation
 
-### elixir
+### [elixir](elixir.md)
 - What type of language is Elixir?
 - What's Elixir REPL?
 - How to use "inspect" in iex?
@@ -156,7 +156,7 @@ Total entries: 780
 - How to update a value in a tuple?
 - How to skip a value in a tuple?
 
-### english
+### [english](english.md)
 - this
 - that
 - this vs it
@@ -172,7 +172,7 @@ Total entries: 780
 - will vs going to vs present continuous
 - tiny vs small
 
-### flutter
+### [flutter](flutter.md)
 - Supported Android/iOS versions
 - Flutter installation
 - Build a Flutter APK
@@ -208,7 +208,7 @@ Total entries: 780
 - Set clipboard data
 - Flutter scoped_model model declaration and usage
 
-### git
+### [git](git.md)
 - Checkout the 5-th last branch from the checkout history
 - Remove changes from the last commit that were pushed to the repo (without rewriting history)
 - Show a list of all the modifications in the repo
@@ -274,7 +274,7 @@ Total entries: 780
 - List changed filenames
 - Ignore all files from a directory with exceptions
 
-### graphql
+### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?
 - What's `Query`?
 - What are the available types for the queries?
@@ -283,7 +283,7 @@ Total entries: 780
 - How to setup a GraphQL playground?
 - How to write a resolver that returns a footballer by fullname?
 
-### html
+### [html](html.md)
 - Anchor with href phone
 - Non-standard step in input of type number
 - How to tell a file input to accept only given MIME types?
@@ -295,7 +295,7 @@ Total entries: 780
 - 10 digits input pattern
 - URL passed to <a /> tag gets appended to the current page instead of leading to a separate page
 
-### js
+### [js](js.md)
 - RegExp for digits
 - Assert any primitive value
 - Jest find element by prop value
@@ -393,13 +393,13 @@ Total entries: 780
 - Cypress drag and drop column command (react-beautiful-dnd)
 - Nodemailer quick example
 
-### nginx
+### [nginx](nginx.md)
 - How to serve an index.html file on given port?
 - How to proxy a request to a node backend?
 - Redirect a subdomain to a specific port
 - nginx config file
 
-### npm
+### [npm](npm.md)
 - npm ci
 - Serve a static sile/file or SPA with npm
 - You cannot install dependency in the directory that is named exactly as the dependency
@@ -408,7 +408,7 @@ Total entries: 780
 - How to install packge from GitHub?
 - Test a package binary locally without global installation
 
-### other
+### [other](other.md)
 - Firefox's engine
 - JAM stack
 - Scrum tips
@@ -427,7 +427,7 @@ Total entries: 780
 - Which HTTP status code is suitable for unexistent resource in e.g DELETE /user/:id
 - Space before "zł"
 
-### postgresql
+### [postgresql](postgresql.md)
 - How to show all table in the current database?
 - How to delete a table?
 - How to list all databases?
@@ -460,7 +460,7 @@ Total entries: 780
 - What's an upsert?
 - Condintionall apply a statement
 
-### react
+### [react](react.md)
 - Testing unconnected components
 - Display a react version
 - Short-circuit evaluation
@@ -551,7 +551,7 @@ Total entries: 780
 - What's getDerivedStateFromProps for
 - What can you pass to a React.Fragment?
 
-### stimulus
+### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
 - How to check if a controller is connected to an element?
 - How to pass a data from Adonis template to a controller?
@@ -564,13 +564,13 @@ Total entries: 780
 - How to fire a controller method on an event?
 - Pass data to an action
 
-### storybook
+### [storybook](storybook.md)
 - How to setup a basic Storybook for an example component?
 
-### swagger
+### [swagger](swagger.md)
 - Basic template
 
-### tmux
+### [tmux](tmux.md)
 - Kill tmux session named `dev`
 - List tmux sessions
 - Create a new session
@@ -587,7 +587,7 @@ Total entries: 780
 - Copy text by mouse
 - Kill current pane
 
-### tools
+### [tools](tools.md)
 - Get MIME types of all the apps, useful when changing defaults
 - Set a default browser
 - Search through terminal history through `fzf`
@@ -699,7 +699,7 @@ Total entries: 780
 - Extract a .tar.bz2
 - Nodemon polling
 
-### typescript
+### [typescript](typescript.md)
 - Standard JavaScript imports
 - Assigning primitive values to a single variables
 - What's a union-type?
@@ -756,7 +756,7 @@ Total entries: 780
 - Type guard example
 - Nullish coalescing
 
-### vim
+### [vim](vim.md)
 - Replace last searched phrase with `bar`
 - Go to the tag definition
 - Remove trailing whitespace
@@ -824,7 +824,7 @@ Total entries: 780
 - Changelist
 - Go to next/previous changelist item
 
-### vue
+### [vue](vue.md)
 - Generate a new project
 - Inspect the current Webpack config
 - Override a Webpack config
@@ -832,10 +832,10 @@ Total entries: 780
 - Difference betwwen static and dynamic props
 - Allow importing files that use module.exports
 
-### writing
+### [writing](writing.md)
 - Hyphen vs en dash vs e mdash
 - Smart quotes vs dumb quotes
 
-### yarn
+### [yarn](yarn.md)
 - Upgrade a version of the package in yarn
 - Remove a package

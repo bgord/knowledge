@@ -37,7 +37,7 @@ async function main() {
 
   for (const [filename, titles] of Object.entries(data)) {
     const [category] = filename.split(".");
-    readme += `\n### ${category}\n`;
+    readme += `\n### [${category}](${filename})\n`;
     readme += titles.map(title => `- ${title}\n`).join("");
   }
 
