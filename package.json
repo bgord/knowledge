@@ -1,0 +1,28 @@
+{
+  "name": "knowledge",
+  "version": "1.0.0",
+  "description": "A knowledge repositry.",
+  "main": "index.js",
+  "scripts": {
+    "build-readme": "node ./build-readme.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgord/knowledge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgord/knowledge/issues"
+  },
+  "homepage": "https://github.com/bgord/knowledge#readme",
+  "devDependencies": {
+    "husky": "^3.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run build-readme"
+    }
+  }
+}

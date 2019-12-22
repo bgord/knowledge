@@ -6,11 +6,14 @@ const pathsToSkip = [
   "README.md",
   "roadmap.md",
   "build-readme.js",
-  "libs-and-techniques.md"
+  "libs-and-techniques.md",
+  "node_modules",
+  "package.json",
+  "package-lock.json"
 ];
 
 async function main() {
-  const allFiles = await fs.readdir(".");
+  const allFiles = await fs.readdir(__dirname);
   const mdFiles = allFiles.filter(file => !pathsToSkip.includes(file));
 
   const data = {};
