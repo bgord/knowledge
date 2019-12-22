@@ -920,3 +920,11 @@ $ ssh-keygen -f id_rsa_<name>
 `tar xjf file.tar.bz2`
 
 ---
+
+**Nodemon polling**
+
+`nodemon -L --delay 300ms server.js`
+
+(WARNING: it may cause some performance issues)
+
+---
