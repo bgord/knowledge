@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 784
+Total entries: 785
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -552,6 +552,7 @@ Total entries: 784
 - What's getDerivedStateFromProps for
 - What can you pass to a React.Fragment?
 - React accessibility (a11y) audit
+- Error boundary example
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?

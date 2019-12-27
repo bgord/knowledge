@@ -1745,3 +1745,43 @@ Should be used sparingly, because it can lead to subtle bugs.
 [2](https://github.com/evcohen/eslint-plugin-jsx-a11y)
 
 ---
+
+**Error boundary example**
+
+```tsx
+class ErrorBoundary extends React.Component<{}, { hasError: boolean }> {
+  constructor(props: {}) {
+    super(props);
+    this.state = { hasError: false };
+  }
+
+  componentDidCatch() {
+    this.setState({ hasError: true });
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <>
+          <h1 className="mt-10 text-center">Something went wrong :(</h1>
+          <div className="flex justify-center mt-4 items-baseline">
+            Try to
+            <button
+              onClick={() => window.location.reload(true)}
+              type="button"
+              className="btn btn-blue mx-2 p-1"
+            >
+              refresh
+            </button>
+            the page
+          </div>
+        </>
+      );
+    }
+
+    return this.props.children;
+  }
+}
+```
+
+---
