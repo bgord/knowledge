@@ -41,6 +41,8 @@
   Accessible color palette generator
 - [caniuse.email](https://caniuse.email/)
   Can I use for email
+- [npkill](https://www.npmjs.com/package/npkill)
+  Search for and delete node_modules folders across the file system
 
 ## React
 
