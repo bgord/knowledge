@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 782
+Total entries: 783
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -273,6 +273,7 @@ Total entries: 782
 - Branch checkout history
 - List changed filenames
 - Ignore all files from a directory with exceptions
+- List all branches
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?

@@ -627,3 +627,11 @@ deploy-cache/
 Ignore all files from `deploy-cache/` directory except `.gitkeep` file.
 
 ---
+
+**List all branches**
+
+```bash
+$ git branch
+```
+
+---
