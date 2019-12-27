@@ -529,3 +529,11 @@ Next: `g;`
 Previous: `g,`
 
 ---
+
+**Perform calculations in insert mode**
+
+```
+i<C-r>=2*2+2
+```
+
+---
