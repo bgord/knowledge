@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 781
+Total entries: 782
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -824,6 +824,7 @@ Total entries: 781
 - Replace tabs with spaces
 - Changelist
 - Go to next/previous changelist item
+- Perform calculations in insert mode
 
 ### [vue](vue.md)
 - Generate a new project

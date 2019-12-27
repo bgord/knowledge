@@ -1,4 +1,5 @@
 const { promises: fs } = require("fs");
+const exec = require("child_process").exec;
 
 const pathsToSkip = [
   ".git",
@@ -45,6 +46,18 @@ async function main() {
   }
 
   await fs.writeFile("README.md", readme);
+  await execShellCommand("git add README.md");
 }
 
 main();
+
+function execShellCommand(cmd) {
+  return new Promise(resolve => {
+    exec(cmd, (error, stdout, stderr) => {
+      if (error) {
+        console.warn(error);
+      }
+      resolve(stdout ? stdout : stderr);
+    });
+  });
+}
