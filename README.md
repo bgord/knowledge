@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 783
+Total entries: 784
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -700,6 +700,7 @@ Total entries: 783
 - Husky doesn't get called
 - Extract a .tar.bz2
 - Nodemon polling
+- ESLint doesn't work for jsx/tsx files
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

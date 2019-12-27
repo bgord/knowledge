@@ -928,3 +928,11 @@ $ ssh-keygen -f id_rsa_<name>
 (WARNING: it may cause some performance issues)
 
 ---
+
+**ESLint doesn't work for jsx/tsx files**
+
+```
+"lint": "eslint . --ext .js,.tsx,.ts --ignore-pattern node_modules/",
+```
+
+---
