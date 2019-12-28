@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 785
+Total entries: 786
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -553,6 +553,7 @@ Total entries: 785
 - What can you pass to a React.Fragment?
 - React accessibility (a11y) audit
 - Error boundary example
+- A component is changing an uncontrolled input to be controlled
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?

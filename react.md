@@ -1785,3 +1785,22 @@ class ErrorBoundary extends React.Component<{}, { hasError: boolean }> {
 ```
 
 ---
+
+**A component is changing an uncontrolled input to be controlled**
+
+It may be the following case where `registrationEmail: string | undefined`,
+and the value turned out to be undefined.
+
+It means that there's no default value (it's `undefined`), so component is left uncontrolled. And when `setEmail` is invoked, it switches to controlled.
+
+```jsx
+const [email, setEmail] = React.useState(registrationEmail);
+```
+
+Solution:
+
+```jsx
+const [email, setEmail] = React.useState(registrationEmail ?? "");
+```
+
+---
