@@ -365,3 +365,11 @@ const result = await Database.table("habits")
   .groupBy("day")
   .orderBy("day");
 ```
+
+**Cast to integer**
+
+```js
+Database.raw("count(*)::integer");
+```
+
+---
