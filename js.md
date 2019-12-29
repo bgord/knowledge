@@ -1266,3 +1266,9 @@ transporter.sendMail(mailOptions, function(err, info) {
 ```
 
 ---
+
+**Cypress hover workarounds**
+
+[0](https://github.com/cypress-io/cypress-example-recipes/blob/master/examples/testing-dom__hover-hidden-elements/cypress/integration/hover-hidden-elements-spec.js)
+
+---

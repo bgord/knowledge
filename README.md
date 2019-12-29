@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 789
+Total entries: 790
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -393,6 +393,7 @@ Total entries: 789
 - Cypress drag and drop keyboard test (react-beautiful-dnd)
 - Cypress drag and drop column command (react-beautiful-dnd)
 - Nodemailer quick example
+- Cypress hover workarounds
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
