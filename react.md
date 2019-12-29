@@ -1093,15 +1093,11 @@ Developer using a custom reducer function is able to access current state, an ac
 
 **What's a React Portal?**
 
-[x] Anki
-
 It's a way to render a children into a DOM node outside of the parent node hierarchy.
 
 ---
 
 **What's the syntax for React portals?**
-
-[x] Anki
 
 React children and container are the arguments.
 You should return the createPortal call.
@@ -1113,8 +1109,6 @@ return ReactDOM.createPortal(<div>xxx</div>, document.querySelector("#modal"));
 ---
 
 **React portal modal example**
-
-[-] Anki
 
 ```html
   <div id="root"></div>
