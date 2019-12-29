@@ -350,3 +350,18 @@ In psql: `INSERT ... ON CONFLICT UPDATE`
 [0](https://knexjs.org/#Builder-modify)
 
 ---
+
+**Group by day, not exact time**
+
+```js
+const result = await Database.table("habits")
+  .select(
+    Database.raw("created_at::date as day"),
+    Database.raw("count(*)::integer")
+  )
+  .where("user_id", auth.user.id)
+  .whereRaw(`created_at::date >= ?`, [startOfGivenMonth])
+  .whereRaw(`created_at::date <= ?`, [endOfGivenMonth])
+  .groupBy("day")
+  .orderBy("day");
+```

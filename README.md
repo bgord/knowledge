@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 786
+Total entries: 788
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -460,6 +460,8 @@ Total entries: 786
 - Iterate through JSON array from one of the columns and append other columns
 - What's an upsert?
 - Condintionall apply a statement
+- Group by day, not exact time
+- Cast to integer
 
 ### [react](react.md)
 - Testing unconnected components
