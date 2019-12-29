@@ -373,3 +373,11 @@ Database.raw("count(*)::integer");
 ```
 
 ---
+
+**Cast to date**
+
+```js
+Database.raw("count(*)::date");
+```
+
+---

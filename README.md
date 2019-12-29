@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 788
+Total entries: 789
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -462,6 +462,7 @@ Total entries: 788
 - Condintionall apply a statement
 - Group by day, not exact time
 - Cast to integer
+- Cast to date
 
 ### [react](react.md)
 - Testing unconnected components
