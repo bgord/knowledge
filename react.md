@@ -437,8 +437,7 @@ const Button = forwardRef((props, ref) => (<button {...props} ref={ref}>Buy</but
 With TypeScript, forwardRef receives two arguments: HTML element type and component props.
 
 ```
-const Button = forwardRef<HTMLButtonElement, HTMLProps<HTMLButtonElement>((props, ref) => (<button {...props} ref={ref}>Buy</button>)
-    )
+const Button = forwardRef<HTMLButtonElement, HTMLProps<HTMLButtonElement>((props, ref) => (<button {...props} ref={ref}>Buy</button>))
 ```
 
 ---

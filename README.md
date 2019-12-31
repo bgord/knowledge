@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 790
+Total entries: 791
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -764,6 +764,7 @@ Total entries: 790
 - Get host element prop TypeScript types
 - Type guard example
 - Nullish coalescing
+- Omit helper
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

@@ -19,6 +19,7 @@ Questions:
 - Anki intervals and learning steps. [1](https://www.youtube.com/watch?v=1XaJjbCSXT0)
 - What are conventional commits? [1](https://www.conventionalcommits.org/en/v1.0.0/)
 - What are bitwise operators?
+- requestAnimationFrame
 
 ## To research:
 

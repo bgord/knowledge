@@ -936,3 +936,16 @@ request?.body ?? [];
 ```
 
 ---
+
+**Omit helper**
+
+```
+interface Person {
+  name:string;
+  age:number;
+}
+
+Omit<Person, "name">
+```
+
+---
