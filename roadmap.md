@@ -20,6 +20,7 @@ Questions:
 - What are conventional commits? [1](https://www.conventionalcommits.org/en/v1.0.0/)
 - What are bitwise operators?
 - requestAnimationFrame
+- https://www.italki.com/question/187571
 
 ## To research:
 
@@ -34,3 +35,4 @@ Questions:
 - [webhint](https://webhint.io/)
 - [pnpm](https://pnpm.js.org/)
 - [react-query](https://github.com/tannerlinsley/react-query)
+- [keystonejs](https://www.keystonejs.com/)

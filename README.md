@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 791
+Total entries: 792
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -707,6 +707,7 @@ Total entries: 791
 - Extract a .tar.bz2
 - Nodemon polling
 - ESLint doesn't work for jsx/tsx files
+- Ledger stats
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

@@ -936,3 +936,12 @@ $ ssh-keygen -f id_rsa_<name>
 ```
 
 ---
+
+**Ledger stats**
+
+```bash
+$ ledreg --period 'last dec' --sort amount --subtotal # how much I spent last december
+$ ledreg --period 'last dec' --sort amount --subtotal Presents # how much I spent on presents last december
+```
+
+---
