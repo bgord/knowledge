@@ -1281,3 +1281,9 @@ transporter.sendMail(mailOptions, function(err, info) {
 ```
 
 ---
+
+**What are bitwise operators?**
+
+Bitwise operators treat their operands as sequence of 32 bits rather than dec/hex/oct numbers.
+
+---

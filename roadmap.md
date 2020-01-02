@@ -11,16 +11,15 @@ Topics:
 
 Questions:
 
-- Access docker-compose service logs file. [1](https://docs.docker.com/config/containers/logging/configure/)
+- How to access docker-compose service logs file. [1](https://docs.docker.com/config/containers/logging/configure/)
 - Use vim-fugitive for resolving git merge conflicts.
 - Capture groups in JS regex.
 - Docker save/load. [1](https://docs.docker.com/engine/reference/commandline/save)
 - GraphQL fragments.
 - Anki intervals and learning steps. [1](https://www.youtube.com/watch?v=1XaJjbCSXT0)
 - What are conventional commits? [1](https://www.conventionalcommits.org/en/v1.0.0/)
-- What are bitwise operators?
-- requestAnimationFrame
-- https://www.italki.com/question/187571
+- When to use `requestAnimationFrame`?
+- What are bitwise shift operators? [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Left_shift)
 
 ## To research:
 
