@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 792
+Total entries: 796
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -171,6 +171,7 @@ Total entries: 792
 - lightgrey vs lightgray difference
 - will vs going to vs present continuous
 - tiny vs small
+- I plan to vs I'm planning to
 
 ### [flutter](flutter.md)
 - Supported Android/iOS versions
@@ -394,6 +395,9 @@ Total entries: 792
 - Cypress drag and drop column command (react-beautiful-dnd)
 - Nodemailer quick example
 - Cypress hover workarounds
+- Convert a number from decimal to binary
+- What are bitwise operators?
+- How to use bitwise logical operators?
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
