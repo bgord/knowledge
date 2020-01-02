@@ -1272,3 +1272,12 @@ transporter.sendMail(mailOptions, function(err, info) {
 [0](https://github.com/cypress-io/cypress-example-recipes/blob/master/examples/testing-dom__hover-hidden-elements/cypress/integration/hover-hidden-elements-spec.js)
 
 ---
+
+**Convert a number from decimal to binary**
+
+```js
+(5).toString(2); // '101'
+(8).toString(2); // '1000'
+```
+
+---
