@@ -43,6 +43,8 @@
   Can I use for email
 - [npkill](https://www.npmjs.com/package/npkill)
   Search for and delete node_modules folders across the file system
+- [unoconv](https://github.com/unoconv/unoconv)
+  Convert odt to pdf using LibreOffice
 
 ## React
 
