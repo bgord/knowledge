@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 796
+Total entries: 797
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -137,6 +137,7 @@ Total entries: 796
 - Docker container default user
 - Pull images required for docker-compose file to work
 - Ubuntu installation
+- Access docker-compose service logs
 
 ### [elixir](elixir.md)
 - What type of language is Elixir?

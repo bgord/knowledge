@@ -11,7 +11,6 @@ Topics:
 
 Questions:
 
-- How to access docker-compose service logs file. [1](https://docs.docker.com/config/containers/logging/configure/)
 - Use vim-fugitive for resolving git merge conflicts.
 - Capture groups in JS regex.
 - Docker save/load. [1](https://docs.docker.com/engine/reference/commandline/save)
