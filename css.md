@@ -489,3 +489,33 @@ vertical-align: top;
 ```
 
 ---
+
+**Class usage order and class definition order**
+
+Let's say you have these two selectors:
+
+```css
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+```
+
+And there're two possible use cases:
+
+```html
+<div class="red green">TEXT</div>
+```
+
+```html
+<div class="green red">TEXT</div>
+```
+
+In result, text will always be green.
+What matters is not the usage order, it's definition order.
+`.green` was defined after `.red` so it will take precedence.
+
+---

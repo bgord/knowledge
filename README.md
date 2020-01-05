@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 798
+Total entries: 799
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -84,6 +84,7 @@ Total entries: 798
 - Make table scrollable
 - Justify-content space-between without flexbox
 - Align elements to the top of the inline-block container
+- Class usage order and class definition order
 
 ### [dart](dart.md)
 - Automatic code formatting
