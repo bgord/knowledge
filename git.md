@@ -635,3 +635,46 @@ $ git branch
 ```
 
 ---
+
+**What are conventional commits?**
+
+It's a specification for commit messages that allows tools to parse them and e.g create a changelog, infer a semantic version bump...
+
+An overview:
+
+```
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+Fixed types are `fix` (patch version bump), `feat` (minor version bump).
+Besides that, you can use anything e.g: `refactor`, `docs`, or `chore`.
+
+If a footer includes `BREAKING CHANGES` or a `!` after a type/scope means MAJOR version bump.
+
+Examples:
+
+```
+feat: allow provided config object to extend other configs
+
+BREAKING CHANGE: `extends` key in config file is now used for extending other config files
+```
+
+```
+refactor!: drop support for Node 6 # ! indicates breaking changes
+```
+
+```
+docs: correct spelling of CHANGELOG
+```
+
+```
+feat(lang): add polish language # feature with scope
+```
+
+[1](https://www.conventionalcommits.org/en/v1.0.0/#summary)
+
+---
