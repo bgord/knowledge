@@ -128,3 +128,11 @@ fi
 [1](https://stackoverflow.com/questions/17066250/create-timestamp-variable-in-bash-script)
 
 ---
+
+**Print last line ot stdout**
+
+```bash
+ls -l | grep xxx_ | tail -1
+```
+
+---
