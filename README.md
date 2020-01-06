@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 799
+Total entries: 800
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -401,6 +401,7 @@ Total entries: 799
 - Convert a number from decimal to binary
 - What are bitwise operators?
 - How to use bitwise logical operators?
+- Simple search by phrase
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
@@ -736,7 +737,7 @@ Total entries: 799
 - How to type functions?
 - Enum and tuple
 - How to type arrays?
-- How to type input values?
+- How to type onChange event target values?
 - How to type submit values?
 - How to lint TypeScript with ESLint?
 - What's a strict mode and how to enable it?

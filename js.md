@@ -1336,3 +1336,13 @@ Bitwise operators treat their operands as sequence of 32 bits rather than dec/he
 ```
 
 ---
+
+**Simple search by phrase**
+
+```js
+["one", "two", "twenty one"].filter(entry =>
+  entry.toLowerCase().include(searchPhrase.toLowerCase())
+);
+```
+
+---
