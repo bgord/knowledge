@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 800
+Total entries: 801
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -299,6 +299,7 @@ Total entries: 800
 - Definition list style
 - 10 digits input pattern
 - URL passed to <a /> tag gets appended to the current page instead of leading to a separate page
+- Accessible emojis
 
 ### [js](js.md)
 - RegExp for digits

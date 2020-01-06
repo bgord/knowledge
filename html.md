@@ -124,3 +124,17 @@ p {
 2. Add `//`: `//some.host.com`
 
 ---
+
+**Accessible emojis**
+
+- make it a `<span />`
+- use `role="img"`
+- use `aria-label="Party emoji"`
+
+```html
+<span role="img" aria-label="Party emoji">
+  🎉
+</span>
+```
+
+---
