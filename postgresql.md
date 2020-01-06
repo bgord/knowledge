@@ -391,3 +391,11 @@ $ pg_dump -U docker -d hapiline -f "$FILENAME"
 [1](https://www.postgresql.org/docs/9.3/app-pgdump.html)
 
 ---
+
+**psql command to restore a db from backup**
+
+```bash
+$ psql -U docker -w hapiline < backupfile
+```
+
+---
