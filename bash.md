@@ -136,3 +136,11 @@ ls -l | grep xxx_ | tail -1
 ```
 
 ---
+
+**Print n-th column ot stdout**
+
+```bash
+ls -l | grep xxx_ | tail -1 | awk '{print $n}'
+```
+
+---
