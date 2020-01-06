@@ -443,3 +443,20 @@ $ docker inspect --format='{{.LogPath}}' <container id/name>
 [1](https://stackoverflow.com/questions/35414495/save-docker-compose-logs-to-a-file)
 
 ---
+
+**docker-compose script to create a db backup**
+
+```bash
+#!/usr/bin/env bash
+
+TIMESTAMP=$(date +"%s")
+
+FILENAME="hapiline_backup_$TIMESTAMP"
+
+echo "$FILENAME"
+
+docker-compose exec db pg_dump -U docker -d hapiline -f "$FILENAME"
+docker-compose exec db mv "$FILENAME" "data/db"
+```
+
+---
