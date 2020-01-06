@@ -12,7 +12,7 @@ Topics:
 Questions:
 
 - Use vim-fugitive for resolving git merge conflicts.
-- Capture groups in JS regex.
+- What are capture groups in JS regex?
 - Docker save/load. [1](https://docs.docker.com/engine/reference/commandline/save)
 - GraphQL fragments.
 - Anki intervals and learning steps. [1](https://www.youtube.com/watch?v=1XaJjbCSXT0)

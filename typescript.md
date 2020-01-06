@@ -360,7 +360,7 @@ and with generic type
 
 ---
 
-**How to type input values?**
+**How to type onChange event target values?**
 
 `const handleChange = (e: React.ChangeEvent<HTMLInputElement>): void => setName(e.currentTarget.value);`
 

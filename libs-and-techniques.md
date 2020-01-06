@@ -67,6 +67,8 @@
   A handler is called every N items or every X ms (whichever comes first).
 - [knex.js](https://knexjs.org/)
   A universal query builder that works for many SQL engines.
+- [match-sorter](https://github.com/kentcdodds/match-sorter)
+  A lib to filter array of items in a smart and predictable way.
 
 ## Social life
 
