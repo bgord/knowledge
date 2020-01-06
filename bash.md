@@ -120,3 +120,11 @@ fi
 ```
 
 ---
+
+**Timestamp**
+
+`date +"%s"`
+
+[1](https://stackoverflow.com/questions/17066250/create-timestamp-variable-in-bash-script)
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 801
+Total entries: 808
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -23,6 +23,9 @@ Total entries: 801
 - How to declare a variable?
 - How to check if a variable is an empty string?
 - String comparison
+- Timestamp
+- Print last line ot stdout
+- Print n-th column ot stdout
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
@@ -139,6 +142,8 @@ Total entries: 801
 - Pull images required for docker-compose file to work
 - Ubuntu installation
 - Access docker-compose service logs
+- docker-compose script to create a db backup
+- docker-compose script to restore a db from backup
 
 ### [elixir](elixir.md)
 - What type of language is Elixir?
@@ -473,6 +478,8 @@ Total entries: 801
 - Group by day, not exact time
 - Cast to integer
 - Cast to date
+- psql command to create a backup
+- psql command to restore a db from backup
 
 ### [react](react.md)
 - Testing unconnected components
