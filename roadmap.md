@@ -16,7 +16,6 @@ Questions:
 - Docker save/load. [1](https://docs.docker.com/engine/reference/commandline/save)
 - GraphQL fragments.
 - Anki intervals and learning steps. [1](https://www.youtube.com/watch?v=1XaJjbCSXT0)
-- When to use `requestAnimationFrame`?
 - What are bitwise shift operators? [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Left_shift)
 
 ## To research:

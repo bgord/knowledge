@@ -1346,3 +1346,22 @@ Bitwise operators treat their operands as sequence of 32 bits rather than dec/he
 ```
 
 ---
+
+**What is requestAnimationFrame for?**
+
+It's a way to kick off fast-updating animations in JS but not as fast as possible (for loop).
+The goal is to run something 60 fps, but without `setTimeout(callback, 1000 / 60);`.
+
+`requestAnimationFrame` is better because browser can optimize it, and it's more battery/CPU friendly.
+
+The general idea is to call the callback function recursively.
+
+```js
+function repeatOften() {
+  requestAnimationFrame(repeatOften);
+}
+
+requestAnimationFrame(repeatOften);
+```
+
+---

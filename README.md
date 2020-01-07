@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 807
+Total entries: 808
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -407,6 +407,7 @@ Total entries: 807
 - What are bitwise operators?
 - How to use bitwise logical operators?
 - Simple search by phrase
+- What is requestAnimationFrame for?
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
