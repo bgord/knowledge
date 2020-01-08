@@ -1376,3 +1376,14 @@ requestAnimationFrame(repeatOften);
 ```
 
 ---
+
+**RegExp to match a string ending with a word**
+
+```js
+/hey$/
+
+/hey$/.test("heyhohoho"); // false
+/hey$/.test("hohohohey"); // true
+```
+
+---

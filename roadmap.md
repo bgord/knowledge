@@ -17,6 +17,7 @@ Questions:
 - GraphQL fragments.
 - Anki intervals and learning steps. [1](https://www.youtube.com/watch?v=1XaJjbCSXT0)
 - What are bitwise shift operators? [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Left_shift)
+- [regex](https://flaviocopes.com/javascript-regular-expressions)
 
 ## To research:
 
