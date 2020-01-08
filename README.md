@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 808
+Total entries: 810
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -408,6 +408,8 @@ Total entries: 808
 - How to use bitwise logical operators?
 - Simple search by phrase
 - What is requestAnimationFrame for?
+- RegExp to match a string starting with a word
+- RegExp to match a string ending with a word
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

@@ -1365,3 +1365,14 @@ requestAnimationFrame(repeatOften);
 ```
 
 ---
+
+**RegExp to match a string starting with a word**
+
+```js
+/^hey/
+
+/^hey/.test("heyhohoho"); // true
+/^hey/.test("hohohohey"); // false
+```
+
+---
