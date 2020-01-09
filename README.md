@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 810
+Total entries: 811
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -44,7 +44,7 @@ Total entries: 810
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
-- Margin/space
+- Margin/padding
 - aria
 - aria-live
 - aria-label and a11y
@@ -410,6 +410,7 @@ Total entries: 810
 - What is requestAnimationFrame for?
 - RegExp to match a string starting with a word
 - RegExp to match a string ending with a word
+- RegExp range negation
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

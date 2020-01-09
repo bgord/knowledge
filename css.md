@@ -13,7 +13,7 @@
 
 ---
 
-**Margin/space**
+**Margin/padding**
 
 - Margin is a space between elements
 - Padding is a space inside element - relative to borders

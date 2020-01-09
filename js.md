@@ -1387,3 +1387,12 @@ requestAnimationFrame(repeatOften);
 ```
 
 ---
+
+**RegExp range negation**
+
+```js
+/[0-9]/.test("0"); // true
+/[^0-9]/.test("0"); // false
+```
+
+---
