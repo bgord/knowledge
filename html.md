@@ -138,3 +138,15 @@ p {
 ```
 
 ---
+
+**kbd**
+
+`kbd` element is for the situation when we want to give some input/usage/command instructions.
+
+Example:
+
+```html
+<p>To run the script write <kbd>npm run build</kbd>.</p>
+```
+
+---

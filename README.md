@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 811
+Total entries: 812
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -304,6 +304,7 @@ Total entries: 811
 - 10 digits input pattern
 - URL passed to <a /> tag gets appended to the current page instead of leading to a separate page
 - Accessible emojis
+- kbd
 
 ### [js](js.md)
 - RegExp for digits
