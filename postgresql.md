@@ -399,3 +399,9 @@ $ psql -U docker -w hapiline < backupfile
 ```
 
 ---
+
+**Don't restore backup table schemas**
+
+`pg_restore  --data-only`
+
+---

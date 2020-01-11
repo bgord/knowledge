@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 812
+Total entries: 813
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -484,6 +484,7 @@ Total entries: 812
 - Cast to date
 - psql command to create a backup
 - psql command to restore a db from backup
+- Don't restore backup table schemas
 
 ### [react](react.md)
 - Testing unconnected components
