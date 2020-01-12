@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 813
+Total entries: 814
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -412,6 +412,7 @@ Total entries: 813
 - RegExp to match a string starting with a word
 - RegExp to match a string ending with a word
 - RegExp range negation
+- RegExp ranges
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

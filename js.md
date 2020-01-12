@@ -1396,3 +1396,24 @@ requestAnimationFrame(repeatOften);
 ```
 
 ---
+
+**RegExp ranges**
+
+By default, range matches at least one item:
+
+```js
+/[0-9]/.test("xxx"); // false
+/[0-9]/.test("x0x"); // true
+/[0-9]/.test("x00"); // true
+```
+
+If you want to match only one item:
+
+```js
+/^[0-9]$/.test("x"); // false
+/^[0-9]$/.test("0"); // true
+/^[0-9]$/.test("0x"); // false
+/^[0-9]$/.test("00"); // false
+```
+
+---
