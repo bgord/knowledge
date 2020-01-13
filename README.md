@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 814
+Total entries: 816
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -413,6 +413,8 @@ Total entries: 814
 - RegExp to match a string ending with a word
 - RegExp range negation
 - RegExp ranges
+- What's a service worker?
+- The simplest service worker example
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

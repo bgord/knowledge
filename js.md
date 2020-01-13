@@ -1417,3 +1417,9 @@ If you want to match only one item:
 ```
 
 ---
+
+**What's a service worker?**
+
+It's a mechanism to be able to run JS on many threads that can communicate with each other up to some extent.
+
+---
