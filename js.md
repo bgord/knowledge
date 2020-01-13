@@ -1423,3 +1423,35 @@ If you want to match only one item:
 It's a mechanism to be able to run JS on many threads that can communicate with each other up to some extent.
 
 ---
+
+**The simplest service worker example**
+
+```html
+// index.html
+
+<script src="main.js"></script>
+```
+
+```js
+//main.js
+
+const worker = new Worker("service-worker.js");
+
+worker.postMessage("fsociety.dat");
+worker.onmessage = event => {
+  console.log("Received from service-worker:", event.data);
+};
+```
+
+```js
+// service-worker.js
+
+this.onmessage = event => {
+  console.log("Received in service-worker:", event.data);
+  this.postMessage("done");
+};
+```
+
+[0](https://kentcdodds.com/blog/speed-up-your-app-with-web-workers)
+
+---
