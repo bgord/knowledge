@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 816
+Total entries: 817
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -415,6 +415,7 @@ Total entries: 816
 - RegExp ranges
 - What's a service worker?
 - The simplest service worker example
+- Check if user is online
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

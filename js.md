@@ -1455,3 +1455,28 @@ this.onmessage = event => {
 [0](https://kentcdodds.com/blog/speed-up-your-app-with-web-workers)
 
 ---
+
+**Check if user is online**
+
+```js
+function getOnlineStatus() {
+  return typeof navigator !== "undefined" &&
+    typeof navigator.onLine === "boolean"
+    ? navigator.onLine
+    : true;
+}
+```
+
+And associated event listeners:
+
+```js
+window.addEventListener("online", goOnline);
+window.addEventListener("offline", goOffline);
+
+return () => {
+  window.removeEventListener("online", goOnline);
+  window.removeEventListener("offline", goOffline);
+};
+```
+
+---

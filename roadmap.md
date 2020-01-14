@@ -18,7 +18,9 @@ Questions:
 - Anki intervals and learning steps. [1](https://www.youtube.com/watch?v=1XaJjbCSXT0)
 - What are bitwise shift operators? [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Left_shift)
 - [regex](https://flaviocopes.com/javascript-regular-expressions)
-- How to detect if user is offline? (service workers?)
+- What are some useful service worker applications?
+- https://serviceworke.rs/offline-fallback.html
+- What's the problem with positive relative and hover?
 
 ## To research:
 
