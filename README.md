@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 817
+Total entries: 818
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -489,6 +489,7 @@ Total entries: 817
 - psql command to create a backup
 - psql command to restore a db from backup
 - Don't restore backup table schemas
+- Is unique index automatically created for PRIMARY KEY?
 
 ### [react](react.md)
 - Testing unconnected components

@@ -19,7 +19,7 @@ Questions:
 - What are bitwise shift operators? [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Left_shift)
 - [regex](https://flaviocopes.com/javascript-regular-expressions)
 - What are some useful service worker applications?
-- https://serviceworke.rs/offline-fallback.html
+- https://serviceworke.rs/offline-fallback.html https://developers.google.com/web/fundamentals/codelabs/offline
 - What's the problem with positive relative and hover?
 
 ## To research:

@@ -402,6 +402,14 @@ $ psql -U docker -w hapiline < backupfile
 
 **Don't restore backup table schemas**
 
-`pg_restore  --data-only`
+`pg_restore --data-only`
+
+---
+
+**Is unique index automatically created for PRIMARY KEY?**
+
+Yes.
+
+[1](https://www.postgresql.org/docs/current/sql-createtable.html)
 
 ---
