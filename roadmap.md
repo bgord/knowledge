@@ -19,8 +19,9 @@ Questions:
 - What are bitwise shift operators? [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Left_shift)
 - [regex](https://flaviocopes.com/javascript-regular-expressions)
 - What are some useful service worker applications?
-- https://serviceworke.rs/offline-fallback.html https://developers.google.com/web/fundamentals/codelabs/offline
+- https://serviceworke.rs/offline-fallback.html https://developers.google.com/web/fundamentals/codelabs/offline https://paul.kinlan.me/offline-fallback-page-with-service-worker/
 - What's the problem with positive relative and hover?
+- https://codesandbox.io/s/pull-to-refresh-in-xstate-react-and-tailwind-pgd21
 
 ## To research:
 

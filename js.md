@@ -1480,3 +1480,11 @@ return () => {
 ```
 
 ---
+
+**Generate random 6 digit number**
+
+```js
+Math.floor(100000 + Math.random() * 900000);
+```
+
+---

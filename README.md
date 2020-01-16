@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 818
+Total entries: 819
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -416,6 +416,7 @@ Total entries: 818
 - What's a service worker?
 - The simplest service worker example
 - Check if user is online
+- Generate random 6 digit number
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
