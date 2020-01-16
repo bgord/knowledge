@@ -1488,3 +1488,11 @@ Math.floor(100000 + Math.random() * 900000);
 ```
 
 ---
+
+**Run a node module binary script directly**
+
+```
+$ ./node_modules/.bin/<name>
+```
+
+---

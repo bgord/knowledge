@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 819
+Total entries: 820
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -417,6 +417,7 @@ Total entries: 819
 - The simplest service worker example
 - Check if user is online
 - Generate random 6 digit number
+- Run a node module binary script directly
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
