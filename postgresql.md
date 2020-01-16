@@ -413,3 +413,11 @@ Yes.
 [1](https://www.postgresql.org/docs/current/sql-createtable.html)
 
 ---
+
+**Column definition CHECK constraint**
+
+```sql
+price INT CHECK (price >= 0) NOT NULL
+```
+
+---
