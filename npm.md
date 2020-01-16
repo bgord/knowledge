@@ -71,3 +71,11 @@ And then, you should be able to run a `your-package-name` command from terminal.
 You can also run `npm unlink` in the package root to cleanup the symlink.
 
 ---
+
+**^ vs ~ in package versions**
+
+^ means only x and y in 1.y.x will be updated (minor and patch)
+
+~ means only x in 1.2.x will be updated (patch)
+
+---

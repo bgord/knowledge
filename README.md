@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 821
+Total entries: 822
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -433,6 +433,7 @@ Total entries: 821
 - How to test a package locally?
 - How to install packge from GitHub?
 - Test a package binary locally without global installation
+- ^ vs ~ in package versions
 
 ### [other](other.md)
 - Firefox's engine
