@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 822
+Total entries: 823
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -494,6 +494,7 @@ Total entries: 822
 - Don't restore backup table schemas
 - Is unique index automatically created for PRIMARY KEY?
 - Column definition CHECK constraint
+- What's a window function
 
 ### [react](react.md)
 - Testing unconnected components

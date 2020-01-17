@@ -421,3 +421,48 @@ price INT CHECK (price >= 0) NOT NULL
 ```
 
 ---
+
+**What's a window function**
+
+A window function operates on a subset of rows, but it doesn't reduce the number of returned rows.
+
+Compared to the aggregate function which reduces the number of returned rows.
+
+```
+SELECT
+   group_name,
+   AVG (price)
+FROM
+   products
+INNER JOIN product_groups USING (group_id)
+GROUP BY
+   group_name;
+```
+
+| group_name | avg  |
+| ---------- | ---- |
+| smartphone | 500  |
+| tablet     | 300  |
+| laptop     | 1500 |
+
+```
+SELECT
+   product_name,
+   price,
+   group_name,
+   AVG (price) OVER (
+      PARTITION BY group_name
+   )
+FROM
+   products
+   INNER JOIN
+      product_groups USING (group_id);
+```
+
+| product_name | price | group_name | avg  |
+| ------------ | ----- | ---------- | ---- |
+| Xiaomi Mi 9  | 1400  | smartphone | 1500 |
+| iPhone X     | 3400  | smartphone | 1500 |
+| iPhone Xr    | 3600  | smartphone | 1500 |
+
+---

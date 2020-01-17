@@ -22,6 +22,7 @@ Questions:
 - https://serviceworke.rs/offline-fallback.html https://developers.google.com/web/fundamentals/codelabs/offline https://paul.kinlan.me/offline-fallback-page-with-service-worker/
 - What's the problem with positive relative and hover?
 - https://codesandbox.io/s/pull-to-refresh-in-xstate-react-and-tailwind-pgd21
+- What does RANK do in window functions?
 
 ## To research:
 
