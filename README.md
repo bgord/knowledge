@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 823
+Total entries: 824
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -143,6 +143,7 @@ Total entries: 823
 - Ubuntu installation
 - Access docker-compose service logs
 - docker-compose script to create a db backup
+- Save image to an archive
 
 ### [elixir](elixir.md)
 - What type of language is Elixir?

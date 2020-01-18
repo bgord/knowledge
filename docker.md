@@ -460,3 +460,17 @@ docker-compose exec db mv "$FILENAME" "data/db"
 ```
 
 ---
+
+**Save image to an archive**
+
+```bash
+$ docker save -o image_name > image_name.tar
+```
+
+You can later load it:
+
+```bash
+$ docker load --input image_name.tar
+```
+
+---
