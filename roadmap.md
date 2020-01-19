@@ -12,7 +12,6 @@ Topics:
 Questions:
 
 - Use vim-fugitive for resolving git merge conflicts.[1](https://www.prodops.io/blog/solving-git-merge-conflicts-with-vim)
-- What are capture groups in JS regex?
 - GraphQL fragments.
 - Anki intervals and learning steps. [1](https://www.youtube.com/watch?v=1XaJjbCSXT0)
 - What are bitwise shift operators? [1](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Left_shift)
@@ -22,6 +21,9 @@ Questions:
 - What's the problem with positive relative and hover?
 - https://codesandbox.io/s/pull-to-refresh-in-xstate-react-and-tailwind-pgd21
 - What does RANK do in window functions?
+- What's a lookahead in RegExp?
+- What's a lookbehind in RegExp?
+- How to assign name to a group?
 
 ## To research:
 

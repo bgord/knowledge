@@ -1496,3 +1496,24 @@ $ ./node_modules/.bin/<name>
 ```
 
 ---
+
+**Capturing groups**
+
+```js
+"2020-01-02".match(/([0-9]{4})/); // 2020
+"123 gogogo".match(/(\d+)/); // 123
+"xxx|0y0|xxx".match(/\|(.*)\|/); // 0y0
+"<span>xxx</span>".match(/\<span\>(.*)\<\/span\>/); // xxx
+```
+
+[1](https://flaviocopes.com/javascript-regular-expressions/#capture-text-between-double-quotes)
+
+---
+
+**Match anything**
+
+```
+.*
+```
+
+---

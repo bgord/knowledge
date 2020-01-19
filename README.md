@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 824
+Total entries: 826
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -419,6 +419,8 @@ Total entries: 824
 - Check if user is online
 - Generate random 6 digit number
 - Run a node module binary script directly
+- Capturing groups
+- Match anything
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
