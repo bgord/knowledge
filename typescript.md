@@ -949,3 +949,15 @@ Omit<Person, "name">
 ```
 
 ---
+
+**Map**
+
+```ts
+type Vote = "progress" | null;
+
+const voteToColor = new Map<Vote, string>();
+voteToColor.set("progress", "green");
+voteToColor.set(null, "red");
+```
+
+---
