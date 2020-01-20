@@ -1517,3 +1517,14 @@ $ ./node_modules/.bin/<name>
 ```
 
 ---
+
+**window.prompt**
+
+It's useful when you want to implement some sort of action confirmation dialog, but you don't want to use anything fancy.
+
+```js
+// text, defaultValue
+const result: string = window.prompt('Type "OK" to confirm deletion.', "");
+```
+
+---

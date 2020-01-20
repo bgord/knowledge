@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 826
+Total entries: 828
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -421,6 +421,7 @@ Total entries: 826
 - Run a node module binary script directly
 - Capturing groups
 - Match anything
+- window.prompt
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
@@ -800,6 +801,7 @@ Total entries: 826
 - Type guard example
 - Nullish coalescing
 - Omit helper
+- Map
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`
