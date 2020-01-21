@@ -1560,3 +1560,7 @@ function forceFileDownload(response) {
   window.URL.revokeObjectURL(url);
 }
 ```
+
+[1](https://gist.github.com/javilobo8/097c30a233786be52070986d8cdb1743)
+
+---

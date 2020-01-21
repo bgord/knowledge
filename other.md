@@ -120,3 +120,10 @@ It's a problem of handling ten thousand concurrent connections.
 50 zł.
 
 ---
+
+**content-disposition header**
+
+It indicates that the request body is expected to be downloaded.
+It can contain a filename.
+
+---

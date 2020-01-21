@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 829
+Total entries: 830
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -458,6 +458,7 @@ Total entries: 829
 - Hofstadter's law
 - Which HTTP status code is suitable for unexistent resource in e.g DELETE /user/:id
 - Space before "zł"
+- content-disposition header
 
 ### [postgresql](postgresql.md)
 - How to show all table in the current database?
