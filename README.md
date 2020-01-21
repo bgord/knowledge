@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 828
+Total entries: 829
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -422,6 +422,7 @@ Total entries: 828
 - Capturing groups
 - Match anything
 - window.prompt
+- Download file via AJAX
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
