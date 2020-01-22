@@ -531,3 +531,15 @@ img + p {
 ```
 
 ---
+
+**Subsequent-sibling combinator**
+
+Represents all pre elements coming (not necessarily immediately) after h1.
+
+```css
+h1 ~ pre {
+  background: black;
+}
+```
+
+---
