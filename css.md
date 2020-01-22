@@ -519,3 +519,15 @@ What matters is not the usage order, it's definition order.
 `.green` was defined after `.red` so it will take precedence.
 
 ---
+
+**Adjacent sibling combinator**
+
+Paragraphs that come immediately after image.
+
+```css
+img + p {
+  font-style: bold;
+}
+```
+
+---

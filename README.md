@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 830
+Total entries: 832
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -88,6 +88,8 @@ Total entries: 830
 - Justify-content space-between without flexbox
 - Align elements to the top of the inline-block container
 - Class usage order and class definition order
+- Adjacent sibling combinator
+- Subsequent-sibling combinator
 
 ### [dart](dart.md)
 - Automatic code formatting
