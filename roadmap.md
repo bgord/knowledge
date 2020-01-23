@@ -24,6 +24,7 @@ Questions:
 - What's a lookahead in RegExp?
 - What's a lookbehind in RegExp?
 - How to assign name to a group?
+- https://www.youtube.com/watch?v=XaHk9vhmus4&list=WL&index=2
 
 ## To research:
 

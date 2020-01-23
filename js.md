@@ -1564,3 +1564,10 @@ function forceFileDownload(response) {
 [1](https://gist.github.com/javilobo8/097c30a233786be52070986d8cdb1743)
 
 ---
+
+**Named group in RegExp**
+
+```js
+// Match everything between "" and return it as a filename
+const filename = contentDisposition.match(/\"(?<filename>.*)\"/)[1];
+```
