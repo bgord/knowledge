@@ -63,3 +63,50 @@ module.exports = {
 [0](https://github.com/vuejs/vue-cli/issues/2746)
 
 ---
+
+**Slots**
+
+```vue
+// Just like the children in React
+<navigation-link url="/profile">
+  Your Profile
+</navigation-link>
+
+<a v-bind:href="url" class="nav-link">
+  <slot></slot>
+</a>
+
+// Fallback
+<submit-button></submit-button>
+
+<button type="submit">
+  <slot>Submit</slot>
+</button>
+
+// Named slots
+<div class="container">
+  <header>
+    <slot name="header"></slot>
+  </header>
+  <main>
+    <slot></slot>
+  </main>
+  <footer>
+    <slot name="footer"></slot>
+  </footer>
+</div>
+
+<div class="container">
+  <header>
+    <!-- We want header content here -->
+  </header>
+  <main>
+    <!-- We want main content here -->
+  </main>
+  <footer>
+    <!-- We want footer content here -->
+  </footer>
+</div>
+```
+
+---

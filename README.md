@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 833
+Total entries: 834
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -884,6 +884,7 @@ Total entries: 833
 - Rename 'src' directory
 - Difference betwwen static and dynamic props
 - Allow importing files that use module.exports
+- Slots
 
 ### [writing](writing.md)
 - Hyphen vs en dash vs e mdash
