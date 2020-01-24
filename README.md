@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 834
+Total entries: 835
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -462,6 +462,7 @@ Total entries: 834
 - Which HTTP status code is suitable for unexistent resource in e.g DELETE /user/:id
 - Space before "zł"
 - content-disposition header
+- What's xsd?
 
 ### [postgresql](postgresql.md)
 - How to show all table in the current database?

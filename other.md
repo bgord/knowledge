@@ -127,3 +127,9 @@ It indicates that the request body is expected to be downloaded.
 It can contain a filename.
 
 ---
+
+**What's xsd?**
+
+`xsd` is XML schema definition that allows to define a file structure.
+
+---
