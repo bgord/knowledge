@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 835
+Total entries: 836
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -505,6 +505,7 @@ Total entries: 835
 - Is unique index automatically created for PRIMARY KEY?
 - Column definition CHECK constraint
 - What's a window function
+- COUNT NULL values with FILTER
 
 ### [react](react.md)
 - Testing unconnected components

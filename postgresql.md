@@ -466,3 +466,17 @@ FROM
 | iPhone Xr    | 3600  | smartphone | 1500 |
 
 ---
+
+**COUNT NULL values with FILTER**
+
+```sql
+SELECT
+  COUNT(*) FILTER (WHERE a IS NULL) count_nulls,
+  COUNT(*) FILTER (WHERE a = 'x') count_x,
+  COUNT(*) FILTER (WHERE a = 'y') count_y
+FROM us;
+```
+
+[0](http://sqlfiddle.com/#!17/7e51c/2)
+
+---
