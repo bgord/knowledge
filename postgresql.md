@@ -498,3 +498,19 @@ FROM GENERATE_SERIES(now() - '6 days'::interval, now(), '1 day'::interval) as da
 ```
 
 ---
+
+**Count how many items were created before on given day in a date range**
+
+```sql
+SELECT
+  SUM(COUNT(habits.*) FILTER (WHERE habits.created_at::date <= day))
+  OVER (ORDER BY day)::integer AS "maximumVotesLastWeek"
+FROM GENERATE_SERIES(NOW() - '6 days'::interval, NOW(), '1 day') as day
+LEFT JOIN habits ON habits.created_at::date <= day::date
+WHERE habits.user_id = :user_id
+GROUP BY day
+ORDER BY day DESC
+LIMIT 1
+```
+
+---
