@@ -480,3 +480,11 @@ FROM us;
 [0](http://sqlfiddle.com/#!17/7e51c/2)
 
 ---
+
+**Generate a date range**
+
+```sql
+SELECT * FROM generate_series('2020-01-07'::date, '2020-01-01', '1 day') as date;
+```
+
+---
