@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 836
+Total entries: 840
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -426,6 +426,7 @@ Total entries: 836
 - window.prompt
 - Download file via AJAX
 - Named group in RegExp
+- Knex named bindings
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
@@ -506,6 +507,9 @@ Total entries: 836
 - Column definition CHECK constraint
 - What's a window function
 - COUNT NULL values with FILTER
+- Generate a date range
+- Generate a dynamic date range
+- Count how many items were created before on given day in a date range
 
 ### [react](react.md)
 - Testing unconnected components

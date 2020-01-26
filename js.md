@@ -1571,3 +1571,27 @@ function forceFileDownload(response) {
 // Match everything between "" and return it as a filename
 const filename = contentDisposition.match(/\"(?<filename>.*)\"/)[1];
 ```
+
+**Knex named bindings**
+
+```js
+const _resultForToday = await Database.raw(
+  `
+      SELECT
+        COUNT(*) FILTER (WHERE hv.vote = 'progress')::integer AS "progressVotes",
+        COUNT(*) FILTER (WHERE hv.vote = 'plateau')::integer AS "plateauVotes",
+        COUNT(*) FILTER (WHERE hv.vote = 'regress')::integer AS "regressVotes",
+        (
+          SELECT COUNT(*)
+          FROM habits as h
+          WHERE h.created_at::date <= now()::date AND h.user_id = :user_id
+        )::integer as "allHabits"
+      FROM habit_votes as hv
+      INNER JOIN habits as h ON hv.habit_id = h.id
+      WHERE hv.day::date = now()::date AND h.user_id = :user_id
+    `,
+  { user_id: auth.user.id }
+);
+```
+
+---
