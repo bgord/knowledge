@@ -488,3 +488,13 @@ SELECT * FROM generate_series('2020-01-07'::date, '2020-01-01', '1 day') as date
 ```
 
 ---
+
+**Generate a dynamic date range**
+
+```sql
+
+SELECT day::date
+FROM GENERATE_SERIES(now() - '6 days'::interval, now(), '1 day'::interval) as day
+```
+
+---
