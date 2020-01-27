@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 840
+Total entries: 843
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -895,6 +895,11 @@ Total entries: 840
 ### [writing](writing.md)
 - Hyphen vs en dash vs e mdash
 - Smart quotes vs dumb quotes
+
+### [xstate](xstate.md)
+- Basic state definitions
+- Transition definitions
+- Final states
 
 ### [yarn](yarn.md)
 - Upgrade a version of the package in yarn

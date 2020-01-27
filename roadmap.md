@@ -24,6 +24,10 @@ Questions:
 - What's a lookahead in RegExp?
 - What's a lookbehind in RegExp?
 - https://www.youtube.com/watch?v=XaHk9vhmus4&list=WL&index=2
+- https://thoughtbot.com/blog/postgres-window-functions
+- CTE http://www.craigkerstiens.com/2013/11/18/best-postgres-feature-youre-not-using/
+- noscript
+- typescript and enums in runtime
 
 ## To research:
 
