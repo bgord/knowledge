@@ -50,7 +50,9 @@ const formMachine = Machine({
     },
     error: {
       on: {
-        SUBMIT: "pending",
+        SUBMIT: {
+          target: "pending"
+        },
         CANCEL: "idle"
       }
     },
@@ -79,3 +81,27 @@ const switchMachine = Machine({
   }
 });
 ```
+
+**Keep track of some kind of state**
+
+```js
+const switchMachine = Machine({
+  id: "switch",
+  initial: "off",
+  context: {
+    switchesCount: 0
+  },
+  states: {
+    on: {
+      type: "final"
+    },
+    off: {
+      on: {
+        TURN_ON: "on"
+      }
+    }
+  }
+});
+```
+
+---

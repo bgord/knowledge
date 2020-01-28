@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 843
+Total entries: 845
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -900,6 +900,8 @@ Total entries: 843
 - Basic state definitions
 - Transition definitions
 - Final states
+- Keep track of some kind of state
+- Perform some action on event
 
 ### [yarn](yarn.md)
 - Upgrade a version of the package in yarn
