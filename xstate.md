@@ -105,3 +105,45 @@ const switchMachine = Machine({
 ```
 
 ---
+
+**Perform some action on event**
+
+```js
+import { Machine, assign } from "xstate";
+
+const switchMachine = Machine(
+  {
+    id: "switch",
+    initial: "switched_off",
+    context: {
+      switchesCount: 0
+    },
+    states: {
+      switched_on: {
+        on: {
+          SWITCH: {
+            target: "switched_off",
+            actions: ["incrementCount"]
+          }
+        }
+      },
+      switched_off: {
+        on: {
+          SWITCH: {
+            target: "switched_on ",
+            actions: ["incrementCount"]
+          }
+        }
+      }
+    }
+  },
+  {
+    incrementCount: (context, event) =>
+      assign({
+        switchesCount: context.switchesCount + 1
+      })
+  }
+);
+```
+
+---
