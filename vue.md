@@ -110,3 +110,19 @@ module.exports = {
 ```
 
 ---
+
+**Fragments**
+
+```vue
+import { Plugin } from "vue-fragments";
+Vue.use(Plugin);
+
+<template>
+  <v-fragment>
+    <h2>x</h2>
+    <div>text</div>
+  </v-fragment>
+</template>
+```
+
+---

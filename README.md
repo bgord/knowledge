@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 846
+Total entries: 847
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -892,6 +892,7 @@ Total entries: 846
 - Difference betwwen static and dynamic props
 - Allow importing files that use module.exports
 - Slots
+- Fragments
 
 ### [writing](writing.md)
 - Hyphen vs en dash vs e mdash
