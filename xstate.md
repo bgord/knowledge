@@ -147,3 +147,50 @@ const switchMachine = Machine(
 ```
 
 ---
+
+**Invoke a promise when in certain state**
+
+```js
+import { Machine, assign } from "xstate";
+
+const autorefreshMachine = Machine({
+  id: "form",
+  initial: "pending",
+  context: {
+    data: null,
+    error: null
+  },
+  states: {
+    pending: {
+      invoke: {
+        id: "refreshRequest",
+        src: handleRequest,
+        onDone: {
+          target: "success"
+          actions: assign({
+            data: 'Up to date!'
+          })
+        },
+        onError: {
+          target: "error",
+          actions: assign({
+            error: "Something went wrong"
+          })
+        }
+      }
+    },
+    success: {
+      after: {
+        2000: "pending"
+      }
+    },
+    error: {
+      after: {
+        2000: "pending"
+      }
+    }
+  }
+});
+```
+
+---

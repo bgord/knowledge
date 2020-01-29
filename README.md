@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 847
+Total entries: 848
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -904,6 +904,7 @@ Total entries: 847
 - Final states
 - Keep track of some kind of state
 - Perform some action on event
+- Invoke a promise when in certain state
 
 ### [yarn](yarn.md)
 - Upgrade a version of the package in yarn
