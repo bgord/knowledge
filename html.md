@@ -150,3 +150,11 @@ Example:
 ```
 
 ---
+
+**NIP validation pattern**
+
+```
+pattern="[0-9]{10}"
+```
+
+---

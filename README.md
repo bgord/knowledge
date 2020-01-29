@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 845
+Total entries: 846
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -308,6 +308,7 @@ Total entries: 845
 - URL passed to <a /> tag gets appended to the current page instead of leading to a separate page
 - Accessible emojis
 - kbd
+- NIP validation pattern
 
 ### [js](js.md)
 - RegExp for digits
