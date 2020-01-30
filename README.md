@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 848
+Total entries: 850
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -428,6 +428,7 @@ Total entries: 848
 - Download file via AJAX
 - Named group in RegExp
 - Knex named bindings
+- Scroll to top
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
@@ -905,6 +906,7 @@ Total entries: 848
 - Keep track of some kind of state
 - Perform some action on event
 - Invoke a promise when in certain state
+- Delayed automatic transition
 
 ### [yarn](yarn.md)
 - Upgrade a version of the package in yarn

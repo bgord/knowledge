@@ -1595,3 +1595,15 @@ const _resultForToday = await Database.raw(
 ```
 
 ---
+
+**Scroll to top**
+
+```js
+window.scroll({
+  top: 0,
+  left: 0,
+  behavior: "smooth"
+});
+```
+
+---
