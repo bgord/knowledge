@@ -194,3 +194,28 @@ const autorefreshMachine = Machine({
 ```
 
 ---
+
+**Delayed automatic transition**
+
+```js
+import { Machine } from "xstate";
+
+const autorefreshMachine = Machine({
+  id: "form",
+  initial: "active",
+  states: {
+    active: {
+      after: {
+        500: "inactive"
+      }
+    },
+    inactive: {
+      after: {
+        500: "active"
+      }
+    }
+  }
+});
+```
+
+---
