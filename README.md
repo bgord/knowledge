@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 853
+Total entries: 854
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -90,6 +90,7 @@ Total entries: 853
 - Class usage order and class definition order
 - Adjacent sibling combinator
 - Subsequent-sibling combinator
+- Data attribute selector
 
 ### [dart](dart.md)
 - Automatic code formatting

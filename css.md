@@ -543,3 +543,13 @@ h1 ~ pre {
 ```
 
 ---
+
+**Data attribute selector**
+
+```html
+<article data-columns="3" />
+
+article[data-columns='3'] { width: 400px; }
+```
+
+---
