@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 850
+Total entries: 851
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -309,6 +309,7 @@ Total entries: 850
 - Accessible emojis
 - kbd
 - NIP validation pattern
+- Noscript
 
 ### [js](js.md)
 - RegExp for digits

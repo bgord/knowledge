@@ -158,3 +158,15 @@ pattern="[0-9]{10}"
 ```
 
 ---
+
+**Noscript**
+
+It gets executed when the browser doesn't support JS or JS is turned off.
+
+```html
+<noscript>
+  <p>Turn on JavaScript</p>
+</noscript>
+```
+
+---
