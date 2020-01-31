@@ -1607,3 +1607,17 @@ window.scroll({
 ```
 
 ---
+
+**Access element's data attribute**
+
+```js
+<div data-columns="3" id="electric-cars">
+  Electric cars are described below
+</div>;
+
+const article = document.querySelector("#electric-cars");
+
+article.dataset.columns; // "3"
+```
+
+---

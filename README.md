@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 852
+Total entries: 853
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -431,6 +431,7 @@ Total entries: 852
 - Named group in RegExp
 - Knex named bindings
 - Scroll to top
+- Access element's data attribute
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
