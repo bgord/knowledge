@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 851
+Total entries: 852
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -310,6 +310,7 @@ Total entries: 851
 - kbd
 - NIP validation pattern
 - Noscript
+- Data attributes
 
 ### [js](js.md)
 - RegExp for digits

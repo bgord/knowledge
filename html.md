@@ -170,3 +170,13 @@ It gets executed when the browser doesn't support JS or JS is turned off.
 ```
 
 ---
+
+**Data attributes**
+
+You can use `data-*` on any HTML element.
+
+```html
+<h2 data-state="out">Header</h2>
+```
+
+---
