@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 854
+Total entries: 855
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -91,6 +91,7 @@ Total entries: 854
 - Adjacent sibling combinator
 - Subsequent-sibling combinator
 - Data attribute selector
+- Attribute selector
 
 ### [dart](dart.md)
 - Automatic code formatting

@@ -553,3 +553,25 @@ article[data-columns='3'] { width: 400px; }
 ```
 
 ---
+
+**Attribute selector**
+
+```css
+// exact match
+div[data-state="editing"] {
+}
+
+// containing
+div[data-state*="editing"] {
+}
+
+// starts with
+div[data-state^="editing"] {
+}
+
+// ends with
+div[data-state$="pending"] {
+}
+```
+
+---
