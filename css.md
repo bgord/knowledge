@@ -575,3 +575,13 @@ div[data-state$="pending"] {
 ```
 
 ---
+
+**ch unit**
+
+It doesn't really stand for a `character` unit.
+It's rather a width of the "0" character of given font.
+So it may vary from font to font, but is constant for fixed-width fonts.
+
+[1](https://meyerweb.com/eric/thoughts/2018/06/28/what-is-the-css-ch-unit/)
+
+---
