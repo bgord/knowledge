@@ -219,3 +219,26 @@ const autorefreshMachine = Machine({
 ```
 
 ---
+
+**Internal transition**
+
+```js
+const autorefreshMachine = Machine({
+  id: "form",
+  initial: "active",
+  states: {
+    idle: {
+      initial: "valid",
+      states: {
+        valid: {},
+        invalid: {
+          CLOSE_ERROR: ".valid" // doesn't enter the main state node, and goes to the `valid` substate
+        }
+      }
+    },
+    pending: {}
+  }
+});
+```
+
+---

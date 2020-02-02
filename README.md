@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 856
+Total entries: 857
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -913,6 +913,7 @@ Total entries: 856
 - Perform some action on event
 - Invoke a promise when in certain state
 - Delayed automatic transition
+- Internal transition
 
 ### [yarn](yarn.md)
 - Upgrade a version of the package in yarn
