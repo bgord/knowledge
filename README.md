@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 857
+Total entries: 858
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -220,6 +220,7 @@ Total entries: 857
 - Example carousel in Flutter
 - Set clipboard data
 - Flutter scoped_model model declaration and usage
+- Generate icons for iOS app
 
 ### [git](git.md)
 - Checkout the 5-th last branch from the checkout history

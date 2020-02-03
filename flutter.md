@@ -566,3 +566,9 @@ new ScopedModel<CounterModel>(
 ```
 
 ---
+
+**Generate icons for iOS app**
+
+[0](https://alligator.io/flutter/app-icons/)
+
+---
