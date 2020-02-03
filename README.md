@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 859
+Total entries: 860
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -41,6 +41,7 @@ Total entries: 859
 - Making servers secure
 - Are cookies port specific?
 - What's the difference between 127.0.0.1 and 0.0.0.0?
+- Why avoid "Click here" links
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required

@@ -147,3 +147,33 @@ A server on a machine/container has to be running on 0.0.0.0 to allows outside c
 If run on 127.0.0.1, will allow only local connections.
 
 ---
+
+**Why avoid "Click here" links**
+
+It's troublesome for some users that use screan readers.
+They have an ability to announce all links troughout the page, and "Click here" isn't really meaningful.
+
+One way out of this is to change the text.
+
+Use an `aria-label`:
+
+```html
+<a href="/training" aria-label="We can train your team">Learn more</a>
+```
+
+Be careful though, and don't duplicate aria-label with the text because some screen readers may announce it twice.
+
+Use an `aria-labelledby`:
+
+```html
+<div id="hooks-heading">
+  <h2>React Hooks</h2>
+  <div>New On-Demand Course</div>
+</div>
+<div>
+  <!-- the rest of the content -->
+</div>
+<a aria-labelledby="hooks-heading" href="...">Learn More</a>
+```
+
+---
