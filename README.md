@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 858
+Total entries: 859
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -221,6 +221,7 @@ Total entries: 858
 - Set clipboard data
 - Flutter scoped_model model declaration and usage
 - Generate icons for iOS app
+- Change iOS app name in Flutter
 
 ### [git](git.md)
 - Checkout the 5-th last branch from the checkout history

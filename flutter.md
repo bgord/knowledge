@@ -572,3 +572,9 @@ new ScopedModel<CounterModel>(
 [0](https://alligator.io/flutter/app-icons/)
 
 ---
+
+**Change iOS app name in Flutter**
+
+[0](https://www.woolha.com/tutorials/flutter-change-app-launcher-icon-name-android-ios)
+
+---
