@@ -29,6 +29,7 @@ Questions:
 - typescript and enums in runtime
 - getBoundingClientRect
 - https://www.youtube.com/watch?v=Tae96ze3xwY&list=PLWyLhWujYzKfB2r_i0EuXXpZuY8GHuvLk
+- <output />
 
 ## To research:
 

@@ -53,6 +53,8 @@
   Find a little bit lighter/darker color.
 - [svgexport](https://github.com/shakiba/svgexport)
   SVG to PNG conversion
+- [securityheaders](https://securityheaders.com/)
+  A website that shows missing security headers
 
 ## React
 
