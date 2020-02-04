@@ -1621,3 +1621,13 @@ article.dataset.columns; // "3"
 ```
 
 ---
+
+**getBoundingClientRect**
+
+Returns a set of properties about given box:
+
+`top`, `right`, `bottom`, and `left`,
+`width`, `height`,
+`x`, `y`
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 860
+Total entries: 861
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -438,6 +438,7 @@ Total entries: 860
 - Knex named bindings
 - Scroll to top
 - Access element's data attribute
+- getBoundingClientRect
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
