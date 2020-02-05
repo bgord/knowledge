@@ -133,3 +133,9 @@ It can contain a filename.
 `xsd` is XML schema definition that allows to define a file structure.
 
 ---
+
+**What's a mipmap?**
+
+It's a set of textures of different sizes being result of a base texture scaling.
+
+---
