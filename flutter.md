@@ -603,3 +603,9 @@ Edit the android/app/src/main/res/drawable/launch_background.xml file.
 [0](https://medium.com/flutter-community/flutter-2019-real-splash-screens-tutorial-16078660c7a1)
 
 ---
+
+**Add splash screen in iOS**
+
+[0](https://medium.com/@hellosunschein/launchimage-s-explained-33b88c02d027)
+
+---
