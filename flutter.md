@@ -1,3 +1,11 @@
+**New flutter app**
+
+```bash
+$ flutter create <app name>
+```
+
+---
+
 **Supported Android/iOS versions**
 
 Android Jelly Bean 4.1.x and iOS 8+.

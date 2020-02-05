@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 864
+Total entries: 865
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -187,6 +187,7 @@ Total entries: 864
 - I plan to vs I'm planning to
 
 ### [flutter](flutter.md)
+- New flutter app
 - Supported Android/iOS versions
 - Flutter installation
 - Build a Flutter APK
