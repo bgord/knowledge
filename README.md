@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 861
+Total entries: 864
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -223,6 +223,8 @@ Total entries: 861
 - Flutter scoped_model model declaration and usage
 - Generate icons for iOS app
 - Change iOS app name in Flutter
+- Add splash screen in Android
+- Add splash screen in iOS
 
 ### [git](git.md)
 - Checkout the 5-th last branch from the checkout history
@@ -476,6 +478,7 @@ Total entries: 861
 - Space before "zł"
 - content-disposition header
 - What's xsd?
+- What's a mipmap?
 
 ### [postgresql](postgresql.md)
 - How to show all table in the current database?

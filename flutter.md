@@ -173,7 +173,6 @@ Color.fromRGBO(0, 0, 0, 1.0) // black
 cross axis
 ```
 
-
 ```dart
 Row(
   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -576,5 +575,31 @@ new ScopedModel<CounterModel>(
 **Change iOS app name in Flutter**
 
 [0](https://www.woolha.com/tutorials/flutter-change-app-launcher-icon-name-android-ios)
+
+---
+
+**Add splash screen in Android**
+
+Edit the android/app/src/main/res/drawable/launch_background.xml file.
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Modify this file to customize your launch splash screen -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+	    <shape>
+	        <solid android:color="#F6F6FE"/>
+	    </shape>
+	</item>
+
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/logo_full" />
+    </item>
+</layer-list>
+```
+
+[0](https://medium.com/flutter-community/flutter-2019-real-splash-screens-tutorial-16078660c7a1)
 
 ---
