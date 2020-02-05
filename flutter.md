@@ -627,3 +627,15 @@ print('xxx')
 The result should be available in the console where `flutter run` is running.
 
 ---
+
+**Use a local package in another app by path**
+
+In `pubspec.yml`:
+
+```yml
+dependencies:
+  my_package:
+    path: ./my_package
+```
+
+---

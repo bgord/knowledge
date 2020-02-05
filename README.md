@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 866
+Total entries: 867
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -227,6 +227,7 @@ Total entries: 866
 - Add splash screen in Android
 - Add splash screen in iOS
 - Print to console
+- Use a local package in another app by path
 
 ### [git](git.md)
 - Checkout the 5-th last branch from the checkout history
