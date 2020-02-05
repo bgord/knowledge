@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 865
+Total entries: 866
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -226,6 +226,7 @@ Total entries: 865
 - Change iOS app name in Flutter
 - Add splash screen in Android
 - Add splash screen in iOS
+- Print to console
 
 ### [git](git.md)
 - Checkout the 5-th last branch from the checkout history

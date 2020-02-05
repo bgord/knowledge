@@ -617,3 +617,13 @@ Edit the android/app/src/main/res/drawable/launch_background.xml file.
 [0](https://medium.com/@hellosunschein/launchimage-s-explained-33b88c02d027)
 
 ---
+
+**Print to console**
+
+```dart
+print('xxx')
+```
+
+The result should be available in the console where `flutter run` is running.
+
+---
