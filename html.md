@@ -180,3 +180,9 @@ You can use `data-*` on any HTML element.
 ```
 
 ---
+
+**<output />**
+
+It's a tag where app can display a result of a calculation or a user action.
+
+---

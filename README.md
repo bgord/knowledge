@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 867
+Total entries: 868
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -322,6 +322,7 @@ Total entries: 867
 - NIP validation pattern
 - Noscript
 - Data attributes
+- <output />
 
 ### [js](js.md)
 - RegExp for digits

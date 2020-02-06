@@ -28,7 +28,14 @@ Questions:
 - CTE http://www.craigkerstiens.com/2013/11/18/best-postgres-feature-youre-not-using/
 - typescript and enums in runtime
 - https://www.youtube.com/watch?v=Tae96ze3xwY&list=PLWyLhWujYzKfB2r_i0EuXXpZuY8GHuvLk
-- <output />
+- custom checkbox
+  - https://codepen.io/Vestride/pen/dABHx
+  - https://www.minddevelopmentanddesign.com/blog/create-custom-checkboxes-css/
+  - https://dev.to/\_elmahdim/css-stylish-custom-checkbox-and-radio-input-1oae
+  - https://medium.com/claritydesignsystem/pure-css-accessible-checkboxes-and-radios-buttons-54063e759bb3
+  - https://medium.com/@amitdubey.108/create-custom-checkbox-and-radio-button-using-css-best-practices-9f0eabf98d57
+- Block a route transition or closing window with a native dialog
+- https://gist.github.com/brianloveswords/0e85c8eca3f73853408f69702ab4b3eb
 
 ## To research:
 
