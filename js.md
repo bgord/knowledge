@@ -1631,3 +1631,15 @@ Returns a set of properties about given box:
 `x`, `y`
 
 ---
+
+**Cypress check if element has an atribute (e.g href)**
+
+```js
+cy.findByText("first").should(
+  "have.attr",
+  "href",
+  "/habits?preview_habit_id=1"
+);
+```
+
+---

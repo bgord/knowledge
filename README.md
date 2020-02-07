@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 869
+Total entries: 870
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -445,6 +445,7 @@ Total entries: 869
 - Scroll to top
 - Access element's data attribute
 - getBoundingClientRect
+- Cypress check if element has an atribute (e.g href)
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
