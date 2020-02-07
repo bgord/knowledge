@@ -1797,3 +1797,9 @@ const [email, setEmail] = React.useState(registrationEmail ?? "");
 ```
 
 ---
+
+**Block a route transition or closing window with a native dialog**
+
+[0](https://reacttraining.com/react-router/core/api/Prompt)
+
+---

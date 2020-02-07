@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 868
+Total entries: 869
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -623,6 +623,7 @@ Total entries: 868
 - React accessibility (a11y) audit
 - Error boundary example
 - A component is changing an uncontrolled input to be controlled
+- Block a route transition or closing window with a native dialog
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
