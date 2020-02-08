@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 870
+Total entries: 871
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -625,6 +625,7 @@ Total entries: 870
 - Error boundary example
 - A component is changing an uncontrolled input to be controlled
 - Block a route transition or closing window with a native dialog
+- Count children passed to a component
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?

@@ -1803,3 +1803,11 @@ const [email, setEmail] = React.useState(registrationEmail ?? "");
 [0](https://reacttraining.com/react-router/core/api/Prompt)
 
 ---
+
+**Count children passed to a component**
+
+```js
+const childrenCount = React.Children.map(props.children, a => a).length;
+```
+
+---
