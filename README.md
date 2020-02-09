@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 871
+Total entries: 872
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -94,6 +94,7 @@ Total entries: 871
 - Data attribute selector
 - Attribute selector
 - ch unit
+- CSS variable usage example
 
 ### [dart](dart.md)
 - Automatic code formatting

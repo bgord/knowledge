@@ -585,3 +585,18 @@ So it may vary from font to font, but is constant for fixed-width fonts.
 [1](https://meyerweb.com/eric/thoughts/2018/06/28/what-is-the-css-ch-unit/)
 
 ---
+
+**CSS variable usage example**
+
+```css
+:root {
+  --easing: cubic-bezier(0.5, 0, 0.5, 1);
+  --duration: 0.3s;
+}
+
+div {
+  transition: all var(--duration) var(--easing);
+}
+```
+
+---

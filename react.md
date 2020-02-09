@@ -1808,6 +1808,10 @@ const [email, setEmail] = React.useState(registrationEmail ?? "");
 
 ```js
 const childrenCount = React.Children.map(props.children, a => a).length;
+
+// or rather
+
+const childrenCount = React.Children.count(children);
 ```
 
 ---
