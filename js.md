@@ -1643,3 +1643,16 @@ cy.findByText("first").should(
 ```
 
 ---
+
+**RegExp.test**
+
+```
+let re = /a/g
+re.test('ab') // true
+re.test('ab') // this will fail! re.lastIndex === 1, so it starts searching at 'b'
+re.test('ab') // this will pass! since it failed, re.lastIndex is reset to 0
+```
+
+[0](https://gist.github.com/brianloveswords/0e85c8eca3f73853408f69702ab4b3eb)
+
+---

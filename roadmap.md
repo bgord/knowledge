@@ -34,7 +34,6 @@ Questions:
   - https://dev.to/\_elmahdim/css-stylish-custom-checkbox-and-radio-input-1oae
   - https://medium.com/claritydesignsystem/pure-css-accessible-checkboxes-and-radios-buttons-54063e759bb3
   - https://medium.com/@amitdubey.108/create-custom-checkbox-and-radio-button-using-css-best-practices-9f0eabf98d57
-- https://gist.github.com/brianloveswords/0e85c8eca3f73853408f69702ab4b3eb
 
 ## To research:
 
