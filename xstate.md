@@ -242,3 +242,9 @@ const autorefreshMachine = Machine({
 ```
 
 ---
+
+**What's an actor in xstate?**
+
+It's kind of a child state machine that can receive/send/process messages.
+
+---

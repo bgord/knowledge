@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 873
+Total entries: 874
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -930,6 +930,7 @@ Total entries: 873
 - Invoke a promise when in certain state
 - Delayed automatic transition
 - Internal transition
+- What's an actor in xstate?
 
 ### [yarn](yarn.md)
 - Upgrade a version of the package in yarn
