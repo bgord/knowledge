@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 874
+Total entries: 877
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -448,6 +448,9 @@ Total entries: 874
 - getBoundingClientRect
 - Cypress check if element has an atribute (e.g href)
 - RegExp.test
+- Match n items in a RegExp
+- Match n to m items in a RegExp
+- Match at least n items in a RegExp
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

@@ -1656,3 +1656,30 @@ re.test('ab') // this will pass! since it failed, re.lastIndex is reset to 0
 [0](https://gist.github.com/brianloveswords/0e85c8eca3f73853408f69702ab4b3eb)
 
 ---
+
+**Match n items in a RegExp**
+
+```js
+/^\d{3}$/.test("123"); // true
+/^\d{3}$/.test("12"); // false
+```
+
+---
+
+**Match n to m items in a RegExp**
+
+```js
+/^\d{3,5}$/.test("123"); // true
+/^\d{3,5}$/.test("123456"); // false
+```
+
+---
+
+**Match at least n items in a RegExp**
+
+```js
+/^\d{3,}$/.test("12"); // false
+/^\d{3,}$/.test("123456"); // false
+```
+
+---
