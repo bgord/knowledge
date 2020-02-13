@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 877
+Total entries: 878
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -934,6 +934,7 @@ Total entries: 877
 - Delayed automatic transition
 - Internal transition
 - What's an actor in xstate?
+- Add metadata to a state node and use it in a component
 
 ### [yarn](yarn.md)
 - Upgrade a version of the package in yarn

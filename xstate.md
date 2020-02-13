@@ -248,3 +248,54 @@ const autorefreshMachine = Machine({
 It's kind of a child state machine that can receive/send/process messages.
 
 ---
+
+**Add metadata to a state node and use it in a component**
+
+```js
+const wizardMachine = Machine({
+  id: "wizard",
+  initial: "editing",
+  states: {
+    editing: {
+      initial: "step_1",
+      states: {
+        step_1: {
+          on: {
+            NEXT: "step_2"
+          },
+          meta: {
+            prev: false,
+            next: true
+          }
+        },
+        step_2: {
+          on: {
+            PREV: "step_1",
+            NEXT: "#summary"
+          }
+        },
+        meta: {
+          prev: true,
+          next: true
+        }
+      }
+    },
+    summary: {
+      id: "summary",
+      type: "final",
+      meta: {
+        text: "Hello!"
+      }
+    }
+  }
+});
+```
+
+```jsx
+const [current, send] = useMachine(wizardMachine);
+
+current.meta.wizard.summary.text; // "Hello!"
+current.meta.wizard.step_1.prev; // false
+```
+
+---
