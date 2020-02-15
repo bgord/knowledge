@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 878
+Total entries: 883
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -933,8 +933,13 @@ Total entries: 878
 - Invoke a promise when in certain state
 - Delayed automatic transition
 - Internal transition
-- What's an actor in xstate?
 - Add metadata to a state node and use it in a component
+- What's the actor model?
+- Where is an actor reference stored in the parent machine?
+- How to spawn an actor?
+- How to access actor's state
+- How to access actor's send function
+- Send an event to the child actor machine
 
 ### [yarn](yarn.md)
 - Upgrade a version of the package in yarn

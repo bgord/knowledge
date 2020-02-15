@@ -34,6 +34,12 @@ Questions:
   - https://dev.to/\_elmahdim/css-stylish-custom-checkbox-and-radio-input-1oae
   - https://medium.com/claritydesignsystem/pure-css-accessible-checkboxes-and-radios-buttons-54063e759bb3
   - https://medium.com/@amitdubey.108/create-custom-checkbox-and-radio-button-using-css-best-practices-9f0eabf98d57
+- webpack aliases
+- send an event to the parent machine xstate
+- raise in xstate [0](https://spectrum.chat/statecharts/general/understanding-the-actor-model~e5e5f114-c27e-4524-813d-c8af808987dd)
+- activities in xstate
+- services in xstate
+- transient states in xstate
 
 ## To research:
 
