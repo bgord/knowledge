@@ -652,3 +652,11 @@ textarea {
 ```
 
 ---
+
+**Animation gets back to the initial state**
+
+```css
+animation-fill-mode: forwards;
+```
+
+---

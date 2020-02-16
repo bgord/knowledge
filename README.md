@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 885
+Total entries: 886
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -97,6 +97,7 @@ Total entries: 885
 - CSS variable usage example
 - Simulating the "previous sibling" selector with flexbox
 - Make textarea non-resizable
+- Animation gets back to the initial state
 
 ### [dart](dart.md)
 - Automatic code formatting
