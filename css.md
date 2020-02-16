@@ -600,3 +600,45 @@ div {
 ```
 
 ---
+
+**Simulating the "previous sibling" selector with flexbox**
+
+Let's say we want to add an underlin to the label only if the input is focused.
+
+```html
+<form>
+  <label for="name">Name</label>
+  <input id="name" />
+</form>
+```
+
+Currently, there's no previous sibling selector in CSS.
+What we have in our toolbox is only the immediate next sibling selector (+) and next siblings selector (~).
+
+We can work our way through this issue with flexbox.
+
+```css
+form {
+  display: flex;
+  flex-direction: column-reverse;
+}
+```
+
+It requires a change in the elements order if we want to retaing the previous layout.
+
+```html
+<form>
+  <input id="name" />
+  <label for="name">Name</label>
+</form>
+```
+
+And now, we can select the label in case the input is focused:
+
+```css
+input:focused + label {
+  text-transform: underline;
+}
+```
+
+---

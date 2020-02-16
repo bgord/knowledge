@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 883
+Total entries: 884
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -95,6 +95,7 @@ Total entries: 883
 - Attribute selector
 - ch unit
 - CSS variable usage example
+- Simulating the "previous sibling" selector with flexbox
 
 ### [dart](dart.md)
 - Automatic code formatting
