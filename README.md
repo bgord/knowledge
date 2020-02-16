@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 884
+Total entries: 885
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -96,6 +96,7 @@ Total entries: 884
 - ch unit
 - CSS variable usage example
 - Simulating the "previous sibling" selector with flexbox
+- Make textarea non-resizable
 
 ### [dart](dart.md)
 - Automatic code formatting

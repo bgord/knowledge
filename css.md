@@ -642,3 +642,13 @@ input:focused + label {
 ```
 
 ---
+
+**Make textarea non-resizable**
+
+```
+textarea {
+  resize:none;
+}
+```
+
+---
