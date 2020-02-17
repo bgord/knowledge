@@ -660,3 +660,11 @@ animation-fill-mode: forwards;
 ```
 
 ---
+
+**Transition-delay**
+
+```css
+transition-delay: 300ms;
+```
+
+---

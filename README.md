@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 886
+Total entries: 887
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -98,6 +98,7 @@ Total entries: 886
 - Simulating the "previous sibling" selector with flexbox
 - Make textarea non-resizable
 - Animation gets back to the initial state
+- Transition-delay
 
 ### [dart](dart.md)
 - Automatic code formatting
