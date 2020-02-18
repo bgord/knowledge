@@ -186,3 +186,13 @@ You can use `data-*` on any HTML element.
 It's a tag where app can display a result of a calculation or a user action.
 
 ---
+
+**How to define an SVG?**
+
+`viewBox` describes `min-x`, `min-y`, `width`, and `height` of an SVG viewport.
+
+```html
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg>
+```
+
+---

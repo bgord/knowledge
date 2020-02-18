@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 887
+Total entries: 888
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -328,6 +328,7 @@ Total entries: 887
 - Noscript
 - Data attributes
 - <output />
+- How to define an SVG?
 
 ### [js](js.md)
 - RegExp for digits
