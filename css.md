@@ -674,3 +674,17 @@ transition-delay: 300ms;
 If supported, it removes the native OS's element styling from checkboxes, radios, etc.
 
 ---
+
+**Check if browser supports a feature**
+
+```css
+@supports (-webkit-appearance: none) or (-moz-appearance: none) {
+  .c-radio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+  }
+}
+```
+
+---
