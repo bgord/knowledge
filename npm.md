@@ -22,9 +22,11 @@ Use it every time you want to remove node_modules, and npm install.
 
 - create a commit
 - bump version `npm version (major/minor/patch)`
-- push version change
-  `$ npm login`
-  `$ npm publish`
+- push version change commit
+- push tags `git push --tags`
+- login via npm cli `$ npm login`
+- dry-run publishing the package `$ npm publish --dry-run`
+- publish the package `$ npm publish`
 
 ---
 
