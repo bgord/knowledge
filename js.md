@@ -1683,3 +1683,11 @@ re.test('ab') // this will pass! since it failed, re.lastIndex is reset to 0
 ```
 
 ---
+
+**Get the distance to the top of the page**
+
+```js
+onMouseDown={event => event.clientY}
+```
+
+---

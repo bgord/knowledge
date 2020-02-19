@@ -40,6 +40,7 @@ Questions:
 - activities in xstate
 - services in xstate
 - transient states in xstate
+- event.persist()
 
 ## To research:
 
