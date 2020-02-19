@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 889
+Total entries: 890
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -637,6 +637,7 @@ Total entries: 889
 - A component is changing an uncontrolled input to be controlled
 - Block a route transition or closing window with a native dialog
 - Count children passed to a component
+- Event pooling
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?

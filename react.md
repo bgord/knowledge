@@ -1815,3 +1815,35 @@ const childrenCount = React.Children.count(children);
 ```
 
 ---
+
+**Event pooling**
+
+It means that `SyntheticEvent`s are pooled.
+It is reused (with nullified properties after) the event callback has finished.
+So it's impossible to access the properties asynchronously.
+
+```js
+function onClick(event) {
+  console.log(event); // => nullified object.
+  console.log(event.type); // => "click"
+  const eventType = event.type; // => "click"
+
+  setTimeout(function() {
+    console.log(event.type); // => null
+    console.log(eventType); // => "click"
+  }, 0);
+
+  // Won't work. this.state.clickEvent will only contain null values.
+  this.setState({ clickEvent: event });
+
+  // You can still export event properties.
+  this.setState({ eventType: event.type });
+}
+```
+
+If it's an event that fires very frequently: you can use `event.persist()`.
+`onMouseMove={event => event.client}`
+
+It allows to "freeze" the synthetic event, so you can access the properties later.
+
+---
