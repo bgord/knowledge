@@ -668,3 +668,9 @@ transition-delay: 300ms;
 ```
 
 ---
+
+**appearance: none;**
+
+If supported, it removes the native OS's element styling from checkboxes, radios, etc.
+
+---

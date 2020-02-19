@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 890
+Total entries: 892
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -99,6 +99,8 @@ Total entries: 890
 - Make textarea non-resizable
 - Animation gets back to the initial state
 - Transition-delay
+- appearance: none;
+- Check if browser supports a feature
 
 ### [dart](dart.md)
 - Automatic code formatting
