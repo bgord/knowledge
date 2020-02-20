@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 892
+Total entries: 893
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -459,6 +459,7 @@ Total entries: 892
 - Match n to m items in a RegExp
 - Match at least n items in a RegExp
 - Get the distance to the top of the page
+- Return text so browser can download it
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

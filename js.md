@@ -1691,3 +1691,14 @@ onMouseDown={event => event.clientY}
 ```
 
 ---
+
+**Return text so browser can download it**
+
+```js
+return response
+  .header("Content-Disposition", `attachment; filename="${csvFilename}"`)
+  .header("Content-Type", "text/csv")
+  .send(csv);
+```
+
+---
