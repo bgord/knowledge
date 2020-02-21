@@ -1702,3 +1702,13 @@ return response
 ```
 
 ---
+
+**Array.prototype.unshift**
+
+It prepends all the elements to the beginning of an array.
+
+```
+[2, 3].unshift(1); // [1, 2, 3];
+```
+
+---
