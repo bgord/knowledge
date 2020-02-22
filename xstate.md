@@ -397,3 +397,27 @@ on: {
 ```
 
 ---
+
+**Transient states**
+
+It's a state that is typically used to calculated something and immediately transition to a next state.
+
+```js
+{
+  calculating: {
+    on: {
+      "": [
+        {
+          target: "loading",
+          cond: "shouldFetch"
+        },
+        {
+          target: "idle"
+        }
+      ]
+    }
+  }
+}
+```
+
+---
