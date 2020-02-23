@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 896
+Total entries: 897
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -852,6 +852,7 @@ Total entries: 896
 - Nullish coalescing
 - Omit helper
 - Map
+- All HTML elements
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

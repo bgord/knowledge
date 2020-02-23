@@ -961,3 +961,11 @@ voteToColor.set(null, "red");
 ```
 
 ---
+
+**All HTML elements**
+
+```ts
+type Element = keyof JSX.IntrinsicElements;
+```
+
+---
