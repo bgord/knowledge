@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 895
+Total entries: 896
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -101,6 +101,7 @@ Total entries: 895
 - Transition-delay
 - appearance: none;
 - Check if browser supports a feature
+- Scrolling too far to an achor by id
 
 ### [dart](dart.md)
 - Automatic code formatting
