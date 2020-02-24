@@ -1,9 +1,10 @@
 # Knowledge
 
-Total entries: 897
+Total entries: 898
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
+- Tree
 
 ### [anki](anki.md)
 - Anki Desktop shortcuts
