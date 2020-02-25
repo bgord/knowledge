@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 898
+Total entries: 899
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -955,6 +955,7 @@ Total entries: 898
 - How to access actor's send function
 - Send an event to the child actor machine
 - Transient states
+- Activities in x state
 
 ### [yarn](yarn.md)
 - Upgrade a version of the package in yarn

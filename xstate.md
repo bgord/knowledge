@@ -421,3 +421,40 @@ It's a state that is typically used to calculated something and immediately tran
 ```
 
 ---
+
+**Activities in x state**
+
+They're a function that gets executed when a state is entered and stopped when the state is exited.
+
+```js
+const toggleMachine = Machine(
+  {
+    id: "toggle",
+    initial: "inactive",
+    states: {
+      inactive: {
+        on: { TOGGLE: "active" }
+      },
+      active: {
+        // The 'beeping' activity will take place as long as
+        // the machine is in the 'active' state
+        activities: ["beeping"],
+        on: { TOGGLE: "inactive" }
+      }
+    }
+  },
+  {
+    activities: {
+      beeping: () => {
+        // Start the beeping activity
+        const interval = setInterval(() => console.log("BEEP!"), 1000);
+
+        // Return a function that stops the beeping activity
+        return () => clearInterval(interval);
+      }
+    }
+  }
+);
+```
+
+---
