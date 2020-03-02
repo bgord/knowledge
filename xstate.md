@@ -458,3 +458,9 @@ const toggleMachine = Machine(
 ```
 
 ---
+
+**What's a service?**
+
+It's a thing that can be passed to `invoke`: promise, callback, another machine, obvervable.
+
+---

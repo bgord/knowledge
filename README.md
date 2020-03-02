@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 899
+Total entries: 900
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -956,6 +956,7 @@ Total entries: 899
 - Send an event to the child actor machine
 - Transient states
 - Activities in x state
+- What's a service?
 
 ### [yarn](yarn.md)
 - Upgrade a version of the package in yarn
