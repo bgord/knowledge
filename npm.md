@@ -81,3 +81,9 @@ You can also run `npm unlink` in the package root to cleanup the symlink.
 ~ means only x in 1.2.x will be updated (patch)
 
 ---
+
+**pre/post scripts**
+
+If you define a `build` script, you can also define `prebuild` and `postbuild` scripts.
+
+---
