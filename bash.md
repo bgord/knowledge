@@ -144,3 +144,15 @@ ls -l | grep xxx_ | tail -1 | awk '{print $n}'
 ```
 
 ---
+
+**What does -- mean?**
+
+Everything that comes after `--` is a parameter (not an option).
+
+Let's say you want to delete a file named `-file.txt`
+
+`rm -file.txt` won't work, because `rm` treats `-file.txt` as a list of options.
+
+`rm -- -file.txt` works though
+
+---

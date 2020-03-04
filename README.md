@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 901
+Total entries: 902
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -27,6 +27,7 @@ Total entries: 901
 - Timestamp
 - Print last line ot stdout
 - Print n-th column ot stdout
+- What does -- mean?
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
