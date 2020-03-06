@@ -1847,3 +1847,35 @@ If it's an event that fires very frequently: you can use `event.persist()`.
 It allows to "freeze" the synthetic event, so you can access the properties later.
 
 ---
+
+**location.state**
+
+```jsx
+<Link
+  to={{
+    pathname: "/dashboard",
+    state: {
+      from: "login"
+    }
+  }}
+>
+  Dashboard
+</Link>;
+
+history.push({
+  pathname: "/dashboard",
+  state: {
+    from: "login"
+  }
+});
+```
+
+And then you can use it like:
+
+```jsx
+const location = useLocation();
+
+location.state.from; // "login"
+```
+
+---

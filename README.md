@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 902
+Total entries: 903
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -646,6 +646,7 @@ Total entries: 902
 - Block a route transition or closing window with a native dialog
 - Count children passed to a component
 - Event pooling
+- location.state
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?

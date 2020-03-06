@@ -36,6 +36,7 @@ Questions:
   - https://medium.com/@amitdubey.108/create-custom-checkbox-and-radio-button-using-css-best-practices-9f0eabf98d57
 - webpack aliases
 - raise in xstate [0](https://spectrum.chat/statecharts/general/understanding-the-actor-model~e5e5f114-c27e-4524-813d-c8af808987dd)
+- https://www.youtube.com/watch?v=vlxSW0E93UA
 
 ## To research:
 
