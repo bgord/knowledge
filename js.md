@@ -1712,3 +1712,13 @@ It prepends all the elements to the beginning of an array.
 ```
 
 ---
+
+**Assert children in Cypress**
+
+```js
+cy.get("ul")
+  .children()
+  .should("have.length", 10);
+```
+
+---

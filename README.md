@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 903
+Total entries: 904
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -464,6 +464,7 @@ Total entries: 903
 - Get the distance to the top of the page
 - Return text so browser can download it
 - Array.prototype.unshift
+- Assert children in Cypress
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
