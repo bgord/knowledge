@@ -440,6 +440,8 @@ With TypeScript, forwardRef receives two arguments: HTML element type and compon
 const Button = forwardRef<HTMLButtonElement, HTMLProps<HTMLButtonElement>((props, ref) => (<button {...props} ref={ref}>Buy</button>))
 ```
 
+Or [0](https://www.erikverweij.dev/blog/making-your-components-extensible-with-typescript/).
+
 ---
 
 **How to clone all the children and pass props to them?**
