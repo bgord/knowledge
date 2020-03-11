@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 904
+Total entries: 905
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -465,6 +465,7 @@ Total entries: 904
 - Return text so browser can download it
 - Array.prototype.unshift
 - Assert children in Cypress
+- Sort array by an object property
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

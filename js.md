@@ -1722,3 +1722,13 @@ cy.get("ul")
 ```
 
 ---
+
+**Sort array by an object property**
+
+```js
+Array.from(result.progress_streaks).sort((a, b) =>
+  a.progress_streak > b.progress_streak ? -1 : 1
+);
+```
+
+---
