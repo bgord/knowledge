@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 905
+Total entries: 906
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -334,6 +334,7 @@ Total entries: 905
 - Data attributes
 - <output />
 - How to define an SVG?
+- Audio element usage
 
 ### [js](js.md)
 - RegExp for digits

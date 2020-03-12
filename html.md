@@ -196,3 +196,13 @@ It's a tag where app can display a result of a calculation or a user action.
 ```
 
 ---
+
+**Audio element usage**
+
+```html
+<audio src="example.mp3" controls>
+  Your browser doesn't support audio.
+</audio>
+```
+
+---
