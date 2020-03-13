@@ -969,3 +969,9 @@ type Element = keyof JSX.IntrinsicElements;
 ```
 
 ---
+
+**Type inference for dynamic elements passed by as prop (polymorphic components)**
+
+[0](https://github.com/kripod/react-polymorphic-box)
+
+---

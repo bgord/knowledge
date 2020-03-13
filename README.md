@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 906
+Total entries: 907
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -860,6 +860,7 @@ Total entries: 906
 - Omit helper
 - Map
 - All HTML elements
+- Type inference for dynamic elements passed by as prop (polymorphic components)
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`
