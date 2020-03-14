@@ -698,3 +698,16 @@ scroll-margin-top: 20px;
 [0](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-top)
 
 ---
+
+**Read data- attritbute in CSS**
+
+```css
+*[data-content]::after {
+  content: data-attr(data-content);
+}
+```
+
+It doesn't allow to read a data-\* value and assign it as a property value.
+Works only for content.
+
+---
