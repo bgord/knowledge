@@ -945,3 +945,9 @@ $ ledreg --period 'last dec' --sort amount --subtotal Presents # how much I spen
 ```
 
 ---
+
+**Write files to a USB drive**
+
+https://askubuntu.com/a/37775
+
+---

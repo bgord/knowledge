@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 909
+Total entries: 910
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -802,6 +802,7 @@ Total entries: 909
 - Nodemon polling
 - ESLint doesn't work for jsx/tsx files
 - Ledger stats
+- Write files to a USB drive
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
