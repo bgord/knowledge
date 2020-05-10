@@ -113,3 +113,9 @@ getFootballer: (parent, args) =>
   }
 }
 ```
+
+**When was GraphQL first created?**
+
+2015.
+
+---

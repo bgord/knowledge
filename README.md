@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 910
+Total entries: 911
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -316,6 +316,7 @@ Total entries: 910
 - How to set an another port for the server?
 - How to setup a GraphQL playground?
 - How to write a resolver that returns a footballer by fullname?
+- When was GraphQL first created?
 
 ### [html](html.md)
 - Anchor with href phone
