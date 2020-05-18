@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 911
+Total entries: 912
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -161,6 +161,7 @@ Total entries: 911
 - Access docker-compose service logs
 - docker-compose script to create a db backup
 - Save image to an archive
+- Force the docker-compose setup to recreate
 
 ### [elixir](elixir.md)
 - What type of language is Elixir?

@@ -474,3 +474,12 @@ $ docker load --input image_name.tar
 ```
 
 ---
+
+**Force the docker-compose setup to recreate**
+
+```bash
+$ docker-compose down
+$ docker-compose up --force-recreate
+```
+
+---
