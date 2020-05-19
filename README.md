@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 912
+Total entries: 913
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -471,6 +471,7 @@ Total entries: 912
 - Array.prototype.unshift
 - Assert children in Cypress
 - Sort array by an object property
+- %j parameter in console.log
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

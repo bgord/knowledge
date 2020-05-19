@@ -1732,3 +1732,14 @@ Array.from(result.progress_streaks).sort((a, b) =>
 ```
 
 ---
+
+**%j parameter in console.log**
+
+It outputs the JSON.stringified version of a variable.
+
+```
+const result = [ { username: "bartek", age: 23 }, { username: "ola", age: 19 }];
+console.log("%j", result);
+```
+
+---
