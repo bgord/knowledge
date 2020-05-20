@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 916
+Total entries: 917
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -28,6 +28,7 @@ Total entries: 916
 - Print last line ot stdout
 - Print n-th column ot stdout
 - What does -- mean?
+- Clear an exported variable in a terminal
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?

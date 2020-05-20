@@ -156,3 +156,11 @@ Let's say you want to delete a file named `-file.txt`
 `rm -- -file.txt` works though
 
 ---
+
+**Clear an exported variable in a terminal**
+
+```
+unset DOCKER_HOST
+```
+
+---
