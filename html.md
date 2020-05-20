@@ -212,3 +212,11 @@ It's a tag where app can display a result of a calculation or a user action.
 Don't put the `controls` attribute on the element.
 
 ---
+
+**download attribute in <a />**
+
+<a download="kotek.jpg" href="cat.jpg">
+    Download cat pic
+</a>
+
+---
