@@ -177,3 +177,20 @@ Use an `aria-labelledby`:
 ```
 
 ---
+
+**Facade - design pattern**
+
+It's a structural pattern which is a shield (a facade) from the complex code.
+
+Instead:
+Your system -> complex system(s)
+
+You do:
+Your system -> facade (with a nice API) -> complex system(s)
+
+Benefits:
+- API more specific to your problem
+- a good starting point for refactoring
+- better readability
+
+---
