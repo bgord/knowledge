@@ -393,9 +393,7 @@ cp ./provisioning/.../vars-local/secrets.yml /tmp/secrets.yml
 **How to format HTML in a string?**
 
 ```js
-const someText = /* HTML */ `
-  <h1>SomeHTML</h1>
-`;
+const someText = /* HTML */ ` <h1>SomeHTML</h1> `;
 ```
 
 ---
@@ -568,9 +566,9 @@ module.exports = {
     process.env.NODE_ENV === "production" &&
       require("@fullhuman/postcss-purgecss")({
         content: ["./frontend/src/**/.tsx", "./frontend/index.html"],
-        defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || []
-      })
-  ]
+        defaultExtractor: (content) => content.match(/[A-Za-z0-9-_:/]+/g) || [],
+      }),
+  ],
 };
 ```
 
@@ -949,5 +947,48 @@ $ ledreg --period 'last dec' --sort amount --subtotal Presents # how much I spen
 **Write files to a USB drive**
 
 https://askubuntu.com/a/37775
+
+---
+
+**Setup HCAPTCHA**
+
+Go to the https://www.hcaptcha.com/ page and find two keys:
+
+- HCAPTCHA_SECRET_KEY: a secret key used to verify the hcaptcha response on the server
+- HCAPTCHA_SITE_KEY: a public key used to fetch hcaptcha challanges on the frontend
+
+Install the `hcaptcha` package and create a backend middleware like this:
+
+```js
+const validata_hcaptcha_response = async (req, res, next) => {
+  const { HCAPTCHA_SECRET_KEY } = process.env;
+
+  const hcaptcha_response_token = req.body.token;
+
+  try {
+    if (!hcaptcha_response_token) {
+      throw new Error();
+    }
+
+    const hcaptcha_result = await hcaptcha.verify(
+      HCAPTCHA_SECRET_KEY,
+      hcaptcha_response_token
+    );
+
+    if (hcaptcha_result.success) {
+      return next();
+    } else {
+      throw new Error();
+    }
+  } catch (error) {
+    res.json({
+      status: 0,
+      message: res.__("you_must_solve_a_captcha"),
+    });
+  }
+};
+```
+
+On the frontend use a React/Vue/vanilla package.
 
 ---

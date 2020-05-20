@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 914
+Total entries: 915
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -807,6 +807,7 @@ Total entries: 914
 - ESLint doesn't work for jsx/tsx files
 - Ledger stats
 - Write files to a USB drive
+- Setup HCAPTCHA
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
