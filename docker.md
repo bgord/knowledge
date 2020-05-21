@@ -489,3 +489,10 @@ $ docker-compose up --force-recreate
 No, if it's created correctly.
 
 ---
+
+**restart: "always" mean in docker-compose**
+
+It means that when a container exists (unexpectedly, not by `docker-compose stop`),
+it gets restarted automatically if container has started successfully (it's been up for at least 10s)
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 921
+Total entries: 922
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -165,6 +165,7 @@ Total entries: 921
 - Save image to an archive
 - Force the docker-compose setup to recreate
 - Does docker-compose down deletes PostgreSQL data inside (volume)?
+- restart: "always" mean in docker-compose
 
 ### [elixir](elixir.md)
 - What type of language is Elixir?
