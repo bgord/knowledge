@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 920
+Total entries: 921
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -164,6 +164,7 @@ Total entries: 920
 - docker-compose script to create a db backup
 - Save image to an archive
 - Force the docker-compose setup to recreate
+- Does docker-compose down deletes PostgreSQL data inside (volume)?
 
 ### [elixir](elixir.md)
 - What type of language is Elixir?

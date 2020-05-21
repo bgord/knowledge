@@ -483,3 +483,9 @@ $ docker-compose up --force-recreate
 ```
 
 ---
+
+**Does docker-compose down deletes PostgreSQL data inside (volume)?**
+
+No, if it's created correctly.
+
+---
