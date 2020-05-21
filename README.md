@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 918
+Total entries: 919
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -475,6 +475,7 @@ Total entries: 918
 - Assert children in Cypress
 - Sort array by an object property
 - %j parameter in console.log
+- Webpack performance budget
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

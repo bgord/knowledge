@@ -83,7 +83,7 @@ const cases = [
   [false, undefined],
   [false, ""],
   [false, 1],
-  [true, "text"]
+  [true, "text"],
 ];
 test.each(cases)("should return %s when passing %s", (expected, a) => {
   const result = isNumberValidation(a);
@@ -416,7 +416,7 @@ const data = { firstname: "John", lastname: "Doe" };
 Object.defineProperty(data, "fullname", {
   get() {
     return `${this.firstname} ${this.lastname}`;
-  }
+  },
 });
 ```
 
@@ -434,7 +434,7 @@ Object.defineProperty(data, "c", {
   get() {
     return `${this.a} ${this.b}`;
   },
-  enumerable: true
+  enumerable: true,
 });
 
 console.log(data); // {a: "a", b: "b", c: [Getter]}
@@ -454,7 +454,7 @@ const data = {
   quotes: [],
   set quote(value) {
     this.quotes.push(`"${value}"`);
-  }
+  },
 };
 
 data.quote = "To be or not to be";
@@ -468,13 +468,13 @@ console.log(data.quotes); // ['"To be or not to be"']
 ```js
 const defaultOptions = {
   errors: {
-    notFound: "Not found"
-  }
+    notFound: "Not found",
+  },
 };
 const overrides = {
   errors: {
-    notFound: "Nie znaleziono"
-  }
+    notFound: "Nie znaleziono",
+  },
 };
 
 const options = { ...defaultOptions, ...overrides }; // { errors: { notFound: "Nie znaleziono" } }
@@ -608,13 +608,13 @@ const Schema = use("Schema");
 
 class AlterMaslolandiaUploadsSchema extends Schema {
   up() {
-    this.table("some_table", table => {
+    this.table("some_table", (table) => {
       table.integer("kwota_netto").notNullable();
     });
   }
 
   down() {
-    this.table("some_table", table => {
+    this.table("some_table", (table) => {
       table.dropColumn("some_table");
     });
   }
@@ -755,7 +755,7 @@ app.use(methodOverride("__method"));
 ```js
 const rules = {
   password: "required",
-  password_confirmation: "required|same:password"
+  password_confirmation: "required|same:password",
 };
 ```
 
@@ -763,7 +763,7 @@ or
 
 ```js
 const rules = {
-  password: "confirmed"
+  password: "confirmed",
 };
 ```
 
@@ -789,10 +789,10 @@ const basicAuth = require("express-basic-auth");
 app.use(
   basicAuth({
     users: {
-      admin: "password"
+      admin: "password",
     },
     unauthorizedResponse: () => "You shall not pass",
-    challenge: true // forces a browser to display a prompt with login/password inputs
+    challenge: true, // forces a browser to display a prompt with login/password inputs
   })
 );
 ```
@@ -814,13 +814,13 @@ Add `auth` middleware at the beginning of the list.
 const payload = {
   status: 200,
   response: {
-    message: "xxx"
-  }
+    message: "xxx",
+  },
 };
 
 const rules = {
   status: "required",
-  "response.message": "required"
+  "response.message": "required",
 };
 ```
 
@@ -937,7 +937,7 @@ Use `Model.findBy("id", id)` instead.
 ```js
 cy.findByLabelText("Password")
   .type("123")
-  .should(field => expect(field.get(0).checkValidity()).to.be.false);
+  .should((field) => expect(field.get(0).checkValidity()).to.be.false);
 ```
 
 ---
@@ -1026,15 +1026,15 @@ const toggleMachine = Machine({
   states: {
     active: {
       on: {
-        TOGGLE: "inactive"
-      }
+        TOGGLE: "inactive",
+      },
     },
     inactive: {
       on: {
-        TOGGLE: "active"
-      }
-    }
-  }
+        TOGGLE: "active",
+      },
+    },
+  },
 });
 
 // Send TOGGLE event.
@@ -1161,9 +1161,7 @@ items.splice(1, 0, "b");
 **Cypress select nth element from findAllBy**
 
 ```js
-cy.findAllByText("more")
-  .eq(1)
-  .click();
+cy.findAllByText("more").eq(1).click();
 ```
 
 ---
@@ -1195,39 +1193,39 @@ Cypress.Commands.add("dragAndDrop", (subject, target) => {
     consoleProps: () => {
       return {
         subject: subject,
-        target: target
+        target: target,
       };
-    }
+    },
   });
   const BUTTON_INDEX = 0;
   const SLOPPY_CLICK_THRESHOLD = 10;
   cy.get(target)
     .first()
-    .then($target => {
+    .then(($target) => {
       let coordsDrop = $target[0].getBoundingClientRect();
       cy.get(subject)
         .first()
-        .then(subject => {
+        .then((subject) => {
           const coordsDrag = subject[0].getBoundingClientRect();
           cy.wrap(subject)
             .trigger("mousedown", {
               button: BUTTON_INDEX,
               clientX: coordsDrag.x,
               clientY: coordsDrag.y,
-              force: true
+              force: true,
             })
             .trigger("mousemove", {
               button: BUTTON_INDEX,
               clientX: coordsDrag.x + SLOPPY_CLICK_THRESHOLD,
               clientY: coordsDrag.y,
-              force: true
+              force: true,
             });
           cy.get("body")
             .trigger("mousemove", {
               button: BUTTON_INDEX,
               clientX: coordsDrop.x,
               clientY: coordsDrop.y,
-              force: true
+              force: true,
             })
             .trigger("mouseup");
         });
@@ -1248,18 +1246,18 @@ const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
     user: "",
-    pass: ""
-  }
+    pass: "",
+  },
 });
 
 const mailOptions = {
   from: "example@email.com", // sender address
   to: "gordonbartosz@gmail.com", // list of receivers
   subject: "Subject of your email", // Subject line
-  html: `xxx ` // plain text body
+  html: `xxx `, // plain text body
 };
 
-transporter.sendMail(mailOptions, function(err, info) {
+transporter.sendMail(mailOptions, function (err, info) {
   if (err) console.log(err);
   else console.log(info);
 });
@@ -1340,7 +1338,7 @@ Bitwise operators treat their operands as sequence of 32 bits rather than dec/he
 **Simple search by phrase**
 
 ```js
-["one", "two", "twenty one"].filter(entry =>
+["one", "two", "twenty one"].filter((entry) =>
   entry.toLowerCase().include(searchPhrase.toLowerCase())
 );
 ```
@@ -1438,7 +1436,7 @@ It's a mechanism to be able to run JS on many threads that can communicate with 
 const worker = new Worker("service-worker.js");
 
 worker.postMessage("fsociety.dat");
-worker.onmessage = event => {
+worker.onmessage = (event) => {
   console.log("Received from service-worker:", event.data);
 };
 ```
@@ -1446,7 +1444,7 @@ worker.onmessage = event => {
 ```js
 // service-worker.js
 
-this.onmessage = event => {
+this.onmessage = (event) => {
   console.log("Received in service-worker:", event.data);
   this.postMessage("done");
 };
@@ -1602,7 +1600,7 @@ const _resultForToday = await Database.raw(
 window.scroll({
   top: 0,
   left: 0,
-  behavior: "smooth"
+  behavior: "smooth",
 });
 ```
 
@@ -1716,9 +1714,7 @@ It prepends all the elements to the beginning of an array.
 **Assert children in Cypress**
 
 ```js
-cy.get("ul")
-  .children()
-  .should("have.length", 10);
+cy.get("ul").children().should("have.length", 10);
 ```
 
 ---
@@ -1740,6 +1736,22 @@ It outputs the JSON.stringified version of a variable.
 ```
 const result = [ { username: "bartek", age: 23 }, { username: "ola", age: 19 }];
 console.log("%j", result);
+```
+
+---
+
+**Webpack performance budget**
+
+In webpack config file:
+
+```js
+module.exports {
+		performance: {
+			maxAssetSize: 300000, //in bytes
+			maxEntrypointSize: 300000,
+			hints: "warning",
+		},
+}
 ```
 
 ---
