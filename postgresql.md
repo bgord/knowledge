@@ -514,3 +514,11 @@ LIMIT 1
 ```
 
 ---
+
+**How to list all relations in given database**
+
+```bash
+\dt+
+```
+
+---
