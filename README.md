@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 919
+Total entries: 920
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -476,6 +476,7 @@ Total entries: 919
 - Sort array by an object property
 - %j parameter in console.log
 - Webpack performance budget
+- Run server on a random port
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

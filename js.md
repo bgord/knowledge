@@ -1755,3 +1755,17 @@ module.exports {
 ```
 
 ---
+
+**Run server on a random port**
+
+```js
+const http = require("http");
+
+const server = http.createServer();
+
+server.listen(0, () => {
+  console.log(server.address().port);
+});
+```
+
+---
