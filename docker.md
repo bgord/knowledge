@@ -542,4 +542,20 @@ NAME                DESCRIPTION                               DOCKER ENDPOINT   
 default *           Current DOCKER_HOST based configuration   unix:///var/run/docker.sock                           swarm
 deployment          My deployment server                      ssh://ann@1.1.1.1:225
 ```
+---
 
+**Switching Docker context**
+
+If you're ready to deploy the app, you need to use the deployment context.
+
+```bash
+$ docker context use deployment
+```
+
+To go back to the default context:
+
+```bash
+$ docker context use default
+```
+
+---
