@@ -189,8 +189,62 @@ You do:
 Your system -> facade (with a nice API) -> complex system(s)
 
 Benefits:
+
 - API more specific to your problem
 - a good starting point for refactoring
 - better readability
+
+---
+
+**Strategy design pattern**
+
+Strategy is a behavioral deisn pattern.
+
+It means that it allows to dynamically set interchangeable strategies with dealing with a problem.
+
+## Problem
+
+Let's say you have a navigation app, and you want to autogenerate routes from point A to B.
+In the initial version, you allow building routes over roads.
+
+But! In the next releases, you add more and more options: public transport, bikes, walking etc.
+
+If you keep extending the initial algorithm to implement other options, it obvioiusly keeps growing.
+Moreover, it becomes more complex, and addition/fix to one algorithm may interfere with others.
+
+## Solution
+
+The key is to create strategies as separate classes/functions:
+The important thing is that they have the same interface.
+
+```js
+class SomeStrategy {
+  execute(sth) {
+    return sth;
+  }
+}
+
+class AnotherStrategy {
+  execute(sth) {
+    // ...
+    return sth_else;
+  }
+}
+```
+
+And a separate class/function that is a "proxy" and fires the selected strategy, called `Context`.
+
+```js
+class Context {
+  setStrategy(strategy) {
+    this.strategy = strategy;
+  }
+  execute() {
+    this.strategy.execute();
+  }
+}
+```
+
+Source: [0](https://refactoring.guru/design-patterns/strategy)
 
 ---

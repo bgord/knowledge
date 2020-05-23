@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 924
+Total entries: 925
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -46,6 +46,7 @@ Total entries: 924
 - What's the difference between 127.0.0.1 and 0.0.0.0?
 - Why avoid "Click here" links
 - Facade - design pattern
+- Strategy design pattern
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
