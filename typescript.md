@@ -845,9 +845,9 @@ Partial<Response>
 **Type img props**
 
 ```tsx
-export const Logo: React.FC<React.ImgHTMLAttributes<
-  HTMLImageElement
->> = props => <img alt="Logo" src="logo.png" {...props} />;
+export const Logo: React.FC<React.ImgHTMLAttributes<HTMLImageElement>> = (
+  props
+) => <img alt="Logo" src="logo.png" {...props} />;
 ```
 
 ---
@@ -973,5 +973,13 @@ type Element = keyof JSX.IntrinsicElements;
 **Type inference for dynamic elements passed by as prop (polymorphic components)**
 
 [0](https://github.com/kripod/react-polymorphic-box)
+
+---
+
+**Reexport only certain type from a module**
+
+```
+export type {HabitStrength as HabitStrengthType} from "@prisma/client";
+```
 
 ---
