@@ -983,3 +983,25 @@ export type {HabitStrength as HabitStrengthType} from "@prisma/client";
 ```
 
 ---
+
+**Unwrap a return value of a Promise**
+
+```typescript
+export type AsyncReturnType<T extends (...args: any) => any> = T extends (
+  ...args: any
+) => Promise<infer U>
+  ? U
+  : T extends (...args: any) => infer U
+  ? U
+  : any;
+
+async function getHabit(id: number):Promise<Habit> {};
+
+// Let's say I want to get a return value of the Promise
+
+AsyncReturnType<typeof getHabit>;
+```
+
+[0](https://jpwilliams.dev/how-to-unpack-the-return-type-of-a-promise-in-typescript)
+
+---
