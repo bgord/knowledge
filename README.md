@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 926
+Total entries: 927
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -482,6 +482,7 @@ Total entries: 926
 - %j parameter in console.log
 - Webpack performance budget
 - Run server on a random port
+- Debugging node memory usage
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

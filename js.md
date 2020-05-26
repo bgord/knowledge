@@ -1769,3 +1769,18 @@ server.listen(0, () => {
 ```
 
 ---
+
+**Debugging node memory usage**
+
+```
+$ node --inspect index.js
+```
+
+Go to the Chromium app, type `chrome://inspect`, choose your target, and take a heap snapshot.
+
+The first one should be taken in the "normal" app state, the second when the memory is leaking.
+
+Instead of manually taking snapshots, you can use `heapdump` package, and write the snapshot to a file.
+Then, you cant import the files and compare them in the chrome inspector.
+
+---
