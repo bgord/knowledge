@@ -678,3 +678,11 @@ feat(lang): add polish language # feature with scope
 [1](https://www.conventionalcommits.org/en/v1.0.0/#summary)
 
 ---
+
+**Restore a version of a file from given hash**
+
+```bash
+$ git checkout master -- file.txt
+```
+
+---

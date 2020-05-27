@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 928
+Total entries: 929
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -315,6 +315,7 @@ Total entries: 928
 - Ignore all files from a directory with exceptions
 - List all branches
 - What are conventional commits?
+- Restore a version of a file from given hash
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?
