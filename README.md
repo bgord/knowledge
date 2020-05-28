@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 930
+Total entries: 931
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -821,6 +821,7 @@ Total entries: 930
 - Write files to a USB drive
 - Setup HCAPTCHA
 - POST request in curl
+- Webpack access current npm package app version
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

@@ -1000,3 +1000,14 @@ $ curl -d "param1=value1&param2=value2" -X POST http://localhost:3000/data
 ```
 
 ---
+
+**Webpack access current npm package app version**
+
+```
+// in webpack.config.js
+
+process.env.npm_package_version
+
+```
+
+---
