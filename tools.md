@@ -992,3 +992,11 @@ const validata_hcaptcha_response = async (req, res, next) => {
 On the frontend use a React/Vue/vanilla package.
 
 ---
+
+**POST request in curl**
+
+```bash
+$ curl -d "param1=value1&param2=value2" -X POST http://localhost:3000/data
+```
+
+---

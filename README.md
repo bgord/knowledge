@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 929
+Total entries: 930
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -820,6 +820,7 @@ Total entries: 929
 - Ledger stats
 - Write files to a USB drive
 - Setup HCAPTCHA
+- POST request in curl
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
