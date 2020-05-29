@@ -686,3 +686,13 @@ $ git checkout master -- file.txt
 ```
 
 ---
+
+**Change the location after a repo name change**
+
+"This repository moved. Please use the new location""
+
+```bash
+$ git remote set-url origin <link, like: git@github.com:bgord/Hapiline.git>
+```
+
+---
