@@ -1005,3 +1005,43 @@ AsyncReturnType<typeof getHabit>;
 [0](https://jpwilliams.dev/how-to-unpack-the-return-type-of-a-promise-in-typescript)
 
 ---
+
+**Retaining requesty body types between middlewares**
+
+```ts
+const validation = <T extends z.ZodObject<any>, D>(schema: T) => (
+  request: express.Request<any, any, D>,
+  response: express.Response<express.NextFunction | ValidationError>,
+  next: express.NextFunction
+) => {
+  try {
+    schema.parse(request.body);
+    return next();
+  } catch (error) {
+    if (error instanceof ZodError) {
+      return response.status(400).send({
+        code: "E_VALIDATION",
+        argErrors: error.errors.map((error) => {
+          const lastIndex = error.path.length - 1;
+
+          return {
+            message: error.message,
+            key: error.path[lastIndex],
+            path: error.path,
+          };
+        }),
+      });
+    }
+  }
+};
+
+app.post(
+  "/user",
+  validation<typeof NewCharacterSchema, NewCharacter>(NewCharacterSchema),
+  (request, response) => {
+    const result = request.body; // types of NewCharacter
+  }
+);
+```
+
+---
