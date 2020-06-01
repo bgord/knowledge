@@ -77,6 +77,8 @@
   A universal query builder that works for many SQL engines.
 - [match-sorter](https://github.com/kentcdodds/match-sorter)
   A lib to filter array of items in a smart and predictable way.
+- [zod](https://github.com/vriad/zod)
+  TypeScript-first schema validation with static type inference
 
 ## Social life
 
