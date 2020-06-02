@@ -1011,3 +1011,32 @@ process.env.npm_package_version
 ```
 
 ---
+
+**Create a mock sftp server**
+
+```
+docker run -v /tmp/upload:/home/ftp/upload -p 2222:22 -d atmoz/sftp ftp:pass:1000
+```
+
+After that, get the IP address of the container:
+
+```
+docker container ls
+docker inspect <container-id> # look for NetworkSettings.IPAddress
+```
+
+Then, sftp to the server in the container, cd to the upload
+directory and you're good to go. (Notice the way we avoid writing to
+~/.ssh/known_hosts, which is a problem after you destroy and
+recreate the container.)
+
+```
+$ sftp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o LogLevel=quiet ftp@172.17.0.2
+password: pass
+
+$ cd upload
+```
+
+`/tmp/upload` on your local machine is synced with `/home/ftp/upload` in the container.
+
+---

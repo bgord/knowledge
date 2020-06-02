@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 934
+Total entries: 935
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -824,6 +824,7 @@ Total entries: 934
 - Setup HCAPTCHA
 - POST request in curl
 - Webpack access current npm package app version
+- Create a mock sftp server
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
