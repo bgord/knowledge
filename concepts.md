@@ -248,3 +248,15 @@ class Context {
 Source: [0](https://refactoring.guru/design-patterns/strategy)
 
 ---
+
+**Law of Demeter**
+
+It's a "only talk to your immediate friends" rule that given object should assume as little as possible about the structure or properties of anything else.
+
+E.g (don't use properties that are far away: `this.Parent().Children().first().color`).
+
+Given object should only communicate with/read from: itself, a param passed to it, an object created by it
+
+Principle of Least Knowledge.
+
+---
