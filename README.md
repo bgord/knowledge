@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 935
+Total entries: 936
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -572,6 +572,7 @@ Total entries: 935
 - Generate a dynamic date range
 - Count how many items were created before on given day in a date range
 - How to list all relations in given database
+- Query by nested JSON field
 
 ### [react](react.md)
 - Testing unconnected components

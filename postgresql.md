@@ -522,3 +522,9 @@ LIMIT 1
 ```
 
 ---
+
+**Query by nested JSON field**
+
+`additional_info -> 'acadia' ->> 'patient_history_number' = :patient_history_number`
+
+---
