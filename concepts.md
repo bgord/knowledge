@@ -270,3 +270,27 @@ It's designed to coordinate clocks.
 Points to the time at 0 degrees longitude.
 
 ---
+
+**ISO dates**
+
+ISO 8601 is an official format of date and time representation.
+
+It's based on the Gregorian calendar with 24 hours.
+
+It can have an optional UTC offset, both positive and negative integers.
+
+`14:45:15Z` means `14:45:15` in UTC.
+
+`14:45:15Z` means `18:45:15+04`.
+
+`2014`, `2014-04`, `2014-04-03` - all of these dates are correct ISO dates.
+
+To add time info:
+`2014-04-03T23:04Z` (in UTC)
+`2014-04-03T21:04+3:00` the moment as above
+
+It's recommended to save ISO dates to the databases!
+
+[0](https://dev.to/corykeane/3-simple-rules-for-effectively-handling-dates-and-timezones-1pe0)
+
+---
