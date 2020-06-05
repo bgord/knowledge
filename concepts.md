@@ -260,3 +260,13 @@ Given object should only communicate with/read from: itself, a param passed to i
 Principle of Least Knowledge.
 
 ---
+
+**UTC**
+
+A time standard meaning COORDINATED UNIVERSAL TIME.
+
+It's designed to coordinate clocks.
+
+Points to the time at 0 degrees longitude.
+
+---

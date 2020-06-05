@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 936
+Total entries: 938
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -48,6 +48,8 @@ Total entries: 936
 - Facade - design pattern
 - Strategy design pattern
 - Law of Demeter
+- UTC
+- ISO dates
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
