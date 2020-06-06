@@ -604,7 +604,7 @@ $ ssh -i .vagrant/machines/<machine_name>/virtualbox/private_key -p <forwarded_p
 
 ---
 
-**`scp` usage**
+**`scp` copy local file to a remote**
 
 ```bash
 $ scp filename.txt user@<remote_host_ip>:/remote/dir/to/copy/to
@@ -1038,5 +1038,13 @@ $ cd upload
 ```
 
 `/tmp/upload` on your local machine is synced with `/home/ftp/upload` in the container.
+
+---
+
+**`scp` copy a file from remote to the local machine**
+
+```bash
+scp <user>@<remote_host_ip>:/remote/dir local_dir
+```
 
 ---

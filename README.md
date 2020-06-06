@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 939
+Total entries: 940
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -784,7 +784,7 @@ Total entries: 939
 - Define basic auth credentials in httpie
 - Download an app from f-droid
 - SSH to a Vagrant machine without vagrant ssh
-- `scp` usage
+- `scp` copy local file to a remote
 - `npx` mechanics
 - Noticeable discoloration or ghosting of previous image
 - Get a size of a directory
@@ -829,6 +829,7 @@ Total entries: 939
 - POST request in curl
 - Webpack access current npm package app version
 - Create a mock sftp server
+- `scp` copy a file from remote to the local machine
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
