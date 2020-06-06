@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 938
+Total entries: 939
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -351,7 +351,8 @@ Total entries: 938
 - How to define an SVG?
 - Audio element usage
 - Remove defult HTML <audio /> controls
-- download attribute in <a />
+- Download attribute in <a />
+- Lazy loading of images
 
 ### [js](js.md)
 - RegExp for digits

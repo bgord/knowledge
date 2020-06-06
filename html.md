@@ -213,10 +213,29 @@ Don't put the `controls` attribute on the element.
 
 ---
 
-**download attribute in <a />**
+**Download attribute in <a />**
 
+```html
 <a download="kotek.jpg" href="cat.jpg">
-    Download cat pic
+  Download cat pic
 </a>
+```
+
+---
+
+**Lazy loading of images**
+
+```html
+<img src="image.png" loading="lazy" alt="…" width="200" height="200" />
+```
+
+It's still experimental, and is supported only in major browsers.
+[0](https://caniuse.com/#search=loading)
+
+- auto: Default lazy-loading behavior of the browser, which is the same as not including the attribute.
+- lazy: Defer loading of the resource until it reaches a calculated distance from the viewport.
+- eager: Load the resource immediately, regardless of where it's located on the page.
+
+To implement the lazy loading via `Intersection Observer`, look [here](https://blog.bitsrc.io/lazy-loading-images-using-the-intersection-observer-api-5a913ee226d).
 
 ---
