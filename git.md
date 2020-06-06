@@ -696,3 +696,11 @@ $ git remote set-url origin <link, like: git@github.com:bgord/Hapiline.git>
 ```
 
 ---
+
+**Programatically get current branch**
+
+```bash
+$ git rev-parse --symbolic-full-name --abbrev-ref HEAD
+```
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 940
+Total entries: 941
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -320,6 +320,7 @@ Total entries: 940
 - What are conventional commits?
 - Restore a version of a file from given hash
 - Change the location after a repo name change
+- Programatically get current branch
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?
