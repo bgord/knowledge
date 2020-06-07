@@ -164,3 +164,11 @@ unset DOCKER_HOST
 ```
 
 ---
+
+**Quit when a command fails**
+
+```bash
+set -e
+```
+
+---
