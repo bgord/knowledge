@@ -704,3 +704,17 @@ $ git rev-parse --symbolic-full-name --abbrev-ref HEAD
 ```
 
 ---
+
+**Quit if there're some uncommited git changes**
+
+```bash
+if [ -z "$(git status --porcelain)" ]; then
+  echo "Clean working directory, quitting..."
+else
+  echo "You have some uncommited changes"
+  echo "Quitting..."
+  exit 1
+fi
+```
+
+---
