@@ -705,7 +705,7 @@ $ git rev-parse --symbolic-full-name --abbrev-ref HEAD
 
 ---
 
-**Quit if there're some uncommited git changes**
+**Check if there're some uncommited git changes**
 
 ```bash
 if [ -z "$(git status --porcelain)" ]; then
@@ -714,6 +714,20 @@ else
   echo "You have some uncommited changes"
   echo "Quitting..."
   exit 1
+fi
+```
+
+---
+
+**Check if branch is in sync with it's origin**
+
+```bash
+export BRANCH_A=feature_branch
+export BRANCH_B=origin/feature_branch
+
+if [ x"$(git rev-parse $BRANCH_A)" = x"$(git rev-parse $BRANCH_B)" ]
+then
+    echo $BRANCH_A and $BRANCH_B are the same
 fi
 ```
 

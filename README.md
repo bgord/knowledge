@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 943
+Total entries: 944
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -322,7 +322,8 @@ Total entries: 943
 - Restore a version of a file from given hash
 - Change the location after a repo name change
 - Programatically get current branch
-- Quit if there're some uncommited git changes
+- Check if there're some uncommited git changes
+- Check if branch is in sync with it's origin
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?
