@@ -711,3 +711,28 @@ It doesn't allow to read a data-\* value and assign it as a property value.
 Works only for content.
 
 ---
+
+**Scroll snapping**
+
+```html
+<div class="container">
+  <section class="child"></section>
+  <section class="child"></section>
+  <section class="child"></section>
+</div>
+```
+
+```css
+.container {
+  scroll-snap-type: y mandatory;
+}
+
+.child {
+  scroll-snap-align: start;
+}
+```
+
+[0](https://codesandbox.io/s/little-voice-ooq5t?file=/src/RelatedArtists.js:1149-1177)
+[1](https://css-tricks.com/practical-css-scroll-snapping/)
+
+---

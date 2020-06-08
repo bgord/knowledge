@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 944
+Total entries: 945
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -112,6 +112,7 @@ Total entries: 944
 - Check if browser supports a feature
 - Scrolling too far to an achor by id
 - Read data- attritbute in CSS
+- Scroll snapping
 
 ### [dart](dart.md)
 - Automatic code formatting
