@@ -732,3 +732,11 @@ fi
 ```
 
 ---
+
+**Show the commit which introduces given line**
+
+```bash
+$ git show $(git blame example.js -L 4,4 | awk '{print $1}')
+```
+
+---
