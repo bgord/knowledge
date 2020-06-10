@@ -139,3 +139,9 @@ It can contain a filename.
 It's a set of textures of different sizes being result of a base texture scaling.
 
 ---
+
+**429 HTTP status code**
+
+Too many requests
+
+---

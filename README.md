@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 946
+Total entries: 947
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -534,6 +534,7 @@ Total entries: 946
 - content-disposition header
 - What's xsd?
 - What's a mipmap?
+- 429 HTTP status code
 
 ### [postgresql](postgresql.md)
 - How to show all table in the current database?
