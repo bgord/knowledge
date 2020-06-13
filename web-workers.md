@@ -73,3 +73,40 @@ interface WorkerOptions {
 ```
 
 ---
+
+**How to communicate with a web worker?**
+
+Master -> worker communication
+
+```js
+// main.js
+const worker = new Worker("worker.js");
+
+worker.addEventListener("message", handleMessage);
+
+function handleMessage(event) {
+  console.log(event.data); // { greeting: "Hello there!" }
+}
+
+// worker.js
+
+self.postMessage({ greeting: "Hello there!" });
+```
+
+Worker -> master communication
+
+```js
+// main.js
+const worker = new Worker("worker.js");
+worker.postMessage("The other way around");
+
+// worker.js
+
+self.onmessage = handleMessage;
+
+function handleMessage(event) {
+  console.log(event); // "The other way around"
+}
+```
+
+---

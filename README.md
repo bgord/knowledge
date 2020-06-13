@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 955
+Total entries: 956
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -990,6 +990,7 @@ Total entries: 955
 - How to create a web worker?
 - How to debug/access a web worker in Firefox
 - What are worker options?
+- How to communicate with a web worker?
 
 ### [writing](writing.md)
 - Hyphen vs en dash vs e mdash
