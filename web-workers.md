@@ -13,3 +13,9 @@ Due to security reasons, possible DOS attack surface.
 With an exception for 1 web worker.
 
 ---
+
+**What are use cases for web workers?**
+
+- doing some heavy calculations in the background in a non-blocking way
+
+---
