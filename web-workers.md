@@ -19,10 +19,12 @@ With an exception for 1 web worker.
 
 ---
 
-**What are use cases for web workers?**
+**What are use cases for web/service workers?**
 
 - doing some heavy calculations in the background in a non-blocking way
 - doing some pings/healthchecks
+
+- caching things
 
 ---
 
@@ -30,12 +32,6 @@ With an exception for 1 web worker.
 
 dedicated worker - a web worker for a page, killed after closing the tab
 shared worker - a web worker that can communicate with more than 1 page (limited due to browser implementations)
-
----
-
-**What's a difference between service and web worker?**
-
-Service workers can survive after a tab is closed.
 
 ---
 
@@ -132,5 +128,20 @@ setTimeout(someRecurrentOperation, 0);
 ```js
 worker.terminate();
 ```
+
+---
+
+**What's a difference between service and web worker?**
+
+Service workers can survive after a tab is closed.
+
+---
+
+**What's a service worker?**
+
+It's a kind of web worker, which sits between your app the rest of the web.
+Every single web request is going to be tunelled through it, if it exists.
+
+An in-browser proxy.
 
 ---
