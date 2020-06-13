@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 947
+Total entries: 948
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -980,6 +980,9 @@ Total entries: 947
 - Allow importing files that use module.exports
 - Slots
 - Fragments
+
+### [web-workers](web-workers.md)
+- What's a web worker?
 
 ### [writing](writing.md)
 - Hyphen vs en dash vs e mdash
