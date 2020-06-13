@@ -58,3 +58,18 @@ Once it's instantiated, it gets executed immediately.
 In the `Debugger` -> `Sources` tab, there's gonna be an entry of your web worker besides the `main thread`>
 
 ---
+
+**What are worker options?**
+
+```ts
+type RequestCredentials = "include" | "omit" | "same-origin";
+type WorkerType = "classic" | "module";
+
+interface WorkerOptions {
+  credentials?: RequestCredentials;
+  name?: string;
+  type?: WorkerType;
+}
+```
+
+---
