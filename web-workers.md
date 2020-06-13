@@ -5,6 +5,8 @@ It doesn't block the app's thread.
 
 It doesn't have DOM access, but it has a way to access the network.
 
+The data sent between the main and a web worker is copied, not sent by reference, so avoid huge payloads.
+
 ---
 
 **How many web workers can a page spin up**
@@ -107,6 +109,20 @@ self.onmessage = handleMessage;
 function handleMessage(event) {
   console.log(event); // "The other way around"
 }
+```
+
+---
+
+**Allowing new messages when web worker is running**
+
+When you e.g perform some recurrent calculations in the web worker,
+there's no room for another message to be processed,
+because the loop is running very tightly.
+
+A trick may be to:
+
+```js
+setTimeout(someRecurrentOperation, 0);
 ```
 
 ---

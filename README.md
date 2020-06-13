@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 956
+Total entries: 958
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -991,6 +991,8 @@ Total entries: 956
 - How to debug/access a web worker in Firefox
 - What are worker options?
 - How to communicate with a web worker?
+- Allowing new messages when web worker is running
+- How to kill a web worker?
 
 ### [writing](writing.md)
 - Hyphen vs en dash vs e mdash
