@@ -3,7 +3,8 @@
 It's a JavaScript file that runs on a thread that's separate from your app's thread.
 It doesn't block the app's thread.
 
--
+---
+
 **How many web workers can a page spin up**
 
 An app can have many web workers.
@@ -27,3 +28,8 @@ shared worker - a web worker that can communicate with more than 1 page (limited
 
 ---
 
+**What's a difference between service and web worker?**
+
+Service workers can survive after a tab is closed.
+
+---

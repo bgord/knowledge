@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 951
+Total entries: 952
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -986,6 +986,7 @@ Total entries: 951
 - How many web workers can a page spin up
 - What are use cases for web workers?
 - What are the types of web workers?
+- What's a difference between service and web worker?
 
 ### [writing](writing.md)
 - Hyphen vs en dash vs e mdash
