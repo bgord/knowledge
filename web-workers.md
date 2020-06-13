@@ -3,6 +3,8 @@
 It's a JavaScript file that runs on a thread that's separate from your app's thread.
 It doesn't block the app's thread.
 
+It doesn't have DOM access, but it has a way to access the network.
+
 ---
 
 **How many web workers can a page spin up**
@@ -18,6 +20,7 @@ With an exception for 1 web worker.
 **What are use cases for web workers?**
 
 - doing some heavy calculations in the background in a non-blocking way
+- doing some pings/healthchecks
 
 ---
 
@@ -31,5 +34,21 @@ shared worker - a web worker that can communicate with more than 1 page (limited
 **What's a difference between service and web worker?**
 
 Service workers can survive after a tab is closed.
+
+---
+
+**How to create a web worker?**
+
+```js
+const worker = new Worker("/js/worker.js");
+```
+
+```js
+// /js/worker.js
+
+console.log("Hello from the web worker!"); // anything can go in the worker's file
+```
+
+Once it's instantiated, it gets executed immediately.
 
 ---

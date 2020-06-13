@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 952
+Total entries: 955
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -987,6 +987,9 @@ Total entries: 952
 - What are use cases for web workers?
 - What are the types of web workers?
 - What's a difference between service and web worker?
+- How to create a web worker?
+- How to debug/access a web worker in Firefox
+- What are worker options?
 
 ### [writing](writing.md)
 - Hyphen vs en dash vs e mdash
