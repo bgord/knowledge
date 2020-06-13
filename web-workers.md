@@ -52,3 +52,9 @@ console.log("Hello from the web worker!"); // anything can go in the worker's fi
 Once it's instantiated, it gets executed immediately.
 
 ---
+
+**How to debug/access a web worker in Firefox**
+
+In the `Debugger` -> `Sources` tab, there's gonna be an entry of your web worker besides the `main thread`>
+
+---
