@@ -126,3 +126,11 @@ setTimeout(someRecurrentOperation, 0);
 ```
 
 ---
+
+**How to kill a web worker?**
+
+```js
+worker.terminate();
+```
+
+---
