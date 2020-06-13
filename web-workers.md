@@ -19,3 +19,11 @@ With an exception for 1 web worker.
 - doing some heavy calculations in the background in a non-blocking way
 
 ---
+
+**What are the types of web workers?**
+
+dedicated worker - a web worker for a page, killed after closing the tab
+shared worker - a web worker that can communicate with more than 1 page (limited due to browser implementations)
+
+---
+
