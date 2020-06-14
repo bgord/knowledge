@@ -996,8 +996,8 @@ Total entries: 963
 - How to kill a web worker?
 - What's a difference between service and web worker?
 - What's a service worker?
-- How to define a service worker?
 - Detect if service workers are supported
+- How to define a service worker?
 
 ### [writing](writing.md)
 - Hyphen vs en dash vs e mdash

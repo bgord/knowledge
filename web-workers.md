@@ -145,3 +145,11 @@ Every single web request is going to be tunelled through it, if it exists.
 An in-browser proxy.
 
 ---
+
+**Detect if service workers are supported**
+
+```js
+const areServiceWorkersSupported = "serviceWorker" in navigator;
+```
+
+---
