@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 959
+Total entries: 960
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -901,6 +901,7 @@ Total entries: 959
 - Reexport only certain type from a module
 - Unwrap a return value of a Promise
 - Retaining requesty body types between middlewares
+- What's the difference between `any` and `unknown`?
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

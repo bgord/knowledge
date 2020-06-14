@@ -1045,3 +1045,15 @@ app.post(
 ```
 
 ---
+
+**What's the difference between `any` and `unknown`?**
+
+`any` is a top type that represents everything,
+you can access whatever properties you'd like.
+
+`unknown` is a type-safe version of `any`.
+It still can represent everything, 
+but can can't use e.g `.push()` method,
+unless you prove it (with a guard) that the value is an array.
+
+---
