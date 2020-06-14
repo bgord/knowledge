@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 960
+Total entries: 963
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -837,6 +837,7 @@ Total entries: 960
 - Webpack access current npm package app version
 - Create a mock sftp server
 - `scp` copy a file from remote to the local machine
+- Simulate offline scenario in Firefox
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
@@ -995,6 +996,8 @@ Total entries: 960
 - How to kill a web worker?
 - What's a difference between service and web worker?
 - What's a service worker?
+- How to define a service worker?
+- Detect if service workers are supported
 
 ### [writing](writing.md)
 - Hyphen vs en dash vs e mdash

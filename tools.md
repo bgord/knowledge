@@ -1048,3 +1048,9 @@ scp <user>@<remote_host_ip>:/remote/dir local_dir
 ```
 
 ---
+
+**Simulate offline scenario in Firefox**
+
+(Alt) File -> Work offline
+
+---
