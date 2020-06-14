@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 963
+Total entries: 972
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -997,7 +997,16 @@ Total entries: 963
 - What's a difference between service and web worker?
 - What's a service worker?
 - Detect if service workers are supported
-- How to define a service worker?
+- How does the service worker path affects which files can it access?
+- How is service worker instance defined?
+- How many service workers can be active at given time for given page?
+- What's the default process of replacing an old service worker with an updated one?
+- How to override the default process of replacing an old service worker with an updated one?
+- How to listen for an event of changing the service worker?
+- What does controller mean in context of service workers?
+- How to listen for registration events in service worker?
+- What states can service worker be in?
+- Offline fallback for react app
 
 ### [writing](writing.md)
 - Hyphen vs en dash vs e mdash

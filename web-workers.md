@@ -153,3 +153,201 @@ const areServiceWorkersSupported = "serviceWorker" in navigator;
 ```
 
 ---
+
+**How does the service worker path affects which files can it access?**
+
+If you load a service worker from path `/js/sw.js`, it can access files beneth the `/js` path.
+So it's advisable to load service workers from `/`, so it can access everything.
+It may require some URL rewrite on the server.
+
+---
+
+**How is service worker instance defined?**
+
+It's a unique combination of the service worker file.
+If you change a bit (even a comment), it's going to install/wait/activate
+another service worker instance.
+
+---
+
+**How many service workers can be active at given time for given page?**
+
+One.
+
+---
+
+**What's the default process of replacing an old service worker with an updated one?**
+
+Let's say we have a service worker running.
+We want already have an updated version of the same service worker.
+We initiate the new service worker registration.
+After it's been installed, it enters the 'waiting' status.
+The lifecycle of the old one has to finish (e.g by navigation event),
+so the new one can take it's place, and go to the 'active' state.
+
+---
+
+**How to override the default process of replacing an old service worker with an updated one?**
+
+```js
+// service worker file
+
+self.skipWaiting();
+```
+
+---
+
+**How to listen for an event of changing the service worker?**
+
+```js
+navigator.serviceWorker.addEventListener("controllerchange");
+```
+
+---
+
+**What does controller mean in context of service workers?**
+
+It means the instance of service worker that's in charge.
+
+---
+
+**How to listen for registration events in service worker?**
+
+```js
+self.addEventListener("install");
+self.addEventListener("activate");
+```
+
+---
+
+**What states can service worker be in?**
+
+- installing
+- waiting
+- active
+- redundant
+
+---
+
+**Offline fallback for react app**
+
+```bash
+$ npm i -D workbox-{navigation-preload,routing,strategies,webpack-plugin}
+```
+
+```js
+// webpack.config.js
+
+const workboxPlugin = require("workbox-webpack-plugin");
+
+plugins: [
+  // ...
+  new workboxPlugin.InjectManifest({
+    swSrc: "./frontend/src/sw",
+    swDest: "sw.js",
+    mode: "production",
+  }),
+];
+```
+
+```html
+<html lang="en">
+  <html lang="en">
+    <head>
+      <title>Hapiline</title>
+    </head>
+
+    <body>
+      App is offline
+    </body>
+  </html>
+</html>
+```
+
+```js
+// frontend/src/index.tsx
+
+if (
+  "serviceWorker" in navigator &&
+  // Comment the line below if you want to
+  // use the service worker in development mode.
+  // And uncomment the if statements for
+  // debugging purposes.
+  __ENVIRONMENT__ === "production"
+) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("/sw.js")
+      .then((_registration) => {
+        // if (__ENVIRONMENT__ === "development") {
+        // 	console.log("SW registered: ", _registration);
+        // }
+      })
+      .catch((_registrationError) => {
+        // if (__ENVIRONMENT__ === "development") {
+        // 	console.log("SW registration error: ", _registrationError);
+        // }
+      });
+  });
+}
+```
+
+```js
+import * as navigationPreload from "workbox-navigation-preload";
+import { registerRoute, NavigationRoute } from "workbox-routing";
+import { NetworkOnly } from "workbox-strategies";
+
+// This console.log is partially for debugging reasons
+// (yes, on producion, the build version isn't really sensitive)
+// and it's a good practice to have at least a bit that's
+// changing in the service worker file so it get's
+// reinstalled properly.
+console.log(`SW v${__BUILD_VERSION__}`);
+
+// There's a Workbox build error if `self.__WB_MANIFEST`
+// is not present in the SW file.
+
+/* eslint-disable no-unused-expressions */
+self.__WB_MANIFEST;
+
+// To skip the `waiting` step in the service worker lifecycle:
+// installing -> waiting -> activated -> redundant
+self.skipWaiting();
+
+// The name of the entry in the Cache Storage
+// in the Application dev tool tab.
+const CACHE_NAME = "offline-html";
+
+// This assumes /offline.html is a URL for your self-contained
+// (no external images or styles) offline page.
+const FALLBACK_HTML_URL = "/offline.html";
+
+// Populate the cache with the offline HTML page when the
+// service worker is installed.
+self.addEventListener("install", async (event) => {
+  event.waitUntil(
+    caches.open(CACHE_NAME).then((cache) => cache.add(FALLBACK_HTML_URL))
+  );
+});
+
+navigationPreload.enable();
+
+const networkOnly = new NetworkOnly();
+
+const navigationHandler = async (params) => {
+  try {
+    // Attempt a network request.
+    return await networkOnly.handle(params);
+  } catch (error) {
+    // If it fails, return the cached HTML.
+    return caches.match(FALLBACK_HTML_URL, {
+      cacheName: CACHE_NAME,
+    });
+  }
+};
+
+// Register this strategy to handle all navigations.
+registerRoute(new NavigationRoute(navigationHandler));
+```
+
+---
