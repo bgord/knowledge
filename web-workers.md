@@ -351,3 +351,33 @@ registerRoute(new NavigationRoute(navigationHandler));
 ```
 
 ---
+
+**Add manifest.json**
+
+```json
+{
+  "manifest_version": 2,
+  "name": "Hapiline",
+  "short_name": "Hapiline - habit tracker",
+  "version": "0.8.2",
+  "start_url": "http://localhost:3333/",
+  "display": "standalone",
+  "theme_color": "#1654ff",
+  "background_color": "#ecedf1",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/app-icon.png",
+      "sizes": "144x144"
+    }
+  ]
+}
+```
+
+```html
+<head>
+  <link rel="manifest" href="/manifest.json" />
+</head>
+```
+
+---
