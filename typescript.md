@@ -1052,8 +1052,20 @@ app.post(
 you can access whatever properties you'd like.
 
 `unknown` is a type-safe version of `any`.
-It still can represent everything, 
+It still can represent everything,
 but can can't use e.g `.push()` method,
 unless you prove it (with a guard) that the value is an array.
+
+---
+
+**Get type of function parameters**
+
+```ts
+function add(x: number, y: number): number {
+  return x + y;
+}
+
+type AddParametersType = Parameters<typeof add>; // [number, number]
+```
 
 ---

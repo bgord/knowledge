@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 973
+Total entries: 974
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -903,6 +903,7 @@ Total entries: 973
 - Unwrap a return value of a Promise
 - Retaining requesty body types between middlewares
 - What's the difference between `any` and `unknown`?
+- Get type of function parameters
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`
