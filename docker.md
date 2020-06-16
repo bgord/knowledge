@@ -542,6 +542,7 @@ NAME                DESCRIPTION                               DOCKER ENDPOINT   
 default *           Current DOCKER_HOST based configuration   unix:///var/run/docker.sock                           swarm
 deployment          My deployment server                      ssh://ann@1.1.1.1:225
 ```
+
 ---
 
 **Switching Docker context**
@@ -557,5 +558,11 @@ To go back to the default context:
 ```bash
 $ docker context use default
 ```
+
+---
+
+**Add local domain with nginx-proxy**
+
+[0](https://medium.com/better-programming/docker-powered-web-development-utilizing-https-and-local-domain-names-a57f129e1c4d)
 
 ---

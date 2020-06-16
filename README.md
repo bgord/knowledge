@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 974
+Total entries: 975
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -174,6 +174,7 @@ Total entries: 974
 - restart: "always" mean in docker-compose
 - Docker context
 - Switching Docker context
+- Add local domain with nginx-proxy
 
 ### [elixir](elixir.md)
 - What type of language is Elixir?
