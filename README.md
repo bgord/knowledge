@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 975
+Total entries: 976
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -175,6 +175,7 @@ Total entries: 975
 - Docker context
 - Switching Docker context
 - Add local domain with nginx-proxy
+- What does --remove-orphans do
 
 ### [elixir](elixir.md)
 - What type of language is Elixir?

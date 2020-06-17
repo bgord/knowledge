@@ -566,3 +566,18 @@ $ docker context use default
 [0](https://medium.com/better-programming/docker-powered-web-development-utilizing-https-and-local-domain-names-a57f129e1c4d)
 
 ---
+
+**What does --remove-orphans do**
+
+If you:
+- `docker-compose up`d a setup with 3 services
+-  deleted one of the services in `docker-compose.yml`
+- `docker-compose down`d the previuos setup
+- `docker-compose up`d the next setup,
+
+you have an orphan that is the running container for the service that got deleted.
+
+Next time you `up` the setup, add `--remove-orphans` option.
+
+
+---
