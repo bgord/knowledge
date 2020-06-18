@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 977
+Total entries: 978
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -328,6 +328,7 @@ Total entries: 977
 - Check if there're some uncommited git changes
 - Check if branch is in sync with it's origin
 - Show the commit which introduces given line
+- Update already pushed branch on local and origin
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?

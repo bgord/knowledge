@@ -740,3 +740,13 @@ $ git show $(git blame example.js -L 4,4 | awk '{print $1}')
 ```
 
 ---
+
+**Update already pushed branch on local and origin**
+
+```bash
+$ git branch -m refactor/new
+$ git push -u origin :refactor/old refactor/new # delete the old, and create the new branch
+$ git push -u origin refactor/new
+```
+
+---
