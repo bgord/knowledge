@@ -119,8 +119,8 @@ SELECT nextval(pg_get_serial_sequence('table_name', 'id'));
 ```js
 const data = {
   company_info: {
-    NIP: "1111111111"
-  }
+    NIP: "1111111111",
+  },
 };
 
 Database.select(knex.raw("company_info ->> 'NIP' as NIP"));
@@ -142,9 +142,7 @@ Database.select(
 **Where equal in knex raw select**
 
 ```js
-Database.select("*")
-  .form("users")
-  .where("name", "<>", "admin");
+Database.select("*").form("users").where("name", "<>", "admin");
 ```
 
 ---
@@ -198,9 +196,7 @@ Database.table("visits").select(
 **Where not null in Knex**
 
 ```js
-await Database.select("*")
-  .from("users")
-  .whereNotNull("network");
+await Database.select("*").from("users").whereNotNull("network");
 ```
 
 ---
@@ -208,9 +204,7 @@ await Database.select("*")
 **Where not null in Knex**
 
 ```js
-await Database.select("*")
-  .from("users")
-  .whereNotNull("network");
+await Database.select("*").from("users").whereNotNull("network");
 ```
 
 ---
@@ -238,10 +232,7 @@ Database.table("visits").whereRaw(`created_at::date = ?`, [date]);
 const trx = await Database.beginTransaction();
 
 try {
-  await trx
-    .table("users")
-    .insert(newUserPayload)
-    .returning("id");
+  await trx.table("users").insert(newUserPayload).returning("id");
 
   await trx.table("role").insert(newUserRolePayload);
 
@@ -526,5 +517,13 @@ LIMIT 1
 **Query by nested JSON field**
 
 `additional_info -> 'acadia' ->> 'patient_history_number' = :patient_history_number`
+
+---
+
+**Case-insensitive where**
+
+```sql
+WHERE name ILIKE 'adam'
+```
 
 ---
