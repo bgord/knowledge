@@ -1784,3 +1784,11 @@ Instead of manually taking snapshots, you can use `heapdump` package, and write 
 Then, you cant import the files and compare them in the chrome inspector.
 
 ---
+
+**Access app version from package.json**
+
+1. Import package.json and read it.
+
+2. Use `process.env.npm_package_version`.
+
+---
