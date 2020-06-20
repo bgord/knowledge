@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 978
+Total entries: 979
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -908,6 +908,7 @@ Total entries: 978
 - Retaining requesty body types between middlewares
 - What's the difference between `any` and `unknown`?
 - Get type of function parameters
+- Import json files in TypeScript
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

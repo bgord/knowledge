@@ -1069,3 +1069,17 @@ type AddParametersType = Parameters<typeof add>; // [number, number]
 ```
 
 ---
+
+**Import json files in TypeScript**
+
+Add `resolveJsonModule` option.
+
+```json
+{
+  "compilerOptions": {
+    "resolveJsonModule": true
+  }
+}
+```
+
+---
