@@ -750,3 +750,11 @@ $ git push -u origin refactor/new
 ```
 
 ---
+
+**Get first common commit**
+
+```bash
+$ git merge-base develop feature/offline
+```
+
+---

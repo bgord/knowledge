@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 981
+Total entries: 983
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -329,6 +329,8 @@ Total entries: 981
 - Check if branch is in sync with it's origin
 - Show the commit which introduces given line
 - Update already pushed branch on local and origin
+- Get first common commit
+- Setup interactive rebase back to the first commit branched out of base branch
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?
