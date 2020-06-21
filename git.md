@@ -758,3 +758,11 @@ $ git merge-base develop feature/offline
 ```
 
 ---
+
+**Setup interactive rebase back to the first commit branched out of base branch**
+
+```bash
+$ git rebase -i `git merge-base develop feature/offline`
+```
+
+---
