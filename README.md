@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 979
+Total entries: 981
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -498,6 +498,8 @@ Total entries: 979
 - Webpack performance budget
 - Run server on a random port
 - Debugging node memory usage
+- Access app version from package.json
+- Configure Cypress test suite for many viewports
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

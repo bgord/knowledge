@@ -1792,3 +1792,9 @@ Then, you cant import the files and compare them in the chrome inspector.
 2. Use `process.env.npm_package_version`.
 
 ---
+
+**Configure Cypress test suite for many viewports**
+
+[0](https://maximilianschmitt.me/posts/cypress-testing-mobile-tablet-desktop/)
+
+---
