@@ -527,3 +527,9 @@ WHERE name ILIKE 'adam'
 ```
 
 ---
+
+**SELECT during a transcation**
+
+SELECT in a transaction can access the state of the database after an INSERT/UPDATE.
+
+---

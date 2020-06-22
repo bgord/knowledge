@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 983
+Total entries: 984
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -591,6 +591,7 @@ Total entries: 983
 - How to list all relations in given database
 - Query by nested JSON field
 - Case-insensitive where
+- SELECT during a transcation
 
 ### [react](react.md)
 - Testing unconnected components
