@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 984
+Total entries: 985
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -914,6 +914,7 @@ Total entries: 984
 - What's the difference between `any` and `unknown`?
 - Get type of function parameters
 - Import json files in TypeScript
+- Reexport default export
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

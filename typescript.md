@@ -1083,3 +1083,12 @@ Add `resolveJsonModule` option.
 ```
 
 ---
+
+**Reexport default export**
+
+```ts
+export { default } from "@reach/visually-hidden";
+export {default as VisuallyHidden} from "@reach/visually-hidden";
+```
+
+---
