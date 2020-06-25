@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 985
+Total entries: 986
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -364,6 +364,7 @@ Total entries: 985
 - Remove defult HTML <audio /> controls
 - Download attribute in <a />
 - Lazy loading of images
+- What's a landmark?
 
 ### [js](js.md)
 - RegExp for digits

@@ -239,3 +239,27 @@ It's still experimental, and is supported only in major browsers.
 To implement the lazy loading via `Intersection Observer`, look [here](https://blog.bitsrc.io/lazy-loading-images-using-the-intersection-observer-api-5a913ee226d).
 
 ---
+
+**What's a landmark?**
+
+These are landmarks:
+
+```html
+<header>This is the header</header>
+<nav>This is the nav</nav>
+<main>This is the main</main>
+<footer>This is the footer</footer>
+```
+
+or
+
+```html
+<div role="banner">This is the header</div>
+<div role="navigation">This is the nav</div>
+<div role="main">This is the main</div>
+<div role="contentinfo">This is the footer</div>
+```
+
+[0](https://dequeuniversity.com/rules/axe/3.0/region)
+
+---
