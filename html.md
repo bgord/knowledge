@@ -263,3 +263,15 @@ or
 [0](https://dequeuniversity.com/rules/axe/3.0/region)
 
 ---
+
+**tabindex**
+
+`tabindex="1"` - sets an explicit tab order (BAD IDEA) because you have to manually manage tab index of each element in the DOM
+
+`tabindex="0"` - makes an uninteractive element be able to receive focus only via keyboard
+
+`tabindex="-1"` - makes an uninteractive element be able to receive focus programatically
+
+[0](https://webaim.org/techniques/keyboard/tabindex)
+
+---

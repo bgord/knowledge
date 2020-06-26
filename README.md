@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 986
+Total entries: 987
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -365,6 +365,7 @@ Total entries: 986
 - Download attribute in <a />
 - Lazy loading of images
 - What's a landmark?
+- tabindex
 
 ### [js](js.md)
 - RegExp for digits
