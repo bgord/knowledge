@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 988
+Total entries: 989
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -693,6 +693,7 @@ Total entries: 988
 - Event pooling
 - location.state
 - Trigger window.confirm Prompt from react-router
+- Asserting window.confirm text in Cypress
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?

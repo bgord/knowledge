@@ -1900,3 +1900,13 @@ return (
 ```
 
 ---
+
+**Asserting window.confirm text in Cypress**
+
+```js
+cy.on("window:confirm", (text) =>
+  expect(text).to.eq("Are you sure? You will lose the changes to your journal.")
+);
+```
+
+---
