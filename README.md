@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 987
+Total entries: 988
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -692,6 +692,7 @@ Total entries: 987
 - Count children passed to a component
 - Event pooling
 - location.state
+- Trigger window.confirm Prompt from react-router
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?

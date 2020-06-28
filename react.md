@@ -1129,7 +1129,7 @@ function App() {
 
   return (
     <div>
-      <button onClick={() => setIsModalShown(v => !v)}>Show modal</button>
+      <button onClick={() => setIsModalShown((v) => !v)}>Show modal</button>
       {isModalShown && <Modal />}
     </div>
   );
@@ -1260,7 +1260,7 @@ const [
   getAllByDataCy,
   getByDataCy,
   findAllByDataCy,
-  findByDataCy
+  findByDataCy,
 ] = buildQueries(queryAllByDataCy, getMultipleError, getMissingError);
 
 export {
@@ -1269,7 +1269,7 @@ export {
   getByDataCy,
   getAllByDataCy,
   findAllByDataCy,
-  findByDataCy
+  findByDataCy,
 };
 ```
 
@@ -1298,7 +1298,7 @@ const envVariables = dotenv.config({ path: ".env-frontend" }).parsed;
 const envKeys = Object.entries(envVariables).reduce(
   (result, [key, value]) => ({
     ...result,
-    [`process.env.${key}`]: JSON.stringify(value)
+    [`process.env.${key}`]: JSON.stringify(value),
   }),
   {}
 );
@@ -1350,7 +1350,7 @@ export const RegistrationWindow: React.FC = () => {
         autoComplete="new-password"
         title="Password should contain at least 6 characters."
         value={password}
-        onChange={event => setPassword(event.target.value)}
+        onChange={(event) => setPassword(event.target.value)}
         type="password"
         required
         pattern=".{6,}"
@@ -1365,7 +1365,7 @@ export const RegistrationWindow: React.FC = () => {
         pattern={password}
         title="Passwords have to be equal"
         value={passwordConfirmation}
-        onChange={event => setPasswordConfirmation(event.target.value)}
+        onChange={(event) => setPasswordConfirmation(event.target.value)}
         required
       />
     </form>
@@ -1386,7 +1386,7 @@ function App() {
   return (
     <div className="App">
       <h1 hidden={!on}>Hello CodeSandbox</h1>
-      <button onClick={() => setOn(on => !on)}>Toggle</button>
+      <button onClick={() => setOn((on) => !on)}>Toggle</button>
     </div>
   );
 }
@@ -1402,11 +1402,11 @@ export const Notifications = () => {
 
   const transitions = useTransition(
     notifications,
-    notification => notification.id,
+    (notification) => notification.id,
     {
       from: { opacity: 0, right: -50, position: "relative" },
       enter: { opacity: 1, right: 0 },
-      leave: { opacity: 0, right: -50 }
+      leave: { opacity: 0, right: -50 },
     }
   );
 
@@ -1476,11 +1476,11 @@ function QuoteApp() {
   return (
     <DragDropContext onDragEnd={onDragEnd}>
       <Droppable droppableId="list">
-        {provided => (
+        {(provided) => (
           <div ref={provided.innerRef} {...provided.droppableProps}>
             {quotes.map((quote, index) => (
               <Draggable key={quote} draggableId={quote} index={index}>
-                {provided => (
+                {(provided) => (
                   <div
                     ref={provided.innerRef}
                     {...provided.draggableProps}
@@ -1532,7 +1532,10 @@ function Input(props) {
   console.log(props);
   const [newName, setNewName] = React.useState(props.name);
   return (
-    <input value={newName} onChange={event => setNewName(event.target.value)} />
+    <input
+      value={newName}
+      onChange={(event) => setNewName(event.target.value)}
+    />
   );
 }
 ```
@@ -1557,7 +1560,10 @@ function Input(props) {
   }, [props.name]);
 
   return (
-    <input value={newName} onChange={event => setNewName(event.target.value)} />
+    <input
+      value={newName}
+      onChange={(event) => setNewName(event.target.value)}
+    />
   );
 }
 ```
@@ -1609,7 +1615,7 @@ function Input(props) {
 
   return (
     <form
-      onSubmit={event => {
+      onSubmit={(event) => {
         console.log("Submitting");
         event.preventDefault();
 
@@ -1620,7 +1626,7 @@ function Input(props) {
     >
       <input
         value={newName}
-        onChange={event => setNewName(event.target.value)}
+        onChange={(event) => setNewName(event.target.value)}
       />
     </form>
   );
@@ -1636,7 +1642,7 @@ function Input(props) {
 
   return (
     <form
-      onSubmit={event => {
+      onSubmit={(event) => {
         console.log("Submitting");
         event.preventDefault();
 
@@ -1647,7 +1653,7 @@ function Input(props) {
     >
       <input
         value={newName}
-        onChange={event => setNewName(event.target.value)}
+        onChange={(event) => setNewName(event.target.value)}
       />
       <button onClick={() => setItem({ id: props.id, name: "WHATSUPPP" })}>
         Interupt
@@ -1809,7 +1815,7 @@ const [email, setEmail] = React.useState(registrationEmail ?? "");
 **Count children passed to a component**
 
 ```js
-const childrenCount = React.Children.map(props.children, a => a).length;
+const childrenCount = React.Children.map(props.children, (a) => a).length;
 
 // or rather
 
@@ -1830,7 +1836,7 @@ function onClick(event) {
   console.log(event.type); // => "click"
   const eventType = event.type; // => "click"
 
-  setTimeout(function() {
+  setTimeout(function () {
     console.log(event.type); // => null
     console.log(eventType); // => "click"
   }, 0);
@@ -1857,8 +1863,8 @@ It allows to "freeze" the synthetic event, so you can access the properties late
   to={{
     pathname: "/dashboard",
     state: {
-      from: "login"
-    }
+      from: "login",
+    },
   }}
 >
   Dashboard
@@ -1867,8 +1873,8 @@ It allows to "freeze" the synthetic event, so you can access the properties late
 history.push({
   pathname: "/dashboard",
   state: {
-    from: "login"
-  }
+    from: "login",
+  },
 });
 ```
 
@@ -1878,6 +1884,19 @@ And then you can use it like:
 const location = useLocation();
 
 location.state.from; // "login"
+```
+
+---
+
+**Trigger window.confirm Prompt from react-router**
+
+```jsx
+return (
+  <Prompt
+    when={shouldTriggerNotSavedChangesPrompt()}
+    message="Are you sure? You will lose the changes to your journal."
+  />
+);
 ```
 
 ---
