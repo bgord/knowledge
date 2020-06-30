@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 991
+Total entries: 992
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -712,6 +712,9 @@ Total entries: 991
 
 ### [storybook](storybook.md)
 - How to setup a basic Storybook for an example component?
+
+### [svg](svg.md)
+- Circle example
 
 ### [swagger](swagger.md)
 - Basic template
