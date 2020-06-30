@@ -927,9 +927,10 @@ function isHabitScore(value: string): value is IHabit["score"] {
 
 Operator: `??`
 
-How is it different from `||`?
-It returns the right-hand side only for `null` or `undefined`.
-Or returns for each falsy value: `null | undefined | "" | 0 | false | NaN`.
+How is `??` different from `||`?
+
+`??` returns the right-hand side only for `null` or `undefined`.
+`||` returns for each falsy value: `null | undefined | "" | 0 | false | NaN`.
 
 ```tsx
 request?.body ?? [];
