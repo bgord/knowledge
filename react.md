@@ -1745,6 +1745,13 @@ Should be used sparingly, because it can lead to subtle bugs.
 [1](https://github.com/dequelabs/react-axe)
 [2](https://github.com/evcohen/eslint-plugin-jsx-a11y)
 
+- WAVE
+- funkfify
+- headingsMap
+- AChecker
+- HTML_CodeSniffer
+- pa11y
+
 ---
 
 **Error boundary example**
