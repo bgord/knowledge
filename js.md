@@ -1798,3 +1798,17 @@ Then, you cant import the files and compare them in the chrome inspector.
 [0](https://maximilianschmitt.me/posts/cypress-testing-mobile-tablet-desktop/)
 
 ---
+
+**Skip Cypress test programatically**
+
+Use regular function, because you won't be able to use `this` in arrow function.
+
+```js
+it("skip nav for all main authenticated views", function () {
+  if (Cypress.env("device") === "mobile") {
+    this.skip();
+  }
+});
+```
+
+---
