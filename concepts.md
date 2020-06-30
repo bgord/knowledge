@@ -294,3 +294,10 @@ It's recommended to save ISO dates to the databases!
 [0](https://dev.to/corykeane/3-simple-rules-for-effectively-handling-dates-and-timezones-1pe0)
 
 ---
+
+**Picking color range**
+
+[0](https://twitter.com/siddharthkp/status/1277620589512048641/photo/1)
+[1](https://hihayk.github.io/scale/#4/6/50/80/0/0/20/50/C71E68/199/30/104/white)
+
+---

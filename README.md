@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 989
+Total entries: 991
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -51,6 +51,7 @@ Total entries: 989
 - Law of Demeter
 - UTC
 - ISO dates
+- Picking color range
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
@@ -504,6 +505,7 @@ Total entries: 989
 - Debugging node memory usage
 - Access app version from package.json
 - Configure Cypress test suite for many viewports
+- Skip Cypress test programatically
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
