@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 993
+Total entries: 994
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -52,6 +52,7 @@ Total entries: 993
 - UTC
 - ISO dates
 - Picking color range
+- Y10K problem
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required

@@ -301,3 +301,10 @@ It's recommended to save ISO dates to the databases!
 [1](https://hihayk.github.io/scale/#4/6/50/80/0/0/20/50/C71E68/199/30/104/white)
 
 ---
+
+**Y10K problem**
+
+It's a problem that most date representations handle only 4 digit years,
+and a 5 digit year can cause an issue.
+
+---
