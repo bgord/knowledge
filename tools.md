@@ -1054,3 +1054,11 @@ scp <user>@<remote_host_ip>:/remote/dir local_dir
 (Alt) File -> Work offline
 
 ---
+
+**Remove a symlink**
+
+```bash
+$ rm x
+```
+
+---

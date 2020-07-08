@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 994
+Total entries: 995
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -858,6 +858,7 @@ Total entries: 994
 - Create a mock sftp server
 - `scp` copy a file from remote to the local machine
 - Simulate offline scenario in Firefox
+- Remove a symlink
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
