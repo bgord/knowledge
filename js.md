@@ -1824,3 +1824,11 @@ const facility_types = _(locations)
 ```
 
 ---
+
+**Get checked radio button value in vanilla JS**
+
+```js
+document.querySelector('input[name="gender"]:checked').value;
+```
+
+---
