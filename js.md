@@ -1812,3 +1812,15 @@ it("skip nav for all main authenticated views", function () {
 ```
 
 ---
+
+**Chain lodash functions**
+
+```js
+const facility_types = _(locations)
+  .map((location) => _.get(location, "data.type"))
+  .filter()
+  .uniq()
+  .value();
+```
+
+---

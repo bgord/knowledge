@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 995
+Total entries: 996
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -507,6 +507,7 @@ Total entries: 995
 - Access app version from package.json
 - Configure Cypress test suite for many viewports
 - Skip Cypress test programatically
+- Chain lodash functions
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
