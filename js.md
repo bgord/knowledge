@@ -1932,3 +1932,18 @@ __proto__  ___proto___
 ```
 
 ---
+
+**Accidental global variable**
+
+```
+let a = b = 0;
+```
+
+It creates `a` = 0, and global `b` = 0;
+
+```js
+window.a; // undefined
+window.b; // 0
+```
+
+---

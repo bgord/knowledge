@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1001
+Total entries: 1002
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -513,6 +513,7 @@ Total entries: 1001
 - Object.is
 - proto of an empty object
 - Object Prototype pollution
+- Accidental global variable
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
