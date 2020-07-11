@@ -1889,3 +1889,19 @@ It means that 0, -0, +0 are distint and separate values.
 ```
 
 ---
+
+**proto of an empty object**
+
+```js
+let obj = {};
+
+console.log(obj.__proto);
+
+{
+  __proto: null,
+  hasOwnProperty,
+  ...
+}
+```
+
+---
