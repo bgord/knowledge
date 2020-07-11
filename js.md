@@ -1905,3 +1905,30 @@ console.log(obj.__proto);
 ```
 
 ---
+
+**Object Prototype pollution**
+
+```js
+let obj = {};
+obj.__proto.age = 20;
+
+let newObj = {};
+
+console.log(newObj.age); // 20
+```
+
+```
+      |--OP--|
+      | {..} |
+      |age:20|
+      |------|
+    -           -
+__proto__  ___proto___
+    -           -
+|--obj--|  |--newObj--|
+| {...} |  |   {...}  |
+|-------|  |----------|
+
+```
+
+---

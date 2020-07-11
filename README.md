@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1000
+Total entries: 1001
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -512,6 +512,7 @@ Total entries: 1000
 - hasOwnProperty
 - Object.is
 - proto of an empty object
+- Object Prototype pollution
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
