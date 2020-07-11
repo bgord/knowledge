@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 997
+Total entries: 998
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -509,6 +509,7 @@ Total entries: 997
 - Skip Cypress test programatically
 - Chain lodash functions
 - Get checked radio button value in vanilla JS
+- hasOwnProperty
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

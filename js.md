@@ -1832,3 +1832,32 @@ document.querySelector('input[name="gender"]:checked').value;
 ```
 
 ---
+
+**hasOwnProperty**
+
+Let's say we want to check if an object has property "age"
+
+```js
+const person = {
+  age: 20,
+};
+
+person.hasOwnProperty("age"); // true
+```
+
+It returns `false` if the property is find down the prototype chain.
+
+```js
+const mammal = {
+  age: 20,
+};
+
+const human = {
+  __proto__: mammal,
+  name: "Bart",
+};
+
+human.hasOwnProperty("age"); // false
+```
+
+---
