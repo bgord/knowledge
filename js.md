@@ -1977,6 +1977,8 @@ for (i = 0; i < 3; i++) {
 ```
 
 Prints `3`, `3`, `3`, because for iterates 3 times before the first log function is scheduled.
+Beware the i = 3, not 2.
+`i` gets updated to `3`, and then the assertion fails.
 And it references the `i` lexically, so it's already equal 3.
 
 ---
@@ -2003,7 +2005,17 @@ console.log(number); // ReferenceError
 console.log(word); // ReferenceError
 
 const number = 3;
-let word = 'xd';
+let word = "xd";
+```
+
+---
+
+**indexOf object/array**
+
+`indexOf` works only for primitive values.
+
+```js
+console.log([{ name: "John" }, { name: "John" }].indexOf({ name: "John" })); // -1
 ```
 
 ---

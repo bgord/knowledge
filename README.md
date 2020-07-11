@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1006
+Total entries: 1007
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -520,6 +520,7 @@ Total entries: 1006
 - setTimeout in a for loop
 - var and hoisting
 - const/let and hoisting
+- indexOf object/array
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
