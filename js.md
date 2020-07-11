@@ -1947,3 +1947,18 @@ window.b; // 0
 ```
 
 ---
+
+**Mutating .length of an array**
+
+If set to `0`, it clears the array.
+If set to minmax(1, array.length), truncates the items.
+
+```js
+const animals = ["horse", "cow", "dog"];
+
+animals.length = 0;
+
+animals; // []
+```
+
+---
