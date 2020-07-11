@@ -1992,3 +1992,18 @@ var number = 3;
 Variable initialization is what's hoisted, not the value assignment.
 
 ---
+
+**const/let and hoisting**
+
+If you try to access a variable defined by const/let before the initialization,
+it's in the "temporal dead zone", and will throw the ReferenceError.
+
+```js
+console.log(number); // ReferenceError
+console.log(word); // ReferenceError
+
+const number = 3;
+let word = 'xd';
+```
+
+---
