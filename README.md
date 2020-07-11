@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1003
+Total entries: 1004
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -369,6 +369,8 @@ Total entries: 1003
 - What's a landmark?
 - tabindex
 
+### [index](index.js)
+
 ### [js](js.md)
 - RegExp for digits
 - Assert any primitive value
@@ -515,6 +517,7 @@ Total entries: 1003
 - Object Prototype pollution
 - Accidental global variable
 - Mutating .length of an array
+- setTimeout in a for loop
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

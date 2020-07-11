@@ -1962,3 +1962,21 @@ animals; // []
 ```
 
 ---
+
+**setTimeout in a for loop**
+
+```js
+let i;
+
+for (i = 0; i < 3; i++) {
+  const log = () => {
+    console.log(i);
+  };
+  setTimeout(log, 100);
+}
+```
+
+Prints `3`, `3`, `3`, because for iterates 3 times before the first log function is scheduled.
+And it references the `i` lexically, so it's already equal 3.
+
+---
