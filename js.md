@@ -1861,3 +1861,31 @@ human.hasOwnProperty("age"); // false
 ```
 
 ---
+
+**Object.is**
+
+Object.is checks whether two values are the same value.
+
+In general, it works exactly as `===` except in case of comparing, `NaN`, `0`, `-0`.
+
+```
+NaN === NaN; // false
+Object.is(NaN, NaN); // true
+
+It means there's only one NaN in the JS world, and it's equal or not to itself depending
+on which method we choose.
+```
+
+```
+0 === -0; // true
+0 === +0; // true
+-0 === +0; // true
+
+Object.is(0, -0); // false
+Object.is(0, +0); // false
+Object.is(-0, +0); // false
+
+It means that 0, -0, +0 are distint and separate values.
+```
+
+---

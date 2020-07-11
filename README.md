@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 998
+Total entries: 999
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -510,6 +510,7 @@ Total entries: 998
 - Chain lodash functions
 - Get checked radio button value in vanilla JS
 - hasOwnProperty
+- Object.is
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
