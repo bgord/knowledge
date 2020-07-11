@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1004
+Total entries: 1006
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -518,6 +518,8 @@ Total entries: 1004
 - Accidental global variable
 - Mutating .length of an array
 - setTimeout in a for loop
+- var and hoisting
+- const/let and hoisting
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

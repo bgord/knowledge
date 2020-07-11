@@ -1980,3 +1980,15 @@ Prints `3`, `3`, `3`, because for iterates 3 times before the first log function
 And it references the `i` lexically, so it's already equal 3.
 
 ---
+
+**var and hoisting**
+
+```js
+console.log(number); // undefined
+
+var number = 3;
+```
+
+Variable initialization is what's hoisted, not the value assignment.
+
+---
