@@ -38,7 +38,7 @@ Space
 
 ---
 
-**Asterisk `*` in RegExp**
+**Asterisk in RegExp**
 
 `/\s\*/`
 
@@ -257,7 +257,7 @@ Non-primitive structures are not compared by value, but by reference.
 
 ---
 
-**How to use console.group\*?**
+**How to use console.group?**
 
 To create a collapsable dropdown list of logs in the console:
 
@@ -2016,6 +2016,29 @@ let word = "xd";
 
 ```js
 console.log([{ name: "John" }, { name: "John" }].indexOf({ name: "John" })); // -1
+```
+
+---
+
+**Add functionality to an object prototype with proto**
+
+```js
+function increment() {
+  this.score++;
+}
+
+const incrementer = {
+  increment,
+};
+
+const user = {
+  __proto__: incrementer,
+  score: 5,
+};
+
+user.increment();
+
+user.score; // 6
 ```
 
 ---

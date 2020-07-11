@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1007
+Total entries: 1009
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -378,7 +378,7 @@ Total entries: 1007
 - Jest find if element with given prop doesn't exists
 - `\s` in RegExp
 - Plus `+` in RegExp
-- Asterisk `*` in RegExp
+- Asterisk in RegExp
 - Computed object property performance
 - Import a function to spyOn
 - Fake timers in Jest
@@ -396,7 +396,7 @@ Total entries: 1007
 - How to inject dependencies to a module?
 - Function expression vs function declaration
 - What's the difference between `==` and `===`?
-- How to use console.group\*?
+- How to use console.group?
 - Visitor pattern
 - Regex for alphanumeric characters with possible spaces
 - Node command autocompletion
@@ -521,6 +521,8 @@ Total entries: 1007
 - var and hoisting
 - const/let and hoisting
 - indexOf object/array
+- Add functionality to an object prototype with proto
+- Object.create
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
