@@ -2042,3 +2042,26 @@ user.score; // 6
 ```
 
 ---
+
+**Object.create**
+
+It adds an object passed as an argument as the prototype of the returned object.
+Always returns an empty object.
+
+```js
+const incrementer = {
+  increment: function () {
+    this.score++;
+  },
+};
+
+const user = Object.create(incrementer);
+
+user.score = 5;
+
+user.increment();
+
+user.score; // 6
+```
+
+---
