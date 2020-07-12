@@ -2225,3 +2225,29 @@ add.apply({ x: 2, y: 3 }, [Date.now()]);
 ```
 
 ---
+
+**Why is bind useful**
+
+```js
+function add() {
+  console.log(this.x + this.y);
+}
+
+const calculator = {
+  x: 2,
+  y: 3,
+  add,
+};
+calculator.add(); // 5
+
+const adder = calculator.add;
+adder(); // NaN
+
+const boundAdder = calculator.add.bind(calculator);
+boundAdder(); // 5
+```
+
+If `add` was about to be changed to an arrow function, it would not work,
+since they don't have `this`, and it cannot be added by bind/call/apply.
+
+---

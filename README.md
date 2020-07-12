@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1014
+Total entries: 1015
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -528,6 +528,7 @@ Total entries: 1014
 - How it prototype different from proto?
 - What is `this` referring to?
 - bind, call, apply
+- Why is bind useful
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
