@@ -2122,3 +2122,85 @@ console.log(arrow.prototype); // undefined
 `__proto__` is a place for a JS to continue the `prototype chain` lookup on an object.
 
 ---
+
+**What is `this` referring to?**
+
+1. Calling a function
+
+```js
+function log() {
+  // this refers to the `window`/`global` object
+  console.log("here");
+}
+
+log();
+```
+
+```js
+const log = () => {
+  // this doesn't exist, an empty object
+  console.log("here");
+};
+
+log();
+```
+
+2. Calling a method
+
+```js
+const user = {
+  name: "Bartek",
+  log: function () {
+    // this refers to the `user` object, because it's on the left of the dot
+    console.log(this.name);
+  },
+};
+
+user.log();
+```
+
+```js
+const user = {
+  name: "Bartek",
+  log: () => {
+    // this doesn't exist
+    console.log(this.name);
+  },
+};
+
+user.log();
+```
+
+3. Calling a function nested in a function method
+
+```js
+const user = {
+  name: "Bartek",
+  log: function () {
+    function whatIsThis() {
+      // this refers to the `window`/`global` object, just like the 1.
+    }
+
+    whatIsThis();
+  },
+};
+
+user.log();
+```
+
+```js
+const user = {
+  name: "Bartek",
+  log: function () {
+    const whatIsThis = () => {
+      // this refers to `user` object, as its place of definition
+    };
+
+    whatIsThis();
+  },
+};
+
+user.log();
+```
+
+---
