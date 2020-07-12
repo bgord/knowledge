@@ -2065,3 +2065,17 @@ user.score; // 6
 ```
 
 ---
+
+**Function-object combo**
+
+When creating a function, it automatically gets assigned an empty object with empty `prototype` object.
+
+`prototype` is just a regular property.
+
+```js
+function person() { //...  }
+
+person.prototype; // {}
+```
+
+---

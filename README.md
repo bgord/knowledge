@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1009
+Total entries: 1012
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -523,6 +523,9 @@ Total entries: 1009
 - indexOf object/array
 - Add functionality to an object prototype with proto
 - Object.create
+- Function-object combo
+- What does the new keyword do behind the scene?
+- How it prototype different from proto?
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
