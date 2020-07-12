@@ -2204,3 +2204,24 @@ user.log();
 ```
 
 ---
+
+**bind, call, apply**
+
+- `bind` creates a partially applied function with a new `this` context, ready to be called
+- `call` actually calls a function with a new `this` context, and allows for arguments to be passed
+- `apply` actually calls a function with a new `this` context, and allows for arguments to be passed as an array
+
+```js
+function add(time) {
+  console.log("running at: ", time);
+  console.log(this.x + this.y);
+}
+
+const boundAdd = add.bind({ x: 2, y: 3 }, Date.now());
+boundAdd();
+
+add.call({ x: 2, y: 3 }, Date.now());
+add.apply({ x: 2, y: 3 }, [Date.now()]);
+```
+
+---
