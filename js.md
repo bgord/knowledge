@@ -2079,3 +2079,29 @@ person.prototype; // {}
 ```
 
 ---
+
+**What does the new keyword do behind the scene?**
+
+Given the following code:
+
+```js
+function User(name, score) {
+  this.name = name;
+  this.score = score;
+}
+
+User.prototype._threshold = 10;
+User.prototype.log = function () {
+  console.log(`${this.name}: ${this.score}`);
+};
+
+const user = new User("Ja", 5);
+```
+
+1. Creates and empty `this` object
+2. Adds a `__proto__` property in `this` object pointing to the function's object bit - prototype.
+3. Returns the object.
+
+If the function was to run without the `new` keyword, it would return undefined.
+
+---
