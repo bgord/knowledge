@@ -2099,9 +2099,26 @@ const user = new User("Ja", 5);
 ```
 
 1. Creates and empty `this` object
-2. Adds a `__proto__` property in `this` object pointing to the function's object bit - prototype.
+2. Adds a `__proto__` property in `this` object pointing to the function's object bit - `prototype`.
 3. Returns the object.
 
 If the function was to run without the `new` keyword, it would return undefined.
+
+---
+
+**How it prototype different from proto?**
+
+`prototype` is an object bit of a function-object combo which every not arrow function has.
+
+```
+function normal() {}
+
+console.log(normal.prototype); // {}
+
+const arrow = () => {};
+console.log(arrow.prototype); // undefined
+```
+
+`__proto__` is a place for a JS to continue the `prototype chain` lookup on an object.
 
 ---
