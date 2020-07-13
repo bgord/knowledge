@@ -1934,3 +1934,70 @@ document.addEventListener(
 ```
 
 ---
+
+**A subtle difference between React class and function components**
+
+```jsx
+function Profile(props) {
+  function showAlert() {
+    alert(props.user);
+  }
+
+  function handleClick(event) {
+    setTimeout(showAlert, 1000);
+  }
+
+  return <button onClick={handleClick}>{props.user}</button>;
+}
+
+class Profile extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  showAlert() {
+    alert(this.props.user);
+  }
+
+  handleClick(event) {
+    setTimeout(this.showAlert, 1000);
+  }
+
+  render() {
+    return <button onClick={handleClick}>{this.props.user}</button>;
+  }
+}
+```
+
+If between the click event and the actual run of `this.showAlert` `props.user` changes,
+it will alert the new value in the class component.
+
+The function component `showAlert` closure remembers the correct value.
+
+The difference is that `this` is mutable, and `this.props` can be changed along the way.
+
+What's the remedy?
+
+```jsx
+class Profile extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  showAlert(user) {
+    alert(user);
+  }
+
+  handleClick(event) {
+    setTimeout(() => this.showAlert(this.props.user), 1000);
+  }
+
+  render() {
+    return <button onClick={handleClick}>{this.props.user}</button>;
+  }
+}
+```
+
+---

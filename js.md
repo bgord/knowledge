@@ -2251,3 +2251,31 @@ If `add` was about to be changed to an arrow function, it would not work,
 since they don't have `this`, and it cannot be added by bind/call/apply.
 
 ---
+
+**What does calling super() do?**
+
+It calls the constructor of the class that given class extends.
+You cannot access `this` before it's been called.
+
+```js
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+class Adam extends Person {
+  constructor() {
+    // super("Adam"); // <- needs to add this
+    this.greet(); // fails
+  }
+
+  greet() {
+    console.log("greeting");
+  }
+}
+
+const adam = new Adam();
+```
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1016
+Total entries: 1018
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -369,6 +369,8 @@ Total entries: 1016
 - What's a landmark?
 - tabindex
 
+### [index](index.js)
+
 ### [js](js.md)
 - RegExp for digits
 - Assert any primitive value
@@ -527,6 +529,7 @@ Total entries: 1016
 - What is `this` referring to?
 - bind, call, apply
 - Why is bind useful
+- What does calling super() do?
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
@@ -718,6 +721,7 @@ Total entries: 1016
 - Trigger window.confirm Prompt from react-router
 - Asserting window.confirm text in Cypress
 - Event capturing
+- A subtle difference between React class and function components
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
