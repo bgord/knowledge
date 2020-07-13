@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1015
+Total entries: 1016
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -369,8 +369,6 @@ Total entries: 1015
 - What's a landmark?
 - tabindex
 
-### [index](index.js)
-
 ### [js](js.md)
 - RegExp for digits
 - Assert any primitive value
@@ -719,6 +717,7 @@ Total entries: 1015
 - location.state
 - Trigger window.confirm Prompt from react-router
 - Asserting window.confirm text in Cypress
+- Event capturing
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?

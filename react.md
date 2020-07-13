@@ -1917,3 +1917,20 @@ cy.on("window:confirm", (text) =>
 ```
 
 ---
+
+**Event capturing**
+
+A way to capture an event that doesn't bubble.
+The third argument to `addEventListener` is called `useCapture`.
+
+```js
+document.addEventListener(
+  "focus",
+  function (event) {
+    console.log(event.target);
+  },
+  true
+);
+```
+
+---
