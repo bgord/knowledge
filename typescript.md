@@ -1089,7 +1089,7 @@ Add `resolveJsonModule` option.
 
 ```ts
 export { default } from "@reach/visually-hidden";
-export {default as VisuallyHidden} from "@reach/visually-hidden";
+export { default as VisuallyHidden } from "@reach/visually-hidden";
 ```
 
 ---
@@ -1099,5 +1099,17 @@ export {default as VisuallyHidden} from "@reach/visually-hidden";
 It's ES3, meant for IE6.
 
 You should use `--target` option to specify the version, e.g `ES6`.
+
+---
+
+**What's a literal type?**
+
+It's a type that is a primitive JS value.
+
+```ts
+const x = "hello";
+```
+
+The type of `x` is `"hello"` - a primitive string.
 
 ---

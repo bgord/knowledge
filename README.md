@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1019
+Total entries: 1020
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -951,6 +951,7 @@ Total entries: 1019
 - Import json files in TypeScript
 - Reexport default export
 - What's the default JS version that TS outputs?
+- What's a literal type?
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`
