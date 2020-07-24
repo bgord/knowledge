@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1024
+Total entries: 1025
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -956,6 +956,7 @@ Total entries: 1024
 - What's the difference between type inference for variables initialized by let and const?
 - What's a bottom type?
 - Tuples and type-safety pitfall
+- What are the type system versions?
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

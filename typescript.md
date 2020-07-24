@@ -1146,3 +1146,14 @@ pair.push(1, 2, 3, 4, "1", "2", "3", "4"); // it's possible
 ```
 
 ---
+
+**What are the type system versions?**
+
+It all boils down to a way of determining whether two types are equivalent.
+
+`nominal` - the engine checks if given object is an instance of class with given name
+`structural` - the engine checks if given object has the same *structure*
+
+TypeScript is structural.
+
+---
