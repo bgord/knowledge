@@ -1213,3 +1213,46 @@ function getAddress(contact: string): ShortAddress | LongAddress {
 Now, the return type is literally `ShortAddress | LongAddress`.
 
 ---
+
+**Function signature overload**
+
+It's a way to define many possible ways to consume given function.
+
+```ts
+interface PersonWithEmail {
+  name: string;
+  email: string;
+}
+interface PersonWithPhone {
+  name: string;
+  phone: number;
+}
+
+// 1st overload
+function contactPeople(method: "email", ...people: PersonWithEmail[]): void;
+// 2nd overload
+function contactPeople(method: "phone", ...people: PersonWithPhone[]): void;
+
+function contactPeople(
+  method: "email" | "phone",
+  ...people: (PersonWithPhone | PersonWithEmail)[]
+): void {
+  if (method === "email") {
+    (people as PersonWithEmail[]).forEach((person) =>
+      console.log(`sending email to: ${person.email}`)
+    );
+  }
+
+  (people as PersonWithPhone[]).forEach((person) =>
+    console.log(`ringing to: ${person.phone}`)
+  );
+}
+
+contactPeople(
+  "email",
+  { name: "Adam", email: "xd" },
+  { name: "Eva", phone: 123 } // fails
+);
+```
+
+---
