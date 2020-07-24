@@ -1113,3 +1113,10 @@ const x = "hello";
 The type of `x` is `"hello"` - a primitive string.
 
 ---
+
+**What's a top type?**
+
+Top type is a type that can accept any value.
+The top types in TypeScript are `any` and `unknown`.
+
+---
