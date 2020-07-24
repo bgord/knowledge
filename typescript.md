@@ -1132,3 +1132,17 @@ It means that `x` declared by `let` can be reassigned, but only with another num
 `x` declared by `const` cannot be reassigned though, so the literal type is used.
 
 ---
+**Tuples and type-safety pitfall**
+
+There's no way to safely type `.push()` on a tuple.
+It will accept infinite number of either string or number.
+
+This would require runtime overhead.
+
+```ts
+const pair: [string, number] = ["100"];
+
+pair.push(1, 2, 3, 4, "1", "2", "3", "4"); // it's possible
+```
+
+---

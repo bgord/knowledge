@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1022
+Total entries: 1024
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -368,8 +368,6 @@ Total entries: 1022
 - Lazy loading of images
 - What's a landmark?
 - tabindex
-
-### [index](index.ts)
 
 ### [js](js.md)
 - RegExp for digits
@@ -956,6 +954,8 @@ Total entries: 1022
 - What's a literal type?
 - What's a top type?
 - What's the difference between type inference for variables initialized by let and const?
+- What's a bottom type?
+- Tuples and type-safety pitfall
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`
