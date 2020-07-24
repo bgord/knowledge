@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1018
+Total entries: 1019
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -368,8 +368,6 @@ Total entries: 1018
 - Lazy loading of images
 - What's a landmark?
 - tabindex
-
-### [index](index.js)
 
 ### [js](js.md)
 - RegExp for digits
@@ -952,6 +950,7 @@ Total entries: 1018
 - Get type of function parameters
 - Import json files in TypeScript
 - Reexport default export
+- What's the default JS version that TS outputs?
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

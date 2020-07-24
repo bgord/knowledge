@@ -1093,3 +1093,11 @@ export {default as VisuallyHidden} from "@reach/visually-hidden";
 ```
 
 ---
+
+**What's the default JS version that TS outputs?**
+
+It's ES3, meant for IE6.
+
+You should use `--target` option to specify the version, e.g `ES6`.
+
+---
