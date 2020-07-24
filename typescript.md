@@ -1152,8 +1152,64 @@ pair.push(1, 2, 3, 4, "1", "2", "3", "4"); // it's possible
 It all boils down to a way of determining whether two types are equivalent.
 
 `nominal` - the engine checks if given object is an instance of class with given name
-`structural` - the engine checks if given object has the same *structure*
+`structural` - the engine checks if given object has the same _structure_
 
 TypeScript is structural.
+
+---
+
+**Function return type pitfall**
+
+```ts
+function getAddress(contact: string) {
+  const components = contact.split("-");
+
+  if (components.length === 1)
+    return {
+      city: components[0],
+    };
+
+  return {
+    city: components[0],
+    street: components[1],
+    zipCode: components[2],
+  };
+}
+```
+
+The return of the `getAddress` function is:
+
+```ts
+{
+  city: string;
+  street: string;
+  zipCode: string;
+} |
+{
+  city: string;
+  street?: undefined;
+  zipCode?: undefined;
+}
+```
+
+It's better to always type the function return type:
+
+```ts
+interface ShortAddress {
+  city: string;
+}
+
+interface LongAddress {
+  city: string;
+  street: string;
+  zipCode: string;
+}
+
+function getAddress(contact: string): ShortAddress | LongAddress {
+  // ...
+}
+```
+
+Now, the return type is literally `ShortAddress | LongAddress`.
 
 ---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1025
+Total entries: 1026
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -368,6 +368,8 @@ Total entries: 1025
 - Lazy loading of images
 - What's a landmark?
 - tabindex
+
+### [index](index.ts)
 
 ### [js](js.md)
 - RegExp for digits
@@ -957,6 +959,7 @@ Total entries: 1025
 - What's a bottom type?
 - Tuples and type-safety pitfall
 - What are the type system versions?
+- Function return type pitfall
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`
