@@ -1120,3 +1120,15 @@ Top type is a type that can accept any value.
 The top types in TypeScript are `any` and `unknown`.
 
 ---
+
+**What's the difference between type inference for variables initialized by let and const?**
+
+```ts
+let x = 42; // x: number
+const x = 42; // x: 42
+```
+
+It means that `x` declared by `let` can be reassigned, but only with another number.
+`x` declared by `const` cannot be reassigned though, so the literal type is used.
+
+---
