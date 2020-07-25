@@ -1272,3 +1272,13 @@ displayInfo.call({ name: "Bartek" }, 21); // works
 ```
 
 ---
+
+**Describing function signature with interface**
+
+```ts
+interface findPath {
+  (node: Node, tree: Tree): string | null;
+}
+```
+
+---
