@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1027
+Total entries: 1028
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -961,6 +961,7 @@ Total entries: 1027
 - What are the type system versions?
 - Function return type pitfall
 - Function signature overload
+- Type-safe this in functions
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

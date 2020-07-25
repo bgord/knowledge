@@ -1256,3 +1256,19 @@ contactPeople(
 ```
 
 ---
+
+**Type-safe this in functions**
+
+`this` is an implicit parameter, always at the first place in the list.
+
+```ts
+function displayInfo(this: { name: string }, age: number): void {
+  console.log(`Name: ${this.name}, age: ${age}`);
+}
+
+displayInfo(21); // errors because `this` is bad
+
+displayInfo.call({ name: "Bartek" }, 21); // works
+```
+
+---
