@@ -956,13 +956,13 @@ Total entries: 1029
 - What's a literal type?
 - What's a top type?
 - What's the difference between type inference for variables initialized by let and const?
-- What's a bottom type?
 - Tuples and type-safety pitfall
 - What are the type system versions?
 - Function return type pitfall
 - Function signature overload
 - Type-safe this in functions
-- Describing function signature with interface
+- Describe function signature with interface
+- Array/object type safety pitfall
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

@@ -1132,6 +1132,7 @@ It means that `x` declared by `let` can be reassigned, but only with another num
 `x` declared by `const` cannot be reassigned though, so the literal type is used.
 
 ---
+
 **Tuples and type-safety pitfall**
 
 There's no way to safely type `.push()` on a tuple.
@@ -1273,12 +1274,36 @@ displayInfo.call({ name: "Bartek" }, 21); // works
 
 ---
 
-**Describing function signature with interface**
+**Describe function signature with interface**
 
 ```ts
 interface findPath {
   (node: Node, tree: Tree): string | null;
 }
+```
+
+---
+
+**Array/object type safety pitfall**
+
+```ts
+interface PhoneNumberDict {
+  [numberName: string]: { areaCode: number; num: number };
+}
+
+const d: PhoneNumberDict = {};
+
+d.ok; // acts like it's { areaCode: number; num: number }
+
+// ---
+
+interface PhoneNumberDict {
+  [numberName: string]: undefined | { areaCode: number; num: number };
+}
+
+const d: PhoneNumberDict = {};
+
+d.ok; // it's possibly undefined
 ```
 
 ---
