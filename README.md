@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1029
+Total entries: 1030
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -963,6 +963,7 @@ Total entries: 1029
 - Type-safe this in functions
 - Describe function signature with interface
 - Array/object type safety pitfall
+- Test TypeScript types
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

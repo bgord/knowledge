@@ -1307,3 +1307,9 @@ d.ok; // it's possibly undefined
 ```
 
 ---
+
+**Test TypeScript types**
+
+Use `dtslint` - https://github.com/microsoft/dtslint
+
+---
