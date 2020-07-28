@@ -570,8 +570,9 @@ $ docker context use default
 **What does --remove-orphans do**
 
 If you:
+
 - `docker-compose up`d a setup with 3 services
--  deleted one of the services in `docker-compose.yml`
+- deleted one of the services in `docker-compose.yml`
 - `docker-compose down`d the previuos setup
 - `docker-compose up`d the next setup,
 
@@ -579,5 +580,14 @@ you have an orphan that is the running container for the service that got delete
 
 Next time you `up` the setup, add `--remove-orphans` option.
 
+---
+
+**Add Docker to user group to avoid sudo**
+
+```bash
+$ sudo usermod -aG docker $USER
+```
+
+[0](sudo docker run hello-world)
 
 ---
