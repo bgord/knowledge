@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1031
+Total entries: 1032
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -741,6 +741,7 @@ Total entries: 1031
 ### [svg](svg.md)
 - Circle example
 - Make SVG icon accessible
+- Circle with borders only
 
 ### [swagger](swagger.md)
 - Basic template
