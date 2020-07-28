@@ -2001,3 +2001,13 @@ class Profile extends React.Component {
 ```
 
 ---
+
+**Types for <svg />**
+
+```tsx
+export function Loader(props: React.SVGProps<SVGSVGElement>) {
+  return <svg {...props} xmlns="http://www.w3.org/2000/svg"></svg>;
+}
+```
+
+---

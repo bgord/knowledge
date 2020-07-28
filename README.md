@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1030
+Total entries: 1031
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -369,8 +369,6 @@ Total entries: 1030
 - What's a landmark?
 - tabindex
 
-### [index](index.ts)
-
 ### [js](js.md)
 - RegExp for digits
 - Assert any primitive value
@@ -722,6 +720,7 @@ Total entries: 1030
 - Asserting window.confirm text in Cypress
 - Event capturing
 - A subtle difference between React class and function components
+- Types for <svg />
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
