@@ -56,3 +56,42 @@
 ```
 
 ---
+
+**Mask example**
+
+The first shape inside the `<mask />` defines what's visible.
+The second shape inside the `<mask />` defines what's hidden.
+
+```html
+<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask id="slice">
+      <rect width="100%" height="100%" fill="white" />
+      <rect height="50%" width="50%" fill="black" />
+    </mask>
+  </defs>
+  <circle
+    cx="30"
+    cy="30"
+    r="20"
+    stroke-width="8"
+    style="fill: none, stroke: #000"
+    mask="url(#slice)"
+  />
+</svg>
+```
+
+```
+--------------------- <= viewbox and first <rect /> (100% height and width)
+-         - <=======-=== second <rect /> (50% height and width of the first <rect />)
+-         -         -
+-         -         -
+-         -         -
+-----------         -
+-                   -
+-                   -
+-                   -
+---------------------
+```
+
+---
