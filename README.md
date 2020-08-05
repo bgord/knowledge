@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1034
+Total entries: 1038
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -179,6 +179,9 @@ Total entries: 1034
 - Add local domain with nginx-proxy
 - What does --remove-orphans do
 - Add Docker to user group to avoid sudo
+- Lost/failed Docker daemon SSH connection with remote host
+- volumes_from and named volumes
+- HTTPS
 
 ### [elixir](elixir.md)
 - What type of language is Elixir?
@@ -722,6 +725,7 @@ Total entries: 1034
 - Event capturing
 - A subtle difference between React class and function components
 - Types for <svg />
+- tinykeys hook for keyboard shortcuts
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?

@@ -2011,3 +2011,41 @@ export function Loader(props: React.SVGProps<SVGSVGElement>) {
 ```
 
 ---
+
+**tinykeys hook for keyboard shortcuts**
+
+Hook:
+
+```tsx
+import React from "react";
+import tinykeys from "tinykeys";
+
+export interface KeyBindingMap {
+  [keybinding: string]: (event: KeyboardEvent) => void;
+}
+
+export function useKeyboardShortcurts(config: KeyBindingMap) {
+  React.useEffect(() => {
+    const unsubscribeShortcuts = tinykeys(window, config);
+
+    return () => {
+      unsubscribeShortcuts();
+    };
+  }, [config]);
+}
+```
+
+Usage:
+
+```tsx
+useKeyboardShortcurts({
+  "Shift+KeyD": () => history.push("/dashboard"),
+  "Shift+KeyH": () => history.push("/habits"),
+  "Shift+KeyC": () => history.push("/calendar"),
+  "Shift+KeyJ": () => history.push("/journals"),
+  "Shift+KeyM": () => history.push("/profile"),
+  "Shift+KeyL": () => history.push("/logout"),
+});
+```
+
+---
