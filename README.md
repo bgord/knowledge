@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1037
+Total entries: 1038
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -371,6 +371,7 @@ Total entries: 1037
 - Lazy loading of images
 - What's a landmark?
 - tabindex
+- PWA iOS icon
 
 ### [js](js.md)
 - RegExp for digits

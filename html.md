@@ -275,3 +275,13 @@ or
 [0](https://webaim.org/techniques/keyboard/tabindex)
 
 ---
+
+**PWA iOS icon**
+
+Icons from manifest.json file are not supported yet.
+
+```html
+<link rel="apple-touch-icon" sizes="180x180" href="icon.png" />
+```
+
+---
