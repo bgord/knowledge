@@ -601,3 +601,49 @@ Docker tries do open too many ssh connections.
 - restart ssh daemon - `service ssh restart`
 
 ---
+
+**HTTPS**
+
+The `app` runs on port `80`.
+
+```yml
+version: "3.7"
+services:
+  app:
+    # ...
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.hapiline.tls.certresolver=myresolver"
+
+      - "traefik.http.routers.hapiline_http.rule=Host(`your-domain.com`)"
+      - "traefik.http.routers.hapiline_http.entrypoints=web"
+      - "traefik.http.routers.hapiline_http.middlewares=redirect-to-https"
+      - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
+
+      - "traefik.http.routers.hapiline.rule=Host(`your-domain.com`)"
+      - "traefik.http.routers.hapiline.entrypoints=websecure"
+      - "traefik.http.routers.hapiline.tls=true"
+  traefik:
+    image: "traefik:v2.2"
+    container_name: "traefik"
+    command:
+      #- "--log.level=DEBUG"
+      - "--api.insecure=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.websecure.address=:443"
+      - "--certificatesresolvers.myresolver.acme.httpchallenge=true"
+      - "--certificatesresolvers.myresolver.acme.httpchallenge.entrypoint=web"
+      - "--certificatesresolvers.myresolver.acme.email=your-emaile@example.com"
+      - "--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"
+    ports:
+      - "80:80"
+      - "443:443"
+      - "8080:8080"
+    volumes:
+      - "./letsencrypt:/letsencrypt"
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+```
+
+---

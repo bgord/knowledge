@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1038
+Total entries: 1037
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -180,7 +180,6 @@ Total entries: 1038
 - What does --remove-orphans do
 - Add Docker to user group to avoid sudo
 - Lost/failed Docker daemon SSH connection with remote host
-- volumes_from and named volumes
 - HTTPS
 
 ### [elixir](elixir.md)
