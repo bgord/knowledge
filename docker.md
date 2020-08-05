@@ -591,3 +591,13 @@ $ sudo usermod -aG docker $USER
 [0](sudo docker run hello-world)
 
 ---
+
+**Lost/failed Docker daemon SSH connection with remote host**
+
+Docker tries do open too many ssh connections.
+
+- open `/etc/ssh/sshd_config` on the remote machine.
+- find `MaxSessions` and set to e.g 100
+- restart ssh daemon - `service ssh restart`
+
+---
