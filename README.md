@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1038
+Total entries: 1039
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -532,6 +532,7 @@ Total entries: 1038
 - bind, call, apply
 - Why is bind useful
 - What does calling super() do?
+- Run promise once outside the scope of an exported async function
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

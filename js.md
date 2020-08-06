@@ -2279,3 +2279,24 @@ const adam = new Adam();
 ```
 
 ---
+
+**Run promise once outside the scope of an exported async function**
+
+```js
+const long_random_promise = new Promise((resolve) => {
+  console.log("here"); // printed only once
+
+  setTimeout(() => {
+    resolve(Math.random());
+  }, 2000);
+});
+
+(async function () {
+  console.log(await long_random_promise);
+  console.log(await long_random_promise);
+})();
+```
+
+[0](http://mbork.pl/2020-08-03_Look_up_a_global_variable_in_the_database_in_Node.js)
+
+---
