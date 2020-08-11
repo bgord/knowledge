@@ -701,9 +701,8 @@ interface Model {
 
 **How to create an `Omit` function?**
 
-```
-type Omit<T, K extends keyof T>
-  = Pick<T, Exclude<keyof T, K>>;
+```typescript
+type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>;
 ```
 
 Usage:
@@ -1311,5 +1310,19 @@ d.ok; // it's possibly undefined
 **Test TypeScript types**
 
 Use `dtslint` - https://github.com/microsoft/dtslint
+
+---
+
+**Remove a property from an enum**
+
+```typescript
+export enum MEDIA_QUERY {
+  "default" = "default",
+  "lg" = "lg",
+}
+export const BREAKPOINTS: {
+  [key in Exclude<MEDIA_QUERY, "default">]: number;
+} = { [MEDIA_QUERY.lg]: 768 };
+```
 
 ---

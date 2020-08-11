@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1039
+Total entries: 1040
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -971,6 +971,7 @@ Total entries: 1039
 - Describe function signature with interface
 - Array/object type safety pitfall
 - Test TypeScript types
+- Remove a property from an enum
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`
