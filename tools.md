@@ -1062,3 +1062,14 @@ $ rm x
 ```
 
 ---
+
+**Export gpg key**
+
+```
+$ gpg --export adres@email.pl >/tmp/klucz
+$ gpg --armour --output /tmp/klucz2 --export adres@email.pl
+```
+
+[0](https://pl.wikibooks.org/wiki/GnuPG/Eksport_klucza_publicznego)
+
+---
