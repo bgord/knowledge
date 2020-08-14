@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1040
+Total entries: 1042
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -372,6 +372,7 @@ Total entries: 1040
 - What's a landmark?
 - tabindex
 - PWA iOS icon
+- srcset and sizes
 
 ### [js](js.md)
 - RegExp for digits
@@ -891,6 +892,7 @@ Total entries: 1040
 - `scp` copy a file from remote to the local machine
 - Simulate offline scenario in Firefox
 - Remove a symlink
+- Export gpg key
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

@@ -285,3 +285,26 @@ Icons from manifest.json file are not supported yet.
 ```
 
 ---
+
+**srcset and sizes**
+
+```tsx
+import React from "react";
+
+export function Logo(props: JSX.IntrinsicElements["img"]) {
+  const logo = "logo.png"; // 181px x 50px
+  const icon = "logo-icon.png"; // 50px x 50px
+
+  return (
+    <img
+      alt="Hapiline brand"
+      src={logo}
+      srcSet={`${logo} 181w, ${icon} 50w`}
+      sizes="(max-width: 768px) 50px, 181px"
+      {...props}
+    />
+  );
+}
+```
+
+---
