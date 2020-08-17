@@ -736,3 +736,9 @@ Works only for content.
 [1](https://css-tricks.com/practical-css-scroll-snapping/)
 
 ---
+
+**Browser specific media queries**
+
+[0](https://www.ryadel.com/en/css3-media-query-target-only-ie-ie6-ie11-firefox-chrome-safari-edge/)
+
+---
