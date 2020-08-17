@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1044
+Total entries: 1045
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -895,6 +895,7 @@ Total entries: 1044
 - Simulate offline scenario in Firefox
 - Remove a symlink
 - Export gpg key
+- Add white background to PNG instead of transparency
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

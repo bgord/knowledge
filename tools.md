@@ -1073,3 +1073,11 @@ $ gpg --armour --output /tmp/klucz2 --export adres@email.pl
 [0](https://pl.wikibooks.org/wiki/GnuPG/Eksport_klucza_publicznego)
 
 ---
+
+**Add white background to PNG instead of transparency**
+
+```bash
+$ convert -flatten img1.png img1-white.png
+```
+
+---
