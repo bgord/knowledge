@@ -742,3 +742,12 @@ Works only for content.
 [0](https://www.ryadel.com/en/css3-media-query-target-only-ie-ie6-ie11-firefox-chrome-safari-edge/)
 
 ---
+
+**Remove input border/shadow iOS artifact**
+
+```css
+-webkit-appearance: none;
+-moz-appearance: none;
+```
+
+---
