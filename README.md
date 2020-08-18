@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1046
+Total entries: 1047
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -731,6 +731,7 @@ Total entries: 1046
 - Types for <svg />
 - tinykeys hook for keyboard shortcuts
 - Types for ref
+- useClickOutside hook
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
