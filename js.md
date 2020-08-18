@@ -2300,3 +2300,13 @@ const long_random_promise = new Promise((resolve) => {
 [0](http://mbork.pl/2020-08-03_Look_up_a_global_variable_in_the_database_in_Node.js)
 
 ---
+
+**Check if node is contained in another node**
+
+```js
+const main = document.querySelector("main");
+
+main.contains(event.target); // for example an event target node
+```
+
+---
