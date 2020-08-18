@@ -2049,3 +2049,11 @@ useKeyboardShortcurts({
 ```
 
 ---
+
+**Types for ref**
+
+```tsx
+ref: React.RefObject<HTMLElement>
+```
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1045
+Total entries: 1046
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -730,6 +730,7 @@ Total entries: 1045
 - A subtle difference between React class and function components
 - Types for <svg />
 - tinykeys hook for keyboard shortcuts
+- Types for ref
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
