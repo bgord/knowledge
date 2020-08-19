@@ -751,3 +751,11 @@ Works only for content.
 ```
 
 ---
+
+**Transition multiple properties**
+
+```css
+transition: color 2s, transform 300ms 1s;
+```
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1048
+Total entries: 1049
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -117,6 +117,7 @@ Total entries: 1048
 - Scroll snapping
 - Browser specific media queries
 - Remove input border/shadow iOS artifact
+- Transition multiple properties
 
 ### [dart](dart.md)
 - Automatic code formatting
