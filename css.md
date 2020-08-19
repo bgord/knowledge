@@ -759,3 +759,17 @@ transition: color 2s, transform 300ms 1s;
 ```
 
 ---
+
+**Transition duration**
+
+100ms feels like instantenious
+1s feels still responsive
+10s feels disconnected
+
+- elderly people perceive time passing faster.
+- generally, 100ms to 1s is the sweet spot.
+- 250-300ms is the most popular duration.
+- the wider the object, the longer duration
+- prefers-reduced-motion
+
+---

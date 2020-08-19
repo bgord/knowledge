@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1049
+Total entries: 1051
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -118,6 +118,7 @@ Total entries: 1049
 - Browser specific media queries
 - Remove input border/shadow iOS artifact
 - Transition multiple properties
+- Transition duration
 
 ### [dart](dart.md)
 - Automatic code formatting
@@ -538,6 +539,7 @@ Total entries: 1049
 - What does calling super() do?
 - Run promise once outside the scope of an exported async function
 - Check if node is contained in another node
+- Adonis session expiration time
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
