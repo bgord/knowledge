@@ -2310,3 +2310,9 @@ main.contains(event.target); // for example an event target node
 ```
 
 ---
+
+**Adonis session expiration time**
+
+[0](https://github.com/adonisjs/adonis-fullstack-app/blob/master/config/session.js#L55)
+
+---
