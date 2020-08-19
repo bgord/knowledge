@@ -2316,3 +2316,17 @@ main.contains(event.target); // for example an event target node
 [0](https://github.com/adonisjs/adonis-fullstack-app/blob/master/config/session.js#L55)
 
 ---
+
+**window.confirm before form submitting**
+
+```js
+node.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  if (window.confirm("Are you sure?")) {
+    event.target.submit();
+  }
+});
+```
+
+---

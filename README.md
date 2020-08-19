@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1051
+Total entries: 1052
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -540,6 +540,7 @@ Total entries: 1051
 - Run promise once outside the scope of an exported async function
 - Check if node is contained in another node
 - Adonis session expiration time
+- window.confirm before form submitting
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
