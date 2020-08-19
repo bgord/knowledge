@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1052
+Total entries: 1053
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -903,6 +903,7 @@ Total entries: 1052
 - Remove a symlink
 - Export gpg key
 - Add white background to PNG instead of transparency
+- Multiple webpack output files
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

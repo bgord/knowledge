@@ -771,5 +771,7 @@ transition: color 2s, transform 300ms 1s;
 - 250-300ms is the most popular duration.
 - the wider the object, the longer duration
 - prefers-reduced-motion
+- response to user action -> deceleration
+- system initiated action -> acceleration
 
 ---

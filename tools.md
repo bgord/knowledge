@@ -1081,3 +1081,48 @@ $ convert -flatten img1.png img1-white.png
 ```
 
 ---
+
+**Multiple webpack output files**
+
+Return an array instead of an object.
+
+```js
+var path = require("path");
+var webpack = require("../../");
+
+module.exports = [
+	{
+		name: "mobile",
+		// mode: "development || "production",
+		entry: "./example",
+		output: {
+			path: path.join(__dirname, "dist"),
+			filename: "mobile.js"
+		},
+		plugins: [
+			new webpack.DefinePlugin({
+				ENV: JSON.stringify("mobile")
+			})
+		]
+	},
+
+	{
+		name: "desktop",
+		// mode: "development || "production",
+		entry: "./example",
+		output: {
+			path: path.join(__dirname, "dist"),
+			filename: "desktop.js"
+		},
+		plugins: [
+			new webpack.DefinePlugin({
+				ENV: JSON.stringify("desktop")
+			})
+		]
+	}
+];
+```
+
+[0](https://github.com/webpack/webpack/blob/master/examples/multi-compiler/webpack.config.js)
+
+---
