@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1053
+Total entries: 1054
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -904,6 +904,7 @@ Total entries: 1053
 - Export gpg key
 - Add white background to PNG instead of transparency
 - Multiple webpack output files
+- Webpack copy files to a build directory
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

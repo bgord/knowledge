@@ -1091,38 +1091,79 @@ var path = require("path");
 var webpack = require("../../");
 
 module.exports = [
-	{
-		name: "mobile",
-		// mode: "development || "production",
-		entry: "./example",
-		output: {
-			path: path.join(__dirname, "dist"),
-			filename: "mobile.js"
-		},
-		plugins: [
-			new webpack.DefinePlugin({
-				ENV: JSON.stringify("mobile")
-			})
-		]
-	},
+  {
+    name: "mobile",
+    // mode: "development || "production",
+    entry: "./example",
+    output: {
+      path: path.join(__dirname, "dist"),
+      filename: "mobile.js",
+    },
+    plugins: [
+      new webpack.DefinePlugin({
+        ENV: JSON.stringify("mobile"),
+      }),
+    ],
+  },
 
-	{
-		name: "desktop",
-		// mode: "development || "production",
-		entry: "./example",
-		output: {
-			path: path.join(__dirname, "dist"),
-			filename: "desktop.js"
-		},
-		plugins: [
-			new webpack.DefinePlugin({
-				ENV: JSON.stringify("desktop")
-			})
-		]
-	}
+  {
+    name: "desktop",
+    // mode: "development || "production",
+    entry: "./example",
+    output: {
+      path: path.join(__dirname, "dist"),
+      filename: "desktop.js",
+    },
+    plugins: [
+      new webpack.DefinePlugin({
+        ENV: JSON.stringify("desktop"),
+      }),
+    ],
+  },
 ];
 ```
 
 [0](https://github.com/webpack/webpack/blob/master/examples/multi-compiler/webpack.config.js)
+
+---
+
+**Webpack copy files to a build directory**
+
+```js
+const path = require("path");
+const CopyPlugin = require("copy-webpack-plugin");
+
+module.exports = {
+  entry: ["./resources/assets/scripts/dashboard.js"],
+  output: {
+    path: path.join(__dirname, "public"),
+    filename: "app.js",
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: [/node_modules/],
+        loader: "babel-loader",
+        options: { presets: ["@babel/preset-env"] },
+      },
+    ],
+  },
+  plugins: [
+    new CopyPlugin({
+      patterns: [
+        {
+          from: "resources/assets/scripts/*.js",
+          to: path.join(__dirname, "public"),
+          globOptions: {
+            ignore: ["./resources/assets/scripts/dashboard.js"],
+          },
+          flatten: true,
+        },
+      ],
+    }),
+  ],
+};
+```
 
 ---
