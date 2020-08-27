@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1054
+Total entries: 1056
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -119,6 +119,7 @@ Total entries: 1054
 - Remove input border/shadow iOS artifact
 - Transition multiple properties
 - Transition duration
+- prefers-reduced-motion
 
 ### [dart](dart.md)
 - Automatic code formatting
@@ -737,6 +738,7 @@ Total entries: 1054
 - tinykeys hook for keyboard shortcuts
 - Types for ref
 - useClickOutside hook
+- FLIP list reordering animation
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?

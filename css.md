@@ -775,3 +775,17 @@ transition: color 2s, transform 300ms 1s;
 - system initiated action -> acceleration
 
 ---
+
+**prefers-reduced-motion**
+
+The two possibilities are `reduce` and `no-preference`.
+
+```css
+@media screen and (prefers-reduced-motion: reduce) {
+  * {
+    animation: none;
+  }
+}
+```
+
+---
