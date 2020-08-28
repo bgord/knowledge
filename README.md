@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1060
+Total entries: 1061
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -123,6 +123,7 @@ Total entries: 1060
 - CSS triangle
 - steps() animation timing function
 - animation-fill-mode
+- animation-play-state
 
 ### [dart](dart.md)
 - Automatic code formatting

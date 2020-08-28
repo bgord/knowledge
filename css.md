@@ -839,3 +839,21 @@ By default, animations control the element's properties only when the animation 
 By using animation-fill-mode, you can make it retain properties with values of `0%` (backwards), `100%` (forwards), or both - `0%` before the animation, and `100%` after the animation.
 
 ---
+
+**animation-play-state**
+
+Either `running` (the default) or `paused`.
+
+To pause the animation on hover:
+
+```css
+.tail {
+  animation: wag 1s infinite alternate;
+}
+
+.tail:hover {
+  animation-play-state: paused;
+}
+```
+
+---
