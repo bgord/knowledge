@@ -789,3 +789,18 @@ The two possibilities are `reduce` and `no-preference`.
 ```
 
 ---
+
+**CSS triangle**
+
+```css
+#triangle {
+  height: 0px;
+  width: 0px;
+  border: 15px solid red;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  // transform: rotate(135deg);
+}
+```
+
+---
