@@ -831,3 +831,11 @@ Displays an animation iteration along n stops along the transition, displaying e
 ```
 
 ---
+
+**animation-fill-mode**
+
+By default, animations control the element's properties only when the animation is playing.
+
+By using animation-fill-mode, you can make it retain properties with values of `0%` (backwards), `100%` (forwards), or both - `0%` before the animation, and `100%` after the animation.
+
+---
