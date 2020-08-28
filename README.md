@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1062
+Total entries: 1063
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -125,6 +125,7 @@ Total entries: 1062
 - animation-fill-mode
 - animation-play-state
 - Jump cut
+- Animation/transition tips
 
 ### [dart](dart.md)
 - Automatic code formatting

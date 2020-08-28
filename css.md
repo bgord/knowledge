@@ -863,3 +863,11 @@ To pause the animation on hover:
 Jump cut (from film) is an immediate from one state to another.
 
 ---
+
+**Animation/transition tips**
+
+- use stateful transitions for almost everything to reduce cognitive fatigue as brain tends to fill the in-betweening gaps
+- the central vision is more sensitive to color
+- the peripheral vision is more sensitive to motion
+
+---
