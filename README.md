@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1063
+Total entries: 1064
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -126,6 +126,7 @@ Total entries: 1063
 - animation-play-state
 - Jump cut
 - Animation/transition tips
+- Animation sequencing
 
 ### [dart](dart.md)
 - Automatic code formatting

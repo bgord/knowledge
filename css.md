@@ -871,3 +871,15 @@ Jump cut (from film) is an immediate from one state to another.
 - the peripheral vision is more sensitive to motion
 
 ---
+
+**Animation sequencing**
+
+Make the next animation's delay be the previous animation's duration.
+
+```css
+.wrapper {
+  animation: first 2s, second 3s 2s;
+}
+```
+
+---
