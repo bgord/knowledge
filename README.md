@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1058
+Total entries: 1059
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -121,6 +121,7 @@ Total entries: 1058
 - Transition duration
 - prefers-reduced-motion
 - CSS triangle
+- steps() animation timing function
 
 ### [dart](dart.md)
 - Automatic code formatting

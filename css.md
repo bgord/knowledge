@@ -804,3 +804,30 @@ The two possibilities are `reduce` and `no-preference`.
 ```
 
 ---
+
+**steps() animation timing function**
+
+Displays an animation iteration along n stops along the transition, displaying each stop for equal lengths of time. For example, if n is 5, there are 5 steps.
+
+```css
+#app {
+  background: url(http://stash.rachelnabors.com/animation-workshop/sprite_catwalk.png)
+    0 0 no-repeat;
+  height: 200px;
+  width: 400px;
+  margin: 100px auto;
+
+  animation: catWalk 1s steps(12) infinite;
+}
+
+@keyframes catWalk {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 -2400px;
+  }
+}
+```
+
+---
