@@ -88,3 +88,8 @@
 
 - [clozemaster](https://www.clozemaster.com/)
   Automatically generated cloze deletions for many languages.
+
+## Music
+
+- [lilypond](https://lilypond.org/)
+  A language for music notation
