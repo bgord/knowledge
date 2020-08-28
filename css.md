@@ -857,3 +857,9 @@ To pause the animation on hover:
 ```
 
 ---
+
+**Jump cut**
+
+Jump cut (from film) is an immediate from one state to another.
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1061
+Total entries: 1062
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -124,6 +124,7 @@ Total entries: 1061
 - steps() animation timing function
 - animation-fill-mode
 - animation-play-state
+- Jump cut
 
 ### [dart](dart.md)
 - Automatic code formatting
