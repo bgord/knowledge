@@ -1167,3 +1167,26 @@ module.exports = {
 ```
 
 ---
+
+**Lilypond example**
+
+```
+\version "2.20.0"
+\time 4/4
+
+<<
+  {
+    g'8 g'4 e'8 r8 e'8 e'4 c'8 r8 c'8 a8 d'8 r8 g'8 g'8
+  }
+
+  \lyrics {
+    Krynica, _ _ _ _ Krynica, _ _ _ _ Krynica, _ _ _ _ ajaj!
+  }
+>>
+```
+
+```
+$ lilypond <texfile>
+```
+
+---

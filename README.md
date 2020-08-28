@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1057
+Total entries: 1058
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -908,6 +908,7 @@ Total entries: 1057
 - Add white background to PNG instead of transparency
 - Multiple webpack output files
 - Webpack copy files to a build directory
+- Lilypond example
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
