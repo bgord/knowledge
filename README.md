@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1064
+Total entries: 1065
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -566,6 +566,7 @@ Total entries: 1064
 - Test a package binary locally without global installation
 - ^ vs ~ in package versions
 - pre/post scripts
+- Composing npm scripts
 
 ### [other](other.md)
 - Firefox's engine

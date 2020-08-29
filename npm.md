@@ -87,3 +87,31 @@ You can also run `npm unlink` in the package root to cleanup the symlink.
 If you define a `build` script, you can also define `prebuild` and `postbuild` scripts.
 
 ---
+
+**Composing npm scripts**
+
+Before:
+
+```json
+{
+  "scripts": {
+    "env:validate:dev": "ts-node -P ./tsconfig.scripts.json ./scripts/validate_env.ts"
+    "env:validate:all": "ts-node -P ./tsconfig.scripts.json ./scripts/validate_env.ts --with-prod"
+  }
+}
+```
+
+After:
+
+```json
+{
+  "scripts": {
+    "env:validate:dev": "ts-node -P ./tsconfig.scripts.json ./scripts/validate_env.ts"
+    "env:validate:all": "env:validate:dev -- --with-prod"
+  }
+}
+```
+
+The options after `--` are passed to the underlying command of a script, not the npm script itself.
+
+---
