@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1066
+Total entries: 1067
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -550,6 +550,7 @@ Total entries: 1066
 - Check if node is contained in another node
 - Adonis session expiration time
 - window.confirm before form submitting
+- Debug a node script
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

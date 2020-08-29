@@ -2330,3 +2330,17 @@ node.addEventListener("submit", (event) => {
 ```
 
 ---
+
+**Debug a node script**
+
+```bash
+$ node --inspect --inspect-brk ./src/index.js
+```
+
+- Go to `chrome://inspect` in Chrome/Chromium
+- Click `Open dedicated DevTools for Node`
+- You can click "Step"
+- You can click "Resume execution"
+- You can use the console
+
+---
