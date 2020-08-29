@@ -533,3 +533,11 @@ WHERE name ILIKE 'adam'
 SELECT in a transaction can access the state of the database after an INSERT/UPDATE.
 
 ---
+
+**Connection string**
+
+```bash
+postgresql://user:password@host:port/database
+```
+
+---

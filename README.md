@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1069
+Total entries: 1070
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -643,6 +643,7 @@ Total entries: 1069
 - Query by nested JSON field
 - Case-insensitive where
 - SELECT during a transcation
+- Connection string
 
 ### [react](react.md)
 - Testing unconnected components
