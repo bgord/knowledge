@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1067
+Total entries: 1068
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -386,6 +386,7 @@ Total entries: 1067
 - tabindex
 - PWA iOS icon
 - srcset and sizes
+- picture element
 
 ### [js](js.md)
 - RegExp for digits

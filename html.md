@@ -308,3 +308,16 @@ export function Logo(props: JSX.IntrinsicElements["img"]) {
 ```
 
 ---
+
+**picture element**
+
+The `picture` element tries to match a source, if it fails, the default `img` is taken.
+
+```html
+<picture>
+  <source srcset="full-logo-path.png" media="(min-width: 800px)" />
+  <img src="icon-logo-path.png" alt="Hapiline brand" />
+</picture>
+```
+
+---
