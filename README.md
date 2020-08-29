@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1070
+Total entries: 1071
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -552,6 +552,7 @@ Total entries: 1070
 - Adonis session expiration time
 - window.confirm before form submitting
 - Debug a node script
+- Access user's timezone
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

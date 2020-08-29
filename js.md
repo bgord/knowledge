@@ -2344,3 +2344,11 @@ $ node --inspect --inspect-brk ./src/index.js
 - You can use the console
 
 ---
+
+**Access user's timezone**
+
+```js
+Intl.DateTimeFormat().resolvedOptions().timeZone;
+```
+
+---
