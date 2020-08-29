@@ -766,3 +766,12 @@ $ git rebase -i `git merge-base develop feature/offline`
 ```
 
 ---
+
+**Switch to a branch even if you have unstaged changes**
+
+ATTENTION: you're gonna lose them.
+
+```bash
+$ git checkout another-branch --force
+$ git checkout another-branch --f
+```

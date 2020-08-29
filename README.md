@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1065
+Total entries: 1066
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -348,6 +348,7 @@ Total entries: 1065
 - Update already pushed branch on local and origin
 - Get first common commit
 - Setup interactive rebase back to the first commit branched out of base branch
+- Switch to a branch even if you have unstaged changes
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?
