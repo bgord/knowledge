@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1068
+Total entries: 1069
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -919,6 +919,7 @@ Total entries: 1068
 - Multiple webpack output files
 - Webpack copy files to a build directory
 - Lilypond example
+- Both ESM and CommonJS in webpack
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

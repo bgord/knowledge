@@ -1190,3 +1190,26 @@ $ lilypond <texfile>
 ```
 
 ---
+
+**Both ESM and CommonJS in webpack**
+
+```js
+// index.js
+import nav from "./nav.js"; // works!
+import { footer } from "./footer.js"; // works!
+const { footer } = require("./footer.js"); // works too, but not recommended!
+```
+
+```js
+// nav.js
+export default "nav";
+```
+
+```js
+// footer.js
+const footer = "footer";
+
+module.exports = { footer };
+```
+
+---
