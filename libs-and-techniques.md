@@ -54,7 +54,9 @@
 - [svgexport](https://github.com/shakiba/svgexport)
   SVG to PNG conversion
 - [securityheaders](https://securityheaders.com/)
-  A website that shows missing security headers
+  A website that shows missing security headers.
+- [photopea](https://www.photopea.com/)
+  A Photoshop in the browser.
 
 ## React
 
