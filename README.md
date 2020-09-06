@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1071
+Total entries: 1072
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -645,6 +645,7 @@ Total entries: 1071
 - Case-insensitive where
 - SELECT during a transcation
 - Connection string
+- Disable foreign key constraint checks
 
 ### [react](react.md)
 - Testing unconnected components

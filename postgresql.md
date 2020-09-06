@@ -541,3 +541,13 @@ postgresql://user:password@host:port/database
 ```
 
 ---
+
+**Disable foreign key constraint checks**
+
+```sql
+SET foreign_key_checks = 0;
+// do some stuff
+SET foreign_key_checks = 1;
+```
+
+---
