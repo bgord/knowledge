@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1072
+Total entries: 1073
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1133,6 +1133,7 @@ Total entries: 1072
 - Transient states
 - Activities in x state
 - What's a service?
+- @xstate/inspect
 
 ### [yarn](yarn.md)
 - Upgrade a version of the package in yarn

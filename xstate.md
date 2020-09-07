@@ -13,8 +13,8 @@ const formMachine = Machine({
     editing: {},
     pending: {},
     error: {},
-    success: {}
-  }
+    success: {},
+  },
 });
 ```
 
@@ -33,31 +33,31 @@ const formMachine = Machine({
   states: {
     idle: {
       on: {
-        START_EDITING: "editing"
-      }
+        START_EDITING: "editing",
+      },
     },
     editing: {
       on: {
         SUBMIT: "pending",
-        CANCEL: "idle"
-      }
+        CANCEL: "idle",
+      },
     },
     pending: {
       on: {
         SUCCESS: "success",
-        ERROR: "error"
-      }
+        ERROR: "error",
+      },
     },
     error: {
       on: {
         SUBMIT: {
-          target: "pending"
+          target: "pending",
         },
-        CANCEL: "idle"
-      }
+        CANCEL: "idle",
+      },
     },
-    success: {}
-  }
+    success: {},
+  },
 });
 ```
 
@@ -71,14 +71,14 @@ const switchMachine = Machine({
   initial: "off",
   states: {
     on: {
-      type: "final"
+      type: "final",
     },
     off: {
       on: {
-        TURN_ON: "on"
-      }
-    }
-  }
+        TURN_ON: "on",
+      },
+    },
+  },
 });
 ```
 
@@ -89,18 +89,18 @@ const switchMachine = Machine({
   id: "switch",
   initial: "off",
   context: {
-    switchesCount: 0
+    switchesCount: 0,
   },
   states: {
     on: {
-      type: "final"
+      type: "final",
     },
     off: {
       on: {
-        TURN_ON: "on"
-      }
-    }
-  }
+        TURN_ON: "on",
+      },
+    },
+  },
 });
 ```
 
@@ -116,32 +116,32 @@ const switchMachine = Machine(
     id: "switch",
     initial: "switched_off",
     context: {
-      switchesCount: 0
+      switchesCount: 0,
     },
     states: {
       switched_on: {
         on: {
           SWITCH: {
             target: "switched_off",
-            actions: ["incrementCount"]
-          }
-        }
+            actions: ["incrementCount"],
+          },
+        },
       },
       switched_off: {
         on: {
           SWITCH: {
             target: "switched_on ",
-            actions: ["incrementCount"]
-          }
-        }
-      }
-    }
+            actions: ["incrementCount"],
+          },
+        },
+      },
+    },
   },
   {
     incrementCount: (context, event) =>
       assign({
-        switchesCount: context.switchesCount + 1
-      })
+        switchesCount: context.switchesCount + 1,
+      }),
   }
 );
 ```
@@ -206,15 +206,15 @@ const autorefreshMachine = Machine({
   states: {
     active: {
       after: {
-        500: "inactive"
-      }
+        500: "inactive",
+      },
     },
     inactive: {
       after: {
-        500: "active"
-      }
-    }
-  }
+        500: "active",
+      },
+    },
+  },
 });
 ```
 
@@ -232,12 +232,12 @@ const autorefreshMachine = Machine({
       states: {
         valid: {},
         invalid: {
-          CLOSE_ERROR: ".valid" // doesn't enter the main state node, and goes to the `valid` substate
-        }
-      }
+          CLOSE_ERROR: ".valid", // doesn't enter the main state node, and goes to the `valid` substate
+        },
+      },
     },
-    pending: {}
-  }
+    pending: {},
+  },
 });
 ```
 
@@ -255,33 +255,33 @@ const wizardMachine = Machine({
       states: {
         step_1: {
           on: {
-            NEXT: "step_2"
+            NEXT: "step_2",
           },
           meta: {
             prev: false,
-            next: true
-          }
+            next: true,
+          },
         },
         step_2: {
           on: {
             PREV: "step_1",
-            NEXT: "#summary"
-          }
+            NEXT: "#summary",
+          },
         },
         meta: {
           prev: true,
-          next: true
-        }
-      }
+          next: true,
+        },
+      },
     },
     summary: {
       id: "summary",
       type: "final",
       meta: {
-        text: "Hello!"
-      }
-    }
-  }
+        text: "Hello!",
+      },
+    },
+  },
 });
 ```
 
@@ -323,9 +323,9 @@ const zoomMachine = Machine({
     idle: {
       ZOOM_IN: {},
       ZOOM_OUT: {},
-      RESET: {}
-    }
-  }
+      RESET: {},
+    },
+  },
 });
 
 // parent machine
@@ -333,22 +333,22 @@ const playgroundMachine = Machine({
   id: "playground",
   initial: "idle",
   context: {
-    zoomActorRef: undefined
+    zoomActorRef: undefined,
   },
   states: {
     idle: {
       onEntry: assign({
-        zoomActorRef: () => spawn(zoomMachine, { name: "zoomActorRef" })
+        zoomActorRef: () => spawn(zoomMachine, { name: "zoomActorRef" }),
       }),
       on: {
-        SELECT: "selected"
-      }
+        SELECT: "selected",
+      },
     },
     selected: {
       UNSELECT: "idle",
-      SELECT: "selected"
-    }
-  }
+      SELECT: "selected",
+    },
+  },
 });
 ```
 
@@ -433,15 +433,15 @@ const toggleMachine = Machine(
     initial: "inactive",
     states: {
       inactive: {
-        on: { TOGGLE: "active" }
+        on: { TOGGLE: "active" },
       },
       active: {
         // The 'beeping' activity will take place as long as
         // the machine is in the 'active' state
         activities: ["beeping"],
-        on: { TOGGLE: "inactive" }
-      }
-    }
+        on: { TOGGLE: "inactive" },
+      },
+    },
   },
   {
     activities: {
@@ -451,8 +451,8 @@ const toggleMachine = Machine(
 
         // Return a function that stops the beeping activity
         return () => clearInterval(interval);
-      }
-    }
+      },
+    },
   }
 );
 ```
@@ -462,5 +462,22 @@ const toggleMachine = Machine(
 **What's a service?**
 
 It's a thing that can be passed to `invoke`: promise, callback, another machine, obvervable.
+
+---
+
+**@xstate/inspect**
+
+Opens a live inspector webpage for given machine.
+
+```tsx
+import { inspect } from "@xstate/inspect";
+
+inspect({
+  url: "https://statecharts.io/inspect",
+  iframe: false,
+});
+
+const [current, send] = useMachine(toggleMachine, { devTools: true });
+```
 
 ---
