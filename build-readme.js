@@ -10,49 +10,53 @@ const pathsToSkip = [
   "libs-and-techniques.md",
   "node_modules",
   "package.json",
-  "package-lock.json"
+  "package-lock.json",
 ];
 
 async function main() {
   const allFiles = await fs.readdir(__dirname);
-  const mdFiles = allFiles.filter(file => !pathsToSkip.includes(file));
+  const markdownFiles = allFiles.filter((file) => !pathsToSkip.includes(file));
 
-  const data = {};
+  const filenameToTitles = {};
 
-  for (const filename of mdFiles) {
+  for (const filename of markdownFiles) {
     const file = await fs.readFile(filename);
 
     const titles = file
       .toString()
+      // convert to lines
       .split("\n")
-      .filter(line => line.startsWith("**") && line.endsWith("**"))
-      .map(titleLine => titleLine.substring(2, titleLine.length - 2));
+      // grab only lines with a title (e.g **== vs ===**)
+      .filter((line) => line.startsWith("**") && line.endsWith("**"))
+      // extract the title from between the asterisks
+      .map((titleLine) => titleLine.substring(2, titleLine.length - 2));
 
-    data[filename] = titles;
+    filenameToTitles[filename] = titles;
   }
 
-  const total = Object.values(data)
-    .map(file => file.length)
-    .reduce((a, b) => a + b, 0);
+  const totalNumberOfTitles = Object.values(filenameToTitles)
+    .map((file) => file.length)
+    .reduce(add, 0);
 
-  let readme = "# Knowledge\n\n";
+  let readmeContent = "# Knowledge\n\n";
 
-  readme += `Total entries: ${total}\n`;
+  readmeContent += `Total entries: ${totalNumberOfTitles}\n`;
 
-  for (const [filename, titles] of Object.entries(data)) {
+  for (const [filename, titles] of Object.entries(filenameToTitles)) {
     const [category] = filename.split(".");
-    readme += `\n### [${category}](${filename})\n`;
-    readme += titles.map(title => `- ${title}\n`).join("");
+
+    readmeContent += `\n### [${category}](${filename})\n`;
+    readmeContent += titles.map((title) => `- ${title}\n`).join("");
   }
 
-  await fs.writeFile("README.md", readme);
+  await fs.writeFile("README.md", readmeContent);
   await execShellCommand("git add README.md");
 }
 
 main();
 
 function execShellCommand(cmd) {
-  return new Promise(resolve => {
+  return new Promise((resolve) => {
     exec(cmd, (error, stdout, stderr) => {
       if (error) {
         console.warn(error);
@@ -60,4 +64,8 @@ function execShellCommand(cmd) {
       resolve(stdout ? stdout : stderr);
     });
   });
+}
+
+function add(a, b) {
+  return a + b;
 }
