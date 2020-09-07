@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1073
+Total entries: 1074
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -387,6 +387,7 @@ Total entries: 1073
 - PWA iOS icon
 - srcset and sizes
 - picture element
+- Open Graph meta tags
 
 ### [js](js.md)
 - RegExp for digits

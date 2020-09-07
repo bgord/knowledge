@@ -321,3 +321,24 @@ The `picture` element tries to match a source, if it fails, the default `img` is
 ```
 
 ---
+
+**Open Graph meta tags**
+
+These are tags that control how URLs are displayed when shared on social media.
+
+```html
+<head>
+  <title>Hapiline</title>
+
+  <meta property="og:title" content="Hapiline - a habit tracker" />
+  <meta property="og:url" content="https://bgord.tech" />
+  <meta
+    property="og:description"
+    content="A tracker that helps you build habits that stick."
+  />
+</head>
+```
+
+[0](https://ogp.me/)
+
+---
