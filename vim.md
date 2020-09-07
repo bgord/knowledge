@@ -539,3 +539,13 @@ i<C-r>=2*2+2
 ```
 
 ---
+
+**Execute macro on all lines matching a pattern**
+
+Macro stored in the `r` register on lines starting with `-`
+
+```
+:g/^-/norm! @r
+```
+
+---
