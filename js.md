@@ -2352,3 +2352,23 @@ Intl.DateTimeFormat().resolvedOptions().timeZone;
 ```
 
 ---
+
+**knex enum**
+
+```js
+// 1.
+table
+  .enu("status", ["active", "awaiting", "deleted"], {
+    useNative: true,
+    enumName: "user_status",
+  })
+  .notNullable();
+
+// 2.
+table.enu("status", ["active", "awaiting", "deleted"]).notNullable();
+```
+
+1. Defines a native Postgres ENUM type
+2. Defines a text field with an enum-like constraint
+
+---
