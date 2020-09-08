@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1075
+Total entries: 1076
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -53,6 +53,7 @@ Total entries: 1075
 - ISO dates
 - Picking color range
 - Y10K problem
+- Retry-After HTTP header
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required

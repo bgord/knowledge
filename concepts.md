@@ -308,3 +308,11 @@ It's a problem that most date representations handle only 4 digit years,
 and a 5 digit year can cause an issue.
 
 ---
+
+**Retry-After HTTP header**
+
+It's useful to send it along with the `503` (service unavailable) response to indicate the downtime.
+
+It can be either a delay in seconds, or a date.
+
+---
