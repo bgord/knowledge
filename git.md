@@ -775,3 +775,52 @@ ATTENTION: you're gonna lose them.
 $ git checkout another-branch --force
 $ git checkout another-branch --f
 ```
+
+**Take last n commits from the current branch, and apply them to another branch**
+
+Before:
+
+```
+123 (master)
+234
+345
+456
+567 (feature/setup)
+678
+```
+
+After:
+
+```
+123 (feature/setup)
+234
+345
+456
+567
+678 (master)
+```
+
+Steps:
+
+```bash
+$ git switch feature/setup
+$ git cherry-pick 123^..567
+```
+
+```
+123 (feature/setup)
+ -     def (master)
+345    cde
+456    bcd
+567    abc
+ -      -
+ -      -
+ ---678--
+```
+
+```bash
+$ git switch master
+$ git reset HEAD~4 --hard
+```
+
+---
