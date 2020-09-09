@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1078
+Total entries: 1079
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1008,6 +1008,7 @@ Total entries: 1078
 - Array/object type safety pitfall
 - Test TypeScript types
 - Remove a property from an enum
+- Type equality
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

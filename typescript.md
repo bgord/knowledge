@@ -1326,3 +1326,17 @@ export const BREAKPOINTS: {
 ```
 
 ---
+
+**Type equality**
+
+```ts
+export type Equals<T, S> = [T] extends [S]
+  ? [S] extends [T]
+    ? true
+    : false
+  : false;
+
+type x = Equals<StoreAccountType, ICreateUserParams>;
+```
+
+---
