@@ -551,3 +551,11 @@ SET foreign_key_checks = 1;
 ```
 
 ---
+
+**UUID**
+
+```sql
+CREATE EXTENSION "uuid-ossp";
+```
+
+---

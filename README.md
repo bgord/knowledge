@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1079
+Total entries: 1080
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -650,6 +650,7 @@ Total entries: 1079
 - SELECT during a transcation
 - Connection string
 - Disable foreign key constraint checks
+- UUID
 
 ### [react](react.md)
 - Testing unconnected components
