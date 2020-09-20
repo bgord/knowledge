@@ -95,3 +95,30 @@ The second shape inside the `<mask />` defines what's hidden.
 ```
 
 ---
+
+**Path commands**
+
+```html
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <path
+    fill="none"
+    stroke="red"
+    d="M 10,30
+       A 20,20 0,0,1 50,30
+       A 20,20 0,0,1 90,30
+       Q 90,60 50,90
+       Q 10,60 10,30 z"
+  />
+</svg>
+```
+
+The difference between capital and normal letters is that upper-case commands specify absolute coordinates, and lower-case relative coordinates.
+
+`M`, `m` - move to
+`Z`, `z` - close path
+`A`, `a` - elliptical arc curve
+`L`, `l`, `H`, `h`, `V`, `v` - line to
+`C`, `c`, `S`, `s` - cubic Bézier curve
+`Q`, `q`, `T`, `t` - quadratic Bézier curve
+
+---
