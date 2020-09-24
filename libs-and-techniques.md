@@ -66,6 +66,8 @@
   A way to reduce type boilerplate while working with redux-like action descriptors.
 - [react-async](https://www.npmjs.com/package/react-async)
   A set of hooks to manager promises.
+- [generate-icons](https://blog.sapegin.me/til/react/generating-typescript-react-components-from-svg-icons-using-svgr/?utm_source=tinyreact&utm_medium=email)
+  Convert SVG to React components.
 
 ## JavaScript
 
