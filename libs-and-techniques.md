@@ -59,6 +59,8 @@
   A Photoshop in the browser.
 - [pgFormatter](https://github.com/darold/pgFormatter)
   Format SQL files.
+- [clippy](https://bennettfeely.com/clippy/)
+  Clip-path creator
 
 ## React
 
