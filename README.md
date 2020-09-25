@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1082
+Total entries: 1083
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -128,6 +128,7 @@ Total entries: 1082
 - Jump cut
 - Animation/transition tips
 - Animation sequencing
+- Prevent pseudoelement from triggering hover effects
 
 ### [dart](dart.md)
 - Automatic code formatting

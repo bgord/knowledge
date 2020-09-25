@@ -883,3 +883,15 @@ Make the next animation's delay be the previous animation's duration.
 ```
 
 ---
+
+**Prevent pseudoelement from triggering hover effects**
+
+```css
+.b:after {
+  pointer-events: none;
+}
+```
+
+[0](https://stackoverflow.com/questions/16669889/prevent-a-pseudo-element-from-triggering-hover)
+
+---
