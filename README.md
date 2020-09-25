@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1081
+Total entries: 1082
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1011,6 +1011,7 @@ Total entries: 1081
 - Test TypeScript types
 - Remove a property from an enum
 - Type equality
+- Return type of setTimeout
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

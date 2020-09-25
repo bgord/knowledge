@@ -1340,3 +1340,11 @@ type x = Equals<StoreAccountType, ICreateUserParams>;
 ```
 
 ---
+
+**Return type of setTimeout**
+
+```ts
+ReturnType<typeof setTimeout>
+```
+
+---
