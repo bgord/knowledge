@@ -61,6 +61,8 @@
   Format SQL files.
 - [clippy](https://bennettfeely.com/clippy/)
   Clip-path creator
+- [fusuma](https://github.com/iberianpig/fusuma)
+  Linux gesture manager
 
 ## React
 
