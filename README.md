@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1083
+Total entries: 1084
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -759,6 +759,7 @@ Total entries: 1083
 - Types for ref
 - useClickOutside hook
 - FLIP list reordering animation
+- Add favicon in Gatsby app
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?

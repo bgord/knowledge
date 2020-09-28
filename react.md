@@ -2093,3 +2093,10 @@ export function useClickOutside(
 [1](https://www.taraojo.com/post/animating-element-reordering)
 
 ---
+
+**Add favicon in Gatsby app**
+
+[0](https://medium.com/@itguymax/add-a-custom-icon-to-your-gatsby-site-in-just-a-few-a-minute-4e5b5f12ca40)
+
+---
+
