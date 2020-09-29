@@ -907,3 +907,21 @@ object-fit: contain;
 [0](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
 
 ---
+
+**Multiline text truncation**
+
+```css
+.multine-ellipsis {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+```
+
+[0](https://github.com/LeMarck/webkit-line-clamp) - polyfill
+[1](https://caniuse.com/css-line-clamp) - browser support
+
+---

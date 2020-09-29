@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1085
+Total entries: 1086
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -130,6 +130,7 @@ Total entries: 1085
 - Animation sequencing
 - Prevent pseudoelement from triggering hover effects
 - Object-fit
+- Multiline text truncation
 
 ### [dart](dart.md)
 - Automatic code formatting
