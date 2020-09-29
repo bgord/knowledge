@@ -895,3 +895,15 @@ Make the next animation's delay be the previous animation's duration.
 [0](https://stackoverflow.com/questions/16669889/prevent-a-pseudo-element-from-triggering-hover)
 
 ---
+
+**Object-fit**
+
+The most useful is `contain`, since if works like letterboxing, preserves aspect ratio while resizing if there's a need.
+
+```css
+object-fit: contain;
+```
+
+[0](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
+
+---
