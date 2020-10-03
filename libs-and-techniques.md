@@ -103,3 +103,8 @@
 
 - [lilypond](https://lilypond.org/)
   A language for music notation
+
+## VIM
+
+- [miramare](https://github.com/franbach/miramare)
+  A nice colorscheme
