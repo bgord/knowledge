@@ -647,3 +647,27 @@ services:
 ```
 
 ---
+
+**List all volumes**
+
+```
+docker volume ls
+```
+
+---
+
+**Remove a volume**
+
+```
+docker volume rm <hash>
+```
+
+---
+
+**Remove all volumes**
+
+```
+docker volume rm $(docker volume ls -q)
+```
+
+---

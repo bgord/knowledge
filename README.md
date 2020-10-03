@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1086
+Total entries: 1089
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -197,6 +197,9 @@ Total entries: 1086
 - Add Docker to user group to avoid sudo
 - Lost/failed Docker daemon SSH connection with remote host
 - HTTPS
+- List all volumes
+- Remove a volume
+- Remove all volumes
 
 ### [elixir](elixir.md)
 - What type of language is Elixir?
