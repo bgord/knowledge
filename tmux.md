@@ -105,3 +105,11 @@ Select a text by holding the Shift key down, then Ctrl + Shift + c.
 Prefix + x
 
 ---
+
+**Refresh tmux config**
+
+```
+$ tmux source-file ~/.tmux.conf
+```
+
+---
