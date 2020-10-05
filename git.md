@@ -824,3 +824,11 @@ $ git reset HEAD~4 --hard
 ```
 
 ---
+
+**Add submodule to a path**
+
+```bash
+$ git submodule add https://github.com/wp-graphql/wp-graphql ./plugins/wp-graphql
+```
+
+---
