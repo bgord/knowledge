@@ -1213,3 +1213,9 @@ module.exports = { footer };
 ```
 
 ---
+
+**Firefox doesn't recognize .localhost domain**
+
+Add `127.0.0.1 jf.localhost` line to `/etc/hosts`.
+
+---
