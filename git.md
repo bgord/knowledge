@@ -832,3 +832,13 @@ $ git submodule add https://github.com/wp-graphql/wp-graphql ./plugins/wp-graphq
 ```
 
 ---
+
+**Pull changes that added a submodule**
+
+It happens when you have a submodule that's been recently added.
+
+```bash
+$ git submodule update --init
+```
+
+---
