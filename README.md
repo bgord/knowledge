@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1096
+Total entries: 1097
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -30,6 +30,7 @@ Total entries: 1096
 - What does -- mean?
 - Clear an exported variable in a terminal
 - Quit when a command fails
+- Load .env variables
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?

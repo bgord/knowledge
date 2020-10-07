@@ -172,3 +172,13 @@ set -e
 ```
 
 ---
+
+**Load .env variables**
+
+```bash
+set -a
+. ./env.txt
+set +a
+```
+
+---
