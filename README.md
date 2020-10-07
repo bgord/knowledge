@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1089
+Total entries: 1094
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -357,6 +357,8 @@ Total entries: 1089
 - Setup interactive rebase back to the first commit branched out of base branch
 - Switch to a branch even if you have unstaged changes
 - Take last n commits from the current branch, and apply them to another branch
+- Add submodule to a path
+- Pull changes that added a submodule
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?
@@ -563,6 +565,9 @@ Total entries: 1089
 - Debug a node script
 - Access user's timezone
 - knex enum
+
+### [mysql](mysql.md)
+- Show all tables
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
@@ -808,6 +813,7 @@ Total entries: 1089
 - Copy/paste from a pane by keyboard
 - Copy text by mouse
 - Kill current pane
+- Refresh tmux config
 
 ### [tools](tools.md)
 - Get MIME types of all the apps, useful when changing defaults
@@ -936,6 +942,7 @@ Total entries: 1089
 - Webpack copy files to a build directory
 - Lilypond example
 - Both ESM and CommonJS in webpack
+- Firefox doesn't recognize .localhost domain
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
