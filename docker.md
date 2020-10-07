@@ -677,3 +677,26 @@ docker volume rm $(docker volume ls -q)
 [0](https://stackoverflow.com/questions/51097652/install-node-modules-inside-docker-container-and-synchronize-them-with-host)
 
 ---
+
+**Multi-stage builds**
+
+Multi-stage build consist of multiple `FROM` statements.
+You can copy build artifacts from one environment to another.
+Can be used to reduce resulting container size.
+
+Example:
+
+```Dockerfile
+FROM alpine:latest as builder
+RUN apk --no-cache add build-base
+
+FROM builder as build1
+COPY source1.cpp source.cpp
+RUN g++ -o /binary source.cpp
+
+FROM builder as build2
+COPY source2.cpp source.cpp
+RUN g++ -o /binary source.cpp
+```
+
+---

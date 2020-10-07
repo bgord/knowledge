@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1101
+Total entries: 1102
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -202,6 +202,7 @@ Total entries: 1101
 - Remove a volume
 - Remove all volumes
 - Install node modules inside a container and sync them with host
+- Multi-stage builds
 
 ### [elixir](elixir.md)
 - What type of language is Elixir?
