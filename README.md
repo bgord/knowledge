@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1094
+Total entries: 1095
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -359,6 +359,7 @@ Total entries: 1094
 - Take last n commits from the current branch, and apply them to another branch
 - Add submodule to a path
 - Pull changes that added a submodule
+- Specify a branch for submodule definition
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?

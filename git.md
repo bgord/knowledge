@@ -842,3 +842,16 @@ $ git submodule update --init
 ```
 
 ---
+
+**Specify a branch for submodule definition**
+
+```
+[submodule "SubmoduleTestRepo"]
+    path = SubmoduleTestRepo
+    url = https://github.com/jzaccone/SubmoduleTestRepo.git
+    branch = master
+```
+
+[0](https://stackoverflow.com/questions/1777854/how-can-i-specify-a-branch-tag-when-adding-a-git-submodule)
+
+---
