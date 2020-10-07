@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1097
+Total entries: 1098
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -571,6 +571,7 @@ Total entries: 1097
 
 ### [mysql](mysql.md)
 - Show all tables
+- Backup
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
