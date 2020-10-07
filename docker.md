@@ -671,3 +671,9 @@ docker volume rm $(docker volume ls -q)
 ```
 
 ---
+
+**Install node modules inside a container and sync them with host**
+
+[0](https://stackoverflow.com/questions/51097652/install-node-modules-inside-docker-container-and-synchronize-them-with-host)
+
+---
