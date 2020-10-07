@@ -855,3 +855,13 @@ $ git submodule update --init
 [0](https://stackoverflow.com/questions/1777854/how-can-i-specify-a-branch-tag-when-adding-a-git-submodule)
 
 ---
+
+**Force add a file/directory after it's no longer ignored**
+
+```
+$ git add -f html/support/
+```
+
+[0](https://stackoverflow.com/questions/23296370/add-previously-ignored-directory-to-git-repository)
+
+---
