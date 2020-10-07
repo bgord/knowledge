@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1099
+Total entries: 1100
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1031,6 +1031,7 @@ Total entries: 1099
 - Remove a property from an enum
 - Type equality
 - Return type of setTimeout
+- Supress type errors when importing an image
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

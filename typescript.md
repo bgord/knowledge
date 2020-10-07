@@ -1348,3 +1348,13 @@ ReturnType<typeof setTimeout>
 ```
 
 ---
+
+**Supress type errors when importing an image**
+
+```ts
+declare module "*.png";
+```
+
+[0](https://github.com/microsoft/TypeScript-React-Starter/issues/12)
+
+---
