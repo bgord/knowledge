@@ -1358,3 +1358,16 @@ declare module "*.png";
 [0](https://github.com/microsoft/TypeScript-React-Starter/issues/12)
 
 ---
+
+**Import JS file with types**
+
+```json
+{
+  "compilerOptions": {
+    "allowJs": true
+  },
+  "include": ["./src/**/*"]
+}
+```
+
+---

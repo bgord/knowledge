@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1102
+Total entries: 1103
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1034,6 +1034,7 @@ Total entries: 1102
 - Type equality
 - Return type of setTimeout
 - Supress type errors when importing an image
+- Import JS file with types
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`
