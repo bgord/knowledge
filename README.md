@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1103
+Total entries: 1104
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -132,6 +132,7 @@ Total entries: 1103
 - Prevent pseudoelement from triggering hover effects
 - Object-fit
 - Multiline text truncation
+- CSS Grid auto-fill
 
 ### [dart](dart.md)
 - Automatic code formatting

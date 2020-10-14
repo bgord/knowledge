@@ -925,3 +925,22 @@ object-fit: contain;
 [1](https://caniuse.com/css-line-clamp) - browser support
 
 ---
+
+**CSS Grid auto-fill**
+
+```css
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+  /* This is better for small screens, once min() is better supported */
+  /* grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); */
+  grid-gap: 1rem;
+  /* This is the standardized property now, but has slightly less support */
+  /* gap: 1rem */
+}
+```
+
+[0](https://codesandbox.io/s/css-grid-responsive-columns-layout-bolh2?file=/index.html)
+
+---
