@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1104
+Total entries: 1105
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -571,6 +571,7 @@ Total entries: 1104
 - Debug a node script
 - Access user's timezone
 - knex enum
+- Trigger PDF file printing
 
 ### [mysql](mysql.md)
 - Show all tables

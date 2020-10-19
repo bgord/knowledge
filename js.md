@@ -2372,3 +2372,17 @@ table.enu("status", ["active", "awaiting", "deleted"]).notNullable();
 2. Defines a text field with an enum-like constraint
 
 ---
+
+**Trigger PDF file printing**
+
+```js
+const printWindow = window.open(pdfFileUrl, "PRINT", "height=400,width=600");
+
+printWindow?.print(); // doesn't work in Firefox, blank page is printed
+
+setTimeout(() => printWindow?.print(), 1000); // just wait in Firefox
+```
+
+[0](https://bugzilla.mozilla.org/show_bug.cgi?id=1251028)
+
+---
