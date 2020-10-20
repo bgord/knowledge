@@ -2386,3 +2386,12 @@ setTimeout(() => printWindow?.print(), 1000); // just wait in Firefox
 [0](https://bugzilla.mozilla.org/show_bug.cgi?id=1251028)
 
 ---
+
+**Preload node module**
+
+```bash
+$ node index.js -r dotenv/config
+$ node index.js --require src/index.js
+```
+
+---
