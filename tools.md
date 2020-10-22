@@ -1225,3 +1225,9 @@ Add `127.0.0.1 jf.localhost` line to `/etc/hosts`.
 [0](https://www.androidauthority.com/gmail-smtp-settings-801100/)
 
 ---
+
+**Wordpress change admin email in database**
+
+[0](https://www.greengeeks.com/tutorials/article/change-admin-email-address-in-wordpress/)
+
+---
