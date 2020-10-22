@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1108
+Total entries: 1109
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -573,6 +573,7 @@ Total entries: 1108
 - knex enum
 - Trigger PDF file printing
 - Preload node module
+- Express empty request.body
 
 ### [mysql](mysql.md)
 - Show all tables

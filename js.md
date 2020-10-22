@@ -2395,3 +2395,12 @@ $ node index.js --require src/index.js
 ```
 
 ---
+
+**Express empty request.body**
+
+```js
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+```
+
+---
