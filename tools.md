@@ -1219,3 +1219,9 @@ module.exports = { footer };
 Add `127.0.0.1 jf.localhost` line to `/etc/hosts`.
 
 ---
+
+**Configure Gmail for SMTP outgoing connections**
+
+[0](https://www.androidauthority.com/gmail-smtp-settings-801100/)
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1106
+Total entries: 1107
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -953,6 +953,7 @@ Total entries: 1106
 - Lilypond example
 - Both ESM and CommonJS in webpack
 - Firefox doesn't recognize .localhost domain
+- Configure Gmail for SMTP outgoing connections
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
