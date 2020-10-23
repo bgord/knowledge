@@ -622,6 +622,12 @@ $ git diff --name-only
 deploy-cache/
 
 !.gitkeep
+
+// or
+
+WordPress/**/*.*
+WordPress/**/LICENSE
+!WordPress/wp-content/uploads/**/*.png
 ```
 
 Ignore all files from `deploy-cache/` directory except `.gitkeep` file.
