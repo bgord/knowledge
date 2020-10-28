@@ -1243,3 +1243,9 @@ $ ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519 -C "john@example.com"
 [0](https://medium.com/risan/upgrade-your-ssh-key-to-ed25519-c6e8d60d3c54)
 
 ---
+
+**ls -al output meaning**
+
+[0](https://www.garron.me/en/go2linux/ls-file-permissions.html)
+
+---

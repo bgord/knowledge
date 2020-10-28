@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1111
+Total entries: 1112
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -960,6 +960,7 @@ Total entries: 1111
 - Configure Gmail for SMTP outgoing connections
 - Wordpress change admin email in database
 - Best ssh key format
+- ls -al output meaning
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
