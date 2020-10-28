@@ -944,3 +944,9 @@ object-fit: contain;
 [0](https://codesandbox.io/s/css-grid-responsive-columns-layout-bolh2?file=/index.html)
 
 ---
+
+**Skewed box, unskewed image**
+
+[0](https://codepen.io/Okie/pen/VJpzep)
+
+---
