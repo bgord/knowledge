@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1109
+Total entries: 1110
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -782,6 +782,8 @@ Total entries: 1109
 - FLIP list reordering animation
 - Add favicon in Gatsby app
 
+### [ssr](ssr)
+
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
 - How to check if a controller is connected to an element?
@@ -956,6 +958,7 @@ Total entries: 1109
 - Firefox doesn't recognize .localhost domain
 - Configure Gmail for SMTP outgoing connections
 - Wordpress change admin email in database
+- Best ssh key format
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

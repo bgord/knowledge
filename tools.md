@@ -1231,3 +1231,15 @@ Add `127.0.0.1 jf.localhost` line to `/etc/hosts`.
 [0](https://www.greengeeks.com/tutorials/article/change-admin-email-address-in-wordpress/)
 
 ---
+
+**Best ssh key format**
+
+ed25519
+
+```bash
+$ ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519 -C "john@example.com"
+```
+
+[0](https://medium.com/risan/upgrade-your-ssh-key-to-ed25519-c6e8d60d3c54)
+
+---
