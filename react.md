@@ -2100,3 +2100,9 @@ export function useClickOutside(
 
 ---
 
+
+**Gatsby SSR/rehydration problem**
+
+[0](https://joshwcomeau.com/react/the-perils-of-rehydration/)
+
+---
