@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1116
+Total entries: 1117
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -963,6 +963,7 @@ Total entries: 1116
 - Wordpress change admin email in database
 - Best ssh key format
 - ls -al output meaning
+- Ban usage of certain types in ESLint
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

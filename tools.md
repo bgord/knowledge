@@ -1249,3 +1249,18 @@ $ ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519 -C "john@example.com"
 [0](https://www.garron.me/en/go2linux/ls-file-permissions.html)
 
 ---
+
+**Ban usage of certain types in ESLint**
+
+```json
+"@typescript-eslint/ban-types": ["error",
+{
+    "types": {
+        "React.StatelessComponent": { "message": "Please use React.FC instead.", "fixWith": "React.FC" },
+        "React.FunctionalComponent": { "message": "Please use React.FC instead.", "fixWith": "React.FC" },
+     }
+   }
+]
+```
+
+---
