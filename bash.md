@@ -182,3 +182,15 @@ set +a
 ```
 
 ---
+
+**Function definition**
+
+```bash
+function info {
+  echo "[info]"
+}
+
+info
+```
+
+---

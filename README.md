@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1113
+Total entries: 1116
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -31,6 +31,9 @@ Total entries: 1113
 - Clear an exported variable in a terminal
 - Quit when a command fails
 - Load .env variables
+- Function definition
+- Function definition with parameters
+- Preload the functions from another file
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
