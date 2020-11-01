@@ -206,3 +206,11 @@ info "a string"
 ```
 
 ---
+
+**Preload the functions from another file**
+
+```bash
+source path/to/file.sh
+```
+
+---
