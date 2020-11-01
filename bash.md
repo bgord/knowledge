@@ -194,3 +194,15 @@ info
 ```
 
 ---
+
+**Function definition with parameters**
+
+```bash
+function info {
+  echo "[info]      $1"
+}
+
+info "a string"
+```
+
+---
