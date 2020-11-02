@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1117
+Total entries: 1118
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -583,6 +583,7 @@ Total entries: 1117
 - Show all tables
 - Backup
 - Restore
+- Improve backup format
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
