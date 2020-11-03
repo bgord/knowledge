@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1118
+Total entries: 1119
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -965,6 +965,7 @@ Total entries: 1118
 - Best ssh key format
 - ls -al output meaning
 - Ban usage of certain types in ESLint
+- Wordpress GraphQL problem
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

@@ -1264,3 +1264,11 @@ $ ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519 -C "john@example.com"
 ```
 
 ---
+
+**Wordpress GraphQL problem**
+
+Change the permalinks format in Wordpress to something non-default, e.g "Post name".
+
+[0](https://docs.wpgraphql.com/getting-started/install-and-activate/#verify-the-endpoint-works)
+
+---
