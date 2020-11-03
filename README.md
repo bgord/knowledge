@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1119
+Total entries: 1120
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -787,6 +787,7 @@ Total entries: 1119
 - FLIP list reordering animation
 - Add favicon in Gatsby app
 - Gatsby SSR/rehydration problem
+- Flash of unstyled content with styled-components in Gatsby app
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?

@@ -2100,9 +2100,14 @@ export function useClickOutside(
 
 ---
 
-
 **Gatsby SSR/rehydration problem**
 
 [0](https://joshwcomeau.com/react/the-perils-of-rehydration/)
+
+---
+
+**Flash of unstyled content with styled-components in Gatsby app**
+
+[0](https://www.youtube.com/watch?v=G_dVwrhvkBI)
 
 ---
