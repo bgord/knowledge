@@ -2111,3 +2111,25 @@ export function useClickOutside(
 [0](https://www.youtube.com/watch?v=G_dVwrhvkBI)
 
 ---
+
+**Gatsby wrapRootElement vs wrapPageElement**
+
+`wrapRootElement`
+
+- parent of a page element
+- doesn't rerender on the page changes
+- ideal for providers that don't need access to page-related props
+
+`wrapPageElement`
+
+- children of the router (has access to the route-related props)
+- renders every time page changes
+
+```
+Root Element
+  Page element
+```
+
+[0](https://markoskon.com/wrap-root-element-vs-wrap-page-element/)
+
+---

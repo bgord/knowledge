@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1121
+Total entries: 1122
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -788,6 +788,7 @@ Total entries: 1121
 - Add favicon in Gatsby app
 - Gatsby SSR/rehydration problem
 - Flash of unstyled content with styled-components in Gatsby app
+- Gatsby wrapRootElement vs wrapPageElement
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
