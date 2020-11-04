@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1120
+Total entries: 1121
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -967,6 +967,7 @@ Total entries: 1120
 - ls -al output meaning
 - Ban usage of certain types in ESLint
 - Wordpress GraphQL problem
+- Check which groups current UNIX user belongs to
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

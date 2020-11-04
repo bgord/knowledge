@@ -1272,3 +1272,11 @@ Change the permalinks format in Wordpress to something non-default, e.g "Post na
 [0](https://docs.wpgraphql.com/getting-started/install-and-activate/#verify-the-endpoint-works)
 
 ---
+
+**Check which groups current UNIX user belongs to**
+
+```bash
+$ groups
+```
+
+---
