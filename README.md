@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1122
+Total entries: 1123
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -137,6 +137,7 @@ Total entries: 1122
 - Multiline text truncation
 - CSS Grid auto-fill
 - Skewed box, unskewed image
+- Load font from ttf file
 
 ### [dart](dart.md)
 - Automatic code formatting
