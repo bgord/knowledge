@@ -1371,3 +1371,11 @@ declare module "*.png";
 ```
 
 ---
+
+**Nullable type**
+
+```typescript
+type Nullable<T> = { [P in keyof T]: T[P] | null };
+```
+
+---
