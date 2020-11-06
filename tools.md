@@ -1280,3 +1280,13 @@ $ groups
 ```
 
 ---
+
+**Wordpress PHP out of memory error**
+
+Add the following to the `wp-config.php` file.
+
+```
+define('WP_MEMORY_LIMIT', ini_get('512MB'));
+```
+
+---
