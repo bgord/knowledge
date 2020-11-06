@@ -27,3 +27,11 @@ $ mysqldump --extended-insert=FALSE --complete-insert=TRUE
 ```
 
 ---
+
+**Unknown table COLUMN-STATISTICS in information-schema (1109)**
+
+A new flag was introduced in MySQL8
+
+```
+mysqldump --column-statistics=0
+```
