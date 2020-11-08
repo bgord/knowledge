@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1125
+Total entries: 1127
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -628,6 +628,9 @@ Total entries: 1125
 - What's a mipmap?
 - 429 HTTP status code
 
+### [php](php.md)
+- Check PHP memory limit
+
 ### [postgresql](postgresql.md)
 - How to show all table in the current database?
 - How to delete a table?
@@ -971,6 +974,7 @@ Total entries: 1125
 - Ban usage of certain types in ESLint
 - Wordpress GraphQL problem
 - Check which groups current UNIX user belongs to
+- Wordpress PHP out of memory error
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
