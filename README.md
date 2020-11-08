@@ -971,6 +971,7 @@ Total entries: 1127
 - Wordpress change admin email in database
 - Best ssh key format
 - ls -al output meaning
+- Extract rar archive on Linux
 - Ban usage of certain types in ESLint
 - Wordpress GraphQL problem
 - Check which groups current UNIX user belongs to
