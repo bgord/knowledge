@@ -1249,3 +1249,11 @@ $ ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519 -C "john@example.com"
 [0](https://www.garron.me/en/go2linux/ls-file-permissions.html)
 
 ---
+
+**Extract rar archive on Linux**
+
+```
+$ unrar x dir.rar
+```
+
+---
