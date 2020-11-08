@@ -1254,6 +1254,44 @@ $ ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519 -C "john@example.com"
 
 ```
 $ unrar x dir.rar
+=======
+**Ban usage of certain types in ESLint**
+
+```json
+"@typescript-eslint/ban-types": ["error",
+{
+    "types": {
+        "React.StatelessComponent": { "message": "Please use React.FC instead.", "fixWith": "React.FC" },
+        "React.FunctionalComponent": { "message": "Please use React.FC instead.", "fixWith": "React.FC" },
+     }
+   }
+]
+```
+
+---
+
+**Wordpress GraphQL problem**
+
+Change the permalinks format in Wordpress to something non-default, e.g "Post name".
+
+[0](https://docs.wpgraphql.com/getting-started/install-and-activate/#verify-the-endpoint-works)
+
+---
+
+**Check which groups current UNIX user belongs to**
+
+```bash
+$ groups
+```
+
+---
+
+**Wordpress PHP out of memory error**
+
+Add the following to the `wp-config.php` file.
+
+```
+define('WP_MEMORY_LIMIT', ini_get('512MB'));
 ```
 
 ---

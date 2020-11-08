@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1114
+Total entries: 1127
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -31,6 +31,9 @@ Total entries: 1114
 - Clear an exported variable in a terminal
 - Quit when a command fails
 - Load .env variables
+- Function definition
+- Function definition with parameters
+- Preload the functions from another file
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
@@ -134,6 +137,7 @@ Total entries: 1114
 - Multiline text truncation
 - CSS Grid auto-fill
 - Skewed box, unskewed image
+- Load font from ttf file
 
 ### [dart](dart.md)
 - Automatic code formatting
@@ -580,6 +584,8 @@ Total entries: 1114
 - Show all tables
 - Backup
 - Restore
+- Improve backup format
+- Unknown table COLUMN-STATISTICS in information-schema (1109)
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?
@@ -783,6 +789,8 @@ Total entries: 1114
 - FLIP list reordering animation
 - Add favicon in Gatsby app
 - Gatsby SSR/rehydration problem
+- Flash of unstyled content with styled-components in Gatsby app
+- Gatsby wrapRootElement vs wrapPageElement
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
@@ -961,6 +969,10 @@ Total entries: 1114
 - Best ssh key format
 - ls -al output meaning
 - Extract rar archive on Linux
+- Ban usage of certain types in ESLint
+- Wordpress GraphQL problem
+- Check which groups current UNIX user belongs to
+- Wordpress PHP out of memory error
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
@@ -1046,6 +1058,7 @@ Total entries: 1114
 - Return type of setTimeout
 - Supress type errors when importing an image
 - Import JS file with types
+- Nullable type
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

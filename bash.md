@@ -182,3 +182,35 @@ set +a
 ```
 
 ---
+
+**Function definition**
+
+```bash
+function info {
+  echo "[info]"
+}
+
+info
+```
+
+---
+
+**Function definition with parameters**
+
+```bash
+function info {
+  echo "[info]      $1"
+}
+
+info "a string"
+```
+
+---
+
+**Preload the functions from another file**
+
+```bash
+source path/to/file.sh
+```
+
+---

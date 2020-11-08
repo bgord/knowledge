@@ -950,3 +950,21 @@ object-fit: contain;
 [0](https://codepen.io/Okie/pen/VJpzep)
 
 ---
+
+**Load font from ttf file**
+
+The `ttf` file has to be accessible throguh `/font.ttf` in this case.
+
+```css
+@font-face {
+  font-family: "fontname";
+  src: URL("font.ttf") format("truetype");
+}
+
+html,
+body {
+  font-family: "fontname";
+}
+```
+
+---
