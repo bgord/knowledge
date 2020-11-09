@@ -1379,3 +1379,11 @@ type Nullable<T> = { [P in keyof T]: T[P] | null };
 ```
 
 ---
+
+**Don't type check node modules**
+
+```bash
+$ tsc --skipLibCheck
+```
+
+---

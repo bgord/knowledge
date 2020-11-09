@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1130
+Total entries: 1131
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1064,6 +1064,7 @@ Total entries: 1130
 - Supress type errors when importing an image
 - Import JS file with types
 - Nullable type
+- Don't type check node modules
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`
