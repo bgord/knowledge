@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1127
+Total entries: 1129
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -630,6 +630,7 @@ Total entries: 1127
 
 ### [php](php.md)
 - Check PHP memory limit
+- Change PHP memory limit
 
 ### [postgresql](postgresql.md)
 - How to show all table in the current database?
