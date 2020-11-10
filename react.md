@@ -2139,3 +2139,20 @@ Root Element
 [0](https://www.gatsbyjs.com/plugins/gatsby-plugin-build-date/)
 
 ---
+
+**styled-components with forwardRef and Typescript**
+
+```tsx
+const StyledInput = styled.input``;
+
+export const Input = forwardRef<
+  HTMLInputElement,
+  Omit<JSX.IntrinsicElements["input"], "ref">
+>(({ ...props }, forwardedRef) => {
+  console.log("forwardedRef", forwardedRef); // inputRef
+
+  return <StyledInput ref={forwardedRef} {...props} />;
+});
+```
+
+---

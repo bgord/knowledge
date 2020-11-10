@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1132
+Total entries: 1133
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -797,6 +797,7 @@ Total entries: 1132
 - Flash of unstyled content with styled-components in Gatsby app
 - Gatsby wrapRootElement vs wrapPageElement
 - Gatsby build date
+- styled-components with forwardRef and Typescript
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
