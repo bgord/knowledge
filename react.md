@@ -2133,3 +2133,9 @@ Root Element
 [0](https://markoskon.com/wrap-root-element-vs-wrap-page-element/)
 
 ---
+
+**Gatsby build date**
+
+[0](https://www.gatsbyjs.com/plugins/gatsby-plugin-build-date/)
+
+---

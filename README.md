@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1131
+Total entries: 1132
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -796,6 +796,7 @@ Total entries: 1131
 - Gatsby SSR/rehydration problem
 - Flash of unstyled content with styled-components in Gatsby app
 - Gatsby wrapRootElement vs wrapPageElement
+- Gatsby build date
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
