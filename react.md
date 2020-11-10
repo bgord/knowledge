@@ -2156,3 +2156,16 @@ export const Input = forwardRef<
 ```
 
 ---
+
+**Don't pass certain props to DOM in styled-components**
+
+```tsx
+const LocaleSwitcherLink = styled(({ active, ...props }) => (
+  <Link {...props} />
+))<{ active: boolean }>`
+  margin-right: ${toRem(16)};
+  color: ${(props) => (props.active ? colors.black : colors.gray)};
+`;
+```
+
+---

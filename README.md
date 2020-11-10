@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1133
+Total entries: 1134
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -798,6 +798,7 @@ Total entries: 1133
 - Gatsby wrapRootElement vs wrapPageElement
 - Gatsby build date
 - styled-components with forwardRef and Typescript
+- Don't pass certain props to DOM in styled-components
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
