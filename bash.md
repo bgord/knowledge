@@ -242,3 +242,18 @@ fi
 ```
 
 ---
+
+**Check if command is available**
+
+```bash
+function check_if_binary_exists {
+  if [ -x "$(command -v $1)" ]; then
+    success "$2 is installed!"
+  else
+    error "$2 is not installed!"
+    exit 1
+  fi
+}
+```
+
+---
