@@ -879,3 +879,15 @@ $ git log --since=yesterday.midnight
 ```
 
 ---
+
+**Change GitHub repository name and update the remote in local file**
+
+Change the repository name in `.git/config` file:
+
+```
+[remote "origin"]
+	url = git@github.com:bgord/<here>.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+```
+
+---
