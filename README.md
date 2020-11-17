@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1136
+Total entries: 1137
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -34,6 +34,7 @@ Total entries: 1136
 - Function definition
 - Function definition with parameters
 - Preload the functions from another file
+- Bash iterate through an array
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?

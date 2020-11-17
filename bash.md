@@ -214,3 +214,18 @@ source path/to/file.sh
 ```
 
 ---
+
+**Bash iterate through an array**
+
+```bash
+BASE_DESKTOP_URL="$BASE_URL/desktop"
+BASE_MOBILE_URL="$BASE_URL/mobile"
+
+for VARIABLE in "en" "es" "de"
+do
+	http GET "$BASE_MOBILE_URL/$VARIABLE.pdf" > pdfs/MOBILE_$VARIABLE.pdf
+  sleep 7s
+done
+```
+
+---
