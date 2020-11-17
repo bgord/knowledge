@@ -909,3 +909,11 @@ $ git log --format="%cD %d %s" // commiter date, ref names - e.g branch name, co
 [0](https://git-scm.com/docs/git-log#_pretty_formats)
 
 ---
+
+**Git log custom format add colors**
+
+```bash
+$ git log --format="%Cgreen %cD %Creset"
+```
+
+---
