@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1138
+Total entries: 1139
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -35,6 +35,7 @@ Total entries: 1138
 - Function definition with parameters
 - Preload the functions from another file
 - Bash iterate through an array
+- Interprate backslash commands in echo
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?

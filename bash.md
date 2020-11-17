@@ -229,3 +229,12 @@ done
 ```
 
 ---
+
+**Interprate backslash commands in echo**
+
+```bash
+echo "\tOK" // prints "\tOK"
+echo -e "\tOK" // prints "  OK"
+```
+
+---
