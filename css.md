@@ -76,23 +76,17 @@ body {
 
 **Flex-flow**
 
-[x] Anki
-
 `flex-flow: <flex-direction> <flex-wrap>`
 
 ---
 
 **Default flex-grow**
 
-[x] Anki
-
 `flex-grow: 0`
 
 ---
 
 **Default flex-shrink**
-
-[x] Anki
 
 `flex-shrink: 1`
 
