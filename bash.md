@@ -238,3 +238,15 @@ echo -e "\tOK" // prints "  OK"
 ```
 
 ---
+
+**Check if file exists**
+
+```bash
+if test -f "$FILE"; then
+    echo "file exists."
+else
+    echo  "file doesn't exist"
+fi
+```
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1139
+Total entries: 1140
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -36,6 +36,7 @@ Total entries: 1139
 - Preload the functions from another file
 - Bash iterate through an array
 - Interprate backslash commands in echo
+- Check if file exists
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
