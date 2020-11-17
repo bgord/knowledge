@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1135
+Total entries: 1136
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -370,6 +370,7 @@ Total entries: 1135
 - Pull changes that added a submodule
 - Specify a branch for submodule definition
 - Force add a file/directory after it's no longer ignored
+- Show commits from yesterday
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?
