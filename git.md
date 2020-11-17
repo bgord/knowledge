@@ -891,3 +891,11 @@ Change the repository name in `.git/config` file:
 ```
 
 ---
+
+**Filter commits by author**
+
+```bash
+$ git log --author "John Doe"
+```
+
+---

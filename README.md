@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1142
+Total entries: 1143
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -376,6 +376,7 @@ Total entries: 1142
 - Force add a file/directory after it's no longer ignored
 - Show commits from yesterday
 - Change GitHub repository name and update the remote in local file
+- Filter commits by author
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?
