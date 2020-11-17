@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1134
+Total entries: 1135
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -981,6 +981,7 @@ Total entries: 1134
 - Wordpress GraphQL problem
 - Check which groups current UNIX user belongs to
 - Wordpress PHP out of memory error
+- Wordpress asssets/uploads missing CORS header
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

@@ -1295,3 +1295,9 @@ define('WP_MEMORY_LIMIT', ini_get('512MB'));
 ```
 
 ---
+
+**Wordpress asssets/uploads missing CORS header**
+
+[0](https://stackoverflow.com/a/20453033)
+
+---
