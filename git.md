@@ -899,3 +899,13 @@ $ git log --author "John Doe"
 ```
 
 ---
+
+**Git log custom format with placeholders**
+
+```bash
+$ git log --format="%cD %d %s" // commiter date, ref names - e.g branch name, commitsubject
+```
+
+[0](https://git-scm.com/docs/git-log#_pretty_formats)
+
+---

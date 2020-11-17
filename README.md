@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1143
+Total entries: 1145
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -377,6 +377,8 @@ Total entries: 1143
 - Show commits from yesterday
 - Change GitHub repository name and update the remote in local file
 - Filter commits by author
+- Git log custom format with placeholders
+- Git log custom format add colors
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?
