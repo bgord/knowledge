@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1140
+Total entries: 1141
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -987,6 +987,7 @@ Total entries: 1140
 - Check which groups current UNIX user belongs to
 - Wordpress PHP out of memory error
 - Wordpress asssets/uploads missing CORS header
+- Yarn interactive package upgrade
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

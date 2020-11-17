@@ -1254,7 +1254,8 @@ $ ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519 -C "john@example.com"
 
 ```
 $ unrar x dir.rar
-=======
+```
+
 **Ban usage of certain types in ESLint**
 
 ```json
@@ -1299,5 +1300,13 @@ define('WP_MEMORY_LIMIT', ini_get('512MB'));
 **Wordpress asssets/uploads missing CORS header**
 
 [0](https://stackoverflow.com/a/20453033)
+
+---
+
+**Yarn interactive package upgrade**
+
+```
+yarn upgrade-interactive
+```
 
 ---
