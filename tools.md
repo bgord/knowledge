@@ -1321,3 +1321,11 @@ synp --source-file /path/to/package-lock.json
 [0](https://github.com/imsnif/synp)
 
 ---
+
+**Convert symlinks to files while copying**
+
+```
+$ cp -r --derefernce ../dir dir/
+```
+
+---
