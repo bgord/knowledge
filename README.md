@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1145
+Total entries: 1146
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -992,6 +992,7 @@ Total entries: 1145
 - Wordpress PHP out of memory error
 - Wordpress asssets/uploads missing CORS header
 - Yarn interactive package upgrade
+- Convert package-lock.json to yarn.lock
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

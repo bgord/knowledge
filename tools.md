@@ -1310,3 +1310,14 @@ yarn upgrade-interactive
 ```
 
 ---
+
+**Convert package-lock.json to yarn.lock**
+
+```
+synp --source-file /path/to/yarn.lock
+synp --source-file /path/to/package-lock.json
+```
+
+[0](https://github.com/imsnif/synp)
+
+---
