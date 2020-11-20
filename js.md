@@ -2404,3 +2404,13 @@ app.use(express.urlencoded({ extended: true }));
 ```
 
 ---
+
+**Replace everything inside brackets and brackets**
+
+```js
+const string = "[number] of correct answers";
+
+string.replace(/\[(.*)\]/, 5);
+```
+
+---
