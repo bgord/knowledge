@@ -1338,3 +1338,11 @@ $ convert image.png -resize 200x output.png
 ```
 
 ---
+
+**Resize an image with ImageMagick ignoring aspect ratio**
+
+```
+$ convert image.png -resize 200x300! output.png
+```
+
+---
