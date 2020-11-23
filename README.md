@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1151
+Total entries: 1152
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -589,6 +589,7 @@ Total entries: 1151
 - Preload node module
 - Express empty request.body
 - Replace everything inside brackets and brackets
+- Download a file by using a stream with axios
 
 ### [mysql](mysql.md)
 - Show all tables

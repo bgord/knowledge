@@ -2414,3 +2414,15 @@ string.replace(/\[(.*)\]/, 5);
 ```
 
 ---
+
+**Download a file by using a stream with axios**
+
+```js
+await axios({
+  method: "get",
+  url: url,
+  responseType: "stream",
+}).then((response) => data.pipe(fs.createWriteStream(filename)));
+```
+
+---
