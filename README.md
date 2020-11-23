@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1149
+Total entries: 1151
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -996,6 +996,8 @@ Total entries: 1149
 - Convert package-lock.json to yarn.lock
 - Convert symlinks to files while copying
 - Localtunnel
+- Resize an image with ImageMagick preserving aspect ratio
+- Resize an image with ImageMagick ignoring aspect ratio
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

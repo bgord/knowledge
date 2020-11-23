@@ -1337,3 +1337,20 @@ $ npx localtunnel --port 8000
 ```
 
 ---
+
+**Resize an image with ImageMagick preserving aspect ratio**
+
+```bash
+$ convert image.png -resize x200 output.png
+$ convert image.png -resize 200x output.png
+```
+
+---
+
+**Resize an image with ImageMagick ignoring aspect ratio**
+
+```
+$ convert image.png -resize 200x300! output.png
+```
+
+---
