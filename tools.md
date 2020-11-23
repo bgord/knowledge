@@ -1329,3 +1329,12 @@ $ cp -r --derefernce ../dir dir/
 ```
 
 ---
+
+**Resize an image with ImageMagick preserving aspect ratio**
+
+```bash
+$ convert image.png -resize x200 output.png
+$ convert image.png -resize 200x output.png
+```
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1148
+Total entries: 1150
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -995,6 +995,8 @@ Total entries: 1148
 - Yarn interactive package upgrade
 - Convert package-lock.json to yarn.lock
 - Convert symlinks to files while copying
+- Resize an image with ImageMagick preserving aspect ratio
+- Resize an image with ImageMagick ignoring aspect ratio
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
