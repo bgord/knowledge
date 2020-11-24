@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1154
+Total entries: 1155
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1001,6 +1001,7 @@ Total entries: 1154
 - Localtunnel
 - Resize an image with ImageMagick preserving aspect ratio
 - Resize an image with ImageMagick ignoring aspect ratio
+- Markdown table
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
