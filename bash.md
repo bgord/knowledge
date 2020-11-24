@@ -257,3 +257,16 @@ function check_if_binary_exists {
 ```
 
 ---
+
+**Check if string is empty**
+
+```bash
+if test -z "$VARIABLE_VALUE"
+then
+
+else
+
+fi
+```
+
+---

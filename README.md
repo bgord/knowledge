@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1155
+Total entries: 1156
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -38,6 +38,7 @@ Total entries: 1155
 - Interprate backslash commands in echo
 - Check if file exists
 - Check if command is available
+- Check if string is empty
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
