@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1152
+Total entries: 1154
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -696,6 +696,8 @@ Total entries: 1152
 - Connection string
 - Disable foreign key constraint checks
 - UUID
+- Add comment
+- Remove comment
 
 ### [react](react.md)
 - Testing unconnected components
