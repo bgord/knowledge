@@ -557,3 +557,11 @@ Macro stored in the `r` register on lines starting with `-`
 ```
 
 ---
+
+**Perform search and replace on all lines matching a pattern**
+
+```
+:g/639-1/s/639-1/code
+```
+
+---
