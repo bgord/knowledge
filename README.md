@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1156
+Total entries: 1157
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1160,6 +1160,7 @@ Total entries: 1156
 - Go to next/previous changelist item
 - Perform calculations in insert mode
 - Execute macro on all lines matching a pattern
+- Delete lines matching a pattern
 
 ### [vue](vue.md)
 - Generate a new project

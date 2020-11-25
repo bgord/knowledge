@@ -549,3 +549,11 @@ Macro stored in the `r` register on lines starting with `-`
 ```
 
 ---
+
+**Delete lines matching a pattern**
+
+```
+:g/pattern/d
+```
+
+---
