@@ -700,3 +700,17 @@ RUN g++ -o /binary source.cpp
 ```
 
 ---
+
+**Limit resources**
+
+```
+  service_name:
+    ...
+    deploy:
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: 150M
+```
+
+---
