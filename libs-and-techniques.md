@@ -63,6 +63,8 @@
   Clip-path creator
 - [fusuma](https://github.com/iberianpig/fusuma)
   Linux gesture manager
+- [font-style-matcher](https://meowni.ca/font-style-matcher/)
+  A tool to match custom font with a native one in a closest possible manner
 
 ## React
 
