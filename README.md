@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1159
+Total entries: 1160
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -143,6 +143,7 @@ Total entries: 1159
 - CSS Grid auto-fill
 - Skewed box, unskewed image
 - Load font from ttf file
+- Recaptcha v3 badge class name
 
 ### [dart](dart.md)
 - Automatic code formatting

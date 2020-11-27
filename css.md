@@ -962,3 +962,13 @@ body {
 ```
 
 ---
+
+**Recaptcha v3 badge class name**
+
+```css
+.grecaptcha-badge {
+  z-index: 999;
+}
+```
+
+---
