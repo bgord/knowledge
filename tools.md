@@ -1366,3 +1366,11 @@ $ convert image.png -resize 200x300! output.png
 ```
 
 ---
+
+**Query JSON file properties with jq**
+
+```bash
+$ cat package.json | jq .devDependencies.typescript
+```
+
+---
