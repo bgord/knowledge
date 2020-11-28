@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1161
+Total entries: 1162
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -39,6 +39,7 @@ Total entries: 1161
 - Check if file exists
 - Check if command is available
 - Check if string is empty
+- Color console output
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?

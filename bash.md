@@ -270,3 +270,19 @@ fi
 ```
 
 ---
+
+**Color console output**
+
+```bash
+RED="\033[1;31m"
+GREEN="\033[1;32m"
+BLUE="\033[1;34m"
+NC="\033[0m"
+
+function info {
+  MESSAGE=$1
+  echo -e "$BLUE   [info]$NC   $MESSAGE"
+}
+```
+
+---
