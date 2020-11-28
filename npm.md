@@ -115,3 +115,11 @@ After:
 The options after `--` are passed to the underlying command of a script, not the npm script itself.
 
 ---
+
+**npm uninstall alias**
+
+```bash
+$ npm r webpack
+```
+
+---
