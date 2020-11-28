@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1167
+Total entries: 1168
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -219,6 +219,7 @@ Total entries: 1167
 - Multi-stage builds
 - Limit resources
 - Inspect memory/CPU usage
+- Volume types
 
 ### [elixir](elixir.md)
 - What type of language is Elixir?

@@ -722,3 +722,25 @@ $ docker stats
 ```
 
 ---
+
+**Volume types**
+
+Default
+
+- the safest (ensures consistency between host and containers)
+
+Cached
+
+- provides the guarantees of the delegated and some more
+- improves the read-heavy workflows by temporary potential incosistency
+- usage: `- .:/opt/node_app/app:cached`
+
+Delegated
+
+- least guarantees
+- the container writes the files, and then the change is being reflected on host
+- usage: `- .:/opt/node_app/app:delegated`
+
+[0](https://tkacz.pro/docker-volumes-cached-vs-delegated/)
+
+---
