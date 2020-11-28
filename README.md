@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1160
+Total entries: 1161
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -216,6 +216,7 @@ Total entries: 1160
 - Install node modules inside a container and sync them with host
 - Multi-stage builds
 - Limit resources
+- Inspect memory/CPU usage
 
 ### [elixir](elixir.md)
 - What type of language is Elixir?

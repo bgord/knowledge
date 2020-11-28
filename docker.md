@@ -709,8 +709,16 @@ RUN g++ -o /binary source.cpp
     deploy:
       resources:
         limits:
-          cpus: '0.25'
+          cpus: '0.25' # 1 - one core
           memory: 150M
+```
+
+---
+
+**Inspect memory/CPU usage**
+
+```
+$ docker stats
 ```
 
 ---
