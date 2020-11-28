@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1166
+Total entries: 1167
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -820,6 +820,7 @@ Total entries: 1166
 - Gatsby build date
 - styled-components with forwardRef and Typescript
 - Don't pass certain props to DOM in styled-components
+- JSX transform
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?

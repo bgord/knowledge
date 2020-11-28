@@ -2169,3 +2169,35 @@ const LocaleSwitcherLink = styled(({ active, ...props }) => (
 ```
 
 ---
+
+**JSX transform**
+
+A way to create function components without importing React (unless needed to use some of the imports).
+
+This:
+
+```
+function App() {
+  return <h1>Hello World</h1>;
+}
+```
+
+Turns into:
+
+```
+// Inserted by a compiler (don't import it yourself!)
+import {jsx as _jsx} from 'react/jsx-runtime';
+
+function App() {
+  return _jsx('h1', { children: 'Hello world' });
+}
+```
+
+Supported by
+- create-react-app v4.0.0+
+- Gatsby v2.24.5+
+- TypeScript v4.1+
+
+[0](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
+
+---
