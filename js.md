@@ -2426,3 +2426,13 @@ await axios({
 ```
 
 ---
+
+**Check if path is a file or is a directory**
+
+```js
+const resourceStats = await fs.promises.stat(path);
+resourceStats.isFile();
+resourceStats.isDirectory();
+```
+
+---

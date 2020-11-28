@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1165
+Total entries: 1166
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -596,6 +596,7 @@ Total entries: 1165
 - Express empty request.body
 - Replace everything inside brackets and brackets
 - Download a file by using a stream with axios
+- Check if path is a file or is a directory
 
 ### [mysql](mysql.md)
 - Show all tables
