@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1164
+Total entries: 1165
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -40,6 +40,7 @@ Total entries: 1164
 - Check if command is available
 - Check if string is empty
 - Color console output
+- Iterate over a range of numbers
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?

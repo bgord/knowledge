@@ -286,3 +286,14 @@ function info {
 ```
 
 ---
+
+**Iterate over a range of numbers**
+
+```bash
+for iteratee in $(seq 1 10)
+do
+  echo $iteratee
+done
+```
+
+---
