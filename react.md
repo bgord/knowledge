@@ -2194,10 +2194,37 @@ function App() {
 ```
 
 Supported by
+
 - create-react-app v4.0.0+
 - Gatsby v2.24.5+
 - TypeScript v4.1+
 
 [0](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
+
+---
+
+**react-query dependent queries**
+
+```js
+// Get the user
+const { data: user } = useQuery(["user", email], getUserByEmail);
+
+// Then get the user's projects
+const { isIdle, data: projects } = useQuery(
+  ["projects", user?.id],
+  getProjectsByUser,
+  {
+    // `user` would be `null` at first (falsy),
+    // so the query will not execute until the user exists
+    enabled: user,
+  }
+);
+
+// isIdle will be `true` until `enabled` is true and the query begins to fetch.
+
+// It will then go to the `isLoading` stage and hopefully the `isSuccess` stage :)
+```
+
+[0](https://react-query.tanstack.com/docs/guides/queries#dependent-queries)
 
 ---

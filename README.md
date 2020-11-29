@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1168
+Total entries: 1169
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -822,6 +822,7 @@ Total entries: 1168
 - styled-components with forwardRef and Typescript
 - Don't pass certain props to DOM in styled-components
 - JSX transform
+- react-query dependent queries
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
