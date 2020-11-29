@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1170
+Total entries: 1171
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -386,6 +386,7 @@ Total entries: 1170
 - Filter commits by author
 - Git log custom format with placeholders
 - Git log custom format add colors
+- Delete a remote branch
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?

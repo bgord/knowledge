@@ -917,3 +917,11 @@ $ git log --format="%Cgreen %cD %Creset"
 ```
 
 ---
+
+**Delete a remote branch**
+
+```
+$ git push -d origin <branch_name>
+```
+
+---
