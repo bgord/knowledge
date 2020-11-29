@@ -2228,3 +2228,19 @@ const { isIdle, data: projects } = useQuery(
 [0](https://react-query.tanstack.com/docs/guides/queries#dependent-queries)
 
 ---
+
+**react-query check if at least one request is in progress**
+
+```js
+import { useIsFetching } from "react-query";
+
+function GlobalLoadingIndicator() {
+  const isFetching = useIsFetching();
+
+  return isFetching ? (
+    <div>Queries are fetching in the background...</div>
+  ) : null;
+}
+```
+
+---

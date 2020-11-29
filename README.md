@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1169
+Total entries: 1170
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -823,6 +823,7 @@ Total entries: 1169
 - Don't pass certain props to DOM in styled-components
 - JSX transform
 - react-query dependent queries
+- react-query check if at least one request is in progress
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
