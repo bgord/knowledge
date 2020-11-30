@@ -1374,3 +1374,23 @@ $ cat package.json | jq .devDependencies.typescript
 ```
 
 ---
+
+**Hide reCAPTCHA v3 badge**
+
+It's allowed to hide the badge:
+
+```css
+.grecaptcha-badge {
+  visibility: hidden;
+}
+```
+
+Unless you include the following text in the user flow:
+
+```html
+This site is protected by reCAPTCHA and the Google
+<a href="https://policies.google.com/privacy">Privacy Policy</a> and
+<a href="https://policies.google.com/terms">Terms of Service</a> apply.
+```
+
+---

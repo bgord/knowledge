@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1171
+Total entries: 1172
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1016,6 +1016,7 @@ Total entries: 1171
 - Resize an image with ImageMagick ignoring aspect ratio
 - Markdown table
 - Query JSON file properties with jq
+- Hide reCAPTCHA v3 badge
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
