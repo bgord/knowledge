@@ -925,3 +925,11 @@ $ git push -d origin <branch_name>
 ```
 
 ---
+
+**Display a history of changes made to a file**
+
+```
+$ git log -p -- package.json
+`.``
+
+---
