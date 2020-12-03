@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1175
+Total entries: 1176
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1020,6 +1020,7 @@ Total entries: 1175
 - Hide reCAPTCHA v3 badge
 - Compress video
 - Convert markdown to pdf
+- Check how much space do files of certain extension take
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

@@ -1412,3 +1412,11 @@ $ pandoc source.md -s -o output.pdf
 ```
 
 ---
+
+**Check how much space do files of certain extension take**
+
+```
+$ find . -name "*.pdf" | xargs du -sch
+```
+
+---
