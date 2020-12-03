@@ -1404,3 +1404,11 @@ $ ffmpeg -i video.mp4 -vcodec h264 -b:v 1000k -acodec mp3 output.mp4
 ```
 
 ---
+
+**Convert markdown to pdf**
+
+```
+$ pandoc source.md -s -o output.pdf
+```
+
+---

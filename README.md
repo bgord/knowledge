@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1174
+Total entries: 1175
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1019,6 +1019,7 @@ Total entries: 1174
 - Query JSON file properties with jq
 - Hide reCAPTCHA v3 badge
 - Compress video
+- Convert markdown to pdf
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
