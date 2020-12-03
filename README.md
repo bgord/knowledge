@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1176
+Total entries: 1177
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1021,6 +1021,7 @@ Total entries: 1176
 - Compress video
 - Convert markdown to pdf
 - Check how much space do files of certain extension take
+- Compress images
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

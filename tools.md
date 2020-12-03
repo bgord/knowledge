@@ -1420,3 +1420,11 @@ $ find . -name "*.pdf" | xargs du -sch
 ```
 
 ---
+
+**Compress images**
+
+```
+$ convert -strip -interlace Plane -quality 75% -adaptive-resize 75% $FILE $FILE
+```
+
+---
