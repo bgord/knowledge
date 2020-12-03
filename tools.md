@@ -1394,3 +1394,13 @@ This site is protected by reCAPTCHA and the Google
 ```
 
 ---
+
+**Compress video**
+
+You can modify the bitrate (1000k below) to fiddle with the quality.
+
+```
+$ ffmpeg -i video.mp4 -vcodec h264 -b:v 1000k -acodec mp3 output.mp4
+```
+
+---
