@@ -930,6 +930,14 @@ $ git push -d origin <branch_name>
 
 ```
 $ git log -p -- package.json
-`.``
+```
+
+---
+
+**Push code changes and tags at once**
+
+```
+$ git push --follow-tags origin main
+```
 
 ---
