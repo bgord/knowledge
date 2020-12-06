@@ -65,6 +65,8 @@
   Linux gesture manager
 - [font-style-matcher](https://meowni.ca/font-style-matcher/)
   A tool to match custom font with a native one in a closest possible manner
+- [calibre-image-compression](https://github.com/marketplace/actions/image-actions#usage)
+  A GitHub action to automatically compress images in a PR.
 
 ## React
 
