@@ -2,6 +2,8 @@
 
 Total entries: 1177
 
+### [a](a)
+
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
 - Tree
