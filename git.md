@@ -941,3 +941,28 @@ $ git push --follow-tags origin main
 ```
 
 ---
+
+**Add GitHub PR size labeller**
+
+In `.github/workflows/labeller.yml` paste:
+
+```yml
+name: labeler
+
+on: [pull_request]
+
+jobs:
+  labeler:
+    runs-on: ubuntu-latest
+    name: Label the PR size
+    steps:
+      - uses: codelytv/pr-size-labeler@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          xs_max_size: "25"
+          s_max_size: "75"
+          m_max_size: "250"
+          l_max_size: "1000"
+```
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1179
+Total entries: 1180
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -390,6 +390,7 @@ Total entries: 1179
 - Delete a remote branch
 - Display a history of changes made to a file
 - Push code changes and tags at once
+- Add GitHub PR size labeller
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?
