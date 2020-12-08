@@ -966,3 +966,11 @@ jobs:
 ```
 
 ---
+
+**Get default branch**
+
+```bash
+$ git remote show origin | grep 'HEAD branch' | cut -d' ' -f5
+```
+
+---
