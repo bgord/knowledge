@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1181
+Total entries: 1182
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1026,6 +1026,7 @@ Total entries: 1181
 - Convert markdown to pdf
 - Check how much space do files of certain extension take
 - Compress images
+- Change directory after entering ssh server
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

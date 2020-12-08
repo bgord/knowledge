@@ -1428,3 +1428,13 @@ $ convert -strip -interlace Plane -quality 75% -adaptive-resize 75% $FILE $FILE
 ```
 
 ---
+
+**Change directory after entering ssh server**
+
+Add the following to the end of `/home/<user>/.bash_profile`
+
+```
+cd /path/co/cd/to
+```
+
+---
