@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1183
+Total entries: 1184
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -221,6 +221,7 @@ Total entries: 1183
 - Limit resources
 - Inspect memory/CPU usage
 - Volume types
+- Install git in a container
 
 ### [elixir](elixir.md)
 - What type of language is Elixir?

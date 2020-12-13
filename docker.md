@@ -744,3 +744,11 @@ Delegated
 [0](https://tkacz.pro/docker-volumes-cached-vs-delegated/)
 
 ---
+
+**Install git in a container**
+
+```
+RUN apk add --no-cache git
+```
+
+---
