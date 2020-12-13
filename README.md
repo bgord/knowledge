@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1182
+Total entries: 1183
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -713,6 +713,7 @@ Total entries: 1182
 - UUID
 - Add comment
 - Remove comment
+- Check if a user with given email exists
 
 ### [react](react.md)
 - Testing unconnected components

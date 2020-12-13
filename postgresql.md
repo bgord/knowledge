@@ -575,3 +575,11 @@ COMMENT ON COLUMN my_table.my_column IS NULL;
 ```
 
 ---
+
+**Check if a user with given email exists**
+
+```sql
+SELECT EXISTS(SELECT id FROM users WHERE email = :email);
+```
+
+---
