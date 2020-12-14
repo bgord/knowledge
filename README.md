@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1185
+Total entries: 1186
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -605,6 +605,7 @@ Total entries: 1185
 - Replace everything inside brackets and brackets
 - Download a file by using a stream with axios
 - Check if path is a file or is a directory
+- nodemailer self-signed certificate error
 
 ### [mysql](mysql.md)
 - Show all tables

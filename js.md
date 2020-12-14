@@ -2436,3 +2436,16 @@ resourceStats.isDirectory();
 ```
 
 ---
+
+**nodemailer self-signed certificate error**
+
+Add the following to the config:
+
+```
+  secure: false,
+  tls: {
+    rejectUnauthorized: false,
+  },
+```
+
+---
