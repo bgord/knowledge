@@ -1438,3 +1438,11 @@ cd /path/co/cd/to
 ```
 
 ---
+
+**rsync a directory to remote**
+
+```
+rsync -azP public server:/path/
+```
+
+---

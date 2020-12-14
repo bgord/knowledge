@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1184
+Total entries: 1185
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1029,6 +1029,7 @@ Total entries: 1184
 - Check how much space do files of certain extension take
 - Compress images
 - Change directory after entering ssh server
+- rsync a directory to remote
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
