@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1186
+Total entries: 1187
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -222,6 +222,7 @@ Total entries: 1186
 - Inspect memory/CPU usage
 - Volume types
 - Install git in a container
+- Setup maildev in docker-compose
 
 ### [elixir](elixir.md)
 - What type of language is Elixir?

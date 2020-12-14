@@ -752,3 +752,30 @@ RUN apk add --no-cache git
 ```
 
 ---
+
+**Setup maildev in docker-compose**
+
+```yml
+nginx-proxy:
+  image: jwilder/nginx-proxy
+  ports:
+    - "80:80"
+  volumes:
+    - /var/run/docker.sock:/tmp/docker.sock:ro
+maildev:
+  image: djfarrelly/maildev
+  ports:
+    - "1080:80"
+    - "1025:25"
+  environment:
+    VIRTUAL_HOST: emails.cms.localhost
+```
+
+And inside the containerized app, you can use the following to send emails:
+
+```
+SMTP_HOST=maildev
+SMTP_PORT=25
+```
+
+---
