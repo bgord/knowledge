@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1187
+Total entries: 1188
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -12,6 +12,9 @@ Total entries: 1187
 - How to import CSV file with words?
 - How to filter notes with an empty field?
 - Create a custom note type
+
+### [ansible](ansible.md)
+- An example playbook
 
 ### [bash](bash.md)
 - yyyy-mm-dd date in bash
