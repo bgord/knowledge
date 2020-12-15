@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1188
+Total entries: 1189
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -15,6 +15,7 @@ Total entries: 1188
 
 ### [ansible](ansible.md)
 - An example playbook
+- Run a playbook
 
 ### [bash](bash.md)
 - yyyy-mm-dd date in bash

@@ -12,3 +12,11 @@
 ```
 
 ---
+
+**Run a playbook**
+
+```bash
+$ ansible-playbook /ansible/playbook.yml
+```
+
+---
