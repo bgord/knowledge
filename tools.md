@@ -913,6 +913,12 @@ $ ssh-keygen -f id_rsa_<name>
 
 ---
 
+**Create a .tar.gz**
+
+`tar czvf public-output.tar.gz public/`
+
+---
+
 **Extract a .tar.bz2**
 
 `tar xjf file.tar.bz2`

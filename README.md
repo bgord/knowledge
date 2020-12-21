@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1190
+Total entries: 1191
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -993,6 +993,7 @@ Total entries: 1190
 - Cypress create a custom assertion
 - Find and replace placeholder text in files with sed
 - Husky doesn't get called
+- Create a .tar.gz
 - Extract a .tar.bz2
 - Nodemon polling
 - ESLint doesn't work for jsx/tsx files
