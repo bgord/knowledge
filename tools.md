@@ -1483,3 +1483,18 @@ module.exports = {
 ```
 
 ---
+
+**Exclude opera mini from browserslist**
+
+```json
+  "browserslist": [
+    "defaults",
+    "last 2 versions",
+    "not dead",
+    "> 1%",
+    "not IE 11",
+    "not op_mini all"
+  ]
+```
+
+---

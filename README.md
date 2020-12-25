@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1193
+Total entries: 1194
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1040,6 +1040,7 @@ Total entries: 1193
 - Change directory after entering ssh server
 - rsync a directory to remote
 - PostCSS with Webpack 5
+- Exclude opera mini from browserslist
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
