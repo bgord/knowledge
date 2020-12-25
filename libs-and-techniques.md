@@ -78,6 +78,8 @@
   A set of hooks to manager promises.
 - [generate-icons](https://blog.sapegin.me/til/react/generating-typescript-react-components-from-svg-icons-using-svgr/?utm_source=tinyreact&utm_medium=email)
   Convert SVG to React components.
+- [cssnano](https://cssnano.co/)
+  Optimize CSS for production
 
 ## JavaScript
 
