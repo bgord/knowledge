@@ -583,3 +583,11 @@ SELECT EXISTS(SELECT id FROM users WHERE email = :email);
 ```
 
 ---
+
+**Describe an enum**
+
+```
+\dT+ log_type;
+```
+
+---

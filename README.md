@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1191
+Total entries: 1192
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -722,6 +722,7 @@ Total entries: 1191
 - Add comment
 - Remove comment
 - Check if a user with given email exists
+- Describe an enum
 
 ### [react](react.md)
 - Testing unconnected components
