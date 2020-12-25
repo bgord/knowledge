@@ -1452,3 +1452,34 @@ rsync -azP public server:/path/
 ```
 
 ---
+
+**PostCSS with Webpack 5**
+
+Setup
+
+```bash
+$ npm install -D postcss-loader postcss-preset-env doiuse
+```
+
+```js
+// postcss.config.js
+
+module.exports = {
+  plugins: {
+    "postcss-preset-env": {},
+    doiuse: {
+      ignoreFiles: ["**/reset.min.css"],
+    },
+  },
+};
+```
+
+```js
+// webpack.config.js
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader", "postcss-loader"],
+      }
+```
+
+---
