@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1194
+Total entries: 1195
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -840,6 +840,7 @@ Total entries: 1194
 - JSX transform
 - react-query dependent queries
 - react-query check if at least one request is in progress
+- Define a generic Box component using react-polymorphic-box
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?

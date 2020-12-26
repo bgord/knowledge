@@ -2244,3 +2244,9 @@ function GlobalLoadingIndicator() {
 ```
 
 ---
+
+**Define a generic Box component using react-polymorphic-box**
+
+[0](https://github.com/kripod/react-polymorphic-box/issues/16)
+
+---
