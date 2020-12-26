@@ -69,6 +69,8 @@
   A GitHub action to automatically compress images in a PR.
 - [verdaccio](https://github.com/verdaccio/verdaccio)
   A local npm registry.
+- [basehold](https://basehold.it/)
+  A baseline for vertical rhythm
 
 ## React
 
