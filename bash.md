@@ -312,3 +312,11 @@ set -Eeuo pipefail
 [0](https://vaneyckt.io/posts/safer_bash_scripts_with_set_euxo_pipefail/)
 
 ---
+
+**Print each command in a script before execution**
+
+```
+set -x
+```
+
+---
