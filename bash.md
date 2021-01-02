@@ -320,3 +320,16 @@ set -x
 ```
 
 ---
+
+**Bash script cleanup function**
+
+Kind of a `finally` block of a script - executed both on successful and error paths.
+
+```
+trap cleanup SIGINT SIGTERM ERR EXIT
+
+cleanup() {
+  trap - SIGINT SIGTERM ERR EXIT
+  # script cleanup here
+}
+```

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1197
+Total entries: 1198
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -48,6 +48,7 @@ Total entries: 1197
 - Iterate over a range of numbers
 - Bash script options
 - Print each command in a script before execution
+- Bash script cleanup function
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
