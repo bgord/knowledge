@@ -297,3 +297,18 @@ done
 ```
 
 ---
+
+**Bash script options**
+
+```bash
+set -Eeuo pipefail
+
+-e (exit immediately if a command fails)
+-E (using -e without -E will cause an ERR trap to not fire in certain scenarios)
+-u (treat unset variables as an error and quit)
+-o pipefail (quit even if a command in a pipelina fails)
+```
+
+[0](https://vaneyckt.io/posts/safer_bash_scripts_with_set_euxo_pipefail/)
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1195
+Total entries: 1197
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -46,6 +46,8 @@ Total entries: 1195
 - Check if string is empty
 - Color console output
 - Iterate over a range of numbers
+- Bash script options
+- Print each command in a script before execution
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
