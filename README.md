@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1198
+Total entries: 1199
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -49,6 +49,7 @@ Total entries: 1198
 - Bash script options
 - Print each command in a script before execution
 - Bash script cleanup function
+- Universal bash shebang
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?

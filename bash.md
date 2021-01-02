@@ -333,3 +333,11 @@ cleanup() {
   # script cleanup here
 }
 ```
+
+**Universal bash shebang**
+
+```
+#!/usr/bin/env bash
+```
+
+---
