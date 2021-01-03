@@ -99,6 +99,8 @@
   A lib to filter array of items in a smart and predictable way.
 - [zod](https://github.com/vriad/zod)
   TypeScript-first schema validation with static type inference
+- [supertokens](https://github.com/supertokens)
+  Open-source auth
 
 ## Social life
 
