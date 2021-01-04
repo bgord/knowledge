@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1200
+Total entries: 1201
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1047,6 +1047,7 @@ Total entries: 1200
 - rsync a directory to remote
 - PostCSS with Webpack 5
 - Exclude opera mini from browserslist
+- Test what parts of the app Facebook crawler sees
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
