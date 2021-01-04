@@ -2250,3 +2250,9 @@ function GlobalLoadingIndicator() {
 [0](https://github.com/kripod/react-polymorphic-box/issues/16)
 
 ---
+
+**Gatsby - reorder head tags**
+
+[0](https://github.com/gatsbyjs/gatsby/issues/22206#issuecomment-618829884)
+
+---
