@@ -974,3 +974,11 @@ $ git remote show origin | grep 'HEAD branch' | cut -d' ' -f5
 ```
 
 ---
+
+**Stash only hunks**
+
+```bash
+$ git stash -p
+```
+
+---
