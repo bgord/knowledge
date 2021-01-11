@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1202
+Total entries: 1203
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1244,6 +1244,9 @@ Total entries: 1202
 - What states can service worker be in?
 - Offline fallback for react app
 - Add manifest.json
+
+### [webpack](webpack.md)
+- Modify Webpack config
 
 ### [writing](writing.md)
 - Hyphen vs en dash vs e mdash
