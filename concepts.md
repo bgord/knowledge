@@ -322,3 +322,9 @@ It can be either a delay in seconds, or a date.
 [0](https://www.mokkapps.de/blog/how-to-automatically-generate-a-helpful-changelog-from-your-git-commit-messages)
 
 ---
+
+**Favicon size**
+
+The most common is 16x16 px, but some browsers may also display 32x32 px.
+
+---
