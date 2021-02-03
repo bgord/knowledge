@@ -1506,3 +1506,11 @@ $ curl -v --compressed -H "Range: bytes=0-524288" -H "Connection: close" -A "fac
 ```
 
 ---
+
+**Generate a placeholder image with ImageMagick**
+
+```
+$ convert -size 100x100 xc:#990000 whatever.png
+```
+
+---

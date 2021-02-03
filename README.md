@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1204
+Total entries: 1205
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1050,6 +1050,7 @@ Total entries: 1204
 - PostCSS with Webpack 5
 - Exclude opera mini from browserslist
 - Test what parts of the app Facebook crawler sees
+- Generate a placeholder image with ImageMagick
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
