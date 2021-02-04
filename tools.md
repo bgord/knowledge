@@ -74,6 +74,22 @@ const a = { a: 2, b:3};
 
 `fuser -k 3000/tcp`
 
+On MAC:
+
+```
+Run:
+
+lsof -i :3000 (where 3000 is your current port in use)
+
+then check status of the reported PID :
+
+ps ax | grep <PID>
+
+finally, "begone with it":
+
+kill -QUIT <PID>
+```
+
 ---
 
 **TTY**
