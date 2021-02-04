@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1205
+Total entries: 1206
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -157,6 +157,9 @@ Total entries: 1205
 - Skewed box, unskewed image
 - Load font from ttf file
 - Recaptcha v3 badge class name
+
+### [cypress](cypress.md)
+- Assert document.title
 
 ### [dart](dart.md)
 - Automatic code formatting
