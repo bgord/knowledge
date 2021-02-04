@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1207
+Total entries: 1208
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -161,6 +161,7 @@ Total entries: 1207
 ### [cypress](cypress.md)
 - Assert document.title
 - Confirm hCaptcha command
+- Add custom command types
 
 ### [dart](dart.md)
 - Automatic code formatting

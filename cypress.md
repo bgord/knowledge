@@ -26,3 +26,23 @@ Cypress.Commands.add("confirmHCaptcha", () => {
 ```
 
 ---
+
+**Add custom command types**
+
+In `cypress/support/index.d.ts` add the following
+
+```ts
+/// <reference types="cypress" />
+
+declare namespace Cypress {
+  interface Chainable {
+    /**
+     * Custom command to select DOM element by data-cy attribute.
+     * @example cy.dataCy('greeting')
+     */
+    dataCy(value: string): Chainable<Element>;
+  }
+}
+```
+
+---
