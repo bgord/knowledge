@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1211
+Total entries: 1212
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -623,6 +623,7 @@ Total entries: 1211
 - Download a file by using a stream with axios
 - Check if path is a file or is a directory
 - nodemailer self-signed certificate error
+- Email attachment as an embedded image
 
 ### [mysql](mysql.md)
 - Show all tables

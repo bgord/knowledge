@@ -2449,3 +2449,19 @@ Add the following to the config:
 ```
 
 ---
+
+**Email attachment as an embedded image**
+
+```js
+const mailOptions = {
+    ...
+    html: 'Embedded image: <img src="cid:unique@kreata.ee"/>',
+    attachments: [{
+        filename: 'image.png',
+        path: '/path/to/file',
+        cid: 'unique@kreata.ee' //same cid value as in the html img src
+    }]
+}
+```
+
+---
