@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1210
+Total entries: 1211
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1057,6 +1057,7 @@ Total entries: 1210
 - Test what parts of the app Facebook crawler sees
 - Generate a placeholder image with ImageMagick
 - Rsync ignores dotfiles
+- Execute a script via ssh
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

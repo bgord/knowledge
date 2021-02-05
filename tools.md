@@ -1540,3 +1540,11 @@ rsync -azP --delete source/ server:/target/
 ```
 
 ---
+
+**Execute a script via ssh**
+
+```
+ssh server "/path/to/script.sh"
+```
+
+---
