@@ -71,6 +71,8 @@
   A local npm registry.
 - [basehold](https://basehold.it/)
   A baseline for vertical rhythm
+- [favicomatic](https://favicomatic.com/)
+  Upload image and get favicons for all sort of platforms.
 
 ## React
 
