@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1208
+Total entries: 1209
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1143,6 +1143,7 @@ Total entries: 1208
 - Import JS file with types
 - Nullable type
 - Don't type check node modules
+- Exclude a directory from the build output
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

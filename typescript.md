@@ -1387,3 +1387,13 @@ $ tsc --skipLibCheck
 ```
 
 ---
+
+**Exclude a directory from the build output**
+
+```json
+{
+  "exclude": ["**/cypress/*"]
+}
+```
+
+---
