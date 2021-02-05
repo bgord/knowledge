@@ -1530,3 +1530,13 @@ $ convert -size 100x100 xc:#990000 whatever.png
 ```
 
 ---
+
+**Rsync ignores dotfiles**
+
+Make sure to include slashes at the end of both paths.
+
+```
+rsync -azP --delete source/ server:/target/
+```
+
+---

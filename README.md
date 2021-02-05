@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1209
+Total entries: 1210
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1056,6 +1056,7 @@ Total entries: 1209
 - Exclude opera mini from browserslist
 - Test what parts of the app Facebook crawler sees
 - Generate a placeholder image with ImageMagick
+- Rsync ignores dotfiles
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
