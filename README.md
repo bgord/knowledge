@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1212
+Total entries: 1213
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1147,6 +1147,7 @@ Total entries: 1212
 - Nullable type
 - Don't type check node modules
 - Exclude a directory from the build output
+- Get array element type information
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

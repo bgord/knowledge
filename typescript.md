@@ -1397,3 +1397,13 @@ $ tsc --skipLibCheck
 ```
 
 ---
+
+**Get array element type information**
+
+```ts
+type Animals = { name: string; age: number }[];
+
+type Animal = Animals[0];
+```
+
+---
