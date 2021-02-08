@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1213
+Total entries: 1214
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -624,6 +624,7 @@ Total entries: 1213
 - Check if path is a file or is a directory
 - nodemailer self-signed certificate error
 - Email attachment as an embedded image
+- Example PM2 ecosystem file usage
 
 ### [mysql](mysql.md)
 - Show all tables

@@ -2465,3 +2465,26 @@ const mailOptions = {
 ```
 
 ---
+
+**Example PM2 ecosystem file usage**
+
+```js
+module.exports = {
+  apps: [
+    {
+      name: "testing-secret-valentine-server",
+      script: "./scripts/testing-server-start.sh",
+    },
+    {
+      name: "testing-secret-valentine-maildev",
+      script: "./scripts/development-maildev-start.sh",
+    },
+  ],
+};
+```
+
+```
+$ npx pm2 restart ecosystem.config.js
+```
+
+---
