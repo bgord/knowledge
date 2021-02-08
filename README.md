@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1214
+Total entries: 1215
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -449,6 +449,7 @@ Total entries: 1214
 - srcset and sizes
 - picture element
 - Open Graph meta tags
+- Twitter OG
 
 ### [js](js.md)
 - RegExp for digits

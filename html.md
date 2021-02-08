@@ -132,9 +132,7 @@ p {
 - use `aria-label="Party emoji"`
 
 ```html
-<span role="img" aria-label="Party emoji">
-  🎉
-</span>
+<span role="img" aria-label="Party emoji"> 🎉 </span>
 ```
 
 ---
@@ -200,9 +198,7 @@ It's a tag where app can display a result of a calculation or a user action.
 **Audio element usage**
 
 ```html
-<audio src="example.mp3" controls>
-  Your browser doesn't support audio.
-</audio>
+<audio src="example.mp3" controls>Your browser doesn't support audio.</audio>
 ```
 
 ---
@@ -216,9 +212,7 @@ Don't put the `controls` attribute on the element.
 **Download attribute in <a />**
 
 ```html
-<a download="kotek.jpg" href="cat.jpg">
-  Download cat pic
-</a>
+<a download="kotek.jpg" href="cat.jpg"> Download cat pic </a>
 ```
 
 ---
@@ -340,5 +334,24 @@ These are tags that control how URLs are displayed when shared on social media.
 ```
 
 [0](https://ogp.me/)
+
+---
+
+**Twitter OG**
+
+It makes the card look like this:
+
+[image]
+[title]
+[description]
+
+instead of:
+
+[image][title]
+[image][description]
+
+```html
+<meta data-react-helmet="true" name="twitter:card" content="summary" />
+```
 
 ---
