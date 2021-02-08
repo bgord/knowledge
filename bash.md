@@ -341,3 +341,20 @@ cleanup() {
 ```
 
 ---
+
+**Built-in bash script options with getopts**
+
+```bash
+while getopts ":ht" option; do
+  case ${option} in
+    h ) # process option h
+      ;;
+    t ) # process option t
+      ;;
+    \? ) echo "Usage: cmd [-h] [-t]"
+      ;;
+  esac
+done
+```
+
+---
