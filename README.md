@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1218
+Total entries: 1219
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1064,6 +1064,7 @@ Total entries: 1218
 - Rsync ignores dotfiles
 - Execute a script via ssh
 - Change shell to bash after SSHing to a server
+- Check Ubuntu version
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

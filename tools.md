@@ -1556,3 +1556,11 @@ chsh -s /bin/bash
 ```
 
 ---
+
+**Check Ubuntu version**
+
+```
+lsb_release -a
+```
+
+---
