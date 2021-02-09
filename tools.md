@@ -1548,3 +1548,11 @@ ssh server "/path/to/script.sh"
 ```
 
 ---
+
+**Change shell to bash after SSHing to a server**
+
+```
+chsh -s /bin/bash
+```
+
+---
