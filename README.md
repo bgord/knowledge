@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1216
+Total entries: 1218
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -51,6 +51,7 @@ Total entries: 1216
 - Bash script cleanup function
 - Universal bash shebang
 - Built-in bash script options with getopts
+- Change bash prompt content
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
@@ -1062,6 +1063,7 @@ Total entries: 1216
 - Generate a placeholder image with ImageMagick
 - Rsync ignores dotfiles
 - Execute a script via ssh
+- Change shell to bash after SSHing to a server
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

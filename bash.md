@@ -358,3 +358,11 @@ done
 ```
 
 ---
+
+**Change bash prompt content**
+
+Look for "PS1" and edit it.
+
+```
+vim /etc/bash.bashrc
+```
