@@ -779,3 +779,30 @@ SMTP_PORT=25
 ```
 
 ---
+
+**SSH to a running container**
+
+```
+# The Ubuntu version installed on the Staging Server
+FROM ubuntu:18.04
+
+RUN apt-get update
+
+# Install openssh dependencies
+RUN apt-get -y install openssh-server
+RUN service ssh start
+
+# Start the SSH daemon
+EXPOSE 22
+CMD ["/usr/sbin/sshd","-D"]
+```
+
+```
+version: "3.7"
+services:
+  test_staging_server:
+    ports:
+      - "22:22"
+```
+
+---

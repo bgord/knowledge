@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1219
+Total entries: 1220
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -240,6 +240,7 @@ Total entries: 1219
 - Volume types
 - Install git in a container
 - Setup maildev in docker-compose
+- SSH to a running container
 
 ### [elixir](elixir.md)
 - What type of language is Elixir?
