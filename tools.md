@@ -1564,3 +1564,11 @@ lsb_release -a
 ```
 
 ---
+
+**List all groups current user belongs to**
+
+```
+groups
+```
+
+---

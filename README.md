@@ -1066,7 +1066,7 @@ Total entries: 1221
 - Execute a script via ssh
 - Change shell to bash after SSHing to a server
 - Check Ubuntu version
-- List all groups
+- List all groups current user belongs to
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
