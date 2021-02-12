@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1220
+Total entries: 1221
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1066,6 +1066,7 @@ Total entries: 1220
 - Execute a script via ssh
 - Change shell to bash after SSHing to a server
 - Check Ubuntu version
+- List all groups
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

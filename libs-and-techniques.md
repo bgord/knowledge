@@ -73,6 +73,8 @@
   A baseline for vertical rhythm
 - [favicomatic](https://favicomatic.com/)
   Upload image and get favicons for all sort of platforms.
+- [htpasswd](https://httpd.apache.org/docs/2.4/programs/htpasswd.html)
+  Manage password for basic auth
 
 ## React
 
