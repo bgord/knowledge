@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1221
+Total entries: 1222
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -629,6 +629,7 @@ Total entries: 1221
 - nodemailer self-signed certificate error
 - Email attachment as an embedded image
 - Example PM2 ecosystem file usage
+- dotenv custom config file
 
 ### [mysql](mysql.md)
 - Show all tables

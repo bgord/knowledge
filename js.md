@@ -2488,3 +2488,11 @@ $ npx pm2 restart ecosystem.config.js
 ```
 
 ---
+
+**dotenv custom config file**
+
+```
+$ node -r dotenv/config your_script.js dotenv_config_path=/custom/path/to/.env
+```
+
+---
