@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1222
+Total entries: 1223
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -684,6 +684,7 @@ Total entries: 1222
 - Check PHP memory limit
 - Change PHP memory limit
 - Setup a custom WP theme
+- Serve PHP locally
 
 ### [postgresql](postgresql.md)
 - How to show all table in the current database?

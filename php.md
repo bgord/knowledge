@@ -64,3 +64,11 @@ add_action( 'wp_enqueue_scripts', 'mining_city_scripts' );
 ```
 
 ---
+
+**Serve PHP locally**
+
+```
+php -S 127.0.0.1:8000
+```
+
+---
