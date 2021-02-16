@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1224
+Total entries: 1225
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -862,6 +862,7 @@ Total entries: 1224
 - react-query check if at least one request is in progress
 - Define a generic Box component using react-polymorphic-box
 - Gatsby - reorder head tags
+- useCopyToClipboard
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?

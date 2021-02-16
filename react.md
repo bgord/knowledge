@@ -2256,3 +2256,51 @@ function GlobalLoadingIndicator() {
 [0](https://github.com/gatsbyjs/gatsby/issues/22206#issuecomment-618829884)
 
 ---
+
+**useCopyToClipboard**
+
+```ts
+import React from "react";
+
+enum CopyToClipboardStateEnum {
+  idle = "idle",
+  success = "success",
+  error = "error",
+}
+
+export function useCopyToClipboard(
+  value: string
+): [CopyToClipboardStateEnum, VoidFunction] {
+  const [copyToClipboardState, setCopyToClipboardState] = React.useState<
+    CopyToClipboardStateEnum
+  >(CopyToClipboardStateEnum.idle);
+
+  React.useEffect(() => {
+    let timeoutId: null | ReturnType<typeof setTimeout> = null;
+
+    if (copyToClipboardState === CopyToClipboardStateEnum.success) {
+      timeoutId = setTimeout(
+        () => setCopyToClipboardState(CopyToClipboardStateEnum.idle),
+        5000
+      );
+    }
+
+    return () => {
+      if (timeoutId) {
+        clearTimeout(timeoutId);
+      }
+    };
+  }, [copyToClipboardState]);
+
+  async function copyToClipboard() {
+    return navigator?.clipboard
+      ?.writeText?.(value)
+      .then(() => setCopyToClipboardState(CopyToClipboardStateEnum.success))
+      .catch(() => setCopyToClipboardState(CopyToClipboardStateEnum.error));
+  }
+
+  return [copyToClipboardState, copyToClipboard];
+}
+```
+
+---
