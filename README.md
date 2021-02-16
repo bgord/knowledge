@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1229
+Total entries: 1230
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -55,6 +55,7 @@ Total entries: 1229
 - Default variable value
 - Echo doesn't preserve whitespaces
 - Skip first n lines in tail
+- Grep match everything
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?

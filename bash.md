@@ -392,3 +392,11 @@ tail --lines +n $BOOKS_TABLE_PATH
 ```
 
 ---
+
+**Grep match everything**
+
+```
+cat file | grep .
+```
+
+---
