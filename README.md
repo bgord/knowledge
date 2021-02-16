@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1228
+Total entries: 1229
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -54,6 +54,7 @@ Total entries: 1228
 - Change bash prompt content
 - Default variable value
 - Echo doesn't preserve whitespaces
+- Skip first n lines in tail
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?

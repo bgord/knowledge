@@ -384,3 +384,11 @@ echo "$RESULT"
 ```
 
 ---
+
+**Skip first n lines in tail**
+
+```
+tail --lines +n $BOOKS_TABLE_PATH
+```
+
+---
