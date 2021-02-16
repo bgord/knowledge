@@ -374,3 +374,13 @@ FILTER="${1:- "all"}"
 ```
 
 ---
+
+**Echo doesn't preserve whitespaces**
+
+```
+RESULT=$(tail -n 1 logs.db)
+
+echo "$RESULT"
+```
+
+---

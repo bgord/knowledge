@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1227
+Total entries: 1228
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -53,6 +53,7 @@ Total entries: 1227
 - Built-in bash script options with getopts
 - Change bash prompt content
 - Default variable value
+- Echo doesn't preserve whitespaces
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
