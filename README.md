@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1225
+Total entries: 1226
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1232,6 +1232,7 @@ Total entries: 1225
 - Execute macro on all lines matching a pattern
 - Delete lines matching a pattern
 - Perform search and replace on all lines matching a pattern
+- Perform search and replace in the current line
 
 ### [vue](vue.md)
 - Generate a new project
