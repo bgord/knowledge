@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1223
+Total entries: 1224
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -637,6 +637,7 @@ Total entries: 1223
 - Restore
 - Improve backup format
 - Unknown table COLUMN-STATISTICS in information-schema (1109)
+- Ignore tables during backup
 
 ### [nginx](nginx.md)
 - How to serve an index.html file on given port?

@@ -35,3 +35,11 @@ A new flag was introduced in MySQL8
 ```
 mysqldump --column-statistics=0
 ```
+
+**Ignore tables during backup**
+
+```
+mysqldump -u root -p DB_NAME --ignore-table=DB_NAME.table1 > database.sql
+```
+
+---
