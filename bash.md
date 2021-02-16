@@ -366,3 +366,11 @@ Look for "PS1" and edit it.
 ```
 vim /etc/bash.bashrc
 ```
+
+**Default variable value**
+
+```
+FILTER="${1:- "all"}"
+```
+
+---

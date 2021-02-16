@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1226
+Total entries: 1227
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -52,6 +52,7 @@ Total entries: 1226
 - Universal bash shebang
 - Built-in bash script options with getopts
 - Change bash prompt content
+- Default variable value
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
