@@ -355,3 +355,11 @@ instead of:
 ```
 
 ---
+
+**Robots noindex, nofollow**
+
+```html
+<meta name="robots" content="none" />
+```
+
+---
