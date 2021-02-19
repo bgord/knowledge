@@ -215,9 +215,9 @@ Typically a target of the make command is a file, `.PHONY` is to register a comm
 
 **How to extract the tar file?**
 
- eXtract Ve File
+eXtract Ve File
 
-`tar xvf filenamme.tar `
+`tar xvf filenamme.tar`
 `tar xvf filenamme.tar --directory /output`
 
 ---
@@ -1572,6 +1572,16 @@ lsb_release -a
 
 ```
 groups
+```
+
+---
+
+**Exclude a file in rsync**
+
+In the following example the file `src_directory/file.txt` will not be transferred:
+
+```
+$ rsync -a --exclude 'file.txt' src_directory/ dst_directory/
 ```
 
 ---

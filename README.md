@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1231
+Total entries: 1232
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1076,6 +1076,7 @@ Total entries: 1231
 - Change shell to bash after SSHing to a server
 - Check Ubuntu version
 - List all groups current user belongs to
+- Exclude a file in rsync
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
