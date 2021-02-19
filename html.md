@@ -363,3 +363,15 @@ instead of:
 ```
 
 ---
+
+**Can multiple H1 be used?**
+
+Yes.
+
+---
+
+**Can no H1 be used?**
+
+Yes.
+
+---

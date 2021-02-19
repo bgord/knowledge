@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1233
+Total entries: 1235
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -459,6 +459,8 @@ Total entries: 1233
 - Open Graph meta tags
 - Twitter OG
 - Robots noindex, nofollow
+- Can multiple H1 be used?
+- Can no H1 be used?
 
 ### [js](js.md)
 - RegExp for digits
