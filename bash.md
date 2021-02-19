@@ -400,3 +400,11 @@ cat file | grep .
 ```
 
 ---
+
+**Create a directory and cd to it**
+
+```
+$ take even/nested/ones/work
+```
+
+---

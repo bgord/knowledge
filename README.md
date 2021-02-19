@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1232
+Total entries: 1233
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -56,6 +56,7 @@ Total entries: 1232
 - Echo doesn't preserve whitespaces
 - Skip first n lines in tail
 - Grep match everything
+- Create a directory and cd to it
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
