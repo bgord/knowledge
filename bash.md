@@ -366,3 +366,37 @@ Look for "PS1" and edit it.
 ```
 vim /etc/bash.bashrc
 ```
+
+**Default variable value**
+
+```
+FILTER="${1:- "all"}"
+```
+
+---
+
+**Echo doesn't preserve whitespaces**
+
+```
+RESULT=$(tail -n 1 logs.db)
+
+echo "$RESULT"
+```
+
+---
+
+**Skip first n lines in tail**
+
+```
+tail --lines +n $BOOKS_TABLE_PATH
+```
+
+---
+
+**Grep match everything**
+
+```
+cat file | grep .
+```
+
+---

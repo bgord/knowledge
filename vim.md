@@ -565,3 +565,12 @@ Macro stored in the `r` register on lines starting with `-`
 ```
 
 ---
+
+**Perform search and replace in the current line**
+
+```
+:s/,/|/ # first occurrence only
+:s/,/|/g # all occurrences
+```
+
+---

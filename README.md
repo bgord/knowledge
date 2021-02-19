@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1225
+Total entries: 1231
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -52,6 +52,10 @@ Total entries: 1225
 - Universal bash shebang
 - Built-in bash script options with getopts
 - Change bash prompt content
+- Default variable value
+- Echo doesn't preserve whitespaces
+- Skip first n lines in tail
+- Grep match everything
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
@@ -863,6 +867,7 @@ Total entries: 1225
 - react-query check if at least one request is in progress
 - Define a generic Box component using react-polymorphic-box
 - Gatsby - reorder head tags
+- useCopyToClipboard
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
@@ -1232,6 +1237,7 @@ Total entries: 1225
 - Execute macro on all lines matching a pattern
 - Delete lines matching a pattern
 - Perform search and replace on all lines matching a pattern
+- Perform search and replace in the current line
 
 ### [vue](vue.md)
 - Generate a new project
