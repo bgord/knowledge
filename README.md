@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1235
+Total entries: 1236
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -461,6 +461,7 @@ Total entries: 1235
 - Robots noindex, nofollow
 - Can multiple H1 be used?
 - Can no H1 be used?
+- Link prefetching
 
 ### [js](js.md)
 - RegExp for digits
