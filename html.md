@@ -375,3 +375,13 @@ Yes.
 Yes.
 
 ---
+
+**Link prefetching**
+
+It's a browsing mechanism that allows to prefetch a `<link>` resource in browser's idle time.
+
+```html
+<link rel="prefetch" href="/images/big.jpeg" />
+```
+
+---
