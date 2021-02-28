@@ -75,6 +75,8 @@
   Upload image and get favicons for all sort of platforms.
 - [htpasswd](https://httpd.apache.org/docs/2.4/programs/htpasswd.html)
   Manage password for basic auth
+- [social-analyzer](https://github.com/qeeqbox/social-analyzer)
+  Find a person's profiles across the social media platforms
 
 ## React
 
