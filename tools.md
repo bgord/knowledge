@@ -1585,3 +1585,11 @@ $ rsync -a --exclude 'file.txt' src_directory/ dst_directory/
 ```
 
 ---
+
+**Add transparent background**
+
+```
+convert test.png -transparent white transparent.png
+```
+
+---

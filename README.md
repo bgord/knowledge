@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1236
+Total entries: 1237
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1081,6 +1081,7 @@ Total entries: 1236
 - Check Ubuntu version
 - List all groups current user belongs to
 - Exclude a file in rsync
+- Add transparent background
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
