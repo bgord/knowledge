@@ -408,3 +408,11 @@ $ take even/nested/ones/work
 ```
 
 ---
+
+**Concatenate stdout with a string**
+
+```
+cat book.md | wc --words | echo "$(cat -) words"
+```
+
+---

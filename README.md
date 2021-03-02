@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1237
+Total entries: 1238
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -57,6 +57,7 @@ Total entries: 1237
 - Skip first n lines in tail
 - Grep match everything
 - Create a directory and cd to it
+- Concatenate stdout with a string
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
