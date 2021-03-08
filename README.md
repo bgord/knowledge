@@ -57,6 +57,7 @@ Total entries: 1238
 - Skip first n lines in tail
 - Grep match everything
 - Create a directory and cd to it
+- Concatenate stdout with a string
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
