@@ -972,3 +972,9 @@ body {
 ```
 
 ---
+
+**Responsive YouTube embedd**
+
+[0](https://avexdesigns.com/blog/responsive-youtube-embed)
+
+---

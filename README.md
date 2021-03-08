@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1237
+Total entries: 1238
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -164,6 +164,7 @@ Total entries: 1237
 - Skewed box, unskewed image
 - Load font from ttf file
 - Recaptcha v3 badge class name
+- Responsive YouTube embedd
 
 ### [cypress](cypress.md)
 - Assert document.title
@@ -916,6 +917,8 @@ Total entries: 1237
 - Copy text by mouse
 - Kill current pane
 - Refresh tmux config
+
+### [todo](todo)
 
 ### [tools](tools.md)
 - Get MIME types of all the apps, useful when changing defaults
