@@ -990,3 +990,11 @@ git clone --recurse-submodules -j8 git://github.com/foo/bar.git
 ```
 
 ---
+
+**Git clone and checkout a branch**
+
+```
+git clone --branch dev git://github.com/foo/bar.git
+```
+
+---
