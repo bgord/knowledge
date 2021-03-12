@@ -1601,3 +1601,11 @@ ffmpeg -i inputfile.mkv -vf "select=eq(n\,0)" -q:v 3 output_image.jpg
 ```
 
 ---
+
+**Get image size**
+
+```
+magick identify rose.jpg
+```
+
+---
