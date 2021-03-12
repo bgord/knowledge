@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1238
+Total entries: 1241
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -919,8 +919,6 @@ Total entries: 1238
 - Kill current pane
 - Refresh tmux config
 
-### [todo](todo)
-
 ### [tools](tools.md)
 - Get MIME types of all the apps, useful when changing defaults
 - Set a default browser
@@ -1086,6 +1084,8 @@ Total entries: 1238
 - List all groups current user belongs to
 - Exclude a file in rsync
 - Add transparent background
+- Get first video frame
+- Get image size
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

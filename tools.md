@@ -1593,3 +1593,11 @@ convert test.png -transparent white transparent.png
 ```
 
 ---
+
+**Get first video frame**
+
+```
+ffmpeg -i inputfile.mkv -vf "select=eq(n\,0)" -q:v 3 output_image.jpg
+```
+
+---
