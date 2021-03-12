@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1241
+Total entries: 1243
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -420,6 +420,8 @@ Total entries: 1241
 - Add GitHub PR size labeller
 - Get default branch
 - Stash only hunks
+- Git clone with submodules
+- Git clone and checkout a branch
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?
