@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1244
+Total entries: 1245
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -167,6 +167,7 @@ Total entries: 1244
 - Recaptcha v3 badge class name
 - Responsive YouTube embedd
 - Responsive background image
+- Landscape media query
 
 ### [cypress](cypress.md)
 - Assert document.title

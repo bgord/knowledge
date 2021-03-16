@@ -986,3 +986,12 @@ background: url(background-photo.jpg) center center cover no-repeat fixed;
 ```
 
 ---
+
+**Landscape media query**
+
+```css
+@media (orientation: landscape) {
+}
+```
+
+---
