@@ -978,3 +978,11 @@ body {
 [0](https://avexdesigns.com/blog/responsive-youtube-embed)
 
 ---
+
+**Responsive background image**
+
+```css
+background: url(background-photo.jpg) center center cover no-repeat fixed;
+```
+
+---

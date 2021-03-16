@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1243
+Total entries: 1244
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -166,6 +166,7 @@ Total entries: 1243
 - Load font from ttf file
 - Recaptcha v3 badge class name
 - Responsive YouTube embedd
+- Responsive background image
 
 ### [cypress](cypress.md)
 - Assert document.title
