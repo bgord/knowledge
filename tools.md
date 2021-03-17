@@ -1609,3 +1609,11 @@ magick identify rose.jpg
 ```
 
 ---
+
+**Colored two files diff**
+
+```
+diff -u dev.html prod.html| diff-so-fancy
+```
+
+---

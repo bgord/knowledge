@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1245
+Total entries: 1246
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1090,6 +1090,7 @@ Total entries: 1245
 - Add transparent background
 - Get first video frame
 - Get image size
+- Colored two files diff
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
