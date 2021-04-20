@@ -1407,3 +1407,37 @@ type Animal = Animals[0];
 ```
 
 ---
+
+**Types for Gatsby fluid and fixed images**
+
+```ts
+import { FixedObject, FluidObject } from "gatsby-image";
+
+export interface FluidImage {
+  id?: string;
+  localFile: {
+    id?: string;
+    childImageSharp: {
+      fluid: FluidObject;
+    };
+  };
+}
+
+export interface FixedImage {
+  id?: string;
+  localFile: {
+    id?: string;
+    childImageSharp: {
+      fixed: FixedObject;
+    };
+  };
+}
+
+export type Host = {
+  name: string;
+  profilePicture: FluidImage;
+  brandPicture: FixedImage;
+};
+```
+
+---

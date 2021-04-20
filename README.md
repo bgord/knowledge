@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1246
+Total entries: 1247
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1180,6 +1180,7 @@ Total entries: 1246
 - Don't type check node modules
 - Exclude a directory from the build output
 - Get array element type information
+- Types for Gatsby fluid and fixed images
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`
