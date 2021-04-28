@@ -1441,3 +1441,16 @@ export type Host = {
 ```
 
 ---
+
+**Override type property**
+
+```ts
+type Payload = {
+  startTime: string;
+  archived: boolean;
+};
+
+type ArchivedPayload = Omit<Payload, "startTime"> & { startTime: Date };
+```
+
+---
