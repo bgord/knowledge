@@ -803,7 +803,7 @@ Next steps:
 
 2. If typings aren't included in Definitely Typed repo
 
-- create `typigns` directory in project root
+- create `typings` directory in project root
 - add `"typeRoots": ["./typings", "./node_modules/@types"]` compiler option in `tsconfig.json`
 - in `"./typings"` directory create a `@reach__tabs` directory (it'd be just `<package>` for a name that doesn't include `/` char)
 - create `index.d.ts` file in it
