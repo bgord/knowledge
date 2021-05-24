@@ -1617,3 +1617,11 @@ diff -u dev.html prod.html| diff-so-fancy
 ```
 
 ---
+
+**Convert psd to png**
+
+```
+$ convert 'image.psd[0]' image.png
+```
+
+---

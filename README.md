@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1248
+Total entries: 1249
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1091,6 +1091,7 @@ Total entries: 1248
 - Get first video frame
 - Get image size
 - Colored two files diff
+- Convert psd to png
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
