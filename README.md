@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1249
+Total entries: 1250
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1092,6 +1092,7 @@ Total entries: 1249
 - Get image size
 - Colored two files diff
 - Convert psd to png
+- Prettier format GraphQL string template literal
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

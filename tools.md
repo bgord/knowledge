@@ -1625,3 +1625,11 @@ $ convert 'image.psd[0]' image.png
 ```
 
 ---
+
+**Prettier format GraphQL string template literal**
+
+```
+const foo = /* GraphQL */`{ foo { bar } }`
+```
+
+---
