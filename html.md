@@ -413,3 +413,13 @@ It's a browsing mechanism that allows to prefetch a `<link>` resource in browser
 ```
 
 ---
+
+**Google and localized content**
+
+```
+de: German language content, independent of region
+en-GB: English language content, for GB users
+de-ES: German language content, for users in Spain
+```
+
+---
