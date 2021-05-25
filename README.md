@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1251
+Total entries: 1252
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -469,6 +469,7 @@ Total entries: 1251
 - Can multiple H1 be used?
 - Can no H1 be used?
 - Link prefetching
+- Href lang
 
 ### [js](js.md)
 - RegExp for digits
