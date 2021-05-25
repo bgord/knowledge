@@ -328,3 +328,21 @@ It can be either a delay in seconds, or a date.
 The most common is 16x16 px, but some browsers may also display 32x32 px.
 
 ---
+
+**DNS records**
+
+`CNAME` points to another domain instead of an IP:
+
+```
+blog.dnsimple.com.      CNAME   aetrion.github.io.
+```
+
+`A` points to a specific IP address:
+
+```
+blog.dnsimple.com.     A        185.31.17.133
+```
+
+[source](https://support.dnsimple.com/articles/differences-a-cname-records/)
+
+---
