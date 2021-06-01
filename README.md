@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1253
+Total entries: 1254
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -169,6 +169,7 @@ Total entries: 1253
 - Responsive YouTube embedd
 - Responsive background image
 - Landscape media query
+- object: position
 
 ### [cypress](cypress.md)
 - Assert document.title

@@ -995,3 +995,9 @@ background: url(background-photo.jpg) center center cover no-repeat fixed;
 ```
 
 ---
+
+**object: position**
+
+Aligns the selected element inside a box.
+
+---
