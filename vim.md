@@ -574,3 +574,11 @@ Macro stored in the `r` register on lines starting with `-`
 ```
 
 ---
+
+**Change line endings from DOS to UNIX**
+
+```
+:set fileformat=unix
+```
+
+---
