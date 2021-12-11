@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1254
+Total entries: 1256
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -927,6 +927,8 @@ Total entries: 1254
 - Kill current pane
 - Refresh tmux config
 
+### [todo](todo.txt)
+
 ### [tools](tools.md)
 - Get MIME types of all the apps, useful when changing defaults
 - Set a default browser
@@ -1097,6 +1099,7 @@ Total entries: 1254
 - Colored two files diff
 - Convert psd to png
 - Prettier format GraphQL string template literal
+- systemd enable vs start
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
@@ -1261,6 +1264,7 @@ Total entries: 1254
 - Delete lines matching a pattern
 - Perform search and replace on all lines matching a pattern
 - Perform search and replace in the current line
+- Change line endings from DOS to UNIX
 
 ### [vue](vue.md)
 - Generate a new project

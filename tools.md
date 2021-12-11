@@ -1633,3 +1633,10 @@ const foo = /* GraphQL */`{ foo { bar } }`
 ```
 
 ---
+
+**systemd enable vs start**
+
+`enable` makes a service start on boot
+`start` just starts a service
+
+---
