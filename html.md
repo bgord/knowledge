@@ -423,3 +423,16 @@ de-ES: German language content, for users in Spain
 ```
 
 ---
+
+**Display base64 encoded image**
+
+```html
+<img
+  src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUA
+    AAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO
+        9TXL0Y4OHwAAAABJRU5ErkJggg=="
+  alt="Red dot"
+/>
+```
+
+---
