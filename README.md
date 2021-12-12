@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1257
+Total entries: 1259
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -58,6 +58,8 @@ Total entries: 1257
 - Grep match everything
 - Create a directory and cd to it
 - Concatenate stdout with a string
+- Check if an ssh alias is setup correctly
+- Comamnd substitution
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?

@@ -416,3 +416,32 @@ cat book.md | wc --words | echo "$(cat -) words"
 ```
 
 ---
+
+**Check if an ssh alias is setup correctly**
+
+```bash
+function ensure_ssh_staging_alias {
+  (ssh -q staging exit)
+
+  if test $? != '0'
+  then
+    error "The [staging] ssh alias is not present or doesn't work."
+    exit 1
+  fi
+}
+```
+
+---
+
+**Comamnd substitution**
+
+It's the `$(<command)` syntax.
+
+```bash
+local result = $(exit 1);
+
+# run `exit 1` in a subshell
+# assign it's output to the local result variable
+```
+
+---
