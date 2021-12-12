@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1259
+Total entries: 1261
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -60,6 +60,7 @@ Total entries: 1259
 - Concatenate stdout with a string
 - Check if an ssh alias is setup correctly
 - Comamnd substitution
+- Get git repository name
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
@@ -474,6 +475,7 @@ Total entries: 1259
 - Link prefetching
 - Href lang
 - Google and localized content
+- Display base64 encoded image
 
 ### [js](js.md)
 - RegExp for digits

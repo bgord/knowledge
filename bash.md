@@ -445,3 +445,11 @@ local result = $(exit 1);
 ```
 
 ---
+
+**Get git repository name**
+
+```
+basename `git rev-parse --show-toplevel`
+```
+
+---
