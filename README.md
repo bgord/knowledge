@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1262
+Total entries: 1263
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -176,6 +176,7 @@ Total entries: 1262
 - Responsive background image
 - Landscape media query
 - object: position
+- Show scrollbar only if it's needed
 
 ### [cypress](cypress.md)
 - Assert document.title
