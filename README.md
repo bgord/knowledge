@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1256
+Total entries: 1257
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -663,6 +663,7 @@ Total entries: 1256
 - How to proxy a request to a node backend?
 - Redirect a subdomain to a specific port
 - nginx config file
+- http2 support
 
 ### [npm](npm.md)
 - npm ci

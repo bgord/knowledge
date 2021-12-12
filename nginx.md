@@ -147,3 +147,23 @@ $ http GET 173.16.238.11 // nginx proxies a request to node.js which returns "He
 `/etc/nginx/nginx.conf`
 
 ---
+
+**http2 support**
+
+Supported only via HTTPS.
+
+```
+server {
+        listen 80;
+        server_name maildev.bgord.me www.maildev.bgord.me;
+        location / {
+                # ...
+        }
+        listen [::]:443 ssl http2 ipv6only=on;
+        listen 443 ssl http2;
+        ssl_certificate /etc/letsencrypt/live/bgord.me/fullchain.pem;
+        ssl_certificate_key /etc/letsencrypt/live/bgord.me/privkey.pem;
+}
+```
+
+---
