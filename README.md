@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1261
+Total entries: 1262
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -17,6 +17,9 @@ Total entries: 1261
 - An example playbook
 - Run a playbook
 - Run a playbook inside a Docker container
+
+### [architecture](architecture.md)
+- Architectural Decision Records
 
 ### [bash](bash.md)
 - yyyy-mm-dd date in bash
