@@ -346,3 +346,15 @@ blog.dnsimple.com.     A        185.31.17.133
 [source](https://support.dnsimple.com/articles/differences-a-cname-records/)
 
 ---
+
+**Perceived brightness of a color**
+
+R, G, B are decimal components of a hexadecimal color
+
+```js
+Math.sqrt(
+  0.299 * Math.pow(R, 2) + 0.587 * Math.pow(G, 2) + 0.114 * Math.pow(B, 2)
+) / 255;
+```
+
+---
