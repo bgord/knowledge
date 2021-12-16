@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1264
+Total entries: 1265
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -915,6 +915,7 @@ Total entries: 1264
 - Circle with borders only
 - Mask example
 - Path commands
+- Rotate SVG
 
 ### [swagger](swagger.md)
 - Basic template

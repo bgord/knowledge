@@ -122,3 +122,13 @@ The difference between capital and normal letters is that upper-case commands sp
 `Q`, `q`, `T`, `t` - quadratic Bézier curve
 
 ---
+
+**Rotate SVG**
+
+```svg
+<svg style="transform: rotate(180deg)">
+ ...
+</svg>
+```
+
+---
