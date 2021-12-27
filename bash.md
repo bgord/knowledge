@@ -453,3 +453,36 @@ basename `git rev-parse --show-toplevel`
 ```
 
 ---
+
+**Unary operator expected error**
+
+It happens e.g when a `test` is performed on an empty string.
+
+Before:
+
+```
+# In the second part of the if statement
+# a not equal check may be performe on an empty string.
+if test ! -z $SKIP_VERSION_BUMP && test $SKIP_VERSION_BUMP != "--skip-version-bump"
+then
+  error "First argument - SKIP_VERSION_BUMP - has to --skip-version-bump or empty."
+  info "Usage ./bgord-scripts/npm-publish.sh [--skip-version-bump]"
+  exit 1
+fi
+```
+
+After:
+
+```
+if test ! -z $SKIP_VERSION_BUMP
+then
+  if test $SKIP_VERSION_BUMP != "--skip-version-bump"
+  then
+    error "First argument - SKIP_VERSION_BUMP - has to --skip-version-bump or empty."
+    info "Usage ./bgord-scripts/npm-publish.sh [--skip-version-bump]"
+    exit 1
+  fi
+fi
+```
+
+---
