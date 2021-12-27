@@ -486,3 +486,13 @@ fi
 ```
 
 ---
+
+**Find and replace with sed**
+
+`-i` stands for in-place replacement
+
+```
+$ sed -i "s/{{PROJECT_NAME}}/$PROJECT_NAME/g" scripts/staging-server-start.sh
+```
+
+---

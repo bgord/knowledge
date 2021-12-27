@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1266
+Total entries: 1267
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -65,6 +65,7 @@ Total entries: 1266
 - Comamnd substitution
 - Get git repository name
 - Unary operator expected error
+- Find and replace with sed
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
