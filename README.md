@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1267
+Total entries: 1269
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -180,6 +180,7 @@ Total entries: 1267
 - Landscape media query
 - object: position
 - Show scrollbar only if it's needed
+- Remove step arrows from numeric input
 
 ### [cypress](cypress.md)
 - Assert document.title
@@ -1317,6 +1318,9 @@ Total entries: 1267
 
 ### [webpack](webpack.md)
 - Modify Webpack config
+
+### [wordpress](wordpress.md)
+- Add a link to an asset from the theme
 
 ### [writing](writing.md)
 - Hyphen vs en dash vs e mdash
