@@ -436,3 +436,24 @@ de-ES: German language content, for users in Spain
 ```
 
 ---
+
+**aria-current**
+
+Indicates that a link/resource is current in given context.
+Mainly for screen readers.
+
+Available contexts:
+
+- page (represents the current page within a set of pages such as the link to the current document in a breadcrumb)
+
+- step (represents the current step within a process such as the current step in an enumerated multi step checkout flow)
+
+- location (represents the current location within an environment or context such as the image that is visually highlighted as the current component of a flow chart)
+
+- date (represents the current date within a collection of dates such as the current date within a calendar)
+
+- time (represents the current time within a set of times such as the current time within a timetable)
+
+- true (represents the current item within a set)
+
+---

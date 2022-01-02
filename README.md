@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1269
+Total entries: 1270
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -484,6 +484,7 @@ Total entries: 1269
 - Href lang
 - Google and localized content
 - Display base64 encoded image
+- aria-current
 
 ### [js](js.md)
 - RegExp for digits
