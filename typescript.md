@@ -854,13 +854,12 @@ export const Logo: React.FC<React.ImgHTMLAttributes<HTMLImageElement>> = (
 **Type div props**
 
 ```tsx
-export const ValidationErrorMessage: React.FC<React.HTMLProps<
-  HTMLDivElement
->> = ({ children, className = "", ...props }) => (
-  <div className={`w-full text-red-700 mt-1 ${className}`} {...props}>
-    {children}
-  </div>
-);
+export const ValidationErrorMessage: React.FC<React.HTMLProps<HTMLDivElement>> =
+  ({ children, className = "", ...props }) => (
+    <div className={`w-full text-red-700 mt-1 ${className}`} {...props}>
+      {children}
+    </div>
+  );
 ```
 
 ---
@@ -1009,31 +1008,33 @@ AsyncReturnType<typeof getHabit>;
 **Retaining requesty body types between middlewares**
 
 ```ts
-const validation = <T extends z.ZodObject<any>, D>(schema: T) => (
-  request: express.Request<any, any, D>,
-  response: express.Response<express.NextFunction | ValidationError>,
-  next: express.NextFunction
-) => {
-  try {
-    schema.parse(request.body);
-    return next();
-  } catch (error) {
-    if (error instanceof ZodError) {
-      return response.status(400).send({
-        code: "E_VALIDATION",
-        argErrors: error.errors.map((error) => {
-          const lastIndex = error.path.length - 1;
+const validation =
+  <T extends z.ZodObject<any>, D>(schema: T) =>
+  (
+    request: express.Request<any, any, D>,
+    response: express.Response<express.NextFunction | ValidationError>,
+    next: express.NextFunction
+  ) => {
+    try {
+      schema.parse(request.body);
+      return next();
+    } catch (error) {
+      if (error instanceof ZodError) {
+        return response.status(400).send({
+          code: "E_VALIDATION",
+          argErrors: error.errors.map((error) => {
+            const lastIndex = error.path.length - 1;
 
-          return {
-            message: error.message,
-            key: error.path[lastIndex],
-            path: error.path,
-          };
-        }),
-      });
+            return {
+              message: error.message,
+              key: error.path[lastIndex],
+              path: error.path,
+            };
+          }),
+        });
+      }
     }
-  }
-};
+  };
 
 app.post(
   "/user",
@@ -1452,5 +1453,42 @@ type Payload = {
 
 type ArchivedPayload = Omit<Payload, "startTime"> & { startTime: Date };
 ```
+
+---
+
+**nominal vs structural typings**
+
+- nominal: type names/declarations
+- structural: type structure
+
+---
+
+**Branded types**
+
+TypeScript doesn't support nominal typings.
+
+There's a way to create branded/nominal types:
+
+```ts
+import { z } from "zod";
+
+export type ArticleContentType = Brand<
+  "article-content",
+  z.infer<typeof ArticleContentSchema>
+>;
+
+export const ArticleContentSchema = z.string().max(100000);
+
+export const ArticleContent = ArticleContentSchema.transform(
+  (x) => x as ArticleContentType
+);
+
+export const content: ArticleContentType = ArticleContent.parse("ok");
+export const content2: ArticleContentType = "ok"; //fails
+
+type Brand<B extends string, T> = { _brand: B } & T;
+```
+
+[0](https://spin.atomicobject.com/2018/01/15/typescript-flexible-nominal-typing/)
 
 ---

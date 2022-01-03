@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1271
+Total entries: 1273
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -944,8 +944,6 @@ Total entries: 1271
 - Kill current pane
 - Refresh tmux config
 
-### [todo](todo.txt)
-
 ### [tools](tools.md)
 - Get MIME types of all the apps, useful when changing defaults
 - Set a default browser
@@ -1209,6 +1207,8 @@ Total entries: 1271
 - Get array element type information
 - Types for Gatsby fluid and fixed images
 - Override type property
+- nominal vs structural typings
+- Branded types
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`
