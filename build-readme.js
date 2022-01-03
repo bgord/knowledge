@@ -5,12 +5,13 @@ const pathsToSkip = [
   ".git",
   ".gitignore",
   "README.md",
-  "roadmap.md",
+  "books.md",
   "build-readme.js",
   "libs-and-techniques.md",
   "node_modules",
-  "package.json",
   "package-lock.json",
+  "package.json",
+  "roadmap.md",
 ];
 
 async function main() {
