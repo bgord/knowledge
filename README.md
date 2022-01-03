@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1274
+Total entries: 1275
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -203,6 +203,7 @@ Total entries: 1274
 
 ### [ddd](ddd.md)
 - Policy
+- Ubiquitous language
 
 ### [docker](docker.md)
 - Container vs Image
