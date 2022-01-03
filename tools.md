@@ -1640,3 +1640,17 @@ const foo = /* GraphQL */`{ foo { bar } }`
 `start` just starts a service
 
 ---
+
+**nodemailer your email to kindle did not include any attachments**
+
+```js
+return mailer.send({
+  from: Env.SMTP_USER,
+  to: Env.EMAIL_TO_DELIVER_TO,
+  subject: "Newspaper",
+  text: "Sent from raok.", // usually due to missing text/html content
+  attachments: [{ filename: "newspaper.mobi", path }],
+});
+```
+
+---
