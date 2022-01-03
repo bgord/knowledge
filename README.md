@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1273
+Total entries: 1274
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -202,6 +202,7 @@ Total entries: 1273
 - Create a class with some properties
 
 ### [ddd](ddd.md)
+- Policy
 
 ### [docker](docker.md)
 - Container vs Image
