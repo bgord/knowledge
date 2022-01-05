@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1277
+Total entries: 1278
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -695,6 +695,7 @@ Total entries: 1277
 - pre/post scripts
 - Composing npm scripts
 - npm uninstall alias
+- alias package
 
 ### [other](other.md)
 - Firefox's engine

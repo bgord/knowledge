@@ -123,3 +123,11 @@ $ npm r webpack
 ```
 
 ---
+
+**alias package**
+
+```
+$ npm i react@:npm@preact/compat
+```
+
+---

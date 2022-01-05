@@ -1658,7 +1658,7 @@ return mailer.send({
 **Preact with esbuild**
 
 ```
-$ npm i preact @preact/compat
+$ npm i preact react@:npm@preact/compat react-dom@npm:@preact/compat
 $ npm i -D esbuild typescript
 ```
 
