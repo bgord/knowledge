@@ -1654,3 +1654,44 @@ return mailer.send({
 ```
 
 ---
+
+**Preact with esbuild**
+
+```
+$ npm i preact @preact/compat
+$ npm i -D esbuild typescript
+```
+
+```
+// frontend/index.tsx
+import { h, render } from "preact";
+import "@preact/compat";
+
+function App() {
+  return <div>preact</div>;
+}
+
+render(<App />, document.querySelector("#root") ?? document.body);
+
+// Running the watcher
+npx esbuild frontend/index.tsx \
+  --bundle \
+  --watch \
+  --outdir=static/
+
+// tsconfig.json
+{
+ "compilerOptions": {
+   "strict": true,
+   "esModuleInterop": true,
+   "jsx": "react",
+   "jsxFactory": "h",
+   "jsxFragmentFactory": "Fragment"
+ },
+}
+
+// Serving the file under /static/index.js, e.g
+<script async src="/index.js"></script>
+```
+
+---

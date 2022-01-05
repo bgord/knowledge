@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1276
+Total entries: 1277
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1119,6 +1119,7 @@ Total entries: 1276
 - Prettier format GraphQL string template literal
 - systemd enable vs start
 - nodemailer your email to kindle did not include any attachments
+- Preact with esbuild
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
