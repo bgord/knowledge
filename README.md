@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1278
+Total entries: 1279
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -181,6 +181,7 @@ Total entries: 1278
 - object: position
 - Show scrollbar only if it's needed
 - Remove step arrows from numeric input
+- Problem with ellipsis truncation and flexbox
 
 ### [cypress](cypress.md)
 - Assert document.title

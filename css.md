@@ -1027,3 +1027,9 @@ input[type="number"] {
 ```
 
 ---
+
+**Problem with ellipsis truncation and flexbox**
+
+[0](https://codepen.io/unthinkingly/pen/XMwJLG?editors=1100)
+
+---
