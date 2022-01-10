@@ -1033,3 +1033,12 @@ input[type="number"] {
 [0](https://codepen.io/unthinkingly/pen/XMwJLG?editors=1100)
 
 ---
+
+**Page breaks**
+
+```html
+<p style="page-break-before: always;">&nbsp;</p>
+<p style="page-break-after: always;">&nbsp;</p>
+```
+
+---
