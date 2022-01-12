@@ -1042,3 +1042,21 @@ input[type="number"] {
 ```
 
 ---
+
+**Gradients**
+
+If colors are vastly different, it's better to use HSL instead of RGB.
+
+RGB interpolates its three channels, so in the middle they can even out, creating gray.
+
+```css
+#gradient {
+  height: 50px;
+  width: 100%;
+  background: linear-gradient(45deg, hsl(17, 65%, 65%), hsl(315, 35%, 69%));
+}
+```
+
+[0](https://www.joshwcomeau.com/css/make-beautiful-gradients/)
+
+---
