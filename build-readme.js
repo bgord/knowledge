@@ -12,6 +12,7 @@ const pathsToSkip = [
   "package-lock.json",
   "package.json",
   "roadmap.md",
+  "movies.md",
 ];
 
 async function main() {
