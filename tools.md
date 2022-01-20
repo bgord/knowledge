@@ -1695,3 +1695,11 @@ npx esbuild frontend/index.tsx \
 ```
 
 ---
+
+**Open a file or url in a default application**
+
+```
+$xdg-open stats.html
+```
+
+---

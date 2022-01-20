@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1281
+Total entries: 1282
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1124,6 +1124,7 @@ Total entries: 1281
 - systemd enable vs start
 - nodemailer your email to kindle did not include any attachments
 - Preact with esbuild
+- Open a file or url in a default application
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
