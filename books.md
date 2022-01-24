@@ -154,6 +154,8 @@
 | The Grand Design                                                     | Stephen Hawking                     | 2021        | 200             | 4         | 4              | 1          |
 | Memories, dreams, reflections                                        | Carl Gustav Jung                    | 2021        | 430             | 4         | 4.05           | 1          |
 | Owning your own shadow                                               | Robert Johnson                      | 2022        | 118             | 4         | 4              | 1          |
+| Inner Work                                                           | Robert Johnson                      | 2022        | 221             | 5         | 4.3            | 1          |
+| Cash. Autobiografia                                                  | Johnny Cash                         | 2022        | 368             | 3         | 3.9            | 1          |
 
 # To read
 
