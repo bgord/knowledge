@@ -8,11 +8,12 @@ const pathsToSkip = [
   "books.md",
   "build-readme.js",
   "libs-and-techniques.md",
+  "movies.md",
   "node_modules",
   "package-lock.json",
   "package.json",
   "roadmap.md",
-  "movies.md",
+  "series.md",
 ];
 
 async function main() {
