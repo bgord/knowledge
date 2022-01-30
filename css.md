@@ -1060,3 +1060,13 @@ RGB interpolates its three channels, so in the middle they can even out, creatin
 [0](https://www.joshwcomeau.com/css/make-beautiful-gradients/)
 
 ---
+
+**Avoid website repositioning when scrollbar appears**
+
+```css
+html {
+  overflow-y: scroll;
+}
+```
+
+---
