@@ -1492,3 +1492,15 @@ type Brand<B extends string, T> = { _brand: B } & T;
 [0](https://spin.atomicobject.com/2018/01/15/typescript-flexible-nominal-typing/)
 
 ---
+
+**preact/compat type problem**
+
+```json
+{
+  "compilerOptions": {
+    "skipLibCheck": true
+  }
+}
+```
+
+---
