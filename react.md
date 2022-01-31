@@ -239,8 +239,6 @@ To dispatch an action onClick:
 
 ---
 
-**Lazy load component with lazy and Suspense**
-
 A component that we are going to lazy load. Remember about a default export.
 
 ```
@@ -1334,9 +1332,8 @@ const AuthenticatedApp = React.lazy(() =>
 ```tsx
 export const RegistrationWindow: React.FC = () => {
   const [password, setPassword] = React.useState<string>("");
-  const [passwordConfirmation, setPasswordConfirmation] = React.useState<
-    string
-  >("");
+  const [passwordConfirmation, setPasswordConfirmation] =
+    React.useState<string>("");
 
   return (
     <form className="mb-4 md:flex md:flex-wrap md:justify-between">
@@ -2271,9 +2268,8 @@ enum CopyToClipboardStateEnum {
 export function useCopyToClipboard(
   value: string
 ): [CopyToClipboardStateEnum, VoidFunction] {
-  const [copyToClipboardState, setCopyToClipboardState] = React.useState<
-    CopyToClipboardStateEnum
-  >(CopyToClipboardStateEnum.idle);
+  const [copyToClipboardState, setCopyToClipboardState] =
+    React.useState<CopyToClipboardStateEnum>(CopyToClipboardStateEnum.idle);
 
   React.useEffect(() => {
     let timeoutId: null | ReturnType<typeof setTimeout> = null;
@@ -2300,6 +2296,24 @@ export function useCopyToClipboard(
   }
 
   return [copyToClipboardState, copyToClipboard];
+}
+```
+
+---
+
+**preact-router SSR**
+
+```js
+// server
+const app = render(App({ ...initialData, url: request.url }));
+```
+
+```js
+// client
+export function App(props: InitialDataType) {
+  const { archiveArticles, archiveNewspapers, ...rest } = props;
+
+  return <Router url={props.url}>{}</Router>;
 }
 ```
 

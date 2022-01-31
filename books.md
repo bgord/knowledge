@@ -156,9 +156,12 @@
 | Owning your own shadow                                               | Robert Johnson                      | 2022        | 118             | 4         | 4              | 1          |
 | Inner Work                                                           | Robert Johnson                      | 2022        | 221             | 5         | 4.3            | 1          |
 | Cash. Autobiografia                                                  | Johnny Cash                         | 2022        | 368             | 3         | 3.9            | 1          |
+| Man and his symbols                                                  | Carl Gustav Jung                    | 2022        | 415             | 4         | 4.2            | 1          |
 
 # To read
 
+- https://www.goodreads.com/book/show/67891.The_Undiscovered_Self
+- https://www.goodreads.com/book/show/67885.The_Portable_Jung
 - Walden, Thoreau
 - W pogoni za słońcem, Linda Geddes
 - Guns, germs, steel
