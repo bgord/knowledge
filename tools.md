@@ -1703,3 +1703,11 @@ $xdg-open stats.html
 ```
 
 ---
+
+**Create a video from audio and image**
+
+```
+$ ffmpeg -r 1 -loop 1 -i image.png -i audio.wav -acodec copy -r 1 -shortest -vcodec libx264 utwor-nieznany.flv
+```
+
+---

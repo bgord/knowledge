@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1282
+Total entries: 1285
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -184,6 +184,7 @@ Total entries: 1282
 - Problem with ellipsis truncation and flexbox
 - Page breaks
 - Gradients
+- Avoid website repositioning when scrollbar appears
 
 ### [cypress](cypress.md)
 - Assert document.title
@@ -806,7 +807,6 @@ Total entries: 1282
 - How to fire a click event in r-t-l?
 - useReducer
 - Alternative syntax for React Fragment
-- Lazy load component with lazy and Suspense
 - How to useEffect?
 - What happens when the key of the element changes?
 - How to test components that utilize useEffect?
@@ -905,6 +905,7 @@ Total entries: 1282
 - Define a generic Box component using react-polymorphic-box
 - Gatsby - reorder head tags
 - useCopyToClipboard
+- preact-router SSR
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
@@ -1125,6 +1126,7 @@ Total entries: 1282
 - nodemailer your email to kindle did not include any attachments
 - Preact with esbuild
 - Open a file or url in a default application
+- Create a video from audio and image
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
@@ -1218,6 +1220,7 @@ Total entries: 1282
 - Override type property
 - nominal vs structural typings
 - Branded types
+- preact/compat type problem
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`
