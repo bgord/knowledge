@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1285
+Total entries: 1286
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -906,6 +906,7 @@ Total entries: 1285
 - Gatsby - reorder head tags
 - useCopyToClipboard
 - preact-router SSR
+- preact link active classname doesn't work
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?

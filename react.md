@@ -2318,3 +2318,11 @@ export function App(props: InitialDataType) {
 ```
 
 ---
+
+**preact link active classname doesn't work**
+
+```
+import {Link} from "preact-router/match";
+```
+
+---
