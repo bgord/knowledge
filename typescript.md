@@ -1517,3 +1517,21 @@ declare global {
 ```
 
 ---
+
+**Import assertions**
+
+TS 4.5+
+
+```
+import packageJson from "../package.json" assert {type: "json"};
+```
+
+```json
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  }
+}
+```
