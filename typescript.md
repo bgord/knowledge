@@ -1504,3 +1504,16 @@ type Brand<B extends string, T> = { _brand: B } & T;
 ```
 
 ---
+
+**Extend window object**
+
+```ts
+declare global {
+  interface Window {
+    BUILD_VERSION: string;
+    BUILD_DATE: number;
+  }
+}
+```
+
+---

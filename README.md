@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1286
+Total entries: 1287
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1222,6 +1222,7 @@ Total entries: 1286
 - nominal vs structural typings
 - Branded types
 - preact/compat type problem
+- Extend window object
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`
