@@ -2496,3 +2496,13 @@ $ node -r dotenv/config your_script.js dotenv_config_path=/custom/path/to/.env
 ```
 
 ---
+
+**Read current package version in node**
+
+```js
+import packageJson from "./package.json";
+
+echo(packageJson.version);
+```
+
+---

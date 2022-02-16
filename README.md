@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1287
+Total entries: 1288
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -671,6 +671,7 @@ Total entries: 1287
 - Email attachment as an embedded image
 - Example PM2 ecosystem file usage
 - dotenv custom config file
+- Read current package version in node
 
 ### [mysql](mysql.md)
 - Show all tables
