@@ -358,3 +358,47 @@ Math.sqrt(
 ```
 
 ---
+
+**Technical debt**
+
+Faster implementation of a feature with lower code quality.
+
+Mortgage metaphor - own a house before you have all the money.
+
+---
+
+**Refactoring**
+
+Change of an internal structure without changing observable behaviour.
+
+Think separately about:
+- what the function does (observable behaviour)
+- how the function does it (implementation details)
+
+---
+
+**Writing tests in a project where there are no tests**
+
+Find a method/function that has STABLE observable behaviour and test the behaviour - not the implementation details.
+Go through all method/function clients.
+
+---
+
+**Alpinist's refactoring rule**
+
+Either
+- add a new test case without changing implementation
+- change the implementation without changing test cases
+
+Don't do both these things at the same time, so the refactoring remains stable.
+
+---
+
+**Refactoring return of investment**
+
+If a function is stable - doesn't change often - it may not be the best investment to refactor it.
+
+How long refactoring would take?
+When will the investment be worthwile?
+
+---

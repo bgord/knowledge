@@ -998,3 +998,11 @@ git clone --branch dev git://github.com/foo/bar.git
 ```
 
 ---
+
+**Display most changed files**
+
+```
+git log --pretty=format: --name-only | sort | uniq -c | sort -rg | head -10
+```
+
+---

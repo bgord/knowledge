@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1289
+Total entries: 1295
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -94,6 +94,11 @@ Total entries: 1289
 - Favicon size
 - DNS records
 - Perceived brightness of a color
+- Technical debt
+- Refactoring
+- Writing tests in a project where there are no tests
+- Alpinist's refactoring rule
+- Refactoring return of investment
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
@@ -446,6 +451,7 @@ Total entries: 1289
 - Stash only hunks
 - Git clone with submodules
 - Git clone and checkout a branch
+- Display most changed files
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?
