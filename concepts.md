@@ -372,6 +372,7 @@ Mortgage metaphor - own a house before you have all the money.
 Change of an internal structure without changing observable behaviour.
 
 Think separately about:
+
 - what the function does (observable behaviour)
 - how the function does it (implementation details)
 
@@ -387,6 +388,7 @@ Go through all method/function clients.
 **Alpinist's refactoring rule**
 
 Either
+
 - add a new test case without changing implementation
 - change the implementation without changing test cases
 
@@ -400,5 +402,15 @@ If a function is stable - doesn't change often - it may not be the best investme
 
 How long refactoring would take?
 When will the investment be worthwile?
+
+---
+
+**General refactoring path**
+
+- Name the problem
+- Locate the problem
+- Prepare the refactoring plan
+- Introduce the change
+- Observce the effects
 
 ---

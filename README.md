@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1295
+Total entries: 1296
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -99,6 +99,7 @@ Total entries: 1295
 - Writing tests in a project where there are no tests
 - Alpinist's refactoring rule
 - Refactoring return of investment
+- General refactoring path
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
