@@ -158,22 +158,13 @@
 | Cash. Autobiografia                                                  | Johnny Cash                         | 2022        | 368             | 3         | 3.9            | 1          |
 | Man and his symbols                                                  | Carl Gustav Jung                    | 2022        | 415             | 4         | 4.2            | 1          |
 | Modern man in search of a soul                                       | Carl Gustav Jung                    | 2022        | 244             | 4         | 4.2            | 1          |
+| The undiscovered self                                                | Carl Gustav Jung                    | 2022        | 244             | 4         | 4.2            | 1          |
 
 # To read
 
-- https://www.goodreads.com/book/show/67891.The_Undiscovered_Self
-- https://www.goodreads.com/book/show/67885.The_Portable_Jung
 - https://www.goodreads.com/book/show/565806.Psychological_Types
 - https://www.goodreads.com/book/show/2668246-inner-gold
 - https://www.goodreads.com/book/show/482105.Transformation
-- Walden, Thoreau
-- W pogoni za słońcem, Linda Geddes
-- Guns, germs, steel
-- Carl Sagan
-- Lato utraconych, Anna Kańtoch
-- Event Storming, Alberto Brandollini
-- Fooled by Randomness, Nassim Nicholas Taleb
-- The Minds of Billy Milligan, Daniel Keyes
 - The Data Model Resource Book, Volume 1, Len Silverston
 - Software Architecture for Developers, Simon Brown
 - Analysis Patterns: Reusable Object Models, Martin Fowler
