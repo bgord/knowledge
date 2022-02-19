@@ -1535,3 +1535,48 @@ import packageJson from "../package.json" assert {type: "json"};
   }
 }
 ```
+
+**Abstract classes**
+
+Base abstract class:
+
+- `abstract class` syntax
+- `abstract generateCss(): string;` for methods that will be implemented by a subclass
+
+```ts
+export abstract class AbstractGenerator {
+  name: string;
+
+  constructor(name: string) {
+    this.name = name;
+  }
+
+  generateHeader(): string {
+    return `/* ${this.name} */\n\n`;
+  }
+  abstract generateCss(): string;
+
+  generateFooter(): string {
+    return "/* ===================== */\n\n";
+  }
+}
+```
+
+Client class:
+
+- `extends AbstractGenerator` to consume the base abstract class
+- if the base abstract class has a constructor, `super` has to be called
+
+```ts
+export class PositionersGenerator extends AbstractGenerator {
+  constructor() {
+    super("Positioners");
+  }
+
+  generateCss(): string {
+    return "ok";
+  }
+}
+```
+
+---

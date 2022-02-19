@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1297
+Total entries: 1298
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1233,6 +1233,7 @@ Total entries: 1297
 - preact/compat type problem
 - Extend window object
 - Import assertions
+- Abstract classes
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`
