@@ -1070,3 +1070,20 @@ html {
 ```
 
 ---
+
+**Validate a11y violations by CSS**
+
+```css
+[data-transform="truncate"]:not(title) {
+  position: relative;
+}
+
+[data-transform="truncate"]:not(title):after {
+  background: red;
+  position: absolute;
+  inset: 0;
+  content: '#1: Add the title tooltip when using data-transform="truncate"';
+}
+```
+
+---

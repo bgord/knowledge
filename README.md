@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1296
+Total entries: 1297
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -191,6 +191,7 @@ Total entries: 1296
 - Page breaks
 - Gradients
 - Avoid website repositioning when scrollbar appears
+- Validate a11y violations by CSS
 
 ### [cypress](cypress.md)
 - Assert document.title
