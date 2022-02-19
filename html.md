@@ -457,3 +457,19 @@ Available contexts:
 - true (represents the current item within a set)
 
 ---
+
+**Target blank vulnerability**
+
+```html
+<a href="https://google.com" target="_blank" rel="noopener noreferrer">
+  Link
+</a>
+```
+
+The rel attribute defines the relationship between a linked resource and the current document.
+
+noopener tells the browser to navigate to the target without granting access to the parent that opened it. Target tab Window.opener will be null.
+
+noreferrer prevents the browser, when navigating to target, to send to the parent the address or any other value as referrer via the referer HTTP header. Note that this HTTP header name is intentionally misspelled as "referrer."
+
+---

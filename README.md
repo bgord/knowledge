@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1298
+Total entries: 1299
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -502,6 +502,7 @@ Total entries: 1298
 - Google and localized content
 - Display base64 encoded image
 - aria-current
+- Target blank vulnerability
 
 ### [js](js.md)
 - RegExp for digits
