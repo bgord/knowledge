@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1299
+Total entries: 1300
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -681,6 +681,7 @@ Total entries: 1299
 - Example PM2 ecosystem file usage
 - dotenv custom config file
 - Read current package version in node
+- Access user timezone offset in minutes
 
 ### [mysql](mysql.md)
 - Show all tables

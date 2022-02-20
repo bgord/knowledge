@@ -2506,3 +2506,11 @@ echo(packageJson.version);
 ```
 
 ---
+
+**Access user timezone offset in minutes**
+
+```
+new Date().getTimezoneOffset().toString()
+```
+
+---

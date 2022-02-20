@@ -159,6 +159,7 @@
 | Man and his symbols                                                  | Carl Gustav Jung                    | 2022        | 415             | 4         | 4.2            | 1          |
 | Modern man in search of a soul                                       | Carl Gustav Jung                    | 2022        | 244             | 4         | 4.2            | 1          |
 | The undiscovered self                                                | Carl Gustav Jung                    | 2022        | 244             | 4         | 4.2            | 1          |
+| Ostatnie Życzenie                                                    | Andrzej Sapkowski                   | 2022        | 330             | 4         | 4.1            | 1          |
 
 # To read
 
