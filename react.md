@@ -2326,3 +2326,48 @@ import {Link} from "preact-router/match";
 ```
 
 ---
+
+**Setup component library**
+
+microbundle - https://github.com/developit/microbundle
+
+```json
+{
+  "name": "@bgord/frontend",
+  "type": "module",
+  "source": "index.tsx",
+  "exports": {
+    "require": "./dist/bgord-frontend.cjs",
+    "default": "./dist/bgord-frontend.modern.js"
+  },
+  "main": "./dist/bgord-frontend.cjs",
+  "module": "./dist/bgord-frontend.module.js",
+  "unpkg": "./dist/bgord-frontend.umd.js",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "microbundle"
+  },
+  "keywords": [],
+  "author": "Bartosz Gordon",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "microbundle": "^0.14.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.5.5"
+  }
+}
+```
+
+---
+
+**#3 rule of hooks validation error in React component libraries**
+
+When testing a newly created React component library via npm `file:../*` syntax,
+beware it may result in React duplication, the problem should disappear
+if you move the library to GH/npm.
+
+---

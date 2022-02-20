@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1303
+Total entries: 1305
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -921,6 +921,8 @@ Total entries: 1303
 - useCopyToClipboard
 - preact-router SSR
 - preact link active classname doesn't work
+- Setup component library
+- #3 rule of hooks validation error in React component libraries
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
