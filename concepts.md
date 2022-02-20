@@ -414,3 +414,11 @@ When will the investment be worthwile?
 - Observce the effects
 
 ---
+
+**Event Storming types**
+
+- Big Picture
+- Process Level
+- Design Level
+
+---
