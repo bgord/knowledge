@@ -417,8 +417,33 @@ When will the investment be worthwile?
 
 **Event Storming types**
 
+As is - current project with all challanges and quirks
+To be - current project in the future, improved
+
 - Big Picture
+  - high level overview of a project
+  - sequence of events over time
+  - starting with business-oriented events
 - Process Level
 - Design Level
+
+---
+
+**Domain events**
+
+- important changes in a business process
+- not implementation oriented
+- in past tense (item added to cart)
+- connect the business language with code (WHAT with HOW)
+- everyone involved in the project has to understand them
+
+---
+
+**Hot spots**
+
+Existing or potential project or business process problem, 
+Questions with no answers.
+Doubts.
+Risks.
 
 ---

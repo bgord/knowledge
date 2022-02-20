@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1301
+Total entries: 1303
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -101,6 +101,8 @@ Total entries: 1301
 - Refactoring return of investment
 - General refactoring path
 - Event Storming types
+- Domain events
+- Hot spots
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
