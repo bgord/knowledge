@@ -555,6 +555,10 @@ article[data-columns='3'] { width: 400px; }
 div[data-state="editing"] {
 }
 
+// separated by whitespace
+div[data-state~="editing"] {
+}
+
 // containing
 div[data-state*="editing"] {
 }
