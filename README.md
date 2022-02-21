@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1305
+Total entries: 1308
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -923,6 +923,8 @@ Total entries: 1305
 - preact link active classname doesn't work
 - Setup component library
 - #3 rule of hooks validation error in React component libraries
+- Types for CSS properties/styles
+- Context with generic types
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
@@ -1144,6 +1146,7 @@ Total entries: 1305
 - Preact with esbuild
 - Open a file or url in a default application
 - Create a video from audio and image
+- microbundle Cannot find name h error
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

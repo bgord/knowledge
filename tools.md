@@ -1711,3 +1711,11 @@ $ ffmpeg -r 1 -loop 1 -i image.png -i audio.wav -acodec copy -r 1 -shortest -vco
 ```
 
 ---
+
+**microbundle Cannot find name h error**
+
+```
+microbundle --jsx React.createElement
+```
+
+---

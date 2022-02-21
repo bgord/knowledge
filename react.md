@@ -2371,3 +2371,45 @@ beware it may result in React duplication, the problem should disappear
 if you move the library to GH/npm.
 
 ---
+
+**Types for CSS properties/styles**
+
+```
+React.CSSProperties;
+```
+
+---
+
+**Context with generic types**
+
+```ts
+export type BaseToastType = {
+  id: string;
+  message: string;
+};
+
+type ToastsContextDataType<ToastType extends BaseToastType = BaseToastType> =
+  ToastType[];
+
+const ToastsContext = createContext<ToastsContextDataType | undefined>(
+  undefined
+);
+
+export function useToastsContext<
+  ToastType extends BaseToastType = BaseToastType
+>() {
+  const context = useContext<ToastsContextDataType<ToastType>>(
+    ToastsContext as unknown as Context<ToastsContextDataType<ToastType>>
+  );
+
+  if (context === undefined) {
+    throw new Error(`useToasts must be used within the ToastsContextProvider`);
+  }
+
+  return context;
+}
+```
+
+[0](https://hipsterbrown.com/musings/musing/react-context-with-generics/)
+
+---
