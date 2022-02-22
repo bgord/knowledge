@@ -131,3 +131,27 @@ $ npm i react@:npm@preact/compat
 ```
 
 ---
+
+**Automatically create a script in the package.json**
+
+```
+$ npm set-script prepare "husky install"
+$ npm run prepare
+
+```
+
+---
+
+**Publish a scoped package**
+
+```
+$ npm publish --access public
+```
+
+---
+
+**Perform a script before publishing**
+
+- Add a `prepare` script to the npm scripts section
+
+---

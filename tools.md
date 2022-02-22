@@ -1719,3 +1719,40 @@ microbundle --jsx React.createElement
 ```
 
 ---
+
+**sytemd enable vs start**
+
+Enable makes a service launch on boot
+
+Start just launches a service.
+
+---
+
+**Fix Lighthouse's passive listeners warning**
+
+[0](https://stackoverflow.com/questions/60357083/does-not-use-passive-listeners-to-improve-scrolling-performance-lighthouse-repo/62177358#62177358)
+
+---
+
+**Create an example ffmpeg mp4 video**
+
+```bash
+$ ffmpeg -f lavfi -i rgbtestsrc -pix_fmt yuv420p -t 30 rgbtestsrc.mp4
+```
+
+---
+
+**WebP**
+
+Originates from WebM video codec.
+
+WebM supports infra-frame compression - each frame is compressed, and then differences between frames are also compressed.
+
+WebP is a single frame of WebM file.
+
+WebP can be both lossy or lossless.
+
+It takes a pixel and applies a range of predictions of what would adjacent pixels look like.
+Then it applies sort of a Huffman encoding.
+
+---

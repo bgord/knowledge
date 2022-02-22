@@ -496,3 +496,11 @@ $ sed -i "s/{{PROJECT_NAME}}/$PROJECT_NAME/g" scripts/staging-server-start.sh
 ```
 
 ---
+
+**History with timestamps**
+
+```
+$ history -E
+```
+
+---

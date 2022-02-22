@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1308
+Total entries: 1316
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -66,6 +66,7 @@ Total entries: 1308
 - Get git repository name
 - Unary operator expected error
 - Find and replace with sed
+- History with timestamps
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
@@ -714,6 +715,9 @@ Total entries: 1308
 - Composing npm scripts
 - npm uninstall alias
 - alias package
+- Automatically create a script in the package.json
+- Publish a scoped package
+- Perform a script before publishing
 
 ### [other](other.md)
 - Firefox's engine
@@ -1147,6 +1151,10 @@ Total entries: 1308
 - Open a file or url in a default application
 - Create a video from audio and image
 - microbundle Cannot find name h error
+- sytemd enable vs start
+- Fix Lighthouse's passive listeners warning
+- Create an example ffmpeg mp4 video
+- WebP
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

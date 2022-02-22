@@ -441,7 +441,7 @@ To be - current project in the future, improved
 
 **Hot spots**
 
-Existing or potential project or business process problem, 
+Existing or potential project or business process problem,
 Questions with no answers.
 Doubts.
 Risks.
