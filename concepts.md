@@ -359,95 +359,6 @@ Math.sqrt(
 
 ---
 
-**Technical debt**
-
-Faster implementation of a feature with lower code quality.
-
-Mortgage metaphor - own a house before you have all the money.
-
----
-
-**Refactoring**
-
-Change of an internal structure without changing observable behaviour.
-
-Think separately about:
-
-- what the function does (observable behaviour)
-- how the function does it (implementation details)
-
----
-
-**Writing tests in a project where there are no tests**
-
-Find a method/function that has STABLE observable behaviour and test the behaviour - not the implementation details.
-Go through all method/function clients.
-
----
-
-**Alpinist's refactoring rule**
-
-Either
-
-- add a new test case without changing implementation
-- change the implementation without changing test cases
-
-Don't do both these things at the same time, so the refactoring remains stable.
-
----
-
-**Refactoring return of investment**
-
-If a function is stable - doesn't change often - it may not be the best investment to refactor it.
-
-How long refactoring would take?
-When will the investment be worthwile?
-
----
-
-**General refactoring path**
-
-- Name the problem
-- Locate the problem
-- Prepare the refactoring plan
-- Introduce the change
-- Observce the effects
-
----
-
-**Event Storming types**
-
-As is - current project with all challanges and quirks
-To be - current project in the future, improved
-
-- Big Picture
-  - high level overview of a project
-  - sequence of events over time
-  - starting with business-oriented events
-- Process Level
-- Design Level
-
----
-
-**Domain events**
-
-- important changes in a business process
-- not implementation oriented
-- in past tense (item added to cart)
-- connect the business language with code (WHAT with HOW)
-- everyone involved in the project has to understand them
-
----
-
-**Hot spots**
-
-Existing or potential project or business process problem,
-Questions with no answers.
-Doubts.
-Risks.
-
----
-
 **Being, behaving, becomming**
 
 Being, what is it?
@@ -812,5 +723,107 @@ https://sjp.pwn.pl/poradnia/haslo/Zgodnie-z;13215.html
 
 Co do praktyki językowej, nie jestem przekonany... (przecinek/bez przecinka)
 https://sjp.pwn.pl/poradnia/haslo/co-do;7350.html
+
+---
+
+**Technical debt**
+
+Faster implementation of a feature with lower code quality.
+
+Mortgage metaphor - own a house before you have all the money.
+
+---
+
+**Refactoring**
+
+Change of an internal structure without changing observable behaviour.
+
+Think separately about:
+
+- what the function does (observable behaviour)
+- how the function does it (implementation details)
+
+---
+
+**Writing tests in a project where there are no tests**
+
+Find a method/function that has STABLE observable behaviour and test the behaviour - not the implementation details.
+Go through all method/function clients.
+
+---
+
+**Alpinist's refactoring rule**
+
+Either
+
+- add a new test case without changing implementation
+- change the implementation without changing test cases
+
+Don't do both these things at the same time, so the refactoring remains stable.
+
+---
+
+**Refactoring return of investment**
+
+If a function is stable - doesn't change often - it may not be the best investment to refactor it.
+
+How long refactoring would take?
+When will the investment be worthwile?
+
+---
+
+**General refactoring path**
+
+- Name the problem
+- Locate the problem
+- Prepare the refactoring plan
+- Introduce the change
+- Observce the effects
+
+---
+
+**Event Storming types**
+
+Each of them should have a GOAL (map business process, introduce new people).
+
+As is - current project with all challanges and quirks
+To be - current project in the future, improved
+
+- Big Picture
+- Process Level
+- Design Level
+
+---
+
+**Domain events**
+
+- important changes in a business process
+- not implementation oriented
+- in past tense (item added to cart)
+- connect the business language with code (WHAT with HOW)
+- everyone involved in the project has to understand them
+- avoid "updated", "changed" as they tend to hide complexity
+
+---
+
+**Hot spots**
+
+Existing or potential project or business process problem,
+Questions with no answers.
+Doubts.
+Risks.
+
+---
+
+**Big Picture Event Storming**
+
+- high level overview of a project
+- sequence of events over time
+- starting with business-oriented events
+- don't worry about repeating events
+- map events to places in code (!)
+- add external services
+- add actors
+- add hot spots
 
 ---

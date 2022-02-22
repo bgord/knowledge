@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1374
+Total entries: 1375
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -100,15 +100,6 @@ Total entries: 1374
 - Favicon size
 - DNS records
 - Perceived brightness of a color
-- Technical debt
-- Refactoring
-- Writing tests in a project where there are no tests
-- Alpinist's refactoring rule
-- Refactoring return of investment
-- General refactoring path
-- Event Storming types
-- Domain events
-- Hot spots
 - Being, behaving, becomming
 - Circuit breaker
 - Conway's law
@@ -132,6 +123,16 @@ Total entries: 1374
 - Scripts for each project task
 - Running multiple service instances with systemd
 - Przecinki
+- Technical debt
+- Refactoring
+- Writing tests in a project where there are no tests
+- Alpinist's refactoring rule
+- Refactoring return of investment
+- General refactoring path
+- Event Storming types
+- Domain events
+- Hot spots
+- Big Picture Event Storming
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
