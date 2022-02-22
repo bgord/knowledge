@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1326
+Total entries: 1360
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -71,6 +71,7 @@ Total entries: 1326
 - Readonly keyword
 - Declare keyword
 - Merge lines of two files without duplicates
+- Trap exit command
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
@@ -110,6 +111,21 @@ Total entries: 1326
 - Hot spots
 - Being, behaving, becomming
 - Circuit breaker
+- Conway's law
+- Writing good documentation
+- DNS records
+- God class
+- Inner platform effect
+- Dreyfus model of skill acquisition
+- Estimates
+- Exponential backoff
+- Footer copyrights and all rights reserved
+- Image SEO
+- REMEMBER:
+- EXAMPLE:
+- EXAMPLE:
+- Image optimisation
+- Keeping a bugfix log
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
@@ -204,6 +220,8 @@ Total entries: 1326
 - Validate a11y violations by CSS
 - contain property
 - Don't wait for the second tap
+- Fallback background image
+- CSS preloading
 
 ### [cypress](cypress.md)
 - Assert document.title
@@ -326,6 +344,7 @@ Total entries: 1326
 - will vs going to vs present continuous
 - tiny vs small
 - I plan to vs I'm planning to
+- later vs later on
 
 ### [flutter](flutter.md)
 - New flutter app
@@ -515,6 +534,7 @@ Total entries: 1326
 - Display base64 encoded image
 - aria-current
 - Target blank vulnerability
+- Nesting lists
 
 ### [js](js.md)
 - RegExp for digits
@@ -694,6 +714,8 @@ Total entries: 1326
 - dotenv custom config file
 - Read current package version in node
 - Access user timezone offset in minutes
+- JS dates in safari
+- Check if intersection observer is available
 
 ### [mysql](mysql.md)
 - Show all tables
@@ -709,6 +731,10 @@ Total entries: 1326
 - Redirect a subdomain to a specific port
 - nginx config file
 - http2 support
+- Force https
+- Force http to https redirect
+- Add gzip support
+- Hide nginx version in requests
 
 ### [npm](npm.md)
 - npm ci
@@ -1164,6 +1190,13 @@ Total entries: 1326
 - Create an example ffmpeg mp4 video
 - WebP
 - Brotli compression in gatsby
+- Check what a domain resolves to
+- Check what a domain resolves to with given DNS server IP
+- Do nothing scripts
+- Configure a WordPress site with nginx reverse-proxy
+- Execute a command when file changes
+- Generate random strng
+- Get last frame from a video with ffmpeg
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
@@ -1262,6 +1295,7 @@ Total entries: 1326
 - Import assertions
 - Abstract classes
 - @ts-expect-error
+- Instanceof doesn't work for custom errors
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

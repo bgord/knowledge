@@ -1774,3 +1774,136 @@ Generate brotli files for a Gatsby app:
 ```
 
 ---
+
+**Check what a domain resolves to**
+
+```
+$ nslookup www.example.com
+```
+
+---
+
+**Check what a domain resolves to with given DNS server IP**
+
+```
+$ nslookup www.example.com 8.8.8.8
+```
+
+---
+
+**Do nothing scripts**
+
+The very first step in an attempt to automate a manual or semi-manual process.
+
+Create a script that merely display steps that are required to accomplish a goal.
+Make pressing the Enter key go to the next step.
+Display comments, commands, and helpful messages.
+As the time passes, automate some of the steps.
+End up automating the whole process.
+
+https://blog.danslimmon.com/2019/07/15/do-nothing-scripting-the-key-to-gradual-automation/
+
+---
+
+**Configure a WordPress site with nginx reverse-proxy**
+
+docker-compose.yml
+
+```
+version: "3.9"
+
+services:
+  db:
+    image: mysql:5.7
+    volumes:
+      - ./db_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: secret
+
+  wordpress:
+    depends_on:
+      - db
+    image: wordpress:latest
+    volumes:
+      - ./wordpress_data:/var/www/html
+    ports:
+      - "8005:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: secret
+      WORDPRESS_DB_NAME: wordpress
+volumes:
+  db_data:
+  wordpress_data:
+```
+
+Standard nginx reverse-proxy:
+
+```
+server {
+        auth_basic "Welcome to UFD!";
+
+        listen 80;
+        server_name ufd-test.bgord.me www.ufd-test.bgord.me;
+        location / {
+                proxy_pass http://localhost:8005;
+                proxy_set_header Host $host;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                proxy_connect_timeout 150;
+                proxy_send_timeout 100;
+                proxy_read_timeout 100;
+                proxy_buffers 4 32k;
+                client_max_body_size 8m;
+                client_body_buffer_size 128k;
+        }
+
+        listen 443 ssl;
+        ssl_certificate /etc/letsencrypt/live/bgord.me/fullchain.pem;
+        ssl_certificate_key /etc/letsencrypt/live/bgord.me/privkey.pem;
+
+        if ($scheme = http) {
+                return 301 https://$server_name$request_uri;
+        }
+}
+```
+
+To resolve the `Blocked loading mixed active content “http://*.bgord.me/wp-includes/css/dashicons.min.css?ver=5.8.2”` error, add to `wp-config.php`.
+
+```
+$_SERVER['HTTPS'] = 'on';
+```
+
+---
+
+**Execute a command when file changes**
+
+```
+$ ls static | entr -s "npx "
+```
+
+https://www.cloudsavvyit.com/5736/how-to-run-a-linux-command-when-a-file-set-changes/
+
+---
+
+**Generate random strng**
+
+```
+$ openssl rand -base64 <length>
+```
+
+---
+
+**Get last frame from a video with ffmpeg**
+
+```
+ffmpeg -sseof -3 -i video.mp4 -update 1 -q:v 1 last-frame.jpg
+```
+
+---

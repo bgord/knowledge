@@ -483,3 +483,182 @@ You can trigger some monitoring alert when the circuit breaks.
 https://github.com/nodeshift/opossum
 
 ---
+
+**Conway's law**
+
+Conway's law states that organization's system architecture is the copy of the organization's communication paths .
+
+If the organization's communication is mess, the system will be messy too.
+
+---
+
+**Writing good documentation**
+
+https://documentation.divio.com/
+
+---
+
+**DNS records**
+
+DNS records map host names to to one or more IP addresses.
+
+`A` - points a name to a specific IP address
+
+```
+blog.dnsimple.com.     A        185.31.17.133
+```
+
+`CNAME` - points a name to another name, and follows its redirects
+
+```
+blog.dnsimple.com.      CNAME   aetrion.github.io.
+```
+
+It's possible to define a wildcard DNS record (either A or CNAME), so it handles all subdomains you haven't covered yet.
+
+`TXT` - allows to place a text associated with the host, can be used to verify ownership
+
+---
+
+**God class**
+
+An anti-pattern, a class that does too much or knows too much.
+
+Probably has low cohesion and high coupling.
+
+---
+
+**Inner platform effect**
+
+It's an anti-pattern that can also be called overgeneralization.
+
+Happens when a class or a function implements tries to handle so many use cases by different parameters, that it no longer provides any abstraction.
+
+Examples:
+
+- an input React component that has all the attributes/handlers defined/redefined as props
+- a database query constructing function that takes field names, table name, and returned fields as parameters
+
+[0](https://thedailywtf.com/articles/The_Inner-Platform_Effect)
+
+---
+
+**Dreyfus model of skill acquisition**
+
+This model presents stages of competence in a particular field.
+
+1. Novice
+
+- you need someone to explain the task step by step
+- you have no intuition
+- you don't see the bigger picture
+
+2. Advanced beginner
+
+- you formulate basic rules
+- you still can't see the bigger picture
+- you still struggle with technical issues
+- you still need someone to help you, fast!
+
+To sum up, you need to be told how and what to do.
+
+3. Competent
+
+- you no longer struggle with technical issues
+- you are able to see the goal
+- you are able to plan steps towards that goal yourself
+- you are able to create conceptual models of problems
+- you make your own rules, follow, and verify them
+
+We are able to get there by linear progress - by repetition.
+
+4. Proficient
+
+- high jump in terms of quality, you need to solve a different set of problems
+- analogies
+- goal in different contexts
+- you are able to see the bigger picture, but it's kind of a shock - your small bubble is not everything
+
+5. Expert
+
+- you've gathered almost all the knowledge in a field lead by proficiency and curiosity
+- you look for analogies from different domains (biology, architecture?)
+- you develop intuition!
+
+---
+
+**Estimates**
+
+Provide three estimates instead of one fixed point in time:
+
+- optimistic (you're most probably won't be able to finish the task under this time)
+- realistic (your gut feeling)
+- pessimistic (the scenario in which everything goes wrong)
+
+For example: 2h, 8h, 48h.
+
+---
+
+**Exponential backoff**
+
+A strategy to retry an operation that can fail with exponential delays between attempts.
+
+e.g: 1s, 2s, 4s, 8s, 16s
+
+---
+
+**Footer copyrights and all rights reserved**
+
+They have no value.
+
+---
+
+**Image SEO**
+
+Images should be relevant. If the content is about miners, the best image to include is an image of one of our ASIC miners. Do not include random, abstract images of skyscrapers or pickaxes. Remember that images must also clear legal.
+
+**REMEMBER:**
+It is EXTREMELY important to put Page Load Speeds and Core Web Vitals FIRST.
+
+**EXAMPLE:**
+
+- BAD: IMG123#$.png
+- BETTER: kitten_with_blocks.jpeg
+- BEST: best_cat_toys_kitten_blocks.jpeg
+
+Using Alt Text:
+
+- Descriptive Text
+- Useful
+- Keywords
+
+Here’s what Google says:
+
+> When choosing alt text, focus on creating useful, information-rich content that uses keywords appropriately and is in context of the content of the page. Avoid filling alt attributes with keywords (keyword stuffing) as it results in a negative user experience and may cause your site to be seen as spam.
+
+**EXAMPLE:**
+
+- BAD: Best cat toys on Amazon kitten blocks.
+- BETTER: Kitten playing with blocks.
+- BEST: Kitten playing with best cat toys from Amazon.
+
+PRO TIP: The best way to decide what the alt tag should be is to finish this sentence:
+
+“This is a(n) image/screenshot/photograph/drawing of...”
+
+---
+
+**Image optimisation**
+
+https://imagecompressor.com/
+https://tinypng.com/
+
+---
+
+**Keeping a bugfix log**
+
+If a commit is bugfix-related, write a description of it.
+
+Then, you can cluster the bugs, and figure out a way to improve the process or even never let it happen again.
+
+---

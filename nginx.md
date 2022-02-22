@@ -167,3 +167,67 @@ server {
 ```
 
 ---
+
+**Force https**
+
+```
+server {
+        listen 80;
+        root /var/www/blog;
+        server_name bartoszgordon.com www.bartoszgordon.com;
+        error_page 404 /404;
+        location / {
+                try_files $uri $uri/ =404;
+        }
+        if ($scheme != "https") {
+                return 301 https://$host$request_uri;
+        }
+}
+```
+
+---
+
+**Force http to https redirect**
+
+```
+server {
+        listen 80;
+        root /var/www/wlozka;
+        server_name middleearth.pl www.middleearth.pl;
+        location / {
+                try_files $uri $uri/ =404;
+        }
+
+        listen 443 ssl;
+        ssl_certificate /etc/letsencrypt/live/middleearth.pl/fullchain.pem;
+        ssl_certificate_key /etc/letsencrypt/live/middleearth.pl/privkey.pem;
+
+        if ($scheme = http) {
+                return 301 https://$server_name$request_uri;
+        }
+}
+```
+
+---
+
+**Add gzip support**
+
+```
+location / {
+    gzip_static on;
+}
+```
+
+---
+
+**Hide nginx version in requests**
+
+```
+http{
+    ...
+    server_tokens off;
+    ...
+}
+```
+
+---

@@ -2514,3 +2514,27 @@ new Date().getTimezoneOffset().toString()
 ```
 
 ---
+
+**JS dates in safari**
+
+Something to be aware of: dates in the `yyyy-MM-dd hh:mm` are not parsed correctly when passed to `new Date()` in Safari (all other browsers work correctly in that department).
+
+The solution is to use `parse()` from `date-fns`, and don't rely on the native date string parsing.
+
+https://stackoverflow.com/questions/6427204/date-parsing-in-javascript-is-different-between-safari-and-chrome
+
+---
+
+**Check if intersection observer is available**
+
+```js
+if (
+  !("IntersectionObserver" in window) ||
+  !("IntersectionObserverEntry" in window) ||
+  !("intersectionRatio" in window.IntersectionObserverEntry.prototype)
+) {
+  // load polyfill now
+}
+```
+
+---

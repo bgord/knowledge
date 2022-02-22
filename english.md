@@ -139,3 +139,15 @@ I plan to learn GraphQL. -> implies that I'm in the process of planning or I'm g
 I'm planning to learn GraphQL. -> implies that I may be literally now in the process of planning
 
 ---
+
+**later vs later on**
+
+`Later` means some after some unspecified amount of time
+I'm going to the cinema later.
+
+`Later on` means "later", but there's been an arrangement
+I'll see you later on.
+
+In general they're mostly interchangeable.
+
+---

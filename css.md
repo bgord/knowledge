@@ -1111,3 +1111,19 @@ touch-action: manipulation;
 ```
 
 ---
+
+**Fallback background image**
+
+```
+background-image: url('main.png'), url('fallback.jpg');
+```
+
+---
+
+**CSS preloading**
+
+```
+<link as="style" rel="stylesheet preload" href="/normalize.min.css" />
+```
+
+---

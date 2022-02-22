@@ -554,3 +554,27 @@ $ sort --unique file file2 > file 3
 ```
 
 ---
+
+**Trap exit command**
+
+`trap` is a command that can execute a command or a function after receiving a signal.
+
+It's useful to e.g cleanup all intermediary files after script's exit. For that exact purpose an artificial EXIT signal has been created.
+
+SIGINT is also supported - the one that gets sent after Ctrl + C.
+
+```
+touch /tmp/test.log.file
+
+for i in $(seq 1 5); do echo "step: $i"; done
+
+trap "rm /tmp/test.log.file" EXIT
+
+# OR
+function cleanup() {
+	touch /tmp/test.log.file
+}
+trap cleanup SIGINT
+```
+
+---

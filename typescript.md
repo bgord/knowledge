@@ -1591,3 +1591,22 @@ It's different than @ts-ignore in that respect that @ts-ignore doesn't care if a
 Useful in tests, when purposefully passing an error value.
 
 ---
+
+**Instanceof doesn't work for custom errors**
+
+It happens when you use TypeScript and compile to `ES5` target.
+
+- update to ES6/ES2015 target
+- manually set the prototype
+
+```typescript
+class DatabaseError extends Error {
+  constructor() {
+    super();
+
+    Object.setPrototypeOf(this, DatabaseError.prototype);
+  }
+}
+```
+
+---
