@@ -447,3 +447,39 @@ Doubts.
 Risks.
 
 ---
+
+**Being, behaving, becomming**
+
+Being, what is it?
+
+- what are its properties?
+- how numerous is it?
+- data structure
+- nouns
+
+Behaving, what is it doing?
+
+- what is changing?
+- how often does it change?
+- who changes it?
+- why do they change it?
+- can we repeat the change?
+- can we cancel/withdraw the change?
+
+Becoming, what does change into?
+
+- does it always change into this thing?
+- how is the new thing different?
+
+---
+
+**Circuit breaker**
+
+Circuit breaker is an object that is used to wrap an async function that can fail.
+If it starts to fail too much, the circuit breaker no longer calls the function and plays dead.
+
+You can trigger some monitoring alert when the circuit breaks.
+
+https://github.com/nodeshift/opossum
+
+---

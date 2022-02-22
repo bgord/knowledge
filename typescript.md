@@ -1580,3 +1580,14 @@ export class PositionersGenerator extends AbstractGenerator {
 ```
 
 ---
+
+**@ts-expect-error**
+
+Tells TypeScript compiler to expect an error in the line bellow.
+TS will report if no actual error was found.
+
+It's different than @ts-ignore in that respect that @ts-ignore doesn't care if an actual error is there.
+
+Useful in tests, when purposefully passing an error value.
+
+---

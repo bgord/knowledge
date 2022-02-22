@@ -1756,3 +1756,21 @@ It takes a pixel and applies a range of predictions of what would adjacent pixel
 Then it applies sort of a Huffman encoding.
 
 ---
+
+**Brotli compression in gatsby**
+
+File extension: `.br`
+
+Generate brotli files for a Gatsby app:
+
+- install `gatsby-plugin-brotli`
+- add the following config to `gatsby-config.js`:
+
+```
+  {
+    resolve: "gatsby-plugin-brotli",
+    options: { extensions: ["css", "html", "js", "svg"] },
+  },
+```
+
+---

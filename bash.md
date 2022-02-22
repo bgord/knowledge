@@ -504,3 +504,53 @@ $ history -E
 ```
 
 ---
+
+**Local keyword**
+
+All bash variables are globally scoped.
+
+To make a variable available only inside a function:
+
+```
+doSomething() {
+    local a = 1;
+}
+```
+
+Be aware that all these local variables are dynamically scoped - they're visible to the functions down the call stack.
+
+---
+
+**Readonly keyword**
+
+```
+readonly NAME="bgord"
+
+NAME="xxx" // NAME is readonly error is thrown
+```
+
+```
+NAME="bgord"
+NAME="xxx"
+readonly NAME
+NAME="yyy" // NAME is readonly error is thrown
+```
+
+---
+
+**Declare keyword**
+
+```
+declare -r NAME = "bgord" // readonly
+declare -ri VERSION = 1 // readonly, integer
+```
+
+---
+
+**Merge lines of two files without duplicates**
+
+```bash
+$ sort --unique file file2 > file 3
+```
+
+---

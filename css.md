@@ -1091,3 +1091,23 @@ html {
 ```
 
 ---
+
+**contain property**
+
+Specifies that an element will not affect the layout or style of other elements on the page.
+
+```
+contain: strict;
+```
+
+---
+
+**Don't wait for the second tap**
+
+Speed up all tap interactions
+
+```css
+touch-action: manipulation;
+```
+
+---

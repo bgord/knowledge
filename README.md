@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1316
+Total entries: 1326
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -67,6 +67,10 @@ Total entries: 1316
 - Unary operator expected error
 - Find and replace with sed
 - History with timestamps
+- Local keyword
+- Readonly keyword
+- Declare keyword
+- Merge lines of two files without duplicates
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
@@ -104,6 +108,8 @@ Total entries: 1316
 - Event Storming types
 - Domain events
 - Hot spots
+- Being, behaving, becomming
+- Circuit breaker
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
@@ -196,6 +202,8 @@ Total entries: 1316
 - Gradients
 - Avoid website repositioning when scrollbar appears
 - Validate a11y violations by CSS
+- contain property
+- Don't wait for the second tap
 
 ### [cypress](cypress.md)
 - Assert document.title
@@ -1155,6 +1163,7 @@ Total entries: 1316
 - Fix Lighthouse's passive listeners warning
 - Create an example ffmpeg mp4 video
 - WebP
+- Brotli compression in gatsby
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
@@ -1252,6 +1261,7 @@ Total entries: 1316
 - Extend window object
 - Import assertions
 - Abstract classes
+- @ts-expect-error
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`
