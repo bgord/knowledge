@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1360
+Total entries: 1374
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -126,6 +126,12 @@ Total entries: 1360
 - EXAMPLE:
 - Image optimisation
 - Keeping a bugfix log
+- Optimistic locking
+- URL redirection vs rewrite
+- Running node.js apps as systemd services
+- Scripts for each project task
+- Running multiple service instances with systemd
+- Przecinki
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
@@ -222,6 +228,7 @@ Total entries: 1360
 - Don't wait for the second tap
 - Fallback background image
 - CSS preloading
+- Single direction margins
 
 ### [cypress](cypress.md)
 - Assert document.title
@@ -485,6 +492,7 @@ Total entries: 1360
 - Git clone with submodules
 - Git clone and checkout a branch
 - Display most changed files
+- Show file history of changes
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?
@@ -716,6 +724,7 @@ Total entries: 1360
 - Access user timezone offset in minutes
 - JS dates in safari
 - Check if intersection observer is available
+- Query params
 
 ### [mysql](mysql.md)
 - Show all tables
@@ -735,6 +744,8 @@ Total entries: 1360
 - Force http to https redirect
 - Add gzip support
 - Hide nginx version in requests
+- Nginx 502 custom error handling
+- Load balancer
 
 ### [npm](npm.md)
 - npm ci
@@ -1197,6 +1208,7 @@ Total entries: 1360
 - Execute a command when file changes
 - Generate random strng
 - Get last frame from a video with ffmpeg
+- Get SSL certificat for wildcard subdomain with certbot
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
@@ -1296,6 +1308,8 @@ Total entries: 1360
 - Abstract classes
 - @ts-expect-error
 - Instanceof doesn't work for custom errors
+- Class without manual argument to property assignment in constructor
+- Error subclass
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

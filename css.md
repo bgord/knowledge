@@ -1127,3 +1127,19 @@ background-image: url('main.png'), url('fallback.jpg');
 ```
 
 ---
+
+**Single direction margins**
+
+When choosing between margins: `top` vs `bottom` or `left` vs `right`, choose `bottom` and `left`.
+
+Reasoning:
+
+- reduces mental fatigue of choosing the "right" one
+- makes the codebase and website/app more consistent
+- don't need to worry about margin collapsing
+
+It's permitted to use `auto` top or right margins to center the element.
+
+[0](https://csswizardry.com/2012/06/single-direction-margin-declarations/)
+
+---

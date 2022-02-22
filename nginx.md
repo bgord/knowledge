@@ -231,3 +231,40 @@ http{
 ```
 
 ---
+
+**Nginx 502 custom error handling**
+
+Add the following just before the closing of the server block
+
+```
+error_page 502 /502.html;
+
+location = /502.html {
+	root  /var/www/project;
+}
+```
+
+---
+
+**Load balancer**
+
+```nginx
+upstream hello_env {
+    server 127.0.0.1:3001;
+    server 127.0.0.1:3002;
+    server 127.0.0.1:3003;
+    server 127.0.0.1:3004;
+}
+
+server {
+    listen 80 default_server;
+    server_name _;
+
+    location / {
+        proxy_pass http://hello_env;
+        proxy_set_header Host $host;
+    }
+}
+```
+
+---

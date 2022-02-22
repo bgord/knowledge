@@ -2538,3 +2538,17 @@ if (
 ```
 
 ---
+
+**Query params**
+
+The package I use the most is [qs](https://www.npmjs.com/package/qs).
+
+All browsers except Internet Explorer ship with `URLSearchParams`:
+
+```javascript
+const params = new URLSearchParams(window.location.search);
+
+params.get("query");
+```
+
+--

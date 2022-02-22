@@ -1610,3 +1610,49 @@ class DatabaseError extends Error {
 ```
 
 ---
+
+**Class without manual argument to property assignment in constructor**
+
+```
+class Logger {
+  message: string;
+
+  constructor(message: string) {
+    this.message = message;
+  }
+
+  log() {
+    console.log(this.message);
+  }
+}
+```
+
+Is equivalent to this:
+
+```
+class Logger {
+  private constructor(private message: string) {}
+
+  log() {
+    console.log(this.message);
+  }
+}
+```
+
+---
+
+**Error subclass**
+
+```
+class AccessDenied extends Error {}
+
+type Constructor<T> = new (...args: any[]) => T;
+
+function accept<T extends Constructor<Error>>(excludes: T[]) {
+  console.log(excludes);
+}
+
+accept([AccessDenied]);
+```
+
+---

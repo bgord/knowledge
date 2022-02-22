@@ -1907,3 +1907,18 @@ ffmpeg -sseof -3 -i video.mp4 -update 1 -q:v 1 last-frame.jpg
 ```
 
 ---
+
+**Get SSL certificat for wildcard subdomain with certbot**
+
+```
+sudo certbot certonly --manual \
+  -d *.<domain> \
+  -d <domain> \
+  --agree-tos \
+  --manual-public-ip-logging-ok \
+  --preferred-challenges dns-01 \
+  --server https://acme-v02.api.letsencrypt.org/directory \
+  -m <email>
+```
+
+---

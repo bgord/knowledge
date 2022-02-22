@@ -662,3 +662,155 @@ If a commit is bugfix-related, write a description of it.
 Then, you can cluster the bugs, and figure out a way to improve the process or even never let it happen again.
 
 ---
+
+**Optimistic locking**
+
+It's a way to solve Concurrency problem to a database table.
+
+1. Add a `version` table column.
+2. Read a resource from the database.
+3. While saving, in the transaction, check if the `version` has been changed.
+4. Increment the `version` column associated to the resource.
+
+---
+
+**URL redirection vs rewrite**
+
+Redirect
+
+- client side
+- let's the browser perform the URL change
+
+Rewrite
+
+- server side
+- doesn't change the URL in the browser
+
+Possible redirect codes:
+301 – Permanent
+302 – Found
+303 – See Other
+307 - Temporary
+
+---
+
+**Running node.js apps as systemd services**
+
+Source: https://nodesource.com/blog/running-your-node-js-app-with-systemd-part-1/
+
+Systemd is a service manager.
+
+You can create a service by adding a `<name>.service` file under `/lib/systemd/system` directory.
+
+Example service file for a Node.js application:
+
+```
+[Unit]
+Description=Btcv Obituary Service
+After=network-online.target remote-fs.target nss-lookup.target
+Wants=network-online.target
+
+[Service]
+WorkingDirectory=/var/www/obituary-btcv.dev.cloudbest.it
+User=php
+Group=www
+Type=simple
+ExecStart=/bin/bash /var/www/obituary-btcv.dev.cloudbest.it/staging-server-start.sh
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s TERM $MAINPID
+#Restart=on-failure
+#RestartSec=5s
+
+StandardOutput=append:/var/log/nginx/obituary-btcv.dev.cloudbest.it/node-server.log
+StandardError=append:/var/log/nginx/obituary-btcv.dev.cloudbest.it/node-err.log
+
+[Install]
+WantedBy=multi-user.target
+```
+
+`After=network.target` - start the application after the network is available
+
+`Environment=NODE_PORT=3001` - define a single environment variable
+`EnvironmentFile=/var/www/.env` - define an environment file
+
+`Type=simple` - app won't fork itself, it will just be fired off with a single command
+
+Restart systemd to acknowledge the newly created service:
+
+```
+$ sudo systemctl daemon-reload
+```
+
+Now, you can execute `start`, `status`, `stop`, `enable`, `disable` services.
+
+To view the logs:
+
+```
+$ journalctl -u service-name.service
+```
+
+---
+
+**Scripts for each project task**
+
+https://nicolasbouliane.com/blog/no-script-is-too-simple
+
+---
+
+**Running multiple service instances with systemd**
+
+The service file should look like this: `<name>@.service` to indicate it can be run as multiple instances.
+
+Now, we get the ability to pass a "variable" of sorts, so we can run e.g multiple Node.js apps on different ports.
+
+Service file:
+
+```
+Environment=NODE_PORT=%i
+```
+
+Starting the service:
+
+```bash
+$ sudo systemctl start hello_env@3001
+$ sudo systemctl start hello_env@3002
+$ sudo systemctl start hello_env@3003
+$ sudo systemctl start hello_env@3004
+```
+
+Or:
+
+```bash
+$ for port in $(seq 3001 3004); do sudo systemctl start hello_env@$port; done
+```
+
+---
+
+**Przecinki**
+
+W ten sposób Igancy Mościcki... (bez przecinka)
+
+Co ciekawe, fakt ten był już przytoczony (przecinek, wyrażenie ekspresywne, które uwydatnia zmianę sytuacji, zbliżone do równoważnika)
+Co więcej, fakt ten był już przytoczony (przecinek, wyrażenie ekspresywne, które uwydatnia zmianę sytuacji, zbliżone do równoważnika)
+https://www.jezykowedylematy.pl/2013/03/czy-ponadto-poza-tym-oczywiscie-wedlug-mnie-oddzielamy-przecinkami/
+
+Ponadto cały czas pracował za darmo... (bez przecinka)
+Dodatkowo spotkał się z... (bez przecinka)
+W dodatku spotkał się z... (bez przecinka)
+Prócz tego spotkał się z... (bez przecinka)
+https://www.jezykowedylematy.pl/2013/03/czy-ponadto-poza-tym-oczywiscie-wedlug-mnie-oddzielamy-przecinkami/
+
+Ponadto, choć trudno w to uwierzyć, cały czas pracował za darmo. (przecinek)
+https://www.jezykowedylematy.pl/2013/03/czy-ponadto-poza-tym-oczywiscie-wedlug-mnie-oddzielamy-przecinkami/
+
+Znaleźli się zarówno członkowie wojsk lądowych, jak i dywizjonów lotniczych... (przecinek)
+https://www.interpunkcja.pl/zasady-interpunkcji/przecinek-przed-jak-i
+
+Zgodnie z danymi szacunkowymi nie była to ogromna liczba... (bez przecinka)
+Według danych szacunkowych nie była to ogromna liczba... (bez przecinka)
+https://sjp.pwn.pl/poradnia/haslo/Zgodnie-z;13215.html
+
+Co do praktyki językowej, nie jestem przekonany... (przecinek/bez przecinka)
+https://sjp.pwn.pl/poradnia/haslo/co-do;7350.html
+
+---
