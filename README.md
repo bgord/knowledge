@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1375
+Total entries: 1376
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -230,6 +230,7 @@ Total entries: 1375
 - Fallback background image
 - CSS preloading
 - Single direction margins
+- Issues with position sticky
 
 ### [cypress](cypress.md)
 - Assert document.title

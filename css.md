@@ -1143,3 +1143,9 @@ It's permitted to use `auto` top or right margins to center the element.
 [0](https://csswizardry.com/2012/06/single-direction-margin-declarations/)
 
 ---
+
+**Issues with position sticky**
+
+[0](https://www.designcise.com/web/tutorial/how-to-fix-issues-with-css-position-sticky-not-working)
+
+---
