@@ -2413,3 +2413,18 @@ export function useToastsContext<
 [0](https://hipsterbrown.com/musings/musing/react-context-with-generics/)
 
 ---
+
+**window is not defined in SSR**
+
+```
+if (window) {} // doesn't work
+
+function safeWindow() {
+  if (typeof window === "undefined") return;
+  return window;
+}
+```
+
+[0](https://stephencook.dev/blog/using-window-in-react-ssr/)
+
+---

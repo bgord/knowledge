@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1376
+Total entries: 1377
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -976,6 +976,7 @@ Total entries: 1376
 - #3 rule of hooks validation error in React component libraries
 - Types for CSS properties/styles
 - Context with generic types
+- window is not defined in SSR
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
