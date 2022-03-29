@@ -161,6 +161,7 @@
 | The undiscovered self                                                | Carl Gustav Jung                    | 2022        | 244             | 4         | 4.2            | 1          |
 | Ostatnie Życzenie                                                    | Andrzej Sapkowski                   | 2022        | 330             | 4         | 4.1            | 1          |
 | Miecz Przeznaczenia                                                  | Andrzej Sapkowski                   | 2022        | 330             | 5         | 4.3            | 1          |
+| Święto ognia                                                         | Jakub Małecki                       | 2022        | 256             | 4         | 4              | 1          |
 
 # To read
 

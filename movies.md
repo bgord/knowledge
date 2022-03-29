@@ -114,7 +114,6 @@
 | Proceder                                   | 6           |
 | Don't look up                              | 7           |
 | Scream (2022)                              | 7           |
-| Scream (2022)                              | 7           |
 | Batman (2022)                              | 6           |
 | The Straight Story                         | 8           |
 
