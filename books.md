@@ -162,16 +162,13 @@
 | Ostatnie Życzenie                                                    | Andrzej Sapkowski                   | 2022        | 330             | 4         | 4.1            | 1          |
 | Miecz Przeznaczenia                                                  | Andrzej Sapkowski                   | 2022        | 330             | 5         | 4.3            | 1          |
 | Święto ognia                                                         | Jakub Małecki                       | 2022        | 256             | 4         | 4              | 1          |
+| Krew elfów                                                           | Andrzej Sapkowski                   | 2022        | 341             | 4         | 4.1            | 1          |
 
 # To read
 
 - https://www.goodreads.com/book/show/565806.Psychological_Types
 - https://www.goodreads.com/book/show/2668246-inner-gold
 - https://www.goodreads.com/book/show/482105.Transformation
-- The Data Model Resource Book, Volume 1, Len Silverston
-- Software Architecture for Developers, Simon Brown
-- Analysis Patterns: Reusable Object Models, Martin Fowler
-- Enterprise Model Patterns, David C. Hay
-- Enterprise Patterns and MDA, Jim Arlow
-- Clean Code, Robert C. Martin
-- Applying UML and Patterns, Craig Larman
+- https://www.goodreads.com/book/show/52578297-the-midnight-library
+- https://lubimyczytac.pl/ksiazka/5000223/w-srodku-jestesmy-basnia-mowy-i-rozmowy
+- https://lubimyczytac.pl/ksiazka/4894135/gdzie-spiewaja-raki
