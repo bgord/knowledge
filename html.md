@@ -491,3 +491,18 @@ noreferrer prevents the browser, when navigating to target, to send to the paren
 ```
 
 ---
+
+**Select option group**
+
+```
+<select>
+  <option>Anything</option>
+  <optgroup label="Birds">
+    <option>Blue Jay</option>
+    <option>Cardinal</option>
+    <option>Hummingbird</option>
+  </optgroup>
+</select>
+```
+
+---

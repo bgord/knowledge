@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1382
+Total entries: 1383
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -550,6 +550,7 @@ Total entries: 1382
 - aria-current
 - Target blank vulnerability
 - Nesting lists
+- Select option group
 
 ### [js](js.md)
 - RegExp for digits
