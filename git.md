@@ -1014,3 +1014,56 @@ $ git log --follow -p <filename>
 ```
 
 ---
+
+**Delete/readd submodule**
+
+Delete the relevant section from the .gitmodules file.
+
+Stage the .gitmodules changes:
+git add .gitmodules
+
+Delete the relevant section from .git/config.
+
+Remove the submodule files from the working tree and index:
+git rm --cached path_to_submodule (no trailing slash).
+
+Remove the submodule's .git directory:
+rm -rf .git/modules/path_to_submodule
+
+Commit the changes:
+git commit -m "Removed submodule <name>"
+
+Delete the now untracked submodule files:
+rm -rf path_to_submodule
+
+---
+
+**Add ssh to github workflow**
+
+```yml
+name: CI
+on: [push, pull_request]
+jobs:
+  deploy:
+    name: "Deploy to staging"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$SSH_KEY" > ~/.ssh/staging.key
+          chmod 600 ~/.ssh/staging.key
+          cat >>~/.ssh/config <<END
+          Host staging
+            HostName $SSH_HOST
+            User $SSH_USER
+            IdentityFile ~/.ssh/staging.key
+            StrictHostKeyChecking no
+          END
+        env:
+          SSH_USER: ${{ secrets.STAGING_SSH_USER }}
+          SSH_KEY: ${{ secrets.STAGING_SSH_KEY }}
+          SSH_HOST: ${{ secrets.STAGING_SSH_HOST }}
+```
+
+---

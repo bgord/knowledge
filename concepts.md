@@ -827,3 +827,23 @@ Risks.
 - add hot spots
 
 ---
+
+**Shotgun surgery**
+
+Antipattern, occurs where a developer adding a feature needs to change the same logic in many places.
+
+---
+
+**DRY**
+ 
+ Don't repeat yourself is about logic, not code.
+
+---
+
+**Utils - antipatterns**
+
+- many clients
+- many changes to the class, many implementations
+- merge conflicts
+
+---

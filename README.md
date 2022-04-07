@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1377
+Total entries: 1382
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -133,6 +133,9 @@ Total entries: 1377
 - Domain events
 - Hot spots
 - Big Picture Event Storming
+- Shotgun surgery
+- DRY
+- Utils - antipatterns
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
@@ -495,6 +498,8 @@ Total entries: 1377
 - Git clone and checkout a branch
 - Display most changed files
 - Show file history of changes
+- Delete/readd submodule
+- Add ssh to github workflow
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?
