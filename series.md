@@ -59,3 +59,4 @@
 | Squid game                   | 8         | 7.4            | 2021        |
 | Archive81                    | 8         | 7.1            | 2022        |
 | All of us are dead           | 7         | 6.9            | 2022        |
+| Severence                    | 8         | 8.4            | 2022        |
