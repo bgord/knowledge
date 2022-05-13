@@ -1656,3 +1656,14 @@ accept([AccessDenied]);
 ```
 
 ---
+
+**Convert an array into string literal union type**
+
+```ts
+const namesArr = ["John", "Lily", "Roy"] as const;
+
+// convert namesArr into string literal union type
+type Names = typeof namesArr[number]; // "John" | "Lily" | "Roy"
+```
+
+---

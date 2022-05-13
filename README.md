@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1383
+Total entries: 1384
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1319,6 +1319,7 @@ Total entries: 1383
 - Instanceof doesn't work for custom errors
 - Class without manual argument to property assignment in constructor
 - Error subclass
+- Convert an array into string literal union type
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`
