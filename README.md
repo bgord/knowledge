@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1384
+Total entries: 1386
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1218,6 +1218,8 @@ Total entries: 1384
 - Generate random strng
 - Get last frame from a video with ffmpeg
 - Get SSL certificat for wildcard subdomain with certbot
+- Convert wav to mp3
+- Create video from an image and an mp3 file
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
