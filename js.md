@@ -2552,3 +2552,24 @@ params.get("query");
 ```
 
 --
+
+**Write node.js headers just before they get sent**
+
+```js
+import onHeaders from "on-headers";
+
+function middleware(_request, response, next) {
+  const before = Date.now();
+
+  onHeaders(response, () => {
+    const after = Date.now();
+    const duration = after - before;
+
+    response.setHeader("Server-Timing", `total;dur=${duration}`);
+  });
+
+  next();
+}
+```
+
+---

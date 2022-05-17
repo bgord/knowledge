@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1386
+Total entries: 1387
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -733,6 +733,7 @@ Total entries: 1386
 - JS dates in safari
 - Check if intersection observer is available
 - Query params
+- Write node.js headers just before they get sent
 
 ### [mysql](mysql.md)
 - Show all tables
