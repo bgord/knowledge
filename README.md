@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1387
+Total entries: 1388
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -734,6 +734,7 @@ Total entries: 1387
 - Check if intersection observer is available
 - Query params
 - Write node.js headers just before they get sent
+- Promise and setTimeout callback execution order
 
 ### [mysql](mysql.md)
 - Show all tables

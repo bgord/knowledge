@@ -163,12 +163,15 @@
 | Miecz Przeznaczenia                                                  | Andrzej Sapkowski                   | 2022        | 330             | 5         | 4.3            | 1          |
 | Święto ognia                                                         | Jakub Małecki                       | 2022        | 256             | 4         | 4              | 1          |
 | Krew elfów                                                           | Andrzej Sapkowski                   | 2022        | 341             | 4         | 4.1            | 1          |
+| Czas pogardy                                                         | Andrzej Sapkowski                   | 2022        | 367             | 4         | 4.2            | 1          |
+| The Portable Jung                                                    | Carl Gustav Jung                    | 2022        | 659             | 4         | 4.3            | 1          |
 
 # To read
 
 - https://www.goodreads.com/book/show/565806.Psychological_Types
-- https://www.goodreads.com/book/show/2668246-inner-gold
 - https://www.goodreads.com/book/show/482105.Transformation
 - https://www.goodreads.com/book/show/52578297-the-midnight-library
 - https://lubimyczytac.pl/ksiazka/5000223/w-srodku-jestesmy-basnia-mowy-i-rozmowy
 - https://lubimyczytac.pl/ksiazka/4894135/gdzie-spiewaja-raki
+- https://lubimyczytac.pl/ksiazka/4996831/ostatnia-misja-gwendy
+- https://lubimyczytac.pl/ksiazka/5016998/obrazy-z-przeszlosci

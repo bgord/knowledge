@@ -2573,3 +2573,28 @@ function middleware(_request, response, next) {
 ```
 
 ---
+
+**Promise and setTimeout callback execution order**
+
+1. Sync
+2. Job queue - async promise callbacks (FIFO)
+3. Task (event loop) queue - async callbacks other than promises (FIFO)
+
+```js
+const first = () => console.log("first");
+const second = () => console.log("second");
+const third = () => console.log("third");
+
+setTimeout(first, 0);
+Promise.resolve().then(first);
+setTimeout(second, 0);
+Promise.resolve().then(second);
+third();
+console.log("fourth");
+
+// third, fourth, first second, first second
+```
+
+[0](https://dmitripavlutin.com/javascript-promises-settimeout/)
+
+---
