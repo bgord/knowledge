@@ -165,6 +165,9 @@
 | Krew elfów                                                           | Andrzej Sapkowski                   | 2022        | 341             | 4         | 4.1            | 1          |
 | Czas pogardy                                                         | Andrzej Sapkowski                   | 2022        | 367             | 4         | 4.2            | 1          |
 | The Portable Jung                                                    | Carl Gustav Jung                    | 2022        | 659             | 4         | 4.3            | 1          |
+| Chrzest Ognia                                                        | Andrzej Sapkowski                   | 2022        | 382             | 4         | 4.3            | 1          |
+| Wieża Jaskółki                                                       | Andrzej Sapkowski                   | 2022        | 386             | 5         | 4.3            | 1          |
+| Pani Jeziora                                                         | Andrzej Sapkowski                   | 2022        | 520             | 5         | 4.1            | 1          |
 
 # To read
 
