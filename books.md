@@ -169,10 +169,8 @@
 | Wieża Jaskółki                                                       | Andrzej Sapkowski                   | 2022        | 386             | 5         | 4.3            | 1          |
 | Pani Jeziora                                                         | Andrzej Sapkowski                   | 2022        | 520             | 5         | 4.1            | 1          |
 | Inner Gold: Understanding Psychological Projection                   | Robert A Johnson                    | 2022        | 122             | 4         | 4              | 1          |
-
-# To read
-
-- https://www.goodreads.com/book/show/565806.Psychological_Types
+| Obrazy z przeszlosci                                                 | Remigiusz Mróz                      | 2022        | 464             | 3         | 4.1            | 1464|
+3# To read.1- https://www.goodreads.com/book/show/565806.Psychological_Types
 - https://www.goodreads.com/book/show/482105.Transformation
 - https://www.goodreads.com/book/show/52578297-the-midnight-library
 - https://lubimyczytac.pl/ksiazka/5000223/w-srodku-jestesmy-basnia-mowy-i-rozmowy
