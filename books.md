@@ -168,6 +168,7 @@
 | Chrzest Ognia                                                        | Andrzej Sapkowski                   | 2022        | 382             | 4         | 4.3            | 1          |
 | Wieża Jaskółki                                                       | Andrzej Sapkowski                   | 2022        | 386             | 5         | 4.3            | 1          |
 | Pani Jeziora                                                         | Andrzej Sapkowski                   | 2022        | 520             | 5         | 4.1            | 1          |
+| Inner Gold: Understanding Psychological Projection                   | Robert A Johnson                    | 2022        | 122             | 4         | 4              | 1          |
 
 # To read
 
