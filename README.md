@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1388
+Total entries: 1389
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -756,6 +756,7 @@ Total entries: 1388
 - Hide nginx version in requests
 - Nginx 502 custom error handling
 - Load balancer
+- Cache for Gatsby
 
 ### [npm](npm.md)
 - npm ci

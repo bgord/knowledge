@@ -268,3 +268,25 @@ server {
 ```
 
 ---
+
+**Cache for Gatsby**
+
+```
+server {
+        listen 80;
+        root /var/www/x/public;
+
+        location ~* \.(?:html|json)$ {
+                add_header Cache-Control "public, max-age=0, must-revalidate";
+        }
+
+        location / {
+                try_files $uri $uri/ =404;
+                gzip_static on;
+        }
+}
+```
+
+[0](https://www.gatsbyjs.com/docs/caching/)
+
+---
