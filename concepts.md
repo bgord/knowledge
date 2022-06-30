@@ -847,3 +847,16 @@ Antipattern, occurs where a developer adding a feature needs to change the same 
 - merge conflicts
 
 ---
+
+**Session fixation**
+
+- Bob enters an app, logged out
+- attains an anonymous session id
+- Bob copies the anonymous session id
+- Alice logs in
+- the anonymous session id is reused, now can be authenticated with
+- Bob authenticates with the copied session id
+
+Notice: physical access is needed.
+
+---
