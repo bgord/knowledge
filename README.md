@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1391
+Total entries: 1392
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1327,6 +1327,7 @@ Total entries: 1391
 - Class without manual argument to property assignment in constructor
 - Error subclass
 - Convert an array into string literal union type
+- Instantiation Expressions
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

@@ -854,12 +854,13 @@ export const Logo: React.FC<React.ImgHTMLAttributes<HTMLImageElement>> = (
 **Type div props**
 
 ```tsx
-export const ValidationErrorMessage: React.FC<React.HTMLProps<HTMLDivElement>> =
-  ({ children, className = "", ...props }) => (
-    <div className={`w-full text-red-700 mt-1 ${className}`} {...props}>
-      {children}
-    </div>
-  );
+export const ValidationErrorMessage: React.FC<
+  React.HTMLProps<HTMLDivElement>
+> = ({ children, className = "", ...props }) => (
+  <div className={`w-full text-red-700 mt-1 ${className}`} {...props}>
+    {children}
+  </div>
+);
 ```
 
 ---
@@ -1664,6 +1665,29 @@ const namesArr = ["John", "Lily", "Roy"] as const;
 
 // convert namesArr into string literal union type
 type Names = typeof namesArr[number]; // "John" | "Lily" | "Roy"
+```
+
+---
+
+**Instantiation Expressions**
+
+TS 4.7+
+
+```tsx
+interface Box<T> {
+  value: T;
+}
+function makeBox<T>(value: T) {
+  return { value };
+}
+
+// Before
+function makeHammerBox(hammer: Hammer) {
+  return makeBox(hammer);
+}
+
+// Now
+const makeWrenchBox: (wrench: Wrench) => Box<Wrench> = makeBox;
 ```
 
 ---
