@@ -290,3 +290,17 @@ server {
 [0](https://www.gatsbyjs.com/docs/caching/)
 
 ---
+
+**Hide server header**
+
+Install `nginx-extras` and add in `/etc/nginx/nginx.conf`
+
+```
+http {
+  more_clear_headers Server;
+}
+```
+
+[0](https://kodemonk.dev/blog/setting-custom-sever-header-in-nginx)
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1389
+Total entries: 1390
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -757,6 +757,7 @@ Total entries: 1389
 - Nginx 502 custom error handling
 - Load balancer
 - Cache for Gatsby
+- Hide server header
 
 ### [npm](npm.md)
 - npm ci
