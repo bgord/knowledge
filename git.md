@@ -1015,7 +1015,7 @@ $ git log --follow -p <filename>
 
 ---
 
-**Delete/readd submodule**
+**Delete/re-add submodule**
 
 Delete the relevant section from the .gitmodules file.
 

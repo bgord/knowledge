@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1392
+Total entries: 1395
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -137,6 +137,8 @@ Total entries: 1392
 - DRY
 - Utils - antipatterns
 - Session fixation
+- Cache control
+- Stale while revalidate
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
@@ -499,7 +501,7 @@ Total entries: 1392
 - Git clone and checkout a branch
 - Display most changed files
 - Show file history of changes
-- Delete/readd submodule
+- Delete/re-add submodule
 - Add ssh to github workflow
 
 ### [graphql](graphql.md)
@@ -759,6 +761,7 @@ Total entries: 1392
 - Load balancer
 - Cache for Gatsby
 - Hide server header
+- Add a header
 
 ### [npm](npm.md)
 - npm ci

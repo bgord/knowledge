@@ -304,3 +304,23 @@ http {
 [0](https://kodemonk.dev/blog/setting-custom-sever-header-in-nginx)
 
 ---
+
+**Add a header**
+
+Adds the header even though one already exists.
+
+```nginx
+location ~* \.(?:css)$ {
+        add_header Cache-Control "public, max-age=0, must-revalidate";
+}
+```
+
+Replaces the header if already exists, requires `nginx-extras`.
+
+```
+location ~* \.(?:css)$ {
+        more_set_headers "Cache-Control public, max-age=0, must-revalidate";
+}
+```
+
+---
