@@ -77,8 +77,10 @@
   Manage password for basic auth
 - [social-analyzer](https://github.com/qeeqbox/social-analyzer)
   Find a person's profiles across the social media platforms
-- [iconoir](https://iconoir.com/)
+- [iconoir](https://iconoir.com)
   Free SVG icons
+- [redbot](https://redbot.org)
+  Inspect headers
 
 ## React
 
