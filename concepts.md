@@ -835,8 +835,8 @@ Antipattern, occurs where a developer adding a feature needs to change the same 
 ---
 
 **DRY**
- 
- Don't repeat yourself is about logic, not code.
+
+Don't repeat yourself is about logic, not code.
 
 ---
 
@@ -858,5 +858,27 @@ Antipattern, occurs where a developer adding a feature needs to change the same 
 - Bob authenticates with the copied session id
 
 Notice: physical access is needed.
+
+---
+
+**Cache busting**
+
+A way out of a situation we tell browser that a file is immutable, and want to change it.
+
+style.css -> style.eag8e991.css
+
+---
+
+**Cache control**
+
+Header that can accept more directives.
+
+- public/private
+- `no-cache`, always hits network to check if used the cached version (304), good for dynaic HTML with no sensitive data
+- immutable
+- `must-revalidate` is for enforcing a timeout after which to revalidate
+- `stale-while-validate` is for allowing browser use a stale content up to max-age while checking for a new version
+
+Max age in seconds.
 
 ---

@@ -137,8 +137,8 @@ Total entries: 1395
 - DRY
 - Utils - antipatterns
 - Session fixation
+- Cache busting
 - Cache control
-- Stale while revalidate
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
