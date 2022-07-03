@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1395
+Total entries: 1398
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -139,6 +139,7 @@ Total entries: 1395
 - Session fixation
 - Cache busting
 - Cache control
+- E-tag
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
@@ -762,6 +763,7 @@ Total entries: 1395
 - Cache for Gatsby
 - Hide server header
 - Add a header
+- Snippets
 
 ### [npm](npm.md)
 - npm ci
@@ -1331,6 +1333,7 @@ Total entries: 1395
 - Error subclass
 - Convert an array into string literal union type
 - Instantiation Expressions
+- Zod - type instantiation is excessively deep and possibly infinite
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

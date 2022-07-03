@@ -324,3 +324,14 @@ location ~* \.(?:css)$ {
 ```
 
 ---
+
+**Snippets**
+
+Add a reusable nginx piece of code in `/etc/nginx/snippets/filename.conf`
+
+And then use it as:
+```nginx
+include /etc/nginx/snippets/filename.conf
+```
+
+---
