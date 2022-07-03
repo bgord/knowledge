@@ -1691,3 +1691,17 @@ const makeWrenchBox: (wrench: Wrench) => Box<Wrench> = makeBox;
 ```
 
 ---
+
+**Zod - type instantiation is excessively deep and possibly infinite**
+
+https://github.com/jaredpalmer/tsdx/issues/1044
+
+```json
+{
+  "resolutions": {
+    "typescript": "4.7.4"
+  }
+}
+```
+
+---
