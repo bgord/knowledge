@@ -81,6 +81,9 @@
   Free SVG icons
 - [redbot](https://redbot.org)
   Inspect headers
+- [VPN](https://tailscale.com/)
+- [The A11y Project](https://www.a11yproject.com/checklist/)
+  Accessibility checlist
 
 ## React
 
