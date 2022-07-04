@@ -89,3 +89,14 @@ gh_ovh_private_key: |
 ```
 
 ---
+
+**Include a playbook in a playbook**
+
+At the root level of a playbook.
+
+```
+- name: Maildev app
+  ansible.builtin.import_playbook: apps/maildev/playbook-maildev.yml
+```
+
+---

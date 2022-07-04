@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1403
+Total entries: 1404
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -18,6 +18,7 @@ Total entries: 1403
 - Run a playbook
 - Run a playbook inside a Docker container
 - Multiline strings in variable
+- Include a playbook in a playbook
 
 ### [architecture](architecture.md)
 - Architectural Decision Records
