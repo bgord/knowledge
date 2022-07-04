@@ -2428,3 +2428,27 @@ function safeWindow() {
 [0](https://stephencook.dev/blog/using-window-in-react-ssr/)
 
 ---
+
+**Run an effect only once, when the app starts**
+
+Dont:
+
+```jsx
+function App() {
+  useEffect(() => {
+    doSomething();
+  }, []);
+}
+```
+
+Do:
+
+```jsx
+if (typeof window !== "undefined") {
+  doSomething();
+}
+
+function App() {}
+```
+
+---

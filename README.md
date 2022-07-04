@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1402
+Total entries: 1403
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -995,6 +995,7 @@ Total entries: 1402
 - Types for CSS properties/styles
 - Context with generic types
 - window is not defined in SSR
+- Run an effect only once, when the app starts
 
 ### [stimulus](stimulus.md)
 - How to connect a controller to an HTML element?
