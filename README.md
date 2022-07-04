@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1401
+Total entries: 1402
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -239,6 +239,7 @@ Total entries: 1401
 - CSS preloading
 - Single direction margins
 - Issues with position sticky
+- Automatic dark mode
 
 ### [cypress](cypress.md)
 - Assert document.title

@@ -1151,3 +1151,15 @@ It's permitted to use `auto` top or right margins to center the element.
 [0](https://www.designcise.com/web/tutorial/how-to-fix-issues-with-css-position-sticky-not-working)
 
 ---
+
+**Automatic dark mode**
+
+```css
+html[theme="dark-mode"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+```
+
+[0](https://dev.to/akhilarjun/one-line-dark-mode-using-css-24li)
+
+---
