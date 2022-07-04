@@ -882,3 +882,10 @@ Header that can accept more directives.
 Max age in seconds.
 
 ---
+
+**E-tag**
+
+Response header, identifier for a specific version of a resource.
+Server does not need to resend a full response if the content was not changed.
+
+---
