@@ -1948,3 +1948,15 @@ $ ffmpeg -loop 1 -i img.jpg -i music.mp3 -shortest -acodec copy -vcodec mjpeg re
 ```
 
 ---
+
+**sqlite backup**
+
+Don't use `cp` - it's transactionally unsafe.
+
+---
+
+**Correct permissions for ssh files and keys**
+
+600
+
+---
