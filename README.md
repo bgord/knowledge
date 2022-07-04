@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1398
+Total entries: 1401
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -17,6 +17,7 @@ Total entries: 1398
 - An example playbook
 - Run a playbook
 - Run a playbook inside a Docker container
+- Multiline strings in variable
 
 ### [architecture](architecture.md)
 - Architectural Decision Records
@@ -1230,6 +1231,8 @@ Total entries: 1398
 - Get SSL certificat for wildcard subdomain with certbot
 - Convert wav to mp3
 - Create video from an image and an mp3 file
+- sqlite backup
+- Correct permissions for ssh files and keys
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

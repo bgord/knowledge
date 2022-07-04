@@ -78,3 +78,14 @@ index 0000000..8593c45
 ```
 
 ---
+
+**Multiline strings in variable**
+
+```
+gh_ovh_private_key: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  xxx
+  -----END OPENSSH PRIVATE KEY-----
+```
+
+---
