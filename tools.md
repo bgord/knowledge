@@ -1960,3 +1960,13 @@ Don't use `cp` - it's transactionally unsafe.
 600
 
 ---
+
+**Compress favicon file**
+
+```bash
+convert -colors 4 favicon.ico out.ico
+convert -colors 8 favicon.ico out.ico
+convert -colors 16 favicon.ico out.ico
+```
+
+---

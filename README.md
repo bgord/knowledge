@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1404
+Total entries: 1405
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1236,6 +1236,7 @@ Total entries: 1404
 - Create video from an image and an mp3 file
 - sqlite backup
 - Correct permissions for ssh files and keys
+- Compress favicon file
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
