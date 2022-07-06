@@ -785,6 +785,8 @@ Total entries: 1405
 - Publish a scoped package
 - Perform a script before publishing
 
+### [osint](osint.md)
+
 ### [other](other.md)
 - Firefox's engine
 - JAM stack
