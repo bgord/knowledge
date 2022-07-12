@@ -1970,3 +1970,11 @@ convert -colors 16 favicon.ico out.ico
 ```
 
 ---
+
+**Copy a directory with dotfiles**
+
+```
+cp -a path/to/source/. target
+```
+
+---
