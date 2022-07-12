@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1405
+Total entries: 1407
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -507,6 +507,7 @@ Total entries: 1405
 - Show file history of changes
 - Delete/re-add submodule
 - Add ssh to github workflow
+- Remove git submodule but keep files
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?
@@ -784,8 +785,6 @@ Total entries: 1405
 - Automatically create a script in the package.json
 - Publish a scoped package
 - Perform a script before publishing
-
-### [osint](osint.md)
 
 ### [other](other.md)
 - Firefox's engine
@@ -1239,6 +1238,7 @@ Total entries: 1405
 - sqlite backup
 - Correct permissions for ssh files and keys
 - Compress favicon file
+- Copy a directory with dotfiles
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

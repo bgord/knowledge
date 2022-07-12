@@ -1067,3 +1067,14 @@ jobs:
 ```
 
 ---
+
+**Remove git submodule but keep files**
+
+- delete `.git` folder from the submodule
+- run:
+
+```bash
+git rm -r --cached [EnterFolderNameWithoutBrackets]
+```
+
+---
