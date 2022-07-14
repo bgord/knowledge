@@ -583,3 +583,10 @@ Macro stored in the `r` register on lines starting with `-`
 ```
 
 ---
+
+**Shuffle selected lines**
+
+- select lines visually
+- `:!shuf`
+
+---
