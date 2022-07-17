@@ -171,6 +171,8 @@
 | Inner Gold: Understanding Psychological Projection                   | Robert A Johnson                    | 2022        | 122             | 4         | 4              | 1          |
 | Obrazy z przeszlosci                                                 | Remigiusz Mróz                      | 2022        | 464             | 3         | 4.1            | 1          |
 | Projection and Re-collection                                         | Marie-Louise von Franz              | 2022        | 264             | 4         | 4.4            | 1          |
+| Transformation                                                       | Robert A Johnson                    | 2022        | 128             | 4         | 4.3            | 1          |
+| Sezon Burz                                                           | Andrzej Sapkowski                   | 2022        | 404             | 4         | 4              | 1          |
 
 To read:
 
