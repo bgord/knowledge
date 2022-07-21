@@ -173,11 +173,11 @@
 | Projection and Re-collection                                         | Marie-Louise von Franz              | 2022        | 264             | 4         | 4.4            | 1          |
 | Transformation                                                       | Robert A Johnson                    | 2022        | 128             | 4         | 4.3            | 1          |
 | Sezon Burz                                                           | Andrzej Sapkowski                   | 2022        | 404             | 4         | 4              | 1          |
+| Gdzie śpiewają raki                                                  | Delia Owens                         | 2022        | 384             | 5         | 4.45           | 1          |
 
 To read:
 
 - https://www.goodreads.com/book/show/565806.Psychological_Types
 - https://www.goodreads.com/book/show/52578297-the-midnight-library
 - https://lubimyczytac.pl/ksiazka/5000223/w-srodku-jestesmy-basnia-mowy-i-rozmowy
-- https://lubimyczytac.pl/ksiazka/4894135/gdzie-spiewaja-raki
 - https://lubimyczytac.pl/ksiazka/4996831/ostatnia-misja-gwendy
