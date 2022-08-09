@@ -1978,3 +1978,25 @@ cp -a path/to/source/. target
 ```
 
 ---
+
+**Setup webOS dev env**
+
+- Create an LG dev account - https://webostv.developer.lge.com/develop/app-test/preparing-account/
+- Download developer mode app on TV - https://webostv.developer.lge.com/develop/app-test/using-devmode-app/
+- Enable dev mode status, key server
+- install ares-cli globally - https://github.com/webosose/ares-cli
+- https://www.webosbrew.org/pages/configuring-sdk.html#configuring-webososeares-cli-with-developer-mode-app
+- choose name "tv"
+- build the app
+
+```
+yarn build && && ares-package --no-minify build -o build
+```
+
+- run the app on tv
+
+```
+ares-install -d tv build\<app.name>.ipk && ares-inspect -d tv -a some.url.com --open,
+```
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1408
+Total entries: 1409
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1239,6 +1239,7 @@ Total entries: 1408
 - Correct permissions for ssh files and keys
 - Compress favicon file
 - Copy a directory with dotfiles
+- Setup webOS dev env
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
