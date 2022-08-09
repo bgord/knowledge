@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1409
+Total entries: 1410
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1240,6 +1240,7 @@ Total entries: 1409
 - Compress favicon file
 - Copy a directory with dotfiles
 - Setup webOS dev env
+- Delete files older than n days
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

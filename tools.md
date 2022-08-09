@@ -2000,3 +2000,11 @@ ares-install -d tv build\<app.name>.ipk && ares-inspect -d tv -a some.url.com --
 ```
 
 ---
+
+**Delete files older than n days**
+
+```
+find path/* -mtime +7 -exec rm {} \;
+```
+
+---
