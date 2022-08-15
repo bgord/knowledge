@@ -174,6 +174,7 @@
 | Transformation                                                       | Robert A Johnson                    | 2022        | 128             | 4         | 4.3            | 1          |
 | Sezon Burz                                                           | Andrzej Sapkowski                   | 2022        | 404             | 4         | 4              | 1          |
 | Gdzie śpiewają raki                                                  | Delia Owens                         | 2022        | 384             | 5         | 4.45           | 1          |
+| On writing                                                           | Stephen King                        | 2022        | 320             | 4         | 4.3            | 1          |
 
 To read:
 
