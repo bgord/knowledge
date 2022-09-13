@@ -13,6 +13,7 @@ ADR's structure:
 | options considered | each option considered, described briefly, with pros and cons                             |
 | consequences       | the ramifications of this decision, both positive and negative                            |
 
-[source](https://martinfowler.com/articles/scaling-architecture-conversationally.html)
+[1](https://martinfowler.com/articles/scaling-architecture-conversationally.html)
+[2](https://github.com/joelparkerhenderson/architecture-decision-record?utm_source=substack&utm_medium=email)
 
 ---

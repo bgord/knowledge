@@ -176,6 +176,7 @@
 | Gdzie śpiewają raki                                                  | Delia Owens                         | 2022        | 384             | 5         | 4.45           | 1          |
 | On writing                                                           | Stephen King                        | 2022        | 320             | 4         | 4.3            | 1          |
 | Anomalia                                                             | Hervé Le Tellier                    | 2022        | 380             | 4         | 3.9            | 1          |
+| Baśniowa opowieść                                                    | Stephen King                        | 2022        | 608             | 4         | 4.5            | 1          |
 
 To read:
 
