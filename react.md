@@ -2452,3 +2452,18 @@ function App() {}
 ```
 
 ---
+
+**Forms without hooks**
+
+```
+onSubmit={(event) => {
+  event.preventDefault();
+
+  const form = new FormData(event.target as HTMLFormElement);
+  const hour = Number(form.get("hour"));
+
+  setArticlesToReviewNotificationHour.mutate(hour);
+}}
+```
+
+---
