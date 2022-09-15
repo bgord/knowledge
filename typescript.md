@@ -1490,6 +1490,12 @@ export const content2: ArticleContentType = "ok"; //fails
 type Brand<B extends string, T> = { _brand: B } & T;
 ```
 
+If you want to be able to initialize without parsing:
+
+```
+type Brand<B extends string, T> = { _brand: B } & T;
+```
+
 [0](https://spin.atomicobject.com/2018/01/15/typescript-flexible-nominal-typing/)
 
 ---
@@ -1703,5 +1709,12 @@ https://github.com/jaredpalmer/tsdx/issues/1044
   }
 }
 ```
+
+---
+
+**Structural vs nominal types**
+
+Structural match when the type structure matches, e.g `number` works for both integer and hour.
+Nominal match when the type name matches.
 
 ---

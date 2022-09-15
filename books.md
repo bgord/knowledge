@@ -183,4 +183,4 @@ To read:
 - https://www.goodreads.com/book/show/565806.Psychological_Types
 - https://www.goodreads.com/book/show/52578297-the-midnight-library
 - https://lubimyczytac.pl/ksiazka/5000223/w-srodku-jestesmy-basnia-mowy-i-rozmowy
-- https://lubimyczytac.pl/ksiazka/4996831/ostatnia-misja-gwendy
+- https://lubimyczytac.pl/ksiazka/4869413/o-pisaniu-na-chlodno

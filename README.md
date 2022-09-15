@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1411
+Total entries: 1412
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1346,6 +1346,7 @@ Total entries: 1411
 - Convert an array into string literal union type
 - Instantiation Expressions
 - Zod - type instantiation is excessively deep and possibly infinite
+- Structural vs nominal types
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`
