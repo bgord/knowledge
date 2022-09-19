@@ -506,3 +506,29 @@ noreferrer prevents the browser, when navigating to target, to send to the paren
 ```
 
 ---
+
+**Button inside a label doesn't work**
+
+```jsx
+// Doesn't work
+<form>
+  <input id="file" name="file" type="file" />
+
+  <label htmlFor="file">
+    <button>File explorer</button>
+  </label>
+</form>
+```
+
+```jsx
+// Works
+<form>
+  <input id="file" name="file" type="file" />
+
+  <label htmlFor="file" style={{ cursor: "pointer" }}>
+    <button style={{ pointerEvents: "none" }}>File explorer</button>
+  </label>
+</form>
+```
+
+---

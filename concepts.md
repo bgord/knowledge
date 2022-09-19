@@ -778,7 +778,7 @@ When will the investment be worthwile?
 - Locate the problem
 - Prepare the refactoring plan
 - Introduce the change
-- Observce the effects
+- Observe the effects
 
 ---
 

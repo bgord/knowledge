@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1412
+Total entries: 1413
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -559,6 +559,7 @@ Total entries: 1412
 - Target blank vulnerability
 - Nesting lists
 - Select option group
+- Button inside a label doesn't work
 
 ### [js](js.md)
 - RegExp for digits
