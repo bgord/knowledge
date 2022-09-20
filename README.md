@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1413
+Total entries: 1414
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1243,6 +1243,7 @@ Total entries: 1413
 - Copy a directory with dotfiles
 - Setup webOS dev env
 - Delete files older than n days
+- Delete EXIF metadata from an image
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

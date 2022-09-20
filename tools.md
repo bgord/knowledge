@@ -2008,3 +2008,13 @@ find path/* -mtime +7 -exec rm {} \;
 ```
 
 ---
+
+**Delete EXIF metadata from an image**
+
+Included in `imagemagick`
+
+```
+mogrify -strip example.jpg
+```
+
+---
