@@ -2018,3 +2018,9 @@ mogrify -strip example.jpg
 ```
 
 ---
+
+**DNS record lookup tool**
+
+https://toolbox.googleapps.com/apps/dig
+
+---

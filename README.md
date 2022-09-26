@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1414
+Total entries: 1415
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1244,6 +1244,7 @@ Total entries: 1414
 - Setup webOS dev env
 - Delete files older than n days
 - Delete EXIF metadata from an image
+- DNS record lookup tool
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
