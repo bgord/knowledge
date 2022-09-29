@@ -889,3 +889,11 @@ Response header, identifier for a specific version of a resource.
 Server does not need to resend a full response if the content was not changed.
 
 ---
+
+**Default MIME type**
+
+```
+*/*
+```
+
+---
