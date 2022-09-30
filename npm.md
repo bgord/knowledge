@@ -155,3 +155,9 @@ $ npm publish --access public
 - Add a `prepare` script to the npm scripts section
 
 ---
+
+**ETARGET for a package version that does exist**
+
+Delete the `package-lock.json` as it may have been corrupted.
+
+---
