@@ -532,3 +532,26 @@ noreferrer prevents the browser, when navigating to target, to send to the paren
 ```
 
 ---
+
+**OpenGraph image**
+
+Ratio `1.91:1`
+Max size: `8MB`
+Dimensions: `1200 X 630`
+
+```html
+<meta property="og:image" content="https://example.com/ogp.jpg" />
+<meta
+  property="og:image:secure_url"
+  content="https://secure.example.com/ogp.jpg"
+/>
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta
+  property="og:image:alt"
+  content="A shiny red apple with a bite taken out"
+/>
+```
+
+---

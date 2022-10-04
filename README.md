@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1417
+Total entries: 1418
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -561,6 +561,7 @@ Total entries: 1417
 - Nesting lists
 - Select option group
 - Button inside a label doesn't work
+- OpenGraph image
 
 ### [js](js.md)
 - RegExp for digits
