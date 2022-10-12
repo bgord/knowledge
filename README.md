@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1418
+Total entries: 1419
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -746,6 +746,7 @@ Total entries: 1418
 - Query params
 - Write node.js headers just before they get sent
 - Promise and setTimeout callback execution order
+- lodash.merge mutating an object
 
 ### [mysql](mysql.md)
 - Show all tables

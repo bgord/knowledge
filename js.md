@@ -2598,3 +2598,12 @@ console.log("fourth");
 [0](https://dmitripavlutin.com/javascript-promises-settimeout/)
 
 ---
+
+**lodash.merge mutating an object**
+
+```js
+_.merge(a, b); // a is mutated
+_.merge({}, a, b); // a is not mutated
+```
+
+---
