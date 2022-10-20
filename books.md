@@ -177,6 +177,7 @@
 | 2022        | On writing                                                           | Stephen King                        | 320             | 4         | 4.3            | 1          |
 | 2022        | Anomalia                                                             | Hervé Le Tellier                    | 380             | 4         | 3.9            | 1          |
 | 2022        | Baśniowa opowieść                                                    | Stephen King                        | 608             | 4         | 4.5            | 1          |
+| 2022        | The Narrative of Arthur Gordon Pym                                   | Edgar Allan Poe                     | 336             | 3         | 3.6            | 1          |
 
 To read:
 
