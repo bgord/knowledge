@@ -2607,3 +2607,10 @@ _.merge({}, a, b); // a is not mutated
 ```
 
 ---
+
+**change vs input events in input range**
+
+`change` gets emitted after range thumb has been dropped.
+`input` gets emitted after every value change, even while holding the range thumb.
+
+---
