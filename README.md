@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1420
+Total entries: 1421
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -748,6 +748,7 @@ Total entries: 1420
 - Promise and setTimeout callback execution order
 - lodash.merge mutating an object
 - change vs input events in input range
+- input range color the left side
 
 ### [mysql](mysql.md)
 - Show all tables

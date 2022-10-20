@@ -2614,3 +2614,16 @@ _.merge({}, a, b); // a is not mutated
 `input` gets emitted after every value change, even while holding the range thumb.
 
 ---
+
+**input range color the left side**
+
+```js
+range.addEventListener("input", (event) => {
+  const { min, max, value } = event.target;
+  const percentage = Math.round((value / (max - min)) * 100);
+
+  event.target.style.background = `linear-gradient(to right, blue ${percentage}%, red ${percentage}%)`;
+});
+```
+
+---
