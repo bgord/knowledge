@@ -1177,3 +1177,23 @@ background-color: var(--not-set, var(--also-not-set, #00f));
 ```
 
 ---
+
+**min()**
+
+```css
+div {
+  width: min(100%, 800px);
+}
+```
+
+---
+
+**max()**
+
+```css
+div {
+  width: max(100%, 800px);
+}
+```
+
+---

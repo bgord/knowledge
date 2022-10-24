@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1424
+Total entries: 1426
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -245,6 +245,8 @@ Total entries: 1424
 - Automatic dark mode
 - display-p3
 - Custom property fallback
+- min()
+- max()
 
 ### [cypress](cypress.md)
 - Assert document.title
