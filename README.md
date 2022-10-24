@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1423
+Total entries: 1424
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -244,6 +244,7 @@ Total entries: 1423
 - Issues with position sticky
 - Automatic dark mode
 - display-p3
+- Custom property fallback
 
 ### [cypress](cypress.md)
 - Assert document.title

@@ -1169,3 +1169,11 @@ html[theme="dark-mode"] {
 A color space, a superset of RGB, though 50% larger.
 
 ---
+
+**Custom property fallback**
+
+```css
+background-color: var(--not-set, var(--also-not-set, #00f));
+```
+
+---
