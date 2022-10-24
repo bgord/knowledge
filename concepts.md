@@ -897,3 +897,25 @@ Server does not need to resend a full response if the content was not changed.
 ```
 
 ---
+
+**Error messages**
+
+What happened?
+What went wrong?
+How can a user fix it?
+
+Don'ts:
+
+- use inaapropriate tone
+- use use technical jargon
+- pass the blame
+- be generic
+
+Dos:
+
+- say what happened and why
+- provide reassurance: what was NOT affected by the error
+- be empathetc
+- help them fix it
+
+---

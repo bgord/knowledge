@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1421
+Total entries: 1422
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -143,6 +143,7 @@ Total entries: 1421
 - Cache control
 - E-tag
 - Default MIME type
+- Error messages
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
