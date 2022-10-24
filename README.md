@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1422
+Total entries: 1423
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -243,6 +243,7 @@ Total entries: 1422
 - Single direction margins
 - Issues with position sticky
 - Automatic dark mode
+- display-p3
 
 ### [cypress](cypress.md)
 - Assert document.title

@@ -1163,3 +1163,9 @@ html[theme="dark-mode"] {
 [0](https://dev.to/akhilarjun/one-line-dark-mode-using-css-24li)
 
 ---
+
+**display-p3**
+
+A color space, a superset of RGB, though 50% larger.
+
+---
