@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1426
+Total entries: 1427
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -247,6 +247,7 @@ Total entries: 1426
 - Custom property fallback
 - min()
 - max()
+- :has()
 
 ### [cypress](cypress.md)
 - Assert document.title

@@ -1197,3 +1197,15 @@ div {
 ```
 
 ---
+
+**:has()**
+
+If the .form-item contains an element with [aria-invalid="true"], the text color changes to #F00.
+
+```css
+.form-item:has([aria-invalid="true"]) {
+  color: #f00;
+}
+```
+
+---
