@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1427
+Total entries: 1428
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -568,6 +568,7 @@ Total entries: 1427
 - Select option group
 - Button inside a label doesn't work
 - OpenGraph image
+- ::backdrop
 
 ### [js](js.md)
 - RegExp for digits
@@ -755,6 +756,8 @@ Total entries: 1427
 - lodash.merge mutating an object
 - change vs input events in input range
 - input range color the left side
+
+### [meeting](meeting.md)
 
 ### [mysql](mysql.md)
 - Show all tables

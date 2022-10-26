@@ -555,3 +555,15 @@ Dimensions: `1200 X 630`
 ```
 
 ---
+
+**::backdrop**
+
+A pseudoelement to account for a layer beneath the fullscreen elements and `<dialog/>s`.
+
+Works only for dialogs opened with `.showModal()` method.
+
+```css
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.75);
+}
+```
