@@ -919,3 +919,23 @@ Dos:
 - help them fix it
 
 ---
+
+**Introducing value objects to a system**
+
+1. Find all occurences.
+2. Find all impacted areas.
+3. Don't modify a value object, return a new one.
+4. Remember about the base type.
+5. If an area is not that important or ready for change, cast from the value object to the base type.
+6. Remember about the safety - test observable effects first, even if they aren't correct.
+7. Don't be afraid of falling early - apply the new value object in the most challanging place.
+8. Work out a stable interface - look for all affected places.
+9. Simulate a real change to the resulting value object.
+
+---
+
+**Extract method**
+
+A simple refactoring technique of moving a piece of code outside a method to another methohd.
+
+---

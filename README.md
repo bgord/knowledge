@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1428
+Total entries: 1430
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -144,6 +144,8 @@ Total entries: 1428
 - E-tag
 - Default MIME type
 - Error messages
+- Introducing value objects to a system
+- Extract method
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
