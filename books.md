@@ -178,6 +178,7 @@
 | 2022        | Anomalia                                                             | Hervé Le Tellier                    | 380             | 4         | 3.9            | 1          |
 | 2022        | Baśniowa opowieść                                                    | Stephen King                        | 608             | 4         | 4.5            | 1          |
 | 2022        | The Narrative of Arthur Gordon Pym                                   | Edgar Allan Poe                     | 336             | 3         | 3.6            | 1          |
+| 2022        | Ulica Nadbrzeżna                                                     | John Steinbeck                      | 210             | 4         | 4.05           | 1          |
 
 To read:
 
