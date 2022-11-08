@@ -2627,3 +2627,15 @@ range.addEventListener("input", (event) => {
 ```
 
 ---
+
+**Store a variable for an express request**
+
+```js
+import express from "express";
+
+response: express.Response<any, { ok: string }>
+
+response.locals.ok = "ok"
+```
+
+---

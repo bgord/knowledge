@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1430
+Total entries: 1431
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -758,8 +758,7 @@ Total entries: 1430
 - lodash.merge mutating an object
 - change vs input events in input range
 - input range color the left side
-
-### [meeting](meeting.md)
+- Store a variable for an express request
 
 ### [mysql](mysql.md)
 - Show all tables
