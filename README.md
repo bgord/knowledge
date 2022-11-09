@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1431
+Total entries: 1432
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -759,6 +759,7 @@ Total entries: 1431
 - change vs input events in input range
 - input range color the left side
 - Store a variable for an express request
+- Reflect.has
 
 ### [mysql](mysql.md)
 - Show all tables

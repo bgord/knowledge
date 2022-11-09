@@ -2639,3 +2639,13 @@ response.locals.ok = "ok"
 ```
 
 ---
+
+**Reflect.has**
+
+```js
+Reflect.has(payload, "property");
+```
+
+The same as `in` operator.
+
+---
