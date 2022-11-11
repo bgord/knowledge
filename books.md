@@ -179,6 +179,7 @@
 | 2022        | Baśniowa opowieść                                                    | Stephen King                        | 608             | 4         | 4.5            | 1          |
 | 2022        | The Narrative of Arthur Gordon Pym                                   | Edgar Allan Poe                     | 336             | 3         | 3.6            | 1          |
 | 2022        | Ulica Nadbrzeżna                                                     | John Steinbeck                      | 210             | 4         | 4.05           | 1          |
+| 2022        | Zły                                                                  | Leopold Tyrmand                     | 260             | 3         | 4.2            | 1          |
 
 To read:
 
