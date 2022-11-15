@@ -578,3 +578,11 @@ trap cleanup SIGINT
 ```
 
 ---
+
+**Redirect all output from stdout and stderr to a file**
+
+```bash
+yarn  > allout.txt 2>&1
+```
+
+---
