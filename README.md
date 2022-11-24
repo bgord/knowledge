@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1434
+Total entries: 1435
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -762,6 +762,7 @@ Total entries: 1434
 - Store a variable for an express request
 - Reflect.has
 - Logical or assignment
+- Error cause
 
 ### [mysql](mysql.md)
 - Show all tables

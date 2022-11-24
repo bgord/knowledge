@@ -2662,3 +2662,13 @@ x ||= console.log("y evaluated");
 [0](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR_assignment)
 
 ---
+
+**Error cause**
+
+```js
+throw new Error("RSA key generation requires integer inputs.", {
+  cause: { code: "NonInteger", values: [p, q] },
+});
+```
+
+---
