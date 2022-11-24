@@ -2649,3 +2649,16 @@ Reflect.has(payload, "property");
 The same as `in` operator.
 
 ---
+
+**Logical or assignment**
+
+```js
+document.getElementById("lyrics").textContent ||= "No lyrics.";
+
+const x = 1;
+x ||= console.log("y evaluated");
+```
+
+[0](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR_assignment)
+
+---
