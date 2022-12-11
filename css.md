@@ -1209,3 +1209,13 @@ If the .form-item contains an element with [aria-invalid="true"], the text color
 ```
 
 ---
+
+**Disable pull to refresh on mobile**
+
+```
+html, body {
+  overscroll-behavior: none;
+}
+```
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1435
+Total entries: 1436
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -251,6 +251,7 @@ Total entries: 1435
 - min()
 - max()
 - :has()
+- Disable pull to refresh on mobile
 
 ### [cypress](cypress.md)
 - Assert document.title
