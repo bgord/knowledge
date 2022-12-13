@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1436
+Total entries: 1437
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -807,6 +807,7 @@ Total entries: 1436
 - Publish a scoped package
 - Perform a script before publishing
 - ETARGET for a package version that does exist
+- Exact installed version of a package
 
 ### [other](other.md)
 - Firefox's engine

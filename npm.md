@@ -161,3 +161,11 @@ $ npm publish --access public
 Delete the `package-lock.json` as it may have been corrupted.
 
 ---
+
+**Exact installed version of a package**
+
+```
+npm list <package-name>
+```
+
+---
