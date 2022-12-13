@@ -180,6 +180,7 @@
 | 2022        | The Narrative of Arthur Gordon Pym                                   | Edgar Allan Poe                     | 336             | 3         | 3.6            | 1          |
 | 2022        | Ulica Nadbrzeżna                                                     | John Steinbeck                      | 210             | 4         | 4.05           | 1          |
 | 2022        | Zły                                                                  | Leopold Tyrmand                     | 260             | 3         | 4.2            | 1          |
+| 2022        | Tartak leśna osada                                                   | Paulina Stępień                     | 444             | 3         | 3.65           | 1          |
 
 To read:
 
@@ -187,3 +188,5 @@ To read:
 - https://www.goodreads.com/book/show/52578297-the-midnight-library
 - https://lubimyczytac.pl/ksiazka/5000223/w-srodku-jestesmy-basnia-mowy-i-rozmowy
 - https://lubimyczytac.pl/ksiazka/4869413/o-pisaniu-na-chlodno
+- https://woblink.com/ebook/reguly-na-czas-chaosu-tomasz-stawiszynski-263711u
+- https://woblink.com/ebook/krwawy-ksiezyc-jo-nesboe-267338u
