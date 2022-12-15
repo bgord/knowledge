@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1438
+Total entries: 1439
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -75,6 +75,7 @@ Total entries: 1438
 - Merge lines of two files without duplicates
 - Trap exit command
 - Redirect all output from stdout and stderr to a file
+- Read variable from stdin with text prompt
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?

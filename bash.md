@@ -586,3 +586,11 @@ yarn  > allout.txt 2>&1
 ```
 
 ---
+
+**Read variable from stdin with text prompt**
+
+```
+read -p "What do you want to setup? (project/server): " APP
+```
+
+---
