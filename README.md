@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1437
+Total entries: 1438
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1267,6 +1267,7 @@ Total entries: 1437
 - Delete files older than n days
 - Delete EXIF metadata from an image
 - DNS record lookup tool
+- Grep match lines not containg a string
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

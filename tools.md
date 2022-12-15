@@ -2024,3 +2024,11 @@ mogrify -strip example.jpg
 https://toolbox.googleapps.com/apps/dig
 
 ---
+
+**Grep match lines not containg a string**
+
+```
+grep -v <string>
+```
+
+---
