@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1439
+Total entries: 1440
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -790,6 +790,7 @@ Total entries: 1439
 - Hide server header
 - Add a header
 - Snippets
+- Logs path
 
 ### [npm](npm.md)
 - npm ci

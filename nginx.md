@@ -335,3 +335,12 @@ include /etc/nginx/snippets/filename.conf
 ```
 
 ---
+
+**Logs path**
+
+```
+/var/log/nginx/access.log
+/var/log/nginx/error.log
+```
+
+---
