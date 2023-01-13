@@ -2032,3 +2032,41 @@ grep -v <string>
 ```
 
 ---
+
+**Setup automatically renewed certificates**
+
+```
+sudo snap install core
+sudo snap refresh core
+sudo snap install --classic certbot
+sudo ln -sf /snap/bin/certbot /usr/bin/certbot
+sudo snap set certbot trust-plugin-with-root=ok
+sudo snap install certbot-dns-ovh
+```
+
+ovh-dns-api-secrets.ini
+
+```
+dns_ovh_endpoint = ovh-eu
+dns_ovh_application_key = xxx
+dns_ovh_application_secret = xxx
+dns_ovh_consumer_key = xxx
+```
+
+```
+CERTBOT_EMAIL="xxx@example.com"
+
+for DOMAIN in "example.com" "another.com"
+do
+  sudo certbot certonly \
+    --agree-tos \
+    -m $CERTBOT_EMAIL \
+    --dns-ovh \
+    --dns-ovh-credentials ./ovh-dns-api-secrets.ini \
+    --keep-until-expiring \
+    -d $DOMAIN \
+    -d "*.$DOMAIN"
+done
+```
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1440
+Total entries: 1441
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1270,6 +1270,7 @@ Total entries: 1440
 - Delete EXIF metadata from an image
 - DNS record lookup tool
 - Grep match lines not containg a string
+- Setup automatically renewed certificates
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
