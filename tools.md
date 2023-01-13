@@ -2070,3 +2070,19 @@ done
 ```
 
 ---
+
+**Sytemctl timer vs cron job**
+
+Both used to schedule tasks to run automatically at specific times or intervals on Linux systems
+
+`systemd timer` is a feature of the systemd initialization system.
+More flexible and powerful than cron as it allows for more granular control over when and how a task is run.
+It also provides more detailed information about the status of a running task and can automatically restart a task if it fails.
+
+`cron` is a more traditional Linux utility for scheduling tasks.
+It is simpler and less feature-rich than systemd timer, but it is widely supported and can be used on most Linux systems.
+Does not provide as much information about the status of a running task.
+
+In summary, systemd timer is a more advanced and flexible option for scheduling tasks on Linux systems, while cron is a simpler, more widely supported option.
+
+---

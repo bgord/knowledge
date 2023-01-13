@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1441
+Total entries: 1442
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1271,6 +1271,7 @@ Total entries: 1441
 - DNS record lookup tool
 - Grep match lines not containg a string
 - Setup automatically renewed certificates
+- Sytemctl timer vs cron job
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
