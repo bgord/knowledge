@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1442
+Total entries: 1443
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1272,6 +1272,7 @@ Total entries: 1442
 - Grep match lines not containg a string
 - Setup automatically renewed certificates
 - Sytemctl timer vs cron job
+- Cannot find type definition file for 'node' in TypeScript
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

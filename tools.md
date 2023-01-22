@@ -2086,3 +2086,11 @@ Does not provide as much information about the status of a running task.
 In summary, systemd timer is a more advanced and flexible option for scheduling tasks on Linux systems, while cron is a simpler, more widely supported option.
 
 ---
+
+**Cannot find type definition file for 'node' in TypeScript**
+
+```
+npm i -D @types/node
+```
+
+---
