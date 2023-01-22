@@ -62,6 +62,16 @@
 | Severence                         | 8         | 8.4            | 2022    |
 | The House of Dragon               | 7         | 7.6            | 2022    |
 | Monster: The Jeffrey Dahmer Story | 7         | 7.6            | 2022    |
+| The last of us                    | 9         | 8.6            | 2023    |
 
 To watch:
-- https://www.imdb.com/title/tt2628232/
+
+- https://www.filmweb.pl/serial/Kruk-2018-794373
+- https://www.filmweb.pl/serial/Wednesday-2022-877761
+- https://www.filmweb.pl/serial/Pachinko-2022-863381
+- https://www.filmweb.pl/serial/Dom+grozy-2014-679417
+- https://www.filmweb.pl/serial/The+Morning+Show-2019-833741
+- https://www.filmweb.pl/serial/Czarny+ptak-2022-10011822
+- https://www.filmweb.pl/serial/Terapia-2008-465138
+- https://www.filmweb.pl/serial/Kr%C3%B3l-2020-833526
+- https://www.filmweb.pl/serial/Minuta+ciszy-2022-10003607
