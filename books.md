@@ -184,6 +184,7 @@
 | 2023        | Mężczyzna, który uderzy dziecko                                      | Radosław Kotarski                   | 263             | 4         | 4.18           | 1          |
 | 2023        | Sześć grobów do Monachium                                            | Mario Puzo                          | 256             | 4         | 4.18           | 1          |
 | 2023        | Werdykt                                                              | Remigiusz Mróz                      | 496             | 3         | 3.93           | 1          |
+| 2023        | Małe zbrodnie                                                        | Magdalena Majcher                   | 298             | 3         | 3.90           | 1          |
 
 To read:
 
