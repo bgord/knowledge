@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1443
+Total entries: 1444
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1273,6 +1273,7 @@ Total entries: 1443
 - Setup automatically renewed certificates
 - Sytemctl timer vs cron job
 - Cannot find type definition file for 'node' in TypeScript
+- Find unused dependencies
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

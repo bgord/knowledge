@@ -2094,3 +2094,11 @@ npm i -D @types/node
 ```
 
 ---
+
+**Find unused dependencies**
+
+```
+$ npx depcheck
+```
+
+---
