@@ -836,7 +836,7 @@ interface Response {
   data: any;
 }
 
-Partial<Response>
+Partial<Response>;
 ```
 
 ---
@@ -995,7 +995,7 @@ export type AsyncReturnType<T extends (...args: any) => any> = T extends (
   ? U
   : any;
 
-async function getHabit(id: number):Promise<Habit> {};
+async function getHabit(id: number): Promise<Habit> {}
 
 // Let's say I want to get a return value of the Promise
 
@@ -1346,7 +1346,7 @@ type x = Equals<StoreAccountType, ICreateUserParams>;
 **Return type of setTimeout**
 
 ```ts
-ReturnType<typeof setTimeout>
+ReturnType<typeof setTimeout>;
 ```
 
 ---
@@ -1716,5 +1716,59 @@ https://github.com/jaredpalmer/tsdx/issues/1044
 
 Structural match when the type structure matches, e.g `number` works for both integer and hour.
 Nominal match when the type name matches.
+
+---
+
+**Satisfies**
+
+```ts
+type Route = { path: string; children?: Routes };
+type Routes = Record<string, Route>;
+
+const routes: Routes = {
+  AUTH: {
+    path: "/auth",
+  },
+};
+
+// routes. - doesn't trigger autocomplete
+// routes.NONE.path - doesn't throw an error
+
+// ---
+
+const routes = {
+  AUTH: {
+    path: "/auth",
+  },
+} satisfies Routes;
+
+// routes. - triggers autocomplete
+// routes.NONE.path - throws an error
+```
+
+---
+
+**Satisfies and as const combination**
+
+Makes types even more exact, down to a string literal.
+
+```ts
+type Route = { path: string; children?: Routes };
+type Routes = Record<string, Route>;
+
+const routes = {
+  HOME: { path: '/' }
+} satisfies Routes
+
+routes.HOME.path // Type: '/'
+```
+
+Can be used to handle exact string literals:
+
+```ts
+function navigate(path: "/" | "/auth") {}
+```
+
+[0](https://www.builder.io/blog/satisfies-operator)
 
 ---

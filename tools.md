@@ -2102,3 +2102,18 @@ $ npx depcheck
 ```
 
 ---
+
+**Use https and local domain**
+
+```
+// Caddyfile
+raok.localhost {
+	reverse_proxy localhost:3000
+}
+```
+
+```
+$ caddy run
+```
+
+---

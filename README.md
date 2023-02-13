@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1444
+Total entries: 1447
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -574,6 +574,8 @@ Total entries: 1444
 - Button inside a label doesn't work
 - OpenGraph image
 - ::backdrop
+
+### [i](i.ts)
 
 ### [js](js.md)
 - RegExp for digits
@@ -1274,6 +1276,7 @@ Total entries: 1444
 - Sytemctl timer vs cron job
 - Cannot find type definition file for 'node' in TypeScript
 - Find unused dependencies
+- Use https and local domain
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
@@ -1379,6 +1382,8 @@ Total entries: 1444
 - Instantiation Expressions
 - Zod - type instantiation is excessively deep and possibly infinite
 - Structural vs nominal types
+- Satisfies
+- Satisfies and as const combination
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`
