@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1447
+Total entries: 1448
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -340,6 +340,7 @@ Total entries: 1447
 - Install git in a container
 - Setup maildev in docker-compose
 - SSH to a running container
+- Docker add rules to iptables from exposed ports
 
 ### [elixir](elixir.md)
 - What type of language is Elixir?
@@ -574,8 +575,6 @@ Total entries: 1447
 - Button inside a label doesn't work
 - OpenGraph image
 - ::backdrop
-
-### [i](i.ts)
 
 ### [js](js.md)
 - RegExp for digits

@@ -806,3 +806,15 @@ services:
 ```
 
 ---
+
+**Docker add rules to iptables from exposed ports**
+
+In `/etc/docker/daemon.json`:
+
+```json
+{ "iptables": false }
+```
+
+Use `-p 127.0.0.1:8000:8000` instaed of `-p 8000:8000`
+
+---
