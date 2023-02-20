@@ -193,3 +193,4 @@ To read:
 - https://lubimyczytac.pl/ksiazka/4869413/o-pisaniu-na-chlodno
 - https://lubimyczytac.pl/ksiazka/5025700/reguly-na-czas-chaosu
 - https://lubimyczytac.pl/ksiazka/5043687/krwawy-ksiezyc
+- https://lubimyczytac.pl/ksiazka/4970496/martin-eden
