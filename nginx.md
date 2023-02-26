@@ -344,3 +344,11 @@ include /etc/nginx/snippets/filename.conf
 ```
 
 ---
+
+**Add a real client ip header to the proxy target server**
+
+```
+proxy_set_header X-Real-IP $remote_addr;
+```
+
+---

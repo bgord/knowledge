@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1448
+Total entries: 1449
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -792,6 +792,7 @@ Total entries: 1448
 - Add a header
 - Snippets
 - Logs path
+- Add a real client ip header to the proxy target server
 
 ### [npm](npm.md)
 - npm ci
