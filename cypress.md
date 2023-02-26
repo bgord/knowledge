@@ -46,3 +46,28 @@ declare namespace Cypress {
 ```
 
 ---
+
+**Clear cookies, local storage, and session storage between tests**
+
+```
+Cypress.Commands.add('clearStoragesAndCookies', () => {
+  cy.clearCookies();
+  cy.window().then((win) => {
+    win.sessionStorage.clear();
+  });
+  cy.clearLocalStorage();
+});
+```
+
+Or in the newer versions, use the config that does basically the same:
+
+```
+defineConfig({
+  e2e: {
+    testIsolation: 'on',
+    experimentalSessionAndOrigin: true,
+  },
+});
+```
+
+---
