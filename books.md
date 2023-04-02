@@ -185,6 +185,8 @@
 | 2023        | Sześć grobów do Monachium                                            | Mario Puzo                          | 256             | 4         | 4.18           | 1          |
 | 2023        | Werdykt                                                              | Remigiusz Mróz                      | 496             | 3         | 3.93           | 1          |
 | 2023        | Małe zbrodnie                                                        | Magdalena Majcher                   | 298             | 3         | 3.90           | 1          |
+| 2023        | Ucieczka od bezradności                                              | Tomasz Stawiszyński                 | 362             | 4         | 4.10           | 1          |
+| 2023        | Ludzie z mgły                                                        | Izabela Janiszewska                 | 448             | 3         | 3.90           | 1          |
 
 To read:
 
@@ -194,3 +196,4 @@ To read:
 - https://lubimyczytac.pl/ksiazka/5025700/reguly-na-czas-chaosu
 - https://lubimyczytac.pl/ksiazka/5043687/krwawy-ksiezyc
 - https://lubimyczytac.pl/ksiazka/4970496/martin-eden
+- https://lubimyczytac.pl/ksiazka/5050639/niewolnicy-dopaminy-jak-odnalezc-rownowage-w-epoce-obfitosci

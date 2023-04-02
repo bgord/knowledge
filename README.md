@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1449
+Total entries: 1450
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -258,6 +258,7 @@ Total entries: 1449
 - Assert document.title
 - Confirm hCaptcha command
 - Add custom command types
+- Clear cookies, local storage, and session storage between tests
 
 ### [dart](dart.md)
 - Automatic code formatting
