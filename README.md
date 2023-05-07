@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1450
+Total entries: 1451
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1385,6 +1385,7 @@ Total entries: 1450
 - Structural vs nominal types
 - Satisfies
 - Satisfies and as const combination
+- Detect unused variables
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

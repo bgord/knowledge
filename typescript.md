@@ -1772,3 +1772,22 @@ function navigate(path: "/" | "/auth") {}
 [0](https://www.builder.io/blog/satisfies-operator)
 
 ---
+
+**Detect unused variables**
+
+noUncheckedIndexedAccess - detects potentially non-existant array indexes
+noUnusedLocals = detects unused local variables
+noUnusedParameters - detects unused function/method parameters
+
+```json
+{
+  "compilerOptions": {
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "exclude": ["bgord-scripts"]
+}
+```
+
+---
