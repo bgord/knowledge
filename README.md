@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1451
+Total entries: 1452
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -576,6 +576,7 @@ Total entries: 1451
 - Button inside a label doesn't work
 - OpenGraph image
 - ::backdrop
+- inputmode
 
 ### [js](js.md)
 - RegExp for digits

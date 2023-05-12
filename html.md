@@ -567,3 +567,25 @@ dialog::backdrop {
   background: rgba(0, 0, 0, 0.75);
 }
 ```
+
+**inputmode**
+
+Displays specified virtual keyboard layout.
+
+Options:
+
+- "none": Specifies that the element should not have a virtual keyboard. This is the default value.
+- "text": Specifies that the virtual keyboard should display a regular text keyboard.
+- "decimal": Specifies that the virtual keyboard should display a numeric keyboard with a decimal point.
+- "numeric": Specifies that the virtual keyboard should display a numeric keyboard.
+- "tel": Specifies that the virtual keyboard should display a telephone keypad.
+- "search": Specifies that the virtual keyboard should display a search keyboard.
+- "email": Specifies that the virtual keyboard should display an email keyboard.
+- "url": Specifies that the virtual keyboard should display a URL keyboard.
+- "password": Specifies that the virtual keyboard should display a keyboard suitable for entering passwords.
+- "date": Specifies that the virtual keyboard should display a date picker.
+- "time": Specifies that the virtual keyboard should display a time picker.
+- "week": Specifies that the virtual keyboard should display a week picker.
+- "month": Specifies that the virtual keyboard should display a month picker.
+
+---
