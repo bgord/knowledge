@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1452
+Total entries: 1453
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -577,6 +577,7 @@ Total entries: 1452
 - OpenGraph image
 - ::backdrop
 - inputmode
+- Avoid zoom-in on inputs
 
 ### [js](js.md)
 - RegExp for digits
