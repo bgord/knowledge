@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1453
+Total entries: 1454
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -769,6 +769,7 @@ Total entries: 1453
 - Reflect.has
 - Logical or assignment
 - Error cause
+- Handle throwing error in a timer in an Express.js middleware
 
 ### [mysql](mysql.md)
 - Show all tables

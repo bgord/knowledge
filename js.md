@@ -2672,3 +2672,27 @@ throw new Error("RSA key generation requires integer inputs.", {
 ```
 
 ---
+
+**Handle throwing error in a timer in an Express.js middleware**
+
+Emit an event and pass the error to the next function in an event handler
+
+```ts
+function handle(
+  request: express.Request,
+  response: express.Response,
+  next: express.NextFunction
+) {
+  const timeout = setTimeout(
+    () => request.emit("timeout", config.timeoutMs),
+    config.timeoutMs
+  );
+
+  request.on("timeout", () => next(new RequestTimeoutError()));
+  onHeaders(response, () => clearTimeout(timeout));
+
+  return next();
+}
+```
+
+---
