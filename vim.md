@@ -590,3 +590,13 @@ Macro stored in the `r` register on lines starting with `-`
 - `:!shuf`
 
 ---
+
+**Method navigation**
+
+`[m` - previous method start
+`]m` - next method start
+
+`[M` - previous method end
+`]M` - next method end
+
+---
