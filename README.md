@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1454
+Total entries: 1455
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1464,6 +1464,7 @@ Total entries: 1454
 - Perform search and replace in the current line
 - Change line endings from DOS to UNIX
 - Shuffle selected lines
+- Method navigation
 
 ### [vue](vue.md)
 - Generate a new project
