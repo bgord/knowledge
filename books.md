@@ -189,6 +189,7 @@
 | 2023        | Ludzie z mgły                                                        | Izabela Janiszewska                 | 448             | 3         | 3.90           | 1          |
 | 2023        | Lata                                                                 | Annie Ernaux                        | 240             | 4         | 4.18           | 1          |
 | 2023        | Nieśmiertelność                                                      | Milan Kundera                       | 400             | 3         | 4.14           | 1          |
+| 2023        | Kult                                                                 | Camilla Läckberg                    | 696             | 4         | 3.70           | 1          |
 
 To read:
 
