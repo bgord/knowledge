@@ -594,3 +594,11 @@ read -p "What do you want to setup? (project/server): " APP
 ```
 
 ---
+
+**Send both stdin and stderr to /dev/null shorter syntax**
+
+```bash
+$ <COMMAND> &>/dev/null
+```
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1455
+Total entries: 1456
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -76,6 +76,7 @@ Total entries: 1455
 - Trap exit command
 - Redirect all output from stdout and stderr to a file
 - Read variable from stdin with text prompt
+- Send both stdin and stderr to /dev/null shorter syntax
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?
