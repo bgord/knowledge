@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1456
+Total entries: 1457
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -579,6 +579,7 @@ Total entries: 1456
 - ::backdrop
 - inputmode
 - Avoid zoom-in on inputs
+- Autocompletes
 
 ### [js](js.md)
 - RegExp for digits

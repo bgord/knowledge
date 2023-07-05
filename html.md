@@ -600,3 +600,13 @@ Options:
 ```
 
 ---
+
+**Autocompletes**
+
+```html
+<input type="email" autocomplete="username" />
+<input type="password" autocomplete="current-password" />
+<input type="password" autocomplete="new-password" />
+```
+
+---
