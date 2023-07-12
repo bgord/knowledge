@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1457
+Total entries: 1458
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1283,6 +1283,7 @@ Total entries: 1457
 - Cannot find type definition file for 'node' in TypeScript
 - Find unused dependencies
 - Use https and local domain
+- Install imagemagick
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports

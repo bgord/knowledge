@@ -2117,3 +2117,9 @@ $ caddy run
 ```
 
 ---
+
+**Install imagemagick**
+
+[0](https://github.com/SoftCreatR/imei/)
+
+---
