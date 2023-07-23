@@ -190,6 +190,7 @@
 | 2023        | Lata                                                                 | Annie Ernaux                        | 240             | 4         | 4.18           | 1          |
 | 2023        | Nieśmiertelność                                                      | Milan Kundera                       | 400             | 3         | 4.14           | 1          |
 | 2023        | Kult                                                                 | Camilla Läckberg                    | 696             | 4         | 3.70           | 1          |
+| 2023        | Schron przeciwczasowy                                                | Georgi Gospodinov                   | 304             | 4         | 4.00           | 1          |
 
 To read:
 
