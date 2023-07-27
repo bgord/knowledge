@@ -14,6 +14,7 @@ const pathsToSkip = [
   "package.json",
   "roadmap.md",
   "series.md",
+  "event-storming.md",
 ];
 
 async function main() {

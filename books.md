@@ -194,18 +194,17 @@
 
 To read:
 
-- https://lubimyczytac.pl/ksiazka/4939008/the-midnight-library
-- https://lubimyczytac.pl/ksiazka/5000223/w-srodku-jestesmy-basnia-mowy-i-rozmowy
-- https://lubimyczytac.pl/ksiazka/4869413/o-pisaniu-na-chlodno
-- https://lubimyczytac.pl/ksiazka/5025700/reguly-na-czas-chaosu
-- https://lubimyczytac.pl/ksiazka/5043687/krwawy-ksiezyc
-- https://lubimyczytac.pl/ksiazka/4970496/martin-eden
-- https://lubimyczytac.pl/ksiazka/5050639/niewolnicy-dopaminy-jak-odnalezc-rownowage-w-epoce-obfitosci
-- https://lubimyczytac.pl/ksiazka/4945514/prawiek-i-inne-czasy
-- https://lubimyczytac.pl/ksiazka/4897398/ostatnie-rozdanie
-- https://lubimyczytac.pl/ksiazka/5000223/w-srodku-jestesmy-basnia-mowy-i-rozmowy
-- https://lubimyczytac.pl/ksiazka/4986412/rdza
-- https://lubimyczytac.pl/ksiazka/4965293/piesn-o-achillesie
-- https://lubimyczytac.pl/ksiazka/4946948/imie-rozy
-- https://lubimyczytac.pl/ksiazka/50284/cpun
-- https://lubimyczytac.pl/ksiazka/4911956/byla-sobie-rzeka
+- [3/5] https://lubimyczytac.pl/ksiazka/4945514/prawiek-i-inne-czasy
+- [3/5] https://lubimyczytac.pl/ksiazka/4946948/imie-rozy
+- [3.5/5] https://lubimyczytac.pl/ksiazka/50284/cpun
+- [3.5/5] https://lubimyczytac.pl/ksiazka/5076469/dom-obok
+- [3.5/5] https://lubimyczytac.pl/ksiazka/3777332/labirynt-duchow
+- [4/5] https://lubimyczytac.pl/ksiazka/4897398/ostatnie-rozdanie
+- [4/5] https://lubimyczytac.pl/ksiazka/4911956/byla-sobie-rzeka
+- [4/5] https://lubimyczytac.pl/ksiazka/4970496/martin-eden
+- [4/5] https://lubimyczytac.pl/ksiazka/4986412/rdza
+- [4/5] https://lubimyczytac.pl/ksiazka/5000223/w-srodku-jestesmy-basnia-mowy-i-rozmowy
+- [4/5] https://lubimyczytac.pl/ksiazka/5050639/niewolnicy-dopaminy-jak-odnalezc-rownowage-w-epoce-obfitosci
+- [4.5/5] https://lubimyczytac.pl/ksiazka/5043687/krwawy-ksiezyc
+
+- https://lubimyczytac.pl/ksiazka/4880219/widnokrag
