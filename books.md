@@ -191,6 +191,7 @@
 | 2023        | Nieśmiertelność                                                      | Milan Kundera                       | 400             | 3         | 4.14           | 1          |
 | 2023        | Kult                                                                 | Camilla Läckberg                    | 696             | 4         | 3.70           | 1          |
 | 2023        | Schron przeciwczasowy                                                | Georgi Gospodinov                   | 304             | 4         | 4.00           | 1          |
+| 2023        | Rdza                                                                 | Jakub Małecki                       | 288             | 4         | 4.23           | 1          |
 
 To read:
 
@@ -202,7 +203,6 @@ To read:
 - [4/5] https://lubimyczytac.pl/ksiazka/4897398/ostatnie-rozdanie
 - [4/5] https://lubimyczytac.pl/ksiazka/4911956/byla-sobie-rzeka
 - [4/5] https://lubimyczytac.pl/ksiazka/4970496/martin-eden
-- [4/5] https://lubimyczytac.pl/ksiazka/4986412/rdza
 - [4/5] https://lubimyczytac.pl/ksiazka/5000223/w-srodku-jestesmy-basnia-mowy-i-rozmowy
 - [4/5] https://lubimyczytac.pl/ksiazka/5050639/niewolnicy-dopaminy-jak-odnalezc-rownowage-w-epoce-obfitosci
 - [4.5/5] https://lubimyczytac.pl/ksiazka/5043687/krwawy-ksiezyc

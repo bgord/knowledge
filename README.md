@@ -380,8 +380,6 @@ Total entries: 1458
 - I plan to vs I'm planning to
 - later vs later on
 
-### [event-storming](event-storming.md)
-
 ### [flutter](flutter.md)
 - New flutter app
 - Supported Android/iOS versions
