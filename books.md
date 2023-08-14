@@ -206,5 +206,5 @@ To read:
 - [4/5] https://lubimyczytac.pl/ksiazka/5000223/w-srodku-jestesmy-basnia-mowy-i-rozmowy
 - [4/5] https://lubimyczytac.pl/ksiazka/5050639/niewolnicy-dopaminy-jak-odnalezc-rownowage-w-epoce-obfitosci
 - [4.5/5] https://lubimyczytac.pl/ksiazka/5043687/krwawy-ksiezyc
-
+- https://lubimyczytac.pl/ksiazka/5073172/swiatlosc-w-sierpniu
 - https://lubimyczytac.pl/ksiazka/4880219/widnokrag
