@@ -192,6 +192,7 @@
 | 2023        | Kult                                                                 | Camilla Läckberg                    | 696             | 4         | 3.70           | 1          |
 | 2023        | Schron przeciwczasowy                                                | Georgi Gospodinov                   | 304             | 4         | 4.00           | 1          |
 | 2023        | Rdza                                                                 | Jakub Małecki                       | 288             | 4         | 4.23           | 1          |
+| 2023        | Zarzut                                                               | Remigiusz Mróz                      | 488             | 4         | 3.50           | 1          |
 
 To read:
 
