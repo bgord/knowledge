@@ -610,3 +610,11 @@ Options:
 ```
 
 ---
+
+**Link to a specific text on a page**
+
+`https://example.com#:~:text=for` scrolls to and highlights the first instance of the text for in the document.
+
+[0](https://developer.mozilla.org/en-US/docs/Web/Text_fragments)
+
+---

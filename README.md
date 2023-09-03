@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1458
+Total entries: 1459
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -580,6 +580,7 @@ Total entries: 1458
 - inputmode
 - Avoid zoom-in on inputs
 - Autocompletes
+- Link to a specific text on a page
 
 ### [js](js.md)
 - RegExp for digits
