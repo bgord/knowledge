@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1460
+Total entries: 1461
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -773,6 +773,7 @@ Total entries: 1460
 - Logical or assignment
 - Error cause
 - Handle throwing error in a timer in an Express.js middleware
+- Pragma no-cache header
 
 ### [mysql](mysql.md)
 - Show all tables

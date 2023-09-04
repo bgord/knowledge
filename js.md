@@ -2696,3 +2696,10 @@ function handle(
 ```
 
 ---
+
+**Pragma no-cache header**
+
+`Pragma: no-cache` header is a good practice for downloadable files to ensure a consistent and up-to-date experience for users when downloading files from your server.
+It tells server not to cache the file, as the filename may be the same, but the content not.
+
+---
