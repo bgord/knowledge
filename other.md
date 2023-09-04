@@ -126,6 +126,12 @@ It's a problem of handling ten thousand concurrent connections.
 It indicates that the request body is expected to be downloaded.
 It can contain a filename.
 
+Tells the browser to download the file.
+`res.setHeader('Content-Disposition', 'attachment; filename="vcard.vcf"');`
+
+Tells the browser to try and display the file.
+`res.setHeader('Content-Disposition', 'inline; filename="vcard.vcf"');`
+
 ---
 
 **What's xsd?**
