@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1459
+Total entries: 1460
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1393,6 +1393,7 @@ Total entries: 1459
 - Satisfies
 - Satisfies and as const combination
 - Detect unused variables
+- Public, private, protected in constructor
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

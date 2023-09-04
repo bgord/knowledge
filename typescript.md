@@ -1791,3 +1791,24 @@ noUnusedParameters - detects unused function/method parameters
 ```
 
 ---
+
+**Public, private, protected in constructor**
+
+```ts
+class Linter {
+  // linter.text is accessible
+  constructor(public text: string) {}
+}
+
+class Linter {
+  // linter.text is not accessible
+  constructor(private text: string) {}
+}
+
+class Linter {
+  // linter.text is accessible to subclasses
+  constructor(protected text: string) {}
+}
+```
+
+---
