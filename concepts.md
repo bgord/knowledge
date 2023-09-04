@@ -939,3 +939,11 @@ Dos:
 A simple refactoring technique of moving a piece of code outside a method to another methohd.
 
 ---
+
+**vcard**
+
+It's a digital business card, can be used by all sorts of software, such as outlook, calendar, contacts.
+
+The best npm package is called `vcard-js`.
+
+The format is known as `vcf`, which is just a text with BEGIN VCARD, some properties, and END VCARD.

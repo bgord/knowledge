@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1461
+Total entries: 1462
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -149,6 +149,7 @@ Total entries: 1461
 - Error messages
 - Introducing value objects to a system
 - Extract method
+- vcard
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
