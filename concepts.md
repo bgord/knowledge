@@ -947,3 +947,17 @@ It's a digital business card, can be used by all sorts of software, such as outl
 The best npm package is called `vcard-js`.
 
 The format is known as `vcf`, which is just a text with BEGIN VCARD, some properties, and END VCARD.
+
+**Base64**
+
+Converts binary to ASCII text using `a-zA-Z0-9+/` characters.
+
+Group the binary into blocks of 3 bytes (24 bits), e.g 10101010 10101010 10101010, if not divisible by 3, padding is added.
+
+Padding is represented by `=` characters at the end, maximum of 2, for each missing byte block.
+
+Group the 24 bits to 4 6 bit groups (2^6 = 64, there are 64 to choose from), e.g 10101010 10101010 1010101010 -> 101010 101010 101010 101010
+
+Each 6 bit group is assigned a character 101010 -> 42 -> q
+
+---
