@@ -194,6 +194,7 @@
 | 2023        | Rdza                                                                 | Jakub Małecki                       | 288             | 4         | 4.23           | 1          |
 | 2023        | Zarzut                                                               | Remigiusz Mróz                      | 488             | 4         | 3.50           | 1          |
 | 2023        | Langer                                                               | Remigiusz Mróz                      | 498             | 3         | 3.65           | 1          |
+| 2023        | Holly                                                                | Stephen King                        | 560             | 4         | 4.10           | 1          |
 
 To read:
 
