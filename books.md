@@ -196,6 +196,7 @@
 | 2023        | Langer                                                               | Remigiusz Mróz                      | 498             | 3         | 3.65           | 1          |
 | 2023        | Holly                                                                | Stephen King                        | 560             | 4         | 4.10           | 1          |
 | 2023        | Była sobie rzeka                                                     | Diane Setterfield                   | 480             | 5         | 3.95           | 1          |
+| 2023        | 21 Polskich Grzechów Głównych                                        | Piotr Stankiewicz                   | 312             | 4         | 3.8            | 1          |
 
 To read:
 
