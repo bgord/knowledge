@@ -216,3 +216,5 @@ To read:
 - https://lubimyczytac.pl/ksiazka/272634/george-best-najlepszy-autobiografia
 - https://lubimyczytac.pl/ksiazka/4967359/zrodlo
 - https://lubimyczytac.pl/ksiazka/5066427/strach-ucielesniony-mozg-umysl-i-cialo-w-terapii-traumy
+- https://lubimyczytac.pl/ksiazka/4981504/gamedec-granica-rzeczywistosci
+- Lem
