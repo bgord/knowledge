@@ -1812,3 +1812,19 @@ class Linter {
 ```
 
 ---
+
+**Type negation**
+
+```ts
+const notArray = <T>(arg: T extends Array<any> ? never : T) => arg;
+
+const test1 = notArray(1); // ok
+const test2 = notArray("string"); // ok
+const test3 = notArray([]); // error
+const test4 = notArray([1]); // error
+
+
+type NonEmptyString<T extends string> = T extends '' ? never : T;
+```
+
+---
