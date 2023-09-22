@@ -197,6 +197,7 @@
 | 2023        | Holly                                                                | Stephen King                        | 560             | 4         | 4.10           | 1          |
 | 2023        | Była sobie rzeka                                                     | Diane Setterfield                   | 480             | 5         | 3.95           | 1          |
 | 2023        | 21 Polskich Grzechów Głównych                                        | Piotr Stankiewicz                   | 312             | 4         | 3.8            | 1          |
+| 2023        | Grzęzawisko                                                          | Przemysław Żarski                   | 336             | 3         | 4              | 1          |
 
 To read:
 
