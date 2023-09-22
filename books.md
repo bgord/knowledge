@@ -219,3 +219,4 @@ To read:
 - https://lubimyczytac.pl/ksiazka/5066427/strach-ucielesniony-mozg-umysl-i-cialo-w-terapii-traumy
 - https://lubimyczytac.pl/ksiazka/4981504/gamedec-granica-rzeczywistosci
 - Lem
+- https://lubimyczytac.pl/ksiazka/5079523/kukulcze-jajo
