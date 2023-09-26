@@ -220,3 +220,4 @@ To read:
 - https://lubimyczytac.pl/ksiazka/4981504/gamedec-granica-rzeczywistosci
 - Lem
 - https://lubimyczytac.pl/ksiazka/5079523/kukulcze-jajo
+- https://lubimyczytac.pl/ksiazka/5078227/najlepiej-sie-nie-urodzic-i-inne-teksty-pisane-proza
