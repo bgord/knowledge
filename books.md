@@ -199,6 +199,7 @@
 | 2023        | 21 Polskich Grzechów Głównych                                        | Piotr Stankiewicz                   | 312             | 4         | 3.8            | 1          |
 | 2023        | Grzęzawisko                                                          | Przemysław Żarski                   | 336             | 3         | 4              | 1          |
 | 2023        | Behawiorysta                                                         | Remigiusz Mróz                      | 496             | 2         | 3.94           | 1          |
+| 2023        | The Artist's Way                                                     | Julia Cameron                       | 237             | 4         | 3.90           | 1          |
 
 To read:
 
