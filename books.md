@@ -200,30 +200,8 @@
 | 2023        | Grzęzawisko                                                          | Przemysław Żarski                   | 336             | 3         | 4              | 1          |
 | 2023        | Behawiorysta                                                         | Remigiusz Mróz                      | 496             | 2         | 3.94           | 1          |
 | 2023        | The Artist's Way                                                     | Julia Cameron                       | 237             | 4         | 3.90           | 1          |
-
-To read:
-
-- [219] https://lubimyczytac.pl/ksiazka/5017747/zanim-wystygnie-kawa
-- [260] https://lubimyczytac.pl/ksiazka/56997/umysl-ponad-nastrojem-zmien-nastroj-poprzez-zmiane-sposobu-myslenia
-- [263] https://lubimyczytac.pl/ksiazka/4970496/martin-eden
-- [286] https://lubimyczytac.pl/ksiazka/50284/cpun
-- [292] https://lubimyczytac.pl/ksiazka/5079993/drugie-imie-septologia-i-ii
-- [301] https://lubimyczytac.pl/ksiazka/4945514/prawiek-i-inne-czasy
-- [328] https://lubimyczytac.pl/ksiazka/5078227/najlepiej-sie-nie-urodzic-i-inne-teksty-pisane-proza
-- [352] https://lubimyczytac.pl/ksiazka/5048333/mezczyzna-imieniem-ove
-- [352] https://lubimyczytac.pl/ksiazka/5076469/dom-obok
-- [392] https://lubimyczytac.pl/ksiazka/272634/george-best-najlepszy-autobiografia
-- [400] https://lubimyczytac.pl/ksiazka/247207/robert-enke-zycie-wypuszczone-z-rak
-- [448] https://lubimyczytac.pl/ksiazka/4950264/trzynasta-opowiesc
-- [448] https://lubimyczytac.pl/ksiazka/5043687/krwawy-ksiezyc
-- [468] https://lubimyczytac.pl/ksiazka/4981504/gamedec-granica-rzeczywistosci
-- [496] https://lubimyczytac.pl/ksiazka/5066427/strach-ucielesniony-mozg-umysl-i-cialo-w-terapii-traumy
-- [544] https://lubimyczytac.pl/ksiazka/5079523/kukulcze-jajo
-- [548] https://lubimyczytac.pl/ksiazka/5000223/w-srodku-jestesmy-basnia-mowy-i-rozmowy
-- [576] https://lubimyczytac.pl/ksiazka/5081266/klient
-- [600] https://lubimyczytac.pl/ksiazka/4880219/widnokrag
-- [756] https://lubimyczytac.pl/ksiazka/4946948/imie-rozy
-- [818] https://lubimyczytac.pl/ksiazka/4967359/zrodlo
-- [896] https://lubimyczytac.pl/ksiazka/3777332/labirynt-duchow
-- Lem
-- Samuel Beckett
+| 2023        | Drugie imie                                                          | Jon Fosse                           | 351             | 4         | 4.17           | 1          |
+| 2023        | Światła w popiołach                                                  | Remigiusz Mróz                      | 464             | 4         | 3.80           | 1          |
+| 2023        | Zwykła przyzwoitość                                                  | Wojciech Chmielarz                  | 400             | 3         | 3.70           | 1          |
+| 2023        | Dawno temu w Warszawie                                               | Jakub Żulczyk                       | 800             | 5         | 3.60           | 1          |
+| 2023        | Głód                                                                 | Jozef Karika                        | 232             | 2         | 3.50           | 1          |
