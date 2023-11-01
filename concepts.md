@@ -961,3 +961,7 @@ Group the 24 bits to 4 6 bit groups (2^6 = 64, there are 64 to choose from), e.g
 Each 6 bit group is assigned a character 101010 -> 42 -> q
 
 ---
+
+**Aggregate factory method**
+
+Use a ` static async build(id: VO.IdType): Aggregate` method with `private constructor(data: VO.DataType) {}` to avoid null checks inside aggregate method.

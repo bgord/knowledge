@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1464
+Total entries: 1465
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -151,6 +151,7 @@ Total entries: 1464
 - Extract method
 - vcard
 - Base64
+- Aggregate factory method
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
