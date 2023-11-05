@@ -965,3 +965,19 @@ Each 6 bit group is assigned a character 101010 -> 42 -> q
 **Aggregate factory method**
 
 Use a ` static async build(id: VO.IdType): Aggregate` method with `private constructor(data: VO.DataType) {}` to avoid null checks inside aggregate method.
+
+**Migration events in event sourcing**
+
+Switching from CRUD to event sourcing is tricky.
+We have to import the data from the old approach to the new one.
+
+1. Read the data from the legacy approach and produce a regualar "entry" event from the ES approach (BANK_ACCOUNT_OPENED)
+2. Read the data from the legacy approach and produce a Migration Event event from the ES approach (LEGACY_BANK_ACCOUNT_IMPORTED)
+
+It allows to distinguish between the imported bank accounts and the ones created after the migration.
+
+After the initial migration remove the import method so it won't be used later on.
+
+[0](https://blog.arkency.com/the-final-trick-when-moving-from-crud-to-event-sourcing/)
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1466
+Total entries: 1467
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -152,6 +152,7 @@ Total entries: 1466
 - vcard
 - Base64
 - Aggregate factory method
+- Migration events in event sourcing
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
