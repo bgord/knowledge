@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1467
+Total entries: 1468
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1401,6 +1401,7 @@ Total entries: 1467
 - Public, private, protected in constructor
 - Type negation
 - Empty object as a type
+- As const
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

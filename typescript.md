@@ -1836,3 +1836,10 @@ TypeScript is structural, not nominal.
 To actually represent an empty object, use `Record<string, never>`.
 
 ---
+
+**As const**
+
+```
+const a = "a" // type string
+const a = "a" as const // type "a"
+```
