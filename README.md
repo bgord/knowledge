@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1465
+Total entries: 1466
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1399,6 +1399,7 @@ Total entries: 1465
 - Detect unused variables
 - Public, private, protected in constructor
 - Type negation
+- Empty object as a type
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

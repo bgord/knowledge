@@ -1823,8 +1823,16 @@ const test2 = notArray("string"); // ok
 const test3 = notArray([]); // error
 const test4 = notArray([1]); // error
 
-
-type NonEmptyString<T extends string> = T extends '' ? never : T;
+type NonEmptyString<T extends string> = T extends "" ? never : T;
 ```
+
+---
+
+**Empty object as a type**
+
+`type PayloadType = {}` means every value except `null` and `undefined` because everything except them is an object.
+TypeScript is structural, not nominal.
+
+To actually represent an empty object, use `Record<string, never>`.
 
 ---
