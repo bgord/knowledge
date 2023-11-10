@@ -990,3 +990,9 @@ If early stage of development - throw and fix.
 Offer user a chance to fix their errors.
 
 ---
+
+**Upcasting - versioning events**
+
+Upcasting - a middleware that runs and transforms event data during deserialisation.
+
+---

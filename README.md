@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1470
+Total entries: 1471
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -154,6 +154,7 @@ Total entries: 1470
 - Aggregate factory method
 - Migration events in event sourcing
 - Throwing errors when rebuilding the current state from events
+- Upcasting - versioning events
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
