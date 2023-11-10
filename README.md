@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1468
+Total entries: 1470
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -153,6 +153,7 @@ Total entries: 1468
 - Base64
 - Aggregate factory method
 - Migration events in event sourcing
+- Throwing errors when rebuilding the current state from events
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
@@ -1402,6 +1403,7 @@ Total entries: 1468
 - Type negation
 - Empty object as a type
 - As const
+- Extract
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

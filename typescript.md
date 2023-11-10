@@ -1670,7 +1670,7 @@ accept([AccessDenied]);
 const namesArr = ["John", "Lily", "Roy"] as const;
 
 // convert namesArr into string literal union type
-type Names = typeof namesArr[number]; // "John" | "Lily" | "Roy"
+type Names = (typeof namesArr)[number]; // "John" | "Lily" | "Roy"
 ```
 
 ---
@@ -1757,10 +1757,10 @@ type Route = { path: string; children?: Routes };
 type Routes = Record<string, Route>;
 
 const routes = {
-  HOME: { path: '/' }
-} satisfies Routes
+  HOME: { path: "/" },
+} satisfies Routes;
 
-routes.HOME.path // Type: '/'
+routes.HOME.path; // Type: '/'
 ```
 
 Can be used to handle exact string literals:
@@ -1843,3 +1843,13 @@ To actually represent an empty object, use `Record<string, never>`.
 const a = "a" // type string
 const a = "a" as const // type "a"
 ```
+
+**Extract**
+
+```ts
+type PossibleValues = string | number | boolean | null | undefined;
+
+type NotNull = Extract<PossibleValues, {}>;
+```
+
+---

@@ -981,3 +981,12 @@ After the initial migration remove the import method so it won't be used later o
 [0](https://blog.arkency.com/the-final-trick-when-moving-from-crud-to-event-sourcing/)
 
 ---
+
+**Throwing errors when rebuilding the current state from events**
+
+When a compensating action can be performed - don't throw, continue.
+If early stage of development - throw and fix.
+
+Offer user a chance to fix their errors.
+
+---

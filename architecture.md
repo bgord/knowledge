@@ -16,4 +16,6 @@ ADR's structure:
 [1](https://martinfowler.com/articles/scaling-architecture-conversationally.html)
 [2](https://github.com/joelparkerhenderson/architecture-decision-record?utm_source=substack&utm_medium=email)
 
+doc/arch/adr-NNN.md
+
 ---
