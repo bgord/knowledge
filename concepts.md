@@ -991,8 +991,36 @@ Offer user a chance to fix their errors.
 
 ---
 
-**Upcasting - versioning events**
+**Versioning events**
 
 Upcasting - a middleware that runs and transforms event data during deserialisation.
+Data migration
+Extending the current event schema in a non-breaking manner e.g. adding a new field
+Adding a new event schema with a changed name or namespace (e.g. the version field)
+Publishing the event in both schemas. Then, listeners who need the old one will continue working until they switch to the new version.
+
+---
+
+**Event vs command**
+
+Command
+
+- intention (pass me the salt)
+- targetted to specific audience
+- may be rejeceted
+- may throw an exception
+- sync
+
+Event
+
+- fact that happened in the past
+- no targetted audience, broadcasted
+- async
+
+---
+
+**Can command return a value?**
+
+It should not, but it can, for example when an id or status is needed for later.
 
 ---
