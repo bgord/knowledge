@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1473
+Total entries: 1474
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -155,6 +155,7 @@ Total entries: 1473
 - Migration events in event sourcing
 - Throwing errors when rebuilding the current state from events
 - Versioning events
+- Summary event
 - Event vs command
 - Can command return a value?
 

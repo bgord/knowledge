@@ -966,6 +966,8 @@ Each 6 bit group is assigned a character 101010 -> 42 -> q
 
 Use a ` static async build(id: VO.IdType): Aggregate` method with `private constructor(data: VO.DataType) {}` to avoid null checks inside aggregate method.
 
+---
+
 **Migration events in event sourcing**
 
 Switching from CRUD to event sourcing is tricky.
@@ -998,6 +1000,20 @@ Data migration
 Extending the current event schema in a non-breaking manner e.g. adding a new field
 Adding a new event schema with a changed name or namespace (e.g. the version field)
 Publishing the event in both schemas. Then, listeners who need the old one will continue working until they switch to the new version.
+
+---
+
+**Summary event**
+
+A snapshot event of the current state of the aggregate/events stream.
+We can treat it as the checkpoint, or a new starting point of our stream.
+We are publishing a new snapshot, so from now on, all events are published using the new schema.
+We could even archive the old ones.
+
+If the summary event is just a snapshot, then it won’t have all the business information.
+If we were to archive the old events, we might have problems rebuilding the projection.
+
+[0](https://event-driven.io/en/how_to_do_event_versioning/)
 
 ---
 
