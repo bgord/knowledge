@@ -995,11 +995,11 @@ Offer user a chance to fix their errors.
 
 **Versioning events**
 
-Upcasting - a middleware that runs and transforms event data during deserialisation.
-Data migration
-Extending the current event schema in a non-breaking manner e.g. adding a new field
-Adding a new event schema with a changed name or namespace (e.g. the version field)
-Publishing the event in both schemas. Then, listeners who need the old one will continue working until they switch to the new version.
+- Data migration
+- Weakening the event schema and making consumers more defensive (adding a new optional field, making a field optional)
+- Upcasting - a middleware that runs and transforms event data during deserialisation
+- Adding a new event schema with a changed name or namespace (e.g. the version field)
+- Publishing the event in both schemas. Then, listeners who need the old one will continue working until they switch to the new version
 
 ---
 
@@ -1010,10 +1010,14 @@ We can treat it as the checkpoint, or a new starting point of our stream.
 We are publishing a new snapshot, so from now on, all events are published using the new schema.
 We could even archive the old ones.
 
+It's helpful when another module or service needs a snapshot of our data and then doesn't need to build the state on their own.
+It can be considered an external event [1].
+
 If the summary event is just a snapshot, then it won’t have all the business information.
 If we were to archive the old events, we might have problems rebuilding the projection.
 
 [0](https://event-driven.io/en/how_to_do_event_versioning/)
+[1](https://event-driven.io/en/internal_external_events)
 
 ---
 
