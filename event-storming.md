@@ -3,7 +3,9 @@
 ## Event storming - co to jest, jaki ma cel
 
 - definicja
+
   - event storming
+
     - technika kolaboracji i modelowania procesów biznesowych
     - nowe i istniejące aplikacje, legacy
     - wizualizacja działania aplikacji
@@ -17,12 +19,15 @@
       - projekcja Merkatora (zniekształcenie, Grenlandia jest za duża w porównaniu z Afryką)
 
 - rodzaje event stormingu
+
   - big picture (as is/to be) - na tym się skupimy
   - process level
   - design level
 
 - cel event stormingu
+
   - big picture
+
     - zmapowanie systemu
     - poznanie problemów
     - wyjasnienie wątpliwości
@@ -32,6 +37,7 @@
     - dowiedzenie się, czy nie robimy CRUDa
 
   - process level
+
     - skupia się na rozwiązaniach technicznych
     - komendy
     - read modele
@@ -51,6 +57,7 @@
 ## Mechanika event stormingu
 
 - czym jest event
+
   - zmienia stan systemu
   - ma konsekwencje
   - jest przez kogoś/coś wywoływany
@@ -64,18 +71,21 @@
   - korzysta z ubiquitous language
 
 - rodzaje eventów
+
   - środowiskowe (wejście do systemu, odwiedzenie konkretnej podstrony)
   - poziom UI (wybrano datę rezerwacji, wybrano liczbę produktów w koszyku)
   - infrastrukturalne (wysłano metrykę do analytiki, dodano wiadomość do kolejki)
   - domenowe - nad tymi się skupiamy
 
 - ubiquitous language
+
   - rozumiany przez biznes i osoby techniczne
   - używany w kodzie i modelu
   - ułatwia kolaborację
   - unikamy wieloznaczności
 
 - inne rodzaje kartek
+
   - event - pomarańczowy - dodano produkt do koszyka, naliczono rabat
   - aktor - ciemnożółty - zalogowany użytkownik, admin
   - hotspot - czerwony - połączenie z X jest wolne
@@ -113,14 +123,26 @@
 - czy można anulować konsekwencje zdarzenia?
 
 - 0/50/100/150
+
   - 0% (nie opłacono)
   - 50% (opłacono częściowo)
   - 100% (opłacono całość)
   - 150% (nadpłata)
 
 - wyznaczanie granic pomiędzy modułami systemu
+
   - wykrywanie maszyn stanu (utworzono draft ogłoszenia -> zlecono publikację ogłoszenia -> anulowano zlecenie publikacji -> opublikowano ogłoszenie)
   - pivotal events (wydano do wysyłki - przejście z etapu zamówienia do etapu dostawy)
+
+- unikać property sourcing
+
+  - być może zmiana tego pola to część biznesowego procesu?
+  - np. FirstNameUpdated -> PersonalDataChanged (z typem opcjonalnym)
+
+- unikać state obsession
+
+  - nie tracić informacji biznesowej (account withdrawed [amount] zamiast balance updated [balance])
+  - albo jedno i drugie dla łatwiejszych read modeli
 
 - "Co jeśli...?"
 - "Co się może zdarzyć pomiędzy eventami?"
@@ -134,6 +156,7 @@
 - event sourcing
 
 - wzorce strategiczne domain-driven-design
+
   - bounded context
   - anticorruption layer
   - shared kernel
