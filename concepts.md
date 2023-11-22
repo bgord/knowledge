@@ -888,6 +888,8 @@ Max age in seconds.
 Response header, identifier for a specific version of a resource.
 Server does not need to resend a full response if the content was not changed.
 
+Strong (a globally unique value) and weak (with the W/ prefix, unique only in a particular context) versions.
+
 ---
 
 **Default MIME type**
@@ -1042,5 +1044,23 @@ Event
 **Can command return a value?**
 
 It should not, but it can, for example when an id or status is needed for later.
+
+---
+
+**Optimistic concurrency**
+
+We assume more than one person editing the same resoucre is rare.
+
+- return the entity's current version while reading
+- make the changes and send the command with the unchanged version from the read
+- check if the sent version matches the actual version from the database
+- if matches: apply the change, if does not match: throw an error
+
+---
+
+**Pesimistic concurrency**
+
+We assume more than one person editing the same resoucre is not rare.
+We don't even allow for reads as opposed to optimistic concurrency.
 
 ---
