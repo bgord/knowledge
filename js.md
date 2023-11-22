@@ -2703,3 +2703,19 @@ function handle(
 It tells server not to cache the file, as the filename may be the same, but the content not.
 
 ---
+
+**form.submit outside the form does not trigger onSubmit**
+
+```js
+event.currentTarget.form.dispatchEvent(
+  new Event("submit", { cancelable: true })
+);
+```
+
+instead of:
+
+```js
+event.currentTarget.form.submit();
+```
+
+---

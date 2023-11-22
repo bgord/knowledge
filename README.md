@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1476
+Total entries: 1477
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -785,6 +785,7 @@ Total entries: 1476
 - Error cause
 - Handle throwing error in a timer in an Express.js middleware
 - Pragma no-cache header
+- form.submit outside the form does not trigger onSubmit
 
 ### [mysql](mysql.md)
 - Show all tables
