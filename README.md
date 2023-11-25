@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1477
+Total entries: 1478
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -160,6 +160,7 @@ Total entries: 1477
 - Can command return a value?
 - Optimistic concurrency
 - Pesimistic concurrency
+- Event storming aggregate boundaries
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required

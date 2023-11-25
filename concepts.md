@@ -1064,3 +1064,10 @@ We assume more than one person editing the same resoucre is not rare.
 We don't even allow for reads as opposed to optimistic concurrency.
 
 ---
+
+**Event storming aggregate boundaries**
+
+Map commands/events to class fields they use to a) change data, b) read data.
+After that you can extract specific events that work with a subset of fields, so the cohesion is high.
+
+---
