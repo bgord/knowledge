@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1478
+Total entries: 1479
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -535,6 +535,7 @@ Total entries: 1478
 - Delete/re-add submodule
 - Add ssh to github workflow
 - Remove git submodule but keep files
+- git checkout orphan
 
 ### [graphql](graphql.md)
 - Which packages should be used to setup a basic GraphQL server for Node.js?

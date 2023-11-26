@@ -1078,3 +1078,10 @@ git rm -r --cached [EnterFolderNameWithoutBrackets]
 ```
 
 ---
+
+**git checkout orphan**
+
+Creates a new branch with no commit history.
+Just like the initial state of the repository after git init.
+
+---
