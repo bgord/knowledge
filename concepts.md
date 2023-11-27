@@ -742,6 +742,8 @@ Think separately about:
 
 - what the function does (observable behaviour)
 - how the function does it (implementation details)
+- how to do it differently?
+- how to plug-in the new solution in the place of the old one?
 
 ---
 
