@@ -1071,3 +1071,29 @@ Map commands/events to class fields they use to a) change data, b) read data.
 After that you can extract specific events that work with a subset of fields, so the cohesion is high.
 
 ---
+
+**Business rules**
+
+Invariants - have to be checked against the fresh data.
+
+- e.g. the subscription can be canceled only if active.
+- slower performance
+- may require pessimistic/optimistic locking
+- long-lived
+
+Relaxed rules - do not have to be checked against the fresh data.
+
+- more performant
+- e.g. regular users can have no more than 5 projects
+- may not require pessimistic/optimistic locking
+
+Validation rules - usually a pure function, only checks user's input
+
+- e.g. the provided date of birth should be in YYYY/MM/DD format
+- short-lived
+
+Computations
+
+- e.g for the X subscription service the price for VIPs should be always 5% higher, and for everyone on Fridays it is 5 EUR cheaper
+
+---
