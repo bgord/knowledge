@@ -1099,3 +1099,10 @@ Computations
 - e.g for the X subscription service the price for VIPs should be always 5% higher, and for everyone on Fridays it is 5 EUR cheaper
 
 ---
+
+**Parallel models**
+
+When a system we are refactoring is complex, and we're afraid to try out the new solution, we can create a parallel model.
+It means both the old code and the new code is running, and we can switch off either of them, and compare the results they produce.
+
+---

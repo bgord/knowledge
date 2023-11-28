@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1480
+Total entries: 1481
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -162,6 +162,7 @@ Total entries: 1480
 - Pesimistic concurrency
 - Event storming aggregate boundaries
 - Business rules
+- Parallel models
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
