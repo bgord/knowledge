@@ -1105,4 +1105,15 @@ Computations
 When a system we are refactoring is complex, and we're afraid to try out the new solution, we can create a parallel model.
 It means both the old code and the new code is running, and we can switch off either of them, and compare the results they produce.
 
+Clients of the old/new code should not be aware about these two models, deleting would be harder.
+
+Feature flags can be used/day or night, AB tests.
+
+We can measure the differences between old/new.
+
+- Run the old model.
+- Run the old model, and the new model, and compare the results
+- Run the new model under the feature flag
+- Run the new model, and delete the old model
+
 ---
