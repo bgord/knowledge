@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1481
+Total entries: 1482
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -163,6 +163,7 @@ Total entries: 1481
 - Event storming aggregate boundaries
 - Business rules
 - Parallel models
+- Eventually consistent multiple data models in CQRS
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required

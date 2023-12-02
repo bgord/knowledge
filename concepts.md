@@ -1117,3 +1117,15 @@ We can measure the differences between old/new.
 - Run the new model, and delete the old model
 
 ---
+
+**Eventually consistent multiple data models in CQRS**
+
+If there's a database table that grows in size indefinitely, and we want to perform calculations on it, a separate data model, for example a table, can be needed.
+
+The second data model can be added:
+
+- synchronously
+- asynchronously, in memory - event handler
+- asynchronously, message in a job queue - event handler
+
+---
