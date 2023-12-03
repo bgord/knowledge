@@ -2123,3 +2123,9 @@ $ caddy run
 [0](https://github.com/SoftCreatR/imei/)
 
 ---
+
+**Perform benchmarks**
+
+[0](https://github.com/sharkdp/hyperfine)
+
+---

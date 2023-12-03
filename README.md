@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1482
+Total entries: 1483
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1303,6 +1303,7 @@ Total entries: 1482
 - Find unused dependencies
 - Use https and local domain
 - Install imagemagick
+- Perform benchmarks
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
