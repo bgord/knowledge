@@ -1129,3 +1129,28 @@ The second data model can be added:
 - asynchronously, message in a job queue - event handler
 
 ---
+
+**Metaprograms - similarities vs differences**
+
+When we encounter something new, we tend to categorize it.
+Some people find similarities to things they know, some focus on the differences.
+
+Similarities:
+
+- focus on the things they can match in their head
+- don't like changes (new is unknown)
+- emphasize analogies and similarities (just like as..., the same as...)
+
+Differences:
+
+- focus on differences
+- like changes
+- negative selection (I don't like it, I don't like this neither)
+- agreement basing on lack of differences (I can't not agree)
+
+These two can be combined.
+
+IT is mostly differences.
+Business is mostly similarities.
+
+---
