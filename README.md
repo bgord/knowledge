@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1484
+Total entries: 1486
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -165,6 +165,8 @@ Total entries: 1484
 - Parallel models
 - Eventually consistent multiple data models in CQRS
 - Metaprograms - similarities vs differences
+- Metaprograms - generalist vs detailist
+- Metaprograms - external vs internal authority source
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required

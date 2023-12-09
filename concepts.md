@@ -1154,3 +1154,63 @@ IT is mostly differences.
 Business is mostly similarities.
 
 ---
+
+**Metaprograms - generalist vs detailist**
+
+When we encounter something new, we tend to categorize it.
+Some people overload their cognitive abilities and focus on details, some focus on the bigger picture.
+
+Generalist:
+
+- general assumptions
+- the order does not matter
+- tend to get lost in details
+- generally it's...
+- you never! you always!
+
+Detalists:
+
+- focus on implementation details
+- phases and sequences
+- linear order
+- sometimes one may seem entangled in details
+- there is a case...
+
+These two can be combined.
+There may be a config where one person speaks on the level of details, and the other - the agent of change - speaks on the general terms.
+Then it is advised to go down into the details, talk on this level, and go up to the general terms.
+
+IT is mostly detailists.
+Business is mostly generalists.
+
+---
+
+**Metaprograms - external vs internal authority source**
+
+When we encounter something new, we tend to categorize it.
+Some people tend to focus on themselves, and some reference authority figures more.
+
+External:
+
+- rely on opinions
+- props are feedback
+- focus on majority ("Everybody does that")
+
+Internal:
+
+- retrospective
+- feeling that "I know"
+- a need to check out something themselves ("I need to check", "I will know when I check")
+- personal decisions
+- props build status, not sense of acceptance
+
+If somebody has external authority source - give examples of important figures saying something.
+
+If somebody has internal authority source
+
+- given them an experiment to check themselves.
+- ask how they would solve a problem
+
+Both IT and business have mostly internal authority source.
+
+---
