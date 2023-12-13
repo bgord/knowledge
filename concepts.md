@@ -1214,3 +1214,23 @@ If somebody has internal authority source
 Both IT and business have mostly internal authority source.
 
 ---
+
+**Metaprograms - problems vs goals**
+
+Some people tend to focus on problems, and some focus on goals.
+
+Problems:
+- filter out problems and dangers
+- lack of problems means it is good enough
+- problems distract from the goal
+- know what not to do
+
+Goals:
+- filter out goals and gains
+- it always can be better
+- do not see problems getting to the goal
+
+IT is mostly focused on problems.
+Business is mostly focused on goals.
+
+---
