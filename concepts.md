@@ -1234,3 +1234,30 @@ IT is mostly focused on problems.
 Business is mostly focused on goals.
 
 ---
+
+**Metaprograms - reactive vs proactive**
+
+Some people tend to wait for an external trigger and some do not need it.
+
+Reactive:
+
+- waits for an external trigger (e.g. negative feedback)
+- mostly problem-oriented
+- surprised that other people have an initiative if there's no problem
+- learned helplessness
+- wait for the other people to start something
+
+Proactive:
+
+- has an internal initiative
+- sometimes too impulsive
+- "I choose", "I can"...
+- can spell manipulative people
+
+If someone is proactive, you can ask question whether you go in the right direction.
+If someone is reactive, you should find a trigger to start working (a goal or a problem).
+
+IT is mostly reactive.
+Business is mostly proactive.
+
+---
