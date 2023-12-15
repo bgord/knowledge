@@ -1261,3 +1261,24 @@ IT is mostly reactive.
 Business is mostly proactive.
 
 ---
+
+**Metaprograms - must vs can**
+
+Some people convince themselves to work by following rules, and some by chasing opportunities.
+
+Must:
+
+- rules and procedures
+- there has to be a rule
+-
+
+Can:
+
+- occasions and chances
+- they do not really follow the rules themselves
+- may be overthinking
+
+IT is mostly must.
+Business is mostly can.
+
+---
