@@ -1220,12 +1220,14 @@ Both IT and business have mostly internal authority source.
 Some people tend to focus on problems, and some focus on goals.
 
 Problems:
+
 - filter out problems and dangers
 - lack of problems means it is good enough
 - problems distract from the goal
 - know what not to do
 
 Goals:
+
 - filter out goals and gains
 - it always can be better
 - do not see problems getting to the goal
@@ -1270,7 +1272,6 @@ Must:
 
 - rules and procedures
 - there has to be a rule
--
 
 Can:
 
@@ -1280,5 +1281,30 @@ Can:
 
 IT is mostly must.
 Business is mostly can.
+
+---
+
+**Metaprograms - I vs they**
+
+Some people focus on their comfort first, and the other people focus on the comfort of the rest of the team.
+
+I:
+
+- think and care about themselves first
+- my feelings and experiences first
+
+They:
+
+- think and care about the others first
+- reactions and signals from the others
+- emphatetic
+
+If you speak with an "I" person, you can look for the benefits for them.
+If you speak with a "they" person, you can tell them to have a rest so they can continue helping others.
+
+IT is mostly "I".
+Business is mostly "they".
+
+Leaders should eat last, and be focused on "they".
 
 ---

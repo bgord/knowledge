@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1486
+Total entries: 1490
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -167,6 +167,10 @@ Total entries: 1486
 - Metaprograms - similarities vs differences
 - Metaprograms - generalist vs detailist
 - Metaprograms - external vs internal authority source
+- Metaprograms - problems vs goals
+- Metaprograms - reactive vs proactive
+- Metaprograms - must vs can
+- Metaprograms - I vs they
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
