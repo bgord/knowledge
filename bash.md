@@ -602,3 +602,11 @@ $ <COMMAND> &>/dev/null
 ```
 
 ---
+
+**Explore bash history**
+
+```
+history | awk '{$1=""}1' | sort | uniq -c | sort -nr > explore_history_output
+```
+
+---
