@@ -1308,3 +1308,12 @@ Business is mostly "they".
 Leaders should eat last, and be focused on "they".
 
 ---
+
+**Dreyfus competence model**
+
+- Unconscious incompetence
+- Unconscious incompetence
+- Conscious competence
+- Unconscious competence
+
+---
