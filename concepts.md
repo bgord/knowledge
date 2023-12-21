@@ -1317,3 +1317,11 @@ Leaders should eat last, and be focused on "they".
 - Unconscious competence
 
 ---
+
+**Kolb cycle**
+
+Experience -> Reflection (what happened?) -> Conceptualisation (what does it mean?) -> Applying (what to change?)
+
+Does not have a starting point.
+
+---
