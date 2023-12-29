@@ -1085,3 +1085,13 @@ Creates a new branch with no commit history.
 Just like the initial state of the repository after git init.
 
 ---
+
+**Reproducible git bundles**
+
+Threads equal 1 used to prevent undeterminism.
+
+`git -c 'pack.threads=1' bundle create -q /tmp/bundle-$i --all`;
+
+[0](https://baecher.dev/stdout/reproducible-git-bundles/)
+
+---
