@@ -1325,3 +1325,30 @@ Experience -> Reflection (what happened?) -> Conceptualisation (what does it mea
 Does not have a starting point.
 
 ---
+
+**Expand/contract deployment strategy**
+
+When performing a deployment with a breaking change (e.g. chaning a database structure), we can go with the expand/contract strategy.
+
+Alternative to a big bang deployment, which requires stopping the app and doing everything at once.
+
+- temporarily shut down access to the system
+- migrate the database - updating the schema and backfilling the pub_state field for all existing records based on their is_published field
+- deploy new versions of both the reader and the writer service
+- restore access to the system
+
+In expand/contract:
+
+- each stage is backwards compatible with the previous stage
+- allows flexible rollouts, permitting different parts of the system to be at varying release stages without requiring synchronized deployment
+
+Let's consider we change is_published article column to an enum pub_state column.
+
+1. Expand - the service to write to the old and the new schema (dual write). We add the new pub_state column alongside the old one.
+2. Backfill - basing on the old is_published field, fill the pub_state for the old records.
+3. Migrate - the readers to use the new pub_state column.
+4. Contract - remove the dual write, and drop the published_at column.
+
+[0](https://blog.thepete.net/blog/2023/12/05/expand/contract-making-a-breaking-change-without-a-big-bang/)
+
+---
