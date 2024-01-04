@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1493
+Total entries: 1498
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -172,6 +172,8 @@ Total entries: 1493
 - Metaprograms - reactive vs proactive
 - Metaprograms - must vs can
 - Metaprograms - I vs they
+- Dreyfus competence model
+- Kolb cycle
 - Expand/contract deployment strategy
 
 ### [css](css.md)
@@ -801,6 +803,9 @@ Total entries: 1493
 - Handle throwing error in a timer in an Express.js middleware
 - Pragma no-cache header
 - form.submit outside the form does not trigger onSubmit
+- Nullish coalescing assignment
+- Logical AND assignment
+- Logical OR assignment
 
 ### [mysql](mysql.md)
 - Show all tables
