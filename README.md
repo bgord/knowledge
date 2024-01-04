@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1498
+Total entries: 1499
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -806,6 +806,7 @@ Total entries: 1498
 - Nullish coalescing assignment
 - Logical AND assignment
 - Logical OR assignment
+- All promises were rejected
 
 ### [mysql](mysql.md)
 - Show all tables

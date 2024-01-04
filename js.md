@@ -2774,3 +2774,36 @@ console.log(a.title);
 ```
 
 ---
+
+**All promises were rejected**
+
+```ts
+
+// before
+
+  async find(): Promise<VO.SourceUrlType> {
+    try {
+      const options = this.urls.map((sourceUrl) =>
+        Policies.SourceUrlResponds.perform({ sourceUrl }).then(() => sourceUrl)
+      );
+
+      return Promise.any(options);
+    } catch (error) {
+      throw new Policies.SourceUrlRespondsError();
+    }
+  }
+
+// after
+
+  async find(): Promise<VO.SourceUrlType> {
+    const options = this.urls.map((sourceUrl) =>
+      Policies.SourceUrlResponds.perform({ sourceUrl }).then(() => sourceUrl)
+    );
+
+    return Promise.any(options).catch(() => {
+      throw new Policies.SourceUrlRespondsError();
+    });
+  }
+```
+
+---
