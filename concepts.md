@@ -1352,3 +1352,82 @@ Let's consider we change is_published article column to an enum pub_state column
 [0](https://blog.thepete.net/blog/2023/12/05/expand/contract-making-a-breaking-change-without-a-big-bang/)
 
 ---
+
+**Outbox pattern**
+
+Let's say we have a scenario we have a request we want to send to an external API via HTTP.
+
+1. Sync processing
+
+- immediate consistency
+- small implementation effort
+- slower processing time
+- explicit error messages
+- no retry mechanism
+
+Process business information -> POST request -> POST response -> Commit db transaction
+
+Long processing? Side effects like sending an email? How to rollback? Lost response? Timeout?
+
+2. Naive async processing
+
+- eventual consistency
+- more complex implementation effort
+- same processing time but split into steps
+- reconciliation needed to handle errors
+- simpler retry mechanism depending on tools
+
+Process business information -> Put on queue -> Ack -> Receive response from queue -> Commit db transaction
+
+Long processing? Side effects like sending an email? How to rollback? Lost response? Timeout?
+
+3. Outbox
+
+- eventual consistency
+- complex implementation effort
+- same processing time but split into steps
+- reconciliation needed to handle errors
+- for free, in outbox scheduler
+
+Process business information -> Store in outbox -> Commit db transaction
+Process outbox (in interval) -> POST request -> POST response -> Delete from outbox
+
+The problem not present in this solution is the distributed transaction like in previous two examples.
+Another example of distributed transaction is database save and sending email in a single transaction.
+The initial database commit does not need to wait for the request to be finished in any way.
+
+Outbox is a table in a database, near the production data.
+
+4. Outbox with queue
+
+- eventual consistency
+- complex implementation effort
+- same processing time but split into steps
+- reconciliation needed to handle errors
+- for free, in outbox scheduler
+
+Process business information -> Store in outbox -> Commit db transaction
+Process outbox (in interval) -> Put on queue -> ACK -> Delete from outbox
+Queue handler (in interval) -> POST request -> POST response -> Delete from queue
+
+Queue retries are for free.
+Queue failed deliveries are for free - the queue will not delete the message unless ACKed.
+
+Queue can deduplicate the message in a specified period of time.
+
+At least once delivery - deduplication, single-threaded outbox processing suggested.
+If a queue message handler receives an obvious error, the message can be routed directly to DLQ.
+DLQ should be taken care of manually.
+
+Suggested SQS queue config:
+- FIFO per message group
+- content based deduplication within 5 mins
+- visibility timeout 60s
+- max receive count 10 times
+- DLQ
+
+[0](https://www.youtube.com/watch?v=NWyiP1EGKcQ&list=WL&index=7)
+
+The opposite can be considered - inbox pattern.
+
+---

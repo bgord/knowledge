@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1499
+Total entries: 1500
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -175,6 +175,7 @@ Total entries: 1499
 - Dreyfus competence model
 - Kolb cycle
 - Expand/contract deployment strategy
+- Outbox pattern
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
