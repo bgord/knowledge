@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1500
+Total entries: 1501
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -1434,6 +1434,7 @@ Total entries: 1500
 - Empty object as a type
 - As const
 - Extract
+- Extract the type of the members of an array
 
 ### [vim](vim.md)
 - Replace last searched phrase with `bar`

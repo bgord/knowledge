@@ -1853,3 +1853,15 @@ type NotNull = Extract<PossibleValues, {}>;
 ```
 
 ---
+
+**Extract the type of the members of an array**
+
+```ts
+const roles = ["user", "admin", "superadmin"] as const;
+
+type RoleType = (typeof roles)[number];
+```
+
+[0](https://twitter.com/mattpocockuk/status/1744320298743108031)
+
+---
