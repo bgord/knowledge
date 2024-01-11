@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1502
+Total entries: 1504
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -177,6 +177,8 @@ Total entries: 1502
 - Expand/contract deployment strategy
 - Outbox pattern
 - Specification pattern
+- Saga design pattern
+- Process manager design pattern
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required

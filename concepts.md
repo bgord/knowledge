@@ -1455,3 +1455,134 @@ export interface ISpecification {
 [1](https://medium.com/c-sharp-progarmming/specification-design-pattern-c814649be0ef)
 
 ---
+
+**Saga design pattern**
+
+A design pattern helping to manage distributed transactions.
+
+A Saga is a sequence of local transactions coordinated to ensure a global outcome. It can be executed in two distinct ways.
+
+- Orchestration: Guided by a central orchestrator.
+
+```ts
+class OrderSaga {
+  start(orderId: string) {
+    try {
+      this.createOrder(orderId);
+      this.reserveStock(orderId);
+      this.processPayment(orderId);
+      this.shipOrder(orderId);
+      console.log("Order processed successfully");
+    } catch (error) {
+      this.compensateOrder(orderId, error);
+    }
+  }
+  // ... Rest of the methods
+}
+const saga = new OrderSaga();
+saga.start("12345");
+```
+
+- Choreography: Decentralized, with each transaction triggering the next.
+
+```ts
+import { EventEmitter } from "events";
+const sagaEvents = new EventEmitter();
+// Function definitions
+function createOrder(orderId: string) {
+  /*...*/
+}
+function reserveStock(orderId: string) {
+  /*...*/
+}
+function processPayment(orderId: string) {
+  /*...*/
+}
+function shipOrder(orderId: string) {
+  /*...*/
+}
+function compensateOrder(orderId: string) {
+  /*...*/
+}
+// Event handling
+sagaEvents.on("OrderCreated", reserveStock);
+sagaEvents.on("StockReserved", processPayment);
+sagaEvents.on("PaymentProcessed", shipOrder);
+sagaEvents.on("OrderFailed", compensateOrder);
+// Start the saga
+createOrder("12345");
+```
+
+Failure Handling: if a step falls, we need to compensate for all the previous steps by a compensating action.
+Complexity Management: utilize orchestration or tools like state machines.
+Idempotency: make operations idempotent to prevent repeated effects.
+
+```ts
+interface SagaStep {
+  execute(): Promise<void>;
+  compensate(): Promise<void>;
+}
+
+class SagaOrchestrator {
+  private steps: SagaStep[] = [];
+
+  addStep(step: SagaStep) {
+    this.steps.push(step);
+  }
+
+  async execute() {
+    for (const step of this.steps) {
+      try {
+        await step.execute();
+      } catch (error) {
+        await this.compensate();
+        throw error;
+      }
+    }
+  }
+
+  private async compensate() {
+    for (const step of this.steps.reverse()) {
+      await step.compensate();
+    }
+  }
+}
+
+class OrderCreationStep implements SagaStep {
+  async execute() {
+    // Logic for creating the order
+  }
+  async compensate() {
+    // Logic for rolling back the order creation
+  }
+}
+
+class PaymentProcessingStep implements SagaStep {
+  async execute() {
+    // Logic for processing the payment
+  }
+  async compensate() {
+    // Logic for refunding or canceling the payment
+  }
+}
+
+const saga = new SagaOrchestrator();
+
+saga.addStep(new OrderCreationStep());
+saga.addStep(new PaymentProcessingStep());
+
+saga
+  .execute()
+  .then(() => console.log("Saga executed successfully"))
+  .catch((error) => console.log(`Saga execution failed: ${error}`));
+```
+
+[0](https://kisztof.medium.com/the-saga-pattern-unleashed-a-deep-dive-into-distributed-transactions-with-typescript-f7ee55d53e2d)
+
+---
+
+**Process manager design pattern**
+
+A design pattern helping to manage distributed transactions.
+
+---
