@@ -1585,4 +1585,9 @@ saga
 
 A design pattern helping to manage distributed transactions.
 
+The difference between process manager and saga is that process manager has a state.
+Process manager can be modeled as a state machine.
+
+[0](https://event-driven.io/en/saga_process_manager_distributed_transactions/)
+
 ---
