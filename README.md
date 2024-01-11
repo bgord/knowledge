@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1501
+Total entries: 1502
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -176,6 +176,7 @@ Total entries: 1501
 - Kolb cycle
 - Expand/contract deployment strategy
 - Outbox pattern
+- Specification pattern
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required

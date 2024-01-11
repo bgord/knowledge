@@ -1420,6 +1420,7 @@ If a queue message handler receives an obvious error, the message can be routed 
 DLQ should be taken care of manually.
 
 Suggested SQS queue config:
+
 - FIFO per message group
 - content based deduplication within 5 mins
 - visibility timeout 60s
@@ -1429,5 +1430,28 @@ Suggested SQS queue config:
 [0](https://www.youtube.com/watch?v=NWyiP1EGKcQ&list=WL&index=7)
 
 The opposite can be considered - inbox pattern.
+
+---
+
+**Specification pattern**
+
+Is a design pattern that can be considered an extended and reusable if statement.
+May be combined with other specifications using bool logic.
+Has origin in DDD.
+Returns a boolean.
+
+```ts
+export interface ISpecification {
+  isSatisfiedBy(candidate: unknown): boolean;
+  and(other: ISpecification): ISpecification;
+  andNot(other: ISpecification): ISpecification;
+  or(other: ISpecification): ISpecification;
+  orNot(other: ISpecification): ISpecification;
+  not(): ISpecification;
+}
+```
+
+[0](https://en.wikipedia.org/wiki/Specification_pattern)
+[1](https://medium.com/c-sharp-progarmming/specification-design-pattern-c814649be0ef)
 
 ---
