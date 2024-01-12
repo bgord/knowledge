@@ -1591,3 +1591,13 @@ Process manager can be modeled as a state machine.
 [0](https://event-driven.io/en/saga_process_manager_distributed_transactions/)
 
 ---
+
+**Delivery guarantees in distributed systems**
+
+- At-most once - the simplest guarantee., with in-memory/in-process messaging, When we send a message and processing fails then the message will be lost and not handled. The advantage of this is that we do not have to deal with idempotence, but the downside is that we have no guarantee of message delivery.
+- At-least once - we are sure that sent message will always be delivered, not sure how many times it will be handled. We can achieve that by re-publishing messages on the producer’s side (e.g. with an outbox pattern) or re-handling on the consumer side (e.g. with an inbox pattern). The disadvantage is that the message can be handled several times. We have to defend ourselves through correct idempotency handling. If we don’t do that, we may end up with corrupted data (e.g. we will issue an invoice several times). For example, this can happen when the invoice was saved to the database, but operation timed out. If we retry processing without proper verification if such an invoice already exists, we may duplicate it.
+- Exactly-once - this semantic guarantee that sent a message will be handled exactly once. It is very difficult (sometimes even impossible) to achieve, as processing may fail on the multiple stages. If we want to have such guarantee then besides the retries we need to have correct idempotency support. We need to make sure that operation performed several times won’t cause side effects.
+
+[0](https://event-driven.io/en/outbox_inbox_patterns_and_delivery_guarantees_explained/)
+
+---
