@@ -2129,3 +2129,17 @@ $ caddy run
 [0](https://github.com/sharkdp/hyperfine)
 
 ---
+
+**GitHub Actions concurrency constraints**
+
+Alternatively, using a dynamic expression such as concurrency: ci-${{ github.ref }} in your workflow means that the workflow or job would be part of a concurrency group named ci- followed by the reference of the branch or tag that triggered the workflow. In this example, if a new commit is pushed to the main branch while a previous run is still in progress, the previous run will be cancelled and the new one will start:
+
+```yaml
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+```
+
+[0](https://docs.github.com/en/actions/using-jobs/using-concurrency)
+
+---

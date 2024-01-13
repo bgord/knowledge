@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1504
+Total entries: 1506
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -179,6 +179,7 @@ Total entries: 1504
 - Specification pattern
 - Saga design pattern
 - Process manager design pattern
+- Delivery guarantees in distributed systems
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
@@ -1324,6 +1325,7 @@ Total entries: 1504
 - Use https and local domain
 - Install imagemagick
 - Perform benchmarks
+- GitHub Actions concurrency constraints
 
 ### [typescript](typescript.md)
 - Standard JavaScript imports
