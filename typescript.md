@@ -1865,3 +1865,29 @@ type RoleType = (typeof roles)[number];
 [0](https://twitter.com/mattpocockuk/status/1744320298743108031)
 
 ---
+
+**Narrowing down the unknown type and retaining type information across array method call chain**
+
+```typescript
+type SourceItemType = { isoDate: string };
+
+export class SourceMetadataUpdater {
+  static map(items: unknown[]) {
+    const countValue = items
+      .filter(
+        (
+          item
+        ): item is SourceItemType => // typeguard so the information is persisted
+          typeof item === "object" &&
+          item !== null && // null is also an object
+          "isoDate" in item && // item.isoDate property check does not work
+          typeof item.isoDate === "string"
+      )
+      .map((item) => parseISO(item.isoDate).getTime()); // item type information is persisted
+
+    return { countValue, countStrategy: "total_last_month" };
+  }
+}
+```
+
+---
