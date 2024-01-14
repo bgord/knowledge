@@ -1601,3 +1601,68 @@ Process manager can be modeled as a state machine.
 [0](https://event-driven.io/en/outbox_inbox_patterns_and_delivery_guarantees_explained/)
 
 ---
+
+**JSON schema**
+
+Can be used to describe JSON properties in a generic way.
+TypeScript type to JSON schema tools, and validators exist.
+
+```json
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/product.schema.json",
+  "title": "Product",
+  "description": "A product from Acme's catalog",
+  "type": "object",
+  "properties": {
+    "productId": {
+      "description": "The unique identifier for a product",
+      "type": "integer"
+    },
+    "productName": {
+      "description": "Name of the product",
+      "type": "string"
+    },
+    "price": {
+      "description": "The price of the product",
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "tags": {
+      "description": "Tags for the product",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "dimensions": {
+      "type": "object",
+      "properties": {
+        "length": {
+          "type": "number"
+        },
+        "width": {
+          "type": "number"
+        },
+        "height": {
+          "type": "number"
+        }
+      },
+      "required": ["length", "width", "height"]
+    },
+    "warehouseLocation": {
+      "description": "Coordinates of the warehouse where the product is located.",
+      "$ref": "https://example.com/geographical-location.schema.json"
+    }
+  },
+  "required": ["productId", "productName", "price"]
+}
+```
+
+Can be used for config files.
+
+[0](https://json-schema.org/learn/getting-started-step-by-step)
+
+---
