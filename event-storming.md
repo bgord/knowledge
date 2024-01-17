@@ -147,6 +147,9 @@
 - "Co jeśli...?"
 - "Co się może zdarzyć pomiędzy eventami?"
 
+- "Co jest końcowym efektem?"
+- "Co jeszcze może mieć taki sam efekt?"
+
 ## Edukacja
 
 - książka Brandolini - "Introducing Event Storming" - https://www.eventstorming.com/book

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1508
+Total entries: 1510
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -181,6 +181,8 @@ Total entries: 1508
 - Process manager design pattern
 - Delivery guarantees in distributed systems
 - JSON schema
+- Availability pattern
+- Upstream/downstream
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required

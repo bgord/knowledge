@@ -1666,3 +1666,45 @@ Can be used for config files.
 [0](https://json-schema.org/learn/getting-started-step-by-step)
 
 ---
+
+**Availability pattern**
+
+Let's consider an e-scooter service.
+
+- an e-scooter may be already occupied
+- an e-scooter may be in the maintenance mode
+- an e-scooter may be remotely disabled
+
+Instead of performing many checks if a resource is in any of those modes in every method,
+we could create an e-scooter availability module that locks and unlocks the e-scooter's availability.
+The reason does not matter.
+
+We decouple other services using the e-scooter concept to perform some changes.
+
+Introducing availability improves:
+
+- testability
+- cognitive load (no need to visit many places to get to know if the e-scooter is available)
+- coupling
+- information hiding
+
+Events:
+
+RESOURCE_LOCKED
+RESOURCE_UNLOCKED
+
+Service:
+ResourceAvailability->take(id, until)
+ResourceAvailability->isTaken
+ResourceAvailability->release(id)
+
+[0](https://www.youtube.com/watch?v=qOYu5dk5H_A)
+
+---
+
+**Upstream/downstream**
+
+Given the example above, first we have the availability model look into the maintenance, demand, and reservation models.
+Now, we have the maintenance, demand, and reservation models look into the availability model.
+
+---
