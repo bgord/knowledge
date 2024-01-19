@@ -1708,3 +1708,39 @@ Given the example above, first we have the availability model look into the main
 Now, we have the maintenance, demand, and reservation models look into the availability model.
 
 ---
+
+**application/ld+json**
+
+JSON for Linked Data.
+
+Used for embedding JSON within an HTML document.
+Allows website owners to provide search engines with additional information about the content on their pages
+Information about a book using the schema.org vocabulary. Search engines can use this data to enhance search results related to the book, displaying additional details such as the book's name, author, publication date, ISBN, and more.
+
+```json
+{
+  "@context": "http://schema.org",
+  "@type": "Book",
+  "name": "Internat",
+  "isbn": "9788380498136",
+  "datePublished": "2019-02-20",
+  "genre": "https://lubimyczytac.pl/ksiazki/k/39/literatura-piekna",
+  "inLanguage": "polski",
+  "numberOfPages": "288",
+  "image": "https://s.lubimyczytac.pl/upload/books/4871000/4871173/721964-352x500.jpg",
+  "author": {
+    "@type": "Person",
+    "name": "Serhij \u017hadan",
+    "url": "https:\/\/lubimyczytac.pl\/autor\/23970\/serhij-zadan"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "worstRating": 1,
+    "bestRating": 10,
+    "ratingValue": "7,5",
+    "ratingCount": 904
+  }
+}
+```
+
+---
