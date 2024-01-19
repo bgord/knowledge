@@ -1744,3 +1744,40 @@ Information about a book using the schema.org vocabulary. Search engines can use
 ```
 
 ---
+
+**Standard deviation population vs sample**
+
+Population Standard Deviation (σ):
+
+- Used when you have data for the entire population.
+- Gives a measure of how spread out the values are in the entire group.
+- Calculated using a formula that divides by the total number of data points in the population.
+
+Sample Standard Deviation (s):
+
+- Used when you have data for only a part (sample) of the population.
+- Also measures the spread of values but includes a correction for estimating the population standard deviation from a sample.
+- Calculated using a similar formula but divides by the number of data points minus one (degrees of freedom).
+
+---
+
+**Early server hints**
+
+103 HTTP status code that is returned ahead of a final response that indicates what resources will be preloaded.
+Helps the browser take advantage of such "server think-time" by doing some work in advance, thereby speeding up page loads.
+
+[0](https://developer.chrome.com/docs/web-platform/early-hints)
+
+---
+
+**Canon TDD**
+
+- Write a list of the test scenarios you want to cover
+- Turn exactly one item on the list into an actual, concrete, runnable test
+- Change the code to make the test (& all previous tests) pass (adding items to the list as you discover them)
+- Optionally refactor to improve the implementation design
+- Until the list is empty, go back to #2
+
+[0](https://tidyfirst.substack.com/p/canon-tdd)
+
+---

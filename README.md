@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1511
+Total entries: 1514
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -184,6 +184,9 @@ Total entries: 1511
 - Availability pattern
 - Upstream/downstream
 - application/ld+json
+- Standard deviation population vs sample
+- Early server hints
+- Canon TDD
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
