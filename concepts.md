@@ -1788,3 +1788,11 @@ A conceptual framework developed by Mark Burgess that provides a way of understa
 It is often applied in the field of computer science, particularly in the design and management of computer networks and systems. Here's a short overview:
 
 ---
+
+**OSI Model**
+
+The OSI (Open Systems Interconnection) model is a conceptual framework that standardizes the functions of a telecommunication or computing system into seven abstraction layers.
+Each layer serves a specific purpose and facilitates interoperability between different systems.
+The layers, from the lowest to the highest, are Physical, Data Link, Network, Transport, Session, Presentation, and Application.
+
+---

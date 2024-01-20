@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1515
+Total entries: 1516
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -188,6 +188,7 @@ Total entries: 1515
 - Early server hints
 - Canon TDD
 - Promise theory
+- OSI Model
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
