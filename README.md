@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1514
+Total entries: 1515
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -187,6 +187,7 @@ Total entries: 1514
 - Standard deviation population vs sample
 - Early server hints
 - Canon TDD
+- Promise theory
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required

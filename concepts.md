@@ -1781,3 +1781,10 @@ Helps the browser take advantage of such "server think-time" by doing some work 
 [0](https://tidyfirst.substack.com/p/canon-tdd)
 
 ---
+
+**Promise theory**
+
+A conceptual framework developed by Mark Burgess that provides a way of understanding and modeling interactions in systems, especially distributed and decentralized systems.
+It is often applied in the field of computer science, particularly in the design and management of computer networks and systems. Here's a short overview:
+
+---
