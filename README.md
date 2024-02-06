@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1516
+Total entries: 1517
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -78,6 +78,7 @@ Total entries: 1516
 - Read variable from stdin with text prompt
 - Send both stdin and stderr to /dev/null shorter syntax
 - Explore bash history
+- Trap error
 
 ### [concepts](concepts.md)
 - How to correctly namespace things?

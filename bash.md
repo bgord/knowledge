@@ -610,3 +610,16 @@ history | awk '{$1=""}1' | sort | uniq -c | sort -nr > explore_history_output
 ```
 
 ---
+
+**Trap error**
+
+```
+trap 'catch $? $LINENO' ERR
+
+catch() {
+  echo "Error occurred on $2 with status code $1"
+  exit 1
+}
+```
+
+---
