@@ -1796,3 +1796,16 @@ Each layer serves a specific purpose and facilitates interoperability between di
 The layers, from the lowest to the highest, are Physical, Data Link, Network, Transport, Session, Presentation, and Application.
 
 ---
+
+**Party/role design pattern**
+
+Three components
+
+- Party - an entity that can take on different roles or participate in various relationships within a system (individuals, organizations, or even abstract entities like departments or teams)
+- Party Role - specific function or responsibility that a party can undertake within a given context (patient, doctor, nurse, pharmacist)
+- Party Relationship - describes the connections or associations between parties within the system (doctor treating a patient, manager supervising an employee, organization partnering with another organization)
+
+It can be used to flatten relationships to avoid a recursive, tree-like structure.
+Particularly useful in domains where entities interact with each other in complex ways and where flexibility and extensibility are important.
+
+---

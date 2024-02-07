@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1517
+Total entries: 1518
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -190,6 +190,7 @@ Total entries: 1517
 - Canon TDD
 - Promise theory
 - OSI Model
+- Party/role design pattern
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
