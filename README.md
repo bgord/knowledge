@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1519
+Total entries: 1520
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -192,6 +192,7 @@ Total entries: 1519
 - OSI Model
 - Party/role design pattern
 - HTTP 2 push
+- Single responsibility principle
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required

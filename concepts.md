@@ -1817,3 +1817,99 @@ Works only on HTTPS.
 Pushes URLs from the HTML being returned to be fetched earlier by the client.
 
 ---
+
+**Single responsibility principle**
+
+Definition
+
+A module should be responsible to one, and only one, actor.
+
+The term actor refers to a group (consisting of one or more stakeholders or users) that requires a change in the module.
+While they might be the same person, the role of an accountant is different from a database administrator.
+Hence, each module should be responsible for each role.
+Responsibility is a reason to change, a class or module should have only one.
+
+A class should have only one reason to change
+
+Gather together the things that change for the same reasons. Separate those things that change for different reasons.
+
+Example
+
+Consider a module that compiles and prints a report.
+Imagine such a module can be changed for two reasons.
+First, the content of the report could change (what is being displayed).
+Second, the format of the report could change (how it is being displayed).
+These two things change for different causes.
+The single responsibility principle says that these two aspects of the problem are really two separate responsibilities, and should, therefore, be in separate classes or modules.
+It would be a bad design to couple two things that change for different reasons at different times.
+
+The reason it is important to keep a class focused on a single concern is that it makes the class more robust.
+Continuing with the foregoing example, if there is a change to the report compilation process, there is a greater danger that the printing code will break if it is part of the same class.
+
+1
+
+SOLID Principles Series: Understanding the Single Responsibility Principle (SRP) in Node.js with TypeScript
+
+a class should have only one reason to change
+
+a class should have a single responsibility or job and should not be responsible for more than one piece of functionality
+
+instead of FileManager with read/write/compress/encrypt methods, introduce FileReader#read, FileWriter#write, FileCompressor#compress, FileEncryptor#encrypt
+
+if any of these responsibilities change, only the relevant class needs modification, reducing the risk of introducing errors and making our code more maintainable
+
+2
+
+Applying SOLID principles to TypeScript - LogRocket Blog
+
+a class should be responsible for only one activity and only have one cause to change
+
+this rule also includes modules and functions
+
+Student class with createStudentAccount/calculateStudentGrade/generateStudentData methods violates it
+
+the idea of responsibility is a reason to change
+
+possible reasons to change
+
+createStudentAccount computation logic changes
+
+logic for calculating student grades changes
+
+format of generating and reporting student data changes
+
+in result the class should be split into three classes
+
+3
+
+Clean Coder Blog
+
+modules should be separated based, at lease in part, on the way that they might change
+
+each software module should have one and only one reason to change
+
+this principle is about people
+
+when changes to a module are requested, those changes can only originate from a single person or group
+
+isolate your modules from the complexities of the organization as a whole
+
+we don’t want to get the COO fired because we made a change requested by the CTO
+
+another way to define cohesion and coupling
+
+we want to increase the cohesion between things that change for the same reasons, and we want to decrease the coupling between those things that change for different reasons
+
+hide difficult design decisions or design decisions which are likely to change
+
+4
+
+Applying SOLID principles to your TypeScript code
+
+a class should only be responsible for a single functionality
+
+another split multiple a class with methods into multiple classess
+
+bugfix/refactoring is not a reason to change in terms of the single responsibility principle
+
+---
