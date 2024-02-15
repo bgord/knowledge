@@ -1809,3 +1809,11 @@ It can be used to flatten relationships to avoid a recursive, tree-like structur
 Particularly useful in domains where entities interact with each other in complex ways and where flexibility and extensibility are important.
 
 ---
+
+**HTTP 2 push**
+
+Works only on HTTPS.
+
+Pushes URLs from the HTML being returned to be fetched earlier by the client.
+
+---

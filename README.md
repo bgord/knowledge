@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1518
+Total entries: 1519
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -191,6 +191,7 @@ Total entries: 1518
 - Promise theory
 - OSI Model
 - Party/role design pattern
+- HTTP 2 push
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
