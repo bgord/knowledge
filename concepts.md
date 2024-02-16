@@ -1913,3 +1913,16 @@ another split multiple a class with methods into multiple classess
 bugfix/refactoring is not a reason to change in terms of the single responsibility principle
 
 ---
+
+**Primitive obsession**
+
+When you use a primitive for a concept in your domain, you are saying that concept can be represented by any value that type can support.
+Using strings to represent an email address?
+Strings can be empty.
+
+Using an integer to represent number of likes?
+Integers can be negative.
+
+Primitive Obsession isn't necessarily about code only using primitive types - it's when the valid values from your domain are fundamentally different from what the primitive type considers valid.
+
+---
