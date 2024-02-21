@@ -1926,3 +1926,34 @@ Integers can be negative.
 Primitive Obsession isn't necessarily about code only using primitive types - it's when the valid values from your domain are fundamentally different from what the primitive type considers valid.
 
 ---
+
+**Developer productivity metrics**
+
+Lead time for changes
+- duration from the moment a developer commits a change to the point it gets deployed in a production
+
+Change Failure Rate
+- The percentage of deployed changes that fail, requiring a subsequent fix or rollback.
+
+Change Failure Rate
+- The percentage of deployed changes that fail, requiring a subsequent fix or rollback.
+
+Deployment Frequency
+- The number of times a team deploys code to production within a given time frame
+
+Time to Restore Service
+- The duration required to recover from a service outage or a critical incident and restore the application to its normal operating condition.
+
+Mean Time to Recover
+- The average time it takes to restore a system or application to its normal function after experiencing a failure or outage.
+
+Cycle Time
+- The duration from the moment work begins to when it’s completed and delivered.
+
+Uptime
+- Duration a system or application is operational and available to users without any downtime or interruptions.
+
+Developer Velocity
+- Rate at which a team completes work within a specific timeframe, typically during a sprint in Agile methodologies.
+
+---
