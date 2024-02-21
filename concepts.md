@@ -1956,4 +1956,6 @@ Uptime
 Developer Velocity
 - Rate at which a team completes work within a specific timeframe, typically during a sprint in Agile methodologies.
 
+[0](https://faun.pub/key-metrics-for-tracking-developer-productivity-what-to-measure-how-and-why-f2d2012ca2d2)
+
 ---
