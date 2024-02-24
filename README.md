@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1520
+Total entries: 1521
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -298,6 +298,7 @@ Total entries: 1520
 - max()
 - :has()
 - Disable pull to refresh on mobile
+- text-wrap ballance and pretty
 
 ### [cypress](cypress.md)
 - Assert document.title

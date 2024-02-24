@@ -1219,3 +1219,27 @@ html, body {
 ```
 
 ---
+
+**text-wrap ballance and pretty**
+
+Balance:
+
+- applies to less than 6 lines
+
+```css
+// from this
+A long text with only one word in the second
+line.
+
+// to this
+A long text with two
+balanced lines.
+```
+
+Pretty:
+
+- applies to all blocks on text
+- makes sure the last couple of lines are balanced
+- no orphans in the last line
+
+---
