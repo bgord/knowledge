@@ -151,3 +151,10 @@ I'll see you later on.
 In general they're mostly interchangeable.
 
 ---
+
+**who vs whom**
+
+Kate was playing the guitar. Who was playing the guitar? She was.
+I was Kate at the party. Whom did you see at the party? I saw her.
+
+---

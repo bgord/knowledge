@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1521
+Total entries: 1524
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -193,6 +193,8 @@ Total entries: 1521
 - Party/role design pattern
 - HTTP 2 push
 - Single responsibility principle
+- Primitive obsession
+- Developer productivity metrics
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
@@ -424,6 +426,7 @@ Total entries: 1521
 - tiny vs small
 - I plan to vs I'm planning to
 - later vs later on
+- who vs whom
 
 ### [flutter](flutter.md)
 - New flutter app
