@@ -1959,3 +1959,11 @@ Developer Velocity
 [0](https://faun.pub/key-metrics-for-tracking-developer-productivity-what-to-measure-how-and-why-f2d2012ca2d2)
 
 ---
+
+**Backend for frontend**
+
+Create a separate BFF that connects to a central service/microservices for each client (browser/Android/iOS).
+
+[0](https://blog.frankel.ch/backend-for-frontend/)
+
+---
