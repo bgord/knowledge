@@ -149,6 +149,13 @@
 
 - "Co jest końcowym efektem?"
 - "Co jeszcze może mieć taki sam efekt?"
+- "Dlaczego to zdarzenie wystąpiło?"
+- "Jak to zdarzenie zmienia stan systemu?"
+- "Co się może zdarzyć pomiędzy tym zdarzeniem, a zdarzeniem poprzednim?"
+- "Co następuje po tym zdarzeniu?"
+- "Czy to zdarzenie może nie wystąpić? Co wtedy?"
+- "Są jakieś wyjątkowe sytuacje wokół tego zdarzenia?"
+- "Czy to zdarzenie może być podzielone na mniejsze, bardziej specyficzne zdarzenia?"
 
 ## Edukacja
 
