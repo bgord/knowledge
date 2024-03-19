@@ -180,3 +180,5 @@
   - repository
   - factory
   - module
+
+[0](https://softwaremill.com/big-picture-event-storming-finding-the-gaps/)
