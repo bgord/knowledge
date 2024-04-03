@@ -1243,3 +1243,11 @@ Pretty:
 - no orphans in the last line
 
 ---
+
+**accent color**
+
+Accent color is used in checkbox, range, and radio inputs to style the previously unstylable elements.
+
+[0](https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color)
+
+---
