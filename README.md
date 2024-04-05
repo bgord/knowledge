@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1524
+Total entries: 1527
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -195,6 +195,7 @@ Total entries: 1524
 - Single responsibility principle
 - Primitive obsession
 - Developer productivity metrics
+- Backend for frontend
 
 ### [css](css.md)
 - Remove the red border of an empty input value that's required
@@ -301,6 +302,8 @@ Total entries: 1524
 - :has()
 - Disable pull to refresh on mobile
 - text-wrap ballance and pretty
+- accent color
+- File input styling
 
 ### [cypress](cypress.md)
 - Assert document.title

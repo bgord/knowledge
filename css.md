@@ -1251,3 +1251,14 @@ Accent color is used in checkbox, range, and radio inputs to style the previousl
 [0](https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color)
 
 ---
+
+**File input styling**
+
+```css
+::file-selector-button {
+}
+```
+
+[0](https://developer.mozilla.org/en-US/docs/Web/CSS/::file-selector-button)
+
+---
