@@ -618,3 +618,11 @@ Options:
 [0](https://developer.mozilla.org/en-US/docs/Web/Text_fragments)
 
 ---
+
+**Spellcheck a field or form**
+
+```
+<input type="text" spellcheck />
+```
+
+---

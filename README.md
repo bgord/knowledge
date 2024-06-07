@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1527
+Total entries: 1528
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -634,6 +634,7 @@ Total entries: 1527
 - Avoid zoom-in on inputs
 - Autocompletes
 - Link to a specific text on a page
+- Spellcheck a field or form
 
 ### [js](js.md)
 - RegExp for digits
