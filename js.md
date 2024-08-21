@@ -2807,3 +2807,9 @@ console.log(a.title);
 ```
 
 ---
+
+**Single-file executables**
+
+[0](https://nodejs.org/api/single-executable-applications.html)
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1528
+Total entries: 1529
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -833,6 +833,7 @@ Total entries: 1528
 - Logical AND assignment
 - Logical OR assignment
 - All promises were rejected
+- Single-file executables
 
 ### [mysql](mysql.md)
 - Show all tables
