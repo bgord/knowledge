@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1529
+Total entries: 1530
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -304,6 +304,7 @@ Total entries: 1529
 - text-wrap ballance and pretty
 - accent color
 - File input styling
+- blend-mode
 
 ### [cypress](cypress.md)
 - Assert document.title

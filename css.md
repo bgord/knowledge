@@ -1262,3 +1262,11 @@ Accent color is used in checkbox, range, and radio inputs to style the previousl
 [0](https://developer.mozilla.org/en-US/docs/Web/CSS/::file-selector-button)
 
 ---
+
+**blend-mode**
+
+Describes how colors should appear when elements overlap.
+
+[0](https://developer.mozilla.org/en-US/docs/Web/CSS/blend-mode)
+
+---
