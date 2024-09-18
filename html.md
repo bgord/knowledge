@@ -626,3 +626,11 @@ Options:
 ```
 
 ---
+
+**inert attribute**
+
+Disables whole subtree.
+
+[0](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inert)
+
+---
