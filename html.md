@@ -653,3 +653,15 @@ Disables whole subtree.
 ```
 
 ---
+
+**mediacapture**
+
+Allows to take a photo in place of a file.
+
+```html
+<label for="selfie">Take a picture of your face:</label>
+
+<input type="file" id="selfie" name="selfie" accept="image/*" capture="user" />
+```
+
+---
