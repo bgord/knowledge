@@ -634,3 +634,22 @@ Disables whole subtree.
 [0](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inert)
 
 ---
+
+**search element**
+
+`<search>` element semantically identifies the purpose of the element's contents as having search or filtering capabilities.
+
+```html
+<header>
+  <h1>Movie website</h1>
+  <search>
+    <form action="./search/">
+      <label for="movie">Find a Movie</label>
+      <input type="search" id="movie" name="q" />
+      <button type="submit">Search</button>
+    </form>
+  </search>
+</header>
+```
+
+---

@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1531
+Total entries: 1532
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -637,6 +637,7 @@ Total entries: 1531
 - Link to a specific text on a page
 - Spellcheck a field or form
 - inert attribute
+- search element
 
 ### [js](js.md)
 - RegExp for digits
