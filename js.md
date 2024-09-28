@@ -2813,3 +2813,27 @@ console.log(a.title);
 [0](https://nodejs.org/api/single-executable-applications.html)
 
 ---
+
+**Create a Node.js response stream**
+
+```ts
+import stream from "node:stream";
+
+const content = new stream.Readable({
+  async read() {
+    for (const journal of journals) {
+      const date = datefns.format(journal.date.raw, "yyyy-MM-dd");
+
+      this.push(
+        `${date} - ${journal.emotion}\n${journal.situation}\n${journal.reaction}\n\n`
+      );
+    }
+
+    this.push(null);
+  },
+});
+
+return content.pipe(response);
+```
+
+---

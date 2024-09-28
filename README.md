@@ -1,6 +1,6 @@
 # Knowledge
 
-Total entries: 1533
+Total entries: 1534
 
 ### [algorithms-and-data-structures](algorithms-and-data-structures.md)
 - Binary search
@@ -838,6 +838,7 @@ Total entries: 1533
 - Logical OR assignment
 - All promises were rejected
 - Single-file executables
+- Create a Node.js response stream
 
 ### [mysql](mysql.md)
 - Show all tables
